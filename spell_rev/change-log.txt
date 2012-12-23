@@ -1,0 +1,17 @@
+
+V3.1 - Hotfix 01 (July 16th 2012)
+- MSI's hobgoblins were not flagged as summons
+- Improved Haste cannot be "canceled" by Haste anymore
+- Black Blade of Disaster had an unused EFF file causing a crash if ToBEx is installed
+- Summoned demons and Death Knights script fixes
+- minor "-1" thac0 correction for all summoned celestials to match descriptions
+
+
+TO DO:
+- ...
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+DEFINE_PATCH_FUNCTION ~ADD_CRE_IMMUNITY_TO_SPELL~
+  INT_VAR
+    mi_strref = 0 // string to display when hit by the spell
+  STR_VAR
+    mi_spell = ~~ // spell to make creature immune to
+  RET
+    mi_success
+BEGIN
+  PATCH_IF (STRING_LENGTH ~%mi_spell%~ > 8 || STRING_LENGTH ~%mi_spell%~ < 1 || mi_strref < 0) BEGIN
+    SET mi_success = 0 // fail
+  END ELSE BEGIN // continue
+    SET mi_success = 1
+    
+    READ_LONG 0x2c8 num_effects
+    PATCH_IF (num_effects == 0) BEGIN
+      SET eff_version = 1
+      WRITE_BYTE 0x33 eff_version
+    END
+    
+    READ_BYTE 0x33  eff_version
+    PATCH_IF (eff_version != 0) BEGIN // v2 only
+      SET opcode = 206 // protection from spell?
+      SET timing = 9 // instant/permanent
+      SET target = 1 // self
+      SET parameter1 = mi_strref // strref for string to display when hit with spell
+      SET parameter2 = 0
+      SET parameter3 = 0
+      SET parameter4 = 0
+      SET power = 0
+      SET resist_dispel = 0
+      SET duration = 0
+      SET probability1 = 100
+      SET probability2 = 0
+      SPRINT resource ~%mi_spell%~
+      SPRINT resource2 ~~
+      SPRINT vvcresource ~~
+      SPRINT effsource ~~
+      SPRINT effvar ~~
+      SET dicenumber = 0
+      SET dicesize = 0
+      SET savingthrow = 0
+      SET savebonus = 0
+      SET school = 0
+      SET lowestafflvl = 0
+      SET highestafflvl = 0
+      SET casterx = 0
+      SET castery = 0
+      SET targetx = 0
+      SET targety = 0
+      SET casterlvl = 0
+      SET sectype = 0
+      LAUNCH_PATCH_MACRO ~ADD_CRE_EFFECT~
+    END ELSE BEGIN
+      LAUNCH_PATCH_FUNCTION ~ADD_CRE_EFFECT_V1~
+        INT_VAR mi_opcode = 206 mi_timing_mode = 0 mi_target = 1 mi_param1 = 0
+        STR_VAR mi_resource = ~%mi_spell%~
+      END
+    END
+  END
+END
+
+DEFINE_PATCH_FUNCTION ~ADD_CRE_EFFECT_V1~
+  INT_VAR
+    mi_opcode = 71
+    mi_target = 1
+    mi_power = 0
+    mi_param1 = 0
+    mi_param2 = 0
+    mi_timing_mode = 2
+    mi_resistance = 0
+    mi_duration = 0
+    mi_prob1 = 100
+    mi_prob2 = 0
+    mi_num_dice = 0
+    mi_dice_sides = 0
+    mi_saving_throw = 0
+    mi_saving_throw_bonus = 0
+  STR_VAR
+    mi_resource = ~~
+BEGIN
+  READ_LONG 0x2a0 known_spells_off
+  READ_LONG 0x2a8 spell_memorisation_info_off
+  READ_LONG 0x2b0 memorised_spells_off
+  READ_LONG 0x2b8 item_slots_off
+  READ_LONG 0x2bc items_off
+  READ_LONG 0x2c4 effects_off
+  READ_LONG 0x2c8 num_effects
+  
+  // add effect
+  INSERT_BYTES  effects_off 0x30
+  WRITE_SHORT  (effects_off       ) mi_opcode
+  WRITE_BYTE   (effects_off + 0x02) mi_target
+  WRITE_BYTE   (effects_off + 0x03) mi_power
+  WRITE_LONG   (effects_off + 0x04) mi_param1
+  WRITE_LONG   (effects_off + 0x08) mi_param2
+  WRITE_BYTE   (effects_off + 0x0c) mi_timing_mode
+  WRITE_BYTE   (effects_off + 0x0d) mi_resistance
+  WRITE_LONG   (effects_off + 0x0e) mi_duration
+  WRITE_BYTE   (effects_off + 0x12) mi_prob1
+  WRITE_BYTE   (effects_off + 0x13) mi_prob2
+  WRITE_ASCIIE (effects_off + 0x14) ~%mi_resource%~ #8
+  WRITE_LONG   (effects_off + 0x1c) mi_num_dice
+  WRITE_LONG   (effects_off + 0x20) mi_dice_sides
+  WRITE_LONG   (effects_off + 0x24) mi_saving_throw
+  WRITE_LONG   (effects_off + 0x28) mi_saving_throw_bonus
+  
+  // clean up
+  // fix offsets
+  PATCH_IF (known_spells_off > effects_off) BEGIN
+    SET known_spells_off += 0x30
+    WRITE_LONG 0x2a0 known_spells_off
+  END
+  PATCH_IF (spell_memorisation_info_off > effects_off) BEGIN
+    SET spell_memorisation_info_off += 0x30
+    WRITE_LONG 0x2a8 spell_memorisation_info_off
+  END
+  PATCH_IF (memorised_spells_off > effects_off) BEGIN
+    SET memorised_spells_off += 0x30
+    WRITE_LONG 0x2b0 memorised_spells_off
+  END
+  PATCH_IF (item_slots_off >= effects_off) BEGIN
+    SET item_slots_off += 0x30
+    WRITE_LONG 0x2b8 item_slots_off
+  END
+  PATCH_IF (items_off >= effects_off) BEGIN
+    SET items_off += 0x30
+    WRITE_LONG 0x2bc items_off
+  END
+  
+  // fix number of effects
+  SET num_effects += 1
+  WRITE_SHORT 0x2c8 num_effects
+END

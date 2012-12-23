@@ -1,0 +1,15 @@
+*.7z
+*.rar
+*.zip
+*.debug
+*.log
+*.exe
+!TobExLoader.exe
+setup-spell_rev
+setup-spell_rev.command
+spell_rev/debug/*
+!spell_rev/debug/debug.txt
+spell_rev/backup/*
+!spell_rev/backup/g3.ico
+!spell_rev/backup/g3_sfx.ico
+!spell_rev/backup/g3readme.css

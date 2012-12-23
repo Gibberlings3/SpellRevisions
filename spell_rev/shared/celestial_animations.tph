@@ -1,0 +1,74 @@
+DEFINE_PATCH_FUNCTION ~CELESTIAL_ANIMATIONS~
+  INT_VAR
+    animation = 1072
+    metal_colour = 1072
+    minor_colour = 1072
+    major_colour = 1072
+    skin_colour = 1072
+    leather_colour = 1072
+    armor_colour = 1072
+    hair_colour = 1072
+    battle_cry1_strref = (0 - 1)
+    battle_cry2_strref = (0 - 1)
+    damage_strref = (0 - 1)
+    dying_strref = (0 - 1)
+    hurt_strref = (0 - 1)
+    select_common1_strref = (0 - 1)
+    select_common2_strref = (0 - 1)
+    select_common3_strref = (0 - 1)
+  STR_VAR
+    armour = ~~
+BEGIN
+  PATCH_IF (animation != 1072) BEGIN
+    WRITE_SHORT 0x28 animation
+  END
+  PATCH_IF (metal_colour != 1072) BEGIN
+    WRITE_BYTE  0x2c metal_colour
+  END
+  PATCH_IF (minor_colour != 1072) BEGIN
+    WRITE_BYTE  0x2d minor_colour
+  END
+  PATCH_IF (major_colour != 1072) BEGIN
+    WRITE_BYTE  0x2e major_colour
+  END
+  PATCH_IF (skin_colour != 1072) BEGIN
+    WRITE_BYTE  0x2f skin_colour
+  END
+  PATCH_IF (leather_colour != 1072) BEGIN
+    WRITE_BYTE  0x30 leather_colour
+  END
+  PATCH_IF (armor_colour != 1072) BEGIN
+    WRITE_BYTE  0x31 armor_colour
+  END
+  PATCH_IF (hair_colour != 1072) BEGIN
+    WRITE_BYTE  0x32 hair_colour
+  END
+  PATCH_IF (battle_cry1_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0xc8 battle_cry1_strref
+  END
+  PATCH_IF (battle_cry2_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0xcc battle_cry2_strref
+  END
+  PATCH_IF (damage_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0xec damage_strref
+  END
+  PATCH_IF (dying_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0xf0 dying_strref
+  END
+  PATCH_IF (hurt_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0xf4 hurt_strref
+  END
+  PATCH_IF (select_common1_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0x10c select_common1_strref
+  END
+  PATCH_IF (select_common2_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0x110 select_common2_strref
+  END
+  PATCH_IF (select_common3_strref != (0 - 1)) BEGIN
+    WRITE_LONG  0x114 select_common3_strref
+  END
+  REPLACE_CRE_ITEM ~dvwings~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  PATCH_IF (STRING_LENGTH ~%armour%~ > 0) BEGIN
+    REPLACE_CRE_ITEM ~%armour%~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  END
+END

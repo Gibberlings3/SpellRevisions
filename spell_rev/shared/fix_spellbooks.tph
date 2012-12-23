@@ -1,0 +1,274 @@
+RANDOM_SEED 42
+
+OUTER_FOR (level = 1; level <= 7; level += 1) BEGIN
+  OUTER_SET $spell(~all~ ~%level%~ ~length~) = 0
+  OUTER_SET $spell(~cleric~ ~%level%~ ~length~) = 0
+  OUTER_SET $spell(~druid~ ~%level%~ ~length~) = 0
+  OUTER_SET $spell(~bogus~ ~%level%~ ~length~) = 0
+END
+
+COPY_EXISTING_REGEXP GLOB ~^SPPR[1-7]\(0[1-9]\|[1-4][0-9]\|50\)\.spl$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    READ_SHORT 0x1c spell_type
+    PATCH_IF (spell_type == 2) BEGIN // divine, just to be sure
+      READ_SHORT 0x20 priest_type
+      READ_SHORT 0x1e exclusion_flags
+      READ_LONG  0x34 level
+      TO_UPPER SOURCE_RES
+      PATCH_IF (priest_type == 0x0000) BEGIN // all priests
+        SPRINT type ~all~
+      END
+      ELSE PATCH_IF (priest_type == 0x4000) BEGIN // druid/ranger
+        SPRINT type ~druid~
+      END
+      ELSE PATCH_IF (priest_type == 0x8000) BEGIN // cleric/paladin
+        SPRINT type ~cleric~
+      END
+      ELSE BEGIN // no priests
+        SPRINT type ~bogus~
+      END
+      PATCH_IF (level > 0 && level <= 7) BEGIN
+        SET index = $spell(~%type%~ ~%level%~ ~length~)
+        SPRINT $spell(~%type%~ ~%level%~ ~%index%~) ~%SOURCE_RES%~
+        SET $spell(~%type%~ ~%level%~ ~length~) += 1
+        SET $spell(~%type%~ ~%SOURCE_RES%~) = 1
+        SET $spell(~%SOURCE_RES%~ ~excl~) = (exclusion_flags BAND 0b111111) // store just the alignment bits
+        SET $spell(~%SOURCE_RES%~ ~level~) = level
+      END
+    END
+  END
+  BUT_ONLY
+
+// replaces currently memorised spells with an alternative and removes those spells from the spellbook
+DEFINE_PATCH_FUNCTION ~SWAP_BAD_MEMORISED_SPELLS~
+ // INT_VAR
+ //   alignment = 0b000000 // bitfield organised as per the .spl alignment restrictions field
+ //   spell_type = 0 // 1 = cleric, 2 = druid, 3 = both
+BEGIN
+  READ_LONG 0x2b0 memorised_off
+  READ_LONG 0x2b4 num_memorised
+  FOR (i = 0; i < num_memorised; i += 1) BEGIN
+    READ_ASCII (memorised_off + 0x0c*i) spell
+    TO_UPPER spell
+    PATCH_IF ((VARIABLE_IS_SET $spell(~bogus~ ~%spell%~)) ||
+              (VARIABLE_IS_SET $spell(~cleric~ ~%spell%~) && spell_type == 2) ||
+              (VARIABLE_IS_SET $spell(~druid~ ~%spell%~) && spell_type == 1)) BEGIN // spell the class shouldn't have
+      SET level = $spell(~%spell%~ ~level~)
+      SET all_length = $spell(~all~ ~%level%~ ~length~)
+      SET cleric_length = $spell(~cleric~ ~%level%~ ~length~)
+      SET druid_length = $spell(~druid~ ~%level%~ ~length~)
+      PATCH_IF (spell_type == 1) BEGIN // casts cleric spells
+        SET druid_length = 0 // make sure no druid-only spells can be randomly chosen
+      END
+      ELSE PATCH_IF (spell_type == 2) BEGIN // casts druid spells
+        SET cleric_length = 0 // make sure no cleric-only spells can be randomly chosen
+      END
+      
+      SET give_up_countdown = 5 // try 5 times to get a valid spell, then give up
+      SET done = 0
+      WHILE (done != 1 && give_up_countdown > 0) BEGIN
+        SET result = RANDOM (1 (all_length + cleric_length + druid_length))
+        PATCH_IF (result == 0) BEGIN // no valid spells to choose from at this level
+          REMOVE_MEMORIZED_SPELL ~%spell%~
+        END
+        ELSE BEGIN
+          SET result -= 1
+          PATCH_IF (result < all_length) BEGIN // random result falls into spells available for both clerics and druids
+            SPRINT new_spell $spell(~all~ ~%level%~ ~%result%~)
+          END
+          ELSE PATCH_IF (result < (all_length + cleric_length)) BEGIN // random result falls into spells available for clerics
+            SET result -= all_length
+            SPRINT new_spell $spell(~cleric~ ~%level%~ ~%result%~)
+          END
+          ELSE PATCH_IF (result < (all_length + cleric_length + druid_length)) BEGIN // random result falls into spells available for druids
+            SET result -= (all_length + cleric_length)
+            SPRINT new_spell $spell(~druid~ ~%level%~ ~%result%~)
+          END
+          SET exclusion = $spell(~%new_spell%~ ~excl~)
+          PATCH_IF ((exclusion BAND alignment) == 0) BEGIN // usable by priests of this alignment
+            WRITE_ASCIIE (memorised_off + 0x0c*i) ~%new_spell%~ #8
+            SET done = 1
+          END
+          ELSE BEGIN
+            SET give_up_countdown -= 1 // decrement countdown and try once more to find a valid spell
+          END
+        END
+      END
+    END
+  END
+END
+
+DEFINE_PATCH_MACRO ~REMOVE_SPELLS_OF_TYPE~ BEGIN
+  FOR (level = 1; level <= 7; level += 1) BEGIN
+    SET length = $spell(~%type%~ ~%level%~ ~length~)
+    FOR (i = 0; i < length; i += 1) BEGIN
+      SPRINT spell $spell(~%type%~ ~%level%~ ~%i%~)
+      REMOVE_KNOWN_SPELL ~%spell%~
+    END
+  END
+END
+
+// removes all spells that the class shouldn't have access to anymore
+DEFINE_PATCH_FUNCTION ~REMOVE_BAD_KNOWN_SPELLS~
+ // INT_VAR spell_type = 0 // 1 = cleric, 2 = druid, 3 = both
+BEGIN
+  PATCH_IF (spell_type == 1) BEGIN // remove druid spells from clerics
+    SPRINT type ~druid~
+    LAUNCH_PATCH_MACRO ~REMOVE_SPELLS_OF_TYPE~
+  END
+  ELSE PATCH_IF (spell_type = 2) BEGIN // remove cleric spells from druids
+    SPRINT type ~cleric~
+    LAUNCH_PATCH_MACRO ~REMOVE_SPELLS_OF_TYPE~
+  END
+
+  // remove bogus spells from all classes
+  SPRINT type ~bogus~
+  LAUNCH_PATCH_MACRO ~REMOVE_SPELLS_OF_TYPE~
+END
+
+// used by function below
+DEFINE_PATCH_MACRO ~ADD_SPELLS_OF_TYPE~ BEGIN
+  SET length = $spell(~%type%~ ~%level%~ ~length~)
+  FOR (i = 0; i < length; i += 1) BEGIN
+    SPRINT spell $spell(~%type%~ ~%level%~ ~%i%~)
+    SET level = $spell(~%spell%~ ~level~)
+    REMOVE_KNOWN_SPELL ~%spell%~
+    SET exclusion = $spell(~%spell%~ ~excl~)
+    PATCH_IF ((exclusion BAND alignment) == 0) BEGIN // usable by priests of this alignment
+      ADD_KNOWN_SPELL ~%spell%~ (level - 1) ~priest~
+    END
+  END
+END
+
+// adds new spells to spellbook
+DEFINE_PATCH_FUNCTION ~ADD_NEW_KNOWN_SPELLS~
+ // INT_VAR
+ //   alignment = 0b000000 // bitfield organised as per the .spl alignment restrictions field
+ //   highest_spell_level = 0 // highest level of spells to add to spellbook
+ //   spell_type = 0 // 1 = cleric, 2 = druid, 3 = both
+BEGIN
+  FOR (level = 1; level <= highest_spell_level; level += 1) BEGIN
+    // spells available to all
+    SPRINT type ~all~
+    LAUNCH_PATCH_MACRO ~ADD_SPELLS_OF_TYPE~
+    PATCH_IF (spell_type == 1) BEGIN // cleric
+      SPRINT type ~cleric~
+      LAUNCH_PATCH_MACRO ~ADD_SPELLS_OF_TYPE~
+    END
+    ELSE PATCH_IF (spell_type == 2) BEGIN // druid
+      SPRINT type ~druid~
+      LAUNCH_PATCH_MACRO ~ADD_SPELLS_OF_TYPE~
+    END
+    ELSE PATCH_IF (spell_type == 3) BEGIN // both
+      SPRINT type ~cleric~
+      LAUNCH_PATCH_MACRO ~ADD_SPELLS_OF_TYPE~
+      SPRINT type ~druid~
+      LAUNCH_PATCH_MACRO ~ADD_SPELLS_OF_TYPE~
+    END
+  END
+END
+
+// determines highest level of spells that can be cast
+DEFINE_PATCH_FUNCTION ~DETERMINE_MAX_SPELL_LEVEL~
+  RET highest_spell_level
+BEGIN
+  READ_LONG 0x2a8 memorisation_info_off
+  READ_LONG 0x2ac num_memorisation_info
+  SET highest_spell_level = 0
+  FOR (i = 0; i < num_memorisation_info; i += 1) BEGIN
+    READ_SHORT (memorisation_info_off + 0x10*i + 0x00) level
+    READ_SHORT (memorisation_info_off + 0x10*i + 0x02) num_memorisable
+    READ_SHORT (memorisation_info_off + 0x10*i + 0x06) spell_type
+    PATCH_IF (spell_type == 0 && num_memorisable > 0) BEGIN // can memorise at least 1 divine spell at this level
+      SET level += 1 // level is stored as one below actual value
+      PATCH_IF (level > highest_spell_level) BEGIN // update highest_spell_level if new level is greater than those seen previously
+        SET highest_spell_level = level
+      END
+    END
+  END
+END
+  
+// fix spellbooks of divine casters
+COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    READ_LONG 0x1cc biography
+    PATCH_IF (biography > 0 && biography < 2147483647) BEGIN // party-joinable NPC (thanks bigg for easy way to determine this)
+      READ_BYTE 0x273 class
+      
+      PATCH_IF (class == 3 || class == 6 || class == 8 || class == 11 || class == 12 || class == 14 || class == 15 || class == 16 || class == 17 || class == 18) BEGIN // divine casters
+        SET cleric = 0
+        SET druid = 0
+
+        // remove old spells and replace any that were memorised with semi-equivalent ones
+        PATCH_IF (class == 3 || class == 6 || class == 8 || class == 14 || class == 15 || class == 17) BEGIN // cleric or paladin
+          SET cleric = 1
+        END
+        ELSE PATCH_IF (class == 11 || class == 12 || class == 16) BEGIN // druid or ranger
+          SET druid = 1
+        END
+        ELSE PATCH_IF (class == 18) BEGIN // cleric/ranger multi-class
+          SET cleric = 1
+          SET druid = 1
+          READ_LONG 0x10 flags
+          PATCH_IF ((flags BAND 0b100000000) == 0b100000000) BEGIN // original class was ranger: dual-class c/r
+            READ_BYTE 0x234 cleric_level
+            READ_BYTE 0x235 ranger_level
+            
+            // if waiting to regain ranger abilities, shouldn't have access to druid spells
+            PATCH_IF (ranger_level <= cleric_level) BEGIN
+              SET druid = 0
+            END
+          END
+        END
+        
+        SET spell_type = 0
+        PATCH_IF (cleric == 1 && druid == 1) BEGIN
+          SET spell_type = 3 // spell_type 3 = casts both
+        END
+        ELSE PATCH_IF (cleric == 1) BEGIN
+          SET spell_type = 1 // spell_type 1 = casts cleric
+        END
+        ELSE PATCH_IF (druid == 1) BEGIN
+          SET spell_type = 2 // spell_type 2 = casts druid
+        END
+        
+        // match alignment to priest spell exclusion flags
+        READ_BYTE 0x27b ids_alignment
+        SET alignment = 0
+        PATCH_IF (ids_alignment == 0x11) BEGIN // lawful good
+          SET alignment = 0b010100
+        END
+        ELSE PATCH_IF (ids_alignment == 0x12) BEGIN // lawful neutral
+          SET alignment = 0b011000
+        END
+        ELSE PATCH_IF (ids_alignment == 0x13) BEGIN // lawful evil
+          SET alignment = 0b010010
+        END
+        ELSE PATCH_IF (ids_alignment == 0x21) BEGIN // neutral good
+          SET alignment = 0b100100
+        END
+        ELSE PATCH_IF (ids_alignment == 0x22) BEGIN // neutral
+          SET alignment = 0b101000
+        END
+        ELSE PATCH_IF (ids_alignment == 0x23) BEGIN // neutral evil
+          SET alignment = 0b100010
+        END
+        ELSE PATCH_IF (ids_alignment == 0x31) BEGIN // chaotic good
+          SET alignment = 0b000101
+        END
+        ELSE PATCH_IF (ids_alignment == 0x32) BEGIN // chaotic neutral
+          SET alignment = 0b001001
+        END
+        ELSE PATCH_IF (ids_alignment == 0x33) BEGIN // chaotic evil
+          SET alignment = 0b000011
+        END
+        
+        LAUNCH_PATCH_FUNCTION ~SWAP_BAD_MEMORISED_SPELLS~ END
+        LAUNCH_PATCH_FUNCTION ~REMOVE_BAD_KNOWN_SPELLS~ END
+        // determines highest level of spells that can be cast so that we only add spells up to that level
+        LAUNCH_PATCH_FUNCTION ~DETERMINE_MAX_SPELL_LEVEL~ RET highest_spell_level = highest_spell_level END
+        LAUNCH_PATCH_FUNCTION ~ADD_NEW_KNOWN_SPELLS~ END
+      END
+    END
+  END
+  BUT_ONLY
