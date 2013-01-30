@@ -43,7 +43,7 @@ LANGUAGE ~French~ ~languages/english~
 
 BEGIN @9996
 DESIGNATED 0
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 INCLUDE ~spell_rev/shared/cre_spell_immunity.tph~ // function used to make creatures immune to certain spells
 
@@ -520,7 +520,9 @@ COPY ~spell_rev/sppr3##/sppr317.spl~     ~override~  // Cure Disease
 
 COPY ~spell_rev/sppr3##/sppr318.spl~     ~override~  // Gust of Wind (replaces Zone of Sweet Air)
   SAY NAME1 @101    SAY UNIDENTIFIED_DESC @102
-STRING_SET ~45247~ @3101 // change Load Game/Change Area string reference
+ACTION_IF (ENGINE_IS ~soa tob~) BEGIN
+  STRING_SET ~45247~ @3101 // change Load Game/Change Area string reference
+END
 
 COPY ~spell_rev/sppr3##/sppr319.spl~     ~override~  // Summon Insects
   SAY NAME1 @103    SAY UNIDENTIFIED_DESC @104
@@ -2563,18 +2565,20 @@ ACTION_IF (GAME_IS ~tutu tutu_totsc~) BEGIN
 END
 
 /*----------------Add New Spell Scrolls-----------------*/
-
-COPY_EXISTING ~ribald3.sto~ ~override~ // Ribald's Secret Stash
-  PATCH_IF (SOURCE_SIZE > 0x9b) BEGIN
-    ADD_STORE_ITEM ~scrlw801~ AFTER ~scrl9v~ #1 #1 #0 ~IDENTIFIED~ #1 // Adds 1 Ghostform Scroll
-  END
-  BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~25spell.sto~ ~override~ // Arcana Archives
-  PATCH_IF (SOURCE_SIZE > 0x9b) BEGIN
-    ADD_STORE_ITEM ~scrlw801~ AFTER ~scrlb1~ #1 #0 #0 ~IDENTIFIED~ #2 // Adds 2 Ghostform Scrolls
-  END
-  BUT_ONLY_IF_IT_CHANGES
+ACTION_IF (FILE_EXISTS_IN_GAME ~ribald3.sto~) BEGIN
+  COPY_EXISTING ~ribald3.sto~ ~override~ // Ribald's Secret Stash
+    PATCH_IF (SOURCE_SIZE > 0x9b) BEGIN
+      ADD_STORE_ITEM ~scrlw801~ AFTER ~scrl9v~ #1 #1 #0 ~IDENTIFIED~ #1 // Adds 1 Ghostform Scroll
+    END
+    BUT_ONLY_IF_IT_CHANGES
+END
+ACTION_IF (FILE_EXISTS_IN_GAME ~25spell.sto~) BEGIN
+  COPY_EXISTING ~25spell.sto~ ~override~ // Arcana Archives
+    PATCH_IF (SOURCE_SIZE > 0x9b) BEGIN
+      ADD_STORE_ITEM ~scrlw801~ AFTER ~scrlb1~ #1 #0 #0 ~IDENTIFIED~ #2 // Adds 2 Ghostform Scrolls
+    END
+    BUT_ONLY_IF_IT_CHANGES
+END
 
 
 //ENDCOMPONENT
@@ -4193,7 +4197,7 @@ APPEND ~hidespl.2da~ ~%disabled_spells%~ */
 
 BEGIN @9989
 DESIGNATED 60
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
 FORBID_COMPONENT ~Setup-Divine_Remix.tp2~ 0 @8995 // ~This component will not work properly with Divine Remix installed.~
 
