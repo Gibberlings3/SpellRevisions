@@ -1506,12 +1506,12 @@ COPY ~spell_rev\spwi3##\spwi303d.spl~     ~override~
   WRITE_SHORT 0x98 %dvfarrow%
 COPY ~spell_rev\spwi3##\spwi303e.spl~     ~override~
 
-ACTION_IF GAME_IS "bg2ee bg2 tob" BEGIN
-  COPY_EXISTING cut01b.bcs override
+ACTION_IF (GAME_INCLUDES ~bg2~) BEGIN
+  COPY_EXISTING ~cut01b.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
       REPLACE_TEXTUALLY ~WIZARD_FLAME_ARROW~ ~WIZARD_MELF_ACID_ARROW~
     END
-  BUT_ONLY
+    BUT_ONLY
 END
 
 COPY ~spell_rev\spwi3##\spwi304.spl~     ~override~  // Fireball

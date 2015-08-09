@@ -22,6 +22,10 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 ...
 
+V4 - Beta 11 (8 August 2015)
+- Add support for EET
+- Update to WeiDU 238
+
 V4 - Beta 10.1 (13 April 2015)
 - Spell Shield fixes should now work on BG1EE too
 - fixed various scroll assignments for new spells

@@ -9,7 +9,7 @@ DEFINE_ACTION_FUNCTION ardanis_spell_shield BEGIN
     // CrevsDaak: don't run SCS routines.
     // LAF run STR_VAR file=beholder_pnp_antimagic locbase=beholder END
 
-OUTER_SET spell_shield_icon_num = (MOD_IS_INSTALLED setup-bg2fixpack.tp2 0 || GAME_IS "bgee bg2ee iwdee") ? 73 : 123
+OUTER_SET spell_shield_icon_num = (MOD_IS_INSTALLED setup-bg2fixpack.tp2 0 || ENGINE_IS ~bgee bg2ee iwdee~) ? 73 : 123
 
     // DW code to detect what the icon for Spell Shield is (this is Fixpack-dependent)
     COPY_EXISTING - statdesc.2da override
