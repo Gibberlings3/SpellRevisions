@@ -8,7 +8,7 @@ VERSION ~v4 Beta 10.1~
 
 ALWAYS
   OUTER_PATCH ~~ BEGIN
-    PATCH_INCLUDE ~spell_rev/sr_settings.ini~
+    PATCH_INCLUDE ~spell_rev/settings.ini~
   END
 END
 
