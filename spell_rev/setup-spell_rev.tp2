@@ -4,11 +4,21 @@ README ~spell_rev\readme-spell_rev.html~
 //MODDER
 ASK_EVERY_COMPONENT
 
-VERSION ~v4 Beta 10.1~
+VERSION ~v4 Beta 11~
 
 ALWAYS
   OUTER_PATCH ~~ BEGIN
     PATCH_INCLUDE ~spell_rev/settings.ini~
+  END
+  
+  // On EE games, convert tra files to utf-8 so that games don't crash for non-English
+  ACTION_IF NOT VARIABLE_IS_SET cd_always THEN BEGIN
+    OUTER_SET cd_always = 1
+    
+    ACTION_DEFINE_ARRAY cdnoconvert BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+    ACTION_DEFINE_ARRAY cdreload BEGIN arcane divine END // List of tra files that contain strings used for game content that get converted in the next step
+    
+    LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR tra_path = EVAL ~%MOD_FOLDER%/languages~ noconvert_array = cdnoconvert reload_array = cdreload  END
   END
 END
 
@@ -17,30 +27,35 @@ END
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-LANGUAGE ~English~ ~languages\english~
-                   ~spell_rev\languages\english\arcane.tra~
-                   ~spell_rev\languages\english\divine.tra~
-                   ~spell_rev\languages\english\setup.tra~
+LANGUAGE ~English~
+         ~english~
+         ~spell_rev\languages\english\arcane.tra~
+         ~spell_rev\languages\english\divine.tra~
+         ~spell_rev\languages\english\setup.tra~
 
-LANGUAGE ~Russian~ ~languages\russian~
-                   ~spell_rev\languages\russian\arcane.tra~
-                   ~spell_rev\languages\russian\divine.tra~
-                   ~spell_rev\languages\russian\setup.tra~
+LANGUAGE ~Russian~
+         ~russian~
+         ~spell_rev\languages\russian\arcane.tra~
+         ~spell_rev\languages\russian\divine.tra~
+         ~spell_rev\languages\russian\setup.tra~
 
-LANGUAGE ~Spanish~ ~languages\spanish~
-                   ~spell_rev\languages\spanish\arcane.tra~
-                   ~spell_rev\languages\spanish\divine.tra~
-                   ~spell_rev\languages\spanish\setup.tra~
+LANGUAGE ~Spanish~
+         ~spanish~
+         ~spell_rev\languages\spanish\arcane.tra~
+         ~spell_rev\languages\spanish\divine.tra~
+         ~spell_rev\languages\spanish\setup.tra~
 
-LANGUAGE ~French~ ~languages\french~
-                   ~spell_rev\languages\french\arcane.tra~
-                   ~spell_rev\languages\french\divine.tra~
-                   ~spell_rev\languages\french\setup.tra~
+LANGUAGE ~French~
+         ~french~
+         ~spell_rev\languages\french\arcane.tra~
+         ~spell_rev\languages\french\divine.tra~
+         ~spell_rev\languages\french\setup.tra~
 
-LANGUAGE ~Polish by dradiel (djc@poczta.fm)~ ~languages\polish~
-                   ~spell_rev\languages\polish\arcane.tra~
-                   ~spell_rev\languages\polish\divine.tra~
-                   ~spell_rev\languages\polish\setup.tra~
+LANGUAGE ~Polish by dradiel (djc@poczta.fm)~
+         ~polish~
+         ~spell_rev\languages\polish\arcane.tra~
+         ~spell_rev\languages\polish\divine.tra~
+         ~spell_rev\languages\polish\setup.tra~
 
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\

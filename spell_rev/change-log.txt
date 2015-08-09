@@ -23,6 +23,7 @@ To-do List:
 ...
 
 V4 - Beta 11 (8 August 2015)
+- Improve EE support by converting text to UTF-8
 - Add support for EET
 - Update to WeiDU 238
 
