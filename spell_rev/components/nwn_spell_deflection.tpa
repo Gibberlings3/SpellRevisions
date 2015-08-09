@@ -1,0 +1,145 @@
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
+
+// AoE spells with MR issue
+
+~spwi213~ => 1 // stinking cloud
+~spwi215~ => 1 // web
+~spwi304~ => 1 // fireball
+~spwi313~ => 1 // skull trap
+~spwi404~ => 1 // ice storm
+~spwi502~ => 1 // cloud kill
+~spwi503~ => 1 // cone of cold
+~spwi523~ => 1 // sunfire
+~spwi614~ => 1 // death fog
+~spwi712~ => 1 // delayed blast fireball
+~spwi714~ => 1 // prismatic spray
+~spwi810~ => 1 // incendiary cloud
+~spwi911~ => 1 // meteor swarm
+
+~spwi922~ => 1 // dragon breath
+~spwi925~ => 1 // comet
+
+// ~sppr304~ => 1 // glyph of warding
+~sppr313~ => 1 // holy smite
+~sppr314~ => 1 // unholy blight
+~sppr503~ => 1 // flame strike
+~sppr705~ => 1 // fire storm
+// ~sppr720~ => 1 // earthquake
+
+// AoE spells without MR issues
+
+~spwi205~ => 1 // horror
+~spwi224~ => 1 // glitterdust
+~spwi306~ => 1 // hold person
+~spwi324~ => 1 // hold undead
+~spwi312~ => 1 // slow
+~spwi411~ => 1 // emotion
+~spwi412~ => 1 // greater malison
+~spwi421~ => 1 // teleprot field
+~spwi507~ => 1 // hold monster
+~spwi508~ => 1 // chaos
+~spwi605~ => 1 // death spell
+~spwi615~ => 1 // chain ligthning
+~spwi711~ => 1 // sphere of chaos
+~spwi720~ => 1 // control undead
+// ~spwi811~ => 1 // symbol fear
+~spwi812~ => 1 // abi-dalzim
+// ~spwi816~ => 1 // symbol stun
+// ~spwi817~ => 1 // symbol death
+~spwi913~ => 1 // wail of banshee
+
+~sppr105~ => 1 // entangle
+~sppr208~ => 1 // hold person
+~sppr305~ => 1 // hold animal
+~sppr416~ => 1 // cloak of fear
+~sppr517~ => 1 // insect plague
+~sppr609~ => 1 // false dawn
+~sppr704~ => 1 // nature's beauty
+// ~sppr706~ => 1 // symbol fear
+~sppr707~ => 1 // sunray
+~sppr709~ => 1 // confusion
+~sppr710~ => 1 // holy word
+~sppr715~ => 1 // unholy word
+~sppr717~ => 1 // creeping doom
+// ~sppr718~ => 1 // symbol stun
+// ~sppr719~ => 1 // symbol death
+
+~sppr722~ => 1 // storm of vengeance
+
+END
+
+ACTION_IF (MOD_IS_INSTALLED ~setup-spell_rev.tp2~ 0) BEGIN
+  OUTER_SET $spell("spwi523")=0
+END
+
+
+
+
+ACTION_PHP_EACH spell AS i2 => r2 BEGIN
+
+  OUTER_SET found=0
+  OUTER_SPRINT letter ~d~
+  ACTION_FOR_EACH char_check IN d e f g h i j k l m BEGIN
+    ACTION_IF found=0 BEGIN
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~%i2%%char_check%.spl~ BEGIN
+        OUTER_SET found=1
+        OUTER_SPRINT letter ~%char_check%~
+      END
+    END
+  END
+
+  ACTION_IF found && r2 && (FILE_EXISTS_IN_GAME ~%i2%.spl~) BEGIN
+    COPY_EXISTING ~%i2%.spl~ ~override/%i2%%letter%.spl~ // cloning original into the secondary spell
+      WRITE_ASCII 0x8 ~~ (8) // clearing out the name
+      GET_OFFSET_ARRAY headers 0x64 4 0x68 2 0 0 0x28
+      PHP_EACH headers AS i => r BEGIN
+        WRITE_SHORT (r+0x0c) 1 // target = creature
+        WRITE_SHORT (r+0x26) 1 // projectile = none
+      END
+    BUT_ONLY
+
+    COPY_EXISTING ~%i2%.spl~ ~override~        // modifying the original
+      READ_LONG 0x34  level
+      READ_LONG 0x64  ab_off
+      READ_SHORT 0x68 ab_num
+      READ_LONG 0x6a  ef_off
+      READ_SHORT 0x70 cast_num // global effects aka casting features
+
+      total_eff=cast_num
+      FOR (i=0;i<ab_num;i+=1) BEGIN
+        READ_SHORT  (ab_off+i*0x28+0x1e) ef_num  // effect number
+        READ_SHORT  (ab_off+i*0x28+0x20) ef_ind  // effect index
+        total_eff+=ef_num
+      END
+
+      DELETE_BYTES ef_off ((total_eff - 1)*0x30)
+      DELETE_BYTES ab_off ((ab_num - 1)*0x28)
+      WRITE_SHORT 0x68 1
+      WRITE_LONG 0x6a  (ef_off - (ab_num - 1)*0x28)
+      WRITE_SHORT 0x70 0
+      WRITE_SHORT (ab_off+0x1e) 1
+      WRITE_SHORT (ab_off+0x20) 0
+
+      // ability header
+      WRITE_SHORT (ab_off+0x10) 1 // level required
+
+      // effect
+      offset=(ef_off - (ab_num - 1)*0x28)
+      WRITE_SHORT (offset+0x00) 146   // opcode = cast spell on creature
+      WRITE_BYTE  (offset+0x02) 2     // target = pre-target
+      WRITE_BYTE  (offset+0x03) level   // power level = spell level
+      WRITE_LONG  (offset+0x04) 0     // parameter 1 = caster's level
+      WRITE_LONG  (offset+0x08) 1     // parameter 2 = instant
+      WRITE_BYTE  (offset+0x0c) 1     // timing mode = permanent
+      WRITE_ASCII (offset+0x0d) ~~ (5)  // clearing out the space
+      WRITE_BYTE  (offset+0x12) 100   // probability 1 = 100%
+      WRITE_BYTE  (offset+0x13) 0     // probability 2 = 0%
+      WRITE_ASCIIE (offset+0x14) ~%i2%%letter%~ (8) // resource
+      WRITE_ASCII (offset+0x1c) ~~ (20) // clearing out the space
+    BUT_ONLY
+    
+  END
+
+END // ACTION_PHP_EACH
+

@@ -1,0 +1,173 @@
+//////////////////////////////////////////////////////
+/// not my code; leave alone <-- DavidW's message; leave there unless you're Ardanis. (CrevsDaak)
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ardanis_spell_shield BEGIN
+  ACTION_IF !FILE_EXISTS "override/dw#setup.mrk" && !FILE_EXISTS "override/7c#spell_shield.mrk" BEGIN // CrevsDaak: check for duplicates...
+    // first run "beholder_pnp_antimagic" to create the new beholder rays (they're not used unless the relevant component is installed)
+
+    // CrevsDaak: don't run SCS routines.
+    // LAF run STR_VAR file=beholder_pnp_antimagic locbase=beholder END
+
+OUTER_SET spell_shield_icon_num = (MOD_IS_INSTALLED setup-bg2fixpack.tp2 0 || GAME_IS "bgee bg2ee iwdee") ? 73 : 123
+
+    // DW code to detect what the icon for Spell Shield is (this is Fixpack-dependent)
+    COPY_EXISTING - statdesc.2da override
+      COUNT_2DA_ROWS 2 rowcount
+      FOR (i=2;i<rowcount;i=i+1) BEGIN
+        READ_2DA_ENTRY i 1 2 stringnum
+        PATCH_IF stringnum=26228 BEGIN
+          READ_2DA_ENTRY i 0 2 spell_shield_icon_num
+          SET i=rowcount
+        END
+      END
+    BUT_ONLY
+
+    // adding new sectype
+    ADD_SECTYPE SpellShield @863 // ~Spell Shield Dispelled~
+
+    COPY_EXISTING spwi519.spl override
+      WRITE_BYTE 0x27 SpellShield
+      CLEAR_ARRAY ab_array GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x28
+      PHP_EACH ab_array AS int => ab_off BEGIN
+        CLEAR_ARRAY eff_array GET_OFFSET_ARRAY2 eff_array ab_off ITM_V10_HEAD_EFFECTS
+        PHP_EACH eff_array AS int2 => eff_off BEGIN
+          PATCH_IF SHORT_AT eff_off = 226 BEGIN
+            SET $spellshieldheader("%int%")=LONG_AT(eff_off+0xe)
+          END
+        END
+        SET res=$spellshieldheader("%int%")
+        LPF ADD_SPELL_EFFECT INT_VAR
+          header=int+1
+          opcode=215 // play 3d effect
+          target=1
+          duration=res
+          power=5
+          parameter2=1
+        STR_VAR resource = spturni2 END
+        LPF ADD_SPELL_EFFECT INT_VAR
+          header=int+1
+          opcode=142 // display portrait icon
+          target=1
+          duration=res
+          power=5
+          parameter2=spell_shield_icon_num // spell shield
+        END
+      END
+      LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 226 END
+    BUT_ONLY
+
+    // patching antimagic
+    ACTION_DEFINE_ARRAY spell_shield BEGIN
+      spwi321 // spell thrust
+      spwi419 // secret word
+      spwi513 // breach
+      spwi608 // pierce magic
+      spwi704 // ruby ray of reversal
+      spwi705 // khelben warding whip
+      spwi805 // pierce shield
+      spwi903 // spellstrike
+    END
+
+    ACTION_FOR_EACH spl IN // beholder innates
+      spin992  // beholder antimagic ray
+      spin550  // hive mother antimagic ray
+    BEGIN
+      ACTION_IF FILE_EXISTS_IN_GAME "%spl%.spl" BEGIN
+        OUTER_SPRINT $spell_shield("%spl%") "%spl%"
+      END
+    END
+
+    ACTION_PHP_EACH spell_shield AS _ => spell  BEGIN
+      COPY_EXISTING spwi519.spl override // spell shield  
+      PHP_EACH spellshieldheader AS ind => res BEGIN
+        LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT INT_VAR
+          header=ind+1
+          opcode=206
+          target=1
+          duration=res
+          power=5
+        STR_VAR resource =  EVAL ~%spell%b~ END
+      END
+
+      ACTION_IF FILE_EXISTS_IN_GAME ~%spell%d.spl~ THEN BEGIN // check if I've modified the spell already to make it penetrate Inv.
+         OUTER_SPRINT ~spellcore~ ~%spell%d~                  // DW (or Arda) code, untouched by CrevsDaak, fearing to break something.
+      END ELSE BEGIN
+         OUTER_SPRINT ~spellcore~ ~%spell%~
+      END
+
+      COPY_EXISTING ~%spellcore%.spl~ ~override/%spell%b.spl~
+        SAY 0x8 #-1 // clearing out the name
+	/* CrevsDaak: remove .spl name by using .tlk referece #-1 */
+        READ_LONG 0x64  ab_off
+        READ_SHORT 0x68 ab_num
+        FOR (i=0;i<ab_num;i+=1) BEGIN
+          WRITE_SHORT (ab_off+i*0x28+0x0c) 1 // target = creature
+          WRITE_SHORT (ab_off+i*0x28+0x26) 1 // projectile = none
+        END
+
+
+      COPY_EXISTING ~%spellcore%.spl~ ~override~              // modifying the original
+        READ_LONG 0x34  level
+        READ_LONG 0x64  ab_off
+        READ_SHORT 0x68 ab_num
+        READ_LONG 0x6a  ef_off
+        READ_SHORT 0x70 cast_num // global effects aka casting features
+        READ_BYTE (ef_off+0x3) power
+
+        total_eff=cast_num
+        FOR (i=0;i<ab_num;i+=1) BEGIN
+          READ_SHORT  (ab_off+i*0x28+0x1e) ef_num  // effect number
+          total_eff+=ef_num
+        END
+
+        DELETE_BYTES ef_off (total_eff*0x30)
+        DELETE_BYTES ab_off ((ab_num - 1)*0x28)
+        WRITE_SHORT 0x68 1
+        WRITE_LONG 0x6a  (ef_off - (ab_num - 1)*0x28)
+        WRITE_SHORT 0x70 0
+
+        WRITE_SHORT (ab_off+0x1e) 2
+        WRITE_SHORT (ab_off+0x20) 0
+        WRITE_SHORT (ab_off+0x10) 1 // level required
+
+        offset=(ef_off - (ab_num - 1)*0x28)
+        INSERT_BYTES offset 0x60
+
+        WRITE_SHORT (offset+0x00) 146     // opcode = cast spell on creature
+        WRITE_BYTE  (offset+0x02) 2       // target = pre-target
+        WRITE_BYTE  (offset+0x03) power   // power level
+        WRITE_LONG  (offset+0x04) 0       // parameter 1 = caster's level
+        WRITE_LONG  (offset+0x08) 1       // parameter 2 = instant
+        WRITE_BYTE  (offset+0x0c) 1       // timing mode = permanent
+        WRITE_BYTE  (offset+0x12) 100     // probability 1 = 100%
+        WRITE_BYTE  (offset+0x13) 0       // probability 2 = 0%
+        WRITE_ASCIIE (offset+0x14) ~%spell%b~ (8)
+
+        READ_ASCII offset clone (0x30)
+        WRITE_ASCIIE (offset+0x30) ~%clone%~ 
+        WRITE_ASCIIE (offset+0x44) ~%spell%c~
+
+
+      COPY_EXISTING ~%spellcore%.spl~ ~override/%spell%c.spl~
+        SAY 0x8 #-1 // clearing out the name
+        /* CrevsDaak: remove .spl name by using .tlk referece #-1 */
+        READ_LONG 0x64  ab_off
+        READ_LONG 0x6a  ef_off
+        WRITE_SHORT (ab_off+0x1e) 1
+        WRITE_SHORT (ab_off+0x26) 1
+        DELETE_BYTES (ef_off+0x30) 0x30
+
+        WRITE_SHORT ef_off 230          // opcode = remove one sectype
+        WRITE_LONG (ef_off+0x4) 9       // max level = 9
+        WRITE_LONG (ef_off+0x8) SpellShield
+        WRITE_ASCII (ef_off+0x14) ~~ (8)
+
+      /* CrevsDaak: now update the freaking table... */
+      INCLUDE ~spell_rev/lib/ds.tph~
+      LAF ds_altered_spell INT_VAR old_clone=226 new_clone=142 STR_VAR file=~spwi519.spl~ END
+    END
+
+    COPY_EXISTING sw1h01.itm "override/7c#spell_shield.mrk"
+  END /* !FILE_EXISTS dw#setup */
+END

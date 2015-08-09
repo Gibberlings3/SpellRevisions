@@ -1,17 +1,220 @@
+To-do List:
+- Flame Blade buff?
+- Spiritual Hammer needs a small nerf
+- Zone of Sweet Air replace Cleric variant of Gust of Wind?
+- Striking Wave added to druid's 4th lvl spells (first draft, need feedback)
+- Symbol of Death causes level drain or -x to saves vs. death?
+- Mist of Eldath added to druid's 7th lvl spells
+- Reflected Image replaced by Phantasmal Force; CreateCreatureObjectCopy("jclone01",Player1,0,0,0)
+- Shocking Grasp tweaked similarly to CW spells
+- Flame Arrow allow no save?
+- Improved Invisibility protects from deflection/turning/etc animations (sec type for removals?)
+- Polymorph Self new forms (Fire Salamander with flaming spear replaces Flind; Troll)
+- Oracle becomes a party buff or AoE debuff?
+- Protection from Normal Weapons replaced by Ghost Form (similar to vanilla's Wraithform)
+- Stone to Flesh disabled?
+- Finger of Death creates a zombie?
+- Ghost Form replaced with Iron Body (aka improved stone/iron skin)
+- Monster Summoning VIII added to 8th lvl spells (summon umber hulks)
+- Monster Summoning IX added to 9th lvl spells (summon salamanders)
+- Meteor Swarm changed to 4 fireballs (a la Flame Arrow)
+- Wail of the Banshee causes nausea and/or deafness on successful save?
+- Imprisonment slay powerful summons?, allow a save?
+...
 
-V3.1 - Hotfix 01 (July 16th 2012)
-- MSI's hobgoblins were not flagged as summons
-- Improved Haste cannot be "canceled" by Haste anymore
-- Black Blade of Disaster had an unused EFF file causing a crash if ToBEx is installed
-- Summoned demons and Death Knights script fixes
-- minor "-1" thac0 correction for all summoned celestials to match descriptions
+V4 - Beta 10.1 (13 April 2015)
+- Spell Shield fixes should now work on BG1EE too
+- fixed various scroll assignments for new spells
+- ASII and ASIII spell levels fixed
 
+V4 - Beta 10 (11 April 2015)
+- various fixes (e.g. 100th attempt to fix Spell Shield, DD scroll using 1st lvl variant, etc.)
+- Wild Mage spells no longer appear on spell selection screen (they were not selectable anyway) 
+- Animal Summoning spells slightly re-worked (no PC classes, fixed HP values, minor tweaks)
+- ASI bats should finally work on EE too
+- Magical Stone duration reduced to 2 turns (to fix a weird EE bug), casting time from 5 to 1
+- Obscuring Mist no longer party friendly, added +2 AC penalty, removed hostile flag
+- Magic Fang added to druid's 3rd lvl spells (+1/+2/+3 enchantment to summoned animal's weapons)
+- Spike Growth added to druid's 3rd lvl spells
+- Animal Growth STR/CON bonuses replaced by +2 thac0/dmg and +50% HP (still grants +2 AC/saves)
+- True Seeing force visible effect triggers every 3 sec instead of 6
+- Detect Alignment (mage version) moved to 1st lvl spells
+- Expeditious Retreat added to 1st lvl spells ("replaces" Protection from Petrification)
+- Monster Summoning I moved to 1st lvl spells (summon gibberlings, "replaces" Friends)
+- Monster Summoning II moved to 2nd lvl spells (summon green slimes)
+- Resist Elements added to 2nd lvl spells
+- Monster Summoning III moved to 3rd lvl spells (summon hobgoblins)
+- Fire Shield 50% fire res replaced with 40% resistance to both fire and cold
+- Monster Summoning IV merged with Spider Spawn (summon giant spiders)
+- Mestil's Acid Sheath uses a new icon
+- Monster Summoning V added to 5th lvl spells (summon ogres)
+- Dispelling Screen no longer stacks with itself, magic res bonus lowered to 25%
+- SI:Enchantment (AI-only) replaced by a copy of Mind Blank
+- Chaos merged with Sphere of Chaos (keeps Chaos name and icon with SoC effects and spell lvl)
+- Waves of Fatigue added to 5th lvl spells (friendly 30' AoE, no save, fatigued for 5 rounds)
+- Monster Summoning VI merged with Wyvern Call (summon wyverns)
+- Summon Nishruu merged with Summon Hakeashar (few stats adjustments)
+- Monster Summoning VII added to 7th lvl spells (summon otyughs)
+- Khelben's Warding Whip "new animation" (stole from UD's brain's Ego Whip spell)
+- Imprisonment no longer uses INT drain, removed projectile, new animation
+
+V4 - Beta 9.1 (16 March 2015)
+- various fixes
+- Animal Summoning I summons large bats instead of rats (rat animation caused ctds on EE)
+- Spell Shield patching code hopefully fixed by Arda
+
+V4 - Beta 9 (10 March 2015)
+- minor fixes (e.g. typos, few scroll targeting issues, Faerie Fire projectile, etc.)
+- finally solved an issue with Dispel Fix component making EE trolls "immortal"
+- restored a fix for Promenade cutscene (Irenicus Flame Arrow on PCs) which was not working on EE
+- Animal Summoning I "moved" to druid's 1st lvl spells (summon rats)
+- Obscuring Mist added to druid's 1st lvl spells, new icon
+- Animal Summoning II "moved" to druid's 2nd lvl spells (summon war dogs)
+- Animal Summoning III "moved" to druid's 3rd lvl spells (summon wolves)
+- Animal Summoning IV added to druid's 4th lvl spells (summon leopards)
+- Animal Summoning V added to druid's 5th lvl spells (summon giant snakes)
+- Animal Growth (+4 STR and CON, +2 to AC and saves)
+- Animal Summoning VI added to druid's 6th lvl spells (summon cave bears)
+- Animal Summoning VII added to druid's 7th lvl spells (summon polar bears)
+- Battering Ram now uses a new icon
+- Haste (and Improved Haste) grants +8 speed instead of 200% (should give better animation)
+- Dispelling Screen (player version) marked as SI:Abj
+- Spell Shield fixes fully implemented
+
+V4 - Beta 8 (9 February 2015)
+- hopefully fixed an issue with Dispel Fix component making EE trolls "immortal"
+- minor fixes (e.g. EE string references, GSD scroll, AoF stacking, casting animations, etc.)
+- fixed an issue with Talos Priest's Storm Shield not appearing under the innate abilities
+- Faerie Fire reveals invisible creatures with no save (-2 AC and full II dispel still allow a save)
+- Contagion requires multiple saves over time, each fail causes -2 penalty to STR/DEX/CON/CHA
+- Holy Smite affects all enemies, school changed to Evocation, save penalty removed
+- Unholy Blight affects all enemies, save penalty removed
+- Farsight now also reveals the whole map (pratically vanilla's Clairvoyance + Farsight)
+- Negative Plane Protection duration reduced to 5 turns, restricted to clerics
+- True Seeing fully counters IR's Cloak of Mirroring (the latter is "disabled" for 1 round every round)
+- Blade Barrier dmg slightly raised from 1d6 to 1d8, description fixed (no save instead of breath half)
+- Animate Skeleton Warrior no longer available to good aligned clerics
+- False Dawn now available to good aligned clerics
+- Summon Death Knight no longer available to good aligned clerics
+- Sunray now available to good aligned clerics
+- Holy Word affects all enemies, blindness/stun duration reduced from 10 to 5 and 1 round respectively
+- Unholy Word affects all enemies, reduced disabling duration as above, stun replaced with confusion
+- Dimension Door added to mage 1st lvl spells (keeps LoS limitation, may be renamed Dimension Step)
+- Obscuring Mist penalties to melee/ranged attacks reduced to -2 and -6 respectively, countered by TS
+- Shield protects from IR's Wand of Magic Missile
+- Haste no longer affect poison/regen/repeating EFFs, thac0/AC/save bonuses raised by 1, single target
+- Spirit Armor uses a unique animation (it had Armor of Faith one), grants +3 to saves vs. death
+- Fire Shield (Blue) temporarily disabled
+- Mestil's Acid Sheath added to mage 5th lvl spells
+- Disintegrate save changed from vs. spell to vs. breath
+- Improved Haste now works as a slighty improved "mass Haste" (no fatigue, cannot be countered by Slow)
+- Mordenkainen's Sword physical res lowered to 95%
+- Prismatic Mantle immunity lowered to +2 weapons (as per vanilla Mantle)
+- Mind Blank added to mage 8th lvl spells (replaces the previously added Gr. Globe of Invulnerability)
+- PW:Kill secondary effect vs creatures with 60+ HPs no longer has -4 save penalty 
+
+V4 - Beta 7 (8 October 2014)
+- added dvsrv4here.mrk file for detecting the new version (SCS is already checking for it)
+- minor fixes and/or changes to many spell descriptions
+- charname innate Draw Upon Divine Might now matches the 2nd lvl spell
+- druids no longer get Mass Cure and Heal
+- AI will now use Greater Spell Deflection when casting the disabled spwi618 instead of Spell Deflection
+- Armor of Faith resistance limited to physical and magic dmg (no elements), duration increased to 5 turns
+- Sunscorch effects slighty altered, save changed from spell to breath
+- Resist Fire/Cold "replaced" by Resist Elements (25% res vs. all elements)
+- Cause Serious Wounds not properly working fixed
+- Mass Regenerate Wounds does not require a target anymore
+- Finger of Death no longer uses a visible projectile, doesn't affect non-living targets, save penalty from -4 to -2
+- Fog Cloud "replaced" by Obscuring Mist (party-friendly for AI sake, slightly smaller AoE, shorter duration)
+- Haste duration fixed, cannot be hasted while fatigued
+- Melf's Minute Meteors school changed to Conjuration
+- Non-Detection flagged as spell protection (as a replacement for SI:Div it needs to be countered by spell removals)
+- Dispelling Screen casting time from 1 to 5, duration from 1 turn to 5, protects from Breach (temporary solution for SCS)
+- Banishment no longer allows a save (as per vanilla Death Spell)
+- Pierce Magic now properly works as per description
+- Mantle "replaced by" Prismatic Mantle
+- Bigby's Icy Grasp still does damage on a successfull save
+- Improved Mantle "replaced" by Moment of Prescience
+- Bigby's Crushing Hand still does damage on a successfull save
+
+V4 - Beta 6 (21 August 2014)
+- added SR's own Detectable Spells code (thanks to Arda)
+- re-arranged installer (tp2 and tpa files)
+- Remove Disabled Spells from Spell Selection Screens should now work fine on all platforms
+- small AoEs (e.g. Faerie Fire, Gust of Wind, etc) slightly increased from 60 to 65 to hopefully make them more consistent
+- invisibility spells no longer display Invisible/Mislead messages on the combat log
+- Magical Stone was not working correctly
+- Resist Fire/Cold casting time reduced from 5 to 2
+- Mass Regenerate Wound added to druid's 5th lvl spells
+- Repulsion replaces the previously disabled 5th lvl Repulse Undead (I really need feedback on this)
+- Sound Burst animation had only 15% chance to trigger (ehm...sorry)
+- Slow save changed from "vs. spell" to "vs. polymorph", always cancel Haste (no save)
+- Melf's Minute Meteors do not consume Spell Deflection anymore, piercing dmg replaced with missile type
+- Cone of Cold uses a new much cooler animation, AoE cone has slightly smaller arc but longer range, dmg capped at 15th lvl
+- Wall of Dispel Magic "replaced" by Dispelling Screen
+- Flesh to Stone slows for 3 rounds (no save), on 2nd round target must save at -4 penalty or be petrified (hold2 opcode)
+- Improved Haste grants immunity to Slow, can "override" Haste but not vice-versa
+- Pierce Magic nullifies target's magic resistance for 2 rounds
+- Tenser's Transformation cuases -2 penalty to casting speed and saves vs. spell instead of blocking spellcasting
+- Prismatic Spray casting time from 7 to 1 followed by 1 sec pause, save penalty from -6 to -4, fire/acid/electrical dmg changed from 20/40/80 to 10d6 for each dmg type, uses Color Spray animation (it more properly covers the effective AoE and looks slightly better imo), AoE cone has smaller arc but longer range
+
+V4 - Beta 5 (1 August 2014)
+- re-arranged sec types
+- temporary manual solution for few Detectable Spells related issues (will be replaced by Arda's code)
+- Cause Wound spells, Slay Living and Harm have been heavily revised (more details online)
+- Cause Light Wounds and Cause Moderate Wounds added to cleric spellbook
+- Fog Cloud thac0 penalties fixed
+- Haste, Improved Haste and Slow now fully cancel each other thanks to a dedicated sec type
+- Haste duration set to 1 turn (increased for low levels, decreased for high levels)
+- Slow thac0/AC/save vs. breath penalties increased from -1 to -2 (vanilla had -4 thac0/AC)
+
+V4 - Beta 4 (24 July 2014)
+- added a new optional component: "Spell Deflection blocks AoE spells"
+- minor text fixes (e.g. typos, erroneous BGEE string references, etc.)
+- minor fixes to various spells (e.g. power lvl, duration of some effects, etc.)
+- Spell Immunity "replaced" by Wall of Dispel Magic (immunity to dispel, dispel on attackers)
+- Spell Shield restored to its classic version (SCS was overriding it anyway)
+- Disintegrate automatically destroy a Mordenkainen's Sword
+- WotB save penalty changed from -6 to -2
+- Larloch's Energy Drain effects on the caster last 5 turns instead of 1
+- Black Blade of Disaster school changed to Conjuration (minor "fixes" for BGEE)
+- Absolute Immunity grants invulnerability to both physical and magical dmg
+
+V4 - Beta 3 (22 July 2014)
+- tons of small "adjustments" to make the build work fine with BGEE
+- Sanctuary duration reduced to 6 rounds
+- Armor of Faith grants 10% res against all dmg types, 2 turns duration
+- Draw Upon Divine Might capped at +3 STR/DEX/CON at 9th level, no longer causes fatigue
+- Grease save against knockdown is made at +2 bonus
+- Charm Person save is made at +2 bonus (it was +3 in vanilla)
+- Blindness replaced by Fog Cloud (halved line of sight, -4/-8 melee/ranged thac0 penalty)
+- Haste fatigue duration reduced from 5 to 3 rounds
+- Lightning Bolt dmg dice reverted from d8 to d6, save penalty increased from -2 to -4, projectile speed increased by 50%
+- Skull Trap dmg dice reverted from d4 to d6 but capped at 10d6 (SCS did the same to balance its own 3x triggers)
+- Dire Charm save is made with no penalty
+- Hold Monsters save penalty reverted from -4 to -2
+- Phantom Blade no longer deals increased dmg vs. undead
+- Spell Shield now grants immunity to dispel effects (only a temporary solution - part of a bigger plan)
+- Horrid Wilting save penalty reduced from -6 to -2
+- Bigby's Clenched Fist "replaced" by Bigby's Icy Grasp (dmg type changed to cold, small refinements)
+
+V4 - Beta 2 (21 July 2014)
+- enabled all components for BGEE and BG2EE
+- Blade Barrier no longer allows a save, dmg reduced from 3d6 every 3 sec to 1d6
+- Regeneration fixed so that only clerics get the 7th lvl variant
+- Non-detection tweaked to properly work against Detect Invisibility & True Seeing
+- Protection from Missiles duration reduced from 2 turns to 1
+- Protection from Normal Weapons can now be used with PfMW
+- Cone of Cold casting time reduced from 5 to 1, added a 1 sec pause (a la Burning Hands & Agannazar's Scorcher)
+- Breach no longer removes Protection from Evil, Magic Circle against Evil, Fire Shields and Blade Barrier
+- Spell Deflection spells fixed and tweaked
+- Ruby Ray of Reversal reverted to single target as per vanilla
+- Khelben's Warding Whip school changed to Evocation (first step of a bigger plan)
+
+V4 - Beta 1 (21 July 2014)
+- first closed beta
 
 TO DO:
-- ...
-
-
-
-
-
-
+- patch code for Remove Disabled Spells from Spell Selection Screens does not work with BGEE
+- re-enable Gust of Wind loading screen text changes
+- re-enable Flame Arrow variant for Irenicus cutscene, disabled for BGEE compatibility

@@ -1,0 +1,192 @@
+
+// checking all existing dispel effects, if they're scalable then kill the 'remove item [112]' opcode
+// and adjust the effect to dispel such items on the same terms as magical effect
+// 
+// also we're making a list of items that may be created in the 'magical weapon' slot
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    SET found_dispel=0
+    READ_LONG 0x64 ab_off
+    READ_SHORT 0x68 ab_num
+    READ_LONG 0x6a ef_off
+    FOR (i=0;i<ab_num;i+=1) BEGIN
+      READ_SHORT (ab_off+i*0x28+0x1e) ef_num
+      READ_SHORT (ab_off+i*0x28+0x20) ef_ind
+      FOR (k=0;k<ef_num;k+=1) BEGIN
+        READ_SHORT (ef_off+(k+ef_ind)*0x30) opcode
+        PATCH_IF opcode=58 BEGIN
+          SET found_dispel=1
+          READ_LONG (ef_off+(k+ef_ind)*0x30+0x8) param
+          PATCH_IF param!=0 BEGIN                      // if dispel's power is level based then...
+            WRITE_SHORT (ef_off+(k+ef_ind)*0x30+0xa) 2 // ...items are dispelled as regular effects
+        //  END ELSE BEGIN                               // if level independant then...
+        //    WRITE_SHORT (ef_off+(k+ef_ind)*0x30+0xa) 1 // ...items are always dispelled
+          END
+        END
+        PATCH_IF (opcode=111) BEGIN
+          READ_ASCII (ef_off+(k+ef_ind)*0x30+0x14) resource (8) NULL
+          TO_UPPER resource
+          SET $item("%resource%") = 1
+        END
+      END
+    END
+    // kill 'remove item' opcode
+    // note: this one isn't very elegant, but the chance of it potentially ruining something seems too low
+    PATCH_IF found_dispel=1 && NOT ~%SOURCE_RES%~ STRING_EQUAL_CASE ~trollreg~ && NOT ~%SOURCE_RES%~ STRING_EQUAL_CASE ~cdtorgal~ BEGIN
+      SET opcode_to_delete = 112
+      LAUNCH_PATCH_MACRO DELETE_SPELL_EFFECT
+    END
+  END
+  BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    SET found_dispel=0
+    READ_LONG 0x64 ab_off
+    READ_SHORT 0x68 ab_num
+    READ_LONG 0x6a ef_off
+    FOR (i=0;i<ab_num;i+=1) BEGIN
+      READ_SHORT (ab_off+i*0x38+0x1e) ef_num
+      READ_SHORT (ab_off+i*0x38+0x20) ef_ind
+      FOR (k=0;k<ef_num;k+=1) BEGIN
+        READ_SHORT (ef_off+(ef_ind+k)*0x30) opcode
+        PATCH_IF opcode=58 BEGIN
+          SET found_dispel=1
+          READ_LONG (ef_off+(k+ef_ind)*0x30+0x8) param
+          PATCH_IF param!=0 BEGIN                      // if dispel's power is level based then...
+            WRITE_SHORT (ef_off+(k+ef_ind)*0x30+0xa) 2 // ...items are dispelled as regular effects
+        //  END ELSE BEGIN                               // if level independant then...
+        //    WRITE_SHORT (ef_off+(k+ef_ind)*0x30+0xa) 1 // ...items are always dispelled
+          END
+        END
+        PATCH_IF opcode=111 BEGIN
+          READ_ASCII (ef_off+(ef_ind+k)*0x30+0x14) resource (8) NULL
+          TO_UPPER resource
+          SET $item("%resource%") = 1
+        END
+      END
+    END
+    // kill 'remove item' opcode
+    PATCH_IF (found_dispel=1) BEGIN
+      SET opcode_to_delete = 112
+      LAUNCH_PATCH_MACRO DELETE_ITEM_EFFECT
+    END
+  END
+  BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.eff$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x109) BEGIN
+    READ_LONG 0x10 opcode
+    PATCH_IF opcode=58 BEGIN
+      READ_LONG 0x20 param
+      PATCH_IF param!=0 BEGIN
+        WRITE_SHORT 0x22 2
+    //  END ELSE BEGIN
+    //    WRITE_SHORT 0x22 1
+      END
+    END
+    PATCH_IF opcode=111 BEGIN
+      READ_ASCII 0x30 resource (8) NULL
+      TO_UPPER resource
+      SET $item("%resource%") = 1
+    END
+  END
+BUT_ONLY
+
+
+  
+// white list items that should be dispellable
+ACTION_FOR_EACH white IN
+
+  // magically created items
+  ~sblade~ // selune's blade (unused in vanilla, maybe some other mod restores it??)
+  ~eneblade~ // energy blades
+  ~blakblad~ // black blade of disaster
+  ~phanblad~ // phantom blade
+  ~melfmet~ // melf's minute meteors
+  ~sorb~ // sol's searing orb
+  ~fireseed~ // fire seeds
+  ~shammr~ // spiritual hammer
+  ~shammr2~
+  ~shammr3~
+  ~fblade~ // flame blade
+  ~shille~ // shillelagh
+  ~sw1hseek~ // priest of helm's seeking sword
+  
+  // 'touch' spells
+  ~ghoult~ // ghoul touch
+  ~chillt~ // chill touch
+  ~sgrasp01~ // shocking grasp
+  ~sgrasp02~
+  ~sgrasp03~
+  ~sgrasp04~
+  ~sgrasp05~
+  
+  // vanilla-specific
+  ~sgrasp06~
+  ~sgrasp07~
+  ~sgrasp08~
+  ~sgrasp09~
+  ~sgrasp10~
+  ~sgrasp11~
+  ~sgrasp12~
+  ~sgrasp13~
+  ~sgrasp14~
+  ~sgrasp15~
+  ~sgrasp16~
+  ~sgrasp17~
+  ~sgrasp18~
+  ~sgrasp19~
+  ~sgrasp20~
+  
+  // SR-specific
+  ~dvsquir~ // polymorph other (SR specific)
+  ~fblade1~
+  ~fblade2~
+  ~fblade3~
+  ~fblade4~
+  ~fblade5~
+  ~fblade6~
+  ~fblade7~
+  ~fblade8~
+  ~fblade9~
+  ~shammr4~
+  ~shammr5~
+  ~shille2~
+  ~shille3~
+  ~sorb12~
+  ~sorb13~
+  ~sorb14~
+  ~sorb15~
+  ~sorb16~
+  ~sorb17~
+  ~sorb18~
+  ~sorb19~
+  ~sorb20~
+  
+  // 'cause wounds' spells
+  /*
+  //~harm~ // harm
+  //~slaylive~ // slay living
+  //~critical~ // cause critical wounds
+  //~serious~ // cause serious wounds
+  */
+  
+BEGIN
+  ACTION_TO_UPPER white
+  OUTER_SET $item("%white%") = 0
+END
+  
+  
+// patching all found 'magical' items to non-dispellable state
+ACTION_PHP_EACH item AS item => patch BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%item%.itm~) && patch BEGIN
+    COPY_EXISTING ~%item%.itm~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        READ_BYTE  0x1b flags
+        WRITE_BYTE 0x1b (flags BOR 0b00000001)
+      END
+    BUT_ONLY
+  END
+END

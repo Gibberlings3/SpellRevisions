@@ -1,0 +1,234 @@
+INCLUDE ~spell_rev\lib\celestial_animations.tph~
+
+///////////////////////////////////////////////////
+
+// changes for planetars
+DEFINE_PATCH_MACRO ~PLANETAR_ANIMATION~ BEGIN
+  LAUNCH_PATCH_FUNCTION ~CELESTIAL_ANIMATIONS~
+    INT_VAR
+      animation = 0x6201 // mage_male_elf
+      metal_colour = 105
+      minor_colour = 25
+      major_colour = 105
+      skin_colour = 10
+      leather_colour = 105
+      armor_colour = 105
+      hair_colour = 25
+      battle_cry1_strref = 61729
+      battle_cry2_strref = (0 - 1)
+      damage_strref = 61730
+      dying_strref = 61731
+      hurt_strref = 61732
+      select_common1_strref = 61724
+      select_common2_strref = 61725
+      select_common3_strref = 61726
+    STR_VAR
+      armour = ~~
+  END
+END
+
+// changes for dark planetars
+DEFINE_PATCH_MACRO ~DARK_PLANETAR_ANIMATION~ BEGIN
+  LAUNCH_PATCH_FUNCTION ~CELESTIAL_ANIMATIONS~
+    INT_VAR
+      animation = 0x6211 // mage_female_elf
+      metal_colour = 28
+      minor_colour = 47
+      major_colour = 66
+      skin_colour = 21
+      leather_colour = 66
+      armor_colour = 28
+      hair_colour = 101
+      battle_cry1_strref = 61758
+      battle_cry2_strref = 61761
+      damage_strref = 55381
+      dying_strref = 55382
+      hurt_strref = (0 - 1)
+      select_common1_strref = 61759
+      select_common2_strref = (0 - 1)
+      select_common3_strref = (0 - 1)
+    STR_VAR
+      armour = ~dvplanea~
+  END
+END
+
+// changes for devas
+DEFINE_PATCH_MACRO ~DEVA_ANIMATION~ BEGIN
+  LAUNCH_PATCH_FUNCTION ~CELESTIAL_ANIMATIONS~
+    INT_VAR
+      animation = 0x6001 // cleric_male_elf
+      metal_colour = 105
+      minor_colour = 25
+      major_colour = 105
+      skin_colour = 10
+      leather_colour = 105
+      armor_colour = 105
+      hair_colour = 17
+      battle_cry1_strref = 61729
+      battle_cry2_strref = (0 - 1)
+      damage_strref = 61730
+      dying_strref = 61731
+      hurt_strref = 61732
+      select_common1_strref = 61724
+      select_common2_strref = 61725
+      select_common3_strref = 61726
+    STR_VAR
+      armour = ~dvdevaga~
+  END
+END
+
+// changes for fallen devas
+DEFINE_PATCH_MACRO ~FALLEN_DEVA_ANIMATION~ BEGIN
+  LAUNCH_PATCH_FUNCTION ~CELESTIAL_ANIMATIONS~
+    INT_VAR
+      animation = 0x6011 // cleric_female_elf
+      metal_colour = 27
+      minor_colour = 27
+      major_colour = 19
+      skin_colour = 21
+      leather_colour = 14
+      armor_colour = 19
+      hair_colour = 6
+      battle_cry1_strref = 61758
+      battle_cry2_strref = 61761
+      damage_strref = 55381
+      dying_strref = 55382
+      hurt_strref = (0 - 1)
+      select_common1_strref = 61759
+      select_common2_strref = (0 - 1)
+      select_common3_strref = (0 - 1)
+    STR_VAR
+      armour = ~dvdevaea~
+  END
+END
+
+// copy over items for wings, weapons, and armour
+COPY ~spell_rev\shared\wings~ ~override~
+ACTION_IF (NOT MOD_IS_INSTALLED ~setup-spell_rev.tp2~ 0) BEGIN
+  COPY ~spell_rev\spwi9##\dvplanga.itm~ ~override~
+  COPY ~spell_rev\spwi9##\dvplangw.itm~ ~override~
+  COPY ~spell_rev\spwi9##\dvplanea.itm~ ~override~
+  COPY ~spell_rev\spwi9##\dvplanew.itm~ ~override~
+  COPY ~spell_rev\sppr7##\dvdevaga.itm~ ~override~
+  COPY ~spell_rev\sppr7##\dvdevagw.itm~ ~override~
+  COPY ~spell_rev\sppr7##\dvdevaea.itm~ ~override~
+  COPY ~spell_rev\sppr7##\dvdevaew.itm~ ~override~
+END
+
+// patch weapons to use real animations
+COPY_EXISTING ~dvplangw.itm~ ~override~
+              ~dvplanew.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    WRITE_ASCII 0x22 ~S2~ // two-handed sword
+  END
+  BUT_ONLY
+
+COPY_EXISTING ~dvdevaew.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    WRITE_ASCII 0x22 ~FS~ // flaming sword
+  END
+  BUT_ONLY
+
+COPY_EXISTING ~dvdevagw.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    WRITE_ASCII 0x22 ~MC~ // mace
+  END
+  BUT_ONLY
+
+// patch creatures
+COPY_EXISTING ~planevil.cre~ ~override~ // Dark Planetar
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    LAUNCH_PATCH_MACRO ~DARK_PLANETAR_ANIMATION~
+    REPLACE_CRE_ITEM ~dvplanew~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP TWOHANDED
+  END
+  BUT_ONLY
+
+COPY_EXISTING ~devaevil.cre~ ~override~ // Fallen Deva
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    LAUNCH_PATCH_MACRO ~FALLEN_DEVA_ANIMATION~
+    REPLACE_CRE_ITEM ~dvdevaew~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+  END
+  BUT_ONLY
+
+COPY_EXISTING ~plangood.cre~ ~override~ // Planetar
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    LAUNCH_PATCH_MACRO ~PLANETAR_ANIMATION~
+    REPLACE_CRE_ITEM ~dvplangw~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP TWOHANDED
+  END
+  BUT_ONLY
+
+COPY_EXISTING ~devagood.cre~ ~override~ // Deva
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    LAUNCH_PATCH_MACRO ~DEVA_ANIMATION~
+    REPLACE_CRE_ITEM ~dvdevagw~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+  END
+  BUT_ONLY
+
+// p&p celestials compatibility
+ACTION_IF (MOD_IS_INSTALLED ~setup-celestials.tp2~ 0) BEGIN
+  // patch weapons to use real animations
+  COPY_EXISTING ~ca#planw.itm~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      WRITE_ASCII 0x22 ~S2~ // two-handed sword
+    END
+    BUT_ONLY
+  
+  COPY_EXISTING ~ca#asdm.itm~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      WRITE_ASCII 0x22 ~MC~ // mace
+      // fix colour glow so that it looks awesomer :)
+      READ_LONG   0x6a effects_off
+      READ_SHORT  0x70 num_effects
+      FOR (i = 0; i < num_effects; i += 1) BEGIN
+        READ_SHORT (effects_off + 0x30*i) opcode
+        PATCH_IF (opcode == 9) BEGIN // color glow pulse
+          READ_SHORT (effects_off + 0x30*i + 0x0a) cycle_speed
+          PATCH_IF (cycle_speed == 0) BEGIN
+            WRITE_SHORT (effects_off + 0x30*i + 0x0a) 110
+          END
+        END
+      END
+    END
+    BUT_ONLY
+  
+  COPY_EXISTING ~ca#monrd.itm~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      WRITE_ASCII 0x22 ~QS~ // quarterstaff
+    END
+    BUT_ONLY
+  
+  COPY_EXISTING ~ca#movsw.itm~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      WRITE_ASCII 0x22 ~FS~ // flaming sword
+    END
+    BUT_ONLY
+  
+  // patch creatures
+  COPY_EXISTING ~ca#plan.cre~ ~override~ // Planetar
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      LAUNCH_PATCH_MACRO ~PLANETAR_ANIMATION~
+      // re-equipping weapon as it's now 2-handed
+      REPLACE_CRE_ITEM ~ca#planw~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP TWOHANDED
+    END
+    BUT_ONLY
+  
+  COPY_EXISTING ~ca#dastr.cre~ ~override~ // Astral Deva
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      LAUNCH_PATCH_MACRO ~DEVA_ANIMATION~
+    END
+    BUT_ONLY
+  
+  COPY_EXISTING ~ca#dmond.cre~ ~override~ // Monadic Deva
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      LAUNCH_PATCH_MACRO ~DEVA_ANIMATION~
+      // re-equipping weapon as it's now 2-handed
+      REPLACE_CRE_ITEM ~ca#monrd~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP TWOHANDED
+    END
+    BUT_ONLY
+  
+  COPY_EXISTING ~ca#dmova.cre~ ~override~ // Movanic Deva
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      LAUNCH_PATCH_MACRO ~DEVA_ANIMATION~
+    END
+    BUT_ONLY
+END

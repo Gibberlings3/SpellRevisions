@@ -41,10 +41,10 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
-When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 1d8 + 1/level points of damage sustained by the target creature (up to a maximum of 1d8+5). This healing cannot affect creatures without corporeal bodies, nor can it cure wounds of creatures not living or of extraplanar origin.~
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 1d8 + 1/level points of damage sustained by the target creature (up to a maximum of 1d8+10).~
 
-@7=~Detect Evil~
-@8=~Detect Evil
+@7=~Detect Alignment~
+@8=~Detect Alignment
 Level: 1
 School: Divination
 Sphere: Divination
@@ -54,7 +54,7 @@ Casting Time: 1
 Area of Effect: Special
 Saving Throw: None
 
-This spell discovers emanations of evil from any creature. Upon the casting of this spell, all evil creatures within the current area will glow red briefly. Magic resistance does not affect this spell.~
+This spell allows the priestd to search out the feelings of all creatures within the current area. When affected by this spell, a target will briefly glow red if he's evil, green if he's good, and white if he's neutral. Magic resistance does not affect this spell.~
 
 @9=~Entangle~
 @10=~Entangle
@@ -75,12 +75,12 @@ Level: 1
 School: Enchantment
 Sphere: Combat
 Range: Personal
-Duration: 5 turns
-Casting Time: 5
+Duration: 2 turns
+Casting Time: 1
 Area of Effect: Special
 Saving Throw: None
 
-Using this spell, the priest can temporarily enchant ten small stones, no larger than sling bullets. The character using them can then hurl up to three stones per round at an opponent, with a +1 bonus to attack rolls. Each stone that hits inflicts 1d4+2 points of damage (1d4+5 against undead), and is considered to be of +1 enchantment to determine what it can hit. The magic in each stone expires after one hour or when used.~
+Using this spell, the priest can temporarily enchant ten small stones, no larger than sling bullets. The character using them can then hurl up to three stones per round at an opponent, with a +1 bonus to attack rolls. Each stone that hits inflicts 1d4+2 points of damage (1d4+5 against undead), and is considered to be of +1 enchantment to determine what it can hit. The magic in each stone expires after 2 turns or when used.~
 
 @1030=~This stone has been enchanted by the Magical Stone spell.~
 
@@ -108,7 +108,7 @@ Casting Time: 1
 Area of Effect: 30' radius
 Saving Throw: None
 
-The priest instills courage in the spell recipients, raising their morale to its highest. If the recipients are affected by magical fear, this is negated. In addition, the recipients are protected from magical fear for the duration of the spell. At the instant the spell is completed, it affects all creatures in a 30 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
+The caster instills courage in the spell recipients, raising their morale to its highest. If the recipients are affected by magical fear, this is negated. In addition, the recipients are protected from magical fear for the duration of the spell. At the instant the spell is completed, it affects all creatures in a 30 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
 
 @17=~Sanctuary~
 @18=~Sanctuary
@@ -116,8 +116,8 @@ Level: 1
 School: Abjuration
 Sphere: Charm, Protection
 Range: Personal
-Duration: 1 turn
-Casting Time: 5
+Duration: 6 rounds
+Casting Time: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -134,7 +134,7 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-This spell enables the caster to create a magical cudgel. The shillelagh inflicts 1d6+1 points of damage on a successful hit and causes tendrils to wrap around and hold the defender in place for one round unless a save vs. breath is made. The character using the shillelagh wields it as if it was a club, but suffers no penalty for non-proficiency. At level 1, it functions as a magical weapon with an enchantment bonus of +1. For every six experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 12th-level caster. The shillelagh can be used only by the caster, and remains in his hand for the duration of the spell or until dispelled.~
+This spell enables the caster to create a magical cudgel. The shillelagh inflicts 2d4+1 points of damage on a successful hit and causes tendrils to wrap around and hold the victim in place for one round unless a save vs. breath is made. The caster wields the shillelagh as if proficient with the weapon, at his normal THAC0. At level 1, it functions as a magical weapon with an enchantment bonus of +1. For every other four experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 9th-level caster. The shillelagh can be used only by the caster, and remains in his hand for the duration of the spell or until dispelled.~
 
 @21=~Armor of Faith~
 @22=~Armor of Faith
@@ -142,12 +142,12 @@ Level: 1
 School: Abjuration
 Sphere: Protection
 Range: Personal
-Duration: 1 turn
+Duration: 5 turns
 Casting Time: 1
 Area of Effect: Caster
 Saving Throw: None
 
-The caster of the Armor of Faith receives significant protection against melee and missile attacks. This magical armor is a force of energy that absorbs a portion of the damage intended for the caster, effectively reducing the damage sustained by 20%. Multiple castings of this spell are not cumulative.~
+The caster of the Armor of Faith receives significant protection against physical and magic damage. This magical armor is a force of energy that absorbs a portion of the damage intended for the caster, effectively reducing the damage sustained by 10%. Multiple castings of this spell are not cumulative.~
 
 @23=~Doom~
 @24=~Doom
@@ -208,9 +208,9 @@ Range: Long
 Duration: Instant
 Casting Time: 5
 Area of Effect: 1 creature
-Saving Throw: Spell partial
+Saving Throw: Breath partial
 
-When this spell is cast, a brilliant ray of scorching heat slants down from the sky and strikes one target of the caster's choice. The creature struck by the ray sustains 1d6 points of damage plus 1 point per caster level (up to a maximum of 1d6+20). Undead creatures and monsters vulnerable to bright light instead suffer 1d6 points of damage plus 2 points per level of the caster (up to a maximum of 1d6+40). If the victim successfully rolls a saving throw vs. spell he will receive only half damage. In addition to sustaining damage, victims who fail their saves are blinded for 3 rounds.~
+When this spell is cast, a brilliant ray of scorching heat slants down from the sky and strikes one target of the caster's choice. The creature struck by the ray sustains 2d6 points of fire damage plus 1d6 every two extra levels of experience (up to a maximum of 6d6). Undead creatures and monsters vulnerable to bright light suffer double damage (up to a maximum of 12d6). If the target successfully rolls a saving throw vs. breath he will receive only half damage. In addition to sustaining damage, victims who fail their saves are blinded for 1 round.~
 
 
 /*-------------------level 2---------------------*/
@@ -234,12 +234,12 @@ Level: 2
 School: Alteration
 Sphere: Plant
 Range: Touch
-Duration: 1 turn/level
+Duration: 5 turns
 Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
-When a priest casts the Barkskin spell upon a creature, its skin becomes as tough as bark, improving its Armor Class by 1, plus 1 AC for every three levels of the caster (up to a maximum of +4 AC at 9th level). Multiple castings of this spell are not cumulative.~
+When a priest casts the Barkskin spell upon a creature, its skin becomes as tough as bark, improving its Armor Class by 2, plus 1 AC for every other six levels of the caster (up to a maximum of +4 AC at 15th level). Multiple castings of this spell are not cumulative.~
 
 @35=~Chant~
 @36=~Chant
@@ -267,7 +267,7 @@ Saving Throw: Spell negates
 
 This spell affects any single person or animal it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, kobolds, and others. Only normal and giant sized animals are affected by this spell. Monsters such as wyverns, ankhegs, and carrion crawlers do not count as animals.
 
-The target receives a saving throw vs. spell at -1 to avoid the effect. If the recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible. If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a dispel magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
+The target receives a saving throw vs. spell at to avoid the effect. If the recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible. If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a dispel magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
 
 @39=~Find Traps~
 @40=~Find Traps
@@ -293,11 +293,11 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-With this spell, the caster causes a blazing ray of red-hot fire to spring forth from his hand. This blade-like ray is wielded as if it was a scimitar, but the character using it will suffer no penalty for non-proficiency. The blade deals 1d8 points of fire damage plus 1 for every level of the caster (up to a maximum of 1d8+10). Since the blade is immaterial, strength modifiers do not apply to attack rolls or damage, and attacks with the flame blade are considered melee touch attacks (+4 attack roll bonus). The blade is considered to be of +1 enchantment when determining what it can hit. A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.~
+With this spell, the caster causes a blazing ray of red-hot fire to spring forth from his hand. The caster wields this blade-like ray as if proficient with the weapon, at his normal THAC0. At level 3, it functions as a magical weapon, dealing 2d6+1 points of fire damage, with an enchantment bonus of +1. For every other three experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 9th-level caster. Since the blade is immaterial, strength modifiers do not apply to attack rolls or damage, and attacks with the flame blade are considered melee touch attacks (+4 attack roll bonus).~
 
 @43=~Goodberry~
 @44=~Goodberry
-Level: 2
+Level: 1
 School: Alteration
 Sphere: Plant
 Range: Personal
@@ -306,7 +306,7 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-Casting a Goodberry spell creates 5 magical berries that the caster can carry with him or give to others. These berries initially cure 1 point of physical damage for each one eaten. For every three levels of experience, the berries heal one additional point of damage (to a maximum of 7 points at level 18). The berries last for 24 hours, or until eaten.~
+Casting a Goodberry spell creates 5 magical berries that the caster can carry with him or give to others. These berries initially cure 1 point of physical damage for each one eaten. For every three levels of experience, the berries heal one additional point of damage (to a maximum of 7 points at level 18). The berries last for 8 hours, or until eaten.~
 
 @1032=~Created by the Goodberry spell, this simple-looking berry will heal one point of damage.~
 @1033=~Created by the Goodberry spell, this simple-looking berry will heal two points of damage.~
@@ -327,7 +327,7 @@ Casting Time: 5
 Area of Effect: Target, and enemies within 5'
 Saving Throw: Spell negates
 
-This spell holds one or more humans, demihumans, or humanoid creatures rigidly immobile and in place for one turn. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also affected. Those who succeed at a saving throw vs. spell at -1 are totally unaffected by the spell. Undead creatures cannot be held with this spell.
+This spell holds one or more humans, demihumans, or humanoid creatures rigidly immobile and in place for one turn. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also affected. Those who succeed at a saving throw vs. spell are totally unaffected by the spell. Undead creatures cannot be held with this spell.
 
 Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
 
@@ -342,20 +342,20 @@ Casting Time: 1 round
 Area of Effect: 1 creature
 Saving Throw: None
 
-When this spell is cast, the priest's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
+When this spell is cast, the caster's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
 
-@49=~Resist Fire and Cold~
-@50=~Resist Fire and Cold
+@49=~Resist Elements~
+@50=~Resist Elements
 Level: 2
-School: Alteration
+School: Abjuration
 Sphere: Protection
 Range: Touch
 Duration: 1 turn + 1 round/level
-Casting Time: 5
+Casting Time: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
-When this spell is cast upon a creature by a priest, the creature's body is toughened to withstand heat and cold. The recipient can somewhat resist intense heat or cold (whether natural or magical in origin), such as red-hot charcoal, a large amount of burning oil, flaming swords, fireballs, burning hands, or wands of frost. In all of these cases, the temperature affects the creature to some extent. The recipient has all damage sustained by fire or cold reduced by 50%. Multiple castings of this spell are not cumulative.~
+Upon the casting of this spell, the recipient's resistance to all forms of elemental damage is increased by 25%. This effect will last for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
 
 @51=~Silence~
 @52=~Silence
@@ -363,12 +363,12 @@ Level: 2
 School: Alteration
 Sphere: Guardian
 Range: Long
-Duration: 2 rounds/level
+Duration: 1 turn
 Casting Time: 5
 Area of Effect: 15' radius
 Saving Throw: Spell negates
 
-Upon casting this spell, complete silence prevails in the affected area. All sound is stopped: conversation is impossible and spells cannot be cast unless an affected spellcaster then casts Vocalize. All enemies in the area must make a saving throw vs. spell at -1; if the save is failed, then they are silenced for the duration of the spell. At the instant the spell is completed, it affects all creatures in a 15 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
+Upon casting this spell, complete silence prevails in the affected area. All sound is stopped: conversation is impossible and spells cannot be cast unless an affected spellcaster then casts Vocalize. All enemies in the area must make a saving throw vs. spell at -4; if the save is failed, then they are silenced for the duration of the spell. At the instant the spell is completed, it affects all creatures in a 15 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
 
 @53=~Slow Poison~
 @54=~Slow Poison
@@ -407,7 +407,7 @@ Casting Time: 2
 Area of Effect: Caster
 Saving Throw: None
 
-When this spell is cast, the priest's body shudders and glows with a shimmering aura as it becomes a vessel for the power of his god. When he does this, his strength, dexterity, and constitution scores are raised by 1 point for every 3 levels of the caster, to a maximum of 6 points at level 18. A third level caster would have his abilities raised by 1, while a 12th level caster would have all his abilities raised by 4. When the spell ends, the caster becomes fatigued for 5 rounds, receiving penalties of -2 to hit, damage, armor class, and casting speed factor. This spell is not cumulative with itself or with other similar spells.~
+When this spell is cast, the priest's body shudders and glows with a shimmering aura as it becomes a vessel for the power of his god. When he does this, his strength, dexterity, and constitution scores are raised by 1 point for every 3 levels of the caster, to a maximum of 3 points at level 9. This spell is not cumulative with itself or with other similar spells.~
 
 @59=~Cure Moderate Wounds~
 @60=~Cure Moderate Wounds
@@ -420,7 +420,7 @@ Casting Time: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
-When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 2d8 + 1/level points of damage sustained by the target creature (up to a maximum of 2d8+10). This healing cannot affect creatures without corporeal bodies, nor can it cure wounds of creatures not living or of extraplanar origin.~
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 2d8 + 2/level points of damage sustained by the target creature (up to a maximum of 2d8+20).~
 
 @61=~Fire Trap~
 @62=~Fire Trap
@@ -429,13 +429,13 @@ School: Abjuration
 Sphere: Elemental (Fire)
 Range: Short
 Duration: Special
-Casting Time: 1 round
+Casting Time: 5
 Area of Effect: 20' radius
 Saving Throw: Breath half
 
 This powerful trap harms those who enter, pass, or open the selected area or object. It can be used to guard a small bridge, to ward an entry, or as a trap on a chest or box. Any enemy violating the selected area will trigger the trap.
 
-When the spell is cast, the druid weaves a tracery of faintly glowing lines around the warding sigil. When a hostile creature comes within 15 feet of the trap, it is triggered and explodes, damaging every enemy within a 20 foot radius. The damage inflicted is equal to 1d4 points of fire damage per level of the caster (up to a maximum of 10d4). Those who a roll successful saving throw vs. breath at -1 will receive only half damage. This spell will not harm party members.~
+When the spell is cast, the druid weaves a tracery of faintly glowing lines around the warding sigil. When a hostile creature comes within 15 feet of the trap, it is triggered and explodes, damaging every enemy within a 20 foot radius. The damage inflicted is equal to 1d4 points of fire damage per level of the caster (up to a maximum of 10d4). Those who a roll successful saving throw vs. breath will receive only half damage. This spell will not harm party members.~
 
 
 /*-----------------------level 3-------------------------*/
@@ -456,8 +456,7 @@ This spell causes a number of animated skeletons to rise up and serve the priest
 5th : 2 skeletons
 7th : 3 skeletons
 9th : 4 skeletons
-12th : 2 greater skeletons
-15th+ : 1 skeleton warrior
+12th+ : 2 greater skeletons
 
 The undead creatures will remain under the priest's control until they are slain or the spell duration expires.
 
@@ -480,18 +479,6 @@ HP 60, AC 4, THAC0 16, Saving Throws 9/11/10/12/12
 Special Qualities:
 Immune to charm, confusion, hold, poison, sleep, stun, & death effects
 Cold Resistance 100%
-Slashing & Piercing Resistance 40%; Missile Resistance 60%
-
-
-Skeleton Warrior (9 Hit Dice):
-STR 18/51, DEX 14, CON -, INT 15, WIS 14, CHA 12;  AL Neutral Evil
-HP 108, AC 2, THAC0 11, Saving Throws 5/7/6/5/8
-2 Attacks Per Round, 2d6+4 Slashing Damage (Two-Handed Sword +1)
-
-Special Qualities:
-Immune to normal weapons
-Immune to charm, confusion, hold, poison, sleep, stun, & death effects
-Cold Resistance 100%; Magic Resistance 90%
 Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
 @73=~Call Lightning~
@@ -529,13 +516,13 @@ School: Abjuration
 Sphere: Guardian
 Range: Short
 Duration: Special
-Casting Time: 1 round
+Casting Time: 5
 Area of Effect: 20' radius
 Saving Throw: Breath half
 
 A glyph of warding is a powerful inscription magically drawn to prevent unauthorized or hostile creatures from passing, entering, or opening. It can be used to guard a small bridge, to ward an entry, or as a trap on a chest or box. Any enemy violating the warded area will trigger the trap.
 
-When the spell is cast, the priest weaves a tracery of faintly glowing lines around the warding sigil. When a hostile creature comes within 15 feet of the glyph, it is triggered and explodes, damaging every enemy within a 20 foot radius. The damage inflicted is equal to 1d4 points of electrical damage per level of the caster (up to a maximum of 10d4). Those who a roll successful saving throw vs. breath at -2 will receive only half damage. This spell will not harm party members.~
+When the spell is cast, the priest weaves a tracery of faintly glowing lines around the warding sigil. When a hostile creature comes within 15 feet of the glyph, it is triggered and explodes, damaging every enemy within a 20 foot radius. The damage inflicted is equal to 1d4 points of electrical damage per level of the caster (up to a maximum of 10d4). Those who a roll successful saving throw vs. breath will receive only half damage. This spell will not harm party members.~
 
 @79=~Hold Person or Animal~
 @80=~Hold Person or Animal
@@ -576,7 +563,7 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
-Upon casting this spell, the priest is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from magical sleep, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
+Upon casting this spell, the priest is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
 
 @85=~Remove Paralysis~
 @86=~Remove Paralysis
@@ -628,7 +615,7 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: Poison negates
 
-This spell causes a major disease and weakness in a creature. The afflicted individual is immediately stricken with painful and distracting symptoms: boils, blotches, lesions, seeping abscesses, and so on. Strength, dexterity, constitution, and charisma are reduced by 2, and the afflicted character is slowed. The target of this spell must make a saving throw vs. poison at -2 to avoid being infected, or the spell will persist until the creature receives a Cure Disease spell, or the spell duration expires.~
+This spell causes a major disease and weakness in a creature. Every 2 rounds the afflicted individual must make a saving throw vs. poison at -2 or suffer additional -2 penalty to strength, dexterity, constitution, and charisma (up to -6 to all stats). The effects of this spell will persist until the creature receives a Cure Disease spell, or the spell duration expires.~
 
 @93=~Strength of One~
 @94=~Strength of One
@@ -654,7 +641,7 @@ Casting Time: 3
 Area of Effect: 20' radius
 Saving Throw: Special
 
-This spell calls upon energy from the Plane of Brilliance in order to open a channel between it and the targets. The result is that evil creatures within the spell's area of effect take 1d4 points of damage for every level of the caster (up to a maximum of 10d4), with a successful saving throw vs. spell at -2 for half. If the victim fails his save, then he will also be blinded for 1 round.~
+With this spell the priest draws down holy power to smite his enemies. Opponents within the spell's area of effect take 1d4 points of damage for every level of the caster (up to a maximum of 10d4), with a successful saving throw vs. spell for half. If the victim fails his save, then he will also be blinded for 1 round.~
 
 @97=~Unholy Blight~
 @98=~Unholy Blight
@@ -667,7 +654,7 @@ Casting Time: 3
 Area of Effect: 20' radius
 Saving Throw: Special
 
-This spell calls upon energy from the Negative Material Plane in order to open a channel between it and the targets. The result is that good creatures within the spell's area of effect take 1d4 points of damage for every level of the caster (up to a maximum of 10d4), with a successful saving throw vs. spell at -2 for half. If the victim fails his save, then he will also receive a -2 penalty on his attack rolls and saving throws for 4 rounds.~
+With this spell the priest calls up unholy power to smite his enemies. The power takes the form of a chilling, cloying miasma of darkness. Opponents within the spell's area of effect take 1d4 points of damage for every level of the caster (up to a maximum of 10d4), with a successful saving throw vs. spell for half. If the victim fails his save, then he will also receive a -2 penalty on his attack rolls and saving throws for 4 rounds.~
 
 @99=~Cure Disease~
 @100=~Cure Disease
@@ -704,39 +691,26 @@ School: Conjuration
 Sphere: Animal
 Range: Long
 Duration: 6 rounds
-Casting Time: 1 round
+Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Special
 
 The Summon Insects spell attracts a cloud or swarm of normal insects to attack one enemy of the caster. This swarm gathers at a point chosen by the caster, within the spell's range, and attacks a single creature the caster points to.
 
-For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, has a 100% chance of spell failure, and must make saving throws vs. death or run away in fear. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty.~
-
-@105=~Repulse Undead~
-@106=~Repulse Undead
-Level: 3
-School: Abjuration
-Sphere: Necromantic
-Range: Personal
-Duration: 1 turn
-Casting Time: 4
-Area of Effect: 6' radius
-Saving Throw: None
-
-This spell creates waves of positive energy that sweep outwards from the caster. This wave disrupts any undead that attempt to attack the caster, pushing them away from the caster for several seconds. There is one wave each round for the duration of the spell. All undead are affected, without a saving throw.~
+For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, and has a 100% chance of spell failure. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
 
 @107=~Cause Serious Wounds~
 @108=~Cause Serious Wounds
 Level: 3
 School: Necromancy
-Sphere: Healing
+Sphere: Necromantic
 Range: Personal
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
-This spell is the reverse of Cure Serious Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 3d8+15 points of damage upon the target. The spell expires once the priest attempts a melee attack or after 3 rounds have passed. The priest gains a +4 bonus to hit the target.~
+This spell is the reverse of Cure Serious Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 3d8 + 3/level points of damage upon the target (up to a maximum of 3d8+30). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
 
 @109=~Cure Serious Wounds~
 @110=~Cure Serious Wounds
@@ -749,20 +723,20 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
-When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 3d8 + 1/level points of damage sustained by the target creature (up to a maximum of 3d8+15). This healing cannot affect creatures without corporeal bodies, nor can it cure wounds of creatures not living or of extraplanar origin.~
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 3d8 + 3/level points of damage sustained by the target creature (up to a maximum of 3d8+30).~
 
 @1109=~Storm Shield~
 @1110=~Storm Shield
 Level: 3
 School: Abjuration
-Sphere: Weather
+Sphere: Weather, Elemental (Air)
 Range: Personal
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Caster
 Saving Throw: None
 
-This spell surrounds the caster with a dark shell of disruptive energy that moves with him. The storm shell grants 50% resistance to fire, cold, and electricity. Non-magical missiles cannot penetrate the barrier.~
+This spell surrounds the caster with an invisible curtain of stormy winds that moves with him. The wind wall grants the caster +4 bonus to saves vs. breath and AC against missiles for the duration of the spell. Non-magical missile weapons are deflected away, while gases cannot penetrate the barrier. Tiny and small flying creatures cannot pass through.~
 
 
 /*------------------level 4------------------*/
@@ -778,10 +752,10 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: None
 
-When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 4d8 + 1/level points of damage sustained by the target creature (up to a maximum of 4d8+20). This healing cannot affect creatures without corporeal bodies, nor can it cure wounds of creatures not living or of extraplanar origin.~
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 4d8 + 4/level points of damage sustained by the target creature (up to a maximum of 4d8+40).~
 
-@113=~Animal Summoning I~
-@114=~Animal Summoning I
+@113=~Animal Summoning IV~
+@114=~Animal Summoning IV
 Level: 4
 School: Conjuration
 Sphere: Animal
@@ -793,17 +767,18 @@ Saving Throw: None
 
 By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
-7th : 2 dire wolves
-9th : 3 dire wolves
-11th : 4 dire wolves
-13th+ : 5 dire wolves
+7th : 2 leopards
+9th+ : 3 leopards
 
 The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
 
-Dire Wolf (4 Hit Dice):
-STR 17, DEX 15, CON 17, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 44, AC 6, THAC0 15, Saving Throws 13/15/14/16/16
-1 Attack Per Round, 1d6+2 Piercing Damage (Bite +1)~
+Leopard (4 Hit Dice):
+STR 16, DEX 18, CON 15, INT 6, WIS 13, CHA 6;  AL Neutral
+HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
+2 Attacks Per Round, 1d6+1 Piercing Damage (Claws & Bite)
+
+Combat Abilities:
+Pounce: can charge a target if at least 6 feet away. During that round the leopard moves at double speed, attacks with a +2 bonus to hit and damage rolls, but suffers a -2 penalty to AC~
 
 @115=~Free Action~
 @116=~Free Action
@@ -842,7 +817,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
-When cast upon a subject, he must make a save vs. spell at -3 in order to avoid the priest entering his mind. The effects of this spell are similar to the 5th level wizard spell Domination, with a few minor differences. Most notably, this spell gives the priest no access to the subject's thoughts, memory, or sensory apparatus. The priest simply is able to command the subject to perform certain tasks or functions during the spell duration. To control the subject, the priest must be within range and must be able to see the subject. This control will last until dispelled or for the duration of the spell.~
+When cast upon a subject, he must make a save vs. spell at -2 in order to avoid the priest entering his mind. The effects of this spell are similar to the 5th level wizard spell Domination, with a few minor differences. Most notably, this spell gives the priest no access to the subject's thoughts, memory, or sensory apparatus. The priest simply is able to command the subject to perform certain tasks or functions during the spell duration. To control the subject, the priest must be within range and must be able to see the subject. This control will last until dispelled or for the duration of the spell.~
 
 @121=~Defensive Harmony~
 @122=~Defensive Harmony
@@ -918,7 +893,7 @@ Spell Memorized:
 1° Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
 2° Barkskin, Charm Person or Animal (x2), Resist Fire and Cold, Slow Poison
 3° Call Lightning, Hold Person or Animal, Summon Insects
-4° Animal Summoning I~
+4° Animal Summoning IV~
 
 @131=~Poison~
 @132=~Poison
@@ -938,7 +913,7 @@ Through this spell, the caster can poison a single victim. The damage dealt by t
 12th level:  6d6  +  1 every 2 seconds
 15th+ level:  8d8  +  1 every 1 second
 
-The victim cannot avoid the initial damage unless it is completely immune to the effects of poison, but a successful save vs. poison at -3 will negate the ongoing damage.~
+The victim cannot avoid the initial damage unless it is completely immune to the effects of poison, but a successful save vs. poison at -2 will negate the ongoing damage.~
 
 @133=~Divine Power~
 @134=~Divine Power
@@ -961,25 +936,25 @@ Level: 4
 School: Abjuration
 Sphere: Necromantic, Protection
 Range: Touch
-Duration: 1 turn/level
+Duration: 5 turns
 Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
-This spell affords the recipient partial protection from monsters with Negative Energy plane connections (such as vampires) and certain weapons and spells that drain energy levels. The Negative Plane Protection spell opens a channel to the Positive Energy plane, largely negating the effects of a negative energy attack. A protected creature struck by a negative energy attack is protected against any form of level draining for the duration of the spell, though they will still suffer normal hit point damage from level draining attacks, if applicable. This spell cannot be cast on the Negative Energy plane.~
+When a Negative Plane Protection spell is cast, the recipient receives complete protection from negative energy attacks. This spell also affords the recipient partial protection from monsters with Negative Energy plane connections (such as vampires) and certain weapons and spells that drain levels. A protected creature is immune to any form of level draining for the duration of the spell, though they will still suffer normal hit point damage from the physical attacks, if applicable.~
 
 @137=~Cause Critical Wounds~
 @138=~Cause Critical Wounds
 Level: 4
 School: Necromancy
-Sphere: Healing
+Sphere: Necromantic
 Range: Personal
 Duration: Special
 Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: None
 
-This spell is the reverse of Cure Critical Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 4d8+20 points of damage upon the target. The spell expires once the priest attempts a melee attack or after 4 rounds have passed. The priest gains a +4 bonus to hit the target.~
+This spell is the reverse of Cure Critical Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 4d8 + 4/level points of damage upon the target (up to a maximum of 4d8+40). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
 
 @139=~Farsight~
 @140=~Farsight
@@ -987,7 +962,7 @@ Level: 4
 School: Divination
 Sphere: Divination
 Range: Personal
-Duration: 3 rounds + 1 round/level
+Duration: 5 turns
 Casting Time: 4
 Area of Effect: Special
 Saving Throw: None
@@ -1000,12 +975,12 @@ Level: 4
 School: Conjuration
 Sphere: Charm
 Range: Personal
-Duration: 1 round/2 levels
+Duration: 1 turn
 Casting Time: 1
 Area of Effect: 6' radius
 Saving Throw: Special
 
-Cloak of Fear empowers the caster to radiate a personal aura of fear out to a 6' radius. Each round, all enemies within this aura must roll a successful saving throw vs. spell at -3 or run away in panic for 1 round. Party members are immune to the effects, although the aura of fear may still disturb them.~
+Cloak of Fear empowers the caster to radiate a personal aura of fear out to a 6' radius. All enemies not immune to fear within this aura suffer -2 penalty to attack rolls, and each round they must roll a successful saving throw vs. spell or run away in panic for 1 round. Party members are immune to the effects of the aura.~
 
 @143=~Lesser Restoration~
 @144=~Lesser Restoration
@@ -1038,8 +1013,8 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 
 /*------------------level 5------------------*/
 
-@151=~Animal Summoning II~
-@152=~Animal Summoning II
+@151=~Animal Summoning V~
+@152=~Animal Summoning V
 Level: 5
 School: Conjuration
 Sphere: Animal
@@ -1051,19 +1026,21 @@ Saving Throw: None
 
 By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
-9th : 2 dire leopards
-12th : 3 dire leopards
-15th+ : 4 dire leopards
+9th : 2 giant snakes
+11th+ : 3 giant snakes
 
 The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
 
-Dire Leopard (7 Hit Dice):
-STR 19, DEX 15, CON 17, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 77, AC 5, THAC0 10, Saving Throws 10/12/11/12/13
-2 Attacks Per Round, 1d8+8 Piercing Damage (Claws & Bite +1)
+Giant Snake (5 Hit Dice):
+STR 15, DEX 17, CON 11, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
+1 Attack Per Round, 1d4 Piercing Damage (Bite)
 
 Combat Abilities:
-Pounce: can charge a target if at least 6 feet away. During that round the leopard moves at double speed, attacks with a +2 bonus to hit and damage rolls, but suffers a -2 penalty to AC.~
+Poison: inflicts 1d6 damage on each hit and additional 1 point ever 3 seconds for 1 turn on a failed save vs. poison
+
+Special Qualities
+Immune to entangle, grease, web and poison effects~
 
 @1040=~Dire Leopard~
 
@@ -1127,12 +1104,12 @@ Sphere: All
 Range: Personal
 Duration: 1 turn
 Casting Time: 5
-Area of Effect: 30' radius
+Area of Effect: Special
 Saving Throw: None
 
-When this spell is cast, an area roughly 30 feet in radius around the caster will be affected. Instantly and once each round for 1 turn after the spell is cast, all hostile illusion/phantasm spells in the area of effect will be dispelled. This spell only affects one's enemies. Magic resistance does not affect this spell.
+When this spell is cast, the caster gains the ability to see the exact locations of creatures or objects under displacement or invisibility effects, and see through illusions. This effectively neutralize spells such as Blur and Mirror Image, allow the caster to see and target invisible creatures normally, and make him unaffected by hostile illusion spells such as Spook. The caster is also cured from any form of blindness and is immune to it for the duration of the spell.
 
-The spells that are affected by this are: Reflected Image, Invisibility, Blur, Mirror Image, Ghost Armor, Invisibility Sphere, Improved Invisibility, Shadow Door, Pixie Dust, Mislead, Project Image, and Mass Invisibility.~
+Note: True Seeing does not dispel illusionary clones such as those conjured by Mislead or Simulacrum, but instead clearly highlights them, revealing them as deceptions.~
 
 @161=~Stoneskin~
 @162=~Stoneskin
@@ -1212,7 +1189,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Spell partial
 
-Upon casting this spell, the priest has to touch an opponent in order to visit the effect upon them. On a successful touch from the priest, the victim is instantly killed unless a saving throw vs. spell at -4 is made. Even then, the victim will suffer 5d4+10 points of magic damage. The spell expires once the priest attempts a melee attack or after 5 rounds have passed. The priest gains a +4 bonus to hit the target.~
+Upon casting this spell, the priest has to touch an opponent in order to visit the effect upon them. On a successful touch from the priest, the victim is instantly killed unless a saving throw vs. spell is made. Even then, the victim will suffer 2d8+20 points of magic damage. The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
 
 @173=~Greater Command~
 @174=~Greater Command
@@ -1251,20 +1228,33 @@ Casting Time: 5
 Area of Effect: Sight
 Saving Throw: None
 
-When casting this spell, the priest must picture the faces of his fellow party members clearly and focus on the unity of the group. Upon completion, all party members within sight of the caster are healed by 2d8 + 1/level hit points (up to a maximum of 2d8+20).~
+When casting this spell, the priest must picture the faces of his fellow party members clearly and focus on the unity of the group. Upon completion, all party members within sight of the caster are healed by 2d8 + 2/level hit points (up to a maximum of 2d8+20).~
+
+@105=~Repulsion~
+@106=~Repulsion
+Level: 5
+School: Abjuration
+Sphere: Wards
+Range: Personal
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 10' radius
+Saving Throw: Spell negates
+
+An invisible, mobile field surrounds the caster and prevents creatures from approaching him. Any creature within or entering the field must attempt a save vs. spell at -4 penalty. If it fails, it gets pushed away by 10 feet. Repelled creatures' actions are not otherwise restricted. They can fight other creatures and can cast spells and attack you with ranged weapons.~
 
 @179=~Pixie Dust~
 @180=~Pixie Dust
 Level: 5
-School: Illusion
+School: Conjuration
 Sphere: Combat
 Range: Personal
-Duration: Special
+Duration: 1 turn
 Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
-This spell creates a handful of pixie dust that the caster can toss into the air. Anyone hit by the dust becomes invisible (the range of the dust is about 30 feet). Creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not. If an affected creature makes an attack, it will negate only its own invisibility. The spell otherwise lasts for 24 hours.~
+This spell creates a handful of pixie dust that the caster can toss into the air. Allies covered by the dust becomes improved invisible for 1 turn.~
 
 @181=~Insect Plague~
 @182=~Insect Plague
@@ -1273,13 +1263,13 @@ School: Conjuration
 Sphere: Animal
 Range: Long
 Duration: 6 rounds
-Casting Time: 1 round
+Casting Time: 5
 Area of Effect: Target, and enemies within 30'
 Saving Throw: Special
 
-When this spell is cast, a mass of creeping, hopping, and flying insects gather and swarm, first attacking the target, and then moving on to all enemies of the caster within the spell's radius. Invisibility is no protection.
+When this spell is cast, a mass of creeping, hopping, and flying insects gather and swarm, first attacking the target, and then moving on to all enemies of the caster within the spell's radius.
 
-For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure, and must make saving throws vs. death or run away in fear. If a successful save vs. breath at -4 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty.~
+For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, and have a 100% chance of spell failure. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
 
 @185=~Polymorph Other~
 @186=~Polymorph Other
@@ -1347,8 +1337,8 @@ Special Qualities:
 Natural Invisibility: constantly invisible as if affected by an Improved Invisibility spell
 Immune to hold, poison, sleep, & stun effects~
 
-@193=~Animal Summoning III~
-@194=~Animal Summoning III
+@193=~Animal Summoning VI~
+@194=~Animal Summoning VI
 Level: 6
 School: Conjuration
 Sphere: Animal
@@ -1361,29 +1351,27 @@ Saving Throw: None
 By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
 11th : 2 dire bears
-15th+ : 3 dire bears
+13th+ : 3 dire bears
 
 The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
 
-Dire Bear (10 Hit Dice):
-STR 21, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 130, AC 3, THAC0 7, Saving Throws 8/10/9/9/11
-2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite +1)~
-
-@1041=~Dire Bear~
+Cave Bear (6 Hit Dice):
+STR 19, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 90, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
+2 Attacks Per Round, 2d4+9 Crushing Damage (Claws & Bite)~
 
 @195=~Blade Barrier~
 @196=~Blade Barrier
 Level: 6
-School: Evocation
+School: Conjuration
 Sphere: Guardian, Creation
 Range: Personal
 Duration: 1 turn
 Casting Time: 6
 Area of Effect: 6' radius
-Saving Throw: Breath negates
+Saving Throw: None
 
-The priest employs this spell to create a wall of circling, razor-sharp blades. These whirl and flash around the caster, forming a dangerous barrier. Those within a 6 foot radius of the caster suffer 3d6 points of damage every 3 seconds (save vs. breath at -5 negates). Magic resistance does not affect this spell.
+The priest employs this spell to create a wall of circling, razor-sharp blades. These whirl and flash around the caster, forming a dangerous barrier. Those within a 6 foot radius of the caster suffer 1d8 points of slashing damage every 3 seconds. Magic resistance does not affect this spell.
 
 Note that spells like Invisibility, Shadow Door, etc. will not function on the caster when protected by Blade Barrier. Also, cleric/thieves and cleric/rangers who cast this will not be able to hide in shadows until the spell expires.~
 
@@ -1435,14 +1423,12 @@ Level: 6
 School: Conjuration
 Sphere: Elemental (Fire)
 Range: Personal
-Duration: 4 turns
+Duration: 5 turns
 Casting Time: 6
 Area of Effect: Special
 Saving Throw: Breath half
 
-This spell enables the druid to create a number of fire seeds, one for every 3 experience levels the druid has attained (up to a maximum of 6 fire seeds at 18th level). When thrown at an enemy, these will explode into small fireballs, causing 4d6 points of damage to all within a 10 foot radius (save vs. breath at -5 for half damage). The seeds are treated as missiles hurled by the caster with a +4 bonus to the attack roll and each has an enchantment level of +6. These seeds will appear in the caster's hands and remain in existence for 4 turns. The druid may discharge two of them per round.~
-
-@1039=~Created by the Fire Seeds spell. When thrown at an enemy, these will explode into small fireballs, causing 4d6 damage to everyone within a 10 foot radius, with a saving throw vs. breath at -5 allowed for half damage.~
+This spell enables the druid to create a number of fire seeds, one for every 2 experience levels the druid has attained (up to a maximum of 10 fire seeds at 20th level). When thrown at an enemy, these will explode into small fireballs, causing 4d6 points of damage to all within a 10 foot radius (save vs. breath at -4 for half damage). The seeds are treated as missiles hurled by the caster with a +4 bonus to the attack roll and each has an enchantment level of +4. These seeds will appear in the caster's hands and remain in existence for 5 turns. The druid may discharge up to five of them per round.~
 
 @203=~Heal~
 @204=~Heal
@@ -1451,7 +1437,7 @@ School: Necromancy
 Sphere: Healing
 Range: Touch
 Duration: Instant
-Casting Time: 1 round
+Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1461,14 +1447,14 @@ The very potent Heal spell enables the priest to wipe away any injury in the cre
 @206=~Harm
 Level: 6
 School: Necromancy
-Sphere: Healing
+Sphere: Necromantic
 Range: Personal
 Duration: 1 turn
-Casting Time: 1 round
+Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: Spell half
 
-This spell is the reverse of Heal. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 150 points of magic damage upon the target. If the creature successfully saves vs. spell at -5, Harm will deal half this amount. The spell expires once the priest attempts a melee attack or after one turn has passed. The priest gains a +4 bonus to hit the target.~
+This spell is the reverse of Heal. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 90 points of damage upon the target. Harm cannot reduce the target's hit points to less than 1. The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
 
 @207=~False Dawn~
 @208=~False Dawn
@@ -1481,7 +1467,7 @@ Casting Time: 1 round
 Area of Effect: 15' radius
 Saving Throw: Special
 
-By drawing on the power of the sun, this spell causes the caster's body to emanate a bright light that extends 15 feet in all directions. Each round, opponents within the area must save vs. spell at -5 or be blinded for 1 round. Undead creatures take 2d6 points of damage for each round they are exposed to the false dawn.~
+By drawing on the power of the sun, this spell causes the caster's body to emanate a bright light that extends 15 feet in all directions. Each round, opponents within the area must save vs. spell at -4 or be blinded for 1 round. Undead creatures take 2d6 points of damage for each round they are exposed to the false dawn.~
 
 @209=~Dolorous Decay~
 @210=~Dolorous Decay
@@ -1494,7 +1480,7 @@ Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: Poison partial
 
-This spell affects a single living creature. Dolorous Decay is a rotting and withering of the body that spreads throughout the afflicted creature quickly. The disease will instantly cause a permanent -1 penalty to strength, dexterity, and constitution. If the target fails a saving throw vs. poison at -5, the decay will inflict 1 point of damage per second, until a total of 60 hit points of damage are inflicted, and another point of damage to each physical attribute every 5 rounds. The afflicted creature will also be slowed for the duration of the decay, and ability scores lost with this spell can only be restored with a Cure Disease, a Heal, or a Greater Restoration spell.~
+This spell affects a single living creature. Dolorous Decay is a rotting and withering of the body that spreads throughout the afflicted creature quickly. The disease will instantly cause a permanent -1 penalty to strength, dexterity, and constitution. If the target fails a saving throw vs. poison at -4, the decay will inflict 1 point of damage per second, until a total of 60 hit points of damage are inflicted, and another point of damage to each physical attribute every 5 rounds. The afflicted creature will also be slowed for the duration of the decay, and ability scores lost with this spell can only be restored with a Cure Disease, a Heal, or a Greater Restoration spell.~
 
 @211=~Wondrous Recall~
 @212=~Wondrous Recall
@@ -1526,7 +1512,9 @@ Creature Type  --  Damage
  Elemental  --  4d4
  Humanoid  --  6d6
  Undead  --  8d8
- Demonic  --  10d10~
+ Demonic  --  10d10
+
+Magic resistance does not effect this spell.~
 
 @215=~Physical Mirror~
 @216=~Physical Mirror
@@ -1534,27 +1522,25 @@ Level: 6
 School: Alteration
 Sphere: Numbers
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 6
 Area of Effect: Special
 Saving Throw: None
 
-This spell causes a localized folding of space. The folded space takes the form of an invisible disk that protects the caster. Any missile weapon that intersects this disk is instantaneously reversed in direction. Melee factors such as speed, range, and damage are unaffected; the direction of the object or force is simply rotated through a 180 degree arc. The sender of the missile finds himself the target of his own attack. The caster of the mirror may direct missile attacks normally through the space occupied by the mirror. This spell does not convey any protection from magical attacks such as Fireballs, Lightning Bolts, or Magic Missiles, but magically created missiles such as Melf's Acid Arrows, Melf's Minute Meteors, and Flame Arrows will be reflected back.~
+This spell causes a localized folding of space. The folded space takes the form of an invisible disk that protects the caster but also distorts his appearence as if a mirrored image of the caster traveled alongside him. Any missile attack that intersects the disk is instantaneously deflected, while there is a 50% chance that a melee attacker will attack the mirrored image and a 50% chance that he will attack the caster.~
 
 @217=~Sol's Searing Orb~
 @218=~Sol's Searing Orb
 Level: 6
-School: Evocation
-Sphere: Sun
+School: Conjuration
+Sphere: Elemental (Fire)
 Range: Personal
 Duration: 3 rounds
 Casting Time: 6
 Area of Effect: Special
 Saving Throw: Breath partial
 
-When the spell is completed, it creates a glowing gem. This gem must be immediately thrown at an opponent, for it quickly becomes too hot to hold. The spell expires once the priest attempts a ranged attack or after three rounds have passed. The priest gains a +4 bonus to hit the target. It is not possible for the priest to give the stone to another character to throw.
-
-When it hits, the gem bursts with a brilliant, searing flash that causes 1d6 points of fire damage for every level of the caster (up to a maximum of 20d6) and blinds for 6 rounds. Undead creatures suffer double damage. The victim is allowed a saving throw vs. breath at a -5 penalty. If successful, only half damage is sustained and the target is not blinded.~
+When the spell is completed, it creates a glowing gem. This gem must be thrown at an opponent within 3 rounds, or it will become too hot to hold. When it hits, the gem bursts with a brilliant, searing flash that causes 12d6 points of fire damage to anyone within 30 feet. Creatures within the burst are allowed a saving throw vs. breath at -4 penalty. If successful, only half damage is sustained. On a failed save, the victim also suffers -2 penalty to thac0 and 1d6 points of fire damage each round for 6 rounds. It is not possible for the priest to give the stone to another character to throw. Magic resistance does not effect this spell, nor do any of the spell protections.~
 
 @219=~Conjure Air Elemental~
 @220=~Conjure Air Elemental
@@ -1612,64 +1598,42 @@ Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
 
-@223=~Control Undead~
-@224=~Control Undead
+@223=~Banishment~
+@224=~Banishment
+Level: 6
+School: Abjuration
+Sphere: Wards
+Range: Long
+Duration: Instant
+Casting Time: 6
+Area of Effect: 30' radius
+Saving Throw: None
+
+This spell forces hostile summoned creatures in the area back to their proper plane. Magic resistance does not effect this spell.~
+
+@225=~Animate Skeleton Warrior~
+@226=~Animate Skeleton Warrior
 Level: 6
 School: Necromancy
 Sphere: Necromantic
 Range: Long
-Duration: 5 turns
-Casting Time: 7
-Area of Effect: Target, and enemies within 5'
-Saving Throw: Special
-
-The Control Undead spell allows the caster to take control of undead creatures within the area of effect. This creates a telepathic link between the caster and the undead allowing complete control. If the undead have 5 or more Hit Dice/levels less than the caster then there is no saving throw allowed, else a save vs. spell at -5 is allowed to negate the effect. The undead remain under control of the caster for the duration of the spell or until they are affected by a dispel magic.~
-
-@225=~Create Undead~
-@226=~Create Undead
-Level: 6
-School: Necromancy
-Sphere: Necromantic
-Range: Long
-Duration: 3 turns
+Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-This spell causes a number of undead creatures to rise up and serve the caster. The type and number of creatures that appear depend upon the level of the cleric casting the spell.
+This spell animate the corpse of a skilled warrior to rise up and serve the caster. This powerful undead creature will remain under the priest's control until slain or the spell duration expires.
 
-11th : 3 ghasts
-15th+ : 2 mummies
-
-The undead creatures will remain under the priest's control until they are slain or the spell duration expires.
-
-Ghast (4 Hit Dice):
-STR 17, DEX 16, CON -, INT 11, WIS 12, CHA 10;  AL Chaotic Evil
-HP 48, AC 4, THAC0 15, Saving Throws 9/11/10/12/12
-3 Attacks Per Round, 1d8+2 Piercing Damage (Touch +1)
-
-Combat Abilities:
-Paralysis: target must save vs. death or be paralyzed for 5 rounds 
+Skeleton Warrior (9 Hit Dice):
+STR 18/51, DEX 14, CON -, INT 15, WIS 14, CHA 12;  AL Neutral Evil
+HP 108, AC 2, THAC0 11, Saving Throws 5/7/6/5/8
+2 Attacks Per Round, 2d6+4 Slashing Damage (Two-Handed Sword +1)
 
 Special Qualities:
-Stench: opponents within 10 feet must save vs. poison or suffer a -4 penalty to attack rolls, and 20% spell failure
-Immune to charm, confusion, disease, hold, poison, sleep, stun, & death effects
-
-
-Mummy (7 Hit Dice):
-STR 18/99, DEX 9, CON -, INT 6, WIS 12, CHA 10;  AL Lawful Evil
-HP 84, AC 3, THAC0 10, Saving Throws 9/11/10/12/12
-1 Attack Per Round, 1d12+6 Crushing Damage (Touch +1)
-
-Combat Abilities:
-Mummy Rot: target must save vs. death or be affected by a foul disease, which inflicts 1 point of damage every 3 seconds for 1 turn. At the end of the turn victim's constitution and charisma are reduced by 2. 
-
-Special Qualities:
-Despair: at the mere sight of a mummy targets must save vs. spell or be paralyzed with fear for 2 rounds. Whether or not the save is successful, creatures cannot be affected again by despair ability for 8 hours.
 Immune to normal weapons
-Immune to charm, confusion, disease, hold, poison, sleep, stun, & death effects
-Cold Resistance 100%; Fire Resistance -25%
-Slashing, Crushing, Piercing, & Missile Resistance 50%~
+Immune to charm, confusion, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%; Magic Resistance 90%
+Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
 
 /*------------------level 7------------------*/
@@ -1680,14 +1644,14 @@ Level: 7
 School: Abjuration
 Sphere: Protection
 Range: Personal
-Duration: 3 rounds/level
-Casting Time: 1 round
+Duration: 1 turn
+Casting Time: 1
 Area of Effect: Caster
 Saving Throw: None
 
-This powerful abjuration spell causes spells cast against the priest to be absorbed and consumed. This affects a total number of spell levels equal to half the level of the priest. This spell will not protect the caster from dispel magic, but it will not be affected by dispel magic, either.
+This powerful abjuration spell causes spells cast against the priest to be absorbed and consumed. This spell will not protect the caster from dispel magic, but it will not be affected by dispel magic, either.
 
-This spell also grants protection from spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the priest (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). As long as the spell is cast directly at the priest and there are spell levels remaining, it will be absorbed. For example, if there is only 1 level of protection left and a 3rd-level spell is cast at the priest, the spell will be absorbed while canceling the shield.~
+This spell also grants protection from spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the priest (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
 
 @233=~Summon Shambling Mound~
 @234=~Summon Shambling Mound
@@ -1758,7 +1722,7 @@ Casting Time: 7
 Area of Effect: 30' radius
 Saving Throw: Special
 
-When this spell is cast, the caster appears to undergo a remarkable transformation. The caster becomes the very ideal of beauty, for a male, this is usually a nymph or a dryad, for a female, the image varies. Any humanoid viewing the illusion must save vs. spell at a -6 penalty or be charmed for 10 rounds. The transformation is instantaneous, but lasts only seconds, affecting those in the area but excluding fellow party members.
+When this spell is cast, the caster appears to undergo a remarkable transformation. The caster becomes the very ideal of beauty, for a male, this is usually a nymph or a dryad, for a female, the image varies. Any humanoid viewing the illusion must save vs. spell at a -4 penalty or be charmed for 10 rounds. The transformation is instantaneous, but lasts only seconds, affecting those in the area but excluding fellow party members.
 
 If the caster harms, or attempts to harm, a charmed creature by some overt action, or if a dispel magic spell is successfully cast upon a charmed creature, the charm is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
 
@@ -1773,7 +1737,7 @@ Casting Time: 1 round
 Area of Effect: 30' radius
 Saving Throw: Breath half
 
-When a Fire Storm spell is cast, the whole area is shot through with sheets of roaring flame and then pelted with fiery balls of lava. Those caught in the inferno receive 2d8 points of damage plus one for each level of the caster (up to a maximum of 2d8+20). This assault will last for four rounds, continuing to damage all creatures who remain within the area of effect. An area 10 feet around the caster will be protected from the onslaught. Creatures who successfully save vs. breath at a -6 penalty take only half damage.~
+When a Fire Storm spell is cast, the whole area is shot through with sheets of roaring flame and then pelted with fiery balls of lava. Those caught in the inferno receive 2d8 points of damage plus one for each level of the caster (up to a maximum of 2d8+20). This assault will last for four rounds, continuing to damage all creatures who remain within the area of effect. An area 10 feet around the caster will be protected from the onslaught. Creatures who successfully save vs. breath at a -4 penalty take only half damage.~
 
 @241=~Symbol of Weakness~
 @242=~Symbol of Weakness
@@ -1786,7 +1750,7 @@ Casting Time: 1 round
 Area of Effect: 20' radius
 Saving Throw: Spell negates
 
-Symbol of Weakness is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -6 or suffer a -4 penalty to strength, dexterity, and constitution. The spell effects will persist until the character receives a Cure Disease spell.~
+Symbol of Weakness is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -4 or have their strength, dexterity, and constitution reduced by 4. The spell effects will persist until the character receives a Cure Disease spell.~
 
 @243=~Sunray~
 @244=~Sunray
@@ -1799,7 +1763,7 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: Special
 
-When this spell is cast, it causes a ray of sunlight to beam down upon the caster and a globe of searing radiance to explode in a 30 foot radius. All hostile creatures in the area of effect are blinded for 10 rounds and take 6d6 points of damage. Undead creatures caught within the sunburst instead take 1d6 points of damage per caster level (up to a maximum of 20d6). A successful save vs. spell at a -6 penalty negates the blindness and reduces the damage by half. The burst also results in the destruction of all undead creatures specifically harmed by bright light (such as vampires, shadows, and wraiths) that fail a saving throw vs. death.~
+When this spell is cast, it causes a ray of sunlight to beam down upon the caster and a globe of searing radiance to explode in a 30 foot radius. All hostile creatures in the area of effect are blinded for 10 rounds and take 6d6 points of damage. Undead creatures caught within the sunburst instead take 1d6 points of damage per caster level (up to a maximum of 20d6). A successful save vs. breath at a -4 penalty negates the blindness and reduces the damage by half. The burst also results in the destruction of all undead creatures specifically harmed by bright light (such as vampires, shadows, and wraiths) that fail a saving throw vs. spell.~
 
 @245=~Finger of Death~
 @246=~Finger of Death
@@ -1812,7 +1776,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
-The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -6 is made. A creature successfully saving still receives 2d8 points of damage plus 1 per level of the caster.~
+The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 6d8 points of damage.~
 
 @247=~Holy Word~
 @248=~Holy Word
@@ -1820,20 +1784,20 @@ Level: 7
 School: Conjuration
 Sphere: Combat
 Range: Personal
-Duration: 1 turn
+Duration: Special
 Casting Time: 1
 Area of Effect: 30' radius
 Saving Throw: None
 
-Uttering a Holy Word channels magic of tremendous power. The priest acts as a bridge between his god and the Prime Material Plane, causing an explosion centered on the priest and reaching out to a radius of 30 feet. The spell affects all creatures of evil alignment that are caught in the area of effect. The effects differ according to the level of the target as follows:
+Uttering a Holy Word channels magic of tremendous power. The spell affect all enemies that are caught in the area of effec, while the effects differ according to the level of the target as follows:
 
 Target's Hit Dice -- Effects of Holy Word
-Equal to caster level -- Deafness
-Up to caster level -1 -- Blindness, deafness
-Up to caster level -5 -- Paralyzation, blindness, deafness
-Up to caster level -10 -- Death, paralyzation, blindness, deafness
+Equal to caster level -- Deafness for 1 turn
+Up to caster level -1 -- Blindness for 5 rounds
+Up to caster level -5 -- Stun for 1 round
+Up to caster level -10 -- Death
 
-There is no saving throw vs. this spell. Note that this spell may not be cast by a priest of evil alignment.~
+The effects are cumulative and concurrent.~
 
 @249=~Regeneration~
 @250=~Regeneration
@@ -1842,11 +1806,11 @@ School: Necromancy
 Sphere: Healing
 Range: Touch
 Duration: 1 turn + 2 round/level
-Casting Time: 7
+Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
-This powerful spell enables the priest to imbue a creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 1 hit point per second. The effect lasts for the duration of the spell or until dispelled.~
+This powerful spell enables the caster to imbue a creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 1 hit point per second (up to a maximum of 180 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
 
 @251=~Resurrection~
 @252=~Resurrection
@@ -1882,20 +1846,20 @@ Level: 7
 School: Conjuration
 Sphere: Combat
 Range: Personal
-Duration: 1 turn
+Duration: Special
 Casting Time: 1
 Area of Effect: 30' radius
 Saving Throw: None
 
-Uttering an Unholy Word channels magic of tremendous power. The priest acts as a bridge between his god and the Prime Material Plane, causing an explosion centered on the priest and reaching out to a radius of 30 feet. The spell affects all creatures of good alignment that are caught in the area of effect. The effects differ according to the level of the target as follows:
+Uttering an Unholy Word channels magic of tremendous power. The spell affect all enemies that are caught in the area of effec, while the effects differ according to the level of the target as follows:
 
 Target's Hit Dice -- Effects of Unholy Word
-Equal to caster level -- Deafness
-Up to caster level -1 -- Slowness, deafness
-Up to caster level -5 -- Paralyzation, slowness, deafness
-Up to caster level -10 -- Death, paralyzation, slowness, deafness
+Equal to caster level -- Deafness for 1 turn
+Up to caster level -1 -- Slowness for 5 rounds
+Up to caster level -5 -- Confusion for 1 round
+Up to caster level -10 -- Death
 
-There is no saving throw vs. this spell. Note that this spell may not be cast by a priest of good alignment.~
+The effects are cumulative and concurrent.~
 
 @257=~Creeping Doom~
 @258=~Creeping Doom
@@ -1904,13 +1868,13 @@ School: Conjuration
 Sphere: Animal
 Range: Long
 Duration: 6 rounds
-Casting Time: 1 round
+Casting Time: 5
 Area of Effect: Target, and enemies within 30'
 Saving Throw: Special
 
-When the caster utters the spell Creeping Doom, he calls forth a horde of venomous biting and stinging arachnids, insects, and myriapods. This carpet-like mass swarms over a large area, spreading to all creatures within 30 feet of the target. Invisibility is no protection.
+When the caster utters the spell Creeping Doom, he calls forth a horde of venomous biting and stinging arachnids, insects, and myriapods. This carpet-like mass swarms over a large area, spreading to all creatures within 30 feet of the target.
 
-For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d6 points of damage from insect bites, have a 100% chance of spell failure, and must make saving throws vs. death at -2 or run away in fear. If a successful save vs. breath at -6 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty.~
+For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure, and must make saving throws vs. death at -2 or be poisoned. If a successful save vs. breath at -4 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Poisoned creatures suffer additional 6 points of damage each round for 3 rounds or until cured. Magic resistance does not affect this spell.~
 
 @259=~Symbol of Stunning~
 @260=~Symbol of Stunning
@@ -1923,7 +1887,7 @@ Casting Time: 1 round
 Area of Effect: 20' radius
 Saving Throw: Spell negates
 
-Symbol of Stunning is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -6 or be stunned for 4 rounds.~
+Symbol of Stunning is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -4 or be stunned for 4 rounds.~
 
 @261=~Earthquake~
 @262=~Earthquake
@@ -1953,10 +1917,10 @@ Casting Time: 1 round
 Area of Effect: 20' radius
 Saving Throw: Death negates
 
-Symbol of Death is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. death at -6 or die. Creatures with more than 60 current hit points are immune to this effect.~
+Symbol of Death is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. death at -4 or die. Creatures with more than 60 current hit points are immune to this effect.~
 
-@297=~Sphere of Chaos~
-@298=~Sphere of Chaos
+@297=~Chaos~
+@298=~Chaos
 Level: 7
 School: Enchantment
 Sphere: Chaos
@@ -1966,7 +1930,7 @@ Casting Time: 7
 Area of Effect: 30' radius
 Saving Throw: Special
 
-This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -6 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target goes berserk, is confused, is paralyzed, is rendered unconscious, or flees in panic.~
+This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -4 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target goes berserk, is confused, is paralyzed, is rendered unconscious, or flees in panic.~
 
 
 /*------------------level 8------------------*/
@@ -2231,10 +2195,130 @@ Immune to normal weapons
 Slashing, Piercing, & Missile Resistance 40%~
 
 
-/*----------------Temporary Beast Master and Stalker spells----------------*/
+/*----------------Druid's Regenerate Wound spells----------------*/
 
-@300=~Animal Summoning I~
-@301=~Animal Summoning I
+@301=~Regenerate Light Wounds~
+@302=~Regenerate Light Wounds
+Level: 1
+School: Alteration
+Sphere: Healing
+Range: Touch
+Duration: 1 turn + 2 rounds/level
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 1 hit point per round (up to a maximum of 30 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@303=~Regenerate Moderate Wounds~
+@304=~Regenerate Moderate Wounds
+Level: 2
+School: Alteration
+Sphere: Healing
+Range: Touch
+Duration: 1 turn + 2 rounds/level
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 2 hit points per round (up to a maximum of 60 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@305=~Regenerate Serious Wounds~
+@306=~Regenerate Serious Wounds
+Level: 3
+School: Alteration
+Sphere: Healing
+Range: Touch
+Duration: 1 turn + 2 rounds/level
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 3 hit points per round (up to a maximum of 90 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@307=~Regenerate Critical Wounds~
+@308=~Regenerate Critical Wounds
+Level: 4
+School: Alteration
+Sphere: Healing
+Range: Touch
+Duration: 1 turn + 2 rounds/level
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 4 hit points per round (up to a maximum of 120 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@309=~Mass Regenerate~
+@310=~Mass Regenerate
+Level: 5
+School: Alteration
+Sphere: Healing
+Range: Touch
+Duration: 1 turn + 2 rounds/level
+Casting Time: 5
+Area of Effect: Sight
+Saving Throw: None
+
+This spell enables the caster to imbue all allies within sight with the ability to regenerate. The creatures affected will regain 2 hit points per round (up to a maximum of 60 hit points within 3 turns at level 10). Multiple castings of this spell are not cumulative.~
+
+@311=~Regeneration~
+@312=~Regeneration
+Level: 6
+School: Alteration
+Sphere: Healing
+Range: Touch
+Duration: 1 turn + 2 rounds/level
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: None
+
+This powerful spell enables the caster to imbue a creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 1 hit point per second (up to a maximum of 180 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+
+/*----------------New spells as of V4----------------*/
+
+@313=~Gust of Wind~
+@314=~Gust of Wind
+Level: 2
+School: Evocation
+Sphere: Elemental (Air)
+Range: Personal
+Duration: Instant
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: Special
+
+This spell creates a severe blast of air that originates from the caster, affecting all enemies in its path. Those within 6 feet must save vs. breath or be blown back by the force of the gust and knocked unconscious for 1 round. In addition, this spell will disperse all clouds (including magically created vapors such as Cloudkill) in the caster's current area.~
+
+@315=~Cause Light Wounds~
+@316=~Cause Light Wounds
+Level: 1
+School: Necromancy
+Sphere: Necromantic
+Range: Personal
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell is the reverse of Cure Light Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 1d8 + 1/level points of damage upon the target (up to a maximum of 1d8+10). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@317=~Cause Moderate Wounds~
+@318=~Cause Moderate Wounds
+Level: 2
+School: Necromancy
+Sphere: Necromantic
+Range: Personal
+Duration: Special
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell is the reverse of Cure Moderate Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 2d8 + 2/level points of damage upon the target (up to a maximum of 2d8+20). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@319=~Animal Summoning I~
+@320=~Animal Summoning I
 Level: 1
 School: Conjuration
 Sphere: Animal
@@ -2244,15 +2328,41 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-By means of this spell, the caster calls forth three Dire Wolves, which are stronger, tougher versions of normal wolves. The animals summoned will aid the caster by whatever means they possess, staying until the spell duration expires.
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
-Dire Wolf (4 Hit Dice):
-STR 17, DEX 15, CON 17, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 46, AC 6, THAC0 15, Saving Throws 13/15/14/16/16
-1 Attack Per Round, 1d6+2 Piercing Damage (Bite +1)~
+1st : 3 large bats
+3rd : 4 large bats
+5th+ : 5 large bats
 
-@302=~Animal Summoning II~
-@303=~Animal Summoning II
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Bat (1 Hit Dice):
+STR 9, DEX 14, CON 11, INT 4, WIS 11, CHA 4;  AL Neutral
+HP 4, AC 8, THAC0 20, Saving Throws 20/20/20/20/20
+1 Attack Per Round, 1d2 Piercing Damage (Bite)
+
+Combat Abilities:
+Disease: target must save vs. death or suffer -1 penalty to DEX and CON
+Swarm: each bat within 5 feet grants additional +2 bonus to attack rolls
+
+Special Qualities:
+Blindsense: relies on echolocation to fight in conditions of poor light or total darkness, ignoring the penalties associated with blindness~
+
+@321=~Obscuring Mist~
+@322=~Obscuring Mist
+Level: 1
+School: Conjuration
+Sphere: Weather
+Range: Long
+Duration: 6 rounds
+Casting Time: 5
+Area of Effect: 20' radius
+Saving Throw: None
+
+When this spell is cast, a misty bank of fog billows out from the designated point obscuring all sight. Everyone within the cloud suffer -2 penalty to attack rolls in melee, and -6 penalty with ranged attacks, as well as -2 penalty to armor class. Creatures that do not rely on sight are immune to the effects of the cloud, and creatures with blindsight can fight within the cloud without penalties~
+
+@323=~Animal Summoning II~
+@324=~Animal Summoning II
 Level: 2
 School: Conjuration
 Sphere: Animal
@@ -2262,15 +2372,23 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-By means of this spell, the caster calls forth two Dire Leopards, which are stronger, tougher versions of normal leopards. The animals summoned will aid the caster by whatever means they possess, staying until the spell duration expires.
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
-Dire Leopard (8 Hit Dice):
-STR 19, DEX 15, CON 17, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 88, AC 5, THAC0 10, Saving Throws 10/12/11/12/13
-1 Attack Per Round, 1d8+8 Piercing Damage (Claws & Bite +1)~
+3rd : 2 War Dogs
+5th+ : 3 War Dogs
 
-@304=~Animal Summoning III~
-@305=~Animal Summoning III
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+War Dog (2 Hit Dice):
+STR 15, DEX 15, CON 15, INT 4, WIS 12, CHA 6;  AL Neutral
+HP 18, AC 4, THAC0 18, Saving Throws 13/17/13/15/17
+1 Attack Per Round, 1d6 Piercing Damage (Bite)
+
+Combat Abilities:
+Scent: detect invisible creatures within 10 feet~
+
+@325=~Animal Summoning III~
+@326=~Animal Summoning III
 Level: 3
 School: Conjuration
 Sphere: Animal
@@ -2280,9 +2398,149 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-By means of this spell, the caster calls forth a Dire Bear, which is a stronger, tougher version of normal bears. The animal summoned will aid the caster by whatever means it possesses, staying until the spell duration expires.
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
-Dire Bear (12 Hit Dice):
-STR 21, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 146, AC 3, THAC0 5, Saving Throws 7/9/8/8/10
-2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite +2)~
+5th : 2 Wolves
+7th+ : 3 Wolves
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Wolf (3 Hit Dice):
+STR 13, DEX 15, CON 15, INT 4, WIS 12, CHA 6;  AL Neutral
+HP 21, AC 6, THAC0 18, Saving Throws 15/17/15/13/17
+1 Attack Per Round, 1d6 Piercing Damage (Bite)
+
+Combat Abilities:
+Pack Attack: each war dog within 10 feet grants additional +1 bonus to attack rolls~
+
+@327=~Magic Fang~
+@328=~Magic Fang
+Level: 3
+School: Alteration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: None
+
+This spell turns natural weapons (such as teeth, claws, etc.) of friendly animals within range into magical weapons, effectively granting a +1 enhancement bonus on attack and damage rolls. For every other five experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 15th-level caster. Multiple castings of this spell are not cumulative.~
+
+@329=~Animal Growth~
+@330=~Animal Growth
+Level: 5
+School: Alteration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: None
+
+When this spell is cast, the caster causes all friendly animals within range to become tougher, stronger and more tenacious. The alteration grants +2 bonus to attack rolls, damage rolls, armor class and saving throws. It also increases the recipient's hit points by 50%, and these bonus hit points are lost first when the recipient takes damage. Multiple castings of this spell are not cumulative.~
+
+@331=~Animal Summoning VII~
+@332=~Animal Summoning VII
+Level: 7
+School: Conjuration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+13th+ : 2 Polar Bears
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Polar Bear (8 Hit Dice):
+STR 21, DEX 13, CON 19, INT 6, WIS 12, CHA 8;  AL Neutral
+HP 120, AC 3, THAC0 8, Saving Throws 10/14/10/12/14
+2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite)
+
+Special Qualities:
+Immunity to Ice Storm
+Cold Resistance 20%~
+@1041=~Polar Bear~
+
+@333=~Spike Growth~
+@334=~Spike Growth
+Level: 3
+School: Alteration
+Sphere: Plant
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 20' radius
+Saving Throw: Breath partial
+
+The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. Any creature will suffer 1d4 points of piercing damage each round that they remain within the affected area. The spikes can damage the victim's legs, so that even once they are free of the spike growth their movement rate is halved for 3 rounds unless a successful save vs. breath is made. Those failing the save also suffer 1 point of bleeding damage each round for 3 rounds. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large creatures who suffer little to no distress from the small spikes.~
+
+@335=~~
+@336=~~
+
+@337=~~
+@338=~~
+
+@339=~~
+@340=~~
+
+
+/*----------------Temporary Beast Master and Stalker spells----------------*/
+
+@394=~Animal Summoning IV~
+@395=~Animal Summoning IV
+Level: 1
+School: Conjuration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls forth a leopard. The animal summoned will aid the caster by whatever means it possess, staying until the spell duration expires.
+
+Leopard (4 Hit Dice):
+STR 16, DEX 18, CON 15, INT 6, WIS 13, CHA 6;  AL Neutral
+HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
+2 Attacks Per Round, 1d6+1 Piercing Damage (Claws & Bite)~
+
+@396=~Animal Summoning V~
+@397=~Animal Summoning V
+Level: 2
+School: Conjuration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls forth a giant snake. The animal summoned will aid the caster by whatever means it possess, staying until the spell duration expires.
+
+Giant Snake (5 Hit Dice):
+STR 15, DEX 17, CON 11, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
+1 Attack Per Round, 1d4 Piercing Damage (Bite)~
+
+@398=~Animal Summoning VI~
+@399=~Animal Summoning VI
+Level: 3
+School: Conjuration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls forth a cave bear. The animal summoned will aid the caster by whatever means it possess, staying until the spell duration expires.
+
+Cave Bear (6 Hit Dice):
+STR 19, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 90, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
+2 Attacks Per Round, 2d4+9 Crushing Damage (Claws & Bite)~
