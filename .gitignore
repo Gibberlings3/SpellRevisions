@@ -1,0 +1,13 @@
+*.7z
+*.rar
+*.zip
+*.tar.gz
+*.debug
+*.log
+*.exe
+!iconv.exe
+!oggdec.exe
+!tisunpack.exe
+!TobExLoader.exe
+setup-spell_rev
+setup-spell_rev.command

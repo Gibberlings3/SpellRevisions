@@ -1,0 +1,2308 @@
+@10000=~Pergamino de restablecimiento~
+@10001=~Un pergamino de restablecimiento actualizará el libro de conjuros del personaje. Leedlo si el libro de conjuros del clérigo, paladín, druida, o explorador contienen conjuros de los que no deberían disponer. Esos conjuros se eliminarán, y tras subir de nivel se añadirán los conjuros correctos.~
+
+
+/*-------------------------nivel 1------------------------*/
+
+@1=~Bendecir~
+@2=~Bendecir
+Nivel: 1
+Escuela: Encantamiento
+Esfera: Total
+Alcance: Largo
+Duración: 5 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Al pronunciar el conjuro de Bendecir, el lanzador de conjuros levanta la moral de las criaturas amigas en +1. Además, también aumenta sus tiradas de ataque y daño en +1. El lanzador de conjuros fija el alcance en el que lanzará el conjuro. En el momento de completarse el conjuro, éste afecta a todas las criaturas en un radio de 9 metros centrado en el punto seleccionado por el lanzador de conjuros (de este modo, las criaturas afectadas que abandonen el área seguirán bajo los efectos del conjuro; pero aquéllas que entren en el área tras completarse el conjuro no se verán afectadas).~
+
+@3=~Orden imperiosa~
+@4=~Orden imperiosa
+Nivel: 1
+Escuela: Encantamiento
+Esfera: Hechizo, Combate, Ley
+Alcance: Largo
+Duración: 1 asalto
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, niega
+
+Este conjuro permite al sacerdote ordenar a otra criatura que se tumben y que no realicen ninguna acción (se duerman) durante un sólo asalto. La criatura tiene una tirada de salvación contra conjuros con una penalización de -1 por cada dos niveles adicionales que tenga el lanzador, hasta un máximo de -4 en nivel 9.~
+
+@5=~Curar heridas leves~
+@6=~Curar heridas leves
+Nivel: 1
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Gracias a este conjuro, al poner su mano sobre una criatura, el sacerdote cura las heridas y otros daños en el cuerpo de la criatura. El sacerdote puede restaurar 1d8 + 1/nivel puntos de daños que tenga la criatura objetivo (hasta un máximo de 1d8+5). La curación no puede afectar a criaturas que no tengan un cuerpo sustancial, ni tampoco puede curar heridas en criaturas que no estén vivas o de origen extraplanar.~
+
+@7=~Detectar el mal~
+@8=~Detectar el mal
+Nivel: 1
+Escuela: Adivinación
+Esfera: Adivinación
+Alcance: Uno mismo
+Duración: Instantánea
+Tiempo de lanzamiento: 1
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro descubre las emanaciones de maldad procedentes de cualquier criatura. Cualquier criatura malvada dentro del alcance del conjuro se pondrá roja durante un momento. La resistencia a la magia no afecta a este conjuro.~
+
+@9=~Enredar~
+@10=~Enredar
+Nivel: 1
+Escuela: Alteración
+Esfera: Planta
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Armas de aliento, parcial
+
+Por medio de este conjuro, el lanzador de conjuros puede hacer que las plantas del área del efecto enreden a las criaturas que se encuentren en la misma. Las hierbas, maleza, arbustos e incluso los árboles envuelven, entrelazan y se enroscan alrededor de las criaturas, agarrándolas firmemente durante el tiempo que dura el conjuro. Aquéllas que estén enredadas reciben una penalización de -2 a las tiradas de ataque y otra penalización de +2 a su CA. Las criaturas que superen una tirada de salvación contra armas de aliento evitarán temporalmente el quedar enredadas y podrán moverse a la mitad de su velocidad mientras atraviesan la zona, pero deberán hacer otra tirada de salvación cada asalto que permanezcan en el área de efecto. Una criatura enredada puede atacar, pero no podrá moverse para alcanzar a ningún oponente. Las criaturas incorpóreas y voladoras no se ven afectadas por este conjuro, así como los elementales y criaturas con una fuerza excepcional, que o sufren ligeramente o no sufren para nada el efecto.~
+
+@11=~Piedra mágica~
+@12=~Piedra mágica
+Nivel: 1
+Escuela: Encantamiento
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 5 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Con este conjuro, el sacerdote puede encantar temporalmente diez piedrecitas no más grandes que una piedra de honda. Las piedras mágicas pueden arrojarse o lanzarse a un adversario a un ritmo de tres piedras por asalto, con un bonificador de +1 a la tirada de ataque. cada piedra inflige 1d4+2 puntos de daño (1d4+5 contra muertos vivientes), y son consideradas como armas +1 para determinar si pueden golpear a una criatura. La magia de cada piedra expirará después de transcurrir una hora o hasta que sean usadas.~
+
+@1030=~Esta piedra ha sido encantada con un conjuro de Piedra mágica.~
+
+@13=~Protección contra el mal~
+@14=~Protección contra el mal
+Nivel: 1
+Escuela: Abjuración
+Esfera: Protección
+Alcance: Toque
+Duración: 5 turnos
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al lanzar este conjuro se crea una barrera mágica en torno al destinatario con un radio de 30 cm. Esta barrera se desplaza con el destinatario y tiene dos efectos fundamentales: Primero, todos los ataques realizados por criaturas malvadas o hechizadas por el mal contra la criatura protegida sufren una penalización de - 2 en cada tirada de ataque, y segundo, cualquier tirada de salvación contra estos ataques para proteger a la criatura recibe un bonificador de +2.~
+
+@15=~Resistir el miedo~
+@16=~Resistir el miedo
+Nivel: 1
+Escuela: Abjuración
+Esfera: Hechizo
+Alcance: Largo
+Duración: 5 turnos
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+El sacerdote le infundirá valor a los aliados, levantando su moral al máximo. Si los destinatarios están afectados por miedo mágico, éste no tendrá efecto. Además, los destinatarios están protegidos contra el miedo mágico mientras dura este conjuro. En el instante en que el conjuro se complete, todas las criaturas en un radio de 9 metros centrado en el punto designado por el lanzador se verán afectadas (así, las criaturas afectadas que abandonen en área seguirán estando afectadas por el conjuro, y aquéllas que entren en el área una vez se haya lanzado el conjuro no se verán afectadas).~
+
+@17=~Santuario~
+@18=~Santuario
+Nivel: 1
+Escuela: Abjuración
+Esfera: Hechizo, Protección
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Cuando el sacerdote lanza el conjuro Santuario, hace que todos sus oponentes ignoren su existencia, como si fuera invisible. Mientras dure la protección que brinda este conjuro, el sujeto no puede realizar ninguna acción ofensiva sin romper el conjuro, pero puede valerse de conjuros no ofensivos o bien actuar de cualquier modo en que no se viole la prohibición contra la acción ofensiva. Esto permite a un sacerdote protegido sanar heridas, por ejemplo, o usar un conjuro de Bendecir. No puede lanzar conjuros a otras criaturas sin antes terminar éste.~
+
+@19=~Garrote~
+@20=~Garrote
+Nivel: 1
+Escuela: Alteración
+Esfera: Combate, Planta
+Alcance: Uno mismo
+Duración: 2 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro capacita al lanzador de conjuros para crear una porra mágica. El garrote inflige 1d6+1 punto de daño cuando golpea con éxito y hace que unos zarcillos envuelvan e inmovilicen al defensor en el lugar durante un asalto a menos que supere una tirada de salvación contra armas de aliento. El personaje usará el garrote como si fuera una clava, sin sufrir la penalización por no tener el talento marcial apropiado. A nivel 1, el garrote será como un arma mágica +1. Por cada seis niveles de experiencia adicionales que tenga el lanzador de conjuros, el bonificador aumentará en uno, hasta un total de +3, +3 a las tiradas de ataque y al daño en nivel 12. El garrote sólo lo puede usar el lanzador de conjuros, y permanecerá en su mano mientras dure el conjuro o hasta que sea disipado.~
+
+@21=~Armadura de la fe~
+@22=~Armadura de la fe
+Nivel: 1
+Escuela: Abjuración
+Esfera: Protección
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+El lanzador de la Armadura de la fe recibe una importante protección contra los ataques cuerpo a cuerpo y por proyectiles. Esta armadura mágica es una fuerza energética que absorbe una parte del daño dirigido contra el sacerdote, reduciendo el daño sufrido en un 20%. Este conjuro no es acumulativo consigo mismo.~
+
+@23=~Fatalidad~
+@24=~Fatalidad
+Nivel: 1
+Escuela: Alteración
+Esfera: Hechizo
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, niega
+
+Este conjuro produce una sensación de fatalidad que abruma a la víctima. Mientras dure el conjuro, el objetivo sufrirá un penalizador de -2 en todas sus tiradas de ataque, de daño y tiradas de salvación, a menos que se supere una tirada de salvación contra conjuros. La criatura realiza la tirada con una penalización de -1 por cada dos niveles adicionales de experiencia que tenga el lanzador, hasta un máximo de -4 a nivel 9. Este conjuro no es acumulativo consigo mismo.~
+
+@25=~Fuego feérico~
+@26=~Fuego feérico
+Nivel: 1
+Escuela: Evocación
+Esfera: Clima
+Alcance: Largo
+Duración: 4 asaltos
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 1,5 m.
+Tirada de salvación: Conjuros, niega
+
+Al realizar este conjuro, un pálido resplandor rodea y delimita a todos los enemigos que se encuentren en el área de efecto, haciendo más fácil de ver donde se encuentran y sus movimientos. Las criaturas marcadas no se benefician de la protección que normalmente les concedería la oscuridad, invisibilidad, o efectos similares, y sufren una penalización de +2 a la CA. Aquéllas que tengan éxito en una tirada de salvación contra conjuros evitarán por completo los efectos de este conjuro. La luz es demasiado tenue como para afectar de forma especial a los muertos vivientes o a las criaturas que habitan la oscuridad, vulnerables a la luz. El fuego feérico no hace más daño a las criaturas u objetos marcados.~
+@26000=~Fuego feérico
+Nivel: 1
+Escuela: Evocación
+Esfera: Clima
+Alcance: Largo
+Duración: 4 asaltos
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 1,5 m.
+Tirada de salvación: Ninguna
+
+Al realizar este conjuro, un pálido resplandor rodea y delimita a todos los enemigos que se encuentren en el área de efecto, haciendo más fácil de ver donde se encuentran y sus movimientos. Las criaturas marcadas sufren una penalización de +2 a la CA mientras dure el conjuro. La luz es demasiado tenue como para afectar de forma especial a los muertos vivientes o a las criaturas que habitan la oscuridad, vulnerables a la luz. El fuego feérico no hace más daño a las criaturas u objetos marcados.~
+
+@27=~Fuerza de la piedra~
+@28=~Fuerza de la piedra
+Nivel: 1
+Escuela: Alteración
+Esfera: Elemental (Tierra)
+Alcance: Uno mismo
+Duración: 5 turnos
+Tiempo de lanzamiento: 1
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Al conjurar la fuerza de la tierra, el lanzador gana parte de la solidez y fuerza de la piedra. Este conjuro aumenta la Fuerza del personaje hasta 18 y luego se le añade 50 puntos de fuerza excepcional. El personaje recibirá todos los bonificadores de fuerza adecuados. Por ejemplo, si un personaje tiene una Fuerza entre 18/50 y 18/00, su Fuerza se quedará fijada en 18/00. Si un personaje tiene una fuerza entre 18/01 y 18/50, su Fuerza se convertirá en 18/50 + los percentiles originales. Si su Fuerza es menor de 18, entonces obtendrá 18/50. Sin embargo, este conjuro bajaría la Fuerza del personaje si ya tuviera una Fuerza de 19 o más. Mientras dure este conjuro, el lanzador se vuelve inmune a cualquier cosa, ya sea mágica o no, que le empuje o aleje (por ejemplo, un golpe de ala, ráfagas de viento, telequinesis, etc.), sino que su velocidad se verá reducida.~
+
+@29=~Rayo abrasador~
+@30=~Rayo abrasador
+Nivel: 1
+Escuela: Evocación
+Esfera: Sol
+Alcance: Largo
+Duración: Instantáneo
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, parcial
+
+Al realizar este conjuro, un brillante rayo de un calor abrasador cae desde el cielo y golpea a un blanco a elección del lanzador. La criatura golpeada por el rayo sufrirá 1d6 puntos de daño + 1 punto por nivel del lanzador (hasta un máximo de 1d6+20). Los muertos vivientes y monstruos vulnerables al brillo de la luz sufrirán 1d6 puntos de daño + 2 punto por nivel del lanzador (hasta un máximo de 1d6+40). Si la víctima logra superar una tirada de salvación contra conjuros sólo recibirá la mitad del daño. Además del daño sufrido, las víctimas que fallen la tirada de salvación quedarán cegadas durante 3 asaltos.~
+
+
+/*-------------------nivel 2---------------------*/
+
+@31=~Ayuda~
+@32=~Ayuda
+Nivel: 2
+Escuela: Nigromancia
+Esfera: Combate, Necromántica
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+El destinatario de este conjuro obtiene un bonificador de + 1 a las tiradas de ataque, de daño y de salvación, además de 1d8 puntos de golpes adicionales +1 por nivel del lanzador (hasta un máximo de 1d8+10). El conjuro Ayuda consigue que el destinatario cuente en realidad con más puntos de golpe de los que tendría normalmente en total. El bonificador de puntos de golpe es el que primero se pierde cuando el destinatario sufre algún daño y no se puede recuperar con la ayuda de magia curativa. Este conjuro no es acumulativo consigo mismo.~
+
+@33=~Piel de roble~
+@34=~Piel de roble
+Nivel: 2
+Escuela: Alteración
+Esfera: Planta
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando un sacerdote usa el conjuro Piel de roble sobre una criatura, ésta ve como su piel se vuelve tan resistente como un roble, mejorando su Clase de armadura en 1, mas 1 por cada tres niveles que tenga el lanzador (hasta un máximo de -4 a la CA en nivel 9). Este conjuro no es acumulativo consigo mismo.~
+
+@35=~Salmo~
+@36=~Salmo
+Nivel: 2
+Escuela: Conjuración
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Por medio del conjuro Salmo, el sacerdote atrae el favor especial de su deidad para sí mismo y su grupo y ocasiona daño a sus enemigos. Una vez completado el conjuro de Salmo, todas las tiradas de ataque, de daño y tiradas de salvación hechas en el área de efecto por los aliados del sacerdote ganan un bonificador de +1, mientras que aquéllos que sean enemigos del sacerdote sufrirán una penalización de -1. Este conjuro no es acumulativo consigo mismo.~
+
+@37=~Hechizar persona o animal~
+@38=~Hechizar persona o animal
+Nivel: 2
+Escuela: Encantamiento
+Esfera: Animal
+Alcance: Medio
+Duración: 1 turno
+Tiempo de lanzamiento: 2
+Área de efecto: 1 persona o animal
+Tirada de salvación: Conjuros, niega
+
+Este conjuro afecta a una única persona o animal sobre el que se lance. El término persona incluye a todos los humanos bípedos, semihumanos o humanoides del tamaño de un hombre o más pequeños, tales como enanos, elfos, gnolls, gnomos, semielfos, medianos, semiorcos, grandes trasgos, kobolds, y otros. Sólo se verán afectados los animales de tamaño normal o gigante. Los monstruos como dracos, ankhegs, y carroñeros reptantes no cuentan como animales.
+
+El blanco recibe una tirada de salvación contra conjuros con -1 para evitar el efecto. Si el destinatario falla su tirada de salvación, verá al lanzador como a un buen amigo y aliado al que ayudar y proteger. El lanzador puede dar ordenes, y la criatura hechizada las llevará a cabo tan pronto como le sean posibles. Si el lanzador de conjuros causa o intenta causar algún daño a la persona hechizada por medio de una acción evidente, o si un conjuro de disipar magia se lanza con éxito sobre la persona hechizada, el conjuro se romperá. Si los efectos de dos o más hechizos afectan simultáneamente a una criatura, el hechizo más reciente prevalecerá.~
+
+@39=~Encontrar trampas~
+@40=~Encontrar trampas
+Nivel: 2
+Escuela: Adivinación
+Esfera: Adivinación
+Alcance: Uno mismo
+Duración: 3 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Cuando un sacerdote lanza el conjuro de encontrar trampas, todas las trampas, ocultas de manera natural o por medio de la magia, sea su naturaleza mágica o mecánica, se aparecen ante él. Una vez por asalto, todas las trampas en un radio de 9 metros alrededor del lanzador serán reveladas. Una trampa es un mecanismo o protección mágica que reúne tres criterios: puede tener un resultado imprevisto o inesperado, el lanzador de conjuros puede considerar el resultado indeseable o perjudicial, o el artífice pretendió que el resultado perjudicial o indeseable fuera tal. Por esto, las trampas incluyen glifos y conjuros o mecanismos similares.~
+
+@41=~Hoja de fuego~
+@42=~Hoja de fuego
+Nivel: 2
+Escuela: Evocación
+Esfera: Elemental (Fuego)
+Alcance: Uno mismo
+Duración: 2 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Con este conjuro, el lanzador de conjuros hace que un rayo brillante de fuego abrasador salga de su mano. Este rayo, semejante a una hoja de espada, se empuña como si fuera una cimitarra, la cuál el lanzador podrá usar sin sufrir ninguna penalización por carecer del talento marcial apropiado. La hoja hace 1d8 puntos de daño por fuego + 1 punto por cada nivel del lanzador 8hasta un máximo de 1d8+10). Como la hoja es inmaterial, no se aplican los modificadores por Fuerza a las tiradas de ataque y daño, y además, los ataques con la hoja de fuego son considerados como ataques de toque cuerpo a cuerpo (bonificador de +4 a la tirada de ataque). La hoja es considerada un arma +1 para determinar si hace daño o no. Una hoja de fuego puede iniciar la combustión de materiales como pergamino, paja, maleza seca, y telas.~
+
+@43=~Bayas buenas~
+@44=~Bayas buenas
+Nivel: 2
+Escuela: Alteración
+Esfera: Planta
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Lanzar el conjuro de Bayas buenas crea 5 bayas mágicas que podrá llevar el lanzador o darselas a otros. Esas bayas curan un punto de daño físico por cada uno que se ingiera. Por cada tres niveles de experiencia, las bayas creadas por el lanzador curarán un punto de daño adicional (hasta un máximo de 7 a nivel 18). Las bayas durante 24 horas, o hasta que se coman.~
+
+@1032=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará un punto de daño.~
+@1033=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará dos puntos de daño.~
+@1034=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará tres puntos de daño.~
+@1035=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará cuatro puntos de daño.~
+@1036=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará cinco puntos de daño.~
+@1037=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará seis puntos de daño.~
+@1038=~Creada por el conjuro Bayas buenas, esta baya de aspecto mundano curará siete puntos de daño.~
+
+@45=~Inmovilizar persona~
+@46=~Inmovilizar persona
+Nivel: 2
+Escuela: Encantamiento
+Esfera: Hechizo, Ley
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Blanco, y enemigos dentro de 1,5 m
+Tirada de salvación: Conjuros, niega
+
+Este conjuro mantiene a uno o más humanos, semihumanos o criaturas humanoides completamente inmóviles en el sitio durante un turno. El efecto es centro sobre la víctima escogida por el lanzador de conjuros. Cada enemigo a una distancia de 1,5 metros del blanco también se verá afectado. Aquéllos que logren superar una tirada de salvación contra conjuros con -1 no se verán afectados por el conjuro. Las criaturas muertas vivientes no pueden ser inmovilizadas con este conjuro.
+
+Las criaturas inmovilizadas no pueden moverse ni hablar, pero son conscientes en todo momento de lo que ocurre a su alrededor y pueden hacer uso de aquellas habilidades que no necesiten del movimiento o la palabra. Estar inmovilizado no impide que la situación de los sujetos empeore a causa de heridas, enfermedad o envenenamiento.~
+
+@47=~Conocer oponente~
+@48=~Conocer oponente
+Nivel: 2
+Escuela: Adivinación
+Esfera: Adivinación
+Alcance: Largo
+Duración: 2 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al lanzar este conjuro, los ojos del sacerdote refulgen con energía mágica, permitiéndole leer el aura de una criatura, y determinar las fortalezas y debilidades de la criatura. Mientras dure el conjuro, las resistencias físicas del blanco disminuirán en un 10% y todos los ataques hechos contra la criatura se harán con un bonificador de +2 a la tirada de ataque. Ciertos artefactos mágicos niegan los efectos del Conocer oponente, y la criatura sobre la que se lanzó el conjuro no emanará aura alguna, esto ocurre con los constructos. La resistencia a la maga no afecta a este conjuro.~
+
+@49=~Resistir fuego y frío~
+@50=~Resistir fuego y frío
+Nivel: 2
+Escuela: Alteración
+Esfera: Protección
+Alcance: Toque
+Duración: 1 turno + 1 asalto/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando un sacerdote lanza este conjuro sobre una criatura, el cuerpo de la misma se endurece para resistir al calor y al frío. El destinatario puede resistir tanto un calor como un frío intensos (ya sean de origen natural o mágico) tales como el fuego del carbón candente, una gran cantidad de aceite hirviendo, espadas llameantes, bolas de fuego, manos ardientes o varitas de hielo. En todos estos casos, la temperatura afecta a la criatura en cierta medida. El destinatario ve reducirse en un 50% todo el daño causado por el fuego o el frío. Este conjuro no es acumulativo consigo mismo.~
+
+@51=~Silencio~
+@52=~Silencio
+Nivel: 2
+Escuela: Alteración
+Esfera: Guardiana
+Alcance: Largo
+Duración: 2 asaltos/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 4,5 m.
+Tirada de salvación: Conjuros, niega
+
+Después de lanzar este conjuro, un silencio absoluto prevalecerá en el área afectada. Todo sonido es detenido: es imposible conversar y no se pueden lanzar conjuros a menos que el lanzador esté bajo los efectos de un Vocalizar. Todos los enemigos en el área deben hacer una tirada de salvación contra conjuros con -1, si la fallan quedarán silenciados lo que dura el conjuro. En el instante en el que se completa el conjuro, todas las criaturas en un radio de 4,5 metros centrado en un punto escogido por el lanzador se verán afectadas (así, las criaturas afectadas que abandonen en área seguirán estando afectadas por el conjuro, y aquéllas que entren en el área una vez se haya lanzado el conjuro no se verán afectadas).~
+
+@53=~Lentificar veneno~
+@54=~Lentificar veneno
+Nivel: 2
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Instantáneo
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando se ejecuta este conjuro sobre un individuo envenenado, los efectos del veneno se verán ralentizados, neutralizando en verdad todos los venenos excepto lo más mortíferos.~
+
+@55=~Martillo espiritual~
+@56=~Martillo espiritual
+Nivel: 2
+Escuela: Evocación
+Esfera: Combate
+Alcance: Medio
+Duración: 2 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Al invocar a su divinidad, el lanzador de un conjuro de Martillo espiritual da forma a un campo de fuerza que recuerda vagamente a un martillo. El sacerdote puede usar este martillo como si tuviera el talento marcial necesario, así que podrá usar su GAC0 normal. Mientras el lanzador esté concentrado en el martillo, éste podrá usarse para golpear a cualquier oponente que esté a 6 metros, pero el esgrimidor no sufrirá los penalizador por tener un arma arrojadiza cuando esté en combate cuerpo a cuerpo. A nivel 1, el martillo se considera un arma mágica, que hace 1d8+1 punto de daño mágico, con un bonificador de encantamiento +1. Por cada cinco niveles de experiencia que tenga el lanzador del conjuro, este bonificador aumentará en uno, hasta un total de +5, +5 a las tiradas de ataque y de daño para un lanzador de nivel 20. Debido a la naturaleza etérea del arma, no se tendrán en cuenta los modificadores por Fuerza en las tiradas de ataque y daño, y se considerará que se hace un ataque de toque cuerpo a cuerpo (+4 a la tirada de ataque).~
+
+@57=~Invocar al poder sagrado~
+@58=~Invocar al poder sagrado
+Nivel: 2
+Escuela: Evocación
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 2
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+El sacerdote invoca a su dios para que le otorgue poder durante un corto tiempo. Cuando hace esto, su Fuerza, Constitución y Destreza aumentan en 1 punto por cada 3 niveles del lanzador de conjuros, hasta un máximo de 6 a nivel 18. Un lanzador de conjuros del nivel 3 vería aumentada sus aptitudes en 1, mientras otro del nivel 12 vería sus aptitudes elevadas en 4. Cuando el conjuro termina, el lanzador se encuentra fatigado durante 5 asaltos, sufriendo una penalización de -2 al golpear, al daño, a la clase de armadura, y al tiempo de lanzamiento de conjuros. Este conjuro no es acumulativo ni con sigo mismo ni con ningún otro conjuro similar.~
+
+@59=~Curar heridas moderadas~
+@60=~Curar heridas moderadas
+Nivel: 2
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 2
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Gracias a este conjuro, al poner su mano sobre una criatura, el sacerdote cura las heridas y otros daños en el cuerpo de la criatura. El sacerdote puede restaurar 2d8 + 1/nivel puntos de daños que tenga la criatura objetivo (hasta un máximo de 2d8+10). La curación no puede afectar a criaturas que no tengan un cuerpo sustancial, ni tampoco puede curar heridas en criaturas que no estén vivas o de origen extraplanar.~
+
+@61=~Trampa de fuego~
+@62=~Trampa de fuego
+Nivel: 2
+Escuela: Abjuración
+Esfera: Elemental (Fuego)
+Alcance: Corto
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Armas de aliento, mitad
+
+Esta poderosa trampa daña a quién entre, pase, o abra el objeto y área determinada. Puede usarse para guardar un pequeño puente, para proteger una entrada, o como una trampa en un baúl o cofre. Cualquier enemigo que viole el área escogida disparará la trampa.
+
+Cuando se lanza este conjuro, el druida teje un entramado de líneas ligeramente brillantes en torno al área protegida. Cuando una criatura hostil se acerca a menos de 4,5 metros de la trampa, ésta se dispara y explota, dañando a todo enemigo que se encuentre en un radio de 6 metros. El daño infligido es igual a 1d4 puntos de daño por fuego por nivel del lanzador (hasta un máximo de 10d4). Aquéllos que pasen una tirada de salvación contra armas de aliento con -1 sólo sufrirán la mitad del daño. Este conjuro no dañará a los miembros del grupo.~
+
+
+/*-----------------------nivel 3-------------------------*/
+
+@71=~Reanimar a los muertos~
+@72=~Reanimar a los muertos
+Nivel: 3
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Medio
+Duración: 8 horas
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro hace que una cierta cantidad de esqueletos animados se alcen y sirvan al sacerdote. La cantidad y tipo de esqueletos que aparecen dependerá del nivel del sacerdote al lanzar el conjuro.
+
+5º : 2 esqueletos
+7º : 3 esqueletos
+9º : 4 esqueletos
+12º : 2 esqueletos mayores
+15º+ : 1 guerrero esqueleto
+
+Los muertos vivientes permanecerán bajo el control del sacerdote hasta que sea destruidos o hasta que expire la duración del conjuro.
+
+Esqueleto (2 Dados de golpe):
+FUE 15, DES 14, CON -, INT -, SAB 10, CAR 1;  ALI Caótico Malvado
+PG 24, CA 6, GAC0 18, Tiradas de salvación 10/12/11/13/13
+1 ataque por asalto, 1d6+2 daño contundente (Maza +1)
+
+Cualidades especiales:
+Inmune a los efectos de hechizar, confusión, inmovilización, veneno, dormir, aturdimiento, y muerte
+Resistencia al frío: 100%
+Resistencia al daño Cortante y Perforante: 20%
+Resistencia al daño por Proyectiles: 40%
+
+
+Esqueleto mayor (5 Dados de golpe):
+FUE 16, DES 14, CON -, INT -, SAB 10, CAR 1;  ALI Caótico Malvado
+PG 60, CA 4, GAC0 16, Tiradas de salvación 9/11/10/12/12
+1 ataque por asalto, 2d6+2 daño cortante (Mandoble +1)
+
+Cualidades especiales:
+Inmune a los efectos de hechizar, confusión, inmovilización, veneno, dormir, aturdimiento, y muerte
+Resistencia al frío: 100%
+Resistencia al daño Cortante y Perforante: 40%
+Resistencia al daño por Proyectiles: 60%
+
+
+Guerrero esqueleto (9 Dados de golpe):
+FUE 18/51, DES 14, CON -, INT 15, SAB 14, CAR 12;  ALI Neutral Malvado
+PG 108, CA 2, GAC0 11, Tiradas de salvación 5/7/6/5/8
+2 ataques por asalto, 2d6+4 daño cortante (Mandoble +1)
+
+Cualidades especiales:
+Inmune a las armas normales
+Inmune a los efectos de hechizar, confusión, inmovilización, veneno, dormir, aturdimiento, y muerte
+Resistencia al frío: 100%
+Resistencia a la magia: 90%
+Resistencia al daño Cortante y Perforante: 40%
+Resistencia al daño por Proyectiles: 60%~
+
+@73=~Llamar al relámpago~
+@74=~Llamar al relámpago
+Nivel: 3
+Escuela: Alteración
+Esfera: Clima
+Alcance: Largo
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 108 m.
+Tirada de salvación: Armas de aliento, mitad
+
+Inmediatamente después de completar este conjuro, el lanzador podrá hacer, una vez por asalto, que un rayo de 6 metros de longitud caiga sobre un enemigo. El conjuro tiene una duración de un asalto por cada tres niveles que tenga el lanzador de conjuros, hasta un máximo de 5 asaltos a nivel 15. El primer rayo ocasiona 6d6 puntos de daño por electricidad al objetivo del conjuro, aunque si se supera una tirada de salvación contra armas de alientos con -2 el daño sufrido será la mitad. Los demás rayos, caerán de forma aleatoria sobre los enemigos del lanzador.~
+
+@75=~Disipar magia~
+@76=~Disipar magia
+Nivel: 3
+Escuela: Abjuración
+Esfera: Total
+Alcance: Largo
+Duración: Instantáneo
+Tiempo de lanzamiento: 3
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Especial
+
+El conjuro Disipar magia elimina los efectos mágicos de cualquiera que se encuentre dentro del área de efecto. Esto incluye los generados por conjuros, pociones y ciertos objetos mágicos, como varitas. Sin embargo, no afecta a los objetos encantados ni a las protecciones mágicas como los conjuros de Retorno y Desvío de conjuros. Mientras que este conjuro disipa los efectos individuales de Grasa, Telaraña, Nube hedionda, y otros conjuros similares, no disipa también el área de efecto de los mismos. La resistencia a la magia no es tenida en cuenta para este conjuro.
+
+La probabilidad de disipar con éxito dependen del nivel del lanzador y del nivel de la magia a disipar. La probabilidad de éxito base es del 50%, aumentando en 5% por cada nivel en que el lanzador del Disipar magia supere al nivel de la magia que quiere disipar y reduciéndose en 10% por cada nivel en que sea superado por ella. No obstante, a pesar de las diferencias de nivel, siempre habrá, como mínimo, un 1% de posibilidades de éxito o fracaso. Por tanto, cuando un lanzador posea 10 niveles más que la magia que desee disipar, sólo tendrá un 1% de posibilidades de fallar. Asimismo, si el lanzador posee 4 niveles menos que el efecto a disipar, sólo tendrá un 10% de posibilidades de éxito. Podría decirse que el conjuro es prácticamente inútil cuando su objetivo supera al lanzador en 5 o más niveles.~
+
+@77=~Glifo custodio~
+@78=~Glifo custodio
+Nivel: 3
+Escuela: Abjuración
+Esfera: Guardián
+Alcance: Corto
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Armas de aliento, mitad
+
+Un glifo custodio es una poderosa inscripción mágica que se dibuja para impedir que la crucen criaturas hostiles o sin permiso. Puede usarse para guardar un puente pequeño, una entrada o como trampa en un cofre o arcón. Cualquier criatura que profane la zona guardada quedará sujeta a la magia que contenga.
+
+Cuando se lanza este conjuro, el sacerdote teje un entramado de líneas ligeramente brillantes en torno al área protegida. Cuando una criatura hostil se acerca a menos de 4,5 metros del glifo, éste se dispara y explota, dañando a todo enemigo que se encuentre en un radio de 6 metros. El daño infligido es igual a 1d4 puntos de daño por fuego por nivel del lanzador (hasta un máximo de 10d4). Aquéllos que pasen una tirada de salvación contra armas de aliento con -2 sólo sufrirán la mitad del daño. Este conjuro no dañará a los miembros del grupo.~
+
+@79=~Inmovilizar persona o animal~
+@80=~Inmovilizar persona o animal
+Nivel: 3
+Escuela: Encantamiento
+Esfera: Animal
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Blanco, y enemigos dentro de 1,5 m
+Tirada de salvación: Conjuros, niega
+
+Este conjuro mantiene a las personas y animales completamente inmóviles en el sitio. El término persona incluye a todos los humanos bípedos, semihumanos o humanoides del tamaño de un hombre o más pequeños, tales como enanos, elfos, gnolls, gnomos, semielfos, medianos, semiorcos, grandes trasgos, humanos, kobolds, y otros. Sólo se verán afectados los animales de tamaño normal o gigante. Los monstruos como dracos, ankhegs, y carroñeros reptantes no cuentan como animales. El efecto está centrad sobre la víctima escogida por el lanzador de conjuros. Todo enemigo a una distancia de 1,5 metros del blanco también se verá afectado. Aquéllos que logren superar una tirada de salvación contra conjuros con -2 no se verán afectados por el conjuro.
+
+Las criaturas inmovilizadas no pueden moverse ni hablar, pero son conscientes en todo momento de lo que ocurre a su alrededor y pueden hacer uso de aquellas habilidades que no necesiten del movimiento o la palabra. Estar inmovilizado no impide que la situación de los sujetos empeore a causa de heridas, enfermedad o envenenamiento.~
+
+@81=~Protección contra el fuego~
+@82=~Protección contra el fuego
+Nivel: 5
+Escuela: Abjuración
+Esfera: Elemental, Protección
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando se usa un conjuro de Protección contra el fuego, el destinatario recibe una protección total contra todos los ataques basados en fuego, ya sean de origen mágico o no mágico. El 100% del daño de ataques como el aliento abrasador de un dragón será absorbido, y la criatura objeto será virtualmente inmune a los efectos de conjuros como Manos ardientes, Bola de fuego, Golpe de fuego, y Tormenta de fuego. Este conjuro no es acumulativo consigo mismo.~
+
+@83=~Romper encantamiento~
+@84=~Romper encantamiento
+Nivel: 3
+Escuela: Abjuración
+Esfera: Total
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 3
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al lanzar este conjuro, el sacerdote es capaz de liberar a una víctima de encantamientos y maldiciones. El conjuro puede invertir los efectos de Confusión y Debilidad mental, liberar a una víctima de un sueño mágico, y romper los efectos de una maldición. Eso si, Romper encantamiento no puede eliminar la maldición de un escudo, arma, o armadura maldita, por dar ejemplos, pero permite que aquellos que se ven afectados por estos objetos malditos puedan quitárselos. Puede ocurrir que ciertas maldiciones especiales no puedan contrarrestarse con este conjuro, o que se contrarresten sólo por medio de un lanzador de conjuros de cierto nivel o incluso por medio de un ritual concreto.~
+
+@85=~Quitar parálisis~
+@86=~Quitar parálisis
+Nivel: 3
+Escuela: Abjuración
+Esfera: Necromántica, Protección
+Alcance: Largo
+Duración: Permanente
+Tiempo de lanzamiento: 3
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+El uso de este conjuro permite al sacerdote librar a varias criaturas de los efectos de cualquier paralización u otras formas de magia relacionadas tales como el Toque de un necrófago, un conjuro de Inmovilizar o una Palabra de poder: aturdir.~
+
+@87=~Eliminar invisibilidad~
+@88=~Eliminar invisibilidad
+Nivel: 3
+Escuela: Abjuración
+Esfera: Defensa
+Alcance: Uno mismo
+Duración: 5 asaltos
+Tiempo de lanzamiento: 3
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Una vez por asalto durante 5 asaltos y de forma instantánea tras lanzar este conjuro, todos los enemigos ocultos que se encuentren dentro del área de efecto verán como se disipa su invisibilidad. Los objetos invisibles introducidos en el área también se volverán visibles. Este conjuro no revela las ilusiones ni permite al lanzar ver a través de objetos físicos. La resistencia a la magia no afecta a este conjuro.~
+
+@89=~Magia equívoca~
+@90=~Magia equívoca
+Nivel: 3
+Escuela: Encantamiento
+Esfera: Caos
+Alcance: Largo
+Duración: 5 asaltos
+Tiempo de lanzamiento: 3
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, niega
+
+Magia equívoca hace que todos los conjuros lanzador por la criatura afectada produzca un efecto diferente del que se espera, sucediendo algo parecido a lo que ocurre durante una oleada salvaje. Hay una probabilidad de que el resultado sea beneficioso para el lanzador, pero generalmente los efectos no son muy deseados. El blanco debe superar una tirada de salvación contra conjuros con -2 para negar los efectos del conjuro. Aquéllos que fallen su tirada de salvación errarán cualquier conjuro que lancen en el siguiente asalto, y en cada asalto después del primero deberán hacer otra tirada de salvación para evitar el fallar otro asalto más. Los efectos del conjuro duraran 5 asaltos, o hasta que sea disipado.~
+
+@91=~Contagio~
+@92=~Contagio
+Nivel: 3
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Corto
+Duración: 8 horas
+Tiempo de lanzamiento: 3
+Área de efecto: 1 criatura
+Tirada de salvación: Veneno, niega
+
+Este conjuro contagia a su víctima de una importante enfermedad que la debilita. El individuo afectado mostrará de inmediato síntomas molestos y dolorosos: forúnculos, manchas, lesiones, abscesos supurantes, etc. Sus puntuaciones en Fuerza, Destreza, Constitución y Carisma se verán reducidas en 2 puntos, y sufrirá los efectos de un conjuro de lentitud. El objetivo de este conjuro debe realizar una tirada de salvación contra veneno con -2 para evitar ser infectado, o los síntomas persistirán hasta que la criatura afectada reciba un sortilegio de Curar enfermedad, o expire la duración del conjuro.~
+
+@93=~Fuerza de uno~
+@94=~Fuerza de uno
+Nivel: 3
+Escuela: Alteración
+Esfera: Ley
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 3
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Con este conjuro, todos los miembros del grupo que se encuentren a 9 metros del lanzador reciben un bonificador de +2 a la Fuerza. Si un miembro del grupo tiene una Fuerza superior a 18, entonces su Fuerza se establece en 18/75. El conjuro dura 10 asaltos, tras los cuales la Fuerza de todos vuelve a ser la normal.~
+
+@95=~Castigo sagrado~
+@96=~Castigo sagrado
+Nivel: 3
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Largo
+Duración: Especial
+Tiempo de lanzamiento: 3
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Especial
+
+Este conjuro atrae energía del Plano del Fulgor, abriendo una comunicación entre éste y las víctimas del efecto. El resultado es que toda criatura malvada que haya en el área de efecto sufrirá 1d4 puntos de daño por nivel del lanzador (hasta un máximo de 10d4), pudiendo realizar una tirada de salvación contra conjuros con -2 para sufrir sólo la mitad del daño. Además, las víctimas que fallen esta tirada quedarán cegadas durante 1 asalto.~
+
+@97=~Azote sacrílego~
+@98=~Azote sacrílego
+Nivel: 3
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Largo
+Duración: Especial
+Tiempo de lanzamiento: 3
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Especial
+
+Este conjuro atrae energía del Plano Material Negativo, abriendo una comunicación entre éste y las víctimas del efecto. El resultado es que toda criatura buena que haya en el área de efecto sufrirá 1d4 puntos de daño por nivel del lanzador (hasta un máximo de 10d4), pudiendo realizar una tirada de salvación contra conjuros con -2 para sufrir sólo la mitad del daño. Además, las víctimas que fallen esta tirada sufrirán un penalizador -2 en sus tiradas de ataque y salvación durante los siguientes 4 asaltos.~
+
+@99=~Curar enfermedad~
+@100=~Curar enfermedad
+Nivel: 3
+Escuela: Abjuración
+Esfera: Curadora
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Mediante este conjuro, el lanzador puede curar prácticamente cualquier enfermedad, para lo cual no tienen más que imponer sus manos sobre el afligido. La curación es permanente, pero no inmuniza a su receptor frente a futuras afecciones. La ceguera y la sordera también pueden ser curadas mediante este conjuro, pero algunas enfermedades creadas mágicamente podrían no resultar afectadas por Curar enfermedad.~
+
+@101=~Ráfaga de viento~
+@102=~Ráfaga de viento
+Nivel: 3
+Escuela: Abjuración
+Esfera: Defensa, Elemental (Aire)
+Alcance: Uno mismo
+Duración: Instantáneo
+Tiempo de lanzamiento: 1
+Área de efecto: Especial
+Tirada de salvación: Especial
+
+Este conjuro crea una potente ráfaga de aire que parte desde el lanzador y afecta a todos los enemigos con los que se cruce. Aquéllos que estén a 2 metros deben superar una tirada de salvación contra armas de aliento con -2 o volarán hacia atrás por la fuerza de la ráfaga, quedando inconscientes durante 1 asalto. Además, este conjuro dispersará toda nube (incluyendo los vapores mágicamente creados como la Nube aniquiladora) en la zona del lanzador.~
+
+@3101=~El conjuro de sacerdote de 3º nivel, Ráfaga de viento, ha eliminado todos los conjuros que crean una nube como área de efecto, como Nube hedionda.~
+
+@103=~Convocar insectos~
+@104=~Convocar insectos
+Nivel: 3
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 6 asaltos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: 1 criatura
+Tirada de salvación: Especial
+
+Este conjuro atrae a una nube o enjambre de insectos normales para que ataque a uno de los enemigos del lanzador. El enjambre se concentrará en un punto elegido por el sacerdote, situado dentro del alcance, y atacará a la criatura que éste señale.
+
+Mientras dure el conjuro, la criatura afectada luchará con un penalizador de -2 a las tiradas de ataque y a la clase de armadura. Además, cada asalto sufrirá 2d3 puntos de daño por las picaduras de los insectos, haciendo que tenga un 100% de probabilidades de que fracase al lanzador un conjuro, y debe superar una tirada de salvación contra muerte mágica o huirá corriendo de miedo. Si supera una tirada de salvación contra armas de aliento con -2, el blanco consigue evitar la mayor parte del enjambre, reduciendo el daño por picaduras a la mitad y negando la penalización al fallo de conjuros.~
+
+@105=~Rechazar muertos vivientes~
+@106=~Rechazar muertos vivientes
+Nivel: 3
+Escuela: Abjuración
+Esfera: Necromántica
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 4
+Área de efecto: Radio de 2 m.
+Tirada de salvación: Ninguna
+
+Este poderoso conjuro hace que unas ondas de energía positiva empiecen a emanar del lanzador. Estas ondas afectarán a todo muerto viviente que intente atacar al lanzador, apartándolos de él durante unos segundos. Mientras dure el conjuro, una nueva oleada surgirá del lanzador cada asalto. Todos los muertos vivientes resultan afectados, sin tirada de salvación que valga.~
+
+@107=~Causar heridas graves~
+@108=~Causar heridas graves
+Nivel: 3
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 3
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Este conjuro es el reverso de Curar heridas graves. En lugar de sanar a la criatura tocada, este efecto le inflige daño. Si el sacerdote logra tocar a la criatura, el conjuro le infligirá 3d8+15 puntos de daño. El conjuro terminará una vez el sacerdote intente un ataque cuerpo a cuerpo o después de que hayan pasado 3 asaltos. El sacerdote gana un bonificador de +4 para golpear al blanco.~
+
+@109=~Curar heridas graves~
+@110=~Curar heridas graves
+Nivel: 3
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 3
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Gracias a este conjuro, al poner su mano sobre una criatura, el sacerdote cura las heridas y otros daños en el cuerpo de la criatura. El sacerdote puede restaurar 3d8 + 1/nivel puntos de daños que tenga la criatura objetivo (hasta un máximo de 3d8+15). La curación no puede afectar a criaturas que no tengan un cuerpo sustancial, ni tampoco puede curar heridas en criaturas que no estén vivas o de origen extraplanar.~
+
+@1109=~Escudo de las tormentas~
+@1110=~Escudo de las tormentas
+Nivel: 3
+Escuela: Abjuración
+Esfera: Clima
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Este conjuro rodea al lanzador con un caparazón oscuro de energía disruptiva que se mueve con él. Este Escudo de las tormentas otorga una resistencia del 50% al fuego, al frío, y a la electricidad. Los proyectiles no mágicos no pueden penetrar la barrera.~
+
+
+/*------------------nivel 4------------------*/
+
+@111=~Curar heridas críticas~
+@112=~Curar heridas críticas
+Nivel: 4
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 4
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Gracias a este conjuro, al poner su mano sobre una criatura, el sacerdote cura las heridas y otros daños en el cuerpo de la criatura. El sacerdote puede restaurar 4d8 + 1/nivel puntos de daños que tenga la criatura objetivo (hasta un máximo de 4d8+20). La curación no puede afectar a criaturas que no tengan un cuerpo sustancial, ni tampoco puede curar heridas en criaturas que no estén vivas o de origen extraplanar.~
+
+@113=~Convocar animales I~
+@114=~Convocar animales I
+Nivel: 4
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Por medio de este conjuro, el lanzador de conjuros convoca una cierta cantidad de animales, que le servirán bajo cualquier condición. El tipo y número de animales que acudirán dependerá del nivel del druida al lanzar el conjuro.
+
+7º : 2 lobos terribles
+9º : 3 lobos terribles
+11º : 4 lobos terribles
+13º+ : 5 lobos terribles
+
+Los animales convocados ayudarán al lanzador de la forma que puedan, permaneciendo a su lado hasta que la duración del conjuro expire.
+
+Lobo terrible (4 Dados de golpe):
+FUE 17, DES 15, CON 17, INT 6, SAB 12, CAR 10;  ALI Neutral verdadero
+PG 44, CA 6, GAC0 15, Tiradas de salvación 13/15/14/16/16
+1 ataque por asalto, 1d6+2 daño perforante (Mordisco +1)~
+
+@115=~Libertad de acción~
+@116=~Libertad de acción
+Nivel: 4
+Escuela: Abjuración
+Esfera: Hechizo
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Mientras se encuentre bajo los efectos de este conjuro, el destinatario se vuelve inmune a cualquier cosa, mágica o no, que limite su movimiento. Esto incluye, pero no se limita sólo a, los efectos de Enredar, Grasa, Telaraña, inmovilizar, Lentitud y aturdimiento. Este efecto durará hasta que termine la duración del conjuro o hasta que sea disipado.~
+
+@117=~Neutralizar veneno~
+@118=~Neutralizar veneno
+Nivel: 4
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 1
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Este conjuro elimina todas las toxinas de un cuerpo, tanto las de origen natural como las de origen mágico. Si se lanza este conjuro sobre un individuo envenenado, el veneno es neutralizad de inmediato. Además, mientras dure este conjuro, el destinatario es inmune a cualquier veneno al que se exponga, y los conjuros como Veneno y Nube aniquiladora no le afectarán.~
+
+@119=~Dominación mental~
+@120=~Dominación mental
+Nivel: 4
+Escuela: Encantamiento
+Esfera: Pensamiento
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 4
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, niega
+
+Cuando se lanza este conjuro, su objetivo debe superar una tirada de salvación contra conjuros con un penalizador de -3 para evitar que el clérigo se introduzca en su cabeza. El efecto de este conjuro es similar al de nivel 5 de mago, Dominación, con unas pequeñas diferencias. La más notable es que este conjuro permite que el clérigo tenga acceso a los pensamientos, recuerdos y sentidos de la víctima. Simplemente, el sacerdote podrá ordenar al sujeto que lleve a cabo ciertas tareas o funciones mientras dure el sortilegio. Para controlar a la víctima, el lanzador debe estar dentro del alcance y debe poder verla directamente. Este control durará hasta ser disipado o hasta que expire la duración.~
+
+@121=~Armonía defensiva~
+@122=~Armonía defensiva
+Nivel: 4
+Escuela: Encantamiento
+Esfera: Ley
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 3 m.
+Tirada de salvación: Ninguna
+
+Armonía defensiva concede a las criaturas afectadas un bonificador defensivo infundiendo coordinación mágica a sus ataques y defensas, lo cual permite a un grupo de criaturas actuar como si fuera un solo individuo durante un combate o encuentro. Este efecto siempre se centra en el lanzador, pero afecta a todos los que se encuentren en un radio de 3 metros. Los afectados que salgan del área de efecto después de haber sido lanzado el conjuro conservarán los beneficios de la armonía. Mientras dure el conjuro, todas las criaturas afectadas ganarán un -4 a su Clase de Armadura. Este conjuro no es acumulativo consigo mismo.~
+
+@123=~Protección contra la electricidad~
+@124=~Protección contra la electricidad
+Nivel: 5
+Escuela: Abjuración
+Esfera: Elemental, Protección
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando se usa un conjuro de Protección contra la electricidad, el destinatario recibe una protección total contra todos los ataques basados en electricidad, ya sean de origen mágico o no mágico. El 100% del daño de ataques como el aliento eléctrico de un dragón será absorbido, y la criatura objeto será virtualmente inmune a los efectos de conjuros como Rayo relampagueando, Glifo custodio, Llamar al relámpago, y Relámpago zigzagueante. Este conjuro no es acumulativo consigo mismo.~
+
+@125=~Círculo mágico contra el mal~
+@126=~Círculo mágico contra el mal
+Nivel: 4
+Escuela: Abjuración
+Esfera: Protección
+Alcance: Uno mismo
+Duración: 5 asaltos
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Al ejecutar este conjuro, el sacerdote hace que todas las criaturas amistosas que estén dentro del área de efecto se ven afectadas por un conjuro de Protección contra el mal. Las criaturas que abandonen el área aún seguirán bajo los efectos del conjuro, mientras que aquéllas que entren después de que el conjuro haya sido completado no.~
+
+@127=~Guarda de la muerte~
+@128=~Guarda de la muerte
+Nivel: 4
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Mientras dure, este conjuro protege a su objetivo contra todas las formas de muerte mágica, entre las que se incluyen los siguientes ejemplos (que no son los únicos): Desintegrar, Palabra de poder: matar, Dedo de la muerte, y Lamento de la banshee. Este efecto durará hasta que expire el conjuro o hasta que sea disipado.~
+
+@129=~Llamar a los seres del bosque~
+@130=~Llamar a los seres del bosque
+Nivel: 4
+Escuela: Conjuración 
+Esfera: Animal
+Alcance: Medio
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro convoca a una ninfa que acudirá en ayuda del grupo. La criatura tendrá a su disposición varios conjuros (como si fuera una druida de nivel 7) y los utilizará de la manera que más convenga al grupo. La ninfa estará bajo el control del lanzador hasta que muera o expire el conjuro.
+
+Ninfa (7 Dados de golpe):
+FUE 10, DES 17, CON 12, INT 16, SAB 17, CAR 19; ALI Caótica Buena
+PG 42, CA 3, GAC0 15, Tiradas de salvación 7/10/7/10/7
+1 ataque por asalto, 1d4 daño contundente (Toque +0)
+
+Conjuros memorizados:
+1° Curar heridas leves (x2), Enredar (x2), Fatalidad, Garrote
+2° Piel de roble, Hechizar persona o animal (x2), Resistir fuego y frío, Lentificar veneno
+3° Llamar al relámpago, Inmovilizar persona o animal, Convocar insectos
+4° Convocar animal I~
+
+@131=~Veneno~
+@132=~Veneno
+Nivel: 4
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Corto
+Duración: 1 turno
+Tiempo de lanzamiento: 4
+Área de efecto: 1 criatura
+Tirada de salvación: Veneno, parcial
+
+Mediante este conjuro, el lanzador puede envenenar a una sola víctima. El daño hecho por el veneno depende del nivel de experiencia que tenga el sacerdote al lanzador.
+
+Nivel 7º:  4d4  +  1 cada 4 segundos
+Nivel 9º:  5d5  +  1 cada 3 segundos
+Nivel 12º:  6d6  +  1 cada 2 segundos
+Nivel 15º+:  8d8  +  1 cada 1 segundo
+
+La víctima no puede evitar el daño inicial a menos que sea completamente inmune a los efectos de los venenos, pero con una tirada de salvación contra veneno con -3 podrá ignorar el daño subsiguiente.~
+
+@133=~Poder sagrado~
+@134=~Poder sagrado
+Nivel: 4
+Escuela: Evocación
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 1 asalto/nivel
+Tiempo de lanzamiento: 4
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Mediante este conjuro, el lanzador obtiene la Fuerza y la habilidad de un guerrero de su mismo nivel. La Fuerza del sacerdote pasa a ser de 18/00, incluso aunque ésta fuera superior, su GAC0 se convierte en el de un guerrero del mismo nivel y obtiene 1 punto de golpe adicionales (temporal) por cada nivel que posea. También ganara ataques adicionales como un guerrero de su mismo nivel, es decir, medio ataque extra por asalto a nivel 7 y otro medio ataque por asalto a nivel 13. El efecto durará hasta que expire el conjuro o se logre disiparlo con éxito. Este conjuro no es acumulativo consigo mismo
+
+Nota: este conjuro no da ningún ataque adiciona a los multiclase o clases duales guerrero/sacerdote o explorador/sacerdote, ya que ya ganan dichos ataques adicionales por asalto de forma normal con sus niveles de guerrero o explorador.~
+
+@135=~Protección contra el plano negativo~
+@136=~Protección contra el plano negativo
+Nivel: 4
+Escuela: Abjuración
+Esfera: Necromántica, Protección
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Este conjuro concede al destinatario una protección parcial contra los monstruos vinculados con el Plano de Energía Negativa (como los vampiros) y conjuros que consumen niveles de experiencia. Este conjuro abre un canal con el Plano de Energía Positiva, en su mayoría para compensar el efecto del ataque de energía negativa. Mientras dure el conjuro, su receptor estará protegido contra cualquier tipo de consunción de niveles asociada a ataques de energía negativa, aunque la criatura protegida sufrirá la pérdida normal de puntos de golpe debido a esos ataques, si es el caso. Este conjuro no puede ser ejecutado en el Plano de Energía Negativa.~
+
+@137=~Causar heridas críticas~
+@138=~Causar heridas críticas
+Nivel: 4
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 4
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Este conjuro es el reverso de Curar heridas críticas. En lugar de sanar a la criatura tocada, este efecto le inflige daño. Si el sacerdote logra tocar a la criatura, el conjuro le infligirá 4d8+20 puntos de daño. El conjuro terminará una vez el sacerdote intente un ataque cuerpo a cuerpo o después de que hayan pasado 4 asaltos. El sacerdote gana un bonificador de +4 para golpear al blanco.~
+
+@139=~Vista lejana~
+@140=~Vista lejana
+Nivel: 4
+Escuela: Adivinación
+Esfera: Adivinación
+Alcance: Uno mismo
+Duración: 3 asaltos + 1 asalto/nivel
+Tiempo de lanzamiento: 4
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Al ser ejecutado Vista lejana, el lanzador puede ver una zona de un mapa inexplorado. Tras lanzar el conjuro, sólo tienes que hacer clic en la sección del mapa que desees ver. Mientras dure el conjuro, el lanzador podrá espiar la zona elegida, viendo qué criaturas y fortificaciones hay en ella.~
+
+@141=~Capa de miedo~
+@142=~Capa de miedo
+Nivel: 4
+Escuela: Conjuración
+Esfera: Hechizo
+Alcance: Uno mismo
+Duración: 1 asalto/2 niveles
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 2 m.
+Tirada de salvación: Especial
+
+La Capa de miedo imbuye al lanzador con un aura de miedo de hasta 2 metros de radio. En cada asalto, todos los enemigos dentro de esta área deberán superar una tirada de salvación contra conjuros con -3 o saldrán corriendo de pánico durante 1 asalto. Los miembros del grupo serán inmunes a los efectos, aunque el aura de miedo podría seguir inquietándoles.~
+
+@143=~Restablecimiento menor~
+@144=~Restablecimiento menor
+Nivel: 4
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 4
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al ejecutarte este conjuro, se incrementa el nivel de energía vital de quien lo reciba. El efecto invertirá una consunción previa del nivel de energía por un monstruo.
+
+Este conjuro exige mucho por parte del sacerdote, dejándolo física y mentalmente exhausto. Durante 5 asaltos después de haber lanzado el conjuro, el sacerdote sufrirá una penalización de -2 al golpear, al daño, a la clase de armadura y a la velocidad de lanzamiento de conjuros.~
+
+@145=~Tormenta de hielo~
+@146=~Tormenta de hielo
+Nivel: 4
+Escuela: Evocación
+Esfera: Elemental (Agua)
+Alcance: Largo
+Duración: 4 asaltos
+Tiempo de lanzamiento: 4
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Cuando se lanza este conjuro, comienza a caer durante 4 asaltos una lluvia de granizos del tamaño de un puño en un área de 9 metros de radio, entorno a un punto designado por el lanzador de conjuros. Las criaturas que se encuentren dentro del área de efecto verán su velocidad movimiento reducida en un 50%, y recibirán 2d8 puntos de daño por frío cada asalto que permanezcan dentro de la tormenta.~
+
+
+/*------------------nivel 5------------------*/
+
+@151=~Convocar animales II~
+@152=~Convocar animales II
+Nivel: 5
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Por medio de este conjuro, el lanzador de conjuros convoca una cierta cantidad de animales, que le servirán bajo cualquier condición. El tipo y número de animales que acudirán dependerá del nivel del druida al lanzar el conjuro.
+
+9º : 2 leopardos terribles
+12º : 3 leopardos terribles
+15º+ : 4 leopardos terribles
+
+Los animales convocados ayudarán al lanzador de la forma que puedan, permaneciendo a su lado hasta que la duración del conjuro expire.
+
+Leopardo terrible (7 Dados de golpe):
+FUE 19, DES 15, CON 17, INT 6, SAB 12, CAR 10;  ALI Neutral verdadero
+PG 77, CA 5, GAC0 10, Tiradas de salvación 10/12/11/12/13
+2 ataques por asalto, 1d8+8 daño perforante (Zarpas y Mordisco +1)
+
+Aptitudes de combate:
+Abalanzarse: puede saltar sobre un blanco si está a menos de 2 metros. En ese asalto, el leopardo se moverá al doble de su velocidad, atacará con un bonus de +2 al GAC0 y al daño, pero sufrirá una penalización de 2 a la CA.~
+
+@1040=~Leopardo terrible~
+
+@153=~Curar heridas mortales~
+@154=~Curar heridas mortales
+Nivel: 5
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Gracias a este conjuro, al poner su mano sobre una criatura, el sacerdote cura las heridas y otros daños en el cuerpo de la criatura. El sacerdote puede restaurar 5d8 + 1/nivel puntos de daños que tenga la criatura objetivo (hasta un máximo de 5d8+25). La curación no puede afectar a criaturas que no tengan un cuerpo sustancial, ni tampoco puede curar heridas en criaturas que no estén vivas o de origen extraplanar.~
+
+@155=~Golpe de fuego~
+@156=~Golpe de fuego
+Nivel: 5
+Escuela: Evocación
+Esfera: Combate, Elemental (Fuego)
+Alcance: Largo
+Duración: Instantáneo
+Tiempo de lanzamiento: 5
+Área de efecto: Blanco, y enemigos dentro de 1,5 m
+Tirada de salvación: Armas de aliento, mitad
+
+Cuando el sacerdote ejecuta este conjuro, una columna vertical de fuego crepita al descender sobre el lugar exacto nombrado por el lanzador de conjuros. Todas las criaturas que se hallen en el área de efecto de un golpe de fuego deben efectuar una tirada de salvación contra armas de aliento con -6 o sufrirán 1d6 puntos de daño por fuego por nivel del lanzador (hasta un máximo de 15d6), y aquéllas que superen la tirada sufrirán la mitad. Este conjuro no daña a los miembros del grupo.~
+
+@157=~Revivir a los muertos~
+@158=~Revivir a los muertos
+Nivel: 5
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Corto
+Duración: Permanente
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: 1 persona
+Tirada de salvación: Ninguna
+
+Cuando el sacerdote lanza el conjuro Revivir a los muertos, podrá devolver a la vida a un camarada caido. El cuerpo del individuo debe estar completo, de lo contrario, si faltase alguna parte ésta seguiría faltando cuando la persona volviera a la vida. El revivido sólo tendrá 1 punto de golpe cuando sea revivido y deberá recuperar el resto con curación natural o mágica.~
+
+@2157=~La llamada de los Arpistas~
+@2158=~La llamada de los Arpistas
+Nivel: 5
+Escuela: Nigromancia
+Esfera: Necromántica 
+Alcance: Corto
+Duración: Permanente 
+Tiempo de lanzamiento: 1 asalto 
+Área de efecto: 1 persona
+Tirada de salvación: Ninguna 
+
+Este conjuro sólo está disponible para los Arpistas. La llama da de los Arpistas devuelve la vida a un compañero, para servir a la causa de los Arpistas. Este conjuro funciona de igual forma que un Revivir a los muertos, con las siguientes excepciones: el arpista debe transferir una pequeña parte de su esencia vital (10 puntos de golpe) para que la persona fallecida pueda revivir. El blanco sólo tendrá 1 punto de golpe cuando sea revivido y deberá recuperar el resto con curación natural o mágica, y sufrirá una penalización de -5 a todas sus aptitudes durante un minuto, haciéndole virtualmente inútil en el combate.~
+
+@159=~Vista verdadera~
+@160=~Vista verdadera
+Nivel: 5
+Escuela: Adivinación
+Esfera: Total
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Al ejecutar este conjuro, quedará afectada un área de, aproximadamente, 9 metros de radio en torno al lanzador. A partir de ese momento y durante el siguiente turno, todos los conjuros hostiles de Ilusión/Fantasma serán disipados. Este conjuro sólo afecta a los enemigos. La resistencia mágica del objetivo (en caso de existir) no funcionará en lo que se refiere a este conjuro.
+
+Los conjuros afectados por este conjuro son: Imagen reflejada, Invisibilidad, Borroso, Imagen en el espejo, Armadura fantasmal, Esfera de invisibilidad, Invisibilidad mejorada, Puerta de sombra, Polvillo de pixie, Doble engañoso, Proyectar imagen, e Invisibilidad de masas.~
+
+@161=~Piel de piedra~
+@162=~Piel de piedra
+Nivel: 5
+Escuela: Alteración
+Esfera: Elemental (Tierra)
+Alcance: Uno mismo
+Duración: 8 horas
+Tiempo de lanzamiento: 1
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Cuando un druida lanza sobre sí mismo este poderoso conjuro, queda completamente cubierto por una piel de piedra que emerge del suelo, cubriéndole completamente. Ni qué decir tiene que esta piel es mágica, y que no entorpecerá en absoluto al druida. Este efecto protege al lanzador contra ataques de armas físicas, como las de cuerpo a cuerpo y las de proyectil. Por cada 2 niveles de experiencia que posea, el lanzador obtendrá una piel más; por ejemplo, un druida de 10º nivel recibiría 5 pieles, mientras que uno de 20º obtendría 10. El conjuro detendrá un ataque por cada piel poseída por el druida; por tanto, un lanzador de 10º nivel estaría protegido contra los primeros 5 ataques que sufriera, pero el sexto le afectaría normalmente. Las pieles permanecerán sobre el druida hasta que se le lance un Disipar magia, hasta que todas ellas desaparezcan a consecuencia de ataques o hasta que expire la duración del conjuro.
+
+Es importante advertir que este conjuro no protegerá al druida contra ningún ataque de área (como una Bola de fuego), y que cualquier arma capaz de infligir algún tipo de daño elemental, podrá dañar al lanzador; las pieles no protegen contra daño por fuego, frío, ácido o electricidad, incluso si el daño físico es bloqueado. Este conjuro no es acumulativo consigo mismo.~
+
+@163=~Fuerza del Campeón~
+@164=~Fuerza del Campeón
+Nivel: 5
+Escuela: Alteración
+Esfera: Ley
+Alcance: Medio
+Duración: 1 asalto/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando se lanza este conjuro, el clérigo extrae la fuerza de su dios y dota de ella a la criatura designada, creando, por tanto, a un campeón. El objetivo recibe un bonificador de +1 por cada 3 niveles del lanzador a su Fuerza, Destreza, y Constitución, hasta un bonificador máximo de 6 en nivel 18. El efecto durará 1 asaltos por nivel del lanzador o hasta ser disipado. Este conjuro no es acumulativo ni consigo mismo ni con otros conjuros similares~
+
+@165=~Ordenes caóticas~
+@166=~Ordenes caóticas
+Nivel: 5
+Escuela: Encantamiento
+Esfera: Caos
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Mientras una criatura esté bajo los efectos de este conjuro, será inmune a las órdenes mágicas. Los conjuros de Hechizar, Orden imperiosa, Confusión, Inmovilización, y Dormir entran dentro de esta categoría. Este conjuro también protege contra los ataques mentales psionicos como la Explosión psiónica de los Azontamentes, pero no confiere inmunidad total a la psionica. Este conjuro terminará cuando expire su duración o cuando sea disipado.~
+
+@167=~Resistencia a la magia~
+@168=~Resistencia a la magia
+Nivel: 5
+Escuela: Alteración
+Esfera: Protección
+Alcance: Toque
+Duración: 2 asaltos/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al ejecutarse este conjuro, su receptor adquiere resistencia a todos las formas de magia. La resistencia concedida será de un 2% por nivel de experiencia del sacerdote (hasta un máximo de 40% a partir del nivel 20º). El efecto durará hasta que el conjuro expire o sea disipado. Este conjuro no es acumulativo consigo mismo.~
+
+@169=~Causar heridas mortales~
+@170=~Causar heridas mortales
+Nivel: 5
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Este conjuro es el reverso de Curar heridas mortales. En lugar de sanar a la criatura tocada, este efecto le inflige daño. Si el sacerdote logra tocar a la criatura, el conjuro le infligirá 5d8+25 puntos de daño. El conjuro terminará una vez el sacerdote intente un ataque cuerpo a cuerpo o después de que hayan pasado 5 asaltos. El sacerdote gana un bonificador de +4 para golpear al blanco.~
+
+@171=~Rematar a los vivos~
+@172=~Rematar a los vivos
+Nivel: 5
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, parcial
+
+Tras lanzar este conjuro, el sacerdote debe tocar a un oponente al que desee transmitir el efecto. Si el sacerdote logra tocar con éxito, la víctima morirá inmediatamente a menos que supere una tirada de salvación contra conjuros con -4. Incluso entonces, la víctima sufrirá 5d4+10 puntos de daño mágico. El conjuro expirará una vez el sacerdote haya atacado cuerpo a cuerpo o después de que hayan pasado 5 asaltos. El sacerdote gana un bonificador de +4 para golpear a su víctima.~
+
+@173=~Orden imperiosa mayor~
+@174=~Orden imperiosa mayor
+Nivel: 5
+Escuela: Encantamiento
+Esfera: Hechizo, Combate, Ley
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 1
+Área de efecto: Blanco, y enemigos dentro de 6 m.
+Tirada de salvación: Especial
+
+Al igual que el conjuro de 1er nivel Orden imperiosa, este conjuro permite al sacerdote ordenar a otra criatura que se tumben y que no realicen ninguna acción (se duerman) durante 10 asaltos, y todo enemigo a una distancia de 6 metros del blanco también se verá afectado (salvación contra conjuros con -4 para negar el efecto). Al principio de cada asalto después del primero, aquéllos que se hayan visto afectados pueden hacer otro intento para salvarse y romper así el conjuro. Cuando la duración del conjuro expire, cualquier criatura que estuviera durmiendo se despertará.~
+
+@175=~Furia justa~
+@176=~Furia justa
+Nivel: 5
+Escuela: Alteración
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 1 asalto/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Éste es un poderoso conjuro de combate que mejora la potencia física del sacerdote, transformándolo en una criatura de destrucción, imposible de detener. La Fuerza del lanzador aumentará en 4 puntos, su clase de armadura mejora en -2, y gana 1 punto de golpe adicional (temporal) por nivel de experiencia que posea (hasta un máximo de 20). Además, el lanzador infligirá 1d6 puntos de daño mágico adicional cuando golpee a un oponente con un arma cuerpo a cuerpo. Los efectos durarán hasta que se termine el conjuro o hasta que sea disipado. Este conjuro no es acumulativo consigo mismo.~
+
+@177=~Curación en masa~
+@178=~Curación en masa
+Nivel: 5
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Uno mismo
+Duración: Permanente
+Tiempo de lanzamiento: 5
+Área de efecto: Alcance visual
+Tirada de salvación: Ninguna
+
+Al lanzar este conjuro, el sacerdote debe imaginar los rostros de sus compañeros y concentrarse en la unidad del grupo. Al completarlo, todos los miembros de su grupo que estén a su vista recuperarán 2d8 puntos de golpe +1/nivel del lanzador (hasta un máximo de 2d8+20).~
+
+@179=~Polvillo de pixie~
+@180=~Polvillo de pixie
+Nivel: 5
+Escuela: Ilusión
+Esfera: Combate
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Este conjuro crea un puñado de polvillo de pixie que el lanzador puede lanzar al aire, volviendo invisible a todo el que toque con él (el alcance del polvillo es de 9 metros). Las criaturas que abandonen el área seguirán sujetas al efecto del conjuro, y aquéllas que entren en el área de efecto una vez haya sido completado no se verán afectadas. Si una criatura afectada realiza un ataque, sólo ella perderá se volverá visible, de lo contrario, el conjuro dura 24 horas.~
+
+@181=~Plaga de insectos~
+@182=~Plaga de insectos
+Nivel: 5
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 6 asaltos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Blanco, y enemigos dentro de 9 m.
+Tirada de salvación: Especial
+
+Al lanzar este conjuro, el sacerdote convoca a un enjambre de insectos que se arrastran, brincan y vuelan. El enjambre atacará en primer lugar al objetivo y después a sus aliados más cercanos que estén dentro del área de efecto. La invisibilidad no ofrece protección.
+
+Mientras dure este conjuro, los afectados lucharán con una penalización de 2 en sus tiradas de ataque y clase de armadura. Además, las víctimas sufrirán 2d3 puntos de daño cada asalto por las picaduras de los insectos, haciendo que la probabilidad de fallo al lanzar conjuros sea del 100%, y que se deba hacer una tirada de salvación contra muerte mágica para evitar salir huyendo de miedo. Si se tiene éxito en una tirada de salvación contra armas de aliento con -4, el blanco logrará evitar la mayor parte del enjambre, reduciendo el daño por picaduras a la mitad y obviando por completo la penalización al lanzamiento de conjuros.~
+
+@185=~Polimorfar a otro~
+@186=~Polimorfar a otro
+Nivel: 5
+Escuela: Alteración
+Esfera: Animal
+Alcance: Largo
+Duración: Permanente
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Polimorfia, niega
+
+El conjuro de Polimorfar a otro es una magia muy poderosa que altera permanentemente la forma de la criatura afectada. Los atributos mentales no resultan afectados, y la víctima no recibe las aptitudes especiales de su nueva forma; sin embargo, la mayoría de los atributos físicos cambiarán para adaptarse a la nueva forma, perdiendo cualquier aptitud especial que tuviera en su forma original. Ésta es versión en concreto del sortilegio, transformará a la víctima en una ardilla si no logra salvarse contra paralización/polimorfia. La efectividad de este conjuro depende del nivel del blanco, siendo relativamente sencillo afectar a criaturas débiles y muy difícil a criaturas más poderosas. Las criaturas con menos de 8 DG/niveles tienen una penalización de -4 a la tirada de salvación, aquéllas entre 8 y 14 DG/niveles usan su salvación normal, y aquéllas con 15 o más DG/niveles tendrán un bonificador de +2 a la tirada de salvación. La transformación será instantánea, y tendrá carácter permanente hasta que se lance con éxito un Disipar magia sobre la criatura afectada.
+
+Nota: Toda la ropa y equipo que la víctima lleve encima desaparecerá y pasará a formar parte de la nueva criatura. No obstante, todo volverá a su estado previo cuando el blanco muera o los efectos del conjuro sean disipados.~
+
+@187=~Protección contra el ácido~
+@188=~Protección contra el ácido
+Nivel: 5
+Escuela: Abjuración
+Esfera: Elemental, Protección
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando se usa un conjuro de Protección contra el ácido, el destinatario recibe una protección total contra todos los ataques basados en ácido, ya sean de origen mágico o no mágico. El 100% del daño de ataques como el aliento ácido de un dragón será absorbido, y la criatura objeto será virtualmente inmune a los efectos de conjuros como Flecha ácida de Melf y Niebla ácida. Este conjuro no es acumulativo consigo mismo.~
+
+@189=~Protección contra el frío~
+@190=~Protección contra el frío
+Nivel: 5
+Escuela: Abjuración
+Esfera: Elemental, Protección
+Alcance: Toque
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Cuando se usa un conjuro de Protección contra el frío, el destinatario recibe una protección total contra todos los ataques basados en frío, ya sean de origen mágico o no mágico. El 100% del daño de ataques como el aliento gélido de un dragón será absorbido, y la criatura objeto será virtualmente inmune a los efectos de conjuros como Tormenta de hielo y Cono de frío. Este conjuro no es acumulativo consigo mismo.~
+
+
+/*------------------nivel 6------------------*/
+
+@191=~Sirviente aéreo~
+@192=~Sirviente aéreo
+Nivel: 6
+Escuela: Conjuración
+Esfera: Llamada
+Alcance: Medio
+Duración: 1 turno/nivel
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+El lanzador de este conjuro convocará a un Sirviente aéreo para que obedezca sus órdenes mientras dure el efecto. El sirviente atacará a cualquier enemigo que decida el sacerdote, quedándose al lado de éste hasta que muera o expire el conjuro.
+
+Sirviente aéreo (16 Dados de golpe):
+FUE 21, DES 19, CON 17, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 148, CA -1, GAC0 2, Tiradas de salvación 4/6/5/4/7
+2 ataques por asalto, 2d6+11 daño contundente (Puños +2)
+
+Cualidades especiales:
+Invisibilidad natural: posee una invisibilidad constante como si afectara un conjuro de Invisibilidad mejorada
+Inmune a los efectos de inmovilizar, veneno, dormir y aturdir~
+
+@193=~Convocar animal III~
+@194=~Convocar animal III
+Nivel: 6
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Por medio de este conjuro, el lanzador de conjuros convoca una cierta cantidad de animales, que le servirán bajo cualquier condición. El tipo y número de animales que acudirán dependerá del nivel del druida al lanzar el conjuro.
+
+11º : 2 osos terribles
+15º+ : 3 osos terribles
+
+Los animales convocados ayudarán al lanzador de la forma que puedan, permaneciendo a su lado hasta que la duración del conjuro expire.
+
+Oso terrible (10 Dados de golpe):
+FUE 21, DES 13, CON 19, INT 6, SAB 12, CAR 10;  ALI Neutral verdadero
+PG 130, CA 3, GAC0 7, Tiradas de salvación 8/10/9/9/11
+2 ataques por asalto, 2d4+11 daño contundente (Zarpas y Mordisco +1)~
+
+@1041=~Oso terrible~
+
+@195=~Barrera de cuchillas~
+@196=~Barrera de cuchillas
+Nivel: 6
+Escuela: Evocación
+Esfera: Guardián, Creación
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 6
+Área de efecto: Radio de 2 m.
+Tirada de salvación: Armas de aliento, niega
+
+El sacerdote empleará este conjuro para levantar un muro de hojas giratorias, afiladas como cuchillas, que darán vueltas y brillarán en torno al él, creando una barrera impenetrable. Toda criatura dentro de un radio de 6 metros del lanzador sufrirá 3d6 puntos de daño cada 3 segundos (salvación contra armas de aliento con -5 para negarlo). La resistencia a la magia no afecta a este conjuro.
+
+Los conjuros como Invisibilidad, Puerta de sombra, etc., no funcionarán sobre el lanzador cuando esté protegido por Barrera de cuchillas. Además, los clérigos/ladrones y los clérigos/exploradores que lancen este conjuro no serán capaces de esconderse en las sombras hasta que el conjuro expire.~
+
+@197=~Conjurar animales~
+@198=~Conjurar animales
+Nivel: 6
+Escuela: Conjuración
+Esfera: Llamada
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro permite al lanzador convocar y controlar a uno o dos enormes osos de las montañas. Mientras dure el conjuro, los osos obedecerán todas las órdenes del sacerdote.~
+
+@199=~Conjurar elemental de fuego~
+@200=~Conjurar elemental de fuego
+Nivel: 6
+Escuela: Conjuración
+Esfera: Elemental (Fuego)
+Alcance: Medio
+Duración: 1 turno + 1 asalto/nivel
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Al ejecutar este sortilegio, el lanzador abre un portal especial hacia el Plano Elemental del Fuego y un elemental de fuego procedente de él es conjurado en las cercanías del lanzador. Normalmente, aparecerá un elemental de 12 Dados de Golpe. Sin embargo, a nivel 15 y superiores, el lanzador será capaz de conjurar a un elemental de 16 dados de golpe. El elemental estará ligado al lanzador hasta que sea destruido o hasta que la duración del conjuro termine. Todas las órdenes que se dé al elemental serán transmitidas telepáticamente, por lo que la comunicación no supondrá ningún retraso (y no es necesario conocer el idioma de la criatura convocada). Como es bastante difícil mantener abierto un portal hacia los Planos Interiores, habrá una probabilidad del 15% de que el portal abierto por el lanzador colapse antes de que el elemental entre en el Plano material primario.
+
+Elemental de fuego (12 Dados de golpe):
+FUE 16, DES 17, CON 17, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 126, CA 1, GAC0 7, Tiradas de salvación 7/9/8/8/10
+2 ataques por asalto, 2d6+4 daño cortante +2d6 daño por fuego (Puños +3)
+
+Elemental mayor de fuego (16 Dados de golpe):
+FUE 18, DES 19, CON 18, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 168, CA 0, GAC0 3, Tiradas de salvación 4/6/5/4/7
+2 ataques por asalto, 2d8+5 daño cortante +2d8 daño por fuego (Puños +3)
+
+Cualidades especiales (12 y 16 Dados de golpe):
+Inmune a las armas normales
+Inmune a los efectos de inmovilización, venenos, polimorfía, dormir, y aturdimiento
+Resistencia al fuego: 100%
+Resistencia al daño Cortante, Contundente, Perforador, y por Proyectiles: 20%~
+
+@201=~Semillas de fuego~
+@202=~Semillas de fuego
+Nivel: 6
+Escuela: Conjuración
+Esfera: Elemental (Fuego)
+Alcance: Uno mismo
+Duración: 4 turnos
+Tiempo de lanzamiento: 6
+Área de efecto: Especial
+Tirada de salvación: Armas de aliento, mitad
+
+Este conjuro permite al druida crear unas cuantas semillas de fuego, una por cada 3 niveles de experiencia que tenga (hasta un máximo de 6 semillas en nivel 18). Cuando son lanzadas contra un enemigo, explotarán como si fueran unas pequeñas bolas de fuego, causando 4d6 puntos de daño a todo aquél dentro de un radio de 3 metros (salvación contra armas de aliento con -5). Las semillas son tratadas como proyectiles arrojados por el lanzador con una bonificación de +4 al GAC0 y cada una tendrá un nivel de encantamiento de +6. Las semillas aparecen en las manos del lanzador y persistirán durante 4 asaltos. El druida puede arrojar dos de ellas por asalto.~
+
+@1039=~Creadas por el conjuro Semillas de fuego, cuando se arrojan contra un enemigo, explotan en pequeñas bolas de fuego que infligen 4d6 puntos de daño a todo aquél que esté en un radio de 3 metros, con una tirada de salvación contra armas de aliento con -5 para la mitad del daño.~
+
+@203=~Sanar~
+@204=~Sanar
+Nivel: 6
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: Instantáneo
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Sanar es un conjuro muy poderoso que permite al sacerdote eliminar las heridas y enfermedades de la criatura que reciba los beneficios del conjuro. El conjuro cura por complete todas las enfermedades del destinatario así como venenos y estados como ceguera y sordera. También cura todos los puntos de daño que haya sufrido debido a heridas y disipa el conjuro Debilidad mental. Naturalmente, esto no impide que, en el futuro, el objetivo pueda sufrir nuevas heridas y padecer otras enfermedades.~
+
+@205=~Dañar~
+@206=~Dañar
+Nivel: 6
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: 1 criatura
+Tirada de salvación: Conjuros, mitad
+
+Este conjuro es el reverso de Sanar. En lugar de sanar a la criatura tocada, su efecto le inflige daño. Si el sacerdote logra tocar con éxito a su víctima, el conjuro le infligirá 150 puntos de daño mágico a la criatura objetivo. Si la criatura tiene éxito en una tirada de salvación contra conjuros con -5, Dañar sólo le hará la mitad de daño. El conjuro expirará una vez haya intentado golpear cuerpo a cuerpo el sacerdote o después de que haya pasado un turno. El sacerdote gana un bonificador de +4 al golpear al objetivo.~
+
+@207=~Falso amanecer~
+@208=~Falso amanecer
+Nivel: 6
+Escuela: Evocación
+Esfera: Sol
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 4,5 m.
+Tirada de salvación: Especial
+
+Imitando el poder del sol, al ejecutar este conjuro el cuerpo del lanzador emana una luz brillante que se extiende 4,5 metros en todas direcciones. En cada asalto, los oponentes que estén dentro del área de efecto deben superar una tirada de salvación contra conjuros con -5 o quedarán cegados durante 1 asalto. Los muertos vivientes sufren 2d6 puntos de daño cada aslto que estén expuestos al falso amanecer.~
+
+@209=~Descomposición dolorosa~
+@210=~Descomposición dolorosa
+Nivel: 6
+Escuela: Alteración, Nigromancia
+Esfera: Combate, Necromántica
+Alcance: Medio
+Duración: Especial
+Tiempo de lanzamiento: 6
+Área de efecto: 1 criatura
+Tirada de salvación: Veneno, parcial
+
+Este conjuro afecta a una sola criatura viva. La Descomposición dolorosa se manifiesta como una putrefacción y un marchitamiento que se extienden con rapidez por el cuerpo de la víctima. La enfermedad causa instantáneamente una penalización permanente de -1 a la Fuerza, la Destreza, y la Constitución. Si la criatura falla una tirada de salvación contra veneno con -5, la descomposición le inflige 1 punto de daño por segundo, hasta un total del 60 puntos de daño, y otro punto de daño a cada atributo físico cada 5 asaltos. La criatura afectada también queda ralentizada mientras dure la descomposición, y los puntos de atributos perdidos con este conjuro sólo se pueden recuperar con un Curar enfermedad, un Sanar, o un Restablecimiento mayor.~
+
+@211=~Memoria maravillosa~
+@212=~Memoria maravillosa
+Nivel: 6
+Escuela: Alteración
+Esfera: Hechizo, Creación
+Alcance: Uno mismo
+Duración: Instantáneo
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Este conjuro permite al lanzador recordar dos conjuros memorizados que ya hubiera lanzado. Si aún no lanzó ningún conjuro, no ocurrirá nada. Memoria maravillosa no puede recordar conjuros de nivel 6 o mayor.~
+
+@213=~Rayo de gloria~
+@214=~Rayo de gloria
+Nivel: 6
+Escuela: Evocación
+Esfera: Combate, Llamada
+Alcance: Largo
+Duración: Instantáneo
+Tiempo de lanzamiento: 6
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al ejecutar este conjuro, el sacerdote canaliza contra una criatura un rayo de energía divina. No se necesita tirada de ataque. Las criaturas golpeadas sufren diferente daño, dependiendo de su plano de existencia.
+
+Tipo de criatura  --  Daño
+   Elemental      --  4d4
+   Humanoide      --  6d6
+ Muerto viviente  --  8d8
+   Demonio        --  10d10~
+
+@215=~Espejo físico~
+@216=~Espejo físico
+Nivel: 6
+Escuela: Alteración
+Esfera: Numérica
+Alcance: Uno mismo
+Duración: 1 asalto/nivel
+Tiempo de lanzamiento: 6
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro crea un doblez localizado en el espacio, tomando éste la forma de un disco invisible que protegerá al lanzador. Todo proyectil físico que golpee sobre el disco dará media vuelta de inmediato. Los factores de combate cuerpo a cuerpo, como la rapidez, el alcance y el daño, no se verán afectados en absoluto; simplemente, el objeto o la fuerza girarán 180º. La criatura que hubiera lanzado el proyectil se convertirá en el objetivo de su propio ataque. La persona que haya ejecutado el espejo podrá atacar con proyectiles normales a través del espacio ocupado por el efecto mágico. Este conjuro no proporciona ninguna protección contra ataques mágicos como Bola de fuego, Rayo relampagueante, o Proyectil mágico, pero si que refleja los proyectiles mágicamente creados como la Flecha ácida de Melf, Meteoritos de Melf, y Flecha de fuego.~
+
+@217=~Orbe abrasador del sol~
+@218=~Orbe abrasador del sol
+Nivel: 6
+Escuela: Evocación
+Esfera: Sol
+Alcance: Uno mismo
+Duración: 3 asaltos
+Tiempo de lanzamiento: 6
+Área de efecto: Especial
+Tirada de salvación: Armas de aliento, parcial
+
+Cuando se completa el lanzamiento de este conjuro, se crea una gema brillante que debe lanzarse inmediatamente contra un oponente, pues no tarda en quemar demasiado como para cogerla. El conjuro expira una vez el sacerdote intenta un ataque a distancia o tras pasar tres asaltos. El sacerdote gana una bonificación de +4 para golpear al blanco. El sacerdote no podrá dársela a otro personaje para que la lance.
+
+Cuando golpea, la gema estalla en un resplandor de luz, infligiendo a su víctima 1d6 puntos de daño por fuego por nivel del lanzador (hasta un máximo de 20d6) y cegándola durante 6 asaltos. Los muertos vivientes sufren el doble de daño. Se permite a la víctima realizar una tirada de salvación contra armas de aliento con una penalización de -5. Si tiene éxito, sólo sufre la mitad del daño y no queda cegada.~
+
+@219=~Conjurar elemental de aire~
+@220=~Conjurar elemental de aire
+Nivel: 6
+Escuela: Conjuración
+Esfera: Elemental (Aire)
+Alcance: Medio
+Duración: 1 turno + 1 asalto/nivel
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Al ejecutar este sortilegio, el lanzador abre un portal especial hacia el Plano Elemental del Aire y un elemental de aire procedente de él es conjurado en las cercanías del lanzador. Normalmente, aparecerá un elemental de 12 Dados de Golpe. Sin embargo, a nivel 15 y superiores, el lanzador será capaz de conjurar a un elemental de 16 dados de golpe. El elemental estará ligado al lanzador hasta que sea destruido o hasta que la duración del conjuro termine. Todas las órdenes que se dé al elemental serán transmitidas telepáticamente, por lo que la comunicación no supondrá ningún retraso (y no es necesario conocer el idioma de la criatura convocada). Como es bastante difícil mantener abierto un portal hacia los Planos Interiores, habrá una probabilidad del 15% de que el portal abierto por el lanzador colapse antes de que el elemental entre en el Plano material primario.
+
+Elemental de aire (12 Dados de golpe):
+FUE 16, DES 19, CON 17, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 126, CA 0, GAC0 5, Tiradas de salvación 7/9/8/8/10
+3 ataques por asalto, 1d8+4 daño perforante (Puños +3)
+
+Elemental mayor de aire (16 Dados de golpe):
+FUE 18, DES 21, CON 18, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 168, CA -1, GAC0 1, Tiradas de salvación 4/6/5/4/7
+3 ataques por asalto, 1d10+5 daño perforante (Puños +3)
+
+Cualidades especiales (12 y 16 Dados de golpe):
+Inmune a las armas normales
+Inmune a los efectos de inmovilización, venenos, polimorfía, dormir, y aturdimiento
+Resistencia al daño Cortante, Contundente, y Perforador: 20%
+Resistencia al daño por Proyectiles: 60%~
+
+@221=~Conjurar elemental de tierra~
+@222=~Conjurar elemental de tierra
+Nivel: 6
+Escuela: Conjuración
+Esfera: Elemental (Tierra)
+Alcance: Medio
+Duración: 1 turno + 1 asalto/nivel
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Al ejecutar este sortilegio, el lanzador abre un portal especial hacia el Plano Elemental de Tierra y un elemental de tierra procedente de él es conjurado en las cercanías del lanzador. Normalmente, aparecerá un elemental de 12 Dados de Golpe. Sin embargo, a nivel 15 y superiores, el lanzador será capaz de conjurar a un elemental de 16 dados de golpe. El elemental estará ligado al lanzador hasta que sea destruido o hasta que la duración del conjuro termine. Todas las órdenes que se dé al elemental serán transmitidas telepáticamente, por lo que la comunicación no supondrá ningún retraso (y no es necesario conocer el idioma de la criatura convocada). Como es bastante difícil mantener abierto un portal hacia los Planos Interiores, habrá una probabilidad del 15% de que el portal abierto por el lanzador colapse antes de que el elemental entre en el Plano material primario.
+
+Elemental de tierra (12 Dados de golpe):
+FUE 21, DES 8, CON 19, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 146, CA 3, GAC0 4, Tiradas de salvación 7/9/8/8/10
+2 ataques por asalto, 2d8+12 daño contundente (Puños +3)
+
+Elemental mayor de tierra (16 Dados de golpe):
+FUE 23, DES 8, CON 21, INT 6, SAB 11, CAR 11;  ALI Neutral verdadero
+PG 188, CA 2, GAC0 0, Tiradas de salvación 4/6/5/4/7
+2 ataques por asalto, 2d10+14 daño contundente (Puños +3)
+
+Cualidades especiales (12 y 16 Dados de golpe):
+Inmune a las armas normales
+Inmune a los efectos de inmovilización, venenos, polimorfía, dormir, y aturdimiento
+Resistencia al daño Cortante, Perforante, y por Proyectiles: 40%~
+
+@223=~Controlar muertos vivientes~
+@224=~Controlar muertos vivientes
+Nivel: 6
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Largo
+Duración: 5 turnos
+Tiempo de lanzamiento: 7
+Área de efecto: Blanco, y enemigos dentro de 1,5 m.
+Tirada de salvación: Especial
+
+Este conjuro permite al lanzador tomar el control de los muertos vivientes que se encuentren en el área de efecto. Esto crea un vínculo telepático entre el sacerdote y las víctimas que permite al primero controlar por completo a las segundas. Los muertos vivientes no podrán realizar tirada de salvación si tienen 5 Dados de Golpe o menos que el lanzador; los demás podrán hacer una tirada de salvación contra conjuros con -5 para negar el efecto. Los muertos vivientes continuarán bajo el control del lanzador mientras dure el conjuro o hasta que alguien les lance un Disipar magia.~
+
+@225=~Crear muerto viviente~
+@226=~Crear muerto viviente
+Nivel: 6
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro hace que los muertos se alcen y sirvan al lanzador. El tipo y número de criaturas que aparecen depende del nivel del sacerdote en el momento del lanzamiento del conjuro.
+
+11º : 3 necrarios
+15º+ : 2 momias
+
+Los muertos vivientes permanecerán bajo el control del sacerdote hasta que sean destruidos o hasta que termine la duración del conjuro.
+
+Necrario (4 Dados de golpe):
+FUE 17, DES 16, CON -, INT 11, SAB 12, CAR 10;  ALI Caótico Malvado
+PG 48, CA 4, GAC0 15, Tiradas de salvación 9/11/10/12/12
+3 ataques por asalto, 1d8+2 daño perforante (Toque +1)
+
+Aptitudes de combate:
+Parálisis: el blanco debe superar una salvación contra muerte mágica o quedará paralizado durante 5 asaltos
+
+Cualidades especiales:
+Hedor: los oponentes que estén a menos de 3 m. deben salvarse contra veneno o sufrirán una penalización de -4 a sus tiradas de ataque y un 20% de fallo para lanzar conjuros
+Inmune a los efectos de hechizar, confusión, enfermedad, inmovilización, veneno, dormir, aturdimiento, y muerte
+
+Momia (7 Dados de golpe):
+FUE 18/99, DES 9, CON -, INT 6, SAB 12, CAR 10;  ALI Legal Malvado
+PG 84, CA 3, GAC0 10, Tiradas de salvación 9/11/10/12/12
+1 ataque por asalto, 1d12+6 daño contundente (Toque +1)
+
+Aptitudes de combate:
+Podredumbre de momia: el blanco debe salvarse contra muerte mágica o se verá afectado por una horrible enfermedad, que le infligirá 1 punto de daño cada 3 segundos durante 1 turno. Al final de ese turno, tanto la Constitución como el Carisma de la víctima se reducen en 2.
+
+Cualidades especiales:
+Desesperación: por el simple hecho de ver a una momia, los blancos deben superar una salvación contra conjuros o quedarán paralizados de miedo durante 2 asaltos. La superen o no, las criaturas que ya hayan visto a la momia no se verán afectadas por la desesperación en las siguientes 8 horas.
+Inmune a las armas normales
+Inmune a los efectos de hechizar, confusión, enfermedad, inmovilización, veneno, dormir, aturdimiento, y muerte
+Resistencia al frío: 100%
+Resistencia al fuego: -25%
+Resistencia al daño físico: 50%~
+
+
+/*------------------nivel 7------------------*/
+
+@231=~Escudo de los arcontes~
+@232=~Escudo de los arcontes
+Nivel: 7
+Escuela: Abjuración
+Esfera: Protección
+Alcance: Uno mismo
+Duración: 3 asaltos/nivel
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Este poderoso efecto de abjuración absorbe y consume los conjuros lanzados contra el sacerdote. Afecta a un total de niveles de conjuro igual a la mitad del nivel de experiencia poseído por el personaje. Este conjuro no protege al lanzador contra el Disipar magia, pero tampoco se verá afectado por él.
+
+El conjuro garantiza protección contra los conjuros lanzados a partir de rollos de pergamino o mediante aptitudes innatas similares a conjuros; sin embargo, no resultarán afectadas las áreas de efecto que no estén centradas directamente sobre el sacerdote (como una Bola de fuego) ni aquellas que se queden quietas (como la Nube aniquiladora o la Nube hedionda). El conjuro será absorbido siempre y cuando haya sido lanzado directamente contra el sacerdote y seguirá absorbiendo efectos mágicos mientras le queden niveles para ello. Si, por ejemplo, al sacerdote sólo le quedase 1 nivel por absorber y le lanzaran un conjuro de 3er nivel, este sortilegio sería consumido y el Escudo de los arcontes se cancelaría de inmediato. Este conjuro también funciona contra el conjuro de Disipar magia.~
+
+@233=~Convocar masa bamboleante~
+@234=~Convocar masa bamboleante
+Nivel: 7
+Escuela: Conjuración
+Esfera: Planta
+Alcance: Medio
+Duración: 8 horas
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro convoca a una masa bamboleante para que ayude al lanzador. La masa se parece a una pila de vegetación en descomposición, pero en realidad es una forma de vida vegetal inteligente, con una forma burdamente humana, y un sistema de control nervioso centrado en la zona del "pecho". La masa bamboleante permanecerá bajo las órdenes del lanzador hasta que sea destruida o hasta que expire la duración del conjuro.
+
+Masa bamboleante (16 Dados de golpe):
+FUE 19, DES 10, CON 16, INT 7, SAB 10, CAR 9;  ALI Neutral verdadero
+PG 146, CA 0, GAC0 2, Tiradas de salvación 4/6/5/4/7
+2 ataques por asalto, 2d6+10 daño contundente (Puños +3)
+
+Aptitudes de combate:
+Enredar: hay un 50% de probabilidades de enredar al blanco, salvación contra armas de aliento
+Constreñir: cualquier criatura enredada por la masa puede realizar cada asalto una tirada salvación contra armas de aliento para liberarse; aquéllas que fallen la tirada sufrirán 2d6+10 puntos de daño y seguirán enredadas
+
+Cualidades especiales:
+Regeneración: 1 pg/asalto
+Inmune a los efectos de hechizar, inmovilizar, veneno, polimorfía, dormir, y aturdimiento
+Resistencia a la electricidad: 125%
+Resistencia al fuego: 100%
+Resistencia al frío: 50%
+Resistencia al daño Contundente: 100%
+Resistencia al daño Cortante, Perforante y por Proyectiles:50 %~
+
+@235=~Convocar Caballero de la muerte~
+@236=~Convocar Caballero de la muerte
+Nivel: 7
+Escuela: Nigromancia
+Esfera: Total
+Alcance: Medio
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Al usar este conjuro, el lanzador convocará a una criatura de los planos exteriores que atacará a sus enemigos y al propio convocador si no es cuidadoso. La criatura convocada es un Caballero de la muerte, un poderoso demonio muerto viviente. La criatura no puede ser controlada directamente, sino que el convocar tiene que intentar obligar al demonio a realizar una tarea para él mientras dure el conjuro. Los lanzadores de conjuros carismáticos y poderoso pueden atar la voluntad del demonio, los inteligentes y sabios pueden negociar con él, pero hacer tratos con las criaturas demoníacas siempre es peligroso, y algunas veces pueden terminar en desastre. Se advierte a los magos de que sean cuidadosos con este conjuro, pues un Caballero de la muerte injuriado se volverá contra su convocador a la primera oportunidad que tenga.
+
+Caballero de la muerte (14 Dados de golpe):
+FUE 18/00, DES 12, CON -, INT 17, SAB 15, CAR 16;  ALI Neutral Malvado
+PG 168, CA -4, GAC0 -1, Tiradas de salvación 4/4/4/8/4
+3 ataques por asalto, 2d6+12 daño cortante (Mandoble +3)
+
+Cualidades especiales:
+Aura de miedo: las criaturas en un radio de 1,5 m. deben superar una tirada de salvación contra conjuros cada asalto o huirán de terror durante 1 asalto
+Inmune a las armas normales
+Inmune a los efectos de hechizar, confusión, inmovilización, aturdimiento, dormir, veneno, y muerte
+Resistencia a Frío, y Electricidad: 100%
+Resistencia a la magia: 75%
+
+Aptitudes especiales:
+Bola de fuego (una vez cada 5 asaltos)
+Eliminar magia (una vez cada 5 asaltos)
+Palabras de poder: cegar, aturdir, o matar (una vez por día cada una)
+Símbolos: de debilidad o de muerte (una vez por día cada una))~
+
+@237=~Hermosura de la naturaleza~
+@238=~Hermosura de la naturaleza
+Nivel: 7
+Escuela: Ilusión
+Esfera: Elemental
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 7
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Especial
+
+Al ejecutarse este conjuro, parece como si el lanzador experimentara una sorprendente transformación: convertirse en el ideal de belleza, que para un hombre suele ser una ninfa o dríada, y para las mujeres varía según el caso. Cualquier humanoide que vea la ilusión debe superar una tirada de salvación contra conjuros con -6 o quedarán hechizados durante 10 asaltos.
+
+Si el lanzador de conjuros causa o intenta causar algún daño a la persona hechizada por medio de una acción evidente, o si un conjuro de disipar magia se lanza con éxito sobre la persona hechizada, el conjuro se romperá. Si los efectos de dos o más hechizos afectan simultáneamente a una criatura, el hechizo más reciente prevalecerá.~
+
+@239=~Tormenta de fuego~
+@240=~Tormenta de fuego
+Nivel: 7
+Escuela: Evocación
+Esfera: Combate, Elemental (Fuego)
+Alcance: Largo
+Duración: 4 asaltos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Armas de aliento, mitad
+
+Al lanzarse este conjuro, la totalidad del área de efecto queda cubierta por llamas y recibe los impactos de una lluvia de ardientes bolas de lava. Aquéllos que se vean atrapados en ese infierno reciben 2d8 puntos de daño, más un punto de daño adicional por cada nivel de experiencia poseído por el lanzador (hasta un máximo de 2d8+20). Este ataque durará 4 asaltos y continuará infligiendo daño a sus víctimas durante ese tiempo a no ser que éstas abandonen el área de efecto. Las criaturas que logren superar una tirada de salvación contra armas de aliento con una penalización de -6 sólo sufrirán la mitad del daño.~
+
+@241=~Símbolo de debilidad~
+@242=~Símbolo de debilidad
+Nivel: 7
+Escuela: Conjuración
+Esfera: Combate
+Alcance: Largo
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Conjuros, niega
+
+Símbolo de debilidad es un poderoso encantamiento que permite al lanzador inscribir un símbolo en el suelo o sobre cualquier otra superficie. El símbolo permanecerá allí hasta que una criatura hostil se acerque a menos de 4,5 metros del glifo, momento en el cuál éste se activará y explotará, provocando que todos los enemigos en un radio de 6 metros de él sufran una penalización de -4 a la Fuerza, Destreza y Constitución salvo que superen una tirada de salvación contra conjuros con -6. Los efectos del conjuro permanecerán hasta que el personaje reciba un conjuro de Curar enfermedad.~
+
+@243=~Rayo solar~
+@244=~Rayo solar
+Nivel: 7
+Escuela: Evocación
+Esfera: Sol
+Alcance: Uno mismo
+Duración: Especial
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Especial
+
+Este conjuro permite al lanzador crear un deslumbrante rayo de luz que cae sobre él y todo lo que haya en un radio de 9 metros. Todas las criaturas hostiles que se encuentren dentro del área de efecto quedarán cegadas durante 10 asaltos y sufrirán 6d6 puntos de daño. Los muertos vivientes que sean golpeados por el rayo sufrirán 1d6 puntos de daño por nivel del lanzador (hasta un máximo de 20d6). Superar una tirada de salvación contra conjuros con -6 niega la ceguera y reduce el daño a la mitad. El estallido también destruye a todas las criaturas que sean débiles contra la luz brillantes (como los vampiros, las sombras, y los espectros) que fallen una tirada de salvación contra muerte mágica.~
+
+@245=~Dedo de la muerte~
+@246=~Dedo de la muerte
+Nivel: 7
+Escuela: Nigromancia
+Esfera: Guerra
+Alcance: Largo
+Duración: Permanente
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Muerte mágica, parcial
+
+El Dedo de la muerte acaba con la fuerza vital de su víctima. El lanzador apunta con su índice a la criatura que desee matar y ésta muere instantáneamente si no logra superar una tirada de salvación contra muerte mágica con un penalizador -6. Si la criatura tiene éxito en su tirada de salvación sufrirán 2d8 puntos de daño +1 punto adicional por nivel de experiencia que posea el lanzador.~
+
+@247=~Palabra sagrada~
+@248=~Palabra sagrada
+Nivel: 7
+Escuela: Conjuración
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Al pronunciar un conjuro de Palabra sagrada, el lanzador desencadenará un tremendo poder. El sacerdote hará las veces de unión entre su dios y el Plano material primario, generando una explosión que lo tendrá a él como centro y se extenderá hasta cubrir un radio de 9 metros. El sortilegio sólo afectará a las criaturas malignas (o de cualquier alineamiento maligno) que se encuentren en el área de efecto. Los efectos variarán dependiendo del nivel de la víctima, tal y como se indica a continuación:
+
+Dados de Golpe o niveles     -  Efectos de la Palabra sagrada
+Igual al nivel del lanzador  -  Sordera
+Hasta nivel del lanzador -1  -  Ceguera, sordera
+Hasta nivel del lanzador -5  -  Paralización, ceguera, sordera
+Hasta nivel del lanzador -10 -  Muerte, paralización, ceguera, sordera
+
+No se permite tirada de salvación contra este conjuro. Nótese que este conjuro no puede ser lanzado por ningún sacerdote de alineamiento maligno.~
+
+@249=~Regeneración~
+@250=~Regeneración
+Nivel: 7
+Escuela: Nigromancia
+Esfera: Curadora
+Alcance: Toque
+Duración: 1 turno + 2 asalto/nivel
+Tiempo de lanzamiento: 7
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Este poderoso conjuro permite al sacerdote imbuir a una criatura con la capacidad de regenerarse. Esta regeneración curará cualquier herida e incluso regenerará miembros perdidos. La criatura afectada ganará 1 punto de golpe por segundo. El efecto durará hasta que termine el conjuro o hasta que sea disipado.~
+
+@251=~Resurrección~
+@252=~Resurrección
+Nivel: 7
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Como el conjuro de 5º nivel Revivir a los muertos, Resurrección devolverá la vida a un personaje. Sin embargo, Resurrección sanará por completo al personaje de forma que esté listo para la vida de aventurero una vez más.~
+
+@253=~Restablecimiento mayor~
+@254=~Restablecimiento mayor
+Nivel: 7
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 5
+Área de efecto: 1 criatura
+Tirada de salvación: Ninguna
+
+Al ejecutarse este conjuro, se incrementa el nivel de energía vital de quien lo reciba. El efecto invertirá una consunción previa del nivel de energía (ya haya sido producida por una fuerza o por un monstruo). Este conjuro también devolverá su forma natural a una criatura polimorfada o petrificada, romperá los efectos de una maldición, invertirá un estado mental antinatural como el confusión, la debilidad mental, la ira bersérker, y liberará al receptor de los efectos mágicos como el miedo, la parálisis, dormir y aturdimiento. Este poderoso conjuro también restablecerá cualquier cantidad de puntos de golpe y curará al blanco de cualquier enfermedad o veneno.
+
+Este conjuro exige mucho por parte del sacerdote, tanto que lo deja física y mentalmente exhausto. Durante los 5 asaltos después del lanzamiento, el sacerdote sufrirá una penalización de 2 al golpear, al daño, a la clase de armadura, y a la velocidad de lanzamiento de conjuros.~
+
+@255=~Palabra sacrílega~
+@256=~Palabra sacrílega
+Nivel: 7
+Escuela: Conjuración
+Esfera: Combate
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Ninguna
+
+Al pronunciar un conjuro de Palabra sagrada, el lanzador desencadenará un tremendo poder. El sacerdote hará las veces de unión entre su dios y el Plano material primario, generando una explosión que lo tendrá a él como centro y se extenderá hasta cubrir un radio de 9 metros. El sortilegio sólo afectará a las criaturas buenas (o de cualquier alineamiento bueno) que se encuentren en el área de efecto. Los efectos variarán dependiendo del nivel de la víctima, tal y como se indica a continuación:
+
+Dados de Golpe o niveles     -  Efectos de la Palabra sagrada
+Igual al nivel del lanzador  -  Sordera
+Hasta nivel del lanzador -1  -  Ceguera, sordera
+Hasta nivel del lanzador -5  -  Paralización, ceguera, sordera
+Hasta nivel del lanzador -10 -  Muerte, paralización, ceguera, sordera
+
+No se permite tirada de salvación contra este conjuro. Nótese que este conjuro no puede ser lanzado por ningún sacerdote de alineamiento bueno.~
+
+@257=~Marabunta~
+@258=~Marabunta
+Nivel: 7
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 6 asaltos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Blanco, y enemigos dentro de 9 m
+Tirada de salvación: Especial
+
+Al pronunciar este conjuro, el lanzador llama a una masa de arácnidos, insectos y miriápodos que pican, aguijonean y envenenan a sus víctimas. Esta masa de insectos cubrirá una gran superficie como si fueran una alfombra, esparciéndose entre todas las criaturas dentro de un área de 9 metros del blanco. La invisibilidad no ofrece protección.
+
+Mientras dure el conjuro, los que se vean afectados lucharán con una penalización de 2 al GAC0 y a la Clase de armadura. Además, las víctimas sufrirán 2d6 puntos de daño por las picaduras de los insectos cada asalto, con un 100% de fallo al lanzar conjuros, y teniendo que superar una tirada de salvación contra muerte mágica con -2 para evitar salir huyendo de miedo. Si se tiene éxito en una tirada de salvación contra armas de aliento con -6, el blanco logra evitar la mayor parte del enjambre, reduciendo el daño por picaduras a la mitad y evitando totalmente el fallo de conjuros.~
+
+@259=~Símbolo de aturdimiento~
+@260=~Símbolo de aturdimiento
+Nivel: 7
+Escuela: Conjuración
+Esfera: Combate
+Alcance: Largo
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Conjuros, niega
+
+Símbolo de aturdimiento es un poderoso encantamiento que permite al lanzador inscribir un símbolo en el suelo o sobre cualquier otra superficie. El símbolo permanecerá allí hasta que una criatura hostil se acerque a menos de 4,5 metros del glifo, momento en el cuál éste se activará y explotará, provocando que todos los enemigos en un radio de 6 metros de él queden aturdidos durante 4 asaltos salvo que superen una tirada de salvación contra conjuros con -6.~
+
+@261=~Terremoto~
+@262=~Terremoto
+Nivel: 7
+Escuela: Alteración
+Esfera: Elemental (Tierra)
+Alcance: Largo
+Duración: 3 asaltos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Especial
+
+Cuando un sacerdote ejecuta este conjuro, un terremoto recorre el suelo de la zona. Mientras dure el conjuro, cada asalto tendrá lugar un temblor de tierra, afectado a todas las criaturas en el área de efecto. Los elementales de tierra y las criaturas voladoras son inmunes a este conjuro.
+
+Este conjuro genera tres temblores. El primero hace que todas las criaturas afectadas sufran 6d6 puntos de daño (tirada de salvación contra paralización con un penalizador -6 para sufrir sólo la mitad del daño). Los que fallen la tirada caerán al suelo durante dos asaltos. El segundo temblor es menos severo, infligiendo 4d6 puntos de daño (tirada de salvación contra armas de aliento con un penalizador -4 para sufrir la mitad de daño), pero abre fisuras en el suelo, que hacen que todas las criaturas tengan una probabilidad del 20% de caer dentro y morir (salvación contra armas de aliento con -4 para evitarlo). El último temblor inflige 2d6 puntos de daño (salvación contra muerte mágica con -2 para la mitad de daño) y hay un 10% de que las criaturas afectadas caigan en las grietas, muriendo (salvación contra armas de aliento con -2 para evitarlo). Las criaturas que caen al suelo por el primer temblor fallan automáticamente cualquier salvación para evitar caer en las grietas.
+
+Este conjuro afectará tanto a los enemigos como a los amigos del lanzador, por lo que hay que ser muy cuidadoso al usarlo. La resistencia a la magia no afecta a este conjuro.~
+
+@295=~Símbolo de muerte~
+@296=~Símbolo de muerte
+Nivel: 7
+Escuela: Conjuración 
+Esfera: Combate
+Alcance: Largo
+Duración: Especial
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 6 m.
+Tirada de salvación: Muerte mágica, niega
+
+Símbolo de muerte es un poderoso encantamiento que permite al lanzador inscribir un símbolo en el suelo o sobre cualquier otra superficie. El símbolo permanecerá allí hasta que una criatura hostil se acerque a menos de 4,5 metros del glifo, momento en el cuál éste se activará y explotará, provocando que todos los enemigos en un radio de 6 metros de él mueran a menos que superen una tirada de salvación contra muerte mágica con -6. Las criaturas que tengan en ese momento más de 60 puntos de golpe serán inmunes a este efecto.~
+
+@297=~Esfera del caos~
+@298=~Esfera del caos
+Nivel: 7
+Escuela: Encantamiento
+Esfera: Caos
+Alcance: Largo
+Duración: 1 turno
+Tiempo de lanzamiento: 7
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Especial
+
+Este conjuro permite al lanzador crear una esfera de caos mágico. Los que se encuentren en el área de efecto deberán hacer una tirada de salvación contra conjuros con -6 cada asalto que permanezcan en la esfera; en caso de fallar, sufrirán uno de los siguientes efectos (determinado al azar): entrar en bersérker, quedar confundido, ser paralizado, quedar inconsciente o huir de pánico.~
+
+
+/*------------------nivel 8------------------*/
+
+@271=~Filos de energía~
+@272=~Filos de energía
+Nivel: Búsqueda
+Escuela: Evocación
+Esfera: Creación, Combate
+Alcance: Uno mismo
+Duración: 5 turnos
+Tiempo de lanzamiento: 5
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Un filo de energía es un disco hecho de energía pura. Éste disco se arroja con un bonificador de +10 al GAC0, e inflige 1d4+5 puntos de daño de proyectil, además de 1d10 puntos adicionales de daño eléctrico, y se considera como un arma +5 para determinar si afecta o no. Este conjuro crea 20 discos de energía y establece la cantidad de ataques del lanzador por asalto en 9 mientras tenga los discos en su poder.~
+
+@273=~Tormenta de venganza~
+@274=~Tormenta de venganza
+Nivel: Búsqueda
+Escuela: Evocación
+Esfera: Guerra, Clima
+Alcance: Largo
+Duración: 3 asaltos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 9 m.
+Tirada de salvación: Especial
+
+Lanzar este conjuro hace que la tierra se estremezca y los cielos hiervan con sangre y energía. Todos los enemigos del lanzador dentro del área serán fulminados por una tormenta de lluvia ácida y venenosa con relámpagos que durará varios asaltos
+
+En cada asalto, las víctimas sufrirán 2d6 puntos de daño eléctrico y 2d6 puntos de daño por ácido (salvación contra armas de aliento con -6 para la mitad del daño). También habrá una probabilidad de que sean envenenados  en cada asalto (salvación contra muerte mágica con -6 o sufrirán 2 puntos de daño por segundo durante un asalto).~
+
+@275=~Horda elemental~
+@276=~Horda elemental
+Nivel: Búsqueda
+Escuela: Conjuración
+Esfera: Elemental, Llamada
+Alcance: Largo 
+Duración: 2 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial 
+Tirada de salvación: Ninguna
+
+Extrayendo el poder de  su entorno, el lanzador convoca a un elemental de 12 DG de cada uno de los tres Planos elementales, el de Tierra, el de Aire y el de Fuego. Los elementales estarán vinculados al lanzador hasta que sean destruidos o hasta que la duración del conjuro expire.~
+
+@277=~Convocar príncipe elemental~
+@278=~Convocar príncipe elemental
+Nivel: Búsqueda 
+Escuela: Conjuración
+Esfera: Elemental, Llamada
+Alcance: Largo 
+Duración: 1 turno
+Tiempo de lanzamiento: 2 asaltos
+Área de efecto: Especial 
+Tirada de salvación: Ninguna
+
+Al tener un vínculo más fuerte con los elementos, los druidas pueden lanzar una versión más potente del conjuro Convocar elemental. Este sortilegio puede convocar a uno de los mismísimos Príncipes Elementales, que será elegido al azar entre los Planos de Tierra, Aire, y Fuego. El príncipe elemental permanecerá durante 10 asaltos y obedecerá al lanzador mientras esté convocado Los príncipes elementales gobiernan sobre los otros elementales en sus respectivos planos. El Príncipe elemental de Aire es Chan. El Príncipe elemental de la Tierra es Sunnis. Y el Príncipe elemental del Fuego es Zaaman Rul.
+
+Chan, Príncipe del Aire (20 Dados de golpe):
+FUE 19, DES 24, CON 18, INT 17, SAB 16, CAR 18; ALI Neutral verdadero
+PG 180, CA -8, GAC0 -3, Tiradas de salvación 3/5/4/4/6
+4 ataques por asalto, 1d12+11 daño perforante (Puños +4)
+
+Cualidades especiales:
+Barrera de cuchillas: 3d6 puntos de daño cada 3 segundos a todos los oponentes a 1,5 metros (salvación contra armas de aliento, niega)
+Inmune a las armas con un encantamiento menor de +2
+Inmune a los efectos de inmovilizar, veneno, polimorfía, dormir, y aturdimiento
+Resistencia a la electricidad: 100%
+Resistencia a la magia: 60%
+Resistencia al daño Cortante, Contundente, y Perforante: 40%
+Resistencia al daño por Proyectiles: 80%
+
+
+Sunnis, Príncipe de la Tierra (20 Dados de golpe):
+FUE 24, DES 12, CON 23, INT 17, SAB 16, CAR 18; ALI Neutral verdadero
+PG 230, CA -5, GAC0 -6, Tiradas de salvación 3/5/4/4/6
+3 ataques por asalto, 2d12+16 daño contundente (Puños +4)
+
+Cualidades especiales:
+Piel de piedra: 1 piel cada asalto
+Inmune a las armas con un encantamiento menor de +2
+Inmune a los efectos de inmovilizar, veneno, polimorfía, dormir, y aturdimiento
+Resistencia a la magia: 60%
+Resistencia al daño Cortante, Perforante, y por Proyectil: 60%
+Resistencia al daño por Contundente: 20%
+
+
+Zaaman Rul, Príncipe del Fuego (20 Dados de golpe):
+FUE 19, DES 21, CON 19, INT 17, SAB 16, CAR 18; ALI Neutral verdadero
+PG 200, CA -7, GAC0 -3, Tiradas de salvación 3/5/4/4/6
+3 ataques por asalto, 2d10+11 daño cortante +2d10 daño por fuego (Puños +4)
+
+Cualidades especiales:
+Escudo de fuego: 2d10 puntos de daño por fuego a quien golpee el príncipe en 1,5 metros
+Inmune a las armas con un encantamiento menor de +2
+Inmune a los efectos de inmovilizar, veneno, polimorfía, dormir, y aturdimiento
+Resistencia al fuego: 125%
+Resistencia a la magia: 60%
+Resistencia al daño Cortante, Contundente, Perforante, y por Proyectil: 40%~
+
+@279=~Esfera de cuchillas~
+@280=~Esfera de cuchillas
+Nivel: Búsqueda
+Escuela: Evocación
+Esfera: Guardián, Creación
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Radio de 2 m.
+Tirada de salvación: Ninguna
+
+El sacerdote utiliza este conjuro para crear una esfera de cuchillas afiladas, que girarán a gran velocidad alrededor de de si mismo creando una barrera impenetrable. Toda criatura a una distancia de 2 metros del lanzador sufrirá 2d10 puntos de daño cada 2 segundos (salvación contra armas de aliento con -6 para evitarlo). La barrera también proporciona al lanzador un bonificador de -4 a la Clase de armadura. La resistencia a la magia no afecta a este conjuro.
+
+Nótese que los conjuros como Invisibilidad, Puerta de la Sombra, etc., no funcionarán mientras el lanzador esté protegido por la Esfera de cuchillas. Además, los clérigos/ladrones y clérigos/exploradores que hayan lanzado este conjuro tampoco serán capaces de ocultarse en las sombras hasta que expire el conjuro.~
+
+@281=~Convocar deva~
+@282=~Convocar deva
+Nivel: Búsqueda
+Escuela: Conjuración
+Esfera: Total, Llamada
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro abre un umbral celestial y trae al avatar de un deva para que combata del lado del lanzador hasta que expire el sortilegio o el avatar del deva muera.
+
+Deva (14 Dados de golpe):
+FUE 19, DES 18, CON 18, INT 18, SAB 18, CAR 20; ALI Caótico Bueno
+PG 162, CA -5, GAC0 0, Tiradas de salvación 3/5/4/4/6
+2 ataques por asalto, 1d10+10 daño contundente (Maza pesada +3)
+
+Aptitudes de combate:
+Disrupción: los muertos vivientes deben salvarse contra muerte mágica o ser destruidos
+Aturdir: hay un 50% de probabilidades de que el blanco quede aturdido durante 2 asaltos (salvación contra conjuros, niega)
+
+Cualidades especiales:
+Inmune a las armas con un encantamiento menor de +2
+Inmune a los efectos de consunción de niveles, muerte mágica, cautiverio, laberinto, petrificación, y veneno
+Resistencia al frío, y a la electricidad: 100%
+Resistencia al fuego: 50%
+Resistencia a la magia: 70%
+Resistencia al daño Cortante, Contundente, Perforante, y por Proyectil: 10%
+
+Conjuros conocidos:
+1° Bendecir (x3), Resistir el miedo (x3)
+2° Ayuda (x3), Conocer oponente, Encontrar trampas, Invocar poder sagrado
+3° Castigo sagrado (x2), Curar enfermedad (x2), Romper encantamiento (x2)
+4° Círculo mágico contra el mal, Curar heridas críticas (x2), Neutralizar veneno (x2)
+5° Curación en masa, Revivir a los muertos, Vista verdadera
+6° Barrera de cuchillas, Sanar
+7° Palabra sagrada~
+
+@283=~Convocar deva caído~
+@284=~Convocar deva caído
+Nivel: Búsqueda
+Escuela: Conjuración
+Esfera: Total, Llamada
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Este conjuro abre un umbral al abismo y trae al avatar de un deva demoníaco para que combata del lado del lanzador hasta que expire el sortilegio o el avatar del deva muera.
+
+Deva caído (14 Dados de golpe):
+FUE 19, DES 18, CON 18, INT 18, SAB 18, CAR 20; ALI Caótico Malvado
+PG 162, CA -5, GAC0 0, Tiradas de salvación 3/5/4/4/6
+2 ataques por asalto, 1d8+10 daño cortante +1d8 daño por fuego (Espada larga +3)
+
+Aptitudes de combate:
+Hemorragia: 1 pg/asalto durante 5 asaltos
+
+Cualidades especiales:
+Inmune a las armas con un encantamiento menor de +2
+Inmune a los efectos de consunción de niveles, muerte mágica, cautiverio, laberinto, petrificación, y veneno
+Resistencia al fuego, y a la electricidad: 100%
+Resistencia al ácido: 50%
+Resistencia a la magia: 70%
+Resistencia al daño Cortante, Contundente, Perforante, y por Proyectil: 10%
+
+Conjuros conocidos:
+1° Fatalidad (x3), Resistir el miedo (x3)
+2° Conocer oponente, Encontrar trampas, Inmovilizar persona (x3), Silencio
+3° Azote sacrílego (x2), Contagio (x2), Romper encantamiento (x2)
+4° Capa de miedo, Causar heridas críticas (x2), Veneno (x2)
+5° Golpe de fuego, Orden imperiosa mayor, Vista verdadera
+6° Barrera de cuchillas, Dañar
+7° Palabra sacrílega~
+
+@285=~Implosión~
+@286=~Implosión
+Nivel: Búsqueda
+Escuela: Alteración
+Esfera: Combate, Numérica
+Alcance: Largo
+Duración: 1 asalto
+Tiempo de lanzamiento: 7
+Área de efecto: 1 criatura
+Tirada de salvación: Muerte mágica, parcial
+
+Este conjuro aterrador crea un resonancia destructiva en el cuerpo físico de la criatura, provocando que éste colapse sobre sí mismo aplastándose hasta morir. El conjuro hace 20d8 puntos de daño contundente, e inmoviliza al blanco durante 1 asalto. La víctima puede superar una tirada de salvación contra muerte mágica con -6 para sufrir la mitad del daño.~
+
+@287=~Revivir en masa~
+@288=~Revivir en masa
+Nivel: Búsqueda
+Escuela: Nigromancia
+Esfera: Necromántica
+Alcance: Uno mismo
+Duración: Permanente
+Tiempo de lanzamiento: 4
+Área de efecto: Hasta 5 miembros del grupo
+Tirada de salvación: Ninguna
+
+Con esta versión más poderosa del Revivir a los muertos, el lanzador puede traer de vuelta a la vida hasta a 5 miembros del grupo, curandoles además 4d10+20 puntos de daño. Los revividos deberán recuperar sus puntos de golpe restantes con curación natural o mágica.~
+
+@289=~Aura de muerte flamígera~
+@290=~Aura de muerte flamígera
+Nivel: Búsqueda
+Escuela: Evocación
+Esfera: Protección, Elemental (Fuego)
+Alcance: Uno mismo
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Área de efecto: Radio de 1,5 m.
+Tirada de salvación: Ninguna
+
+Este conjuro hace que el lanzador se vea envuelto por unas fuertes llamas que le protegen a la vez que infligen daño a sus enemigos. Este escudo no sólo concede a su usuario un 100% de resistencia al fuego y protección contra todas las armas no mágicas, sino que también daña a todas las criaturas en un radio de 1,5 metros a su alrededor y envuelve en llamas las armas esgrimidas por el lanzador. Todo oponente que golpee al lanzador con un arma o con un conjuro dentro de ese radio sufrirá 2d10+2 puntos de daño por fuego, y además, el intenso calor hace que el al golpear el lanzador con armas cuerpo a cuerpo, el enemigo sufra un daño adicional de 1d10 por fuego.~
+
+@291=~Transformación en elemental de fuego~
+@292=~Transformación en elemental de fuego
+Nivel: Búsqueda
+Escuela: Alteración
+Esfera: Combate, Elemental (Fuego)
+Alcance: Uno mismo
+Duración: 5 turnos
+Tiempo de lanzamiento: 1
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Aprovechando el poder del fuego, esta poderosa transformación permite al druida convertirse en un elemental mayor de fuego de considerable poder. El lanzador obtiene los ataques naturales de la forma elemental, así como todas sus protecciones y aptitudes naturales. Los atributos mentales del druida no se ven afectados, pero los atributos físicos cambian para adaptarse a la nueva forma. Todas las ropas y equipo que lleve se fusionarán en el nueva forma, y continuarán haciendo efecto. Cuando el druida regrese a su forma natural, sus pertenencias también volverán a su estado normal.
+
+Elemental mayor de fuego
+FUE 18, DES 19, CON 18;  CA 0, GAC0 3
+2 ataques por asalto, 2d10+5 daño cortante +2d8 daño por fuego (Puños +4)
+
+Inmune a los efectos de inmovilización, veneno, dormir, y aturdimiento
+Inmune a las armas normales
+Resistencia al fuego: 100%
+Resistencia al daño físico: 20%~
+
+@293=~Transformación en elemental de tierra~
+@294=~Transformación en elemental de tierra
+Nivel: Búsqueda
+Escuela: Alteración
+Esfera: Combate, Elemental (Tierra)
+Alcance: Uno mismo
+Duración: 5 turnos
+Tiempo de lanzamiento: 1
+Área de efecto: Uno mismo
+Tirada de salvación: Ninguna
+
+Aprovechando el poder de la tierra, esta poderosa transformación permite al druida convertirse en un elemental mayor de tierra de considerable poder. El lanzador obtiene los ataques naturales de la forma elemental, así como todas sus protecciones y aptitudes naturales. Los atributos mentales del druida no se ven afectados, pero los atributos físicos cambian para adaptarse a la nueva forma. Todas las ropas y equipo que lleve se fusionarán en el nueva forma, y continuarán haciendo efecto. Cuando el druida regrese a su forma natural, sus pertenencias también volverán a su estado normal
+
+Elemental mayor de tierra
+FUE 23, DES 8, CON 21;  CA 2, GAC0 0
+2 ataques por asalto, 2d10+14 daño contundente (Puños +4)
+
+Inmune a los efectos de inmovilización, veneno, dormir, y aturdimiento
+Inmune a las armas normales
+Resistencia al daño Cortante, Perforante, y por Proyectil: 40%~
+
+
+/*----------------Conjuros temporales para el Acechador y el Señor de las bestias----------------*/
+
+@300=~Convocar animales I~
+@301=~Convocar animales I
+Nivel: 1
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Por medio de este conjuro, el lanzador de conjuros convoca a tres lobos terribles, que son especímenes más fuertes e inteligentes que los lobos comunes. Los animales convocados ayudarán al lanzador por el medio que puedan, permaneciendo a su lado hasta que expire la duración del conjuro.
+
+Lobo terrible (4 Dados de golpe):
+FUE 17, DES 15, CON 17, INT 6, SAB 12, CAR 10;  ALI Neutral verdadero
+PG 46, AC 6, GAC0 15, Tiradas de salvación 13/15/14/16/16
+1 ataque por asalto, 1d6+2 daño perforante (Mordisco +1)~
+
+@302=~Convocar animales II~
+@303=~Convocar animales II
+Nivel: 2
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Por medio de este conjuro, el lanzador de conjuros convoca a dos leopardos terribles, que son especímenes más fuertes e inteligentes que los leopardos comunes. Los animales convocados ayudarán al lanzador por el medio que puedan, permaneciendo a su lado hasta que expire la duración del conjuro.
+
+Leopardo terrible (8 Dados de golpe):
+FUE 19, DES 15, CON 17, INT 6, SAB 12, CAR 10;  ALI Neutral verdadero
+PG 88, AC 5, GAC0 10, Tiradas de salvación 10/12/11/12/13
+1 ataque por asalto, 1d8+8 daño perforante (Zarpas y Mordisco +1)~
+
+@304=~Convocar animales III~
+@305=~Convocar animales III
+Nivel: 3
+Escuela: Conjuración
+Esfera: Animal
+Alcance: Largo
+Duración: 3 turnos
+Tiempo de lanzamiento: 1 asalto
+Área de efecto: Especial
+Tirada de salvación: Ninguna
+
+Por medio de este conjuro, el lanzador de conjuros convoca a un oso terrible, el cuál es más fuerte e inteligente que un oso común. El animal ayudarán al lanzador por el medio que pueda, permaneciendo a su lado hasta que expire la duración del conjuro.
+
+Oso terrible (12 Dados de golpe):
+FUE 21, DES 13, CON 19, INT 6, SAB 12, CAR 10;  ALI Neutral verdadero
+PG 146, AC 3, GAC0 5, Tiradas de salvación 7/9/8/8/10
+2 ataques por asalto, 2d4+11 daño contundente (Zarpas y Mordisco +2)~

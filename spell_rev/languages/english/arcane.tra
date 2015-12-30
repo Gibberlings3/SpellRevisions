@@ -1,0 +1,3338 @@
+/*-------------------------level 1------------------------*/
+
+@401=~Grease~
+@402=~Grease
+Level: 1
+School: Conjuration
+Range: Medium
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 10' radius
+Saving Throw: Breath negates
+
+A Grease spell covers a material surface with a slippery layer of a fatty, greasy nature. Any creature caught in it when the spell is cast must save vs. breath or fall to the ground for one round. Those who enter the area or remain within it must make a save each round until they reach the nearest non-greased surface. A creature that succeeds on their saving throw can walk within or through the area of grease but will have their movements slowed considerably. Incorporeal and flying creatures are unaffected by this spell, as are exceptionally large creatures who suffer little to no distress from the greasy coating.~
+
+@403=~Mage Armor~
+@404=~Mage Armor
+Level: 1
+School: Conjuration
+Range: Personal
+Duration: 8 hours
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+By means of this spell, the wizard creates a magical field of force that sets its base armor class to 6. This improves by 1 AC for every four levels of the caster, up to a minimum base armor class of 3 at 12th level. This armor does not hinder movement, adds no weight or encumbrance, nor does it prevent spellcasting. It lasts until successfully dispelled or until the duration runs out.~
+
+@405=~Burning Hands~
+@406=~Burning Hands
+Level: 1
+School: Evocation
+Range: Special
+Duration: Instant
+Casting Time: 1
+Area of Effect: Cone
+Saving Throw: None
+
+When the wizard casts this spell, a cone of searing flames shoots from his fingertips towards a designated point. His hands must be held so as to send forth a fan-like sheet of flames: the wizard's thumbs must touch each other and his fingers must be spread. The burning hands send out 10-foot-long jets of flame in a horizontal arc of about 60 degrees in front of the wizard. All creatures caught in the flames suffer 1d4 points of fire damage per level of the caster (up to a maximum of 5d4).~
+
+@407=~Charm Person~
+@408=~Charm Person
+Level: 1
+School: Enchantment
+Range: Long
+Duration: 5 rounds
+Casting Time: 1
+Area of Effect: 1 person
+Saving Throw: Spell negates
+
+Charm Person affects any single person it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, and others. Thus, a 10th-level fighter could be charmed, but an ogre could not. If the recipient fails his saving throw vs. spell, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible.
+
+If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a dispel magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
+
+@409=~Color Spray~
+@410=~Color Spray
+Level: 1
+School: Alteration
+Range: Special
+Duration: Special
+Casting Time: 1
+Area of Effect: Cone
+Saving Throw: Spell negates
+
+Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing colors to spring forth from his hand. The spray is 15 feet in length and spread out in a horizontal arc of about 60 degrees in front of the wizard. The spell's effects depend upon the caster's level - creatures with Hit Dice/levels less than or equal to the caster are confused for 5 rounds, those with Hit Dice/levels one or two greater than the wizard are blinded for 3 rounds, and all others are stunned for 1 round. Creatures with more than 22 Hit Dice/levels will have to save only against the stun effect, regardless of the caster's level.~
+
+@411=~Blindness~
+@412=~Blindness
+Level: 1
+School: Necromancy
+Range: Long
+Duration: 8 hours
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+This first level spell permanently blinds its target. A saving throw is allowed, and if successful, there are no harmful effects. If a victim becomes blinded, he receives -10 to hit on his attack rolls and his visibility range is decreased. This blindness can be done away with by a Dispel Magic or Cure Disease spell.~
+
+@413=~Friends~
+@414=~Friends
+Level: 1
+School: Enchantment
+Range: Personal
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+A Friends spell increases the charisma of the wizard by 4 points. Those who view the caster tend to be very impressed with the spellcaster and make an effort to be his friends and help him, as appropriate to the situation. Officious bureaucrats might decide to become helpful; surly gate guards might wax informative; attacking orcs might spare the caster's life, taking him captive instead.~
+
+@415=~Protection from Petrification~
+@416=~Protection from Petrification
+Level: 1
+School: Abjuration
+Range: Touch
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell grants the recipient immunity to all petrification attacks. This includes basilisk and medusa gaze, cursed scrolls of petrification, etc.~
+
+@417=~Identify~
+@418=~Identify
+Level: 1
+School: Divination
+Range: Personal
+Duration: Instant
+Casting Time: Special
+Area of Effect: 1 item
+Saving Throw: None
+
+When this spell is memorized, go to the history page of an unidentified item and press the identify button. The chance of identifying the item is 100%. The spell identifies the item's name, what it does, and if it is cursed.~
+
+@419=~True Strike~
+@420=~True Strike
+Level: 1
+School: Divination
+Range: Personal
+Duration: 1 round
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+Upon the casting of this spell, the caster will gain temporary, intuitive insight into the immediate future. Any attack roll made before the end of the next round gains a +10 perception bonus.~
+
+@421=~Magic Missile~
+@422=~Magic Missile
+Level: 1
+School: Evocation
+Range: Long
+Duration: Instant
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+Use of the Magic Missile spell, one of the most popular first level spells, creates up to five missiles of magical energy that dart forth from the wizard's fingertip and unerringly strike their target, which must be a creature of some sort. Each missile inflicts 1d4+1 points of damage. For every two extra levels of experience, the wizard gains an additional missile - he has two at 3rd level, three at 5th level, four at 7th level, and a maximum of five missiles at 9th level.~
+
+@423=~Protection from Evil~
+@424=~Protection from Evil
+Level: 1
+School: Abjuration
+Range: Touch
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, it creates a magical barrier around the recipient at a distance of one foot. The barrier moves with the recipient and has two major effects: first, all attacks made by evil or evilly enchanted creatures against the protected creature receive a -2 penalty to their attack roll, and second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
+
+@425=~Shield~
+@426=~Shield
+Level: 1
+School: Evocation
+Range: Personal
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, an invisible barrier comes into being in front of the wizard, granting him immunity to the spell Magic Missile. Furthermore, the fluctuating force shield around the caster acts similarly to a regular shield, effectively increasing AC by 2 points (+4 vs. missile weapons). This effect lasts for the duration of the spell or until dispelled.~
+
+@427=~Shocking Grasp~
+@428=~Shocking Grasp
+Level: 1
+School: Evocation
+Range: Personal
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Special
+
+When the wizard touches a creature while this spell is in effect, an electrical charge will deal 1d6 points of damage and stun the target for 1 round. If the target makes a successful saving throw vs. spell, he is not stunned. For every two extra experience levels of the caster, the creature will suffer an additional 1d6 points of damage and roll their saving throw at an increased -1 penalty (to a maximum of 5d6 damage and a -4 saving throw penalty at 9th level). The spell expires once the wizard attempts a melee attack or after 10 rounds have passed. The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
+
+@429=~Sleep~
+@430=~Sleep
+Level: 1
+School: Enchantment
+Range: Long
+Duration: 5 rounds
+Casting Time: 1
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+When a wizard casts a Sleep spell, he causes a comatose slumber to come upon one or more creatures. Creatures in the area of effect must make a saving throw vs. spell or fall asleep. Any further attempts to harm the targets will waken them. Opponents with more Hit Dice/levels than the caster are unaffected by this spell. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
+
+@431=~Chill Touch~
+@432=~Chill Touch
+Level: 1
+School: Necromancy
+Range: Personal
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: Special
+
+When the caster completes this spell, a blue glow encompasses his hand. This energy attacks the life force of any living creature upon which the wizard makes a successful melee attack. The touched creature suffers 1d6 points of cold damage and loses one point of strength for 1 hour (no ability drain if the victim saves vs. death). The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
+
+@433=~Chromatic Orb~
+@434=~Chromatic Orb
+Level: 1
+School: Alteration
+Range: Long
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Spell partial
+
+This spell causes a 2-foot-diameter sphere to appear in the caster's hand. When thrown, the sphere heads unerringly towards its target. The sphere inflicts magic damage and causes different effects depending upon its color. As the level of the caster improves, both the damage inflicted and number of colors known increases. The color of any given orb is chosen randomly from the colors known at the wizard's level. The orb is occasionally even multicolored, causing multiple effects. The victim can save vs. spell against all special effects but gets no save against the damage. All special effects last for 5 rounds.
+
+1st level: 1d3 damage; White - Light (-4 penalty to saving throws)
+2nd level: 1d4 damage; Aquamarine - Magnetism (-4 penalty to AC)
+4th level: 1d6 damage; Red - Pain (-1 to strength and dexterity)
+6th level: 1d8 damage; Green - Poison (2hp/round)
+8th level: 1d10 damage; Yellow - Blindness
+10th level: 2d6 damage; Violet - Slow
+12th+ level:  2d8 damage; Blue - Paralysis~
+
+@1001=~White Orb~
+@1002=~Red Orb~
+@1003=~Yellow Orb~
+@1004=~Green Orb~
+@1005=~Aquamarine Orb~
+@1006=~Blue Orb~
+@1007=~Violet Orb~
+
+@435=~Larloch's Minor Drain~
+@436=~Larloch's Minor Drain
+Level: 1
+School: Necromancy
+Range: Long
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+With this spell, the wizard drains the life force from a target and adds it to his own. The target creature suffers 2 points of damage, while the mage gains 2 hit points. For every two extra levels of the caster, the draining is augmented by 2 points (up to a maximum of 10 points at 9th level). If the mage goes over his maximum hit point total with this spell, he loses it after 1 turn.~
+
+@437=~Reflected Image~
+@438=~Reflected Image
+Level: 1
+School: Illusion
+Range: Personal
+Duration: 4 rounds +1 round/3 levels
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+Upon casting this spell, the wizard creates one illusory image of himself that will travel alongside him. The image performs all of the actions that the wizard does, and seems to react normally to both physical and magical damage (such as appearing to be burned when hit by a fireball) so that if any enemies are trying to attack the wizard they will not know which one is real. There is a 50% chance that an attacker will attack the image and a 50% chance that he will attack the caster. The image is immune to all forms of damage, but will disappear if a dispel magic or a detect illusion spell is cast upon it, or when the spell duration runs out. This spell cannot be cast on anyone who is under the effects of a Mirror Image spell, and multiple castings of this spell will not create additional images.~
+
+@439=~Find Familiar~
+@440=~Find Familiar
+Level: 1
+School: Universal
+Range: Short
+Duration: Permanent
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the caster to summon a familiar to act as his aide and companion. Familiars are typically small creatures. A creature acting as a familiar can benefit a wizard, conveying its sensory powers to its master, conversing with him, and serving as a guard/scout/spy as well. A wizard can have only one familiar at a time, and he has no control over what sort of creature answers the summoning, if any come at all. Note that this spell may only be cast by the protagonist.
+
+The creature is always more intelligent than others of its type (typically by 2 or 3 intelligence points), and its bond with the wizard confers upon it an exceptionally long life. The wizard has an empathic link with the familiar and can issue it mental commands. The caster receives half the familiar's total hit points as bonus hit points. However, the caster must take care to treat his familiar well, for if the familiar should die, the caster will lose the bonus hit points and half the familiar's hit points again as damage. Also, when a familiar dies, the caster loses 1 point of constitution permanently.
+
+Example: A mage has 15 hit points and casts Find Familiar. The imp summoned has 24 hit points, so the caster gets a bonus of 12 hit points. The caster now has 27 hit points. If the familiar dies, the caster will lose those additional 12 hit points (putting him back at 12), permanently lose 1 point of constitution (which may cause additional hit point loss), and take 12 damage.
+
+Here is a list of the familiars that the player receives according to alignment:
+
+LAWFUL GOOD, NEUTRAL GOOD:  Pseudo Dragon
+CHAOTIC GOOD:  Fairy Dragon
+
+LAWFUL NEUTRAL:  Ferret
+NEUTRAL:  Rabbit
+CHAOTIC NEUTRAL:  Cat
+
+LAWFUL EVIL:  Imp
+NEUTRAL EVIL:  Dust Mephit
+CHAOTIC EVIL:  Quasit
+
+You can view your familiar's statistics from the inventory screen.~
+
+@441=~Nahal's Reckless Dweomer~
+@442=~Nahal's Reckless Dweomer
+Level: 1
+School: Conjuration
+Range: Personal
+Duration: Special
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: Special
+
+This spell is the wild mage's ultimate last-resort spell. When cast, the mage releases a sudden flood of wild magical energy in the hope of seizing and shaping that energy into a desired spell effect. The attempt usually fails, but something almost always occurs in the process.
+
+To use Reckless Dweomer, simply cast it and then choose from your list of known spells. A burst of magical energy is released, which the wild mage tries to manipulate into the desired form. The actual effect of the spell is determined randomly by a dice roll on the Wild Surge Table (found in your manual).
+
+Because the release of energy is planned by the mage, his level is added to the dice roll. If the result indicates success, the mage has shaped the magical energy into the desired effect. More often than not, the effect is completely unexpected. The result may be beneficial to the mage or it may be completely disastrous; this is the risk the mage takes in casting Nahal's Reckless Dweomer.~
+
+@443=~Spook~
+@444=~Spook
+Level: 1
+School: Illusion
+Range: Long
+Duration: 5 rounds
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Special
+
+A Spook spell enables the wizard to play upon natural fears to cause the target creature to perceive the spellcaster as someone or something inimical which then appears to advance upon it in a threatening manner. If the creature does not make a successful saving throw vs. spell, it turns and flees at maximum speed as far from the wizard as possible. The creature has a saving throw penalty of -1 (to save against this spell) for every two extra experience levels of the caster, to a maximum of -4 at 9th level. Although the caster does not actually pursue the fleeing creature, a phantasm from its own mind does. Undead creatures, certain powerful creatures who can easily discern the illusion, such as dragons, and those with no intelligence score are unaffected by this spell, as are creatures under the effect of a True Seeing spell.~
+
+@1008=~This is your cat familiar, currently curled up and safe within your backpack. The cat familiar is a master scout, able to move in the shadows with the ability of a master thief. It is also difficult to hit in combat, and the magic of your bond has made this cat resistant to both physical and magical attacks.
+
+Statistics:
+  Armor Class: -4
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d3
+  Attacks Per Round: 3
+  Saving Throws: 13/15/14/16/16
+
+Resistances:
+  Magic: 50%
+
+Special Abilities:
+  Hide in Shadows/Move Silently: 99%
+  Find/Disarm Traps: 20%
+  Pickpocket: 40%~
+
+@1009=~This is your cat familiar, currently curled up and safe within your backpack. The cat familiar is a master scout, able to move in the shadows with the ability of a master thief. It is also difficult to hit in combat, and the magic of your bond has made this cat resistant to both physical and magical attacks.
+
+Abilities:
+  Armor Class: -8
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d3
+  Attacks Per Round: 3
+  Saving Throws: 10/12/11/13/13
+
+Resistances:
+  Magic: 65%
+
+Special Abilities:
+  Hide in Shadows/Move Silently: 99%
+  Find/Disarm Traps: 40%
+  Pickpocket: 60%
+  Detect Illusions: 60%
+  Permanent Luck (5% bonus to everything)~
+
+@1010=~This is your familiar, a dust mephit currently safe within your backpack. The dust mephit is not strong in combat, but it is slightly resistant to physical damage and has the ability to cast the spell Glitterdust twice per day to assist its master.
+
+Statistics:
+  Armor Class: 2
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d3+1 fire
+  Attacks Per Round: 2
+  Saving Throws: 13/15/14/16/16
+
+Resistances:
+  Magic: 20%
+  Fire: 100%
+  Slashing/Piercing/Missile Damage: 50%
+
+Special Abilities:
+  Regenerates 1 HP/round
+  Glitterdust 2/day~
+
+@1011=~This is your familiar, a dust mephit currently safe within your backpack. The dust mephit is not strong in combat, but it is slightly resistant to physical damage and has the ability to cast spells to assist its master.
+
+Abilities:
+  Armor Class: -2
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d3+1 fire
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/13/13
+
+Resistances:
+  Magic: 35%
+  Fire: 100%
+  Slashing/Piercing/Missile Damage: 50%
+
+Special Abilities:
+  Regenerates 1 HP/round
+  Glitterdust 2/day
+  Stoneskin 1/day
+  Prismatic Spray 1/day~
+
+@1012=~This is your familiar, a fairy dragon, currently curled up and safe within your backpack. The mischievous fairy dragon is fairly resistant to magic and has the ability to both protect and obscure itself with illusionary magic of its own.
+
+Statistics:
+  Armor Class: 0
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d3+1 electrical
+  Attacks Per Round: 2
+  Saving Throws: 13/15/14/16/16
+
+Resistances:
+  Magic: 35%
+  Electricity: 125%
+
+Special Abilities:
+  Mirror Image 1/day
+  Invisibility Sphere 1/day~
+
+@1013=~This is your familiar, a fairy dragon, currently curled up and safe within your backpack. The mischievous fairy dragon is fairly resistant to magic and has the ability to both protect and obscure itself with illusionary magic of its own.
+
+Abilities:
+  Armor Class: -4
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d3+1 electrical
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/13/13
+
+Resistances:
+  Magic: 50%
+  Electricity: 125%
+
+Special Abilities:
+  Mirror Image 1/day
+  Invisibility Sphere 1/day
+  Improved Invisibility 1/day~
+
+@1014=~This is your familiar, a ferret, currently curled up and safe in your backpack. The ferret is an incredibly quick and agile animal, hard to hit and magically made resistant to both damage and spells. The ferret's uncanny ability to get into almost anything unseen makes it a handy pickpocket.
+
+Statistics:
+  Armor Class: -4
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d3
+  Attacks Per Round: 2
+  Saving Throws: 13/15/14/16/16
+
+Resistances:
+  Magic: 50%
+
+Special Abilities:
+  Hide in Shadows/Move Silently: 40%
+  Find/Disarm Traps: 20%
+  Pickpocket: 75%~
+
+@1015=~This is your familiar, a ferret, currently curled up and safe in your backpack. The ferret is an incredibly quick and agile animal, hard to hit and magically made resistant to both damage and spells. The ferret's uncanny ability to get into almost anything unseen makes it a handy pickpocket.
+
+Abilities:
+  Armor Class: -8
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d3
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/13/13
+
+Resistances:
+  Magic: 65%
+
+Special Abilities:
+  Hide in Shadows/Move Silently: 60%
+  Find/Disarm Traps: 40%
+  Pickpocket: 95%~
+
+@1016=~This is your familiar, an imp, currently grumpy yet safe within your backpack. The imp is an unusual creature that is fairly quick and quite resistant to magical spells, and has the ability to cast its own spells on behalf of its master.
+
+Statistics:
+  Armor Class: 2
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d3+1 poison
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/12/13
+
+Resistances:
+  Magic: 20%
+  Fire/Cold/Electricity: 100%
+
+Special Abilities:
+  Regenerates 1 HP/round
+  Polymorph Self 1/day~
+
+@1017=~This is your familiar, an imp, currently grumpy yet safe within your backpack. The imp is an unusual creature that is fairly quick and quite resistant to magical spells, and has the ability to cast its own spells on behalf of its master.
+
+Abilities:
+  Armor Class: -2
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d3+1 poison
+  Attacks Per Round: 2
+  Saving Throws: 7/9/8/9/10
+
+Resistances:
+  Magic: 35%
+  Fire/Cold/Electricity: 100%
+
+Special Abilities:
+  Regenerates 1 HP/round
+  Polymorph Self 1/day
+  Immunity to normal weapons~
+
+@1018=~This is your familiar, a pseudo-dragon, currently curled up and safe within your backpack. The lizard-like creature is quite intelligent and fairly well-armored and quick. It does not do much damage in combat, but its magical claws are able to render some enemies unconscious. It is also quite resistant to magical spells.
+
+Statistics:
+  Armor Class: 0
+  Hit Points: 24
+  THAC0: 13
+  Attack Damage: 1d6
+  Attacks Per Round: 2
+  Saving Throws: 13/15/14/16/16
+
+Resistances:
+  Magic: 35%
+
+Special Abilities:
+  With each hit: sleep (1 turn, save vs. death negates)
+  Regenerates 1 HP/round
+  Blur 1/day~
+
+@1019=~This is your familiar, a pseudo-dragon, currently curled up and safe within your backpack. The lizard-like creature is quite intelligent and fairly well-armored and quick. It does not do much damage in combat, but its magical claws are able to render some enemies unconscious. It is also quite resistant to magical spells.
+
+Abilities:
+  Armor Class: -4
+  Hit Points: 48
+  THAC0: 8
+  Attack Damage: 1d6
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/13/13
+
+Resistances:
+  Magic: 50%
+
+Special Abilities:
+  With each hit: sleep (1 turn, save vs. death negates)
+  Regenerates 1 HP/round
+  Blur 1/day
+  Detect Illusion 2/day~
+
+@1020=~This is your familiar, a quasit, currently grumpy yet safe within your backpack. The quasit is a small, infernal creature that is fairly quick and quite resistant to magical spells, and has the ability to cast its own spells on behalf of its master.
+
+Statistics:
+  Armor Class: 2
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d6
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/12/13
+
+Resistances:
+  Magic: 20%
+  Fire/Cold/Electricity: 100%
+
+Special Abilities:
+  With each hit: -1 dexterity (6 rounds, save vs. death negates)
+  Regenerates 1 HP/round
+  Horror 1/day
+  Blur 1/day~
+
+@1021=~This is your familiar, a quasit, currently grumpy yet safe within your backpack. The quasit is a small, infernal creature that is fairly quick and quite resistant to magical spells, and has the ability to cast its own spells on behalf of its master.
+
+Abilities:
+  Armor Class: -2
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d6
+  Attacks Per Round: 2
+  Saving Throws: 7/9/8/9/10
+
+Resistances:
+  Magic: 35%
+  Fire/Cold/Electricity: 100%
+
+Special Abilities:
+  With each hit: -1 dexterity (6 rounds, save vs. death negates)
+  Regenerates 1 HP/round
+  Horror 2/day
+  Blur 1/day
+  Immunity to normal weapons~
+
+@1022=~This is your familiar, a rabbit, currently curled up and safe within your backpack. This creature is incredibly quick and difficult to hit in combat, and has been augmented by magic to become quite resistant to physical harm as well as spells. The rabbit also has a keen nose for sniffing out traps on behalf of its master.
+
+Statistics:
+  Armor Class: -4
+  Hit Points: 24
+  THAC0: 17
+  Attack Damage: 1d2
+  Attacks Per Round: 2
+  Saving Throws: 13/15/14/16/16
+
+Resistances:
+  Magic: 50%
+  Fire/Cold/Electricity/Acid: 50%
+
+Special Abilities:
+  Hide in Shadows/Move Silently: 40%
+  Find/Disarm Traps: 60%~
+
+@1023=~This is your familiar, a rabbit, currently curled up and safe within your backpack. This creature is incredibly quick and difficult to hit in combat, and has been augmented by magic to become quite resistant to physical harm as well as spells. The rabbit also has a keen nose for sniffing out traps on behalf of its master.
+
+Abilities:
+  Armor Class: -8
+  Hit Points: 48
+  THAC0: 12
+  Attack Damage: 1d2
+  Attacks Per Round: 2
+  Saving Throws: 10/12/11/13/13
+
+Resistances:
+  Magic: 65%
+  Fire/Cold/Electricity/Acid: 75%
+
+Special Abilities:
+  Hide in Shadows/Move Silently: 60%
+  Find/Disarm Traps: 80%
+  Detect Illusions: 50%~
+
+
+/*-------------------level 2---------------------*/
+
+@451=~Blur~
+@452=~Blur
+Level: 2
+School: Illusion
+Range: Personal
+Duration: 5 turns
+Casting Time: 2
+Area of Effect: Caster
+Saving Throw: None
+
+A Blur spell causes the mage's form and spirit to become blurred, shifting and wavering. This distortion causes all melee and missile attacks against the caster to be made with -3 penalties, whereas all saves vs. spell are made by the caster with a +3 bonus. Multiple castings of this spell are not cumulative.~
+
+@453=~Detect Alignment~
+@454=~Detect Alignment
+Level: 2
+School: Divination
+Range: Personal
+Duration: Instant
+Casting Time: 2
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the wizard to search out the feelings of all creatures within the current area. When affected by this spell, a target will briefly glow red if he's evil, green if he's good, and white if he's neutral. Magic resistance does not affect this spell.~
+
+@455=~Detect Invisibility~
+@456=~Detect Invisibility
+Level: 2
+School: Divination
+Range: Personal
+Duration: 5 rounds
+Casting Time: 2
+Area of Effect: 50' radius
+Saving Throw: None
+
+When a wizard casts a Detect Invisibility spell, he becomes able to see clearly any objects or beings that are invisible within a 50 foot radius, as well as any that are astral, ethereal, or out of phase. Instantly and once each round for 5 rounds after the spell is cast, all concealed enemies within the area of effect will become visible to the caster and his allies. Invisible objects carried into the warded area will also become visible. This spell does not reveal illusions or enable the caster to see through physical objects. Magic resistance does not affect this spell.~
+
+@457=~Horror~
+@458=~Horror
+Level: 2
+School: Necromancy
+Range: Long
+Duration: 5 rounds
+Casting Time: 2
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+When this spell is cast, all enemies within the area of effect must save vs. spell at -1 or flee in terror. Certain creatures are immune to the effects of fear, including all undead.~
+
+@459=~Invisibility~
+@460=~Invisibility
+Level: 2
+School: Illusion
+Range: Touch
+Duration: Special
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell causes the creature touched to vanish from sight and be undetectable by normal vision or even infravision. Of course, the invisible creature is not magically silenced, and certain other conditions can render the creature detectable. Items dropped or put down by the invisible creature become visible, items picked up disappear if tucked into the clothing or pouches worn by the creature. The caster cannot perform any actions that manipulate the environment around him such as opening doors, disarming traps, or opening chests. An invisible creature can drink a potion, or cast non-attack spells centered on himself and remain invisible, but he cannot attack nor cast spells on other targets without ending the spell. The spell remains in effect until it is magically broken or dispelled, until the recipient attacks any creature, or until 8 hours have passed.~
+
+@461=~Knock~
+@462=~Knock
+Level: 2
+School: Alteration
+Range: Medium
+Duration: Instant
+Casting Time: 2
+Area of Effect: 1 creature or object
+Saving Throw: Special
+
+The Knock spell creates a ram-like force that can strike with considerable power. The force can be used to open or smash locked, held, or wizard-locked doors, as well as locked boxes or chests, but it does not raise barred gates or similar impediments. If used against a creature, the target suffers 2d6 points of crushing damage, and must save vs. spell at -1 to avoid being knocked unconscious for 1 round.~
+
+@463=~Know Opponent~
+@464=~Know Opponent
+Level: 2
+School: Divination
+Range: Long
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, the wizard's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
+
+@465=~Luck~
+@466=~Luck
+Level: 2
+School: Enchantment
+Range: Medium
+Duration: 5 turns
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+The recipient of this spell is lucky in everything that he does for the next hour. The affected character receives a 5% or +1 bonus to all of his actions. This includes saving throws, to hit chances, damage rolls, thieving skills, etc. Multiple castings of this spell are not cumulative.~
+
+@467=~Resist Fear~
+@468=~Resist Fear
+Level: 2
+School: Abjuration
+Range: Long
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: 30' radius
+Saving Throw: None
+
+The wizard instills courage in allies, raising their morale to its highest. If the recipients are affected by magical fear, this is negated. In addition, the recipients are protected from magical fear for the duration of the spell.~
+
+@469=~Melf's Acid Arrow~
+@470=~Melf's Acid Arrow
+Level: 2
+School: Conjuration
+Range: Long
+Duration: 1 round/3 levels
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+By means of this spell, the wizard creates a magical arrow that speeds to its target unerringly. The arrow has no attack or damage bonus, but it inflicts 2d4 points of acid damage. For every three levels that the caster has achieved, the acid lasts for another round, unless somehow dispelled, inflicting another 2d4 points of damage each round. So at 3rd-5th level, the acid lasts for two rounds, at 6th-8th level, the acid lasts for three rounds, and so on (up to a maximum of seven rounds at 18th level).~
+
+@471=~Mirror Image~
+@472=~Mirror Image
+Level: 2
+School: Illusion
+Range: Personal
+Duration: 5 turns
+Casting Time: 2
+Area of Effect: Caster
+Saving Throw: None
+
+When a Mirror Image spell is invoked, the spellcaster causes a number of illusory duplicates of himself to come into being around him. The spell creates two images plus one for every 3 levels of the caster (up to a maximum of eight images at 18th level). These images do exactly what the wizard does, and since the spell causes a blurring and slight distortion when it is cast, it is impossible for opponents to be certain which are the illusions and which is the actual wizard. When an image is directly struck by a melee or missile attack, magical or otherwise, it disappears, while other existing images remain intact. It is important to note that this will not protect the caster against all attacks, as it is possible for an enemy to choose the real caster amongst all the images. This spell cannot be cast on anyone who is under the effects of a Reflected Image spell, and casting the spell multiple times will not multiply the number of images created.~
+
+@473=~Stinking Cloud~
+@474=~Stinking Cloud
+Level: 2
+School: Evocation
+Range: Long
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: 30' radius
+Saving Throw: Poison negates
+
+When Stinking Cloud is cast, a billowing mass of nauseous vapors appears centered on a point selected by the caster. Any creature caught within the cloud must roll a successful saving throw vs. poison at -1 or be nauseated for 1 round. Nauseated characters are unable to attack or cast spells, but can still move. Those who make successful saving throws can leave the cloud without suffering any ill effects, although those remaining in the cloud must continue to save each round. A dispel magic will temporarily remove the nausea from a particular character, but they will continue to be subjected to the spell's effects so long as they remain within the cloud. Certain creatures are immune to the effects of the cloud, including all undead, and creatures who don't need to breathe, such as elementals.~
+
+@475=~Strength~
+@476=~Strength
+Level: 2
+School: Alteration
+Range: Short
+Duration: 1 turn/level
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+Application of this spell sets the strength of the character to 18 and then adds 50 exceptional strength on top of this. The character receives any strength bonuses appropriate. For example, if a character has between 18/50 and 18/00 strength, then his strength will just be set to 18/00. If a character has a strength between 18/01 and 18/50, then his strength will become 18/50 + original percentage. If his strength is less then 18, then it will just become 18/50. However, this spell will actually lower a character's strength if it is already 19 or more.~
+
+@477=~Web~
+@478=~Web
+Level: 2
+School: Evocation
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 20' radius
+Saving Throw: Breath negates
+
+A Web spell creates a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher. The Web spell covers a maximum area of about 20 feet in radius. Creatures caught within webs, or simply touching them, become stuck among the gluey fibers. Everyone in the area when the spell is cast must roll a saving throw vs. breath with a -1 penalty. If the saving throw is successful, then the creature is free to move out of the area. A failed saving throw means the creature is stuck in the webs, unable to move. Each round that a creature remains in the web, he must make a saving throw or be unable to move. Incorporeal and flying creatures are unaffected by this spell, as are spiders and exceptionally large and strong creatures who suffer little to no distress from the webs.~
+
+@479=~Agannazar's Scorcher~
+@480=~Agannazar's Scorcher
+Level: 2
+School: Evocation
+Range: Medium
+Duration: 2 rounds
+Casting Time: 2
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, a jet of flame appears at the caster's fingertips and bursts out toward one target of the caster's choice. That target will be hit by this flame for 3d6 points of damage. The fiery ray will persist for one further round, burning the victim for another 3d6 points of fire damage. Other creatures who cross the path of the flame jet will also take damage as long as they stand in the flame. There is no saving throw against this spell, though anti-fire capabilities such as fire resistance will apply and may reduce or eliminate the damage.~
+
+@481=~Ghoul Touch~
+@482=~Ghoul Touch
+Level: 2
+School: Necromancy
+Range: Personal
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: Special
+Saving Throw: Death partial
+
+When the caster completes this spell, a red glow encompasses his hand. On a successful touch from the wizard, the spell inflicts 1d8 points of magic damage and paralyzes the target for 5 rounds unless a successful save vs. death at a -1 penalty is made. The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
+
+@483=~Vocalize~
+@484=~Vocalize
+Level: 2
+School: Alteration
+Range: Personal
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: Caster
+Saving Throw: None
+
+The recipient of this spell gains the ability to cast spells with a verbal component without having to make any noise. Effectively, this spell cancels the silenced effect and makes the recipient immune to it for the spell's duration. This spell has no effect on other noises or speech - it simply removes a spell's verbal component.~
+
+@485=~Power Word Sleep~
+@486=~Power Word Sleep
+Level: 2
+School: Enchantment
+Range: Long
+Duration: 5 rounds
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+When a wizard utters this power word, he causes a comatose slumber to come upon one creature. Creatures who currently have 20 or more hit points can save vs. spell at a -1 penalty to avoid the effects, but those with 1 to 19 hit points are powerless to resist. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
+
+@487=~Ray of Enfeeblement~
+@488=~Ray of Enfeeblement
+Level: 2
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+By means of a Ray of Enfeeblement, a wizard weakens an opponent, reducing its strength and thereby the attacks that rely upon it. The victim suffers a -3 penalty to attack and damage rolls and has its movement speed reduced by 50% unless they make a successful saving throw vs. spell at a -1 penalty.~
+
+@489=~Chaos Shield~
+@490=~Chaos Shield
+Level: 2
+School: Abjuration
+Range: Personal
+Duration: 2 rounds/level
+Casting Time: 2
+Area of Effect: Caster
+Saving Throw: None
+
+Chaos Shield increases a wild mage's chance to gain a favorable result when a wild surge occurs. Every time a roll is made on the wild surge chart, an extra 15 is added to the dice roll. When Nahal's Reckless Dweomer is cast, the bonus from Chaos Shield stacks with the wild mage's level bonus.~
+
+@491=~Deafness~
+@492=~Deafness
+Level: 2
+School: Necromancy
+Range: Long
+Duration: 8 hours
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+The Deafness spell causes the recipient to become totally deaf and unable to hear any sounds. The victim is allowed a saving throw vs. spell at -1. Deafened spellcasters have a 50% chance to miscast any spell. This deafness can be done away with by means of a Dispel Magic spell or a Cure Disease spell.~
+
+@493=~Glitterdust~
+@494=~Glitterdust
+Level: 2
+School: Conjuration
+Range: Medium
+Duration: 4 rounds
+Casting Time: 2
+Area of Effect: 10' radius
+Saving Throw: Special
+
+This spell creates a cloud of glittering golden particles within the area of effect. The sparkling dust dazzles all opponents in the area (-2 penalty to attack rolls) for 4 rounds and reveals any opponents who are invisible. Those affected must also save vs. breath to avoid becoming completely covered by the dust, which cannot be removed and continues to sparkle for 4 rounds. Those failing the save remain unable to successfully hide themselves until the dust fades.~
+@494000=~Glitterdust
+Level: 2
+School: Conjuration
+Range: Medium
+Duration: 4 rounds
+Casting Time: 2
+Area of Effect: 10' radius
+Saving Throw: Special
+
+This spell creates a cloud of glittering golden particles within the area of effect. All enemies in the area must roll a successful saving throw vs. breath at -1 or be blinded (-10 penalty to attack rolls) for 4 rounds. All within the area become covered by the dust, which cannot be removed and continues to sparkle until it fades. This dust reveals all invisible opponents in the area.~
+
+
+/*-----------------------level 3-------------------------*/
+
+@501=~Clairvoyance~
+@502=~Clairvoyance
+Level: 3
+School: Divination
+Range: Personal
+Duration: 2 turns
+Casting Time: 3
+Area of Effect: Caster
+Saving Throw: None
+
+This spell grants an unnatural perception of things to come. Once Clairvoyance is cast, the caster receives instantaneous warnings of impending danger or harm. He becomes impossible to surprise and cannot be backstabbed. In addition, the spell gives a general idea of what action might be taken to best protect oneself, granting a +2 insight bonus to AC and saves vs. breath. The effects last for the duration of the spell, and cannot be dispelled.~
+
+@503=~Remove Magic~
+@504=~Remove Magic
+Level: 3
+School: Abjuration
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Special
+
+This is the combat version of Dispel Magic which will only affect opponents. Remove Magic dispels the magical effects upon any enemies within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Turning and Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
+
+The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Remove Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Remove Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
+
+@505=~Flame Arrow~
+@506=~Flame Arrow
+Level: 3
+School: Conjuration
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: Breath half
+
+This spell enables the caster to hurl flaming arrows at his enemies. The caster receives one arrow for every four experience levels (up to a maximum of five arrows at level 20), and each arrow inflicts 4d6 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. breath at -2. Upon completion of the spell, the first arrow will streak towards the creature targeted by the wizard, while additional arrows will randomly target opponents within range.~
+
+@507=~Fireball~
+@508=~Fireball
+Level: 3
+School: Evocation
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Breath half
+
+A fireball is an explosive burst of flame that detonates with a low roar, delivering damage proportional to the level of the wizard who cast it - 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 10d6). The wizard points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures who fail their saving throw vs. breath at -2 suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half damage.~
+
+@509=~Haste~
+@510=~Haste
+Level: 3
+School: Alteration
+Range: Medium
+Duration: 1 round/level
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: None
+
+When this spell is cast, all creatures affected function at double their normal movement rate, gain a +1 bonus to attack rolls, armor class, and saving throws vs. breath, and can make an extra attack each round. Furthermore, the rate at which the creature is regenerating or suffering damage from poison is doubled. Spellcasting and spell effects are not affected. At the instant the spell is completed, all allies within a 30 foot radius of a point selected by the caster are affected (thus, creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not). Haste negates and counters the effects of a Slow spell. When the spell ends, affected creatures become winded for 5 rounds. While winded they receive penalties of -2 to hit, damage, and armor class. This spell is not cumulative with itself or with other similar magic.~
+
+@511=~Hold Person~
+@512=~Hold Person
+Level: 3
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: Target, and enemies within 5'
+Saving Throw: Spell negates
+
+This spell holds one or more humans, demihumans, or humanoid creatures rigidly immobile and in place for one turn. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also affected. Those who succeed at a saving throw vs. spell at -2 are totally unaffected by the spell. Undead creatures cannot be held with this spell.
+
+Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
+
+@513=~Invisibility Sphere~
+@514=~Invisibility Sphere
+Level: 3
+School: Illusion
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 10' radius
+Saving Throw: None
+
+This spell confers invisibility upon all friendly creatures within 10 feet of the caster. Creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not. If an affected creature makes an attack, they will negate the invisibility only for themselves. The spell otherwise lasts for 8 hours.~
+
+@515=~Lightning Bolt~
+@516=~Lightning Bolt
+Level: 3
+School: Evocation
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Breath half
+
+Upon casting this spell, the wizard releases a powerful stroke of electrical energy that inflicts 1d8 points of damage per level of the spellcaster (maximum damage of 10d8) to the target creature. A successful saving throw vs. breath at -2 reduces this damage to half.~
+
+@517=~Monster Summoning I~
+@518=~Monster Summoning I
+Level: 3
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons a number of hobgoblins, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell.
+
+5th : 2 hobgoblins
+7th : 3 hobgoblins
+9th : 4 hobgoblins
+12th+ : 4 hobgoblins, 1 shaman
+
+The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+Hobgoblin Archer (3 Hit Dice):
+STR 11, DEX 14, CON 13, INT 8, WIS 10, CHA 8;  AL Lawful Evil
+HP 24, AC 5, THAC0 17, Saving Throws 13/15/14/16/16
+2 Attacks Per Round, 1d6+3 Piercing Damage (Arrows)
+or 1 Attack Per Round, 1d10+2 Slashing Damage (Bastard Sword)
+
+Hobgoblin Shaman (4 Hit Dice):
+STR 13, DEX 11, CON 15, INT 9, WIS 14, CHA 9;  AL Lawful Evil
+HP 36, AC 5, THAC0 16, Saving Throws 9/13/12/15/14
+1 Attack Per Round, 1d8+1 Slashing Damage (Long Sword +1)
+
+Memorized Spells:
+1° Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
+2° Chant, Hold Person, Silence~
+
+@519=~Non-Detection~
+@520=~Non-Detection
+Level: 3
+School: Abjuration
+Range: Touch
+Duration: 8 hours
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+By casting this spell, the wizard makes the creature touched undetectable by divination spells such as Detect Invisibility, Invisibility Purge, and True Seeing, or by a thief's Detect Illusion ability, though an invisible person may still be audible when moving and his presence may still be sensed. Non-Detection wards the creature's gear as well as the creature itself.
+
+Note: Detect Illusion, Oracle, and True Seeing remove illusionary protections, revealing creatures who are invisible by magical means. Creatures that are protected by Non-Detection and invisible via the Hide in Shadows skill will remain undetected.~
+
+@521=~Protection from Missiles~
+@522=~Protection from Missiles
+Level: 3
+School: Abjuration
+Range: Touch
+Duration: 2 turns
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+By means of this spell, the wizard bestows upon a creature total invulnerability to hurled and projected missiles such as arrows, axes, bolts, javelins, and sling stones. This spell does not convey any protection from magical attacks such as Fireballs, Lightning Bolts, or Magic Missiles, but magically created missiles such as Melf's Acid Arrows, Melf's Minute Meteors, and Flame Arrows will be harmless deflected.~
+
+@523=~Slow~
+@524=~Slow
+Level: 3
+School: Alteration
+Range: Long
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+A Slow spell causes creatures to move and attack at half of their normal rates unless a save vs. spell at -2 is made. Slowed creatures also suffer a -1 penalty to attack rolls, AC, and saves vs. breath. Spellcasting time is doubled, though spell effects are not affected. Furthermore, the rate at which these creatures regenerate or suffer damage from poison is halved. At the instant the spell is completed, all hostile creatures in 30 foot radius of a point selected by the caster will be affected (thus, creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not). It negates the effects of a Haste spell, but does not otherwise affect magically speeded or slowed creatures. This spell is not cumulative with itself or with other similar magic.~
+
+@525=~Skull Trap~
+@526=~Skull Trap
+Level: 3
+School: Necromancy
+Range: Medium
+Duration: Special
+Casting Time: 3
+Area of Effect: 20' radius
+Saving Throw: Breath half
+
+Upon casting this spell, a skull is thrown by the caster at the target area. The skull floats in the area until a creature comes within 15 feet of it. When this happens, the skull is triggered and explodes, damaging everyone within a 20 foot radius. The explosion deals 1d4 points of magic damage per level of the caster (up to a maximum of 20d4), with a save vs. breath at -2 allowed for half damage. When casting this spell, it is wise to set it far away from the party, lest they set it off accidentally.~
+
+@527=~Vampiric Touch~
+@528=~Vampiric Touch
+Level: 3
+School: Necromancy
+Range: Touch
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, the target loses 3 hit points for every two caster levels, to a maximum drain of 30 for a 20th level caster. These hit points are added to the caster's current hit points, with any hit points over the caster's normal maximum treated as temporary additional hit points. The temporary hit points last for 5 turns.
+
+Note that this spell may not be cast multiple times to radically increase the caster's hit points. The caster must wait for the first Vampiric Touch spell to run its course before casting another.~
+
+@529=~Dire Charm~
+@530=~Dire Charm
+Level: 3
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+This spell works in the exact same manner as Charm Person, with two differences: the saving throw is at a -2 penalty, and the enchantment has a longer duration. Dire Charm affects any single person it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, and others. Thus, a 10th-level fighter could be charmed, but an ogre could not. If the recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible.
+
+If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a Dispel Magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
+
+@531=~Ghost Armor~
+@532=~Ghost Armor
+Level: 3
+School: Illusion
+Range: Touch
+Duration: 10 turns
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, the wizard creates an insubstantial but quasi-real suit of armor. This semi-illusory material covers the subject and actually gives some real protection provided that opponents don't actively disbelieve in the armor (detecting the illusion) and neither a dispel magic nor detect illusion spell is cast upon it. Until dispelled or disbelieved, the armor sets the recipient's base armor class to 2. This spell will not function with any other form of magical armor, but it is cumulative with dexterity bonuses and, in the case of fighter/mages, with the shield bonus. The ghost armor does not hinder movement, adds no weight or encumbrance, nor does it prevent spellcasting. A favourite among mage/thieves, the ghostly nimbus of light which surrounds the recipient grants +20% bonus to Hide in Shadows.~
+
+@533=~Minor Spell Deflection~
+@534=~Minor Spell Deflection
+Level: 3
+School: Abjuration
+Range: Personal
+Duration: 3 rounds/level
+Casting Time: 3
+Area of Effect: Caster
+Saving Throw: None
+
+This abjuration spell causes any spells cast against the wizard to be absorbed and consumed. This affects a total of 4 spell levels. Spells greater than 7th level will not be affected. This spell will not protect the caster from a dispel magic. However, it will not be affected by a dispel magic, either.
+
+This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). As long as the spell is cast directly at the wizard and there are spell levels remaining, it will be absorbed. For example, if there is only 1 level of protection left and a 3rd-level spell is cast at the wizard, the spell will be absorbed while canceling the spell deflection.~
+
+//Moved to level 5
+@535=~Protection from Fire~
+@536=~Protection from Fire
+Level: 5
+School: Abjuration
+Range: Touch
+Duration: 1 turn/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Protection from Fire spell is cast, the recipient receives complete protection from all fire-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like fiery dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Burning Hands, Fireball, Flame Strike, and Fire Storm. Multiple castings of this spell are not cumulative.~
+
+//Moved to level 5
+@537=~Protection from Cold~
+@538=~Protection from Cold
+Level: 5
+School: Abjuration
+Range: Touch
+Duration: 1 turn/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Protection from Cold spell is cast, the recipient receives complete protection from all cold-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like icy dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Ice Storm and Cone of Cold. Multiple castings of this spell are not cumulative.~
+
+@539=~Spell Thrust~
+@540=~Spell Thrust
+Level: 3
+School: Abjuration
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: 15' radius
+Saving Throw: None
+
+When this spell is cast, it will dispel one spell protection of 5th level or lower on all enemies within the area of effect. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
+
+The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, and Spell Immunity.~
+
+@541=~Detect Illusion~
+@542=~Detect Illusion
+Level: 3
+School: Divination
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: None
+
+When this spell is cast at a point designated by the wizard, an area roughly 30 feet in radius will be affected. All hostile illusion spells of 4th level and lower in this area will be dispelled. Magic resistance does not affect this spell.
+
+The illusion spells dispelled by Detect Illusion are: Reflected Image, Blur, Invisibility, Mirror Image, Ghost Armor, Invisibility Sphere, and Improved Invisibility.~
+
+@5410=~Illusionary protections removed~
+
+@543=~Halt Undead~
+@544=~Halt Undead
+Level: 3
+School: Necromancy
+Range: Long
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: Target, and enemies within 5'
+Saving Throw: Spell negates
+
+This spell stops undead creatures in their place for the duration of the spell. The effect is centered on the victim selected by the caster. Any undead creatures within 5 feet of the target are also affected. Those who succeed at a saving throw vs. spell at -2 are totally unaffected by the spell.
+
+Those affected become unable move or groan, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence the effect does not stop any worsening of their condition due to injury or rot.~
+
+@545=~Melf's Minute Meteors~
+@546=~Melf's Minute Meteors
+Level: 3
+School: Evocation
+Range: Personal
+Duration: Special
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the wizard to summon small globes of fire (one for each level of experience of the caster), which, when thrown, burst upon impact and inflict 1d4 points of piercing damage plus 2d4 points of fire damage to the creature struck. The wizard gains a +5 bonus to hit with the missiles, and each meteor is considered to be of +2 enchantment to determine what it can hit. The wizard may discharge up to five missiles per round.~
+
+@547=~Dispel Magic~
+@548=~Dispel Magic
+Level: 3
+School: Abjuration
+Range: Long
+Duration: Instant
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Special
+
+Dispel Magic removes magical effects upon everyone within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Turning and Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
+
+The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Dispel Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Dispel Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
+
+
+/*------------------level 4------------------*/
+
+@561=~Confusion~
+@562=~Confusion
+Level: 4
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 4
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+This spell causes confusion in one or more creatures within the area, creating indecision and the inability to take effective action. All hostile creatures within the area of effect are allowed a saving throw vs. spell at -3. Those successfully saving are unaffected by the spell. Those who fail their saving throws will either go berserk, stand confused, or wander about for the duration of the spell. Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature.~
+
+@563=~Dimension Door~
+@564=~Dimension Door
+Level: 4
+School: Conjuration
+Range: Personal
+Duration: Instant
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+This spell transports the caster to any place within sight. When the spell is cast, a dimensional portal opens up in front of the caster, which he immediately steps through. Upon passing through the portal, the caster finds himself at his chosen destination. The caster always arrives at exactly the spot desired, and the dimensional door doesn't allow anyone or anything else to pass through. Spells about to be cast upon the wizard will fail, and missiles about to hit him will instead hit thin air.~
+
+@565=~Fire Shield (Blue)~
+@566=~Fire Shield (Blue)
+Level: 4
+School: Evocation
+Range: Personal
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+The blue Fire Shield protects the user from cold damage by surrounding the caster with a shield of ice flame. This shield not only grants the user 50% cold resistance, but also protects the caster from attacks made within a 5' radius of the caster. Opponents that hit the caster with a weapon or spell from within this radius will suffer 1d6 points of cold damage plus one for every two levels of the caster (up to a maximum of 1d6+10). Multiple castings of this spell are not cumulative, but it can be used in conjunction with Fire Shield (Red). Magic resistance does not affect this spell.~
+
+@567=~Ice Storm~
+@568=~Ice Storm
+Level: 4
+School: Evocation
+Range: Long
+Duration: 4 rounds
+Casting Time: 4
+Area of Effect: 30' radius
+Saving Throw: None
+
+When this spell is cast, great magical hailstones pound down for 4 rounds within a 30 foot radius of a point selected by the caster. Creatures within the area of effect have their movement speed reduced by 50%, and receive 2d8 points of cold damage for each round they remain inside the storm.~
+
+@569=~Improved Invisibility~
+@570=~Improved Invisibility
+Level: 4
+School: Illusion
+Range: Touch
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell is similar to the Invisibility spell, but the recipient is able to attack, either by missile discharge, melee combat, or spellcasting, and remain unseen. Note, however, that there are sometimes telltale traces, a shimmering, that enable observant opponents to approximate the invisible character's whereabouts. These traces are only noticeable when specifically looked for, after the creature has made his presence known. Once the character has revealed himself, opponents can attempt to attack him with conventional weapons, though they do so with a -4 penalty to the attack roll, or they may cast area of effect spells near his position. Opponents remain unable to directly target the invisible creature with spells, scrolls, or abilities until the spell duration expires or the invisibility is dispelled.~
+
+@571=~Minor Globe of Invulnerability~
+@572=~Minor Globe of Invulnerability
+Level: 4
+School: Abjuration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 4
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates a faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, or 3rd-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the globe of invulnerability). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the globe to their subject without affecting the globe. Fourth and higher level spells are not affected by the globe. The globe can be brought down by a successful dispel magic.~
+
+@573=~Monster Summoning II~
+@574=~Monster Summoning II
+Level: 4
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons a number of gnolls, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell.
+
+7th : 2 gnolls
+9th : 3 gnolls
+12th+ : 3 gnolls, 1 gnoll captain
+
+The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+Gnoll Elite (4 Hit Dice):
+STR 16, DEX 14, CON 15, INT 8, WIS 10, CHA 8;  AL Chaotic Evil
+HP 40, AC 4, THAC0 15, Saving Throws 13/15/14/16/16
+1 Attack Per Round, 1d10+4 Piercing Damage (Halberd +1)
+
+Gnoll Captain (5 Hit Dice):
+STR 17, DEX 15, CON 16, INT 8, WIS 11, CHA 9;  AL Chaotic Evil
+HP 56, AC 3, THAC0 13, Saving Throws 11/13/12/13/14
+2 Attacks Per Round, 1d8+4 Slashing Damage (Long Sword +1)~
+
+@575=~Stoneskin~
+@576=~Stoneskin
+Level: 4
+School: Alteration
+Range: Personal
+Duration: 8 hours
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When a wizard casts this powerful spell upon himself, an outer skin of stone will emerge from the ground, completely covering and shielding him. This skin is, of course, magical and will hinder the wizard in no way. The effect of this is to protect the wizard from physical attacks such as melee weapons and projectiles. One skin is gained for every two levels of the caster. For example, a 10th level wizard would receive 5 skins while a 20th level wizard would receive 10. For each skin the wizard possesses, the spell will stop one attack, so a 10th level wizard would be protected from the first 5 attacks made against him, but the sixth would affect him normally. The skins will remain on the wizard until he is affected by a dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires.
+
+It is important to note that this will not protect the wizard from any area attacks (such as Fireball), and that any weapon capable of inflicting some type of elemental damage can still harm the caster - the skins will not protect against fire, cold, acid, or electrical damage, even if physical damage is blocked. Multiple castings of this spell are not cumulative.~
+
+@577=~Contagion~
+@578=~Contagion
+Level: 4
+School: Necromancy
+Range: Short
+Duration: 8 hours
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: Death negates
+
+This spell causes a major disease and weakness in a creature. The afflicted individual is immediately stricken with painful and distracting symptoms: boils, blotches, lesions, seeping abscesses, and so on. Strength, dexterity, constitution, and charisma are reduced by 2, and the afflicted character is slowed. The target of this spell must make a saving throw vs. poison at -3 to avoid being infected, or the spell will persist until the creature receives a Cure Disease spell or the spell duration expires.~
+
+@579=~Break Enchantment~
+@580=~Break Enchantment
+Level: 4
+School: Abjuration
+Range: Touch
+Duration: Permanent
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: None
+
+Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from magical sleep, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
+
+@581=~Emotion: Despair~
+@582=~Emotion: Despair
+Level: 4
+School: Enchantment
+Range: Long
+Duration: 2 round/level
+Casting Time: 4
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+When this spell is cast, the wizard can disturb the emotional state of those around him. The effect of this is to inflict a feeling of absolute hopelessness upon enemies within visual range of the caster. Upon a failed saving throw vs. spell at -3, those affected will receive a -4 penalty on attack rolls and weapon damage, and a +4 penalty to armor class. This will last for the duration of the spell or until dispelled.~
+
+@583=~Greater Malison~
+@584=~Greater Malison
+Level: 4
+School: Enchantment
+Range: Long
+Duration: 2 rounds/level
+Casting Time: 4
+Area of Effect: 30' radius
+Saving Throw: None
+
+The spell allows the caster to adversely affect the saving throws of his enemies. The effect is applied to all hostile creatures within the area of effect. Those under the influence of this spell make all their saving throws at a penalty of -2. Multiple castings of this spell are not cumulative.~
+
+@585=~Otiluke's Resilient Sphere~
+@586=~Otiluke's Resilient Sphere
+Level: 4
+School: Alteration
+Range: Long
+Duration: 1 turn
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+When this spell is cast, the result is a globe of shimmering force that encloses the subject creature if it fails to successfully save vs. spell at a -3 penalty. The resilient sphere will contain its subject for the duration of the spell. The sphere is completely immune to all damage. Actually, the only method of removing the sphere is a successful dispel magic. Hence, the creature caught inside the globe is completely safe from all attacks, but at the same time is completely unable to affect the outside world.
+
+The caster has the option of using the spell to protect her allies. Resistances and saving throws are bypassed when the target is willing.~
+
+@587=~Spirit Armor~
+@588=~Spirit Armor
+Level: 4
+School: Necromancy
+Range: Touch
+Duration: 10 turns
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell taps the target's life force in order to create a corporeal barrier around his body. The armor itself is weightless, and does not hinder movement or spellcasting in any way. The spirit armor does not work cumulatively with any other armor, but it will stack with bonuses from dexterity, shields, and magical trinkets. While in effect, the armor class of the recipient will be set to 1, and all saving throws will be made with a +2 bonus. There is a danger in using this spell, however, as the external portion of the target's spirit is temporarily lost when the spell duration expires. This causes the recipient to suffer 2d4 points of damage, unless he succeeds at a saving throw vs. spell.~
+
+@589=~Polymorph Other~
+@590=~Polymorph Other
+Level: 4
+School: Alteration
+Range: Long
+Duration: Permanent
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: Polymorph negates
+
+Polymorph Other is a powerful magic that permanently alters the form of the creature affected. The target's mental attributes are not affected and they do not receive the special abilities of the new form, but physical attributes are changed to adhere to the new form and the affected creature loses any special abilities it had in its original form. This particular version of the spell will transform the recipient into a squirrel unless a save vs. polymorph is made successfully. The effectiveness of this spell is dependent upon the target's level, with weak creatures being relatively easy to transmute and more powerful creatures being very difficult. Creatures with less than 8 HD/levels save at a -3 penalty, those with 8 - 14 HD/levels save normally, and those with 15 or more HD/levels save with a +3 bonus. The transformation is instant and permanent until a dispel magic is cast successfully upon the affected creature.
+
+Note that all clothes and equipment that the target was wearing will mold into the new form. However, they will return to their previous state once the target dies or the effects are dispelled.~
+
+@591=~Polymorph Self~
+@592=~Polymorph Self
+Level: 4
+School: Alteration
+Range: Personal
+Duration: 5 turns
+Casting Time: 4
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, the wizard is able to assume the form of another creature: that of a flind, an ogre, a mustard jelly, a sword spider, or a winter wolf. The caster also gains the form's physical mode of locomotion and breathing. This spell does not give the caster access to the new form's other abilities such as special attacks or magic, nor does it run the risk of the wizard changing personality and mentality.
+
+For the duration of the spell, the caster may transform into any of the new forms at any time, as many times as he wishes. The caster gains the natural attacks of the new form in some cases and may use weapons in others. The wizard's mental attributes are not affected, but physical attributes are changed to adhere to the new form. Also, any natural protections that the new form offers are conferred to the wizard.
+
+Flind
+Str 17, Dex 17, Con 16;  AC 1, THAC0 10
+2 Attacks Per Round, 1d10+3 Piercing +1d6 Fire Damage (Halberd +2)
+
+
+Ogre
+Str 18/00, Dex 9, Con 18;  AC 3, THAC0 8
+2 Attacks Per Round, 1d10+8 Crushing Damage (Morning Star +2)
+
+
+Mustard Jelly
+Str 14, Dex 9, Con 16;  AC 4, THAC0 10
+1 Attack Per Round, 5d5 Acid Damage + Slow (Corrosive Spore +2)
+Slow: target is slowed for 3 rounds (save vs. polymorph negates)
+Immune to backstab, poison, charm, confusion, & hold effects
+Immune to normal weapons
+Electrical Resistance 100%, Cold Resistance 50%
+
+
+Sword Spider
+Str 17, Dex 10, Con 15;  AC 3, THAC0 14
+4 Attacks Per Round, 1d6+3 Piercing Damage + Poison (Legs & Bite +1)
+Poison: 4 hp/round for 4 rounds (save vs. poison negates)
+Immune to web and poison effects
+
+
+Winter Wolf
+Str 18, Dex 17, Con 15;  AC 2, THAC0 10
+2 Attacks Per Round, 1d6+3 Piercing + 1d6 Cold Damage (Frostbite +2)
+Cold Resistance 100%~
+
+@593=~Enchanted Weapon~
+@594=~Enchanted Weapon
+Level: 4
+School: Enchantment
+Range: Personal
+Duration: 1 day
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+This spell conjures forth a +3 enchanted weapon that can be given to anyone. The weapon may be of any type, or the caster may alternatively decide to conjure 40 magical arrows, bolts, or bullets. The weapon stays in existence for no longer than a day.~
+
+@595=~Fire Shield (Red)~
+@596=~Fire Shield (Red)
+Level: 4
+School: Evocation, Alteration
+Range: Personal
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+The red Fire Shield protects the user from fire damage by surrounding the caster with a shield of flame. This shield not only grants the user 50% fire resistance, but also protects the caster from attacks made within a 5' radius of the caster. Opponents that hit the caster with a weapon or spell from within this radius will suffer 1d6 points of fire damage plus one for every two levels of the caster (up to a maximum of 1d6+10). Multiple castings of this spell are not cumulative, but it can be used in conjunction with Fire Shield (Blue). Magic resistance does not affect this spell.~
+
+@597=~Secret Word~
+@598=~Secret Word
+Level: 4
+School: Enchantment
+Range: Long
+Duration: Instant
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Secret Word spell is uttered, it will dispel one spell protection of 7th level or lower on the target. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
+
+The spell protection spells dispelled by Secret Word are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, and Spell Turning.~
+
+@599=~Simbul's Spell Matrix~
+@600=~Simbul's Spell Matrix
+Level: 4
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows a mage to prepare a magical matrix that can store spells to be used later in a single swift action. The matrix can store two spells to be released simultaneously, all of which must be of 2nd level or lower. A mage can only possess one spell matrix at a time, and the matrix will remain active until the spells contained within it are released.~
+
+@601=~Teleport Field~
+@602=~Teleport Field
+Level: 4
+School: Alteration
+Range: Long
+Duration: 1 turn
+Casting Time: 4
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+With this spell, the wizard instigates a teleportation effect as far as the wizard can see. All enemies in this area are randomly teleported for the duration of the spell unless they save vs. spell at -3. This spell is best used against multiple enemies, serving to confuse them and allowing the wizard to concentrate on activating her defenses.~
+
+@603=~Spider Spawn~
+@604=~Spider Spawn
+Level: 4
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the wizard conjures two spider eggs into existence, quickly producing fully grown spiders that remain under the wizard's telepathic control. The type of spiders that appear depend upon the level of the wizard casting the spell.
+
+7th : 2 giant spiders
+9th : 2 phase spiders
+12th+ : 2 sword spiders
+
+The spiders will remain under the wizard's control until they are slain or the spell duration expires.
+
+Giant Spider (4 Hit Dice):
+STR 15, DEX 17, CON 12, INT -, WIS 10, CHA 2;  AL Neutral
+HP 32, AC 6, THAC0 16, Saving Throws 10/13/10/13/13
+1 Attack Per Round, 1d8 Piercing Damage (Bite +1)
+
+
+Phase Spider (5 Hit Dice):
+STR 17, DEX 17, CON 15, INT 7, WIS 13, CHA 10;  AL Neutral
+HP 45, AC 5, THAC0 15, Saving Throws 10/13/10/13/13
+2 Attacks Per Round, 1d8+2 Piercing Damage (Bite +1)
+
+
+Sword Spider (6 Hit Dice):
+STR 17, DEX 10, CON 15, INT -, WIS 11, CHA 3;  AL Neutral
+HP 54, AC 3, THAC0 14, Saving Throws 9/12/9/12/12
+4 Attacks Per Round, 1d8+2 Piercing Damage (Legs & Bite +1)
+
+Combat Abilities (all spiders):
+Poison: spiders' bites inject a venom which inflicts 3hp/round for 1 turn (save vs. poison negates)
+
+Special Qualities (all spiders):
+Immune to poison & web effects~
+
+@605=~Farsight~
+@606=~Farsight
+Level: 4
+School: Divination
+Range: Personal
+Duration: 5 turns
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+When Farsight is cast, the caster is able to view an area of an unexplored map. After casting the spell, simply click on a section of the map that you want to view. For the duration of the spell, the caster can spy on that area, noting creatures and fortifications.~
+
+@607=~Wizard Eye~
+@608=~Wizard Eye
+Level: 4
+School: Divination
+Range: Short
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is employed, the wizard creates an invisible sensory organ that sends him visual information. The wizard eye can see with normal vision up to 60 feet away in brightly lit areas. The wizard eye can travel in any direction as long as the spell lasts. It has substance and a form that can be detected (by a Detect Invisibility spell, for instance). Solid barriers prevent the passage of a wizard eye. The powers of the eye cannot be enhanced by other spells or items. The caster is subject to any gaze attack met by the eye. A successful dispel cast on the wizard or eye ends the spell.~
+
+
+/*------------------level 5------------------*/
+
+@611=~Summon Shadow~
+@612=~Summon Shadow
+Level: 5
+School: Necromancy
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons a number of shadows, undead monsters which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell.
+
+9th : 3 shadows
+12th+ : 2 wraiths
+
+The undead creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+Shadow (3 Hit Dice):
+STR -, DEX 14, CON -, INT 6, WIS 12, CHA 11;  AL Chaotic Evil
+HP 36, AC 5, THAC0 13, Saving Throws 11/13/11/13/13
+1 Attack Per Round, 1d6+1 Cold Damage (Touch +1)
+
+Combat Abilities:
+Chill Touch: creatures struck must save vs. death or lose 1 point of strength for 1 hour
+
+Special Qualities:
+Immune to normal weapons
+Immune to backstab, charm, confusion, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%; Physical Damage Resistance 50%
+
+
+Wraith (5 Hit Dice):
+STR -, DEX 15, CON -, INT 11, WIS 13, CHA 12;  AL Lawful Evil
+HP 60, AC 4, THAC0 12, Saving Throws 10/13/10/13/13
+1 Attack Per Round, 1d8+1 Cold Damage (Touch +1)
+
+Combat Abilities:
+Life Drain: each successeful hit raises wraith hit points by 5 for 1 turn, and the target must save vs. death or lose 1 level
+
+Special Qualities:
+Immune to normal weapons
+Immune to backstab, blindness, charm, confusion, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%; Physical Damage Resistance 50%~
+
+@613=~Cloudkill~
+@614=~Cloudkill
+Level: 5
+School: Evocation
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: None
+
+This spell generates a billowing cloud of ghastly, yellowish green vapors that is so toxic as to slay any creature with fewer than 4 Hit Dice, and cause creatures with 4 to 6 Hit Dice to roll saving throws vs. poison with -4 penalties or be slain. Holding one's breath has no effect on the lethality of the spell. Those with more than 6 Hit Dice must leave the cloud immediately, or suffer 1d10 points of poison damage each round while in the area of effect. Undead creatures are not affected by the poisonous cloud.~
+
+@615=~Cone of Cold~
+@616=~Cone of Cold
+Level: 5
+School: Evocation
+Range: Special
+Duration: Instant
+Casting Time: 5
+Area of Effect: Cone
+Saving Throw: Breath half
+
+When this spell is cast, it causes a cone-shaped spray of extreme cold to spring forth from the wizard's hand. The cone is 30 feet in length and spread out in a horizontal arc of 120 degrees in front of the wizard. It drains heat and causes 1d4+1 points of damage per level of experience of the wizard (to a maximum of 20d4+20 at level 20), with a save vs. breath at -4 allowed for half damage.~
+
+@617=~Monster Summoning III~
+@618=~Monster Summoning III
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons a number of ogres, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell.
+
+9th : 2 ogres
+12th+ : 2 ogres, 1 ogre mage
+
+The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+Ogre Berserker (5 Hit Dice):
+STR 18/00, DEX 9, CON 18, INT 8, WIS 10, CHA 7; AL Chaotic Evil
+HP 62, AC 3, THAC0 11, Saving Throws 11/13/12/13/14
+1 Attack Per Round, 1d10+9 Crushing Damage (Morning Star +1)
+
+Special Qualities:
+Enrage (once per day)
+
+Ogre Mage (6 Hit Dice):
+STR 18/00, DEX 9, CON 17, INT 15, WIS 11, CHA 13; AL Lawful Evil
+HP 56, AC 2, THAC0 11, Saving Throws 11/13/12/13/14
+1 Attack Per Round, 1d10+9 Crushing Damage (Katana +1)
+
+Special Qualities:
+Invisibility (at will)
+Regeneration: 1 hp/round
+
+Memorized Spells:
+1° Blindness, Magic Missile (x2), Shield
+2° Horror, Mirror Image
+3° Dire Charm, Slow~
+
+@619=~Shadow Door~
+@620=~Shadow Door
+Level: 5
+School: Illusion
+Range: Personal
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: Special
+
+By means of this spell, the wizard creates the illusion of a door. The illusion also permits the wizard to appear to step through this "door" and disappear. In reality he has darted aside and can flee, totally invisible, for the spell duration. Opponents within 5 feet of the caster must save vs. spell at -4 or be fooled into following the caster through the door, becoming trapped in an extradimensional room for up to 4 rounds. Creatures with exceptional intelligence may escape the illusion faster, while creatures who can see through illusions (e.g. dragons, liches, demons), or are under the effects of a True Seeing spell, are unaffected.~
+
+@621=~Domination~
+@622=~Domination
+Level: 5
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+The Domination spell enables the caster to control the actions of any one creature while the spell is in effect. This control is maintained through a telepathic link between the caster and the victim. Unlike the 4th level priest spell Mental Domination, the target has no option for release, even if made to do something against his morals. The target gets a saving throw vs. spell at -4 in order to avoid the effect.~
+
+@623=~Hold Monster~
+@624=~Hold Monster
+Level: 5
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: Target, and enemies within 5'
+Saving Throw: Spell negates
+
+This spell holds creatures of any type rigidly immobile and in place for one turn. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also affected. Those who succeed at a saving throw vs. spell at -4 are totally unaffected by the spell. Undead creatures cannot be held with this spell.
+
+Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
+
+@625=~Chaos~
+@626=~Chaos
+Level: 5
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: Special
+
+This spell is similar to the 4th level Confusion spell, but creatures with 5 or more Hit Dice/levels less than the caster do not receive a saving throw versus the effects. Those allowed saving throws vs. spell roll them with a -4 penalty. Those who successfully save are unaffected by the spell. Affected creatures will either go berserk, stand confused, or wander about for the duration of the spell. Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature. The spell lasts for the duration or until a successful dispel magic is cast.~
+
+@627=~Feeblemind~
+@628=~Feeblemind
+Level: 5
+School: Enchantment
+Range: Long
+Duration: Permanent
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Spell negates
+
+Feeblemind causes the subject's intellect to degenerate into that of a simple beast of burden, with an intelligence score of 3. The subject remains in this state until a successful dispel magic is cast upon him. The victim must make a save vs. spell at -4 in order to avoid the effect.~
+
+@629=~Spell Immunity~
+@630=~Spell Immunity
+Level: 5
+School: Abjuration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Caster
+Saving Throw: None
+
+Casting this spell grants the wizard protection from one spell school of her choice. After the spell is cast, the wizard must choose the school she wishes to be protected from. All spells of this school will be unable to harm or aid the caster for the duration of this spell. This includes priest spells of the appropriate school that might benefit the caster.~
+
+@631=~Protection from Normal Weapons~
+@632=~Protection from Normal Weapons
+Level: 5
+School: Abjuration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates an immobile, faintly shimmering magical sphere around the caster that cannot be penetrated by non-magical weapons; all such weapons are harmlessly deflected (missile weapons strike the sphere, then immediately fall to the ground). This does not include weapons that are blessed or enchanted. The effect lasts for the duration of the spell or until dispelled. This spell cannot be cast on anyone who is already protected from magical weapons.~
+
+@633=~Protection from Electricity~
+@634=~Protection from Electricity
+Level: 5
+School: Abjuration
+Range: Touch
+Duration: 1 turn/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Protection from Electricity spell is cast, the recipient receives complete protection from all electrical-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like electric dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Lightning Bolt, Glyph of Warding, Call Lightning, and Chain Lightning. Multiple castings of this spell are not cumulative.~
+
+@635=~Breach~
+@636=~Breach
+Level: 5
+School: Abjuration
+Range: Long
+Duration: Instant
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast at a creature, it breaches and dispels all of the specific and combat protections on the target creature. The target's magic resistance, if any, does not affect this spell.
+
+The specific protection spells dispelled by Breach are: Protection from Evil, Resist Fear, Resist Fire and Cold, Magic Circle against Evil, Death Ward, Free Action, Fire Shields, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
+
+The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Blade Barrier, Physical Mirror, Mantle, Improved Mantle, and Absolute Immunity.~
+
+@637=~Lower Resistance~
+@638=~Lower Resistance
+Level: 5
+School: Alteration
+Range: Long
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When cast upon a target creature, this spell will lower their magic resistance by 2% per level of the caster (up to a maximum of 40% at 20th level). There is no saving throw vs. this spell and magic resistance is ignored. This spell is not affected by dispel magic. Once it has been cast, there is no way to cancel the effects until the spell expires.
+
+For example, if a creature has 50% magic resistance and this spell is cast on it by a 15th level mage, then its magic resistance would be lowered by 30% automatically. This effect is cumulative for each casting of this spell. If this spell was cast upon this same creature again, the creature's magic resistance would be 50% - 30% (initial casting) - 30% (current casting) which would leave the creature with 0% magic resistance after both spells have been cast.~
+
+@639=~Oracle~
+@640=~Oracle
+Level: 5
+School: Divination
+Range: Personal
+Duration: Instant
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: None
+
+When this spell is cast, an area roughly 30 feet in radius around the caster will be affected. All hostile illusion/phantasm spells in this area will be dispelled. This spell only affects one's enemies.
+
+The spells that are affected by this are: Reflected Image, Invisibility, Blur, Mirror Image, Ghost Armor, Invisibility Sphere, Improved Invisibility, Shadow Door, Pixie Dust, Mislead, Project Image, and Mass Invisibility.~
+
+@641=~Conjure Lesser Fire Elemental~
+@642=~Conjure Lesser Fire Elemental
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting Conjure Lesser Fire Elemental, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned to the vicinity of the spellcaster. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elemental's death. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Lesser Fire Elemental (8 Hit Dice):
+STR 14, DEX 16, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 84, AC 2, THAC0 10, Saving Throws 10/12/11/11/13
+2 Attacks Per Round, 2d4+2 Slashing +2d4 Fire Damage (Fist +2)
+
+Special Qualities:
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 100%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
+
+@643=~Protection from Acid~
+@644=~Protection from Acid
+Level: 5
+School: Abjuration
+Range: Touch
+Duration: 1 turn/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Protection from Acid spell is cast, the recipient receives complete protection from all acid-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like acidic dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Melf's Acid Arrow and Acid Fog. Multiple castings of this spell are not cumulative.~
+
+@645=~Phantom Blade~
+@646=~Phantom Blade
+Level: 5
+School: Illusion
+Range: Personal
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell creates a translucent, weightless, shadowlike sword made of material from the Plane of Shadow that extends 3 feet from the caster's hand. The caster wields the phantom blade as if it was a long sword but he suffers no penalty for non-proficiency. The sword deals 1d12+4 points of magic damage to its victims, and an additional 10 points of damage against undead creatures. Due to its ethereal nature, strength bonuses do not apply, but attacks with the phantom blade are considered melee touch attacks, and thus gain a +4 bonus to hit. Furthermore, a successful strike temporarily scrambles magic, causing any spells the target casts in the next round to fail (save vs. spell at a -4 penalty negates). The blade is considered to be of +4 enchantment when determining what it can hit, but it cannot harm inorganic things because it has no solid existence. The phantom blade can only be used by the caster, and remains in his hand for the duration of the spell or until dispelled.~
+
+@647=~Wizard Spell Shield~
+@648=~Wizard Spell Shield
+Level: 5
+School: Abjuration
+Range: Personal
+Duration: 5 rounds
+Casting Time: 5
+Area of Effect: Caster
+Saving Throw: None
+
+This spell grants extraordinary protection from spells and spell-like effects for a limited amount of time. Every time a saving throw is required to reduce or negate an effect the caster will automatically succeed the save. Due to this spell's nature and short duration, it is mainly used to buy the wizard a few rounds in the thick of a magical duel. This effect lasts for the duration of the spell or until dispelled.~
+
+@649=~Conjure Lesser Air Elemental~
+@650=~Conjure Lesser Air Elemental
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting Conjure Lesser Air Elemental, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elemental's death. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Lesser Air Elemental (8 Hit Dice):
+STR 14, DEX 17, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 84, AC 0, THAC0 8, Saving Throws 10/12/11/11/13
+3 Attacks Per Round, 1d6+2 Piercing Damage (Fist +2)
+
+Special Qualities:
+Immune to normal weapons
+Immune to hold, poison, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@651=~Conjure Lesser Earth Elemental~
+@652=~Conjure Lesser Earth Elemental
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting Conjure Lesser Earth Elemental, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elemental's death. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Lesser Earth Elemental (8 Hit Dice):
+STR 19, DEX 8, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 104, AC 4, THAC0 8, Saving Throws 10/12/11/11/13
+2 Attacks Per Round, 2d6+9 Crushing Damage (Fist +2)
+
+Special Qualities:
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Piercing, & Missile Resistance 40%~
+
+@653=~Minor Spell Turning~
+@654=~Minor Spell Turning
+Level: 5
+School: Abjuration
+Range: Personal
+Duration: 3 rounds/level
+Casting Time: 5
+Area of Effect: Caster
+Saving Throw: None
+
+This abjuration spell causes any spells cast against the wizard to rebound upon the original caster. This affects a total of 4 spell levels. Spells greater than 7th level will not be affected. This spell will not protect the caster from a dispel magic. However, it will not be affected by a dispel magic, either.
+
+This spell reflects spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). As long as the spell is cast directly at the wizard and there are spell levels remaining, it will be reflected. For example, if there is only 1 level of protection left and a 3rd-level spell is cast at the wizard, the spell will be reflected while canceling the spell turning.~
+
+@655=~Sunfire~
+@656=~Sunfire
+Level: 5
+School: Evocation
+Range: Personal
+Duration: Instant
+Casting Time: 1
+Area of Effect: 15' radius
+Saving Throw: Breath half
+
+The Sunfire spell creates an explosive burst of flame that detonates with a low roar and delivers damage proportional to the level of the wizard who cast it, similar to a fireball. The wizard gestures with his hand and the entire area around him erupts in flames, striking all except the caster for 1d6 points of damage per level of the wizard (up to a maximum of 15d6). Creatures who fail their saving throw vs. breath at -4 suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half damage.~
+
+
+/*------------------level 6------------------*/
+
+@661=~Invisible Stalker~
+@662=~Invisible Stalker
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 8 hours
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons an invisible stalker from the Elemental Plane of Air. This 8 hit dice monster obeys and serves the spellcaster in performing whatever tasks are set before it, even if this means being sent to certain death. The creature remains under the caster's control for 8 hours or until it is killed - at which point it will return to its native plane, only slightly annoyed at having to serve a mortal.
+
+Invisible Stalker (8 Hit Dice):
+STR 18, DEX 19, CON 14, INT 11, WIS 14, CHA 11;  AL Neutral
+HP 64, AC -2, THAC0 7, Saving Throws 10/12/11/12/13
+2 Attacks Per Round, 2d6+4 Crushing Damage (Fist +2)
+
+Combat Abilities:
+Sneak Attack: can backstab opponents with a x2 multiplier
+
+Special Qualities:
+Hide in Shadows: 120%
+Natural Invisibility: constantly invisible as if affected by an Improved Invisibility spell
+Immune to charm, confusion, hold, poison, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@663=~Globe of Invulnerability~
+@664=~Globe of Invulnerability
+Level: 6
+School: Abjuration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates an immobile, faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, 3rd- or 4th-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the globe of invulnerability). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the globe to their subject without affecting the globe. Fifth and higher level spells are not affected by the globe. The globe can be brought down by a successful dispel magic spell, as well as other forms of magical attack such as Pierce Magic and Spellstrike.~
+
+@665=~Tenser's Transformation~
+@666=~Tenser's Transformation
+Level: 6
+School: Alteration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+Tenser's Transformation is a sight guaranteed to astound any creature not aware of its power. For when the mage casts the spell, he undergoes a startling transformation which alters his body and his mind into that of a berserker warrior. The wizard gains 2 hit points per caster level (up to a maximum of 40), and all damage he sustains comes first from the magical points gained. The armor class of the caster is 4 better than he possessed prior casting the spell, and all attack rolls are made with the THAC0 of a fighter of the same level as the caster. The mage gains extra attacks as a fighter of the same level, thus an extra half attack per round at 7th level and another half attack per round at 13th level. Furthermore, each attack is made at +2, each successful hit in combat inflicts an additional 2 points of damage, and any saving throws against death/poison are made by the caster with a +4 bonus. The effect lasts for the duration of the spell or until dispelled, and all magical abilities (both cast and innate) are unusable in the transformed state.
+
+Note: this spell does not give any extra attacks to multiclassed or dual-classed fighter/mages, as they normally gain additional attacks per round due to their fighter levels.~
+
+@667=~Flesh to Stone~
+@668=~Flesh to Stone
+Level: 6
+School: Alteration
+Range: Long
+Duration: Permanent
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Petrification negates
+
+This spell turns flesh of any sort to stone. All possessions on the person of the creature likewise turn to stone. The intended subject of the spell receives a saving throw vs. petrification at -5 to avoid the effect. If a statue created by this spell is subjected to attacks of any sort it will shatter into tiny pieces, making it impossible for the creature to be returned to flesh. A dispel magic spell cannot restore the victim's natural form, but some powerful spells, such as Stone to Flesh or Freedom, can.~
+
+@669=~Death Spell~
+@670=~Death Spell
+Level: 6
+School: Necromancy
+Range: Long
+Duration: Instant
+Casting Time: 6
+Area of Effect: 30' radius
+Saving Throw: None
+
+When Death Spell is cast, it snuffs out the life forces of creatures in the area of effect instantly and irrevocably. Such creatures cannot be raised or resurrected, but an individual slain in this manner might be brought back via a Wish. Creatures with more than 8 hit dice are immune to this spell, with the exception of summoned creatures, which are slain automatically. Only enemies are affected by this spell.~
+
+@671=~Protection from Magic Energy~
+@672=~Protection from Magic Energy
+Level: 6
+School: Abjuration
+Range: Touch
+Duration: 1 turn/level
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Protection from Magic Energy spell is cast, the recipient receives complete protection from all magic damage-based attacks. 100% of the damage from attacks like Cause Wound will be absorbed, and the target creature will become completely immune to the effects of spells such as Magic Missile, Skull Trap, Disintegrate, and Horrid Wilting. This effect lasts for the duration of the spell or until dispelled.~
+
+@673=~Mislead~
+@674=~Mislead
+Level: 6
+School: Illusion
+Range: Personal
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast the wizard is affected with an Improved Invisibility spell and is teleported a few feet away from his original position. Meanwhile an exact image of the caster is created where he used to be with exactly the same hit points as the caster. The illusory double vanishes after 6 rounds and cannot perform any actions at all, like attacking or casting spells. It can, however, move around and act as a decoy for the invisible mage. As long as the image isn't destroyed, the caster can attack and cast spells while remaining completely hidden. The image will remain under the control of the caster until it is reduced to 0 hit points, or until it is affected by a dispel magic or a spell that destroys illusions such as True Seeing.~
+
+@675=~Pierce Magic~
+@676=~Pierce Magic
+Level: 6
+School: Abjuration
+Range: Long
+Duration: Special
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Special
+
+When this spell is cast upon a target creature there will be two major effects. The first is that it will dispel one spell protection of 8th level or lower from the creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The second effect of the spell is that the creature's magic resistance will be lowered by 1% per level of the caster (up to a maximum of 20%). The resistance remains lowered for 1 round per level of the caster, and this effect cannot be negated in any way. The target's magic resistance, if any, does not affect this spell.
+
+The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, Spell Turning, and Spell Shield.~
+
+@677=~True Seeing~
+@678=~True Seeing
+Level: 6
+School: Divination
+Range: Personal
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: None
+
+When this spell is cast, an area roughly 30 feet in radius around the caster will be affected. Instantly and once each round for 1 turn after the spell is cast, all hostile illusion/phantasm spells in the area of effect will be dispelled. This spell only affects one's enemies. Magic resistance does not affect this spell.
+
+The spells that are affected by this are: Reflected Image, Invisibility, Blur, Mirror Image, Ghost Armor, Invisibility Sphere, Improved Invisibility, Shadow Door, Pixie Dust, Mislead, Project Image, and Mass Invisibility.~
+
+@679=~Protection from Magical Weapons~
+@680=~Protection from Magical Weapons
+Level: 6
+School: Abjuration
+Range: Personal
+Duration: 3 rounds
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates an immobile, faintly shimmering magical sphere around the caster that cannot be penetrated by magical weapons; all such weapons are harmlessly deflected (missile weapons strike the sphere, then immediately fall to the ground). This includes weapons that are blessed or enchanted as well as attacks of especially powerful monsters. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat. This spell will have no effect if the caster is already protected from normal weapons or is protected by Mantle, Improved Mantle, or Absolute Immunity. The spell's effect lasts for the duration of the spell or until dispelled.~
+
+@681=~Power Word Silence~
+@682=~Power Word Silence
+Level: 6
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Power Word Silence spell is uttered, the target creature becomes unable make any sound for 1 turn. This silence completely foils any spellcasting because it prevents the target from uttering the required verbal components. The only counters to this spell are a dispel magic or Vocalize.~
+
+@683=~Improved Haste~
+@684=~Improved Haste
+Level: 6
+School: Alteration
+Range: Long
+Duration: 3 rounds + 1 round/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+The recipient of this spell will function at double its normal movement and attack rates. A hasted creature will also gain a -2 initiative bonus. Furthermore, the rate at which the creature is regenerating or suffering damage from poison will be doubled. There are three major differences between the third level wizard spell Haste and this spell. The first major difference is that those affected do not suffer from being winded following the expiration of this spell. The second major difference is that this spell will only affect one creature. Third and finally, this haste spell actually doubles the number of attacks for the hasted creature. Note that this spell negates the effects of a Slow spell. Improved Haste is not cumulative with itself or with other similar magic.~
+
+@685=~Acid Fog~
+@686=~Acid Fog
+Level: 6
+School: Evocation
+Range: Long
+Duration: 1 turn
+Casting Time: 6
+Area of Effect: 30' radius
+Saving Throw: None
+
+This spell creates a thick, clinging, greenish cloud. All creatures who aren't immune to acid suffer 10 points of damage for each round they are exposed to the vapors of the Acid Fog. In addition, due to reduced visibility, creatures inside the cloud move at 50% of their normal rate.~
+
+@687=~Chain Lightning~
+@688=~Chain Lightning
+Level: 6
+School: Evocation
+Range: Long
+Duration: Instant
+Casting Time: 6
+Area of Effect: Target, and enemies within 30'
+Saving Throw: Breath half
+
+This spell creates an electrical discharge that begins as a single stroke commencing from the caster's fingertips. Unlike Lightning Bolt, Chain Lightning strikes one object or creature initially, then arcs to other targets. These brilliant arcs of lightning leap at all enemies within range, burning them with electrical damage. The lightning causes 1d6 points of damage for every level of the caster to the primary target (up to a maximum of 20d6) and 1d6 for every two levels to subsequent targets (up to a maximum of 10d6). Those who roll successful saving throws vs. breath at -5 manage to partially avoid direct impact from the lightning and hence receive only half damage.~
+
+@689=~Disintegrate~
+@690=~Disintegrate
+Level: 6
+School: Alteration
+Range: Long
+Duration: Instant
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Spell partial
+
+Upon casting this spell at another creature, a thin green ray shoots unerringly from the caster's fingertip toward the target. Upon contact, the creature must make a saving throw vs. spell at -5 or suffer 2d6 points of magic damage per caster level (to a maximum of 40d6). A creature that makes a successful save is partially affected, taking only 5d6 points of damage. This spell has no affect on clothing or equipment carried by the target.~
+
+@691=~Contingency~
+@692=~Contingency
+Level: 6
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the wizard is allowed to choose a spell out of his repertoire of known spells. The spell level must be lower or equal to the level of the caster divided by three. Once the spell is chosen, the caster is allowed to choose a condition of some kind from the list provided. The starting condition can be anything from reaching 10% of his maximum hit points to an enemy being sighted. Once this starting condition is satisfied the spell that was chosen will be cast automatically. For example, a 12th level wizard could place the spell Stoneskin in a contingency with the starting condition being 'the wizard reaches 50% of his maximum hit points'. Then once the wizard is reduced to 50% or less of his total hit points in combat, Stoneskin would be immediately cast upon him. This requires no action by the wizard, happening automatically and instantaneously. The limitation of this spell is that the target of the spell placed in the contingency must be the caster. Therefore, the spell stored cannot be an offensive spell nor can it target any other party members.~
+
+@693=~Spell Deflection~
+@694=~Spell Deflection
+Level: 6
+School: Abjuration
+Range: Personal
+Duration: 3 rounds/level
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This powerful abjuration spell causes any spells cast against the wizard to be absorbed and consumed. This affects a total of 10 spell levels. This spell will not protect the caster from a dispel magic. However, it will not be affected by a dispel magic, either.
+
+This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). As long as the spell is cast directly at the wizard and there are spell levels remaining, it will be absorbed. For example, if there is only 1 level of protection left and a 3rd-level spell is cast at the wizard, the spell will be absorbed while canceling the spell deflection.~
+
+@695=~Wyvern Call~
+@696=~Wyvern Call
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is cast, the wizard opens up a magical channel that will summon a wyvern to his aid. This creature will be totally under the caster's mental control with no chance of it turning on him except, of course, through magical means like Charm Monster. The creature will remain under the wizard's control, and will live and die at his command until the spell duration expires.
+
+Wyvern (7 Hit Dice):
+STR 19, DEX 12, CON 15, INT 6, WIS 12, CHA 9;  AL Neutral Evil
+HP 91, AC 2, THAC0 8, Saving Throws 9/12/9/12/12
+4 Attacks Per Round, 2d6+9 Piercing Damage (Bite, Claws, & Sting +2)
+
+Combat Abilities:
+Poison: a wyvern's sting injects a poison which inflicts 2hp/sec for 1 turn (save vs. poison at -4 neg.)
+
+Special Qualities:
+Immune to entangle, grease, hold, sleep, slow, stun, & web effects~
+
+@697=~Conjure Fire Elemental~
+@698=~Conjure Fire Elemental
+Level: 6
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Fire Elemental (12 Hit Dice):
+STR 16, DEX 17, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 126, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d6+4 Slashing +2d6 Fire Damage (Fist +3)
+
+Greater Fire Elemental (16 Hit Dice):
+STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 168, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 100%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
+
+@699=~Conjure Air Elemental~
+@700=~Conjure Air Elemental
+Level: 6
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Air Elemental spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Air Elemental (12 Hit Dice):
+STR 16, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 126, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
+3 Attacks Per Round, 1d8+4 Piercing Damage (Fist +3)
+
+Greater Air Elemental (16 Hit Dice):
+STR 18, DEX 21, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 168, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
+3 Attacks Per Round, 1d10+5 Piercing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@701=~Conjure Earth Elemental~
+@702=~Conjure Earth Elemental
+Level: 6
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Earth Elemental (12 Hit Dice):
+STR 21, DEX 8, CON 19, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 146, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d8+12 Crushing Damage (Fist +3)
+
+Greater Earth Elemental (16 Hit Dice):
+STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 188, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d10+14 Crushing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Piercing, & Missile Resistance 40%~
+
+@703=~Create Undead~
+@704=~Create Undead
+Level: 6
+School: Necromancy
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell causes a number of undead creatures to rise up and serve the caster. The type and number of creatures that appear depend upon the level of the wizard casting the spell.
+
+12th : 3 ghasts
+15th+ : 2 mummies
+
+The undead creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+Ghast (4 Hit Dice):
+STR 17, DEX 16, CON -, INT 11, WIS 12, CHA 10;  AL Chaotic Evil
+HP 48, AC 4, THAC0 15, Saving Throws 9/11/10/12/12
+3 Attacks Per Round, 1d8+2 Piercing Damage (Touch +1)
+
+Combat Abilities:
+Paralysis: target must save vs. death or be paralyzed for 5 rounds
+
+Special Qualities:
+Stench: opponents within 10 feet must save vs. poison or suffer a -2 penalty to attack rolls, and 20% spell failure
+Immune to charm, confusion, disease, hold, poison, sleep, stun, & death effects
+
+
+Mummy (7 Hit Dice):
+STR 18/99, DEX 9, CON -, INT 6, WIS 12, CHA 10;  AL Lawful Evil
+HP 84, AC 3, THAC0 10, Saving Throws 9/11/10/12/12
+1 Attack Per Round, 1d12+6 Crushing Damage (Touch +1)
+
+Combat Abilities:
+Mummy Rot: target must save vs. death or be affected by a foul disease, which inflicts 1 point of damage every 3 seconds for 1 turn. At the end of the turn, the victim's constitution and charisma are reduced by 2.
+
+Special Qualities:
+Despair: at the mere sight of a mummy, targets must save vs. spell or be paralyzed with fear for 2 rounds. Whether or not the save is successful, creatures cannot be affected again by the despair ability for 8 hours.
+Immune to normal weapons
+Immune to charm, confusion, disease, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%; Fire Resistance -25%
+Physical Damage Resistance 50%~
+
+@705=~Summon Nishruu~
+@706=~Summon Nishruu
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By casting the Summon Nishruu spell, the wizard calls into existence a magical being of considerable power, the Nishruu. At first glance, this appears to be some sort of mist, but upon closer examination the churning red mass of vapors and shapes moves with a life of its own. Drawn towards magic like a moth to the flame, the Nishruu feeds on the energies surrounding and used by wizards. Luckily, there is no question as to the loyalty of the creature and it will not attack its summoner even though it would like nothing better. Nishruus do not use physical attacks, and they disregard physical attacks made on them, though these attacks can hurt them. Each time a Nishruu touches and wraps its tendrils around a target, it will drain magical energies from him. Excluding Death Spell or a dispel magic, the Nishruu is completely immune to magic, and not only that, but magic will actually heal this creature. The creature will remain under the wizard's control until reduced to 0 hit points, dispelled, or the spell duration expires.
+
+Nishruu (9 Hit Dice):
+STR -, DEX 10, CON 16, INT 13, WIS 15, CHA 13;  AL Chaotic Neutral
+HP 90, AC 10, THAC0 7, Saving Throws 8/8/8/8/8
+1 Attack Per Round, Drain Magic (Contact +0)
+
+Combat Abilities:
+Drain Magic:
+- wizards lose one memorized spell, chosen at random from the highest spell level possible
+- causes feeblemindedness (save vs. spell neg.)
+
+Special Qualities:
+Absorb Magic: immune to magic, every spell cast against a Nishruu heals the creature by 1d8+1 hit points
+Physical Resistance 50%~
+
+@707=~Stone to Flesh~
+@708=~Stone to Flesh
+Level: 6
+School: Alteration
+Range: Long
+Duration: Permanent
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell is the reverse of Flesh to Stone and will return any creature that has been turned to stone back into flesh. All possessions on the creature likewise will return to normal. The effect is instantaneous and there is no saving throw or system shock check required.~
+
+
+/*------------------level 7------------------*/
+
+@721=~Spell Turning~
+@722=~Spell Turning
+Level: 7
+School: Abjuration
+Range: Personal
+Duration: 3 rounds/level
+Casting Time: 7
+Area of Effect: Caster
+Saving Throw: None
+
+This powerful abjuration spell causes any spells cast against the wizard to rebound upon the original caster. This affects a total of 12 spell levels. This spell will not protect the caster from a dispel magic. However, it will not be affected by a dispel magic, either.
+
+This spell reflects spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). As long as the spell is cast directly at the wizard and there are spell levels remaining, it will be reflected. For example, if there is only 1 level of protection left and a 3rd-level spell is cast at the wizard, the spell will be reflected while canceling the spell turning.~
+
+@723=~Protection from the Elements~
+@724=~Protection from the Elements
+Level: 7
+School: Abjuration
+Range: Touch
+Duration: 1 turn/2 levels
+Casting Time: 7
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, it confers complete protection from all elemental attacks composed of acid, cold, electricity, or fire, whether magical or non-magical in origin. 100% of the elemental damage from attacks with weapons, wands, breath weapons, etc. will be absorbed, and the target creature will become completely immune to the effects of elemental spells. This effect lasts for the duration of the spell or until dispelled.~
+
+@725=~Project Image~
+@726=~Project Image
+Level: 7
+School: Illusion
+Range: Personal
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, an illusory copy of the casting wizard appears to step out of his body while at the same time the mage is concealed with invisibility. The image can move around, and has the same hit points and can cast the same spells as the wizard, but it cannot make any physical attacks. The caster must maintain concentration on the illusory clone for the duration of the spell and cannot perform any other action while controlling it. If the image is destroyed then the spell ends and the caster can move again. If during this time the caster takes any damage, the image will disappear and the caster will be free to move around once more. Otherwise, the image will remain for the duration of the spell or until affected by a dispel magic or anything that dispels illusions such as True Seeing.~
+
+@727=~Ruby Ray of Reversal~
+@728=~Ruby Ray of Reversal
+Level: 7
+School: Alteration
+Range: Long
+Duration: Instant
+Casting Time: 5
+Area of Effect: 15' radius
+Saving Throw: None
+
+When this spell is cast it will dispel one spell protection of any level on all enemies within the area of effect. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
+
+The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, Spell Turning, Spell Trap, and Spell Shield.~
+
+@729=~Khelben's Warding Whip~
+@730=~Khelben's Warding Whip
+Level: 7
+School: Abjuration
+Range: Medium
+Duration: 3 rounds
+Casting Time: 7
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast on the target creature, it will dispel one spell protection of up to 8th level or lower. Every round thereafter, until the duration of the spell expires, another spell protection will be removed from the target. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The target's magic resistance, if any, does not affect this spell.
+
+The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, Spell Turning, and Spell Shield.~
+
+@731=~Summon Death Knight~
+@732=~Summon Death Knight
+Level: 7
+School: Necromancy
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Death Knight, a powerful undead demon. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated Death Knight will turn on his summoner at the first available opportunity.
+
+Death Knight (14 Hit Dice):
+STR 18/00, DEX 12, CON -, INT 17, WIS 15, CHA 16;  AL Neutral Evil
+HP 168, AC -4, THAC0 -1, Saving Throws 4/4/4/8/4
+3 Attacks Per Round, 2d6+12 Slashing Damage (Two-Handed Sword +3)
+
+Special Qualities:
+Aura of Fear: creatures in a 5' radius must save vs. spell each round or flee in terror for 1 round
+Immune to normal weapons
+Immune to charm, confusion, hold, stun, sleep, poison, & death effects
+Cold & Electrical Resistance 100%; Magic Resistance 75%
+
+Special Abilities:
+Fireball (once every 5 rounds)
+Remove Magic (once every 5 rounds)
+Power Words: Blind, Stun, or Death (once per day each)
+Symbols: of Weakness or Death (once per day each)~
+
+@733=~Mantle~
+@734=~Mantle
+Level: 7
+School: Abjuration
+Range: Personal
+Duration: 4 rounds
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, a powerful cloak of protection temporarily surrounds the caster. This magical mantle confers complete invulnerability to all weapons except for those of greater than +3 enchantment. While protected by this spell, the mage's armor class is improved by 3 points, and any save is made by the caster with a +3 bonus. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat. This spell will have no effect if the caster is already protected by Protection from Magical Weapons, Improved Mantle, or Absolute Immunity.~
+
+@735=~Simbul's Spell Sequencer~
+@736=~Simbul's Spell Sequencer
+Level: 7
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows a mage to prepare a magical sequencer that can store spells to be used later in a single swift action. The sequencer can store three spells to be released simultaneously, all of which must be of 4th level or lower. A mage can only possess one spell sequencer at a time, and the sequencer will remain active until the spells contained within it are released.~
+
+@737=~Sphere of Chaos~
+@738=~Sphere of Chaos
+Level: 7
+School: Enchantment
+Range: Long
+Duration: 1 turn
+Casting Time: 7
+Area of Effect: 30' radius
+Saving Throw: Spell negates
+
+This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -6 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target goes berserk, becomes confused, becomes paralyzed, is rendered unconscious, or flees in panic.~
+
+@739=~Delayed Blast Fireball~
+@740=~Delayed Blast Fireball
+Level: 7
+School: Evocation
+Range: Long
+Duration: Special
+Casting Time: 7
+Area of Effect: 30' radius
+Saving Throw: Breath half
+
+This spell creates a fireball that hovers at a point determined by the caster. The fireball will stay in position until someone walks within 20 feet of it. When this happens, the fireball is triggered and explodes, damaging everyone within a 30 foot radius. The explosion will deal 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 20d6), with a save vs. breath at -6 for half damage.~
+
+@741=~Finger of Death~
+@742=~Finger of Death
+Level: 7
+School: Necromancy
+Range: Long
+Duration: Instant
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Death partial
+
+The Finger of Death spell snuffs out a creature's life force. The caster points his finger at the intended victim after the incantation is complete and death occurs unless a save vs. death at -6 is made. A creature successfully saving still receives 2d8 points of damage plus 1 per level of the caster.~
+
+@743=~Prismatic Spray~
+@744=~Prismatic Spray
+Level: 7
+School: Alteration
+Range: Special
+Duration: Special
+Casting Time: 7
+Area of Effect: Cone
+Saving Throw: Special
+
+When this spell is cast, the wizard causes seven shimmering, multicolored rays of light to flash from his hand. These include all colors of the visible spectrum; each ray has a different power and purpose. Any creature with fewer than 8 Hit Dice struck by a ray is blinded for 5 rounds, regardless of any other effect. Any creature that is caught within the area of effect will be touched by one or more rays. The effects of the rays are listed below and all saves are made at a -6 penalty.
+
+Red - 20 points of fire damage (save vs. breath half)
+Orange - 40 points of acid damage (save vs. breath half)
+Yellow - 80 points of electrical damage (save vs. breath half)
+Green - Death (save vs. poison reduces to 20 poison damage)
+Blue - Permanently stunned (save vs. polymorph neg.)
+Indigo - Feeblemind (save vs. wands neg.)
+Violet - Maze (save vs. spell neg.)~
+
+@745=~Power Word Stun~
+@746=~Power Word Stun
+Level: 7
+School: Enchantment
+Range: Long
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Power Word Stun spell is uttered, any creature of the mage's choice within visual range is stunned for a length of time dependent upon its current hit points. Creatures with 1 to 29 hit points are stunned for 4d4 rounds, while those with 30 to 59 are stunned for 2d4 rounds, those with 60 to 89 are stunned for 1d4 rounds, and those with 90 or more are not affected. Note that if a creature is weakened so that its hit points are below its usual maximum, its current number of hit points is used to determine the spell's effect.~
+
+@747=~Mordenkainen's Sword~
+@748=~Mordenkainen's Sword
+Level: 7
+School: Evocation
+Range: Personal
+Duration: 1 round/level
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the wizard brings into being a shimmering, swordlike plane of force. Once the spell is cast, the sword will float in the air completely under the control of the caster, until the spell duration expires or the sword is dispelled. The sword acts as a +4 weapon in all respects and attacks on its own once each round, inflicting 5d4 damage when it hits a target. It has 100% resistance to all damage (physical, acid, cold, poison, etc.) except for pure magic damage, is immune to mind affecting spells, has 36 hit points, AC 5, and THAC0 2. Note that this spell does not prevent the caster from performing any other actions while the spell is in effect.~
+
+@749=~Summon Efreeti~
+@750=~Summon Efreeti
+Level: 7
+School: Conjuration
+Range: Long
+Duration: 8 rounds + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+With this spell, the conjurer can cajole an efreeti, a massive genie with powerful abilities, to leave the Elemental Plane of Fire and enter the Prime Material Plane. The gated genie is immune to Death Spell and has access to several spell-like abilities which can be cast instantly as a 10th level caster. Once per day an efreeti can turn into gaseous form, becoming immune to almost all forms of damage for a short time. The genie will generally use this ability when badly injured, to either regenerate before attacking again, or to leave the battlefield avoiding further damage. The efreeti will serve for the duration indicated above, attacking the enemies of the conjurer until the duration of the spell runs out.
+
+Efreeti (10 Hit Dice):
+STR 19, DEX 17, CON 16, INT 13, WIS 14, CHA 15; AL Lawful Evil
+HP 98, AC 1, THAC0 5, Saving Throws 8/11/8/11/11
+2 Attacks Per Round, 1d8+10 Slashing +1d6 Fire Damage (Scimitar +2)
+
+Special Qualities:
+Fire Resistance 100%
+
+Spell Memorized:
+1° Burning Hands, Magic Missile (x2), Shield
+2° Agannazar's Scorcher, Invisibility (x2)
+3° Fireball (x3)
+4° Fire Shield (Red) (x2)
+5° Conjure Lesser Fire Elemental~
+
+@751=~Summon Djinni~
+@752=~Summon Djinni
+Level: 7
+School: Conjuration
+Range: Long
+Duration: 8 rounds + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+With this spell, the conjurer can cajole a djinni, a massive genie with powerful abilities, to leave the Elemental Plane of Air and enter the Prime Material Plane. The gated genie is immune to Death Spell and has access to several spell-like abilities which can be cast instantly as a 10th level caster. Once per day a djinni can turn into gaseous form, becoming immune to almost all forms of damage for a short time. The genie will generally use this ability when badly injured, to either regenerate before attacking again, or to leave the battlefield avoiding further damage. The djinni will serve for the duration indicated above, attacking the enemies of the conjurer until the duration of the spell runs out.
+
+Djinni (10 Hit Dice):
+STR 17, DEX 19, CON 15, INT 14, WIS 14, CHA 15; AL Chaotic Good
+HP 89, AC 0, THAC0 7, Saving Throws 11/7/11/7/7
+3 Attacks Per Round, 1d8+5 Slashing Damage (Scimitar +2)
+
+Spell Memorized:
+1° Magic Missile (x3), Shield
+2° Invisibility (x2), Mirror Image
+3° Haste, Lightning Bolt (x2)
+4° Improved Invisibility, Minor Globe of Invulnerability
+5° Conjure Lesser Air Elemental~
+
+@753=~Summon Hakeashar~
+@754=~Summon Hakeashar
+Level: 7
+School: Conjuration
+Range: Long
+Duration: 8 rounds + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By casting the Summon Hakeashar spell, the wizard calls into existance a magical being of considerable power, the Hakeashar. The Hakeashar is a more powerful version of the Nishruu, having more hit points, better attacks, and immunity to normal weapons. At first glance, this appears to be some sort of mist, but upon closer examination the churning grey mass of vapors and shapes moves with a life of its own. Drawn towards magic like a moth to the flame, the Hakeashar feeds on the energies surrounding and used by wizards. Luckily, there is no question as to the loyalty of the creature and it will not attack its summoner even though it would like nothing better. Hakeashars do not use physical attacks, and they disregard physical attacks made on them, though these attacks can hurt them. Each time a Hakeashar touches and wraps its tendrils around a target, it will drain magical energies from him. Excluding Death Spell or a dispel magic, the Hakeashar is completely immune to magic, and not only that, but magic will actually heal this creature. The creature will remain under the wizard's control until reduced to 0 hit points, dispelled, or the spell duration expires.
+
+Hakeashar (12 Hit Dice):
+STR -, DEX 10, CON 16, INT 13, WIS 15, CHA 13;  AL Chaotic Neutral
+HP 114, AC 10, THAC0 2, Saving Throws 6/6/6/6/6
+1 Attack Per Round, Drain Magic (Contact +2)
+
+Combat Abilities:
+Drain Magic:
+- wizards lose one memorized spell, chosen at random from the highest spell level possible
+- causes feeblemindedness (save vs. spell neg.)
+
+Special Qualities:
+Absorb Magic: immune to magic, every spell cast against a Hakeashar heals the creature by 1d8+1 hit points
+Immune to normal weapons
+Physical Resistance 50%~
+
+@755=~Control Undead~
+@756=~Control Undead
+Level: 7
+School: Necromancy
+Range: Long
+Duration: 5 turns
+Casting Time: 7
+Area of Effect: Target, and enemies within 5'
+Saving Throw: Special
+
+The Control Undead spell allows the caster to take control of undead creatures within the area of effect. This creates a telepathic link between the caster and the undead, allowing complete control. If the undead have 5 or more Hit Dice/levels less than the caster then there is no saving throw allowed, else a save vs. spell at -6 is allowed to negate the effect. The undead remain under control of the caster for the duration of the spell or until they are affected by a dispel magic.~
+
+@757=~Mass Invisibility~
+@758=~Mass Invisibility
+Level: 7
+School: Illusion
+Range: Long
+Duration: 1 round/level
+Casting Time: 7
+Area of Effect: 30' radius
+Saving Throw: None
+
+Upon casting this spell, the wizard causes all friendly creatures within the area of effect to be affected by the spell Improved Invisibility. Creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not.~
+
+@759=~Limited Wish~
+@760=~Limited Wish
+Level: 7
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Limited Wish is a very potent but difficult spell. It will fulfill literally, but only partially or for a limited duration, the utterance of the spellcaster. Thus, the actuality of the past, present, or future might be altered (but possibly only for the wizard unless the wording of the spell is most carefully stated) in some limited manner. The use of a Limited Wish will not substantially change major realities. The spell can, for example, restore some hit points lost by the wizard. Greedy desires usually end in disaster for the wisher. Lastly, the wiser the wizard, the better chance that he will choose the right wording. Wizards with low wisdom will more often than not meet with disaster when asking for a wish.~
+
+@761=~Improved Chaos Shield~
+@762=~Improved Chaos Shield
+Level: 7
+School: Abjuration
+Range: Personal
+Duration: 2 turns
+Casting Time: 7
+Area of Effect: Caster
+Saving Throw: None
+
+Improved Chaos Shield increases a wild mage's chance to gain a favorable result when a wild surge occurs. Every time a roll is made on the wild surge chart, an extra 25 is added to the dice roll. When Nahal's Reckless Dweomer is cast, the bonus from Improved Chaos Shield stacks with the wild mage's level bonus. The caster may have only one chaos shield at a time.~
+
+
+/*------------------level 8------------------*/
+
+@767=~Ghostform~
+@768=~Ghostform
+Level: 8
+School: Alteration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, the wizard and all of his gear assume a visible, incorporeal form like that of a manifesting ghost. The caster is subject only to magical or special attacks, including those by weapons of +1 enchantment or better, or by creatures otherwise able to affect those struck only by magical weapons. Even when hit by magical attacks, any physical damage sustained while in ghost form is reduced by 50%. Non-damaging spell effects affect the caster normally unless they require corporeal targets to function (e.g. Polymorph Other, Flesh to Stone, Disintegrate, and Implosion) or create a corporeal effect that incorporeal creatures would normally be unaffected by (e.g. Entangle, Grease, and Web).
+
+As an incorporeal creature, the caster moves silently and cannot be heard (+100% Move Silently) or backstabbed. While in ghost form, the caster has a base armor class of 0 and is immune to the effects of disease and poison. Any melee attack made while in ghost form is considered a melee touch attack and thus gains a +4 bonus to the attack roll, while projectiles become corporeal as soon as they are fired. The transformation lasts until successfully dispelled or until the duration runs out, but cannot be used in conjunction with other shapeshifting spells such as Polymorph Self and Shapechange.~
+
+@769=~Spell Shield~
+@770=~Spell Shield
+Level: 8
+School: Abjuration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates an immobile, faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, 3rd-, 4th- or 5th-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the sphere). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the spell shield to their subject without affecting the sphere. Sixth and higher level spells are not affected by Spell Shield. The shield can be brought down by a successful dispel magic spell, as well as other forms of magical attack such as Pierce Magic and Spellstrike.~
+
+@771=~Protection from Energy~
+@772=~Protection from Energy
+Level: 8
+School: Abjuration
+Range: Touch
+Duration: 2 rounds/level
+Casting Time: 8
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, it confers complete protection from all energy attacks composed of acid, cold, electricity, fire, or magic damage, whether magical or non-magical in origin. 100% of the energy damage from attacks with weapons, wands, breath weapons, etc. will be absorbed, and the target creature will become completely immune to the effects of energy-based spells. This effect lasts for the duration of the spell or until dispelled.~
+
+@773=~Simulacrum~
+@774=~Simulacrum
+Level: 8
+School: Illusion
+Range: Personal
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, the caster taps energy from the Plane of Shadow to create a quasi-real, illusory version of himself. The duplicate is a near-perfect copy of the caster, making it a very powerful ally. The simulacrum is created at 60% of the level of the caster and has all the spells and abilities that the caster would have at that level. It also has 60% of the hit points of the caster. The simulacrum is fully under the control of the caster. The caster may have only one simulacrum at a time.~
+
+@775=~Pierce Shield~
+@776=~Pierce Shield
+Level: 8
+School: Abjuration
+Range: Long
+Duration: Special
+Casting Time: 8
+Area of Effect: 1 creature
+Saving Throw: None
+
+By means of this spell, the wizard may launch a massive attack on a target's physical and magical defenses. Pierce Shield will dispel one spell protection of any level from the target creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. After piercing through magical protections, this powerful spell will breach each and every combat protection on the target creature. The target's magic resistance, if any, does not affect this spell.
+
+The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, Spell Turning, Spell Trap, and Spell Shield.
+
+The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Blade Barrier, Physical Mirror, Mantle, Improved Mantle, and Absolute Immunity.~
+
+@777=~Summon Fiend~
+@778=~Summon Fiend
+Level: 8
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Glabrezu, one of the most powerful specimen of the Tanar'ri. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated Glabrezu will turn on his summoner at the first available opportunity.
+
+Glabrezu (17 Hit Dice):
+STR 23, DEX 10, CON 21, INT 16, WIS 16, CHA 20;  AL Chaotic Evil
+HP 190, AC -6, THAC0 -3, Saving Throws 5/5/5/9/5
+4 Attacks Per Round, 2d6+15 Piercing Damage (Pincers & Claws +4)
+
+Special Qualities:
+Immune to weapons lower than +2 enchantment
+Immune to confusion, fear, poison, & stun effects
+Electrical Resistance 100%; Acid, Cold, & Fire Resistance 50%
+Magic Resistance 50%
+
+Special Abilities:
+True Seeing (permanent)
+Mirror Image (once every 5 rounds)
+Remove Magic (once every 5 rounds)
+Unholy Blight (once every 5 rounds)
+Confusion (once every 5 rounds)
+Power Word Stun (once every 5 rounds)~
+
+@779=~Improved Mantle~
+@780=~Improved Mantle
+Level: 8
+School: Abjuration
+Range: Personal
+Duration: 4 rounds
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When this spell is cast, a powerful cloak of protection temporarily surrounds the caster. This magical mantle confers complete invulnerability to all weapons except for those of greater than +4 enchantment. While protected by this spell, the mage's armor class is improved by 4 points, and any save is made by the caster with a +4 bonus. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of intense combat. This spell will have no effect if the caster is already protected by Protection from Magical Weapons, Mantle, or Absolute Immunity.~
+
+@781=~Simbul's Spell Trigger~
+@782=~Simbul's Spell Trigger
+Level: 8
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows a mage to prepare a magical trigger that can store spells to be used later in a single swift action. The trigger can store three spells to be released simultaneously, all of which must be of 6th level or lower. A mage can only possess one spell trigger at a time, and the trigger will remain active until the spells contained within it are released.~
+
+@783=~Incendiary Cloud~
+@784=~Incendiary Cloud
+Level: 8
+School: Evocation
+Range: Long
+Duration: 1 turn
+Casting Time: 8
+Area of Effect: 30' radius
+Saving Throw: Special
+
+An Incendiary Cloud spell creates a cloud of roiling smoke and roaring flame. The smoke obscures all sight beyond 10 feet, including darkvision. Creatures within the area suffer a -4 penalty to attack rolls and armor class. In addition, the flames deal 4d6 points of fire damage each round to everything within the cloud, with a saving throw vs. breath at -6 allowed for half damage. Fire dwellers like fire elementals, fire giants, and salamanders are immune to the effects of this spell.~
+
+@785=~Symbol of Weakness~
+@786=~Symbol of Weakness
+Level: 8
+School: Conjuration
+Range: Long
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 20' radius
+Saving Throw: Spell negates
+
+Symbol of Weakness is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -6 or suffer a -4 penalty to strength, dexterity, and constitution. The spell effects will persist until the character receives a Cure Disease spell.~
+
+@787=~Abi-Dalzim's Horrid Wilting~
+@788=~Abi-Dalzim's Horrid Wilting
+Level: 8
+School: Necromancy
+Range: Long
+Duration: Instant
+Casting Time: 8
+Area of Effect: 30' radius
+Saving Throw: Death half
+
+This spell evaporates moisture in the bodies of all living creatures within the area of effect, inflicting 1d6 points of damage per caster level (up to a maximum of 20d6). Affected creatures are allowed a saving throw vs. death at -6 for half damage. This spell will not harm party members.~
+
+@789=~Maze~
+@790=~Maze
+Level: 8
+School: Conjuration
+Range: Medium
+Duration: Special
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+An extradimensional space is brought into being upon utterance of a Maze spell. The subject vanishes into the shifting labyrinth of force planes for a period of time that is dependent upon its intelligence.
+
+Intelligence -- Time trapped in maze
+ under 3  --  eternity
+ 3 to 5 -- 10d4 rounds
+ 6 to 8 -- 5d4 rounds
+ 9 to 11 -- 4d4 rounds
+ 12 to 14  --  3d4 rounds
+ 15 to 17  --  2d4 rounds
+ 18 and up --  1d4 rounds
+
+If the 9th level spell Freedom is cast in the area where a creature is mazed, it will effectively bring him back to this plane, ending the spell prematurely. Otherwise, the effect lasts for the duration of the spell. A mazed creature cannot be freed through a dispel magic.~
+
+@791=~Power Word Blind~
+@792=~Power Word Blind
+Level: 8
+School: Enchantment
+Range: Long
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Power Word Blind spell is uttered, any creature of the mage's choice within visual range becomes sightless. This lasts for 1 turn or until dispelled. Creatures with less than 6 Hit Dice are blinded permanently. All of the effects of blindness apply to the victims, including a decreased visibility range and -10 penalty to THAC0.~
+
+@793=~Symbol of Stunning~
+@794=~Symbol of Stunning
+Level: 8
+School: Conjuration
+Range: Long
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 20' radius
+Saving Throw: Spell negates
+
+Symbol of Stunning is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -6 or be stunned for 4 rounds.~
+
+@795=~Symbol of Death~
+@796=~Symbol of Death
+Level: 8
+School: Conjuration
+Range: Long
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 20' radius
+Saving Throw: Death negates
+
+Symbol of Death is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. death at -6 or die. Creatures with more than 60 current hit points are immune to this effect.~
+
+@797=~Bigby's Clenched Fist~
+@798=~Bigby's Clenched Fist
+Level: 8
+School: Evocation
+Range: Long
+Duration: 8 rounds
+Casting Time: 8
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d8 damage and holds it for 1 round unless a successful save vs. paralyzation is made at a -6 penalty. After the 8th round, the spell is finished.~
+
+
+/*------------------level 9------------------*/
+
+@811=~Spell Trap~
+@812=~Spell Trap
+Level: 9
+School: Abjuration
+Range: Personal
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+This powerful spell creates a barrier of magical protection around the spellcaster. Every spell that hits the barrier is absorbed by the power of the spell trap, making the caster recall a previously cast spell. The spell trap protects against 30 levels of spells and can absorb any level of spell, from one to nine.
+
+This spell grants protection from spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). For example, a wizard shields himself with Spell Trap and is then hit by a Flame Arrow (a 3rd level spell). He gets three spell levels back - he will regain one spell, up to 3rd level in power. The Spell Trap protects against 30 levels of spells (such as ten Flame Arrows or five Fingers of Death).~
+
+@813=~Spellstrike~
+@814=~Spellstrike
+Level: 9
+School: Abjuration
+Range: Long
+Duration: Special
+Casting Time: 5
+Area of Effect: 15' radius
+Saving Throw: None
+
+When this spell is cast, it will dispel all spell protections on all enemies within the area of effect. Magic resistance does not affect this spell.
+
+The spell protection spells dispelled by Spellstrike are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, Spell Turning, Spell Trap, and Spell Shield.~
+
+@815=~Gate~
+@816=~Gate
+Level: 9
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Pit Fiend, the most powerful specimen of the Baatezu. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated Pit Fiend will turn on his summoner at the first available opportunity, tear him and his companions apart piece by piece and then feast on the remains.
+
+Pit Fiend (24 Hit Dice):
+STR 24, DEX 18, CON 18, INT 19, WIS 16, CHA 25;  AL Lawful Evil
+HP 230, AC -10, THAC0 -8, Saving Throws 3/3/3/8/3
+5 Attacks Per Round, 2d6+16 Piercing Damage (Claws, Bite, & Tail +4)
+
+Combat Abilities (20% chance each):
+Disease: creatures struck by a pit fiend's bite attack must save vs. death at -4 or be infected with a vile disease known as devil chills, losing 2 points of strength after an incubation period of 12 hours
+Poison: a pit fiend's bite injects a lethal poison which inflicts 10 points of damage every second for 2 rounds unless a save vs. poison at -4 penalty is made
+Constrict: creatures struck by the pit fiend's tail must save vs. death at -4 to avoid being stunned for 1 round
+
+Special Qualities:
+Immune to weapons lower than +3 enchantment
+Immune to confusion, fear, poison, & stun effects
+Regeneration: 2hp/round
+Fire Resistance 100%; Acid & Cold Resistance 50%; Magic Resistance 65%
+
+Special Abilities:
+Improved Invisibility (at will)
+Fireball (once every 5 rounds)
+Remove Magic (once every 5 rounds)
+Symbol of Weakness (once every 5 rounds)
+Unholy Word (once per day)
+Meteor Swarm (once per day)~
+
+@817=~Absolute Immunity~
+@818=~Absolute Immunity
+Level: 9
+School: Abjuration
+Range: Personal
+Duration: 5 rounds
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When Absolute Immunity is cast, the caster gains complete invulnerability to all weapons. This spell is incredibly powerful, hence the short duration. Combined with a short casting time, these factors make the spell ideally suited for use in the thick of combat where buying a few seconds can mean the difference between life or death.~
+
+@819=~Chain Contingency~
+@820=~Chain Contingency
+Level: 9
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Chain Contingency channels some of the magical energy of the mage and releases it only under certain circumstances. Basically, the mage chooses three spells, which will be released under certain conditions such as being hit by an enemy. When this condition occurs all three spells are cast immediately. Spells of up to 8th level may be used in the contingency.~
+
+@821=~Time Stop~
+@822=~Time Stop
+Level: 9
+School: Alteration
+Range: Personal
+Duration: 3 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Time Stop spell, the wizard causes the flow of time to stop in the entire area that the caster is currently in. Outside this area the sphere simply seems to shimmer for an instant. Inside the sphere, the caster is free to act for three rounds of apparent time. The wizard can move and act freely within the area where time is stopped, but all other creatures are frozen in their actions, for they are literally between ticks of the time clock. Nothing can enter the area of effect without being stopped in time also. When the spell duration ceases, everyone is again operating in normal time. All spells cast during the Time Stop will take effect immediately after time returns to normal.~
+
+@823=~Imprisonment~
+@824=~Imprisonment
+Level: 9
+School: Abjuration
+Range: Short
+Duration: Permanent
+Casting Time: 1 round
+Area of Effect: 1 creature
+Saving Throw: None
+
+When the Imprisonment spell is cast and the target creature is touched, it becomes entombed in a small sphere far beneath the surface of the earth in a state of suspended animation, conscious of its fate. The victim remains there unless the reverse of the spell, Freedom, is cast. Otherwise, the victim will remain there as long as the earth exists, rather a horrible fate, actually. If a Freedom spell is cast in the area where the creature was imprisoned then he will reappear exactly where he was last standing. Dispel magic will not free creatures trapped in this manner. The target's magic resistance, if any, does not affect this spell.~
+
+@825=~Meteor Swarm~
+@826=~Meteor Swarm
+Level: 9
+School: Evocation
+Range: Long
+Duration: Instant
+Casting Time: 1 round
+Area of Effect: 30' radius
+Saving Throw: Breath half
+
+Upon completion of this spell, a swarm of minute meteors bombards the affected area, dealing devastating damage to friend and foe. Any creature caught in the destructive path of the meteors will suffer 40d4 points of fire damage, with a save vs. breath at -6 allowed for half damage. The caster is well advised to be careful in his use of this spell. Magic resistance does not affect this spell.~
+
+@827=~Power Word Kill~
+@828=~Power Word Kill
+Level: 9
+School: Enchantment
+Range: Long
+Duration: Instant
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+When a Power Word Kill spell is uttered, one creature targeted by the caster is slain. The power word slays a creature with up to 60 hit points. Even if the creature's maximum hit points are higher than 60, its current hit points are used for this determination. There is no saving throw. This spell has no effect if the target has more than 60 hit points.~
+
+@829=~Wail of the Banshee~
+@830=~Wail of the Banshee
+Level: 9
+School: Necromancy
+Range: Personal
+Duration: Instant
+Casting Time: 1 round
+Area of Effect: 30' radius
+Saving Throw: Death negates
+
+At the culmination of this dreadful spell, the wizard screams like a banshee (groaning spirit). Everyone in the area of effect hears the awful cry. Enemies who fail a saving throw vs. death at -6 die instantly. The caster and his companions are immune to the effects of the wail.~
+
+@831=~Larloch's Energy Drain~
+@832=~Larloch's Energy Drain
+Level: 9
+School: Necromancy
+Range: Short
+Duration: Special
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+The casting of this spell opens a channel between the caster's plane and the Negative Energy Plane. The caster of the spell acts as a conduit between the two planes, sucking life from a living creature and transferring it to the Negative Energy Plane, draining him of 4 levels of experience. The target of this spell loses levels, Hit Dice, hit points, and abilities permanently. These levels can only be restored by a priest's Restoration spell. As the life force passes through the caster, it temporarily invigorates him, granting him an additional 20 hit points, a +4 bonus to attack rolls and saving throws, and +20% bonus to every skill. These effects last for 1 turn. The target's magic resistance, if any, does not affect this spell.~
+
+@833=~Black Blade of Disaster~
+@834=~Black Blade of Disaster
+Level: 9
+School: Evocation
+Range: Personal
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the caster to create a black, blade-shaped planar rift, about 5 feet long. It jumps into the caster's hand and is used as a normal sword, remaining there for the duration of the spell. The caster wields the blade as if it was a long sword but he suffers no penalty for non-proficiency, and brandishes it with a base THAC0 of 0. The sword deals 2d12 damage per strike, and acts as a +5 magical weapon in all regards, including hit and damage bonuses. With each hit, there is a 15% chance the victim must make a save vs. spell at -5 or be disintegrated (20d6 points of magic damage, 5d6 on a successful save).~
+
+@835=~Shapechange~
+@836=~Shapechange
+Level: 9
+School: Alteration
+Range: Personal
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+With this spell, a wizard is able to assume the form of a powerful creature: that of an iron golem, a mind flayer, a greater wolfwere, or a spirit troll. The spellcaster becomes the creature he wishes, and gains almost all of its natural abilities. The caster's mental attributes are not affected, but physical attributes are changed to adhere to the new form. All clothes and equipment he was wearing will mold into the new form and continue to function, unseen. When the wizard returns to his natural form, they will also return to their previous state. Each alteration in form requires only a second, and no system shock is incurred.
+
+Iron Golem
+STR 24, DEX 9, CON 9;  AC 3, THAC0 -2
+2 Attacks Per Round, 2d10+16 Crushing Damage (Fist +4)
+Immune to weapons lower than +3 enchantment
+Immune to backstab & poison effects
+Magic Resistance 100%
+Acid, Cold, & Electrical Resistance 100%, Fire Resistance 125%
+Slashing, Piercing, & Missile Resistance 40%, Crushing Resistance 20%
+
+
+Greater Wolfwere
+STR 21, DEX 20, CON 25;  AC -4, THAC0 1
+3 Attacks Per Round, 2d8+12 Slashing Damage (Paw +3)
+Immune to weapons lower than +1 enchantment
+Regeneration: 2 hp/sec
+Magic Resistance 40%; Elemental Resistance 50%
+
+
+Mind Flayer
+STR 12, DEX 14, CON 12; AC 3, THAC0 9
+1 Attack Per Round, 1d4+2 Damage + Devour Brain (Touch +2)
+Devour Brain: -4 to target's intelligence
+Psionic Blast: stuns opponents within 15' radius (save vs. spell negates)
+Magic Resistance 90%
+Spellcasting isn't disabled while in this form
+
+
+Spirit Troll
+STR 19, DEX 18, CON 2;  AC -4, THAC0 8
+2 Attacks Per Round, 2d4+9 Slashing Damage + Drain (Claw +2)
+Ability Score Drain: -1 to target's strength (save vs. death negates)
+Improved Invisible;  Immune to normal weapons
+Regeneration: 3 hp/round; Cold Resistance 100%~
+
+@837=~Freedom~
+@838=~Freedom
+Level: 9
+School: Abjuration
+Range: Personal
+Duration: Instant
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is cast, all friendly creatures in the area are freed from spells and effects that restrict their movement or bind their minds. These effects include confusion, domination, entangle, feeblemindedness, hold, paralysis, petrification, sleep, slow, stun, and web. This spell will also cancel the effects of the spell Maze and return any characters trapped in the labyrinth of planes. If it is cast in an area where a creature was sealed with an Imprisonment spell, it will instantly free him and he will reappear exactly where he was standing when he was imprisoned.~
+
+@839=~Bigby's Crushing Hand~
+@840=~Bigby's Crushing Hand
+Level: 9
+School: Evocation
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d10 damage and stuns it for 1 round unless a successful save vs. paralyzation is made at a -6 penalty. After the 10th round, the spell is finished.~
+
+@841=~Wish~
+@842=~Wish
+Level: 9
+School: Universal
+Range: Personal
+Duration: Special
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+Wish is a more potent version of the Limited Wish spell. It will fulfill literally the utterance of the spellcaster. Thus, the actuality of the past, present, or future might be altered (but possibly only for the wizard unless the wording of the spell is most carefully stated) in some limited manner. Greedy desires usually end in disaster for the wisher. The wiser the wizard, the better chance that the right wording will be chosen. Wizards with low wisdom will more often than not meet with disaster when asking for a wish.~
+
+
+/*------------------level 10------------------*/
+
+@851=~Energy Blades~
+@852=~Energy Blades
+Level: 10
+School: Evocation
+Range: Personal
+Duration: 5 turns
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: None
+
+An energy blade is a discus made of pure energy. The discs are thrown with a +10 bonus to THAC0, inflict 1d4+5 missile damage as well as 1d10 additional electrical damage, and are considered to be of +5 enchantment to determine what they can hit. This spell creates 20 energy discs and sets the caster's number of attacks per round to 9 as long as the discs are held.~
+
+@853=~Improved Alacrity~
+@854=~Improved Alacrity
+Level: 10
+School: Alteration
+Range: Personal
+Duration: 2 rounds
+Casting Time: 1 round
+Area of Effect: Caster
+Saving Throw: None
+
+Improved Alacrity essentially erases the pause between casting spells. When cast, the mage can begin casting a new spell the instant he is finished casting his current spell. The effect lasts for 2 rounds.~
+
+@855=~Dragon's Breath~
+@856=~Dragon's Breath
+Level: 10
+School: Evocation
+Range: Long
+Duration: Instant
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: Breath partial
+
+This spell causes the disembodied head of a red dragon to appear and breathe fire with the strength of an adult red dragon. In addition to the enormous 20d6 fireball, the force of the dragon's breath knocks opponents away from the caster and leaves them unconscious for 1 round. The victims can save vs. breath at a -6 penalty to take half damage and not be blown backwards. This spell will not harm party members. Magic resistance does not affect this spell.~
+
+@857=~Summon Planetar~
+@858=~Summon Planetar
+Level: 10
+School: Conjuration
+Range: Long
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell opens a celestial gate and calls forth a planetar to fight at the caster's side until the spell expires or the planetar's earthly avatar is slain.
+
+Planetar (18 Hit Dice):
+STR 19, DEX 19, CON 18, INT 18, WIS 21, CHA 22; AL Chaotic Good
+HP 198, AC -7, THAC0 -4, Saving Throws 3/5/4/4/6
+3 Attacks Per Round, 2d6+10 Slashing Damage (Greatsword +3)
+Combat Abilities:
+Vorpal: 5% chance target must save vs. death at -6 or die
+
+Special Qualities:
+Immune to weapons lower than +3 enchantment
+Immune to charm, confusion, feeblemindedness, level drain, death, imprisonment, maze, petrification, & poison effects
+Regeneration: 2hp/round
+Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 75%
+Slashing, Crushing, Piercing, & Missile Resistance 20%
+
+Known Spells:
+1° Bless (x3), Resist Fear (x3)
+2° Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3° Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4° Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
+5° Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
+6° Blade Barrier, Bolt of Glory, Heal
+7° Greater Restoration, Holy Word~
+
+@859=~Summon Dark Planetar~
+@860=~Summon Dark Planetar
+Level: 10
+School: Conjuration
+Range: Long
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell opens an abyssal gate and calls forth a fallen planetar to fight at the caster's side until the spell expires or the planetar's earthly avatar is slain.
+
+Fallen Planetar (18 Hit Dice):
+STR 19, DEX 19, CON 18, INT 18, WIS 21, CHA 22; AL Chaotic Evil
+HP 198, AC -7, THAC0 -4, Saving Throws 3/5/4/4/6
+3 Attacks Per Round, 2d6+10 Slashing Damage (Greatsword +3)
+Combat Abilities:
+Vorpal: 5% chance target must save vs. death at -6 or die
+
+Special Qualities:
+Immune to weapons lower than +3 enchantment
+Immune to charm, confusion, feeblemindedness, level drain, death, imprisonment, maze, petrification, & poison effects
+Regeneration: 2hp/round
+Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 75%
+Slashing, Crushing, Piercing, & Missile Resistance 20%
+
+Known Spells:
+1° Doom (x3), Resist Fear (x3)
+2° Hold Person (x3), Find Trap, Know Opponent, Silence
+3° Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4° Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
+5° Flame Strike (x2), Greater Command (x2), True Seeing (x2)
+6° Blade Barrier, Dolorous Decay, Harm
+7° Fire Storm, Unholy Word~
+
+@861=~Comet~
+@862=~Comet
+Level: 10
+School: Conjuration
+Range: Long
+Duration: Instantaneous
+Casting Time: 1 round
+Area of Effect: 30' radius
+Saving Throw: Paralyzation partial
+
+When this spell is cast, a huge meteor or comet strikes the earth, damaging all enemies in its path and sending out a powerful shockwave that knocks away all foes in the area of effect. Those caught in the impact suffer 10d10 points of crushing damage and must save vs. paralyzation at -6 or be knocked unconscious for 3 rounds. This spell will not harm party members. Magic resistance does not affect this spell.~
+
+
+@1024=~This disc was created by the Energy Blades spell. When thrown at opponents it causes 1d4+5 points of missile damage as well as an additional 1d10 points of electrical damage.~
