@@ -4,7 +4,7 @@ AUTHOR ~kaiser-sosa@libero.it~ // display email address if install fails
 
 //MODDER
 
-VERSION ~v3.1~
+VERSION ~v3.1 (Hotfix 03)~
 
 README ~spell_rev\readme-spell_rev.html~
 
@@ -2788,6 +2788,7 @@ ACTION_IF (MOD_IS_INSTALLED ~setup-celestials.tp2~ 0) BEGIN
   COPY_EXISTING ~ca#movsw.itm~ ~override~
     PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
       WRITE_ASCII 0x22 ~FS~ // flaming sword
+      WRITE_BYTE  0x18 (BYTE_AT 0x18 BAND BNOT 0b00000010) // make one-handed
     END
     BUT_ONLY
   
