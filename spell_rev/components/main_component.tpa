@@ -102,7 +102,16 @@ COPY_EXISTING ~trapglyp.pro~ ~override~  // Fire Trap/Glyph of Warding
   WRITE_SHORT 0x200 77  // Don't affect caster and allied creatures
   WRITE_SHORT 0x206 200
   BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~spklargr.pro~ ~override~ // Dispel Magic
+  WRITE_SHORT 0x200 77  // Don't affect caster and allied creatures
+  WRITE_SHORT 0x206 190  // Reduced AoE to 20'
+  BUT_ONLY_IF_IT_CHANGES
   
+COPY_EXISTING ~spargrnp.pro~ ~override~ // Remove Magic
+  WRITE_SHORT 0x206 190  // Reduced AoE to 20'
+  BUT_ONLY_IF_IT_CHANGES
+
 COPY_EXISTING ~inareasm.pro~ ~override~
   WRITE_SHORT 0x206 110
   BUT_ONLY_IF_IT_CHANGES
@@ -1954,8 +1963,8 @@ COPY ~spell_rev\spwi5##\spwi519.spl~     ~override~  // Spell Shield
   SAY NAME1 @647    SAY UNIDENTIFIED_DESC @648
 COPY ~spell_rev\spwi5##\scrl8x.itm~     ~override~
   SAY NAME2 @647    SAY IDENTIFIED_DESC   @648
-INCLUDE ~spell_rev\lib\ardanis_spell_shield.tph~
-LAF ardanis_spell_shield END
+/* INCLUDE ~spell_rev\lib\ardanis_spell_shield.tph~
+LAF ardanis_spell_shield END */  // Moved down to avoid overwriting its changes with the following spells
 
 COPY ~spell_rev\spwi5##\spwi520.spl~     ~override~  // Conjure Lesser Air Elemental
   SAY NAME1 @649    SAY UNIDENTIFIED_DESC @650
@@ -2345,7 +2354,7 @@ COPY ~spell_rev\spwi7##\spwi723.spl~     ~override~  // Improved Chaos Shield
 COPY ~spell_rev\spwi7##\spwi724.spl~     ~override~  // Monster Summoning VII (added by V4)
   SAY NAME1 @866    SAY UNIDENTIFIED_DESC @867
 COPY ~spell_rev\spwi7##\scrl8b.itm~     ~override~  // vanilla's Summon Nishruu scroll
-  SAY NAME2 @866    SAY UNIDENTIFIED_DESC @867
+  SAY NAME2 @866    SAY IDENTIFIED_DESC @867
 COPY ~spell_rev\spwi7##\otyughsu.eff~     ~override~
 COPY ~spell_rev\spwi7##\otyughsu.cre~     ~override~
 COPY ~spell_rev\spwi7##\otyughsu.itm~     ~override~
@@ -2615,6 +2624,12 @@ COPY ~spell_rev\spwi9##\dw#plane.spl~     ~override~  // SCSII Dark Planetar
 
 COPY ~spell_rev\spwi9##\spwi925.spl~     ~override~  // Comet
   SAY NAME1 @861    SAY UNIDENTIFIED_DESC @862
+
+
+/*---------------------Spell Shield fix---------------------*/
+
+INCLUDE ~spell_rev\lib\ardanis_spell_shield.tph~
+LAF ardanis_spell_shield END
 
 
 /*---------------------Tutu Scrolls---------------------*/
