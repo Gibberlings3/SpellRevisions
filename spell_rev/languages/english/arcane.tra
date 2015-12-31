@@ -606,19 +606,19 @@ Saving Throw: None
 
 This spell grants an unnatural perception of things to come. Once Clairvoyance is cast, the caster receives instantaneous warnings of impending danger or harm. He becomes impossible to surprise and cannot be backstabbed. In addition, the spell gives a general idea of what action might be taken to best protect oneself, granting a +2 insight bonus to AC and saves vs. breath. The effects last for the duration of the spell, and cannot be dispelled.~
 
-@503=~Remove Magic~
-@504=~Remove Magic
+@503=~Dispel Magic~
+@504=~Dispel Magic
 Level: 3
 School: Abjuration
 Range: Long
 Duration: Instant
 Casting Time: 3
-Area of Effect: 30' radius
+Area of Effect: 20' radius
 Saving Throw: Special
 
-This is the combat version of Dispel Magic which will only affect opponents. Remove Magic dispels the magical effects upon any enemies within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
+Dispel Magic dispels the magical effects upon any enemies within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
 
-The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Remove Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Remove Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
+The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Remove Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Dispel Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
 
 @505=~Flame Arrow~
 @506=~Flame Arrow
@@ -917,10 +917,10 @@ School: Abjuration
 Range: Long
 Duration: Instant
 Casting Time: 3
-Area of Effect: 30' radius
+Area of Effect: 20' radius
 Saving Throw: Special
 
-Dispel Magic removes magical effects upon everyone within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
+Dispel Magic removes magical effects upon any enemies within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
 
 The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Dispel Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Dispel Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
 
@@ -1056,9 +1056,9 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 @580=~Break Enchantment
 Level: 4
 School: Abjuration
-Range: Touch
+Range: Short
 Duration: Permanent
-Casting Time: 4
+Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1736,7 +1736,7 @@ Range: Long
 Duration: Special
 Casting Time: 6
 Area of Effect: 1 creature
-Saving Throw: Petrification negates
+Saving Throw: Special
 
 Flesh to Stone is a powerful magic that permanently turns the flesh of the creature affected into stone. When struck by this spell the target is slowed for 3 rounds as its flesh begins to harden. The following round the subject of the spell must save vs. petrification at -4 or be turned into a statue. A dispel magic spell cannot restore the victim's natural form, but some powerful spells, such as Stone to Flesh or Freedom, can. This spell has no effect on undead, constructs, or incorporeal creatures.~
 
@@ -1786,7 +1786,7 @@ Range: Long
 Duration: Special
 Casting Time: 6
 Area of Effect: 1 creature
-Saving Throw: Special
+Saving Throw: None
 
 When this spell is cast upon a target creature there will be two major effects. The first is that it will dispel one spell protection of 8th level or lower from the creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The second effect of the spell is that the creature's magic resistance is temporary nullified. The resistance remains lowered for 2 rounds, and this effect cannot be negated in any way. The target's magic resistance, if any, does not affect this spell.
 
@@ -2027,7 +2027,7 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-This spell animate the corpse of a skilled warrior to rise up and serve the caster. This powerful undead creature will remain under the caster's control until slain or the spell duration expires.
+This spell animates the corpse of a skilled warrior to rise up and serve the caster. This powerful undead creature will remain under the caster's control until slain or the spell duration expires.
 
 Skeleton Warrior (9 Hit Dice):
 STR 18/51, DEX 14, CON -, INT 15, WIS 14, CHA 12;  AL Neutral Evil
@@ -2433,7 +2433,7 @@ Casting Time: 8
 Area of Effect: 1 creature
 Saving Throw: None
 
-The subject is protected from all devices and spells that detect, influence, or read emotions or thoughts. This spell protects against all mind-affecting spells and effects as well as information gathering by divination spells or effects. In the case of scrying that scans an area the creature is in, such as Farsight, the spell works but scrying attempts that are targeted sp.~
+The subject is protected from all devices and spells that detect, influence, or read emotions or thoughts. This spell protects against all mind-affecting spells and effects as well as information gathering by divination spells or effects.~
 
 @771=~Protection from Energy~
 @772=~Protection from Energy
@@ -2469,9 +2469,11 @@ Casting Time: 8
 Area of Effect: 1 creature
 Saving Throw: None
 
-By means of this spell, the wizard may launch a massive attack on a target's physical and magical defenses. Pierce Shield will dispel one spell protection of any level from the target creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. After piercing through magical protections, this powerful spell will breach each and every combat protection on the target creature. The target's magic resistance, if any, does not affect this spell.
+By means of this spell, the wizard may launch a massive attack on a target's physical and magical defenses. Pierce Shield will dispel one spell protection of any level from the target creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. After piercing through magical protections, this powerful spell will breach each and every specific or combat protection on the target creature. The target's magic resistance, if any, does not affect this spell.
 
 The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.
+
+The specific protection spells dispelled by Pierce Shield are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
 
 The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Mantle, Improved Mantle, and Absolute Immunity.~
 

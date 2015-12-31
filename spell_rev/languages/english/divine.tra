@@ -502,10 +502,10 @@ Sphere: All
 Range: Long
 Duration: Instant
 Casting Time: 3
-Area of Effect: 30' radius
+Area of Effect: 20' radius
 Saving Throw: Special
 
-Dispel Magic removes magical effects upon everyone within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Turning and Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
+Dispel Magic removes magical effects upon any enemies within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Turning and Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
 
 The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Dispel Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Dispel Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
 
@@ -557,9 +557,9 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 Level: 3
 School: Abjuration
 Sphere: All
-Range: Touch
+Range: Short
 Duration: Permanent
-Casting Time: 3
+Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1350,8 +1350,8 @@ Saving Throw: None
 
 By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
-11th : 2 dire bears
-13th+ : 3 dire bears
+11th : 2 cave bears
+13th+ : 3 cave bears
 
 The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
 
@@ -1622,7 +1622,7 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-This spell animate the corpse of a skilled warrior to rise up and serve the caster. This powerful undead creature will remain under the priest's control until slain or the spell duration expires.
+This spell animates the corpse of a skilled warrior to rise up and serve the caster. This powerful undead creature will remain under the priest's control until slain or the spell duration expires.
 
 Skeleton Warrior (9 Hit Dice):
 STR 18/51, DEX 14, CON -, INT 15, WIS 14, CHA 12;  AL Neutral Evil
