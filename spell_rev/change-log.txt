@@ -1,43 +1,57 @@
 To-do List:
-- some non-damaging spells (Entangle, Grease, Web, Resilient Sphere? etc.) no longer count as hostile?
-- Obscuring Mist tweaked to make ranged attacks from outside less effective WORK ON THIS, CHECK THAC0/AC MESS
+- add all the new spells with bams (Icelance, Telekinesis, Ball Lightning, Eyebite, Freezing Sphere, etc.)
+- make HLAs innate abilities
+- Cause Wound spells bypass PfMW
 - Flame Blade buff?
 - Spiritual Hammer needs a small nerf
 - Zone of Sweet Air as Cleric variant of Gust of Wind?
 - Striking Wave added to druid's 4th lvl spells (first draft, need feedback)
 - Symbol of Death causes level drain or -x to saves vs. death?
+- Holy/Unholy rebalance?
 - Mist of Eldath added to druid's 7th lvl spells
 - Reflected Image replaced by Phantasmal Force; CreateCreatureObjectCopy("jclone01",Player1,0,0,0)
-- Shocking Grasp tweaked similarly to CW spells
-- Dispel Magic single target?
+- True Strike duration up to 3 rounds, reduced thac0 bonus, +5% crit?
 - Flame Arrow allow no save?
 - ProMissiles self-only
 - Improved Invisibility protects from deflection/turning/etc animations (sec type for removals?)
-- Polymorph Self new forms (Fire Salamander with flaming spear replaces Flind; Troll)
+- Wizard Eye moved to 7th lvl as Watchful Eye
+- Polymorph Self new forms (Ogre Berserker? Fire Salamander with flaming spear replaces Flind; Troll?)
 - Globes of Invulnerabilty duration slightly increased?
 - Oracle becomes a party buff or AoE debuff?
 - Protection from Normal Weapons replaced by Ghost Form (similar to vanilla's Wraithform)?
-- Flesh to Stone should not be dispellable, 3rd round save vs. death or slay
-- Stone to Flesh disabled?
+- Flesh to Stone should not be dispellable, 3rd round save vs. death or slay?
+- Summon Nishruu is not hidden at lvl up, replace? Ench +0? Add hak?
 - Finger of Death creates a zombie?
-- Ghost Form replaced with Iron Body (aka improved stone/iron skin)
-- Monster Summoning VIII added to 8th lvl spells (summon umber hulks)
-- Monster Summoning IX added to 9th lvl spells (summon salamanders)
-- Meteor Swarm changed to 4 fireballs (a la Flame Arrow)
+- KWW deals a small amount of magic dmg on each hit
+- Prismatic Mantle's effects slightly nerfed
+- Ghost Form replaced with Iron Body (aka improved stone/iron skin)?
+- Meteor Swarm changed to 4 fireballs (a la Flame Arrow)?
 - Wail of the Banshee causes nausea and/or deafness on successful save?
 - Imprisonment slay powerful summons?, allow a save?
+- Spell Trap needs revision
 - Globe of Blades/Aura of Flaming Death should not have "combat protection" sectype so aren't breachable. Globe reworked similar to Blade Barrier (lower damage but no-save)
 
 ...
 
-V4 - Beta 12 (x December 2015)
-- 
+V4 - Beta 12 (31 December 2015)
+- various fixes or minor refinements
+- improved bams for many spells (by DreamSlaveOne)
+- KR's Revised Saves temporary added to main component (for those without KR) 
+- some non-damaging spells (Entangle?, Grease, Web?, Resilient Sphere? etc.) no longer flagged as 'hostile'
+- Burning Hands dmg from 1d4/lvl (max 5d4 at lvl 5) to 1d6+1d6/2 lvls (max 5d6 at lvl 9)
+- Obscuring Mist tweaked to make ranged attacks from outside less effective (description needs refining)
+- Shocking Grasp dissipates only on successful hit, can hit any creature and bypass PfMW
+- Chill Touch's effects are applied via spl (will turn useful to make Lesser Restoration cure it)
+- PfMW tweaked to allow "weapons with +7 enchantment" to bypass it
+- Stone to Flesh disabled, petrification cured by Break Enchantment
+- Monster Summoning VIII added to 8th lvl spells (summon umber hulks)
+- Monster Summoning IX added to 9th lvl spells (summon basilisks - first draft)
 
 V4 - Beta 11 (5 December 2015)
 - Improve EE support by converting text to UTF-8
 - Add support for EET
 - Update to WeiDU 238
-- various fixes (e.g. typos, string references, bams, etc.) 
+- various fixes (e.g. typos, string references, bams, etc.)
 - Break Enchantment casting time from 3/4 (cleric/mage respectively) to 5, range from touch to short (10')
 - Dispel Magic merged with Remove Magic, party-friendly AoE reduced from 30' radius to 20'
 - Haste's fatigue effect prevents further use of Haste or Improved Haste until expired
