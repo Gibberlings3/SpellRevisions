@@ -4,7 +4,7 @@ README ~spell_rev\readme-spell_rev.html~
 //MODDER
 ASK_EVERY_COMPONENT
 
-VERSION ~v4 Beta 11~
+VERSION ~v4 Beta 12~
 
 ALWAYS
   OUTER_PATCH ~~ BEGIN
@@ -185,7 +185,7 @@ END
 /*------NWN-style Spell Deflection------*/
 
 BEGIN ~Spell Deflection blocks AoE spells~
-DESIGNATED 60
+DESIGNATED 55
 // removing 'bypassing MR' exploit and making spells affectable by spell protections
 
 INCLUDE ~spell_rev/components/nwn_spell_deflection.tpa~
@@ -198,7 +198,7 @@ INCLUDE ~spell_rev/components/nwn_spell_deflection.tpa~
 /*------Update Spellbooks of Joinable NPCs------*/
 
 BEGIN @9989
-DESIGNATED 70
+DESIGNATED 60
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
 FORBID_COMPONENT ~Setup-Divine_Remix.tp2~ 0 @8995 // ~This component will not work properly with Divine Remix installed.~

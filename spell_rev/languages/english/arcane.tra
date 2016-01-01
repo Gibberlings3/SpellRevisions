@@ -8,7 +8,7 @@ Range: Medium
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: 10' radius
-Saving Throw: Breath negates
+Saving Throw: Breath partial
 
 A Grease spell covers a material surface with a slippery layer of a fatty, greasy nature. Any creature caught in it when the spell is cast must save vs. breath at +2 bonus or fall to the ground for one round. Those who enter the area or remain within it must make a save each round until they reach the nearest non-greased surface. A creature that succeeds on their saving throw can walk within or through the area of grease but will have their movements slowed considerably. Incorporeal and flying creatures are unaffected by this spell, as are exceptionally large creatures who suffer little to no distress from the greasy coating.~
 
@@ -31,10 +31,10 @@ School: Evocation
 Range: Special
 Duration: Instant
 Casting Time: 1
-Area of Effect: Cone
+Area of Effect: Special
 Saving Throw: None
 
-When the wizard casts this spell, a cone of searing flames shoots from his fingertips towards a designated point. His hands must be held so as to send forth a fan-like sheet of flames: the wizard's thumbs must touch each other and his fingers must be spread. The burning hands send out 10-foot-long jets of flame in a horizontal arc of about 60 degrees in front of the wizard. All creatures caught in the flames suffer 1d4 points of fire damage per level of the caster (up to a maximum of 5d4).~
+When the wizard casts this spell, a cone of searing flames shoots from his fingertips towards a designated point. His hands must be held so as to send forth a fan-like sheet of flames: the wizard's thumbs must touch each other and his fingers must be spread. The burning hands send out 10-foot-long jets of flame in a horizontal arc of about 60 degrees in front of the wizard. All creatures caught in the flames suffer 1d6 points of fire damage plus 1d6 for every other 2 levels of the caster (up to a maximum of 5d6).~
 
 @407=~Charm Person~
 @408=~Charm Person
@@ -57,7 +57,7 @@ School: Alteration
 Range: Special
 Duration: Special
 Casting Time: 1
-Area of Effect: Cone
+Area of Effect: Special
 Saving Throw: Spell negates
 
 Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing colors to spring forth from his hand. The spray is 15 feet in length and spread out in a horizontal arc of about 60 degrees in front of the wizard. The spell's effects depend upon the caster's level - creatures with Hit Dice/levels less than or equal to the caster are slowed for 5 rounds, those with Hit Dice/levels one or two greater than the wizard are blinded for 3 rounds, and all others are confused for 1 round. Creatures with more than 22 Hit Dice/levels will have to save only against the confusion effect, regardless of the caster's level.~
@@ -118,7 +118,7 @@ Casting Time: Special
 Area of Effect: 1 item
 Saving Throw: None
 
-When this spell is memorized, go to the history page of an unidentified item and press the identify button. The chance of identifying the item is 100%. The spell identifies the item's name, what it does, and if it is cursed.~
+When this spell is cast, name and enchantments (including curses) of one item subsequently touched by the wizard are revealed without fail. Many unidentified items can still be used, but at great risk.~
 
 @419=~True Strike~
 @420=~True Strike
@@ -178,7 +178,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: Special
 
-When the wizard touches a creature while this spell is in effect, an electrical charge will deal 1d6 points of damage and stun the target for 1 round. If the target makes a successful saving throw vs. spell, he is not stunned. For every two extra experience levels of the caster, the creature will suffer an additional 1d6 points of damage and roll their saving throw at an increased -1 penalty (to a maximum of 5d6 damage and a -4 saving throw penalty at 9th level). The spell expires once the wizard attempts a melee attack or after 10 rounds have passed. The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
+When the wizard touches a creature while this spell is in effect, an electrical charge will deal 1d6 points of damage and stun the target for 1 round. If the target makes a successful saving throw vs. spell, he is not stunned. For every two extra experience levels of the caster, the creature will suffer an additional 1d6 points of damage and roll their saving throw at an increased -1 penalty (to a maximum of 5d6 damage and a -4 saving throw penalty at 9th level). The spell expires once the caster makes a successful melee attack or after 1 turn has passed. The wizard gains a +4 bonus to hit the target.~
 
 @429=~Sleep~
 @430=~Sleep
@@ -531,7 +531,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
-When a wizard utters this power word, he causes a comatose slumber to come upon one creature. Creatures who currently have 20 or more hit points can save vs. spell at to avoid the effects, but those with 1 to 19 hit points are powerless to resist. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
+When a wizard utters this power word, he causes a comatose slumber to come upon one creature. Creatures who currently have 20 or more hit points can save vs. spell to avoid the effects, but those with 1 to 19 hit points are powerless to resist. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
 
 @487=~Ray of Enfeeblement~
 @488=~Ray of Enfeeblement
@@ -1512,7 +1512,7 @@ When this spell is cast at a creature, it breaches and dispels all of the specif
 
 The specific protection spells dispelled by Breach are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
 
-The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Mantle, Improved Mantle, and Absolute Immunity.~
+The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Mantle, and Absolute Immunity.~
 
 @637=~Lower Resistance~
 @638=~Lower Resistance
@@ -2776,7 +2776,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: Special
 
-When a Power Word Kill spell is uttered, one creature targeted by the caster is slain. Creatures who currently have 60 or more hit points can save vs. spell to avoid the effects, but those with 1 to 59 hit points are powerless to resist. Even if the creature's maximum hit points are higher than 60, its current hit points are used for this determination..~
+When a Power Word Kill spell is uttered, one creature targeted by the caster is slain. Creatures who currently have 60 or more hit points can save vs. spell to avoid the effects, but those with 1 to 59 hit points are powerless to resist. Even if the creature's maximum hit points are higher than 60, its current hit points are used for this determination.~
 
 @829=~Wail of the Banshee~
 @830=~Wail of the Banshee
@@ -3066,10 +3066,53 @@ Immune to disease effects
 Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 
 @868=~Monster Summoning VIII~
-@869=~~
+@869=~Monster Summoning VIII
+Level: 8
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons a number of monsters, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell. The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+15th : 2 Umber Hulks
+17th+ : 3 Umber Hulks
+
+Umber Hulk (8 Hit Dice):
+STR 20, DEX 13, CON 18, INT 11, WIS 11, CHA 9;  AL Neutral
+HP 96, AC 2, THAC0 6, Saving Throws 10/12/12/14/12
+3 Attacks Per Round, 1d8+11 Slashing & Piercing Damage (Claws & Bite +3)
+
+Combat Abilities:
+Confusing Gaze
+
+Special Qualities:
+Immune to confusion effects~
 
 @870=~Monster Summoning IX~
-@871=~~
+@871=~Monster Summoning IX
+Level: 9
+School: Conjuration
+Range: Medium
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster summons a number of monsters, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell. The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
+
+17th+ : 2 Greater Basilisks
+
+Greater Basilisk (9 Hit Dice):
+STR 15, DEX 13, CON 17, INT 11, WIS 11, CHA 9;  AL Neutral
+HP 90, AC 2, THAC0 6, Saving Throws 9/11/11/13/11
+3 Attacks Per Round, 1d8+11 Slashing & Piercing Damage (Claws & Bite +3)
+
+Combat Abilities:
+Petrifying Gaze
+Poison~
 
 @872=~~
 @873=~~

@@ -152,7 +152,7 @@ The caster of the Armor of Faith receives significant protection against physica
 @23=~Doom~
 @24=~Doom
 Level: 1
-School: Alteration
+School: Enchantment
 Sphere: Charm
 Range: Long
 Duration: 1 turn
@@ -2359,7 +2359,7 @@ Casting Time: 5
 Area of Effect: 20' radius
 Saving Throw: None
 
-When this spell is cast, a misty bank of fog billows out from the designated point obscuring all sight. Everyone within the cloud suffer -2 penalty to attack rolls in melee, and -6 penalty with ranged attacks, as well as -2 penalty to armor class. Creatures that do not rely on sight are immune to the effects of the cloud, and creatures with blindsight can fight within the cloud without penalties~
+When this spell is cast, a misty bank of fog billows out from the designated point obscuring all sight. Everyone within the cloud suffer -2 penalty to attack rolls, and have their line of sight halved. Anyone, inside or outside the cloud, trying to attack a creature concealed by the fog with ranged weapons will do so with a -4 penalty to attack rolls. Creatures with blindsight, or that do not rely on sight can fight within the cloud without penalties.~
 
 @323=~Animal Summoning II~
 @324=~Animal Summoning II
