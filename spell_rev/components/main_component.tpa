@@ -238,6 +238,9 @@ COPY ~spell_rev\shared\dvtelpor.spl~      ~override~ // Teleport Without Error
 COPY ~spell_rev\shared\spin113.spl~      ~override~ // Branwen Spiritual Hammer
 
 COPY ~spell_rev\shared\spin683.spl~      ~override~ // Innate Web Tangle
+COPY ~spell_rev\shared\spin701.spl~      ~override~ // Death Knight's Unholy Fireball
+  SAY NAME1 @872
+COPY ~spell_rev\shared\spin701i.eff~      ~override~
 COPY ~spell_rev\shared\spin788.spl~      ~override~ // Demilich Soul Trap
 COPY ~spell_rev\shared\spin789.spl~      ~override~ // Demilich Howl
 
@@ -1182,7 +1185,7 @@ COPY ~spell_rev\spwi1##\scrl73.itm~     ~override~
 // spwi109 was unused in vanilla but the bams were there
 COPY ~spell_rev\spwi1##\spwi109.spl~     ~override~  // Dimension Jump (added by V4)
   SAY NAME1 @563    SAY UNIDENTIFIED_DESC @564
-COPY ~spell_rev\spwi1##\scrl1v.itm~     ~override~
+COPY ~spell_rev\spwi1##\scrl1v.itm~     ~override~  // vanilla's Dimension Door scroll
   SAY NAME2 @563    SAY IDENTIFIED_DESC   @564
 
 COPY ~spell_rev\spwi1##\spwi110.spl~     ~override~  // Identify
@@ -2194,9 +2197,6 @@ COPY ~spell_rev\spwi6##\spwi624.spl~     ~override~  // Summon Nishruu
   SAY NAME1 @705    SAY UNIDENTIFIED_DESC @706
 /* COPY ~spell_rev\spwi6##\scrl8b.itm~     ~override~
   SAY NAME2 @705    SAY IDENTIFIED_DESC   @706 */
-COPY ~spell_rev\spwi6##\nishrusu.cre~     ~override~
-COPY ~spell_rev\spwi6##\nishruu.itm~     ~override~
-COPY ~spell_rev\spwi6##\nishru01.bcs~     ~override~
 
 COPY ~spell_rev\spwi6##\spwi625.spl~     ~override~  // Stone to Flesh
   SAY NAME1 @707    SAY UNIDENTIFIED_DESC @708
@@ -2321,10 +2321,13 @@ COPY ~spell_rev\spwi7##\dvdjinni.cre~     ~override~
 COPY ~spell_rev\spwi7##\dvdjinni.itm~     ~override~
 COPY ~spell_rev\spwi7##\dvdjinni.bcs~     ~override~
 
-COPY ~spell_rev\spwi7##\spwi719.spl~     ~override~  // Summon Hakeashar
+COPY ~spell_rev\spwi7##\spwi719.spl~     ~override~  // Summon Nishruu/Hakeashar
   SAY NAME1 @705    SAY UNIDENTIFIED_DESC @706
 COPY ~spell_rev\spwi7##\scrl8u.itm~     ~override~
   SAY NAME2 @705    SAY IDENTIFIED_DESC   @706
+COPY ~spell_rev\spwi7##\nishrusu.cre~     ~override~
+COPY ~spell_rev\spwi7##\nishruu.itm~     ~override~
+COPY ~spell_rev\spwi7##\nishru01.bcs~     ~override~
 COPY ~spell_rev\spwi7##\haksu.cre~     ~override~
 COPY ~spell_rev\spwi7##\haksu.itm~     ~override~
 

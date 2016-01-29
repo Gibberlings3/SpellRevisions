@@ -34,6 +34,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
 ~spwi306~ => 1 // hold person
 ~spwi324~ => 1 // hold undead
 ~spwi312~ => 1 // slow
+~spwi401~ => 1 // confusion
 ~spwi411~ => 1 // emotion
 ~spwi412~ => 1 // greater malison
 ~spwi421~ => 1 // teleprot field
