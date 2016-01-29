@@ -28,16 +28,24 @@ To-do List:
 - Meteor Swarm changed to 4 fireballs (a la Flame Arrow)?
 - Wail of the Banshee causes nausea and/or deafness on successful save?
 - Imprisonment slay powerful summons?, allow a save?
-- Spell Trap needs revision
+- Spell Trap needs revision imo
 - Globe of Blades/Aura of Flaming Death should not have "combat protection" sectype so aren't breachable. Globe reworked similar to Blade Barrier (lower damage but no-save)
 
 ...
+
+V4 - Beta 13 (x January 2016)
+- various fixes, description improvements and minor refinements
+- global rebalance of all summons
+- global rebalance of divination attacks spells NOT DONE YET
+- Death Knight Unholy Fireball dmg is now half fire half magic (undead are immune to the magic half)
+- Demilich Soul Trap save penalty from -6 to -4, the maze effect no longer use INT drain
+- Demilich Howl save penalty from -6 to -4
 
 V4 - Beta 12 (31 December 2015)
 - various fixes or minor refinements
 - improved bams for many spells (by DreamSlaveOne)
 - KR's Revised Saves temporary added to main component (for those without KR) 
-- some non-damaging spells (Entangle?, Grease, Web?, Resilient Sphere? etc.) no longer flagged as 'hostile'
+- some non-damaging spells no longer flagged as 'hostile'
 - Burning Hands dmg from 1d4/lvl (max 5d4 at lvl 5) to 1d6+1d6/2 lvls (max 5d6 at lvl 9)
 - Obscuring Mist tweaked to make ranged attacks from outside less effective (description needs refining)
 - Shocking Grasp dissipates only on successful hit, can hit any creature and bypass PfMW

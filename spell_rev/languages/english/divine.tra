@@ -1328,9 +1328,9 @@ Saving Throw: None
 
 The caster of this spell summons an Aerial Servant to do the caster's bidding for the duration of the spell. The servant will attack any enemies that the caster decides, staying until the duration of the spell ends or he is slain.
 
-Aerial Servant (16 Hit Dice):
+Aerial Servant (13 Hit Dice):
 STR 21, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 148, AC -1, THAC0 2, Saving Throws 4/6/5/4/7
+HP 122, AC -1, THAC0 5, Saving Throws 5/7/6/5/8
 2 Attacks Per Round, 2d6+11 Crushing Damage (Fist +2)
 
 Special Qualities:
@@ -1357,7 +1357,7 @@ The summoned animals will aid the caster by whatever means they possess, staying
 
 Cave Bear (6 Hit Dice):
 STR 19, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
-HP 90, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
+HP 78, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
 2 Attacks Per Round, 2d4+9 Crushing Damage (Claws & Bite)~
 
 @195=~Blade Barrier~
@@ -1403,12 +1403,12 @@ Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to 
 
 Fire Elemental (12 Hit Dice):
 STR 16, DEX 17, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 126, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
+HP 116, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
 2 Attacks Per Round, 2d6+4 Slashing +2d6 Fire Damage (Fist +3)
 
 Greater Fire Elemental (16 Hit Dice):
 STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 168, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
+HP 138, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -1557,12 +1557,12 @@ Upon casting a Conjure Air Elemental spell, the caster opens a special gate to t
 
 Air Elemental (12 Hit Dice):
 STR 16, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 126, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
+HP 116, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
 3 Attacks Per Round, 1d8+4 Piercing Damage (Fist +3)
 
 Greater Air Elemental (16 Hit Dice):
 STR 18, DEX 21, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 168, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
+HP 138, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
 3 Attacks Per Round, 1d8+5 Piercing Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -1585,12 +1585,12 @@ Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to
 
 Earth Elemental (12 Hit Dice):
 STR 21, DEX 8, CON 19, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 146, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
+HP 116, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
 2 Attacks Per Round, 2d8+12 Crushing Damage (Fist +3)
 
 Greater Earth Elemental (16 Hit Dice):
 STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 188, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
+HP 152, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d8+14 Crushing Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -1668,7 +1668,7 @@ This spell summons forth a shambling mound to assist the caster. The shambler ap
 
 Shambling Mound (16 Hit Dice):
 STR 19, DEX 10, CON 16, INT 7, WIS 10, CHA 9;  AL Neutral
-HP 146, AC 0, THAC0 2, Saving Throws 4/6/5/4/7
+HP 124, AC 0, THAC0 2, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d6+10 Crushing Damage (Fist +3)
 
 Combat Abilities:
@@ -1694,21 +1694,22 @@ Saving Throw: None
 
 By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Death Knight, a powerful undead demon. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Priests are warned to be careful of this spell, for a mistreated Death Knight will turn on his summoner at the first available opportunity.
 
-Death Knight (14 Hit Dice):
-STR 18/00, DEX 12, CON -, INT 17, WIS 15, CHA 16;  AL Neutral Evil
-HP 168, AC -4, THAC0 -1, Saving Throws 4/4/4/8/4
-3 Attacks Per Round, 2d6+12 Slashing Damage (Two-Handed Sword +3)
+Death Knight (13 Hit Dice):
+STR 18/00, DEX 12, CON -, INT 17, WIS 15, CHA 16;  AL Lawful Evil
+HP 112, AC -4, THAC0 1, Saving Throws 5/7/5/9/7
+3 Attacks Per Round, 2d6+11 Slashing Damage (Two-Handed Sword +3)
 
 Special Qualities:
 Aura of Fear: creatures in a 5' radius must save vs. spell each round or flee in terror for 1 round
-Immune to normal weapons
+Immune to non-magical weapons
 Immune to charm, confusion, hold, stun, sleep, poison, & death effects
-Cold & Electrical Resistance 100%; Magic Resistance 75%
+Cold Resistance 100%; Physical Resistance 20%; Magic Resistance 75%
 
 Special Abilities:
-Fireball (once every 5 rounds)
-Remove Magic (once every 5 rounds)
-Power Words: Blind, Stun, or Death (once per day each)
+See Invisibility (permanent)
+Dispel Magic (once every 5 rounds)
+Unholy Fireball (once per day)
+Power Words: Blind, Stun, or Kill (once per day each)
 Symbols: of Weakness or Death (once per day each)~
 
 @237=~Nature's Beauty~
@@ -1991,41 +1992,41 @@ Druids, having a more powerful link to the elements, can cast a more specialized
 
 Chan, Prince of Air (20 Hit Dice):
 STR 19, DEX 24, CON 18, INT 17, WIS 16, CHA 18; AL Neutral
-HP 180, AC -8, THAC0 -3, Saving Throws 3/5/4/4/6
+HP 160, AC -8, THAC0 -3, Saving Throws 3/5/4/4/6
 4 Attacks Per Round, 1d12+11 Piercing Damage (Fist +4)
 
 Special Qualities:
-Blade Barrier: 3d6 damage every 3 seconds to opponents within 5' feet (save vs. breath negates)
+Blade Barrier (permanent)
 Immune to weapons lower than +2 enchantment
 Immune to hold, poison, polymorph, sleep, & stun effects
 Electrical Resistance 100%; Magic Resistance 60%
-Slashing, Crushing, & Piercing Resistance 40%; Missile Resistance 80%
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%
 
 
 Sunnis, Princess of Earth (20 Hit Dice):
-STR 24, DEX 12, CON 23, INT 17, WIS 16, CHA 18; AL Neutral
-HP 230, AC -5, THAC0 -6, Saving Throws 3/5/4/4/6
+STR 24, DEX 12, CON 21, INT 17, WIS 16, CHA 18; AL Neutral
+HP 190, AC -5, THAC0 -6, Saving Throws 3/5/4/4/6
 3 Attacks Per Round, 2d12+16 Crushing Damage (Fist +4)
 
 Special Qualities:
-Stoneskin: 1 skin each round
+Stoneskin (1 skin each round)
 Immune to weapons lower than +2 enchantment
 Immune to hold, poison, polymorph, sleep, & stun effects
-Magic Resistance 60%
-Slashing, Piercing, & Missile Resistance 60%; Crushing Resistance 20%
+Acid Resistance 100%; Magic Resistance 60%
+Slashing, Piercing, & Missile Resistance 40%
 
 
 Zaaman Rul, Prince of Fire (20 Hit Dice):
 STR 19, DEX 21, CON 19, INT 17, WIS 16, CHA 18; AL Neutral
-HP 200, AC -7, THAC0 -3, Saving Throws 3/5/4/4/6
+HP 170, AC -7, THAC0 -3, Saving Throws 3/5/4/4/6
 3 Attacks Per Round, 2d10+11 Slashing +2d10 Fire Damage (Fist +4)
 
 Special Qualities:
-Fire Shield: 2d10 points of fire damage to whoever strikes the prince within 5' feet
+Fire Shield (permanent)
 Immune to weapons lower than +2 enchantment
 Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 125%; Magic Resistance 60%
-Slashing, Crushing, Piercing, & Missile Resistance 40%~
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @279=~Globe of Blades~
 @280=~Globe of Blades
@@ -2057,7 +2058,7 @@ This spell opens a celestial gate and calls forth an astral deva to fight at the
 
 Deva (14 Hit Dice):
 STR 19, DEX 18, CON 18, INT 18, WIS 18, CHA 20; AL Chaotic Good
-HP 162, AC -5, THAC0 0, Saving Throws 3/5/4/4/6
+HP 136, AC -5, THAC0 4, Saving Throws 3/5/4/4/6
 2 Attacks Per Round, 1d10+10 Crushing Damage (Heavy Mace +3)
 
 Combat Abilities:
@@ -2094,7 +2095,7 @@ This spell opens an abyssal gate and calls forth a demonic deva to fight at the 
 
 Fallen Deva (14 Hit Dice):
 STR 19, DEX 18, CON 18, INT 18, WIS 18, CHA 20; AL Chaotic Evil
-HP 162, AC -5, THAC0 0, Saving Throws 3/5/4/4/6
+HP 136, AC -5, THAC0 4, Saving Throws 3/5/4/4/6
 2 Attacks Per Round, 1d8+10 Slashing +1d8 Fire Damage (Long Sword +3)
 
 Combat Abilities:
@@ -2375,7 +2376,8 @@ Saving Throw: None
 By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
 3rd : 2 War Dogs
-5th+ : 3 War Dogs
+5th : 3 War Dogs
+7th+ : 4 War Dogs
 
 The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
 
@@ -2401,7 +2403,8 @@ Saving Throw: None
 By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
 
 5th : 2 Wolves
-7th+ : 3 Wolves
+7th : 3 Wolves
+9th+ : 4 Wolves
 
 The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
 
@@ -2411,7 +2414,7 @@ HP 21, AC 6, THAC0 18, Saving Throws 15/17/15/13/17
 1 Attack Per Round, 1d6 Piercing Damage (Bite)
 
 Combat Abilities:
-Pack Attack: each war dog within 10 feet grants additional +1 bonus to attack rolls~
+Pack Attack: each wolf within 10 feet grants additional +1 bonus to attack rolls~
 
 @327=~Magic Fang~
 @328=~Magic Fang
@@ -2458,7 +2461,7 @@ The summoned animals will aid the caster by whatever means they possess, staying
 
 Polar Bear (8 Hit Dice):
 STR 21, DEX 13, CON 19, INT 6, WIS 12, CHA 8;  AL Neutral
-HP 120, AC 3, THAC0 8, Saving Throws 10/14/10/12/14
+HP 104, AC 3, THAC0 8, Saving Throws 10/14/10/12/14
 2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite)
 
 Special Qualities:

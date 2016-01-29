@@ -75,7 +75,7 @@ OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
 OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
-1 0 0 0 0"LOCALSGlabrezuControl" "" AC
+1 0 0 0 0"LOCALSPitFiendControl" "" AC
 AC
 10OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
@@ -90,7 +90,87 @@ CR
 CR
 CO
 TR
-16399 0 0 0 0 "LOCALSGlabrezuControl" "" OB
+16399 0 0 0 0 "LOCALSPitFiendControl" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16453 18 0 38 0 "" "" OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+TR
+TR
+16453 18 0 39 0 "" "" OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+TR
+TR
+16453 18 0 42 0 "" "" OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+TR
+TR
+16453 20 0 34 0 "" "" OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+TR
+TR
+16453 20 0 68 0 "" "" OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+TR
+TR
+16453 20 0 69 0 "" "" OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+229OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 1 49 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+63OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"" "" AC
+AC
+21OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+153OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+4 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"LOCALSPitFiendControl" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "LOCALSPitFiendControl" "" OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
 TR
 CO
@@ -135,7 +215,7 @@ OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
 OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
-1 0 0 0 0"LOCALSGlabrezuControl" "" AC
+1 0 0 0 0"LOCALSPitFiendControl" "" AC
 RE
 RE
 85AC
@@ -185,7 +265,7 @@ OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
 OB
 0 0 0 0 0 0 0 0 0 0 0 0 ""OB
-1 0 0 0 0"LOCALSGlabrezuControl" "" AC
+1 0 0 0 0"LOCALSPitFiendControl" "" AC
 RE
 RS
 CR
@@ -418,15 +498,15 @@ TR
 0 0 0 0 0 0 0 1 12 0 0 0 ""OB
 TR
 TR
-16454 25 0 34 0 "" "" OB
+16454 21 0 34 0 "" "" OB
 0 0 0 0 0 0 0 1 18 0 0 0 ""OB
 TR
 TR
-16454 25 0 68 0 "" "" OB
+16454 21 0 68 0 "" "" OB
 0 0 0 0 0 0 0 1 18 0 0 0 ""OB
 TR
 TR
-16454 25 0 69 0 "" "" OB
+16454 21 0 69 0 "" "" OB
 0 0 0 0 0 0 0 1 18 0 0 0 ""OB
 TR
 TR

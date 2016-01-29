@@ -708,8 +708,7 @@ By means of this spell, the caster summons a number of monsters, which serve the
 
 5th : 2 hobgoblins
 7th : 3 hobgoblins
-9th : 4 hobgoblins
-12th+ : 4 hobgoblins, 1 shaman
+9th+ : 3 hobgoblins, 1 shaman
 
 Hobgoblin Archer (3 Hit Dice):
 STR 11, DEX 14, CON 13, INT 8, WIS 10, CHA 8;  AL Lawful Evil
@@ -1018,12 +1017,12 @@ By means of this spell, the caster summons a number of monsters, which serve the
 Green Slime (2 Hit Dice):
 STR 14, DEX 9, CON -, INT 3, WIS 3, CHA 3;  AL Neutral
 HP 16, AC 10, THAC0 15, Saving Throws 13/15/13/17/15
-1 Attack Per Round, 2d4 Acid Damage (Corrosive Touch)
+1 Attack Per Round, 2d4 Acid Damage (Pseudopod)
 
 Special Qualities:
 Immune to backstab
-Immune to charm, confusion, hold, poison, sleep & stun, effects
-Electrical Resistance 100%
+Immune to charm, confusion, disease, hold, poison, sleep & stun, effects
+Electrical Resistance 100%, Acid Resistance 50%
 Missile Resistance 90%~
 
 @575=~Stoneskin~
@@ -1380,7 +1379,7 @@ By means of this spell, the caster summons a number of monsters, which serve the
 
 Ogre Berserker (5 Hit Dice):
 STR 18/00, DEX 9, CON 18, INT 8, WIS 10, CHA 7; AL Chaotic Evil
-HP 62, AC 3, THAC0 11, Saving Throws 11/13/12/13/14
+HP 60, AC 3, THAC0 11, Saving Throws 11/13/12/13/14
 1 Attack Per Round, 1d10+9 Crushing Damage (Morning Star +1)
 
 Special Qualities:
@@ -1389,14 +1388,14 @@ Enrage (once per day)
 Ogre Mage (6 Hit Dice):
 STR 18/00, DEX 9, CON 17, INT 15, WIS 11, CHA 13; AL Lawful Evil
 HP 56, AC 2, THAC0 11, Saving Throws 11/13/12/13/14
-1 Attack Per Round, 1d10+9 Crushing Damage (Katana +1)
+1 Attack Per Round, 1d10+9 Slashing Damage (Katana +1)
 
 Special Qualities:
 Invisibility (at will)
 Regeneration: 1 hp/round
 
 Memorized Spells:
-1° Blindness, Magic Missile (x2), Shield
+1° Obscuring Mist, Magic Missile (x2), Shield
 2° Horror, Mirror Image
 3° Dire Charm, Slow~
 
@@ -1556,7 +1555,7 @@ Upon casting Conjure Lesser Fire Elemental, the caster opens a special gate to t
 
 Lesser Fire Elemental (8 Hit Dice):
 STR 14, DEX 16, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 84, AC 2, THAC0 10, Saving Throws 10/12/11/11/13
+HP 80, AC 2, THAC0 10, Saving Throws 10/12/11/11/13
 2 Attacks Per Round, 2d4+2 Slashing +2d4 Fire Damage (Fist +2)
 
 Special Qualities:
@@ -1617,7 +1616,7 @@ Upon casting Conjure Lesser Air Elemental, the caster opens a special gate to th
 
 Lesser Air Elemental (8 Hit Dice):
 STR 14, DEX 17, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 84, AC 0, THAC0 8, Saving Throws 10/12/11/11/13
+HP 80, AC 0, THAC0 8, Saving Throws 10/12/11/11/13
 3 Attacks Per Round, 1d6+2 Piercing Damage (Fist +2)
 
 Special Qualities:
@@ -1639,7 +1638,7 @@ Upon casting Conjure Lesser Earth Elemental, the caster opens a special gate to 
 
 Lesser Earth Elemental (8 Hit Dice):
 STR 19, DEX 8, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 104, AC 4, THAC0 8, Saving Throws 10/12/11/11/13
+HP 96, AC 4, THAC0 8, Saving Throws 10/12/11/11/13
 2 Attacks Per Round, 2d6+9 Crushing Damage (Fist +2)
 
 Special Qualities:
@@ -1949,12 +1948,12 @@ Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to 
 
 Fire Elemental (12 Hit Dice):
 STR 16, DEX 17, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 126, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
+HP 116, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
 2 Attacks Per Round, 2d6+4 Slashing +2d6 Fire Damage (Fist +3)
 
 Greater Fire Elemental (16 Hit Dice):
 STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 168, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
+HP 138, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -1977,12 +1976,12 @@ Upon casting a Conjure Air Elemental spell, the caster opens a special gate to t
 
 Air Elemental (12 Hit Dice):
 STR 16, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 126, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
+HP 116, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
 3 Attacks Per Round, 1d8+4 Piercing Damage (Fist +3)
 
 Greater Air Elemental (16 Hit Dice):
 STR 18, DEX 21, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 168, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
+HP 138, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
 3 Attacks Per Round, 1d10+5 Piercing Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -2004,12 +2003,12 @@ Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to
 
 Earth Elemental (12 Hit Dice):
 STR 21, DEX 8, CON 19, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 146, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
+HP 126, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
 2 Attacks Per Round, 2d8+12 Crushing Damage (Fist +3)
 
 Greater Earth Elemental (16 Hit Dice):
 STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
-HP 188, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
+HP 152, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d10+14 Crushing Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -2055,12 +2054,12 @@ By casting the Summon Nishruu spell, the wizard calls into existence a magical b
 Nishruu (9 Hit Dice):
 STR -, DEX 10, CON 16, INT 13, WIS 15, CHA 13;  AL Chaotic Neutral
 HP 90, AC 10, THAC0 7, Saving Throws 8/8/8/8/8
-1 Attack Per Round, Drain Magic (Contact +0)
+1 Attack Per Round, Drain Magic (Contact +3)
 
 Combat Abilities:
 Drain Magic:
 - wizards lose one memorized spell, chosen at random from the highest spell level possible
-- causes feeblemindedness (save vs. spell neg.)
+- any creature touched must save vs. spell or suffer feeblemindedness for 3 rounds
 
 Special Qualities:
 Absorb Magic: immune to magic, every spell cast against a Nishruu heals the creature by 1d8+1 hit points
@@ -2159,20 +2158,21 @@ Saving Throw: None
 
 By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Death Knight, a powerful undead demon. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated Death Knight will turn on his summoner at the first available opportunity.
 
-Death Knight (14 Hit Dice):
-STR 18/00, DEX 12, CON -, INT 17, WIS 15, CHA 16;  AL Neutral Evil
-HP 168, AC -4, THAC0 -1, Saving Throws 4/4/4/8/4
-3 Attacks Per Round, 2d6+12 Slashing Damage (Two-Handed Sword +3)
+Death Knight (13 Hit Dice):
+STR 18/00, DEX 12, CON -, INT 17, WIS 15, CHA 16;  AL Lawful Evil
+HP 112, AC -4, THAC0 1, Saving Throws 5/7/5/9/7
+3 Attacks Per Round, 2d6+11 Slashing Damage (Two-Handed Sword +3)
 
 Special Qualities:
 Aura of Fear: creatures in a 5' radius must save vs. spell each round or flee in terror for 1 round
-Immune to normal weapons
+Immune to non-magical weapons
 Immune to charm, confusion, hold, stun, sleep, poison, & death effects
-Cold & Electrical Resistance 100%; Magic Resistance 75%
+Cold Resistance 100%; Physical Resistance 20%; Magic Resistance 75%
 
 Special Abilities:
-Fireball (once every 5 rounds)
-Remove Magic (once every 5 rounds)
+See Invisibility (permanent)
+Dispel Magic (once every 5 rounds)
+Unholy Fireball (once per day)
 Power Words: Blind, Stun, or Kill (once per day each)
 Symbols: of Weakness or Death (once per day each)~
 
@@ -2487,12 +2487,12 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Glabrezu, one of the most powerful specimen of the Tanar'ri. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated Glabrezu will turn on his summoner at the first available opportunity.
+By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Glabrezu, one of the most powerful specimen of the Tanar'ri. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated fiend will turn on his summoner at the first available opportunity.
 
-Glabrezu (17 Hit Dice):
-STR 23, DEX 10, CON 21, INT 16, WIS 16, CHA 20;  AL Chaotic Evil
-HP 190, AC -6, THAC0 -3, Saving Throws 5/5/5/9/5
-4 Attacks Per Round, 2d6+15 Piercing Damage (Pincers & Claws +4)
+Glabrezu (15 Hit Dice):
+STR 20, DEX 10, CON 21, INT 16, WIS 17, CHA 16;  AL Chaotic Evil
+HP 160, AC -6, THAC0 1, Saving Throws 6/8/6/10/8
+4 Attacks Per Round, 2d6+12 Piercing Damage (Pincers & Claws +4)
 
 Special Qualities:
 Immune to weapons lower than +2 enchantment
@@ -2503,7 +2503,7 @@ Magic Resistance 50%
 Special Abilities:
 True Seeing (permanent)
 Mirror Image (once every 5 rounds)
-Remove Magic (once every 5 rounds)
+Dispel Magic (once every 5 rounds)
 Unholy Blight (once every 5 rounds)
 Confusion (once every 5 rounds)
 Power Word Stun (once every 5 rounds)~
@@ -2682,9 +2682,9 @@ Saving Throw: None
 
 By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Pit Fiend, the most powerful specimen of the Baatezu. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Mages are warned to be careful of this spell, for a mistreated Pit Fiend will turn on his summoner at the first available opportunity, tear him and his companions apart piece by piece and then feast on the remains.
 
-Pit Fiend (24 Hit Dice):
-STR 24, DEX 18, CON 18, INT 19, WIS 16, CHA 25;  AL Lawful Evil
-HP 230, AC -10, THAC0 -8, Saving Throws 3/3/3/8/3
+Pit Fiend (20 Hit Dice):
+STR 24, DEX 16, CON 19, INT 20, WIS 16, CHA 25;  AL Lawful Evil
+HP 170, AC -8, THAC0 -7, Saving Throws 4/6/4/8/6
 5 Attacks Per Round, 2d6+16 Piercing Damage (Claws, Bite, & Tail +4)
 
 Combat Abilities (20% chance each):
@@ -2696,12 +2696,13 @@ Special Qualities:
 Immune to weapons lower than +3 enchantment
 Immune to confusion, fear, poison, & stun effects
 Regeneration: 2hp/round
-Fire Resistance 100%; Acid & Cold Resistance 50%; Magic Resistance 65%
+Fire Resistance 100%; Cold Resistance 50%; Magic Resistance 65%
 
 Special Abilities:
+See Invisibility (permanent)
 Improved Invisibility (at will)
 Fireball (once every 5 rounds)
-Remove Magic (once every 5 rounds)
+Dispel Magic (once every 5 rounds)
 Symbol of Weakness (once every 5 rounds)
 Unholy Word (once per day)
 Meteor Swarm (once per day)~
@@ -2949,7 +2950,7 @@ This spell opens a celestial gate and calls forth a planetar to fight at the cas
 
 Planetar (18 Hit Dice):
 STR 19, DEX 19, CON 18, INT 18, WIS 21, CHA 22; AL Chaotic Good
-HP 198, AC -7, THAC0 -4, Saving Throws 3/5/4/4/6
+HP 152, AC -7, THAC0 1, Saving Throws 3/5/4/4/6
 3 Attacks Per Round, 2d6+10 Slashing Damage (Greatsword +3)
 Combat Abilities:
 Vorpal: 5% chance target must save vs. death at -6 or die
@@ -2984,10 +2985,10 @@ This spell opens an abyssal gate and calls forth a fallen planetar to fight at t
 
 Fallen Planetar (18 Hit Dice):
 STR 19, DEX 19, CON 18, INT 18, WIS 21, CHA 22; AL Chaotic Evil
-HP 198, AC -7, THAC0 -4, Saving Throws 3/5/4/4/6
+HP 152, AC -7, THAC0 1, Saving Throws 3/5/4/4/6
 3 Attacks Per Round, 2d6+10 Slashing Damage (Greatsword +3)
 Combat Abilities:
-Vorpal: 5% chance target must save vs. death at -6 or die
+Vorpal: 15% chance target must save vs. death at -2 or die
 
 Special Qualities:
 Immune to weapons lower than +3 enchantment
@@ -3114,15 +3115,13 @@ Combat Abilities:
 Petrifying Gaze
 Poison~
 
-@872=~~
-@873=~~
+@872=~Unholy Fireball~
 
+@873=~~
 @874=~~
 @875=~~
-
 @876=~~
 @877=~~
-
 @878=~~
 @879=~~
 
