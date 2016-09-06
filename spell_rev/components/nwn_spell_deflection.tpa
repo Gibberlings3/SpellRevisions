@@ -1,4 +1,6 @@
 
+ACTION_CLEAR_ARRAY spell
+
 ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
 
 // AoE spells with MR issue
