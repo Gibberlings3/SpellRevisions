@@ -1,5 +1,45 @@
 
 
+// Detectable Spells v3.95
+// February 3rd, 2016 - Yaroslav "Ardanis/GeN1e" Kalyuzhnyy
+//
+// Changes from previous version:
+//
+//  - the use of stats 176-182 now can be disabled
+
+// Detectable Spells v3.9xx
+// XX YYth, 201Z - Yaroslav "Ardanis/GeN1e" Kalyuzhnyy
+//
+// Changes from previous version:
+//
+//  - added new spell states
+
+// Detectable Spells v3.92
+// October 17th, 2014 - Yaroslav "Ardanis/GeN1e" Kalyuzhnyy
+//
+// Changes from previous version:
+//
+//  - added detection by effects' generic type
+//  - added potion detection
+
+// Detectable Spells v3.91
+// July 24th, 2014 - Yaroslav "Ardanis/GeN1e" Kalyuzhnyy
+//
+// Changes from previous version:
+//
+//  - fixed a couple of things with SPLSTATE.IDS support
+//  - added SPLSTATE.IDS entries to the main table
+
+
+// Detectable Spells v3.9
+// July 4th, 2014 - Yaroslav "Ardanis/GeN1e" Kalyuzhnyy
+// 
+// Changes from previous version:
+//  - fixed some things in the code
+//  - moved all extra files into the main installer TPH
+//  - added support for SPLSTATE.IDS states
+
+
 // Detectable Spells v3.1
 // 
 // Assembled by Ardanis/GeN1e, using DavidW's version (SCS) as a base
@@ -69,7 +109,22 @@ LAF ds_detectable_weapon_enchantment END
 
 // Define the table
 DEFINE_ACTION_FUNCTION detectable_spells_setup BEGIN
-<<<<<<<<...inlined/ds/ag#detectable_spells_v3.2da
+
+<<<<<<<<...inlined/ds/ag#detectable_spells_v4_stats_extra.2da
+FILE           OPCODE  PAR_1 PAR_2 CLONE  TICK  PATCH_WHAT //  DESCRIPTION
+SPWI108.SPL    282     1     20    142    n     A          //  PROTECTION_FROM_PETRIFICATION
+SPWI519.SPL    282     1     21    226    n     A          //  SPELL_SHIELD
+SPCL222.SPL    282     2     22    142    n     A          //  CAVALIER_REMOVE_FEAR
+SPPR108.SPL    282     2     22    142    n     A          //  RESIST_FEAR
+SPWI210.SPL    282     1     22    142    n     A          //  RESIST_FEAR
+SPRA303.SPL    282     1     23    142    n     A          //  STALKER_PROTECTION_FROM_NORMAL_MISSILES
+SPWI311.SPL    282     1     23    142    n     A          //  PROTECTION_FROM_NORMAL_MISSILES
+SPWI412.SPL    282     1     24    142    n     A          //  GREATER_MALISON
+SPWI511.SPL    282     1     25    142    n     A          //  PROTECTION_FROM_NORMAL_WEAPONS
+SPWI603.SPL    282     1     26    142    n     A          //  TENSER_TRANSFORMATION
+>>>>>>>>
+
+<<<<<<<<...inlined/ds/ag#detectable_spells_v4.2da
 FILE           OPCODE  PAR_1 PAR_2 CLONE  TICK  PATCH_WHAT //  DESCRIPTION
 
 SPCL900.SPL    282     4     3     142    n     A          //  HLA_WHIRLWIND_ATTACK
@@ -83,7 +138,7 @@ SPCL916.SPL    282     4     3     142    n     A          //  HLA_ASSASSINATION
 BALSHLD.SPL    233     1     125   232    n     A          //  ___FIRE_SHEILD_RED
 BHAAL1B.SPL    233     1     124   142    n     A          //  PC_TOB_REGENERATION
 BHAAL2A.SPL    282     4     5     142    n     A          //  PC_TOB_DRAW_UPON_HOLY_MIGHT
-DGARCHON.SPL   233     1     123   142    n     A          //  ___SHIELD_OF_THE_ARCHONS
+DGARCHON.SPL   233     1     123   201    n     A          //  ___SHIELD_OF_THE_ARCHONS
 DGFAITH.SPL    233     1     110   142    n     A          //  ___ARMOR_OF_FAITH
 DGRIGHT.SPL    282     6     5     142    n     A          //  ___RIGHTEOUS_MAGIC
 MARW401.SPL    282     2     9     188    n     A          //  ___AURA_CLEANSING
@@ -91,7 +146,6 @@ MELIS02.SPL    233     2     121   142    n     A          //  MELISSAN_BLADE_BA
 SPCL144.SPL    282     2     3     142    n     A          //  KENSAI_KAI
 SPCL152.SPL    282     1     3     142    n     A          //  BARBARIAN_RAGE
 SPCL213.SPL    233     1     117   142    n     A          //  PALADIN_PROTECTION_FROM_EVIL
-SPCL222.SPL    282     2     22    142    n     A          //  CAVALIER_REMOVE_FEAR
 SPCL232.SPL    233     1     118   142    n     A          //  INQUISITOR_TRUE_SIGHT
 SPCL233.SPL    233     1     117   142    n     A          //  ___PROTECTION_FROM_EVIL_TEN_FEET
 SPCL237.SPL    233     1     125   142    n     A          //  GREATER_SUN
@@ -116,7 +170,6 @@ SPIN696.SPL    233     1     118   220    n     A          //  MOON_DOG_SIGHT
 SPIN710.SPL    233     2     116   142    n     A          //  _SPELL_DEFLECTION_NO_VISUAL
 SPIN920.SPL    233     1     129   200    n     A          //  _BEHOLDER_SPELL_TURNING
 SPPR107.SPL    233     1     117   142    n     A          //  PROTECTION_FROM_EVIL
-SPPR108.SPL    282     2     22    142    n     A          //  RESIST_FEAR
 SPPR111.SPL    233     1     110   142    n     A          //  ARMOR_OF_FAITH
 SPPR202.SPL    282     1     4     142    n     A          //  BARKSKIN
 SPPR214.SPL    282     4     5     142    n     A          //  DRAW_UPON_HOLY_MIGHT
@@ -135,29 +188,21 @@ SPPR517.SPL    233     2     120   60     n     A          //  INSECT_PLAGUE
 SPPR603.SPL    233     2     121   142    n     A          //  BLADE_BARRIER
 SPPR613.SPL    233     1     122   197    n     A          //  PHYSICAL_MIRROR
 SPPR698.SPL    233     1     121   142    n     A          //  _NPC_BLADE_BARRIER
-SPPR701.SPL    233     1     123   142    n     A          //  SHIELD_OF_THE_ARCHONS
+SPPR701.SPL    233     1     123   201    n     A          //  SHIELD_OF_THE_ARCHONS
 SPPR711.SPL    233     1     124   142    n     A          //  REGENERATION
 SPPR717.SPL    233     3     120   60     n     A          //  CREEPING_DOOM
 SPPR725.SPL    233     1     121   142    n     A          //  HLA_GLOBE_OF_BLADES
 SPPR730.SPL    233     1     125   142    n     A          //  HLA_AURA_OF_FLAMING_DEATH
-SPRA302.SPL    233     1     116   142    n     A          //  STALKER_MINOR_SPELL_DEFLECTION
-SPRA303.SPL    282     1     23    142    n     A          //  STALKER_PROTECTION_FROM_NORMAL_MISSILES
+SPRA302.SPL    233     1     116   201    n     A          //  STALKER_MINOR_SPELL_DEFLECTION
 SPWI102.SPL    282     3     4     142    n     A          //  ARMOR
-SPWI108.SPL    282     1     20    142    n     A          //  PROTECTION_FROM_PETRIFICATION
 SPWI113.SPL    233     1     117   142    n     A          //  PROTECTION_FROM_EVIL
 SPWI114.SPL    282     2     4     142    n     A          //  SHIELD
-SPWI210.SPL    282     1     22    142    n     A          //  RESIST_FEAR
 SPWI214.SPL    282     2     5     142    n     A          //  STRENGTH
-SPWI311.SPL    282     1     23    142    n     A          //  PROTECTION_FROM_NORMAL_MISSILES
 SPWI317.SPL    282     4     4     142    n     A          //  GHOST_ARMOR
 SPWI318.SPL    233     1     116   201    n     A          //  MINOR_SPELL_DEFLECTION
 SPWI403.SPL    233     2     125   142    n     A          //  FIRE_SHIELD_BLUE
-SPWI412.SPL    282     1     24    142    n     A          //  GREATER_MALISON
 SPWI414.SPL    282     5     4     142    n     A          //  SPIRIT_ARMOR
 SPWI418.SPL    233     1     125   142    n     A          //  FIRE_SHIELD_RED
-SPWI510.SPL    282     1     6     142    n     A          //  SI_ABJURATION
-SPWI511.SPL    282     1     25    142    n     A          //  PROTECTION_FROM_NORMAL_WEAPONS
-SPWI519.SPL    282     1     21    226    n     A          //  SPELL_SHIELD
 SPWI522.SPL    233     1     129   200    n     A          //  MINOR_SPELL_TURNING
 SPWI590.SPL    282     1     6     142    n     A          //  SI_ABJURATION
 SPWI591.SPL    282     2     6     142    n     A          //  SI_CONJURATION
@@ -168,7 +213,6 @@ SPWI595.SPL    282     6     6     142    n     A          //  SI_EVOCATION
 SPWI596.SPL    282     7     6     142    n     A          //  SI_NECROMANCY
 SPWI597.SPL    282     8     6     142    n     A          //  SI_TRANSMUTATION
 SPWI603.SPL    282     1     3     142    n     A          //  TENSER_TRANSFORMATION
-SPWI603.SPL    282     1     26    142    n     A          //  TENSER_TRANSFORMATION
 SPWI606.SPL    233     1     126   142    n     A          //  PROTECTION_FROM_MAGICAL_ENERGY
 SPWI607.SPL    233     1     127   236    n     A          //  MISLEAD
 SPWI609.SPL    233     1     118   142    n     A          //  TRUE_SIGHT
@@ -203,11 +247,161 @@ IMMUNE3.ITM	   282     1     25    120    n     G
 IMMUNE4.ITM	   282     1     25    120    n     G
 IMMUNE3.ITM	   233     1     128   120    n     G
 IMMUNE4.ITM	   233     2     128   120    n     G
+POTN45.ITM     233     1     131   142    n     A          //  FREE_ACTION (Potion of Freedom)
 NMIMPERV.SPL   233     1     119   142    n     A
 NMIMPREG.SPL   233     1     119   142    n     A
 SPWISH17.SPL   282     1     9     142    n     A
 
+SPPR111.SPL    328     1     ARMOR_OF_FAITH                   142    n     A          //  ARMOR_OF_FAITH
+SPPR508.SPL    328     1     CHAOTIC_COMMANDS                 142    n     A          //  CHAOTIC_COMMANDS
+SPCL152.SPL    328     1     BARBARIAN_RAGE                   142    n     A          //  BARBARIAN_RAGE
+SPCL321.SPL    328     1     BERSERKER_RAGE                   142    n     A          //  BERSERKER_ENRAGE
+SPIN117.SPL    328     1     MINSC_BERSERK                    142    n     A          //  MINSC_BERSERK
+SPCL423.SPL    328     1     POISON_WEAPON                    142    n     A          //  ASSASSIN_POISON_WEAPON
+SPCL144.SPL    328     1     KENSAI_KIA                       142    n     A          //  KENSAI_KAI
+SPDWD02.SPL    328     1     DEFENSIVE_STANCE                 142    n     A          //  Defensive Stance
+SPCL121.SPL    328     1     ARCHER_CALL_SHOT                 142    n     A          //  Called Shot
+SPWI222.SPL    328     1     CHAOS_SHIELD                     142    n     A          //  Chaos Shield
+SPWI723.SPL    328     1     IMPROVED_CHAOS_SHIELD            142    n     A          //  Improved Chaos Shield
+SPCL542A.SPL   328     1     SKALD_SONG                       142    n     A          //  Skald Song
+SPCL751A.SPL   328     1     JESTER_SONG                      142    n     A          //  Jester Song
+POTN21.ITM     328     1     POTION_OF_CLARITY                142    n     A          //  Potion of Clarity
+POTN33.ITM     328     1     POTION_OF_MAGIC_BLOCKING         142    n     A          //  Potion of Magic Blocking
+SCRL07.ITM     328     1     SCROLL_OF_PROTECTION_FROM_MAGIC  142    n     A          //  Protection From Magic
+SCRL09.ITM     328     1     SCROLL_OF_PROTECTION_FROM_UNDEAD 142    n     A          //  Protection From Undead
+
+SPCL222.SPL    328     1     RESIST_FEAR                      142    n     A          //  CAVALIER_REMOVE_FEAR
+SPRA303.SPL    328     1     PROTECTION_FROM_NORMAL_MISSILES  142    n     A          //  STALKER_PROTECTION_FROM_NORMAL_MISSILES
+SPPR108.SPL    328     1     RESIST_FEAR                      142    n     A          //  RESIST_FEAR
+SPWI210.SPL    328     1     RESIST_FEAR                      142    n     A          //  RESIST_FEAR
+SPWI108.SPL    328     1     PROTECTION_FROM_PETRIFICATION    142    n     A          //  PROTECTION_FROM_PETRIFICATION
+SPWI519.SPL    328     1     SPELL_SHIELD                     226    n     A          //  SPELL_SHIELD
+SPWI311.SPL    328     1     PROTECTION_FROM_NORMAL_MISSILES  142    n     A          //  PROTECTION_FROM_NORMAL_MISSILES
+SPWI511.SPL    328     1     PROTECTION_FROM_NORMAL_WEAPONS   142    n     A          //  PROTECTION_FROM_NORMAL_WEAPONS
+SPWI603.SPL    328     1     TENSERS_TRANSFORMATION           142    n     A          //  TENSER_TRANSFORMATION
+
+BALSHLD.SPL    328     1     RED_FIRESHIELD            232    n     A          //  ___FIRE_SHEILD_RED
+SPCL237.SPL    328     1     RED_FIRESHIELD            142    n     A          //  GREATER_SUN
+SPCL721.SPL    328     1     STORM_SHELL               142    n     A          //  STORM_SHELL
+SPCL907.SPL    328     1     HARDINESS                 142    n     A          //  HLA_HARDINESS
+SPPR113.SPL    328     1     DOOM                      142    n     A          //  DOOM
+SPPR116.SPL    328     1     FAERIE_FIRE               142    n     A          //  FAERIE_FIRE
+SPPR202.SPL    328     1     BARKSKIN                  142    n     A          //  BARKSKIN
+SPPR310.SPL    328     1     MISCAST_MAGIC             142    n     A          //  MISCAST_MAGIC
+SPPR409.SPL    328     1     DEATH_WARD                142    n     A          //  DEATH_WARD
+SPPR412.SPL    328     1     HOLY_POWER                142    n     A          //  HOLY_POWER
+SPWI224.SPL    328     1     GLITTERDUST               142    n     A          //  GLITTERDUST
+SPWI403.SPL    328     1     BLUE_FIRESHIELD           142    n     A          //  FIRE_SHIELD_BLUE
+SPWI411.SPL    328     1     HOPELESSNESS              142    n     A          //  HOPELESSNESS
+SPWI412.SPL    328     1     MALISON                   142    n     A          //  GREATER_MALISON
+SPWI413a.SPL   328     1     OTILUKES_RESILIENT_SPHERE 142    n     A          //  OTILUKES_RESILIENT_SPHERE
+SPWI418.SPL    328     1     RED_FIRESHIELD            142    n     A          //  FIRE_SHIELD_RED
+SPWI590.SPL    328     1     SI_ABJURATION             142    n     A          //  SI_ABJURATION
+SPWI591.SPL    328     1     SI_CONJURATION            142    n     A          //  SI_CONJURATION
+SPWI592.SPL    328     1     SI_DIVINATION             142    n     A          //  SI_DIVINATION
+SPWI593.SPL    328     1     SI_ENCHANTMENT            142    n     A          //  SI_ENCHANTMENT
+SPWI594.SPL    328     1     SI_ILLUSION               142    n     A          //  SI_ILLUSION
+SPWI595.SPL    328     1     SI_EVOCATION              142    n     A          //  SI_EVOCATION
+SPWI596.SPL    328     1     SI_NECROMANCY             142    n     A          //  SI_NECROMANCY
+SPWI597.SPL    328     1     SI_TRANSMUTATION          142    n     A          //  SI_TRANSMUTATION
+
+SPCL232.SPL    328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  TRUE_SIGHT
+SPCL232D.SPL   328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  
+SPPR505.SPL    328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  TRUE_SEEING
+SPPR505D.SPL   328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  
+SPPR950.SPL    328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  
+SPWI224.SPL    328     1     CANNOT_TURN_INVISIBLE     142    n     A          //  GLITTERDUST
+SPWI609.SPL    328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  TRUE_SIGHT
+SPWI609D.SPL   328     1     CANNOT_TURN_INVISIBLE     221    7     A          //  
+
+SPPR613.SPL    328     1     BUFF_PRO_WEAPONS          197    n     A          //  PHYSICAL_MIRROR
+SPRA303.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  STALKER_PROTECTION_FROM_NORMAL_MISSILES
+SPWI311.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  PROTECTION_FROM_NORMAL_MISSILES
+SPWI511.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  PROTECTION_FROM_NORMAL_WEAPONS
+SPWI611.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  PROTECTION_FROM_MAGICAL_WEAPONS
+SPWI708.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  MANTLE
+SPWI808.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  IMPROVED_MANTLE
+SPWI907.SPL    328     1     BUFF_PRO_WEAPONS          142    n     A          //  ABSOLUTE_IMMUNITY
+
+SPCL237.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  GREATER_SUN
+SPCL721.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  STORM_SHELL
+SPPR730.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  HLA_AURA_OF_FLAMING_DEATH
+SPPR210.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  RESIST_FIRE_AND_COLD
+SPPR306.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_FIRE
+SPPR407.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_LIGHTNING
+SPWI319.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_FIRE
+SPWI320.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_COLD
+SPWI403.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  FIRE_SHIELD_BLUE
+SPWI418.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  FIRE_SHIELD_RED
+SPWI512.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_ELECTRICITY
+SPWI517.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_ACID
+SPWI606.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_MAGICAL_ENERGY
+SPWI702.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_ELEMENTS
+SPWI803.SPL    328     1     BUFF_PRO_DAMAGE           142    n     A          //  PROTECTION_FROM_ENERGY
+POTN02.ITM     328     1     BUFF_PRO_DAMAGE           142    n     A          //  POTION_OF_FIRE_RESISTANCE
+POTN18.ITM     328     1     BUFF_PRO_DAMAGE           142    n     A          //  POTION_OF_ABSORBTION
+POTN22.ITM     328     1     BUFF_PRO_DAMAGE           142    n     A          //  POTION_OF_COLD_RESISTANCE
+POTN31.ITM     328     1     BUFF_PRO_DAMAGE           142    n     A          //  POTION_OF_INSULATION
+POTN35.ITM     328     1     BUFF_PRO_DAMAGE           142    n     A          //  POTION_OF_MAGIC_SHIELDING
+
+SPPR701.SPL    328     1     BUFF_PRO_SPELLS           201    n     A          //  SHIELD_OF_THE_ARCHONS
+SPRA302.SPL    328     1     BUFF_PRO_SPELLS           201    n     A          //  STALKER_MINOR_SPELL_DEFLECTION
+SPWI318.SPL    328     1     BUFF_PRO_SPELLS           201    n     A          //  MINOR_SPELL_DEFLECTION
+SPWI406.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  MINOR_GLOBE_OF_INVULNERABILITY
+SPWI519.SPL    328     1     BUFF_PRO_SPELLS           226    n     A          //  SPELL_SHIELD
+SPWI522.SPL    328     1     BUFF_PRO_SPELLS           200    n     A          //  MINOR_SPELL_TURNING
+SPWI590.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_ABJURATION
+SPWI591.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_CONJURATION
+SPWI592.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_DIVINATION
+SPWI593.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_ENCHANTMENT
+SPWI594.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_ILLUSION
+SPWI595.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_EVOCATION
+SPWI596.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_NECROMANCY
+SPWI597.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  SI_TRANSMUTATION
+SPWI602.SPL    328     1     BUFF_PRO_SPELLS           142    n     A          //  GLOBE_OF_INVULNERABILITY
+SPWI618.SPL    328     1     BUFF_PRO_SPELLS           201    n     A          //  SPELL_DEFLECTION
+SPWI701.SPL    328     1     BUFF_PRO_SPELLS           200    n     A          //  SPELL_TURNING
+SPWI902.SPL    328     1     BUFF_PRO_SPELLS           259    n     A          //  SPELL_TRAP
+POTN33.ITM     328     1     BUFF_PRO_SPELLS           102    n     A          //  POTION_OF_MAGIC_BLOCKING
+
+SPPR108.SPL    328     1     BUFF_PRO_EFFECTS          142    n     A          //  RESIST_FEAR
+SPPR403.SPL    328     1     BUFF_PRO_EFFECTS          142    n     A          //  FREE_ACTION
+SPPR409.SPL    328     1     BUFF_PRO_EFFECTS          142    n     A          //  DEATH_WARD
+SPPR508.SPL    328     1     BUFF_PRO_EFFECTS          142    n     A          //  CHAOTIC_COMMANDS
+SPWI210.SPL    328     1     BUFF_PRO_EFFECTS          142    n     A          //  RESIST_FEAR
+POTN21.ITM     328     1     BUFF_PRO_EFFECTS          142    n     A          //  POTION_OF_CLARITY
+POTN45.ITM     328     1     BUFF_PRO_EFFECTS          142    n     A          //  POTION_OF_FREEDOM
+
+BHAAL2A.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  PC_TOB_DRAW_UPON_HOLY_MIGHT
+SPPR214.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  DRAW_UPON_HOLY_MIGHT
+SPPR312.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  STRENGTH_OF_ONE
+SPPR412.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  HOLY_POWER
+SPPR507.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  CHAMPION_STRENGTH
+SPPR508.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  CHAOTIC_COMMANDS
+SPPR513.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  RIGHTEOUS_MAGIC
+SPPR603.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  BLADE_BARRIER
+SPPR698.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  _NPC_BLADE_BARRIER
+SPPR730.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  HLA_AURA_OF_FLAMING_DEATH
+SPWI214.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  STRENGTH
+SPWI403.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  FIRE_SHIELD_BLUE
+SPWI418.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  FIRE_SHIELD_RED
+SPWI603.SPL    328     1     BUFF_ENHANCEMENT          142    n     A          //  TENSER_TRANSFORMATION
+POTN03.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_HILL_GIANT_STRENGTH
+POTN04.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_FROST_GIANT_STRENGTH
+POTN05.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_FIRE_GIANT_STRENGTH
+POTN06.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_CLOUD_GIANT_STRENGTH
+POTN07.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_STORM_GIANT_STRENGTH
+POTN09.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_HEROISM
+POTN12.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_STONE_GIANT_STRENGTH
+POTN41.ITM     328     1     BUFF_ENHANCEMENT          142    n     A          //  POTION_OF_POWER
+
+SPCL152.SPL    328     1     STATE_ENRAGED             142    n     A          //  BARBARIAN_RAGE
+SPCL321.SPL    328     1     STATE_ENRAGED             142    n     A          //  BERSERKER_ENRAGE
+SPIN117.SPL    328     1     STATE_ENRAGED             142    n     A          //  MINSC_BERSERK
+OHRRAGE.SPL    328     1     STATE_ENRAGED             142    n     A          //  WILSON RAGE
+
 >>>>>>>>
+
 END // end of function
 
 //////////////////////////////////////////////////////////////////////////////////////
@@ -233,13 +427,16 @@ END // end of function
 DEFINE_ACTION_FUNCTION detectable_spells
   INT_VAR
     append_stats = 1
+    use_stats_176_182 = 1 // use stats 176-182, disabled for official BG:EE / BGII:EE release
     fix_khelben = 1
     fix_old_ds = 1
     install_ds = 1
   STR_VAR
     path = ~~
-    table = ~...inlined/ds/ag#detectable_spells_v3.2da~
-    default = ~...inlined/ds/ag#detectable_spells_v3.2da~
+  //  table = ~...inlined/ds/ag#detectable_spells_v4.2da~
+    table = ~~
+    default = ~...inlined/ds/ag#detectable_spells_v4.2da~
+    extra = ~...inlined/ds/ag#detectable_spells_v4_stats_extra.2da~
   BEGIN
 
 //////////////////////////////////////////////////////////////////////////////////////
@@ -248,7 +445,7 @@ DEFINE_ACTION_FUNCTION detectable_spells
 ACTION_IF append_stats = 1 BEGIN
 
 <<<<<<<<...inlined/ds/stats.2da
-109 CLERIC_HALLOW
+109 WEAPON_ENCHANTMENT
 110 CLERIC_ARMOR_OF_FAITH
 116 WIZARD_SPELL_DEFLECTION
 117 PROTECTION_FROM_EVIL
@@ -279,16 +476,38 @@ ACTION_IF append_stats = 1 BEGIN
 163 WIZARD_PROTECTION_FROM_ENERGY
 164 WIZARD_SPELL_TRAP
 165 WIZARD_IMPROVED_ALACRITY
-166 DMWW_SLOT_166
-167 DMWW_SLOT_167
-168 DMWW_SLOT_168
-169 DMWW_SLOT_169
-170 DMWW_SLOT_170
-171 DMWW_SLOT_171
-172 DMWW_SLOT_172
-173 DMWW_SLOT_173
-174 DMWW_SLOT_174
-175 DMWW_SLOT_175
+166 MELEE_THACO_BONUS
+167 MELEE_DAMAGE_BONUS
+168 MISSILE_DAMAGE_BONUS
+169 DISABLE_CIRCLE
+170 FIST_THACO_BONUS
+171 FIST_DAMAGE_BONUS
+172 CLASS_STRING_OVERRIDE_MIXED
+173 CLASS_STRING_OVERRIDE_LOWER
+174 PREVENT_SPELL_PROTECTION_EFFECTS
+175 IMMUNITY_TO_BACKSTAB
+176 LOCKPICKINGMTPBONUS
+177 MOVESILENTLYMTPBONUS
+178 TRAPSMTPBONUS
+179 PICKPOCKETMTPBONUS
+180 HIDEINSHADOWSMTPBONUS
+181 DETECTILLUSIONSMTPBONUS
+182 SETTRAPSMTPBONUS
+183 PREVENT_AI_SLOWDOWN
+184 EXISTANCE_DELAY_OVERRIDE
+185 ANIMATION_ONLY_HASTE
+186 NO_PERMANENT_DEATH
+187 IMMUNE_TO_TURN_UNDEAD
+200 LEVELDRAIN
+>>>>>>>>
+
+<<<<<<<<...inlined/ds/stats_extra.2da
+156 WING_BUFFET
+157 DEATH_WARD
+158 LEVEL_DRAIN_IMMUNITY
+159 OFFENSIVE_MODIFIER
+160 DEFENSIVE_MODIFIER
+161 STRENGTH_MODIFIER
 176 WIZARD_PROTECTION_FROM_PETRIFICATION
 177 WIZARD_SPELL_SHIELD
 178 WIZARD_RESIST_FEAR
@@ -296,13 +515,8 @@ ACTION_IF append_stats = 1 BEGIN
 180 WIZARD_GREATER_MALISON
 181 WIZARD_PROTECTION_FROM_NORMAL_WEAPONS
 182 WIZARD_TENSERS_TRANSFORMATION
-183 DMWW_SLOT_183
-184 DMWW_SLOT_184
-185 DMWW_SLOT_185
-186 DMWW_SLOT_186
-187 DMWW_SLOT_187
-200 LEVELDRAIN
 >>>>>>>>
+
   COPY_EXISTING stats.ids override
     INSERT_FILE SOURCE_SIZE ~...inlined/ds/stats.2da~
   LAM ds_sort_stats_ids
@@ -333,19 +547,39 @@ END
 
 ACTION_IF install_ds = 1 BEGIN
 
+ACTION_IF FILE_EXISTS ~tobex.dll~ BEGIN
+  OUTER_SET engine_is_tobex = 1
+END ELSE BEGIN
+  OUTER_SET engine_is_tobex = 0
+END
+
 ACTION_IF FILE_EXISTS_IN_GAME ~spdm101.spl~ BEGIN // Dark Moon Monk, Blindness innate
   OUTER_SET engine_is_bgee = 1
 END ELSE BEGIN
   OUTER_SET engine_is_bgee = 0
 END
 
+ACTION_IF FILE_EXISTS_IN_GAME ~splstate.ids~ BEGIN
+  OUTER_SET engine_is_sod = 1
+END ELSE BEGIN
+  OUTER_SET engine_is_sod = 0
+END
+
 LAF detectable_spells_setup END
 
+OUTER_SET allow_stats_extra = 0
 ACTION_IF ~%path%~ STR_CMP ~~ BEGIN
   OUTER_SPRINT table ~%path%/%table%~
 END
-ACTION_IF NOT FILE_EXISTS ~%table%~ BEGIN
-  OUTER_SPRINT table ~%default%~
+ACTION_TRY // this is a mere file existance check by attempting to load it, because FILE_EXISTS doesn't return true for virtual files
+  COPY - ~%table%~ ~ag#detectable_spells_v4_custom.2da~
+WITH
+  DEFAULT
+    ACTION_IF ~%table%~ STR_CMP ~~ BEGIN // if user specified a custom string
+      PRINT "Detectable Spells: Unable to locate ~%table%~, using default 2DA instead"
+    END
+    OUTER_SPRINT table ~%default%~
+    OUTER_SET allow_stats_extra = 1
 END
 
 ////////////////////
@@ -357,6 +591,10 @@ ACTION_IF FILE_EXISTS_IN_GAME ~ag#dsal2.2da~ BEGIN
 END
 
 COPY - ~%table%~ ~override~
+  PATCH_IF allow_stats_extra = 1 && use_stats_176_182 = 1 BEGIN
+    INSERT_FILE SOURCE_SIZE ~%extra%~
+  END
+    
   READ_2DA_ENTRIES_NOW ds_table 7
   FOR (r=0;r<ds_table;r+=1) BEGIN
     READ_2DA_ENTRY_FORMER ds_table r 0 file
@@ -369,6 +607,7 @@ COPY - ~%table%~ ~override~
 
     PATCH_IF FILE_EXISTS_IN_GAME EVAL ~%file%~ BEGIN
       abort=0
+      ids=2
 
       // check if this spell has been altered and it's original clonable opcode is no longer reliable
       FOR (k=1;k<ds_alter;k+=1) BEGIN  // skip the first row with column descriptions
@@ -377,35 +616,60 @@ COPY - ~%table%~ ~override~
           k=ds_alter
         END
       END
+      
+      // check the platform
+      PATCH_IF new_op=318 BEGIN // only add #318 opcode if it's ToBEx
+        abort = (engine_is_tobex = 0) ? 1 : 0
+      END
+      PATCH_IF new_op=328 BEGIN // only add #328 opcode if it's EE+
+        abort = (engine_is_sod = 0) ? 1 : 0
+      END
+      PATCH_IF new_op=328 && abort=0 BEGIN // SoD
+        // skipping EXTSTATE.IDS, since it's short and is already almost full
+      //  ids = (p1 = 0) ? 0 : 1 // 0 = extstate.ids, 1 = splstate.ids, 2 = stats.ids
+        ids = 1 // 0 = extstate.ids, 1 = splstate.ids, 2 = stats.ids
+        p1 = 0
+      END
 
       // resolve stat's index, if it was defined as a string
       PATCH_IF NOT (IS_AN_INT ~%p2%~) BEGIN
-        INNER_ACTION BEGIN
-          LAF ds_resolve_stat STR_VAR id= EVAL ~%p2%~ RET stat_ind=stat_ind END
-        END
-        PATCH_IF stat_ind>200 && new_op != 318 && engine_is_bgee = 0 BEGIN
-          PATCH_PRINT ~Warning: unable to add %p2% to STATS.IDS! New stats may not be added on the fly if they don't use ToBEx's 318th opcode!~
-          abort=1
+      
+      //  PATCH_IF abort=0 BEGIN
+      // add new stat anyway - even if it turns out illegit, it's still needed to avoid script compilation errors
+      //                       i.e. the user will be able to install a mod regardless, it just won't function to its full capacity
           INNER_ACTION BEGIN
-            LAF ds_resolve_stat INT_VAR index=stat_ind delete=1 END
+            LAF ds_resolve_stat INT_VAR ids STR_VAR id= EVAL ~%p2%~ RET stat_ind=stat_ind END
           END
-        END
-        PATCH_IF stat_ind<201 && new_op=318 && engine_is_bgee=0 BEGIN
-          PATCH_PRINT ~Warning: %p2% already exists in %stat_ind%th slot! ToBEx's 318th opcode may not use values below 401!~
-          abort=1
-        END
-        PATCH_IF new_op=318 && engine_is_bgee=1 BEGIN
-          new_op=233
-        END
-        PATCH_IF new_op=282 BEGIN // scripting states start from 156
-          stat_ind -= 156
-          PATCH_IF stat_ind<0 BEGIN
-            PATCH_PRINT ~Warning: unable to resolve %p2%! Scripting states may not exist in slots below 156th!~
+          PATCH_IF stat_ind>200 && new_op != 318 && ids=2 BEGIN
+            PATCH_PRINT ~Detectable Spells: Warning: unable to add %p2% to STATS.IDS! New stats may not be added on the fly if they don't use ToBEx's 318th opcode!~
+            abort=1
+          //  INNER_ACTION BEGIN
+          //    LAF ds_resolve_stat INT_VAR index=stat_ind delete=1 END
+          //  END
+          END
+          PATCH_IF (stat_ind>31 && ids=0) || (stat_ind>255 && ids=1) BEGIN // extstate.ids has 32 max, splstate.ids has 255 max
+            PATCH_PRINT ~Detectable Spells: Warning: maximum number of IDS entries is reached!~
+            abort=1
+          //  INNER_ACTION BEGIN
+          //    LAF ds_resolve_stat INT_VAR ids index=stat_ind delete=1 END
+          //  END
+          END
+          PATCH_IF stat_ind<201 && new_op=318 BEGIN
+            PATCH_PRINT ~Detectable Spells: Warning: %p2% already exists in %stat_ind%th slot! ToBEx's 318th opcode may not use values below 401!~
             abort=1
           END
-        END
-        p2=stat_ind
+          PATCH_IF new_op=282 BEGIN // scripting states start from 156
+            stat_ind -= 156
+            PATCH_IF stat_ind<0 BEGIN
+              PATCH_PRINT ~Detectable Spells: Warning: unable to resolve %p2%! Scripting states may not exist in slots below 156th!~
+              abort=1
+            END
+          END
+          p2=stat_ind
+      //  END
+          
       END
+      
     END ELSE BEGIN
       abort=1
     END
@@ -484,14 +748,24 @@ DEFINE_PATCH_MACRO ds_eval BEGIN
             WRITE_LONG 0xc 0
             WRITE_LONG 0xe dur+tick
           END
+          PATCH_IF (ids=0 || ids=1) BEGIN // 0 = extstate.ids, 1 = splstate.ids
+            WRITE_LONG 0x2c ids
+          END
         END
       END
     END
     PATCH_IF opcode=new_op BEGIN // if detectable stat exists
       READ_LONG offset+4 par1
       READ_LONG offset+8 par2
-      PATCH_IF (par1=p1) && (par2=p2) BEGIN
-        READ_ASCII offset $detectable("%i%") (0x30)
+      READ_LONG offset+0x2c ids_type
+      PATCH_IF (ids=0 || ids=1) BEGIN
+        PATCH_IF (par2=p2) && (ids_type=ids) BEGIN
+          READ_ASCII offset $detectable("%i%") (0x30)
+        END
+      END ELSE BEGIN
+        PATCH_IF (par1=p1) && (par2=p2) BEGIN
+          READ_ASCII offset $detectable("%i%") (0x30)
+        END
       END
     END
   END
@@ -576,7 +850,7 @@ COPY_EXISTING ~spwi705.spl~ override
   END
   PATCH_IF SOURCE_SIZE != ef_off+total*0x30 BEGIN
     repair=1
-    PATCH_PRINT ~SPWI705.SPL is broken, attempting to repair the file~
+    PATCH_PRINT ~Detectable Spells: SPWI705.SPL is broken, attempting to repair the file~
   END
 
   PATCH_IF repair BEGIN
@@ -590,7 +864,7 @@ COPY_EXISTING ~spwi705.spl~ override
     END
     PATCH_IF size > 0 && size < 0x30 BEGIN
       fubar=1
-      PATCH_PRINT ~SPWI705.SPL is broken in unknown manner, restoring from a backup~
+      PATCH_PRINT ~Detectable Spells: SPWI705.SPL is broken in unknown manner, restoring from a backup~
     END
 
     // check if the first effect in each header is the expected 233/1/132
@@ -608,7 +882,7 @@ COPY_EXISTING ~spwi705.spl~ override
               && (opcode!=282 || par1!=0 || par2!=21)  // 
         BEGIN
           fubar=1
-          PATCH_PRINT ~SPWI705.SPL is broken in unknown manner, restoring from a backup~
+          PATCH_PRINT ~Detectable Spells: SPWI705.SPL is broken in unknown manner, restoring from a backup~
         END
       END
     END
@@ -655,7 +929,7 @@ COPY_EXISTING ~spwi705.spl~ override
         END
         WRITE_SHORT ab_off+i*0x28+0x1e ef_num+local_delta
       END
-      PATCH_PRINT ~SPWI705.SPL has been repaired~
+      PATCH_PRINT ~Detectable Spells: SPWI705.SPL has been successfully repaired~
     END
 
   END // PATCH_IF repair=1
@@ -706,6 +980,14 @@ END // end of macro
 
 DEFINE_ACTION_MACRO ds_sort_stats_ids BEGIN
 
+COPY - ~...inlined/ds/stats_extra.2da~ override
+  READ_2DA_ENTRIES_NOW stats 2
+  FOR (i=0;i<stats;i+=1) BEGIN
+    READ_2DA_ENTRY_FORMER stats i 0 num
+    READ_2DA_ENTRY_FORMER stats i 1 str
+    SPRINT $arr3("%num%") ~%str%~
+  END
+
 COPY_EXISTING - stats.ids override
   max=1
   READ_2DA_ENTRIES_NOW stats 2
@@ -723,7 +1005,10 @@ COPY_EXISTING - stats.ids override
         min = (i2<min) ? i2 : min
       END
     END
-    SPRINT $stats("%min%") $arr2("%min%")
+    SPRINT $stats("%min%""core") $arr2("%min%")
+    PATCH_IF VARIABLE_IS_SET $arr3("%min%") BEGIN
+      SPRINT $stats("%min%""append") $arr3("%min%")
+    END
     SPRINT $arr2("%min%") ~~
   END
 
@@ -738,11 +1023,15 @@ END
 
 //////////////////////////////////////////////////////////////////////////////////////
 
-DEFINE_ACTION_FUNCTION ds_resolve_stat INT_VAR index=0 delete=0 RET stat_ind BEGIN
+DEFINE_ACTION_FUNCTION ds_resolve_stat INT_VAR ids=2 index=0 delete=0 RET stat_ind BEGIN
 
-COPY_EXISTING stats.ids override
+OUTER_SPRINT ids_file stats OUTER_SET min_new=401
+
+ACTION_IF ids=0 BEGIN OUTER_SPRINT ids_file extstate OUTER_SET min_new=0 END
+ACTION_IF ids=1 BEGIN OUTER_SPRINT ids_file splstate OUTER_SET min_new=0 END
+
+COPY_EXISTING ~%ids_file%.ids~ override
   stat_ind=0
-  min_new=401
   found=0
 
   READ_2DA_ENTRIES_NOW stats 2
@@ -821,22 +1110,22 @@ END
 DEFINE_ACTION_MACRO ds_fix_old_scripts BEGIN
 
 <<<<<<<<...inlined/ds/ag#old_ds_swap.2da
-SCRIPTINGSTATE6 	WIZARD_SPELL_DEFLECTION
-WIZARD_SPELL_IMMUNITY 	WIZARD_SPELL_TURNING
-DMWW_SLOT_166		PROTECTION_FROM_EVIL
-DMWW_SLOT_167		TRUE_SIGHT
-DMWW_SLOT_168		CLERIC_CHAOTIC_COMMANDS
-DMWW_SLOT_170		CLERIC_INSECT_PLAGUE
-DMWW_SLOT_171		CLERIC_BLADE_BARRIER
-DMWW_SLOT_172		CLERIC_PHYSICAL_MIRROR
-DMWW_SLOT_173		CLERIC_SHIELD_OF_THE_ARCHONS
-DMWW_SLOT_174		CLERIC_REGENERATION
-DMWW_SLOT_175		CLERIC_INSECT_PLAGUE
-DMWW_SLOT_183		WIZARD_PROTECTION_FROM_MAGIC_ENERGY
-DMWW_SLOT_184		WIZARD_MISLEAD
-DMWW_SLOT_185		WIZARD_PROTECTION_FROM_MAGIC_WEAPONS
-DMWW_SLOT_186		WIZARD_SPELL_IMMUNITY
-DMWW_SLOT_187		WIZARD_PROTECTION_FROM_THE_ELEMENTS
+SCRIPTINGSTATE6 	                  WIZARD_SPELL_DEFLECTION
+WIZARD_SPELL_IMMUNITY 	            WIZARD_SPELL_TURNING
+MELEE_THACO_BONUS		                PROTECTION_FROM_EVIL
+MELEE_DAMAGE_BONUS		              TRUE_SIGHT
+MISSILE_DAMAGE_BONUS		            CLERIC_CHAOTIC_COMMANDS
+FIST_THACO_BONUS                		CLERIC_INSECT_PLAGUE
+FIST_DAMAGE_BONUS		                CLERIC_BLADE_BARRIER
+CLASS_STRING_OVERRIDE_MIXED		      CLERIC_PHYSICAL_MIRROR
+CLASS_STRING_OVERRIDE_LOWER		      CLERIC_SHIELD_OF_THE_ARCHONS
+PREVENT_SPELL_PROTECTION_EFFECTS		CLERIC_REGENERATION
+IMMUNITY_TO_BACKSTAB	            	CLERIC_INSECT_PLAGUE
+PREVENT_AI_SLOWDOWN	                WIZARD_PROTECTION_FROM_MAGIC_ENERGY
+EXISTANCE_DELAY_OVERRIDE	          WIZARD_MISLEAD
+ANIMATION_ONLY_HASTE	              WIZARD_PROTECTION_FROM_MAGIC_WEAPONS
+NO_PERMANENT_DEATH		              WIZARD_SPELL_IMMUNITY
+IMMUNE_TO_TURN_UNDEAD		            WIZARD_PROTECTION_FROM_THE_ELEMENTS
 >>>>>>>>
 
 COPY - ~...inlined/ds/ag#old_ds_swap.2da~ override
