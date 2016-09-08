@@ -1,0 +1,99 @@
+/////PETRIFICATION/// 
+
+
+
+ADD_SECTYPE ~k1#Petrify~ @1  // string to counter Petrify - "Petrification effect removed", whatever
+
+COPY_EXISTING ~msectype.2da~ ~override~
+  COUNT_2DA_ROWS "2" "sectype_k1#Petrify"
+  SET "sectype_k1#Petrify" -= "2"
+  PRETTY_PRINT_2DA
+  
+  //// GLOBAL PATCH ///
+  
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~  
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    READ_LONG 0x64 ab_off
+    READ_SHORT 0x68 ab_num
+    READ_LONG 0x6a ef_off
+    FOR (i=0;i<ab_num;i+=1) BEGIN
+      READ_SHORT (ab_off+i*0x38+0x1e) ef_num
+      READ_SHORT (ab_off+i*0x38+0x20) ef_ind
+      FOR (k=0;k<ef_num;k+=1) BEGIN
+        READ_SHORT (ef_off+(ef_ind+k)*0x30) opcode
+        PATCH_IF opcode=134 BEGIN
+		WRITE_BYTE 0x8B "%sectype_k1#Petrify%" 
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 40  timing = 0 duration = 18 savingthrow = 0 silent = 1 END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 141 timing = 0 duration = 0 savingthrow = 0  silent = 1 END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 142 timing = 0 duration = 0 parameter1 = 41 savingthrow = 0 silent = 1  END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 139 timing = 0 duration = 0 savingthrow = 0 parameter1 = 14668  silent = 1 END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 146 parameter2 = 1 timing = 4 duration = 6 savingthrow = 0 STR_VAR resource = spwi604d  silent = 1 END
+END
+
+END
+END END
+BUT_ONLY
+
+
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    SET found_petrify=0
+    READ_LONG 0x64 ab_off
+    READ_SHORT 0x68 ab_num
+    READ_LONG 0x6a ef_off
+    FOR (i=0;i<ab_num;i+=1) BEGIN
+      READ_SHORT (ab_off+i*0x28+0x1e) ef_num
+      READ_SHORT (ab_off+i*0x28+0x20) ef_ind
+      FOR (k=0;k<ef_num;k+=1) BEGIN
+        READ_SHORT (ef_off+(k+ef_ind)*0x30) opcode
+        PATCH_IF opcode=134 BEGIN
+          SET found_petrify=1
+          PATCH_IF found_petrify=1 BEGIN
+		  WRITE_BYTE 0x27 "%sectype_k1#Petrify%" 
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 40  timing = 0 duration = 18 savingthrow = 0 silent = 1 END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 141 timing = 0 duration = 0 savingthrow = 0  silent = 1 END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 142 timing = 0 duration = 0 parameter2 = 41 savingthrow = 0 silent = 1  END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 139 timing = 0 duration = 0 savingthrow = 0 parameter1 = 14668  silent = 1 END
+LPF CLONE_EFFECT INT_VAR match_opcode = 134 opcode = 146 timing = 4 duration = 6 savingthrow = 0 parameter2 = 1 STR_VAR resource = spwi604d  silent = 1 END
+END
+END
+END
+END
+END
+BUT_ONLY 
+ 
+
+ /// all items/spells using Flesh to Stone remove sectype
+ 
+COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+LPF CLONE_EFFECT INT_VAR match_opcode = 43 opcode = 221  parameter2 = %sectype_k1#Petrify% silent = 1 END
+END
+BUT_ONLY
+
+ COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
+ PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+ LPF CLONE_EFFECT INT_VAR match_opcode = 43 opcode = 221  parameter2 = %sectype_k1#Petrify% silent = 1 END
+ END
+ BUT_ONLY
+ 
+
+ 
+COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 134 END END
+
+
+ COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+LPF DELETE_ITEM_EFFECT INT_VAR opcode_to_delete = 134 END END
+ 
+  // SR spells don't use Haste opcode so are handled seperately //
+  
+  
+COPY_EXISTING ~spwi604.spl~ ~override~    
+WRITE_BYTE 0x27 "%sectype_k1#Petrify%" 
+BUT_ONLY
+ 
+ 
