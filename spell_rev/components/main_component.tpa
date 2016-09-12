@@ -46,6 +46,12 @@ COPY_EXISTING ~intmod.2da~ ~override~  // Int Modifier for Maze & Imprisonment
   PRETTY_PRINT_2DA
   BUT_ONLY_IF_IT_CHANGES
 
+ACTION_IF FILE_EXISTS_IN_GAME ~concentr.2da~ BEGIN // EE v2.0+
+  COPY_EXISTING ~concentr.2da~ ~override~
+    SET_2DA_ENTRY 2 1 2 ~1~ // enable concentration check
+  BUT_ONLY
+END
+
 COPY ~spell_rev\shared\dvwinded.spl~      ~override~  // Fatigue Effect
 
 COPY ~spell_rev\shared\dvbanish.eff~     ~override~ // Banish EFFs
