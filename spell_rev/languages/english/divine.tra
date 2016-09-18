@@ -882,16 +882,37 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-This spell summons forth a nymph to assist the party. The nymph casts divine spells as a 7th-level druid and will use them in the best interests of the party. She will remain under the caster's control until she is slain or the spell duration expires.
+By means of this spell, the caster calls a number of magical woodland beings. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+7th : 1 hamadryad
+9th : 2 hamadryads
+11th+ : 2 hamadryads, 1 nymph
+
+The summoned beings will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Hamadryad (4 Hit Dice):
+STR 10, DEX 18, CON 12, INT 14, WIS 14, CHA 18; AL Neutral
+HP 32, AC 3, THAC0 14, Saving Throws 12/16/12/14/16
+2 Attacks Per Round, 1d6+1 missile (Short Bow & arrows +1)
+
+Special Qualities:
+Magic Resistance 75%
+
+Special Abilities:
+1° Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2° Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 
 Nymph (7 Hit Dice):
-STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Chaotic Good
-HP 42, AC 3, THAC0 15, Saving Throws 7/10/7/10/7
+STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Neutral Good
+HP 42, AC 3, THAC0 15, Saving Throws 12/10/12/14/10
 1 Attack Per Round, 1d4 Crushing (Touch +0)
+
+Special Qualities:
+Magic Resistance 50%
 
 Spell Memorized:
 1° Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2° Barkskin, Charm Person or Animal (x2), Resist Fire and Cold, Slow Poison
+2° Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 3° Call Lightning, Hold Person or Animal, Summon Insects
 4° Animal Summoning IV~
 
@@ -2482,8 +2503,18 @@ Saving Throw: Breath partial
 
 The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. Any creature will suffer 1d4 points of piercing damage each round that they remain within the affected area. The spikes can damage the victim's legs, so that even once they are free of the spike growth their movement rate is halved for 3 rounds unless a successful save vs. breath is made. Those failing the save also suffer 1 point of bleeding damage each round for 3 rounds. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large creatures who suffer little to no distress from the small spikes.~
 
-@335=~~
-@336=~~
+@335=~Icelance~
+@336=~Icelance
+Level: 3
+School: Evocation
+Sphere: Elemental (Water)
+Range: Short
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Paralisys partial 
+
+When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three rounds~
 
 @337=~~
 @338=~~
