@@ -2,14 +2,14 @@
 //// 2 sectypes needed; one for each////
 
 
-ADD_SECTYPE ~k1#Haste~ @1  // string to counter Haste - "Haste effect removed", "Haste Dispelled"....
+ADD_SECTYPE ~k1#Haste~ @21003  // string to counter Haste - "Haste effect removed", "Haste Dispelled"....
 
 COPY_EXISTING ~msectype.2da~ ~override~
   COUNT_2DA_ROWS "2" "sectype_k1#Haste"
   SET "sectype_k1#Haste" -= "2"
   PRETTY_PRINT_2DA
   
-ADD_SECTYPE ~k1#Slow~ @2  // string to counter Slow - "Slow Dispelled" or similar
+ADD_SECTYPE ~k1#Slow~ @21004  // string to counter Slow - "Slow Dispelled" or similar
 
 COPY_EXISTING ~msectype.2da~ ~override~
   COUNT_2DA_ROWS "2" "sectype_k1#Slow"

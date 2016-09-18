@@ -1,0 +1,225 @@
+INCLUDE ~spell_rev\lib\macros.tpa~ // needed since I dug a hole for myself
+
+//// SECONDARY TYPE STUFF///
+
+///DISPELLING SCREEN AOE VERSION aka WHY CAN't MY BUFFS STAY AND WHY DO I MISS AN END SOMEWHERE//
+
+ADD_SECTYPE ~k1Dispel~ @21000 // add a string reference for removal, like ~Dispelling Screen Dissipates~ or something
+
+COPY_EXISTING ~msectype.2da~ ~override~
+  COUNT_2DA_ROWS "2" "sectype_k1#Dispel"
+  SET "sectype_k1#Dispel" -= "2"
+  PRETTY_PRINT_2DA
+ 
+ // 16.1.2016... if I go build this spell via code, SRv4 will see the light of day year 2056...//
+ // 17.1.2016....I did it... :)//
+ 
+LAF CREATE_SPELL STR_VAR spell=~k1#scre~ END  // Could be simpler....
+COPY_EXISTING ~k1#scre.spl~ override
+SAY NAME1 @21001   SAY UNIDENTIFIED_DESC @21001
+LPF ADD_SPELL_HEADER INT_VAR type = 1 level = 5 power = 5 projectile = 158 range = 30 END // 
+ LPF ADD_SPELL_EFFECT 
+INT_VAR
+opcode = 206
+duration = 300
+power = 5
+timing = 0
+resist_dispel = 2
+target = 2
+STR_VAR
+resource = spwi513b // TO DO: kill the damn "Display String" and "remove portait icon" opcodes from all removal spells
+ END                // they're automatically displayed once they remove something, so now they display twice.
+ 
+ /* LPF ADD_SPELL_EFFECT   // This is commented out. I made all these resources use 146 to cast Breach. *Much* better overall...
+INT_VAR
+opcode = 206
+duration = 300
+power = 5
+timing = 0
+resist_dispel = 2
+target = 2
+STR_VAR
+resource = spwish26 
+ END 
+ 
+LPF ADD_SPELL_EFFECT 
+INT_VAR
+opcode = 206
+duration = 300
+power = 5
+timing = 0
+resist_dispel = 2
+target = 2
+STR_VAR
+resource = spwish38 
+ END
+ 
+LPF ADD_SPELL_EFFECT 
+INT_VAR
+opcode = 206
+duration = 300
+power = 5
+timing = 0
+resist_dispel = 2
+target = 2
+STR_VAR
+resource = wand18a
+ END */ 
+
+ LPF ADD_SPELL_EFFECT  // Immunity to dispels
+INT_VAR
+opcode = 101
+duration = 300
+resist_dispel = 2
+power = 5
+timing = 0
+target = 2
+parameter2 = 58
+STR_VAR
+ END
+
+ LPF ADD_SPELL_EFFECT  // Portrait icon; should be renamed....something like "Protected by Dispelling Screen"
+INT_VAR
+opcode = 142
+duration = 300
+power = 5
+timing = 0
+resist_dispel = 2
+target = 2
+parameter2 = 107
+STR_VAR
+ END
+
+ LPF ADD_SPELL_EFFECT  // plays animation
+INT_VAR
+opcode = 215
+duration = 300
+power = 5
+timing = 0
+target = 2
+resist_dispel = 2
+parameter2 = 1
+STR_VAR
+resource = spturni2
+ END
+
+ LPF ADD_SPELL_EFFECT
+INT_VAR
+opcode = 267   // "Dispel Effects" string immunity
+duration = 300
+power = 5
+resist_dispel = 2
+timing = 0
+target = 2
+parameter1 = 14056  
+STR_VAR
+END
+ 
+COPY_EXISTING ~spwi510.spl~ ~override~  
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = k1#scre END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = sprotect duration = 4 END
+
+COPY_EXISTING ~spwi590.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = k1#scre END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = sprotect duration = 4 END
+
+COPY_EXISTING ~k1#scre.spl~ ~override~  //sectype marker
+WRITE_BYTE 0x27 "%k1Dispel%"
+
+
+// GLOBAL CHANGES  // 
+
+ COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+ PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+ LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 silent = 1 END
+ END
+ BUT_ONLY_IF_IT_CHANGES
+ 
+ COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
+ PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+ LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 silent = 1 END
+ END
+ BUT_ONLY_IF_IT_CHANGES
+ 
+ 
+
+///END OF GLOBAL CHANGES///
+  
+  // PATCH BREACH TYPE STUFF; with code on the fly //
+    
+COPY_EXISTING ~spwi513c.spl~ ~override~  // 
+LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 230 new_opcode = 221 parameter1 = 9 parameter2  = EVALUATE_BUFFER %sectype_k1#Dispel% STR_VAR END
+     
+COPY_EXISTING ~spwi805b.spl~ ~override~  // patch for Pierce Shield  so it breaks DS; SPell shield stops it however
+LPF ADD_SPELL_EFFECT
+	INT_VAR
+	opcode			= 221 // remove type protection
+	target			= 2    //preset
+	power			= 8     
+	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
+	timing			= 1
+END
+  BUT_ONLY
+  
+COPY_EXISTING ~spwi903b.spl~ ~override~  // patch for Spellstrike
+LPF ADD_SPELL_EFFECT
+	INT_VAR
+	opcode			= 221 // remove type protection
+	target			= 2    //preset
+	power			= 9     
+	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
+	timing			= 1
+END
+  BUT_ONLY
+  
+  
+COPY_EXISTING ~spwish26.spl~ ~override~     // Wish Breach cheese rebalanced
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
+LPF ADD_SPELL_EFFECT
+	INT_VAR
+	opcode			= 146  
+	target			= 2
+	power			= 5
+	parameter1		= 9
+	timing			= 1
+	insert_point    = 1
+	STR_VAR        
+	resource = spwi513
+END
+  BUT_ONLY
+  
+COPY_EXISTING ~spwish38.spl~ ~override~     // Wish Breach cheese again
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
+LPF ADD_SPELL_EFFECT
+	INT_VAR
+	opcode			= 146  
+	target			= 2
+	power			= 5
+	parameter1		= 9
+	timing			= 1
+	insert_point    = 1
+	STR_VAR        
+	resource = spwi513
+END
+  BUT_ONLY
+   
+/* ACTION_IF  FILE_EXISTS_IN_GAME ~wand18a.spl~ BEGIN  // IR Wand. I'll recreate it when I get the will to do so, so it doesnt
+   COPY_EXISTING ~wand18a.spl~ ~override~     // summon Cowled wizards
+  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
+  LPF ADD_SPELL_EFFECT
+	INT_VAR
+	opcode			= 146
+	target			= 2
+	power			= 5
+	parameter1		= 9
+	timing			= 1
+	insert_point    = 1
+	STR_VAR         
+	resource        = spwi513
+    END
+BUT_ONLY
+END */
+
+// END OF CODE for now //

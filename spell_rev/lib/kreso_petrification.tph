@@ -2,7 +2,7 @@
 
 
 
-ADD_SECTYPE ~k1#Petrify~ @1  // string to counter Petrify - "Petrification effect removed", whatever
+ADD_SECTYPE ~k1#Petrify~ @21005  // string to counter Petrify - "Petrification effect removed", whatever
 
 COPY_EXISTING ~msectype.2da~ ~override~
   COUNT_2DA_ROWS "2" "sectype_k1#Petrify"
