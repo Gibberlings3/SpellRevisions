@@ -433,8 +433,7 @@ DEFINE_ACTION_FUNCTION detectable_spells
     install_ds = 1
   STR_VAR
     path = ~~
-  //  table = ~...inlined/ds/ag#detectable_spells_v4.2da~
-    table = ~~
+    table = ~...inlined/ds/ag#detectable_spells_v4.2da~
     default = ~...inlined/ds/ag#detectable_spells_v4.2da~
     extra = ~...inlined/ds/ag#detectable_spells_v4_stats_extra.2da~
   BEGIN
@@ -567,7 +566,6 @@ END
 
 LAF detectable_spells_setup END
 
-OUTER_SET allow_stats_extra = 0
 ACTION_IF ~%path%~ STR_CMP ~~ BEGIN
   OUTER_SPRINT table ~%path%/%table%~
 END
@@ -575,11 +573,10 @@ ACTION_TRY // this is a mere file existance check by attempting to load it, beca
   COPY - ~%table%~ ~ag#detectable_spells_v4_custom.2da~
 WITH
   DEFAULT
-    ACTION_IF ~%table%~ STR_CMP ~~ BEGIN // if user specified a custom string
+    ACTION_IF ~%table%~ STR_CMP ~...inlined/ds/ag#detectable_spells_v4.2da~ BEGIN // if user specified a custom string
       PRINT "Detectable Spells: Unable to locate ~%table%~, using default 2DA instead"
     END
     OUTER_SPRINT table ~%default%~
-    OUTER_SET allow_stats_extra = 1
 END
 
 ////////////////////
@@ -591,7 +588,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~ag#dsal2.2da~ BEGIN
 END
 
 COPY - ~%table%~ ~override~
-  PATCH_IF allow_stats_extra = 1 && use_stats_176_182 = 1 BEGIN
+  PATCH_IF (~%table%~ STRING_EQUAL_CASE ~%default%~) && use_stats_176_182 = 1 BEGIN
     INSERT_FILE SOURCE_SIZE ~%extra%~
   END
     
@@ -634,9 +631,11 @@ COPY - ~%table%~ ~override~
       // resolve stat's index, if it was defined as a string
       PATCH_IF NOT (IS_AN_INT ~%p2%~) BEGIN
       
-      //  PATCH_IF abort=0 BEGIN
+        PATCH_IF abort=0 BEGIN
       // add new stat anyway - even if it turns out illegit, it's still needed to avoid script compilation errors
       //                       i.e. the user will be able to install a mod regardless, it just won't function to its full capacity
+      //
+      // huh? was i drunk? - Yaro, 9/18/2016
           INNER_ACTION BEGIN
             LAF ds_resolve_stat INT_VAR ids STR_VAR id= EVAL ~%p2%~ RET stat_ind=stat_ind END
           END
@@ -666,7 +665,7 @@ COPY - ~%table%~ ~override~
             END
           END
           p2=stat_ind
-      //  END
+        END
           
       END
       
