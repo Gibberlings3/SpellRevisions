@@ -125,12 +125,12 @@ When this spell is cast, name and enchantments (including curses) of one item su
 Level: 1
 School: Divination
 Range: Personal
-Duration: 1 round
+Duration: 3 rounds
 Casting Time: 1
 Area of Effect: Caster
 Saving Throw: None
 
-Upon the casting of this spell, the caster will gain temporary, intuitive insight into the immediate future. Any attack roll made before the end of the next round gains a +10 perception bonus.~
+This spell grants the caster otherworldly sight, resulting in preternatural accuracy for a short period. While the spell is in effect attack rolls are made with a +4 perception bonus and the chance to score critical hits is increased by 5%.~
 
 @421=~Magic Missile~
 @422=~Magic Missile
@@ -742,7 +742,7 @@ By casting this spell, the wizard makes the creature touched undetectable by div
 Level: 3
 School: Abjuration
 Range: Touch
-Duration: 2 turns
+Duration: 1 turn
 Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
@@ -827,10 +827,10 @@ This abjuration spell causes any spells cast against the wizard to be absorbed a
 
 This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
 
-//Moved to level 5
+//Moved to level 4
 @535=~Protection from Fire~
 @536=~Protection from Fire
-Level: 5
+Level: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -840,10 +840,10 @@ Saving Throw: None
 
 When a Protection from Fire spell is cast, the recipient receives complete protection from all fire-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like fiery dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Burning Hands, Fireball, Flame Strike, and Fire Storm. Multiple castings of this spell are not cumulative.~
 
-//Moved to level 5
+//Moved to level 4
 @537=~Protection from Cold~
 @538=~Protection from Cold
-Level: 5
+Level: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -1111,7 +1111,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: None
 
-This spell taps the target's life force in order to create a corporeal barrier around his body. The armor itself is weightless, and does not hinder movement or spellcasting in any way. The spirit armor does not work cumulatively with any other armor, but it will stack with bonuses from dexterity, shields, and magical trinkets. While in effect, the armor class of the recipient will be set to 1, and all saving throws will be made with a +2 bonus. There is a danger in using this spell, however, as the external portion of the target's spirit is temporarily lost when the spell duration expires. This causes the recipient to suffer 2d4 points of damage, unless he succeeds at a saving throw vs. spell.~
+This spell taps the target's life force in order to create a corporeal barrier around his body. The armor itself is weightless, and does not hinder movement or spellcasting in any way. The spirit armor does not work cumulatively with any other armor, but it will stack with bonuses from dexterity, shields, and magical trinkets. While in effect, the armor class of the recipient will be set to 1, and saving throws vs. death will be made with a +3 bonus. There is a danger in using this spell, however, as the external portion of the target's spirit is temporarily lost when the spell duration expires. This causes the recipient to suffer 2d4 points of damage, unless he succeeds at a saving throw vs. spell.~
 
 @589=~Polymorph Other~
 @590=~Polymorph Other
@@ -1468,10 +1468,10 @@ School: Abjuration
 Range: Personal
 Duration: 5 turns
 Casting Time: 5
-Area of Effect: Caster
+Area of Effect: Caster and nearby allies
 Saving Throw: None
 
-This spell creates a transparent, permeable barrier that shields the caster from Dispel Magic and similar spells. Furthermore, any spell effect that passes through the screen can potentially be dispelled by the energies of the barrier, effectively granting the caster 25% magic resistance.~
+By casting this spell, caster creates a transparent, permeable barrier that shields the him and allies from Dispel Magic and Breach spells. The barrier dissipates after one instance of Dispel Magic or Breach. Spells higher in power that remove specific protections like Pierce Shield and Spellstrike remove Dispelling Screen from target without getting absorbed by it.~
 
 @631=~Protection from Normal Weapons~
 @632=~Protection from Normal Weapons
@@ -1511,7 +1511,7 @@ When this spell is cast at a creature, it breaches and dispels all of the specif
 
 The specific protection spells dispelled by Breach are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
 
-The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Mantle, and Absolute Immunity.~
+The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, and Absolute Immunity.~
 
 @637=~Lower Resistance~
 @638=~Lower Resistance
@@ -1598,9 +1598,9 @@ Casting Time: 5
 Area of Effect: Caster
 Saving Throw: None
 
-This powerful abjuration protects the caster from any dispel attempt against him, effectively granting immunity to Dispel Magic and similar spells. However, when the caster is protected by this spell the next magical attack against him will always prioritize the Spell Shield. If any magical attack is cast at the wizard the shield absorbs it, but is consumed in the process.
+When this spell is cast the wizard is protected from the next magical attack against him. If one of those spells is cast at the wizard this spell activates and absorbs the attack. However, this only works once as this spell is consumed in the process.
 
-The magical attacks that can consume Spell Shield are: Spell Thrust, Secret Word, Pierce Magic, Ruby Ray, Warding Whip, Pierce Shield, and Spellstrike.~
+The spells that Spell Shield protects the wizard from are: Spell Thrust, Secret Word, Pierce Magic, Ruby Ray, Warding Whip, Pierce Shield, and Spellstrike.~
 
 @649=~Conjure Lesser Air Elemental~
 @650=~Conjure Lesser Air Elemental
@@ -2304,7 +2304,7 @@ Spell Memorized:
 1° Burning Hands, Magic Missile (x2), Shield
 2° Agannazar's Scorcher, Invisibility (x2)
 3° Fireball (x3)
-4° Fire Shield (Red) (x2)
+4° Fire Shield (x2)
 5° Conjure Lesser Fire Elemental~
 
 @751=~Summon Djinni~
@@ -2475,7 +2475,7 @@ The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflecti
 
 The specific protection spells dispelled by Pierce Shield are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
 
-The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Mantle, Improved Mantle, and Absolute Immunity.~
+The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, and Absolute Immunity.~
 
 @777=~Summon Fiend~
 @778=~Summon Fiend
@@ -2902,7 +2902,7 @@ Wish is a more potent version of the Limited Wish spell. It will fulfill literal
 
 @851=~Energy Blades~
 @852=~Energy Blades
-Level: 10
+Level: Epic
 School: Evocation
 Range: Personal
 Duration: 5 turns
@@ -2914,7 +2914,7 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 
 @853=~Improved Alacrity~
 @854=~Improved Alacrity
-Level: 10
+Level: Epic
 School: Alteration
 Range: Personal
 Duration: 2 rounds
@@ -2926,7 +2926,7 @@ Improved Alacrity essentially erases the pause between casting spells. When cast
 
 @855=~Dragon's Breath~
 @856=~Dragon's Breath
-Level: 10
+Level: Epic
 School: Evocation
 Range: Long
 Duration: Instant
@@ -2934,11 +2934,11 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: Breath partial
 
-This spell causes the disembodied head of a red dragon to appear and breathe fire with the strength of an adult red dragon. In addition to the enormous 20d6 fireball, the force of the dragon's breath knocks opponents away from the caster and leaves them unconscious for 1 round. The victims can save vs. breath at a -6 penalty to take half damage and not be blown backwards. This spell will not harm party members. Magic resistance does not affect this spell.~
+This spell causes the disembodied head of a red dragon to appear and breathe fire with the strength of an adult red dragon. In addition to the enormous 24d6 fireball, the force of the dragon's breath knocks opponents away from the caster and leaves them unconscious for 1 round. The victims can save vs. breath at a -2 penalty to take half damage and not be blown backwards. This spell will not harm party members. Magic resistance does not affect this spell.~
 
 @857=~Summon Planetar~
 @858=~Summon Planetar
-Level: 10
+Level: Epic
 School: Conjuration
 Range: Long
 Duration: 2 turns
@@ -2953,7 +2953,7 @@ STR 19, DEX 19, CON 18, INT 18, WIS 21, CHA 22; AL Chaotic Good
 HP 152, AC -7, THAC0 1, Saving Throws 3/5/4/4/6
 3 Attacks Per Round, 2d6+10 Slashing Damage (Greatsword +3)
 Combat Abilities:
-Vorpal: 5% chance target must save vs. death at -6 or die
+Vorpal: 15% chance target must save vs. death at -2 or die
 
 Special Qualities:
 Immune to weapons lower than +3 enchantment
@@ -2973,7 +2973,7 @@ Known Spells:
 
 @859=~Summon Dark Planetar~
 @860=~Summon Dark Planetar
-Level: 10
+Level: Epic
 School: Conjuration
 Range: Long
 Duration: 2 turns
@@ -3008,7 +3008,7 @@ Known Spells:
 
 @861=~Comet~
 @862=~Comet
-Level: 10
+Level: Epic
 School: Conjuration
 Range: Long
 Duration: Instantaneous
@@ -3016,7 +3016,7 @@ Casting Time: 1 round
 Area of Effect: 30' radius
 Saving Throw: Paralyzation partial
 
-When this spell is cast, a huge meteor or comet strikes the earth, damaging all enemies in its path and sending out a powerful shockwave that knocks away all foes in the area of effect. Those caught in the impact suffer 10d10 points of crushing damage and must save vs. paralyzation at -6 or be knocked unconscious for 3 rounds. This spell will not harm party members. Magic resistance does not affect this spell.~
+When this spell is cast, a huge meteor or comet strikes the earth, damaging all enemies in its path and sending out a powerful shockwave that knocks away all foes in the area of effect. Those caught in the impact suffer 10d10 points of crushing damage and must save vs. paralyzation at -4 or be knocked unconscious for 3 rounds. This spell will not harm party members. Magic resistance does not affect this spell.~
 
 
 @1024=~This disc was created by the Energy Blades spell. When thrown at opponents it causes 1d4+5 points of missile damage as well as an additional 1d10 points of electrical damage.~
@@ -3117,10 +3117,30 @@ Poison~
 
 @872=~Unholy Fireball~
 
-@873=~~
-@874=~~
-@875=~~
-@876=~~
+@873=~Protection from Elemental Energy~
+@874=~Protection from Elemental Energy
+Level: 4
+School: Abjuration
+Range: Touch
+Duration: 1 turn/level
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+When this spell is cast, the recipient receives complete protection from one damage type: acid, cold, fire, or lightning. 100% of the damage from the selected source of energy will be absorbed, and the target creature will become completely immune to the effects of spells based on that element. Multiple castings of this spell are not cumulative, but each time a different damage type can be selected.~
+
+@875=~Icelance~
+@876=~Icelance
+Level: 3
+School: Evocation
+Range: Short
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Paralisys partial 
+
+When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three roundss~
+
 @877=~~
 @878=~~
 @879=~~
@@ -3128,6 +3148,7 @@ Poison~
 
 /*------------------ Familiars ------------------*/
 
+@1042=~Cat~
 @1008=~This is your cat familiar, currently curled up and safe within your backpack. The cat familiar is a master scout, able to move in the shadows with the ability of a master thief. It is also difficult to hit in combat, and the magic of your bond has made this cat resistant to both physical and magical attacks.
 
 Statistics:
@@ -3166,6 +3187,7 @@ Special Abilities:
   Detect Illusions: 60%
   Permanent Luck (5% bonus to everything)~
 
+@1043=~Dust Mephit~
 @1010=~This is your familiar, a dust mephit currently safe within your backpack. The dust mephit is not strong in combat, but it is slightly resistant to physical damage and has the ability to cast the spell Glitterdust twice per day to assist its master.
 
 Statistics:
@@ -3206,6 +3228,7 @@ Special Abilities:
   Stoneskin 1/day
   Prismatic Spray 1/day~
 
+@1044=~Fairy Dragon~
 @1012=~This is your familiar, a fairy dragon, currently curled up and safe within your backpack. The mischievous fairy dragon is fairly resistant to magic and has the ability to both protect and obscure itself with illusionary magic of its own.
 
 Statistics:
@@ -3243,6 +3266,7 @@ Special Abilities:
   Invisibility Sphere 1/day
   Improved Invisibility 1/day~
 
+@1045=~Ferret~
 @1014=~This is your familiar, a ferret, currently curled up and safe in your backpack. The ferret is an incredibly quick and agile animal, hard to hit and magically made resistant to both damage and spells. The ferret's uncanny ability to get into almost anything unseen makes it a handy pickpocket.
 
 Statistics:
@@ -3279,6 +3303,7 @@ Special Abilities:
   Find/Disarm Traps: 40%
   Pickpocket: 95%~
 
+@1046=~Imp~
 @1016=~This is your familiar, an imp, currently grumpy yet safe within your backpack. The imp is an unusual creature that is fairly quick and quite resistant to magical spells, and has the ability to cast its own spells on behalf of its master.
 
 Statistics:
@@ -3316,6 +3341,7 @@ Special Abilities:
   Polymorph Self 1/day
   Immunity to normal weapons~
 
+@1047=~Pseudo-dragon~
 @1018=~This is your familiar, a pseudo-dragon, currently curled up and safe within your backpack. The lizard-like creature is quite intelligent and fairly well-armored and quick. It does not do much damage in combat, but its magical claws are able to render some enemies unconscious. It is also quite resistant to magical spells.
 
 Statistics:
@@ -3353,6 +3379,7 @@ Special Abilities:
   Blur 1/day
   Detect Illusion 2/day~
 
+@1048=~Quasit~
 @1020=~This is your familiar, a quasit, currently grumpy yet safe within your backpack. The quasit is a small, infernal creature that is fairly quick and quite resistant to magical spells, and has the ability to cast its own spells on behalf of its master.
 
 Statistics:
@@ -3394,6 +3421,7 @@ Special Abilities:
   Blur 1/day
   Immunity to normal weapons~
 
+@1049=~Rabbit~
 @1022=~This is your familiar, a rabbit, currently curled up and safe within your backpack. This creature is incredibly quick and difficult to hit in combat, and has been augmented by magic to become quite resistant to physical harm as well as spells. The rabbit also has a keen nose for sniffing out traps on behalf of its master.
 
 Statistics:
@@ -3430,3 +3458,10 @@ Special Abilities:
   Hide in Shadows/Move Silently: 60%
   Find/Disarm Traps: 80%
   Detect Illusions: 50%~
+  
+@21000=~Dispelling Screen Dissipates~
+@21001=~Dispelling Screen Activated~
+@21002=~Insects Dispersed~
+@21003=~Haste Effect Removed~
+@21004=~Slow Effect Countered~
+@21005=~Petrification Effect Reverted~
