@@ -1,24 +1,27 @@
 To-do List:
-- add all the new spells with bams (Icelance, Telekinesis, Ball Lightning, Eyebite, Freezing Sphere, etc.)
-- make HLAs innate abilities
-- Cause Wound spells bypass PfMW
+- Invisibility protects from deflection/turning/etc animations
+- add all the new spells with bams (Ice Dagger, Telekinesis, Ball Lightning, Eyebite, Freezing Sphere, etc.)
+- global rebalance of divination attacks spells
 - Flame Blade buff?
 - Spiritual Hammer needs a small nerf
+- Lesser Restoration cures necromantic effects (e.g. Chill Touch, Waves of Fatigue, etc.)
 - Zone of Sweet Air as Cleric variant of Gust of Wind?
 - Striking Wave added to druid's 4th lvl spells (first draft, need feedback)
 - Symbol of Death causes level drain or -x to saves vs. death?
 - Holy/Unholy rebalance?
 - Mist of Eldath added to druid's 7th lvl spells
+- Chill Touch & Shocking Grasp small tweaks not committed
 - Reflected Image replaced by Phantasmal Force; CreateCreatureObjectCopy("jclone01",Player1,0,0,0)
-- True Strike duration up to 3 rounds, reduced thac0 bonus, +5% crit?
 - Flame Arrow allow no save?
-- ProMissiles self-only
-- Improved Invisibility protects from deflection/turning/etc animations (sec type for removals?)
+- ProMissiles self-only? Check EE new projectiles from 
+- Otiluke's Resilient Sphere save changed from vs spell to vs breath?
+- Vitriolic Sphere added to 4th lvl spells (School: Conjuration)
+- Ball Lightning added to 5th lvl spells (School: Evocation)
 - Wizard Eye moved to 7th lvl as Watchful Eye
 - Polymorph Self new forms (Ogre Berserker? Fire Salamander with flaming spear replaces Flind; Troll?)
-- Globes of Invulnerabilty duration slightly increased?
+- Cone of Cold cancel Fire Shield (EE only)?
 - Oracle becomes a party buff or AoE debuff?
-- Protection from Normal Weapons replaced by Ghost Form (similar to vanilla's Wraithform)?
+- Protection from Normal Weapons replaced by Ghost Form (similar to vanilla's Wraithform) or +10% to physical res?
 - Flesh to Stone should not be dispellable, 3rd round save vs. death or slay?
 - Summon Nishruu is not hidden at lvl up, replace? Ench +0? Add hak?
 - Finger of Death creates a zombie?
@@ -29,14 +32,26 @@ To-do List:
 - Wail of the Banshee causes nausea and/or deafness on successful save?
 - Imprisonment slay powerful summons?, allow a save?
 - Spell Trap needs revision imo
-- Globe of Blades/Aura of Flaming Death should not have "combat protection" sectype so aren't breachable. Globe reworked similar to Blade Barrier (lower damage but no-save)
+- Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
 ...
 
-V4 - Beta 13 (x January 2016)
-- various fixes, description improvements and minor refinements
-- global rebalance of all summons
-- global rebalance of divination attacks spells NOT DONE YET
+V4 - Beta 13 (18 September 2016)
+- many minor fixes
+- Concentration check is now on by default on SR install
+- fixed an issue with NRD blocking Wild Mages at character creation spell screen
+- global rebalance of pretty much ALL summons
+- global rebalance of HLAs (turned into 1/day innate abilities, minor tweaks)
+- added a few custom sec types (haste, slow, petrification, insects)
+- Cause Wound spells bypass PfMW but can be blocked by Spell Deflection and GoI
+- Gust of Wind counters insect spells
+- Icelance added to druid's 3rd lvl spells
+- Call Woodland Beings summons 1-2 dryads, plus a nymph at higher lvls
+- Find Familiar turned into an innate ability (fixed EE string issues)
+- True Strike changed to +4 thac0 and +5% chance to score critical hits for 3 rounds
+- Icelance added to 3rd lvl spells (School: Evocation)
+- Pro Fire/Cold/Ele/Acid spells merged into a single ProEnergy at 4th lvl (select 1 element when cast)
+- Dispelling Screen turned into a party-wide protection vs. dispel
 - Death Knight Unholy Fireball dmg is now half fire half magic (undead are immune to the magic half)
 - Demilich Soul Trap save penalty from -6 to -4, the maze effect no longer use INT drain
 - Demilich Howl save penalty from -6 to -4
@@ -44,7 +59,7 @@ V4 - Beta 13 (x January 2016)
 V4 - Beta 12 (31 December 2015)
 - various fixes or minor refinements
 - improved bams for many spells (by DreamSlaveOne)
-- KR's Revised Saves temporary added to main component (for those without KR) 
+- KR's Revised Saves temporary added to main component (for those without KR)
 - some non-damaging spells no longer flagged as 'hostile'
 - Burning Hands dmg from 1d4/lvl (max 5d4 at lvl 5) to 1d6+1d6/2 lvls (max 5d6 at lvl 9)
 - Obscuring Mist tweaked to make ranged attacks from outside less effective (description needs refining)

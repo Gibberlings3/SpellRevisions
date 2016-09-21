@@ -1,0 +1,66 @@
+//INSECTS //
+
+
+ADD_SECTYPE ~k1insect~ @21002 // change this to "Insects Dispersed" or whatever
+ 
+COPY_EXISTING ~msectype.2da~ ~override~
+  COUNT_2DA_ROWS "2" "sectype_k1insect"
+  SET "sectype_k1insect" -= "2"
+  PRETTY_PRINT_2DA
+  
+LAF CREATE_SPELL STR_VAR spell=~k1#inse~ END
+COPY_EXISTING ~k1#inse.spl~ override
+LPF ADD_SPELL_HEADER INT_VAR type=1 level=2 projectile=158 END // change projectile number..??
+    LPF ADD_SPELL_EFFECT
+INT_VAR
+opcode = 221
+target = 2
+power = 0
+level = 2
+parameter1 = 9
+parameter2 = EVALUATE_BUFFER %sectype_k1insect%
+timing = 1
+header = 1
+insert_point = 1
+   END
+ BUT_ONLY
+  
+COPY_EXISTING ~sppr218.spl~ ~override~ LPF ADD_SPELL_EFFECT  
+      INT_VAR
+   opcode = 146
+   target = 1 // self
+   parameter1 = 0  
+   parameter2 = 1
+   power = 0   
+      STR_VAR
+        resource = k1#inse
+END
+BUT_ONLY
+
+COPY_EXISTING ~sppr218.spl~ ~override~
+LPF ADD_SPELL_EFFECT
+      INT_VAR
+   opcode = 146
+   target = 1 // self
+   parameter1 = 0  
+   parameter2 = 1
+   power = 0   
+      STR_VAR
+   resource = k1#insect
+END
+BUT_ONLY
+
+COPY_EXISTING ~sppr319a.spl~     ~override~
+WRITE_BYTE 0x27 "%k1insect%" 
+COPY_EXISTING ~sppr319b.spl~     ~override~
+WRITE_BYTE 0x27 "%k1insect%"
+ 
+COPY_EXISTING ~sppr517a.spl~     ~override~
+WRITE_BYTE 0x27 "%k1insect%" 
+COPY_EXISTING ~sppr517b.spl~              ~override~
+WRITE_BYTE 0x27 "%k1insect%"
+ 
+COPY_EXISTING ~sppr717a.spl~     ~override~
+WRITE_BYTE 0x27 "%k1insect%" 
+COPY_EXISTING ~sppr717b.spl~     ~override~
+WRITE_BYTE 0x27 "%k1insect%"
