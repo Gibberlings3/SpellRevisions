@@ -2720,18 +2720,24 @@ INCLUDE ~spell_rev\lib\refinements.tph~  // refinements spells reverted back to 
 // some extra stuff  - make these spells non.breachable//
 COPY_EXISTING ~sppr698.spl~   ~override~
 WRITE_BYTE 0x27 0
-
+ 
 COPY_EXISTING ~sppr725.spl~   ~override~
 WRITE_BYTE 0x27 0
-
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwish09.spl~ BEGIN
 COPY_EXISTING ~spwish09.spl~   ~override~
 WRITE_BYTE 0x27 0
-
+END
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~spyancd.spl~ BEGIN
 COPY_EXISTING ~spyancd.spl~   ~override~
 WRITE_BYTE 0x27 0
-
+END
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~sppr730.spl~ BEGIN
 COPY_EXISTING ~sppr730.spl~   ~override~
 WRITE_BYTE 0x27 0
+END
 
 
 /*---------------------Tutu Scrolls---------------------*/
