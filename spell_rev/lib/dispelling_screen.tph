@@ -148,10 +148,12 @@ WRITE_BYTE 0x27 "%k1Dispel%"
 ///END OF GLOBAL CHANGES///
   
   // PATCH BREACH TYPE STUFF; with code on the fly //
-    
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513c.spl~ BEGIN   
 COPY_EXISTING ~spwi513c.spl~ ~override~  // 
 LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 230 new_opcode = 221 parameter1 = 9 parameter2  = EVALUATE_BUFFER %sectype_k1#Dispel% STR_VAR END
-     
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi805b.spl~ BEGIN       
 COPY_EXISTING ~spwi805b.spl~ ~override~  // patch for Pierce Shield  so it breaks DS; SPell shield stops it however
 LPF ADD_SPELL_EFFECT
 	INT_VAR
@@ -162,7 +164,8 @@ LPF ADD_SPELL_EFFECT
 	timing			= 1
 END
   BUT_ONLY
-  
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi903b.spl~ BEGIN   
 COPY_EXISTING ~spwi903b.spl~ ~override~  // patch for Spellstrike
 LPF ADD_SPELL_EFFECT
 	INT_VAR
@@ -174,7 +177,7 @@ LPF ADD_SPELL_EFFECT
 END
   BUT_ONLY
   
-  
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwish26.spl~ BEGIN  
 COPY_EXISTING ~spwish26.spl~ ~override~     // Wish Breach cheese rebalanced
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
 LPF ADD_SPELL_EFFECT
@@ -189,7 +192,9 @@ LPF ADD_SPELL_EFFECT
 	resource = spwi513
 END
   BUT_ONLY
-  
+
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwish38.spl~ BEGIN  
 COPY_EXISTING ~spwish38.spl~ ~override~     // Wish Breach cheese again
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
 LPF ADD_SPELL_EFFECT
@@ -203,8 +208,13 @@ LPF ADD_SPELL_EFFECT
 	STR_VAR        
 	resource = spwi513
 END
-  BUT_ONLY
-   
+BUT_ONLY
+END
+END
+END
+END
+END
+
 /* ACTION_IF  FILE_EXISTS_IN_GAME ~wand18a.spl~ BEGIN  // IR Wand. I'll recreate it when I get the will to do so, so it doesnt
    COPY_EXISTING ~wand18a.spl~ ~override~     // summon Cowled wizards
   LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
