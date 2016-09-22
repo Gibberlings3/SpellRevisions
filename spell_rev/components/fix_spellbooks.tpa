@@ -7,7 +7,7 @@ OUTER_FOR (level = 1; level <= 7; level += 1) BEGIN
   OUTER_SET $spell(~bogus~ ~%level%~ ~length~) = 0
 END
 
-COPY_EXISTING_REGEXP GLOB ~^SPPR[1-7]\(0[1-9]\|[1-4][0-9]\|50\)\.spl$~ ~override~
+COPY_EXISTING_REGEXP GLOB ~^SPPR[1-7]\(0[1-9]\|[1-4][0-9]\)\.spl$~ ~override~
   PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
     READ_SHORT 0x1c spell_type
     PATCH_IF (spell_type == 2) BEGIN // divine, just to be sure
