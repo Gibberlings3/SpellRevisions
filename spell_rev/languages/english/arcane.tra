@@ -1097,7 +1097,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
-When this spell is cast, the result is a globe of shimmering force that encloses the subject creature if it fails to successfully save vs. spell at a -4 penalty. The resilient sphere will contain its subject for the duration of the spell. The sphere is completely immune to all damage. Actually, the only method of removing the sphere is a successful dispel magic. Hence, the creature caught inside the globe is completely safe from all attacks, but at the same time is completely unable to affect the outside world.
+When this spell is cast, the result is a globe of shimmering force that encloses the subject creature if it fails to successfully save vs. breath at a -4 penalty. The resilient sphere will contain its subject for the duration of the spell. The sphere is completely immune to all damage. Actually, the only method of removing the sphere is a successful dispel magic. Hence, the creature caught inside the globe is completely safe from all attacks, but at the same time is completely unable to affect the outside world.
 
 The caster has the option of using the spell to protect her allies. Resistances and saving throws are bypassed when the target is willing.~
 
@@ -2652,9 +2652,7 @@ Casting Time: 1 round
 Area of Effect: Caster
 Saving Throw: None
 
-This powerful spell creates a barrier of magical protection around the spellcaster. Every spell that hits the barrier is absorbed by the power of the spell trap, making the caster recall a previously cast spell. The spell trap protects against 30 levels of spells and can absorb any level of spell, from one to nine.
-
-This spell grants protection from spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud). For example, a wizard shields himself with Spell Trap and is then hit by a Flame Arrow (a 3rd level spell). He gets three spell levels back - he will regain one spell, up to 3rd level in power. The Spell Trap protects against 30 levels of spells (such as ten Flame Arrows or five Fingers of Death).~
+This abjuration spell causes any spells cast against the wizard to be absorbed and consumed. This affects a total of 99 spell levels, but having 1 level left of protection means a 1st level spell would get absorbed, as well as a 9th level spell. This spell will not protect the caster from a dispel magic. However, it will not be affected by a dispel magic, either.~
 
 @813=~Spellstrike~
 @814=~Spellstrike
@@ -3139,10 +3137,20 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: Paralisys partial 
 
-When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three roundss~
+When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three rounds.~
 
-@877=~~
-@878=~~
+@877=~Vitriolic Sphere~
+@878=~Vitriolic Sphere
+Level: 4
+School: Conjuration
+Range: Medium
+Duration: Special
+Casting Time: 3
+Area of Effect: Target, and anyone within 10'
+Saving Throw: Breath half 
+
+When this spell is cast, a glowing orb of emerald acid streaks to the target and explodes in a 10-foot radius. Each creature in that area must make a save vs. breath. On a failed save, a creature takes 10d4 acid damage and 4d4 acid damage at the end of its next 2 rounds. On a successful save, a creature takes half the initial damage and half damage at the end of each round.~
+
 @879=~~
 
 

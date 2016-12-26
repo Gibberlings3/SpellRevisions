@@ -515,7 +515,7 @@ COPY ~spell_rev\sppr3##\sppr305.spl~     ~override~  // Hold Animal
   SAY NAME1 @79    SAY UNIDENTIFIED_DESC @80
 COPY ~spell_rev\sppr3##\holdpran.eff~     ~override~
 
-COPY ~spell_rev\sppr3##\sppr306.spl~     ~override~  // Protection from Fire (Disabled at level 3)
+COPY ~spell_rev\sppr3##\sppr306.spl~     ~override~  // Protection (Disabled at level 3)
   SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
 
 COPY ~spell_rev\sppr3##\sppr307.spl~     ~override~  // Break Enchantment (replaces Remove Curse)
@@ -617,6 +617,7 @@ COPY ~spell_rev\sppr3##\sppr326.spl~     ~override~  // Icelance (new druid spel
   SAY NAME1 @335    SAY UNIDENTIFIED_DESC @336
   WRITE_SHORT 0x98 %dvicespr%
 COPY ~spell_rev\sppr3##\icelance.bam~     ~override~
+COPY ~spell_rev\sppr3##\dvicespr.wav~     ~override~
 
 /*-----------------------level 4-----------------------*/
 
@@ -1871,7 +1872,17 @@ COPY ~spell_rev\spwi4##\spwi426.spl~     ~override~  // Protection from Elementa
   SAY NAME1 @873    SAY UNIDENTIFIED_DESC @874
 COPY ~spell_rev\spwi4##\scrl6h.itm~     ~override~
   SAY NAME2 @873    SAY IDENTIFIED_DESC   @874
-
+COPY ~spell_rev\spwi4##\spwi426.2da~     ~override~
+  
+ADD_PROJECTILE ~spell_rev\projectles\dvvtrsph.pro~
+COPY ~spell_rev\spwi4##\spwi427.spl~     ~override~  // Vitriolic Sphere (new spell)
+  SAY NAME1 @877    SAY UNIDENTIFIED_DESC @878
+  WRITE_SHORT 0x98 %dvvtrsph%
+COPY ~spell_rev\spwi4##\scrl6y.itm~     ~override~
+  SAY NAME2 @877    SAY IDENTIFIED_DESC   @878
+COPY ~spell_rev\spwi4##\dvvtrsph.vvc~     ~override~
+COPY ~spell_rev\spwi4##\dvvtrsph.bam~     ~override~
+COPY ~spell_rev\spwi4##\dvvtrtra.bam~     ~override~
 
 /*-----------------------level 5-----------------------*/
 
@@ -2004,8 +2015,8 @@ COPY ~spell_rev\spwi5##\elfirsu1.itm~     ~override~
 
 COPY ~spell_rev\spwi5##\spwi517.spl~     ~override~  // Protection From Acid
   SAY NAME1 @643    SAY UNIDENTIFIED_DESC @644
-COPY ~spell_rev\spwi5##\scrl6y.itm~     ~override~
-  SAY NAME2 @643    SAY IDENTIFIED_DESC   @644
+/* COPY ~spell_rev\spwi5##\scrl6y.itm~     ~override~
+  SAY NAME2 @643    SAY IDENTIFIED_DESC   @644 */
 
 COPY ~spell_rev\spwi5##\spwi518.spl~     ~override~  // Phantom Blade
   SAY NAME1 @645    SAY UNIDENTIFIED_DESC @646
@@ -2056,13 +2067,13 @@ COPY ~spell_rev\spwi5##\spwi523d.spl~     ~override~
     SET "loop" = "%loop%" - 1
   END
 
-COPY ~spell_rev\spwi5##\spwi524.spl~     ~override~  // Ball Lightning (new spell)
+/* COPY ~spell_rev\spwi5##\spwi524.spl~     ~override~  // Ball Lightning (new spell)
   SAY NAME1 @565    SAY UNIDENTIFIED_DESC @566
 COPY ~spell_rev\spwi5##\scrl1w.itm~     ~override~
   SAY NAME2 @565    SAY IDENTIFIED_DESC   @566
 COPY ~spell_rev\spwi5##\spwi526d.spl~     ~override~
 COPY ~spell_rev\spwi5##\mestsh.vvc~     ~override~
-COPY ~spell_rev\spwi5##\mestsh.bam~     ~override~
+COPY ~spell_rev\spwi5##\mestsh.bam~     ~override~ */
 
 /* COPY ~spell_rev\spwi5##\spwi524.spl~     ~override~  // Protection from Fire (moved from level 3)
   SAY NAME1 @535    SAY UNIDENTIFIED_DESC @536
@@ -2538,7 +2549,7 @@ COPY ~spell_rev\spwi8##\spwi818i.eff~     ~override~
 COPY ~spell_rev\spwi8##\spwi819.spl~     ~override~  // Monster Summoning VIII
   SAY NAME1 @868    SAY UNIDENTIFIED_DESC @869
 COPY ~spell_rev\spwi8##\scrl9b.itm~     ~override~ // replaces Summon Fiend scroll
-  SAY NAME2 @868   SAY IDENTIFIED_DESC   @868
+  SAY NAME2 @868   SAY IDENTIFIED_DESC   @869
 COPY ~spell_rev\spwi8##\umbhulsu.eff~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.cre~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.itm~     ~override~
@@ -2566,7 +2577,7 @@ COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
 
-COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Gate
+COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning VIII
   SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
 COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~  // replace Gate scroll
   SAY NAME2 @870    SAY IDENTIFIED_DESC   @871

@@ -4,7 +4,7 @@ README ~spell_rev\readme-spell_rev.html~
 //MODDER
 ASK_EVERY_COMPONENT
 
-VERSION ~v4 Beta 13~
+VERSION ~v4 Beta 14~
 
 ALWAYS
   OUTER_PATCH ~~ BEGIN
@@ -32,6 +32,12 @@ LANGUAGE ~English~
          ~spell_rev\languages\english\arcane.tra~
          ~spell_rev\languages\english\divine.tra~
          ~spell_rev\languages\english\setup.tra~
+         
+/* LANGUAGE ~French~
+         ~french~
+         ~spell_rev\languages\french\arcane.tra~
+         ~spell_rev\languages\french\divine.tra~
+         ~spell_rev\languages\french\setup.tra~
 
 LANGUAGE ~Russian~
          ~russian~
@@ -45,17 +51,11 @@ LANGUAGE ~Spanish~
          ~spell_rev\languages\spanish\divine.tra~
          ~spell_rev\languages\spanish\setup.tra~
 
-LANGUAGE ~French~
-         ~french~
-         ~spell_rev\languages\french\arcane.tra~
-         ~spell_rev\languages\french\divine.tra~
-         ~spell_rev\languages\french\setup.tra~
-
 LANGUAGE ~Polish by dradiel (djc@poczta.fm)~
          ~polish~
          ~spell_rev\languages\polish\arcane.tra~
          ~spell_rev\languages\polish\divine.tra~
-         ~spell_rev\languages\polish\setup.tra~
+         ~spell_rev\languages\polish\setup.tra~ */
 
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\

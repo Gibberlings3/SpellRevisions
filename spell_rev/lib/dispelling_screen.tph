@@ -4,7 +4,7 @@ INCLUDE ~spell_rev\lib\macros.tpa~ // needed since I dug a hole for myself
 
 ///DISPELLING SCREEN AOE VERSION aka WHY CAN't MY BUFFS STAY AND WHY DO I MISS AN END SOMEWHERE//
 
-ADD_SECTYPE ~k1Dispel~ @21000 // add a string reference for removal, like ~Dispelling Screen Dissipates~ or something
+ADD_SECTYPE ~k1#Dispel~ @21000 // add a string reference for removal, like ~Dispelling Screen Dissipates~ or something
 
 COPY_EXISTING ~msectype.2da~ ~override~
   COUNT_2DA_ROWS "2" "sectype_k1#Dispel"
@@ -126,20 +126,20 @@ LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 he
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = sprotect duration = 4 END
 
 COPY_EXISTING ~k1#scre.spl~ ~override~  //sectype marker
-WRITE_BYTE 0x27 "%k1Dispel%"
+WRITE_BYTE 0x27 "%k1#Dispel%"
 
 
 // GLOBAL CHANGES  // 
 
  COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 silent = 1 END
+ LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 timing = 3 silent = 1 insert_point = 10 END
  END
  BUT_ONLY_IF_IT_CHANGES
  
  COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 silent = 1 END
+ LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 timing = 3 insert_point = 10 silent = 1 END
  END
  BUT_ONLY_IF_IT_CHANGES
  
@@ -161,7 +161,7 @@ LPF ADD_SPELL_EFFECT
 	target			= 2    //preset
 	power			= 8     
 	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
-	timing			= 1
+	timing			= 3
 END
   BUT_ONLY
  
@@ -173,7 +173,7 @@ LPF ADD_SPELL_EFFECT
 	target			= 2    //preset
 	power			= 9     
 	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
-	timing			= 1
+	timing			= 3
 END
   BUT_ONLY
   
@@ -186,7 +186,7 @@ LPF ADD_SPELL_EFFECT
 	target			= 2
 	power			= 5
 	parameter1		= 9
-	timing			= 1
+	timing			= 3
 	insert_point    = 1
 	STR_VAR        
 	resource = spwi513
@@ -203,7 +203,7 @@ LPF ADD_SPELL_EFFECT
 	target			= 2
 	power			= 5
 	parameter1		= 9
-	timing			= 1
+	timing			= 3
 	insert_point    = 1
 	STR_VAR        
 	resource = spwi513

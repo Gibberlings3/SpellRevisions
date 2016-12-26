@@ -1,21 +1,21 @@
 To-do List:
 - Invisibility protects from deflection/turning/etc animations
-- add all the new spells with bams (Ice Dagger, Telekinesis, Ball Lightning, Eyebite, Freezing Sphere, etc.)
+- add all the new spells with bams (Ice Dagger, Ball Lightning, Eyebite, Freezing Sphere, etc.)
 - global rebalance of divination attacks spells
+- Goodberry slightly rebalanced (3 berries instead of 5, faster scale with lower cap)
 - Flame Blade buff?
 - Spiritual Hammer needs a small nerf
 - Lesser Restoration cures necromantic effects (e.g. Chill Touch, Waves of Fatigue, etc.)
 - Zone of Sweet Air as Cleric variant of Gust of Wind?
 - Striking Wave added to druid's 4th lvl spells (first draft, need feedback)
-- Symbol of Death causes level drain or -x to saves vs. death?
+- Symbol of Death causes level drain or -x to saves vs. death? OR lasts multiple rounds?
 - Holy/Unholy rebalance?
 - Mist of Eldath added to druid's 7th lvl spells
-- Chill Touch & Shocking Grasp small tweaks not committed
 - Reflected Image replaced by Phantasmal Force; CreateCreatureObjectCopy("jclone01",Player1,0,0,0)
 - Flame Arrow allow no save?
+- Lightning Bolt new projectile (check IWDEE Lance of Disruption)
+- Enchanted Weapon split in 2 variants for EE?
 - ProMissiles self-only? Check EE new projectiles from 
-- Otiluke's Resilient Sphere save changed from vs spell to vs breath?
-- Vitriolic Sphere added to 4th lvl spells (School: Conjuration)
 - Ball Lightning added to 5th lvl spells (School: Evocation)
 - Wizard Eye moved to 7th lvl as Watchful Eye
 - Polymorph Self new forms (Ogre Berserker? Fire Salamander with flaming spear replaces Flind; Troll?)
@@ -23,7 +23,7 @@ To-do List:
 - Oracle becomes a party buff or AoE debuff?
 - Protection from Normal Weapons replaced by Ghost Form (similar to vanilla's Wraithform) or +10% to physical res?
 - Flesh to Stone should not be dispellable, 3rd round save vs. death or slay?
-- Summon Nishruu is not hidden at lvl up, replace? Ench +0? Add hak?
+- Summon Nishruu is not hidden at lvl up, replace with Shades?
 - Finger of Death creates a zombie?
 - KWW deals a small amount of magic dmg on each hit
 - Prismatic Mantle's effects slightly nerfed
@@ -31,12 +31,28 @@ To-do List:
 - Meteor Swarm changed to 4 fireballs (a la Flame Arrow)?
 - Wail of the Banshee causes nausea and/or deafness on successful save?
 - Imprisonment slay powerful summons?, allow a save?
-- Spell Trap needs revision imo
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
-...
+...- updated french language thanks to Mornagest (of the d'Oghmatiques)
 
-V4 - Beta 13 (18 September 2016)
+V4 - Beta 14 (25 December 2016)
+- Update to WeiDU 240
+- various fixes, a few more EE string ref issues fixed
+- many code improvements (thanks Kreso)
+- fixed an issue with Shaman spells being applied to all divine spellcasters
+- fixed a compatibility issue with Dispelling Screen and EE
+- Icelance's projectile animation fixed, scroll range fixed, new sound effect
+- Summon Shambling Mound icon fixed
+- Find Familiar changes temporary reverted, school changed from Conj to "Universal"
+- Otiluke's Resilient Sphere save changed from vs spell to vs breath
+- ProElemental Energy was not working correctly (missing 2da file)
+- Vitriolic Sphere added to 4th lvl spells (School: Conjuration)
+- Shadow Door's "maze" effect no longer has a save penalty (it was -4)
+- Prismatic Mantle weapon immunity lowered to +2 (as vanilla), on-hit effects slightly nerfed
+- Moment of Prescience AC bonus now bypasses the AC cap
+- Spell Trap no longer absorbs spells but it deflects up to 99 spell lvls (AoE too)
+
+V4 - Beta 13 (21 September 2016)
 - many minor fixes
 - Concentration check is now on by default on SR install
 - fixed an issue with NRD blocking Wild Mages at character creation spell screen
