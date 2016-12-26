@@ -32,14 +32,14 @@ LANGUAGE ~English~
          ~spell_rev\languages\english\arcane.tra~
          ~spell_rev\languages\english\divine.tra~
          ~spell_rev\languages\english\setup.tra~
-         
-/* LANGUAGE ~French~
+
+LANGUAGE ~French~
          ~french~
          ~spell_rev\languages\french\arcane.tra~
          ~spell_rev\languages\french\divine.tra~
          ~spell_rev\languages\french\setup.tra~
 
-LANGUAGE ~Russian~
+/* LANGUAGE ~Russian~
          ~russian~
          ~spell_rev\languages\russian\arcane.tra~
          ~spell_rev\languages\russian\divine.tra~

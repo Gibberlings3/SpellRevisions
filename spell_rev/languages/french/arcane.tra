@@ -1095,9 +1095,9 @@ Portée : longue
 Durée : 1 tour
 Temps d'incantation : 4
 Zone d'effet : 1 créature
-Jet de sauvegarde contre les sorts : annule
+Jet de sauvegarde contre le souffle : annule
 
-Ce sort crée un globe de force miroitante qui emprisonne la victime si elle rate un jet de sauvegarde contre les sorts, avec une pénalité de -4. La sphère englobe la cible pour la durée du sort. Elle est totalement invulnérable, sauf à la Dissipation de la Magie. Ainsi, la créature emprisonnée est complètement à l'abri de toute attaque, mais ne peut rien faire qui affecte le monde extérieur.
+Ce sort crée un globe de force miroitante qui emprisonne la victime si elle rate un jet de sauvegarde contre le souffle, avec une pénalité de -4. La sphère englobe la cible pour la durée du sort. Elle est totalement invulnérable, sauf à la Dissipation de la Magie. Ainsi, la créature emprisonnée est complètement à l'abri de toute attaque, mais ne peut rien faire qui affecte le monde extérieur.
 
 Le lanceur du sort peut choisir d'utiliser ce sort pour protéger ses alliés. La résistance magique et les jets de sauvegarde de la cible sont alors ignorés.~
 
@@ -1861,7 +1861,7 @@ Ecole : Evocation
 Portée : longue
 Durée : instantanée
 Temps d'incantation : 6
-Zone d'effet : Cible, et les ennemis dans un rayon de 9 mètres
+Zone d'effet : cible, et les ennemis dans un rayon de 9 mètres
 Jet de sauvegarde contre le souffle : 1/2
 
 Ce sort produit une décharge d'électricité qui jaillit des doigts du magicien. A la différence du sort d'Éclair, Chaîne d'Éclairs commence par toucher un objet ou une créature, puis passe ensuite à d'autres cibles. Ces arcs lumineux rebondissent sur tous les ennemis dans la zone d'effet, les brûlant avec de l'électricité. L'éclair cause 1d6 points de dégâts par niveau du lanceur à la cible principale (jusqu'à un maximum de 20d6) et 1d6 par deux niveaux aux cibles suivantes (jusqu'à un maximum de 10d6). Réussir un jet de sauvegarde contre le souffle à -4 permet de diviser par 2 les dégâts subis.~
@@ -3141,8 +3141,17 @@ Jet de sauvegarde contre la paralysie : partiel
 
 Lorsque ce sort est lancé, une lance de glace pointue empale la cible, lui infligeant 5d6 points de dégâts. La cible doit réussir un jet de sauvegarde contre la paralysie ou être immobilisée pendant 3 rounds.~
 
-@877=~~
-@878=~~
+@877=~Sphère de Vitriol~
+@878=~Sphère de Vitriol
+Niveau : 4
+École : Conjuration
+Portée : moyenne
+Durée : spéciale
+Temps d'incantation : 3
+Zone d'Effet : cible, et quiconque dans un rayon de 3 mètres
+Jet de sauvegarde contre le souffle : moitié
+
+Lorsque ce sortilège est lancé, une orbe brillante d'acide couleur émeraude zèbre vers la cible et explose dans un rayon de 3 mètres. Toute créature présente dans la zone doit réussir un jet de sauvegarde contre les souffles. Si elles échouent, elles subissent 10d4 points de dégâts d'acide et 4d4 points de dégâts d'acide à la fin de chacun des 2 rounds suivants. Si elles réussissent leur jet, les créatures ne reçoivent que la moitié des dégâts initiaux ainsi qu'à la fin de chacun des 2 rounds.~
 @879=~~
 
 /*------------------ Familiars ------------------*/
