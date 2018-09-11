@@ -128,6 +128,13 @@ LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 he
 COPY_EXISTING ~k1#scre.spl~ ~override~  //sectype marker
 WRITE_BYTE 0x27 "%k1#Dispel%"
 
+COPY_EXISTING ~spwi519.spl~ ~override~   // SS shouldn't stop Breach anymore
+LPF DELETE_EFFECT 
+INT_VAR
+ match_opcode = 206
+ STR_VAR
+ match_resource = spwi513b END
+ 
 
 // GLOBAL CHANGES  // 
 
