@@ -160,6 +160,7 @@ LPF ADD_SPELL_EFFECT
 	opcode			= 221 // remove type protection
 	target			= 2    //preset
 	power			= 8     
+    parameter1		= 9
 	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
 	timing			= 3
 END
