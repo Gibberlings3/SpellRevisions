@@ -210,8 +210,8 @@ COPY ~spell_rev\shared\spra306.spl~     ~override~ // Animal Summoning III
 
 COPY ~spell_rev\shared\spra301.spl~     ~override~ // Haste
   SAY NAME1 @509    SAY UNIDENTIFIED_DESC @510
-COPY ~spell_rev\shared\spra302.spl~     ~override~ // Minor Spell Deflection
-  SAY NAME1 @533    SAY UNIDENTIFIED_DESC @534
+COPY ~spell_rev\shared\spra302.spl~     ~override~ // Non-Detection
+  SAY NAME1 @519    SAY UNIDENTIFIED_DESC @520
 COPY ~spell_rev\shared\spra303.spl~     ~override~ // Protection from Missiles
   SAY NAME1 @521    SAY UNIDENTIFIED_DESC @522
 
