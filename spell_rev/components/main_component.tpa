@@ -2730,8 +2730,23 @@ INCLUDE ~spell_rev\lib\refinements.tph~  // refinements spells reverted back to 
 //// SECTYPE FIXES FOR VANILLA MESS and some more//
 
 INCLUDE ~spell_rev\lib\kreso_extra.tph~
-END
 
+////////////////////////KILL DOUBLE STRINGS ON SPELL REMOVALS IT HURTS MY EYES///////////
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513b.spl~ BEGIN
+COPY_EXISTING ~spwi513b.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
+ END
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi805b.spl~ BEGIN
+COPY_EXISTING ~spwi805b.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
+ END
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi903b.spl~ BEGIN
+COPY_EXISTING ~spwi903b.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
+ END
+END
 
 /*---------------------Tutu Scrolls---------------------*/
 
