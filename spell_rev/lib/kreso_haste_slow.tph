@@ -130,11 +130,12 @@ BUT_ONLY
     END
   BUT_ONLY 
   
-ACTION_IF  FILE_EXISTS_IN_GAME ~potn14.spl~ BEGIN // IR Oil of Speed
+ACTION_IF  FILE_EXISTS_IN_GAME ~potn14.spl~ BEGIN // IR Oil of Speed - commented out for now, shouldn't remove slow
 COPY_EXISTING ~potn14.spl~ ~override~  
  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 header = 0 END
  WRITE_BYTE 0x27 "%k1#Haste%"
- LPF ADD_SPELL_EFFECT
+ END
+ /* LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 221
 	target			= 2
@@ -146,7 +147,7 @@ COPY_EXISTING ~potn14.spl~ ~override~
 	insert_point    = 1
     END
   BUT_ONLY
-END  
+END   */
   
 COPY_EXISTING ~spwi613.spl~ ~override~    // Wizard Imp.Haste  - no sectype change since it's slow-immune
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
@@ -162,3 +163,18 @@ LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
 END
 BUT_ONLY 
 
+COPY_EXISTING ~spra301.spl~ ~override~    // stalker Haste
+  WRITE_BYTE 0x27 "%k1#Haste%"  
+  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+  LPF ADD_SPELL_EFFECT
+	INT_VAR
+	opcode			= 221
+	target			= 2
+	power			= 3
+	savingthrow     = 0
+	parameter1		= 9
+	parameter2		= EVALUATE_BUFFER %k1#Slow%
+	timing			= 1
+	insert_point    = 1
+    END
+BUT_ONLY 
