@@ -630,7 +630,7 @@ Casting Time: 3
 Area of Effect: Special
 Saving Throw: Breath half
 
-This spell enables the caster to hurl flaming arrows at his enemies. The caster receives one arrow for every two experience levels (up to a maximum of five arrows at level 10), and each arrow inflicts 1d6 points of missile damage plus 2d6 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. breath at -2. Upon completion of the spell, the first arrow will streak towards the creature targeted by the wizard, while additional arrows will randomly target opponents within range.~
+This spell enables the caster to hurl flaming arrows at his enemies. The caster receives one arrow for every two experience levels (up to a maximum of five arrows at level 10), and each arrow inflicts 1d6 points of missile damage plus 1d6 points of fire damage. Upon completion of the spell, the first arrow will streak towards the creature targeted by the wizard, while additional arrows will randomly target opponents within range.~
 
 @507=~Fireball~
 @508=~Fireball
