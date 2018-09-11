@@ -1447,7 +1447,7 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
-Surges of negative energy render all hostile living creatures in the spell’s area fatigued. While fatigued, they suffers a -2 penalty to attack rolls, damage rolls, AC, casting time and movement rate. Multiple castings of this spell are not cumulative.~
+Surges of negative energy render all hostile living creatures in the spell’s area fatigued, as if they haven't rested in a day. Multiple castings of this spell are cumulative.~
 
 @627=~Feeblemind~
 @628=~Feeblemind
