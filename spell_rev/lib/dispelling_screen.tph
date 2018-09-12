@@ -166,7 +166,7 @@ LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 221 // remove type protection
 	target			= 2    //preset
-	power			= 8     
+	power			= 8    
     parameter1		= 9
 	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
 	timing			= 3
@@ -179,50 +179,19 @@ LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 221 // remove type protection
 	target			= 2    //preset
-	power			= 9     
+	power			= 9 
     parameter1      = 9    
 	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
 	timing			= 3
 END
   BUT_ONLY
   
-ACTION_IF  FILE_EXISTS_IN_GAME ~spwish26.spl~ BEGIN  
-COPY_EXISTING ~spwish26.spl~ ~override~     // Wish Breach cheese rebalanced
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
-LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 146  
-	target			= 2
-	power			= 5
-	parameter1		= 9
-	timing			= 3
-	insert_point    = 1
-	STR_VAR        
-	resource = spwi513
+
 END
-  BUT_ONLY
+END
+END
 
 
-ACTION_IF  FILE_EXISTS_IN_GAME ~spwish38.spl~ BEGIN  
-COPY_EXISTING ~spwish38.spl~ ~override~     // Wish Breach cheese again
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
-LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 146  
-	target			= 2
-	power			= 5
-	parameter1		= 9
-	timing			= 3
-	insert_point    = 1
-	STR_VAR        
-	resource = spwi513
-END
-BUT_ONLY
-END
-END
-END
-END
-END
 
 /* ACTION_IF  FILE_EXISTS_IN_GAME ~wand18a.spl~ BEGIN  // IR Wand. I'll recreate it when I get the will to do so, so it doesnt
    COPY_EXISTING ~wand18a.spl~ ~override~     // summon Cowled wizards
