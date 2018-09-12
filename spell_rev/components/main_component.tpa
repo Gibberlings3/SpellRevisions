@@ -2746,6 +2746,11 @@ ACTION_IF  FILE_EXISTS_IN_GAME ~spwi903b.spl~ BEGIN
 COPY_EXISTING ~spwi903b.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
  END
+
+/// EE COMPONENT//
+ACTION_IF FILE_EXISTS_IN_GAME ~concentr.2da~ BEGIN // EE v2.0+
+INCLUDE ~spell_rev\lib\kreso_ee.tph~
+INCLUDE ~spell_rev\lib\kreso_eestatsr.tph~
 END
 
 /*---------------------Tutu Scrolls---------------------*/
