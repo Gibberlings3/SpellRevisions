@@ -217,5 +217,11 @@ PRINT @7999 // ~Patching spellbooks of joinable NPCs, this may take a moment...~
 // remove old spells, add new ones
 INCLUDE ~spell_rev/components/fix_spellbooks.tpa~
 
+/*--------Revised HLAs----------------*/
+BEGIN @10000
+DESIGNATED 65
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+INCLUDE ~spell_rev/lib/kreso_hla.tph~
+
 PRINT @7998 // ~Done!~
 
