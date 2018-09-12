@@ -35,6 +35,29 @@ To-do List:
 
 ...- updated french language thanks to Mornagest (of the d'Oghmatiques)
 
+v4 - beta 15 (15.6.2017.) updated by kreso
+- more fixes to Haste_slow and petrification code (hope I AM DONE with it)
+- Imprisonment fix
+- Haste reverted to AoE
+- Free action was preventing petrification
+- included HLAs from KR as optional component
+- Pro Elemental Energy casting time made instant, subspell has casting time
+- Flame Arrow damage slightly nerfed (save removed so it's 1d6 missile + 1d6 fire)
+- Waves of Fatigue buffed - it's now marked as a disable, it does what it's name suggest (increases fatigue level by "a day's worth"), it's effects are stackable
+- storm shield now works vs inc.cloud as well and doesn't stack with itself
+- insect-type spells no longer panick the target, they make them berserk for 6 seconds on failed save
+- priest spell magic resistance is no longer dispellable by spell removals
+- Physical Mirror spell is nerfed; it can block only one melee attack per combat round (this also removes the nonsensical "you cannot cast more contigency yada yada" message)
+ Same goes for wizard's Reflected image.
+- Globe of Blades is tweaked to be a buffed version of Blade Barrier, doing 2d6 damage per 2 seconds and no longer allows a save
+ - disabling effects from Chromatic orb can now be countered by Break Enchantment
+ - Ray of Enfeeblement is now coded as disable
+- Wizard spell  Detect Illusion power fixed so it bypasses spell protections
+- (Minor) Globe of Invulnerability and Spell Trap duration set to fixed 2 turns
+- workaround for Imprisonment - 5 rounds after it's cast on a character, he will reapear (but will die instantly).
+- Wail of Banshee has a no-save Deafness effect, 2 rounds duration
+
+
 V4 - Beta 14 (25 December 2016)
 - Update to WeiDU 240
 - various fixes, a few more EE string ref issues fixed
