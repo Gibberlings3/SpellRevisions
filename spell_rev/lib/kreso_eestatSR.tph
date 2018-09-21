@@ -2921,7 +2921,7 @@ END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spin105.spl~ THEN BEGIN  // innate bhalpower
-COPY_EXISTING ~spin203.spl~ ~override~   
+COPY_EXISTING ~spin105.spl~ ~override~   
 LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 324
