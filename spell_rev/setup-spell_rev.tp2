@@ -67,7 +67,7 @@ LANGUAGE ~Polish by dradiel (djc@poczta.fm)~
 
 BEGIN @9996
 DESIGNATED 0
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 // ToBEx
 ACTION_IF install_tobex && (ENGINE_IS ~tob~) BEGIN
@@ -111,7 +111,7 @@ END
 
 BEGIN @9995
 DESIGNATED 10
-REQUIRE_PREDICATE (ENGINE_IS ~tob bgee bg2ee~) @8997 // ~This component requires Baldur's Gate II: Throne of Bhaal be installed.~
+REQUIRE_PREDICATE (ENGINE_IS ~tob bgee bg2ee eet~) @8997 // ~This component requires Baldur's Gate II: Throne of Bhaal be installed.~
 
 INCLUDE ~spell_rev/components/celestials.tpa~
 
@@ -137,7 +137,7 @@ INCLUDE ~spell_rev/components/mirror_image_vs_aoe.tpa~
 
 BEGIN @9991
 DESIGNATED 30
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 INCLUDE ~spell_rev/components/dispellable_items.tpa~
 
@@ -177,12 +177,13 @@ BUT_ONLY_IF_IT_CHANGES
 
 BEGIN @9990
 DESIGNATED 50
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
 
 ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
   COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
-END ELSE BEGIN
+END
+ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
   COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
 END
 
@@ -208,7 +209,7 @@ INCLUDE ~spell_rev/components/nwn_spell_deflection.tpa~
 
 BEGIN @9989
 DESIGNATED 60
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
 FORBID_COMPONENT ~Setup-Divine_Remix.tp2~ 0 @8995 // ~This component will not work properly with Divine Remix installed.~
 
