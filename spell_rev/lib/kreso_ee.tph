@@ -156,7 +156,7 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr412.spl~ THEN BEGIN  // holy power
 COPY_EXISTING ~sppr412.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr412 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr412 END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr416.spl~ THEN BEGIN  // cloak of fear
@@ -360,7 +360,7 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~spwi526.spl~ THEN BEGIN  // mesthil
 COPY_EXISTING ~spwi526.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi526 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi526 END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spwi602.spl~ THEN BEGIN  // goi
