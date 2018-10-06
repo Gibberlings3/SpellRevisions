@@ -2273,8 +2273,8 @@ COPY ~spell_rev\spwi6##\spwi624.spl~     ~override~  // Summon Nishruu
 
 COPY ~spell_rev\spwi6##\spwi625.spl~     ~override~  // Stone to Flesh
   SAY NAME1 @707    SAY UNIDENTIFIED_DESC @708
-COPY ~spell_rev\spwi6##\scrl8c.itm~     ~override~
-  SAY NAME2 @707    SAY IDENTIFIED_DESC   @708
+/* COPY ~spell_rev\spwi6##\scrl8c.itm~     ~override~
+  SAY NAME2 @707    SAY IDENTIFIED_DESC   @708 */
 
 //COPY ~spell_rev\spwi6##\spin686.spl~     ~override~
 /* COPY ~spell_rev\spwi6##\wand18.itm~     ~override~ */
@@ -2548,7 +2548,7 @@ COPY ~spell_rev\spwi8##\spwi818i.eff~     ~override~
 
 COPY ~spell_rev\spwi8##\spwi819.spl~     ~override~  // Monster Summoning VIII (new mage spell)
   SAY NAME1 @868    SAY UNIDENTIFIED_DESC @869
-// COPY ~spell_rev\spwi8##\scrlm8.itm~     ~override\scrl9b.itm~ // replaces Summon Fiend scroll
+COPY ~spell_rev\spwi8##\scrl8c.itm~     ~override~ // replaces Stone to Flesh scroll
   SAY NAME2 @868   SAY IDENTIFIED_DESC   @869
 COPY ~spell_rev\spwi8##\umbhulsu.eff~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.cre~     ~override~
@@ -2579,7 +2579,7 @@ COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
 
 COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning IX (new mage spell)
   SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
-// COPY ~spell_rev\spwi9##\scrlm9.itm~     ~override\scrl9n.itm~  // replace Gate scroll
+COPY ~spell_rev\spwi9##\scrlm9.itm~     ~override~  // new scroll
   SAY NAME2 @870    SAY IDENTIFIED_DESC   @871
 COPY ~spell_rev\spwi9##\basilgsu.eff~     ~override~
 COPY ~spell_rev\spwi9##\basilgsu.cre~     ~override~
