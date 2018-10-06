@@ -2546,9 +2546,9 @@ COPY ~spell_rev\spwi8##\scrlb1.itm~     ~override~
 COPY ~spell_rev\spwi8##\spwi818d.spl~     ~override~
 COPY ~spell_rev\spwi8##\spwi818i.eff~     ~override~
 
-COPY ~spell_rev\spwi8##\spwi819.spl~     ~override~  // Monster Summoning VIII
+COPY ~spell_rev\spwi8##\spwi819.spl~     ~override~  // Monster Summoning VIII (new mage spell)
   SAY NAME1 @868    SAY UNIDENTIFIED_DESC @869
-COPY ~spell_rev\spwi8##\scrl9b.itm~     ~override~ // replaces Summon Fiend scroll
+// COPY ~spell_rev\spwi8##\scrlm8.itm~     ~override\scrl9b.itm~ // replaces Summon Fiend scroll
   SAY NAME2 @868   SAY IDENTIFIED_DESC   @869
 COPY ~spell_rev\spwi8##\umbhulsu.eff~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.cre~     ~override~
@@ -2577,9 +2577,9 @@ COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
 
-COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning VIII
+COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning IX (new mage spell)
   SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
-COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~  // replace Gate scroll
+// COPY ~spell_rev\spwi9##\scrlm9.itm~     ~override\scrl9n.itm~  // replace Gate scroll
   SAY NAME2 @870    SAY IDENTIFIED_DESC   @871
 COPY ~spell_rev\spwi9##\basilgsu.eff~     ~override~
 COPY ~spell_rev\spwi9##\basilgsu.cre~     ~override~
