@@ -1274,6 +1274,7 @@ COPY ~spell_rev\spwi1##\spwi119.spl~     ~override~  // Larloch's Minor Drain
   SAY NAME1 @435    SAY UNIDENTIFIED_DESC @436
 COPY ~spell_rev\spwi1##\scrl84.itm~     ~override~
   SAY NAME2 @435    SAY IDENTIFIED_DESC   @436
+COPY ~spell_rev\spwi1##\spwi119.eff~     ~override~
 
 COPY ~spell_rev\spwi1##\spwi120.spl~     ~override~  // Reflected Image
   SAY NAME1 @437    SAY UNIDENTIFIED_DESC @438
@@ -1635,6 +1636,7 @@ COPY ~spell_rev\spwi3##\spwi314.spl~     ~override~  // Vampiric Touch
   SAY NAME1 @527    SAY UNIDENTIFIED_DESC @528
 COPY ~spell_rev\spwi3##\scrl1q.itm~     ~override~
   SAY NAME2 @527    SAY IDENTIFIED_DESC   @528
+COPY ~spell_rev\spwi3##\spwi314.eff~     ~override~
 
 COPY ~spell_rev\spwi3##\spwi316.spl~     ~override~  // Dire Charm
   SAY NAME1 @529    SAY UNIDENTIFIED_DESC @530
@@ -2628,7 +2630,7 @@ COPY ~spell_rev\spwi9##\spwi913.spl~     ~override~  // Wail of the Banshee
 COPY ~spell_rev\spwi9##\scrl9v.itm~     ~override~
   SAY NAME2 @829    SAY IDENTIFIED_DESC   @830
 
-COPY ~spell_rev\spwi9##\spwi914.spl~     ~override~  // Energy Drain
+COPY ~spell_rev\spwi9##\spwi914.spl~     ~override~  // Larloch's Energy Drain
   SAY NAME1 @831    SAY UNIDENTIFIED_DESC @832
 COPY ~spell_rev\spwi9##\scrl9w.itm~     ~override~
   SAY NAME2 @831    SAY IDENTIFIED_DESC   @832
