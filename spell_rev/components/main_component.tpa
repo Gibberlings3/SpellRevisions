@@ -1016,6 +1016,7 @@ COPY ~spell_rev\sppr7##\sppr713.spl~     ~override~  // Greater Restoration
 
 COPY ~spell_rev\sppr7##\sppr715.spl~     ~override~  // Unholy Word
   SAY NAME1 @255    SAY UNIDENTIFIED_DESC @256
+COPY ~spell_rev\sppr7##\sppr715e.spl~     ~override~  // Slow effect
 COPY ~spell_rev\sppr7##\dvunword.eff~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr716.spl~     ~override~  // Animal Summoning VII
@@ -1167,6 +1168,7 @@ COPY ~spell_rev\spwi1##\scrl69.itm~     ~override~
 
 COPY ~spell_rev\spwi1##\spwi105.spl~     ~override~  // Color Spray
   SAY NAME1 @409    SAY UNIDENTIFIED_DESC @410
+COPY ~spell_rev\spwi1##\spwi105e.spl~     ~override~  // Slow effect
 COPY ~spell_rev\spwi1##\scrl70.itm~     ~override~
   SAY NAME2 @409    SAY IDENTIFIED_DESC   @410
 COPY ~spell_rev\projectles\cspray.pro~ ~override~
