@@ -214,12 +214,23 @@ BEGIN @9989
 DESIGNATED 60
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
-FORBID_COMPONENT ~Setup-Divine_Remix.tp2~ 0 @8995 // ~This component will not work properly with Divine Remix installed.~
+//FORBID_COMPONENT ~Setup-Divine_Remix.tp2~ 0 @8995 // ~This component will not work properly with Divine Remix installed.~
+// let's still handle arcane spellbooks... see below
 
 PRINT @7999 // ~Patching spellbooks of joinable NPCs, this may take a moment...~
 
+INCLUDE ~spell_rev/lib/joinable_npcs.tpa~
+
 // remove old spells, add new ones
+
 INCLUDE ~spell_rev/components/fix_spellbooks.tpa~
+
+ACTION_IF NOT MOD_IS_INSTALLED ~Divine_Remix~ ~0~ BEGIN
+  LAF fix_divine_spellbooks END
+END
+
+LAF fix_arcane_spellbooks END
+
 
 /*--------Revised HLAs----------------*/
 BEGIN @10000
