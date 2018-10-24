@@ -2677,7 +2677,7 @@ COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
-
+/*
 COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning IX (new mage spell)
   SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
 COPY ~spell_rev\spwi9##\scrlm9.itm~     ~override~  // new scroll
@@ -2688,6 +2688,7 @@ COPY ~spell_rev\spwi9##\basilgsu.bcs~     ~override~
 COPY ~spell_rev\spwi9##\basilg1.itm~     ~override~
 COPY ~spell_rev\spwi9##\basilg2.itm~     ~override~
 COPY ~spell_rev\spwi9##\basilg3.itm~     ~override~
+*/
 
 COPY ~spell_rev\spwi9##\spwi907.spl~     ~override~  // Absolute Immunity
   SAY NAME1 @817    SAY UNIDENTIFIED_DESC @818
