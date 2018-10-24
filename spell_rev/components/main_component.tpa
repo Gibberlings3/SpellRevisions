@@ -1210,7 +1210,6 @@ COPY ~spell_rev\sppr7##\sppr729.spl~     ~override~  // Mass Raise Dead
 COPY ~spell_rev\sppr7##\sppr730.spl~     ~override~  // Aura of Flaming Death
   SAY NAME1 @289    SAY UNIDENTIFIED_DESC @290
 COPY ~spell_rev\sppr7##\sppr730d.spl~     ~override~
-  SAY NAME1 @289
 COPY ~spell_rev\sppr7##\dvflmhit.eff~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr731.spl~     ~override~  // Fire Elemental Transformation
