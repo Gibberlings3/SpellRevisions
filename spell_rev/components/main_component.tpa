@@ -4,6 +4,16 @@ INCLUDE ~spell_rev\lib\cre_spell_immunity.tph~
 
 /* ----Various---- */
 
+// SD: eliminate #bonecir.spl from IWDEE
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME "#bonecir.spl" BEGIN
+	DISABLE_FROM_KEY "#bonecir.spl"
+  END
+  ACTION_IF FILE_EXISTS "override/#bonecir.spl" BEGIN
+	DELETE "override/#bonecir.spl"
+  END
+END
+
 // Scroll Of Restoration: no longer needed since addition of spellbook fixing code in v3
 // adscroll.itm still copied over in case someone wants to CLUAConsole it for use on an old save game
 COPY ~spell_rev\shared\adscroll.itm~     ~override~
@@ -464,6 +474,7 @@ COPY ~spell_rev\sppr2##\sppr216c.bam~     ~override~
 COPY ~spell_rev\sppr2##\sppr217.spl~     ~override~  // Regenerate Moderate Wounds (new druid spell)
   SAY NAME1 @303    SAY UNIDENTIFIED_DESC @304
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr2##\sppr218.spl~     ~override~  // Gust of Wind (new druid spell)
   SAY NAME1 @313    SAY UNIDENTIFIED_DESC @314
 
@@ -485,7 +496,22 @@ ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
 COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
   WRITE_SHORT 0x98 %dvdscent%
 COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
+END
 
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+ COPY ~spell_rev\sppr2##\sppr218.spl~     ~override/sppr221.spl~  // Gust of Wind (new druid spell)
+  SAY NAME1 @313    SAY UNIDENTIFIED_DESC @314
+
+ COPY ~spell_rev\sppr2##\sppr220.spl~     ~override/sppr222.spl~  // Animal Summoning II
+  SAY NAME1 @323    SAY UNIDENTIFIED_DESC @324
+ COPY ~spell_rev\sppr2##\dogwasu.eff~     ~override~
+ COPY ~spell_rev\sppr2##\dogwasu.cre~     ~override~
+ COPY ~spell_rev\sppr2##\dogwasu.itm~     ~override~
+ ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
+ COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
+  WRITE_SHORT 0x98 %dvdscent%
+ COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
+END
 
 /*-----------------------level 3-----------------------*/
 
@@ -533,9 +559,11 @@ COPY ~spell_rev\sppr3##\sppr310.spl~     ~override~  // Miscast Magic
 COPY ~spell_rev\sppr3##\sppr310a.spl~     ~override~
 COPY ~spell_rev\sppr3##\sppr310b.spl~     ~override~
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr3##\sppr311.spl~     ~override~  // Contagion (replaces Rigid Thinking)
   SAY NAME1 @91    SAY UNIDENTIFIED_DESC @92
   COPY ~spell_rev\sppr3##\sppr311d.spl~     ~override~
+END
 
 ADD_PROJECTILE ~spell_rev\projectles\dvstrone.pro~
 COPY ~spell_rev\sppr3##\sppr312.spl~     ~override~  // Strength of One
@@ -589,6 +617,7 @@ COPY ~spell_rev\sppr3##\dvanpack.spl~     ~override~
   WRITE_SHORT 0x98 %dvanpack%
 COPY ~spell_rev\sppr3##\dvanpack.eff~     ~override~
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr3##\sppr321.spl~     ~override~  // Cause Serious Wounds (disabled at lvl4, active at lvl 3) 
   SAY NAME1 @107    SAY UNIDENTIFIED_DESC @108
 COPY ~spell_rev\sppr3##\serious.itm~     ~override~
@@ -598,10 +627,12 @@ COPY ~spell_rev\sppr3##\sppr322.spl~     ~override~  // Storm Shield (new druid 
   SAY NAME1 @1109    SAY UNIDENTIFIED_DESC @1110
 COPY ~spell_rev\sppr3##\spstorms.vvc~     ~override~
 COPY ~spell_rev\sppr3##\spstorms.bam~     ~override~
+END
 
 COPY ~spell_rev\sppr3##\sppr323.spl~     ~override~  // Regenerate Serious Wounds (new druid spell)
   SAY NAME1 @305    SAY UNIDENTIFIED_DESC @306
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr3##\sppr324.spl~     ~override~  // Magic Fang (new druid spell)
   SAY NAME1 @327    SAY UNIDENTIFIED_DESC @328
 COPY ~spell_rev\sppr3##\mfang~     ~override~
@@ -611,6 +642,7 @@ COPY ~spell_rev\sppr3##\sppr325.spl~     ~override~  // Spike Growth (new druid 
   SAY NAME1 @333    SAY UNIDENTIFIED_DESC @334
   WRITE_SHORT 0x98 %dvspgrow%
 COPY ~spell_rev\sppr3##\sppr325i.eff~     ~override~
+END
   
 ADD_PROJECTILE ~spell_rev\projectles\dvicespr.pro~
 COPY ~spell_rev\sppr3##\sppr326.spl~     ~override~  // Icelance (new druid spell)
@@ -654,10 +686,12 @@ COPY ~spell_rev\sppr4##\sppr406.spl~     ~override~  // Defensive Harmony
 COPY ~spell_rev\sppr4##\scrl5b.itm~     ~override~
   SAY NAME2 @121    SAY IDENTIFIED_DESC   @122
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr4##\sppr407.spl~     ~override~  // Protection from Lightning (Disabled at level 4)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
 COPY ~spell_rev\sppr4##\scrl5c.itm~     ~override~
   SAY NAME2 @123    SAY IDENTIFIED_DESC   @124
+END
 
 COPY ~spell_rev\sppr4##\sppr408.spl~ ~override~ // Magic Circle against Evil (previously named Protection from Evil 10' Radius)
   SAY NAME1 @125 SAY UNIDENTIFIED_DESC @126
@@ -717,11 +751,13 @@ COPY ~spell_rev\sppr4##\sppr417.spl~     ~override~  // Lesser Restoration
 COPY ~spell_rev\sppr4##\restore.itm~     ~override~
   SAY NAME2 @143    SAY IDENTIFIED_DESC   @144 
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr4##\sppr418.spl~     ~override~  // Ice Storm (added to druid's spells)
   SAY NAME1 @145    SAY UNIDENTIFIED_DESC @146
 
 COPY ~spell_rev\sppr4##\sppr419.spl~     ~override~  // Regenerate Critical Wounds (new druid spell)
   SAY NAME1 @307    SAY UNIDENTIFIED_DESC @308
+END
 
 /*-----------------------level 5-----------------------*/
 
@@ -823,9 +859,11 @@ COPY ~spell_rev\sppr5##\sppr517b.spl~     ~override~
 LAF ds_altered_spell INT_VAR old_clone=60 new_clone=~-1~ STR_VAR file=~sppr517.spl~ END
 APPEND_OUTER ~spell_rev/lib/ds_sr_extra.2da~ ~sppr517a.SPL    233     2     120   146    6     A~
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr5##\sppr519.spl~     ~override~  // Polymorph Other (added to druid's spells)
   SAY NAME1 @185    SAY UNIDENTIFIED_DESC @186
 COPY ~spell_rev\sppr5##\dvsquir.itm~     ~override~
+END
 
 COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (added to priest's spells)
   SAY NAME1 @187    SAY UNIDENTIFIED_DESC @188
@@ -833,8 +871,10 @@ COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (ad
 COPY ~spell_rev\sppr5##\sppr521.spl~     ~override~  // Protection from Cold (added to priest's spells)
   SAY NAME1 @189    SAY UNIDENTIFIED_DESC @190
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr5##\sppr522.spl~     ~override~  // Protection from Electricity (disabled at lvl 4, active at lvl 5)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
+END
 
 COPY ~spell_rev\sppr5##\sppr523.spl~     ~override~  // Protection from Fire (disabled at lvl 3, active at lvl 5)
   SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82

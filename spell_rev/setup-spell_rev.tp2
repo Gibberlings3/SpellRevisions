@@ -67,7 +67,7 @@ LANGUAGE ~Polish by dradiel (djc@poczta.fm)~
 
 BEGIN @9996
 DESIGNATED 0
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet iwdee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 // ToBEx
 ACTION_IF install_tobex && (ENGINE_IS ~tob~) BEGIN
@@ -124,7 +124,7 @@ INCLUDE ~spell_rev/components/celestials.tpa~
 
 BEGIN @9992
 DESIGNATED 20
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee iwdee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 INCLUDE ~spell_rev/components/mirror_image_vs_aoe.tpa~
 
@@ -185,6 +185,9 @@ ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
 END
 ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
   COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
+END
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+  COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
 END
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
