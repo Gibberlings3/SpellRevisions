@@ -399,5 +399,29 @@ LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR re
 ACTION_IF FILE_EXISTS_IN_GAME ~spwi808.spl~ THEN BEGIN  // moment of prescience
 COPY_EXISTING ~spwi808.spl~ ~override~
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi808 END END 
- 
- 
+
+// EE 2.5 patches by subtledoctor
+//
+ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
+
+ ACTION_IF FILE_EXISTS_IN_GAME ~spwi318.spl~ THEN BEGIN  // minor deflection
+ COPY_EXISTING ~spwi318.spl~ ~override~
+ LPF ALTER_EFFECT INT_VAR silent = 1 multi_match = 1 match_opcode = 201 STR_VAR resource = ~spwi318b~ END 
+ END 
+
+ ACTION_IF FILE_EXISTS_IN_GAME ~spwi522.spl~ THEN BEGIN  // deflection
+ COPY_EXISTING ~spwi522.spl~ ~override~
+ LPF ALTER_EFFECT INT_VAR silent = 1 multi_match = 1 match_opcode = 201 STR_VAR resource = ~spwi522b~ END 
+ END 
+
+ ACTION_IF FILE_EXISTS_IN_GAME ~spwi618.spl~ THEN BEGIN  // deflection
+ COPY_EXISTING ~spwi618.spl~ ~override~
+ LPF ALTER_EFFECT INT_VAR silent = 1 multi_match = 1 match_opcode = 201 STR_VAR resource = ~spwi618b~ END 
+ END 
+
+ ACTION_IF FILE_EXISTS_IN_GAME ~spwi701.spl~ THEN BEGIN  // greater deflection
+ COPY_EXISTING ~spwi701.spl~ ~override~
+ LPF ALTER_EFFECT INT_VAR silent = 1 multi_match = 1 match_opcode = 201 STR_VAR resource = ~spwi701b~ END 
+ END 
+
+END 
