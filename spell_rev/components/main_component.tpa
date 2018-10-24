@@ -2923,3 +2923,16 @@ COPY ~spell_rev/revised_saves/savecng.2da~ ~override~  // Gnome save bonuses
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+
+// added by SubtleDoctor:
+
+/*------ SET ARCANE SPELL SCHOOLS ------*/
+
+// and mark arcane spells for spellbook removal 
+
+INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
+INCLUDE ~spell_rev/lib/d5_set_spell_schools.tpa~
+LAF set_spell_schools END
+
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
+////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
