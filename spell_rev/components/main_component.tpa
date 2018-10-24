@@ -185,12 +185,54 @@ COPY ~spell_rev\shared\vermtype.itm~     ~override~  // Vermin type characterist
 
 /* ----Bhaalspawn Abilities---- */
 
+ACTION_IF FILE_EXISTS_IN_GAME ~spin101.spl~ BEGIN
+  COPY_EXISTING ~spin101.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin101.spl~     ~override~ // Cure Light Wounds
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin102.spl~ BEGIN
+  COPY_EXISTING ~spin102.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin102.spl~     ~override~ // Slow Poison
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin103.spl~ BEGIN
+  COPY_EXISTING ~spin103.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin103.spl~     ~override~ // Draw upon Divine Might
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin104.spl~ BEGIN
+  COPY_EXISTING ~spin104.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin104.spl~     ~override~ // Larloch's Minor Drain
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin105.spl~ BEGIN
+  COPY_EXISTING ~spin105.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin105.spl~     ~override~ // Horror
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin106.spl~ BEGIN
+  COPY_EXISTING ~spin106.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin106.spl~     ~override~ // Vampiric Drain
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
 
 /* ----Avenger Abilities---- */
 
@@ -227,7 +269,14 @@ COPY ~spell_rev\shared\spra303.spl~     ~override~ // Protection from Missiles
 
 /* ----Paladin Abilities---- */
 
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl213.spl~ BEGIN
+  COPY_EXISTING ~spcl213.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spcl213.spl~     ~override~ // Protection from Evil
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
 
 /* ----Stormlord Abilities---- */
 
@@ -246,7 +295,14 @@ COPY ~spell_rev\shared\dvgasfrm.spl~      ~override~ // Gaseous Form
 COPY ~spell_rev\shared\dvgasfrm.itm~      ~override~ // Gaseous Form
 COPY ~spell_rev\shared\dvtelpor.spl~      ~override~ // Teleport Without Error
 
+ACTION_IF FILE_EXISTS_IN_GAME ~spin113.spl~ BEGIN
+  COPY_EXISTING ~spin113.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin113.spl~      ~override~ // Branwen Spiritual Hammer
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
 
 COPY ~spell_rev\shared\spin683.spl~      ~override~ // Innate Web Tangle
 COPY ~spell_rev\shared\spin701.spl~      ~override~ // Death Knight's Unholy Fireball
