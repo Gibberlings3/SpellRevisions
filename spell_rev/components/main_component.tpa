@@ -1942,7 +1942,7 @@ COPY ~spell_rev\spwi4##\spwi420.spl~     ~override~  // Simbul's Spell Matrix (p
 COPY ~spell_rev\spwi4##\scrl6p.itm~     ~override~
   SAY NAME2 @599    SAY IDENTIFIED_DESC   @600
 COPY ~spell_rev\spwi4##\spwi420d.spl~     ~override~
-  SAY NAME2 @599
+  SAY NAME1 @599
 
 COPY ~spell_rev\spwi4##\spwi421.spl~     ~override~  // Teleport Field
   SAY NAME1 @601    SAY UNIDENTIFIED_DESC @602
