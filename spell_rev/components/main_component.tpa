@@ -1815,11 +1815,13 @@ COPY ~spell_rev\spwi4##\spwi465.itm~     ~override~
 COPY ~spell_rev\spwi4##\spwi465.spl~     ~override~
   SAY NAME1 ~Shapeshifts Winter Wolf~
 
+ACTION_IF NOT GAME_IS ~bgee bg2ee eet iwdee~ BEGIN
 COPY ~spell_rev\spwi4##\spwi417.spl~     ~override~  // Enchanted Weapon
   SAY NAME1 @593    SAY UNIDENTIFIED_DESC @594
 COPY ~spell_rev\spwi4##\scrl6m.itm~     ~override~
   SAY NAME2 @593    SAY IDENTIFIED_DESC   @594
 COPY ~spell_rev\spwi4##\enchwp~     ~override~
+END
 
 COPY ~spell_rev\spwi4##\spwi418.spl~     ~override~  // Fire Shield (Red)
   SAY NAME1 @595    SAY UNIDENTIFIED_DESC @596
