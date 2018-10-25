@@ -1,5 +1,5 @@
-@10000=~Scroll of Restoration~
-@10001=~A Scroll of Restoration updates the spellbook of the character. Read it if the spellbook of the cleric, paladin, druid, or ranger contains spells that shouldn't be available to them. Those spells will be removed, and correct ones will be added after the next level-up.~
+@22000=~Scroll of Restoration~
+@22001=~A Scroll of Restoration updates the spellbook of the character. Read it if the spellbook of the cleric, paladin, druid, or ranger contains spells that shouldn't be available to them. Those spells will be removed, and correct ones will be added after the next level-up.~
 
 
 /*-------------------------level 1------------------------*/

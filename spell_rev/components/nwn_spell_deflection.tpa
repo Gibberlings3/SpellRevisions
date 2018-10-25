@@ -19,15 +19,15 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
 ~spwi810~ => 1 // incendiary cloud
 ~spwi911~ => 1 // meteor swarm
 
-~spwi922~ => 1 // dragon breath
-~spwi925~ => 1 // comet
+//~spwi922~ => 1 // dragon breath //
+//~spwi925~ => 1 // comet //
 
 ~sppr304~ => 1 // glyph of warding
 ~sppr313~ => 1 // holy smite
 ~sppr314~ => 1 // unholy blight
 ~sppr503~ => 1 // flame strike
 ~sppr705~ => 1 // fire storm
-~sppr720~ => 1 // earthquake
+// ~sppr720~ => 1 // earthquake //
 
 // AoE spells without MR issues
 
@@ -38,7 +38,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
 ~spwi427~ => 1
 ~spwi897~ => 1
 ~spwi898~ => 1
-~insanity~ => 1
+//~insanity~ => 1 //
 ~dgwhirl~ => 1
 ~beguile~ => 1
 ~spwi899~ => 1
@@ -55,7 +55,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
 ~spwi507~ => 1 // hold monster
 ~spwi508~ => 1 // chaos
 // ~spwi605~ => 1 // death spell
-~spwi615~ => 1 // chain ligthning
+//~spwi615~ => 1 // chain ligthning //
 ~spwi711~ => 1 // sphere of chaos
 ~spwi720~ => 1 // control undead
 ~spwi811~ => 1 // symbol fear
@@ -91,10 +91,10 @@ ACTION_IF (MOD_IS_INSTALLED ~setup-spell_rev.tp2~ 0) BEGIN
   OUTER_SET $spell("spwi523")=0
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~tg#come.spl~ BEGIN
+/*ACTION_IF FILE_EXISTS_IN_GAME ~tg#come.spl~ BEGIN
   OUTER_SET $spell("tg#drgb")=1
   OUTER_SET $spell("tg#come")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~abaz01.spl~ BEGIN
   OUTER_SET $spell("abaz01")=1
@@ -108,9 +108,9 @@ ACTION_IF FILE_EXISTS_IN_GAME ~balth12.spl~ BEGIN
   OUTER_SET $spell("balth12")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~bdneoawe.spl~ BEGIN
+/* ACTION_IF FILE_EXISTS_IN_GAME ~bdneoawe.spl~ BEGIN
   OUTER_SET $spell("bdneoawe")=1
-END
+END 
 
 ACTION_IF FILE_EXISTS_IN_GAME ~bw05sp00.spl~ BEGIN
   OUTER_SET $spell("bw05sp00")=1
@@ -166,15 +166,15 @@ END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~dvprexpl.spl~ BEGIN
   OUTER_SET $spell("dvprexpl")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~mels545.spl~ BEGIN
   OUTER_SET $spell("mels545")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~melspl07.spl~ BEGIN
+/*ACTION_IF FILE_EXISTS_IN_GAME ~melspl07.spl~ BEGIN
   OUTER_SET $spell("melspl07")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~myst10.spl~ BEGIN
   OUTER_SET $spell("myst10")=1
@@ -184,20 +184,20 @@ ACTION_IF FILE_EXISTS_IN_GAME ~nabpara.spl~ BEGIN
   OUTER_SET $spell("nabpara")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~ohbdemi2.spl~ BEGIN
+/*ACTION_IF FILE_EXISTS_IN_GAME ~ohbdemi2.spl~ BEGIN
   OUTER_SET $spell("ohbdemi2")=1
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~ntspwi81.spl~ BEGIN
   OUTER_SET $spell("ntspwi81")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~ohbicew.spl~ BEGIN
   OUTER_SET $spell("ohbicew")=1
 END
 
 
-ACTION_IF FILE_EXISTS_IN_GAME ~ohbquake.spl~ BEGIN
+/* ACTION_IF FILE_EXISTS_IN_GAME ~ohbquake.spl~ BEGIN
   OUTER_SET $spell("ohbquake")=1
 END
 
@@ -207,7 +207,7 @@ END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~ohbwi304.spl~ BEGIN
   OUTER_SET $spell("ohbwi304")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~ohrdark.spl~ BEGIN
   OUTER_SET $spell("ohrdark")=1
@@ -217,17 +217,17 @@ ACTION_IF FILE_EXISTS_IN_GAME ~ohrfear.spl~ BEGIN
   OUTER_SET $spell("ohrfear")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~spblun29.spl~ BEGIN
+/* ACTION_IF FILE_EXISTS_IN_GAME ~spblun29.spl~ BEGIN
   OUTER_SET $spell("spblun29")=1
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spcl911b.spl~ BEGIN
   OUTER_SET $spell("spcl911b")=1
-END
+END */
 
-ACTION_IF FILE_EXISTS_IN_GAME ~spcryo01.spl~ BEGIN
+/*ACTION_IF FILE_EXISTS_IN_GAME ~spcryo01.spl~ BEGIN
   OUTER_SET $spell("spcryo01")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spctmd01.spl~ BEGIN
   OUTER_SET $spell("spctmd01")=1
@@ -335,9 +335,9 @@ ACTION_IF FILE_EXISTS_IN_GAME ~spinds2.spl~ BEGIN
   OUTER_SET $spell("spinds2")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~spogre01.spl~ BEGIN
+/*ACTION_IF FILE_EXISTS_IN_GAME ~spogre01.spl~ BEGIN
   OUTER_SET $spell("spogre01")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr250.spl~ BEGIN
   OUTER_SET $spell("sppr250")=1
@@ -391,7 +391,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~spwi957.spl~ BEGIN
   OUTER_SET $spell("spwi957")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~spwish24.spl~ BEGIN
+/* ACTION_IF FILE_EXISTS_IN_GAME ~spwish24.spl~ BEGIN
   OUTER_SET $spell("spwish24")=1
 END
 
@@ -401,7 +401,7 @@ END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spwish32.spl~ BEGIN
   OUTER_SET $spell("spwish32")=1
-END
+END */
 
 ACTION_IF FILE_EXISTS_IN_GAME ~staf12a.spl~ BEGIN
   OUTER_SET $spell("staf12a")=1
@@ -487,9 +487,9 @@ ACTION_IF FILE_EXISTS_IN_GAME ~tg#shoc.spl~ BEGIN
   OUTER_SET $spell("tg#shoc")=1
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~tg#volc.spl~ BEGIN
+/*ACTION_IF FILE_EXISTS_IN_GAME ~tg#volc.spl~ BEGIN
   OUTER_SET $spell("tg#volc")=1
-END
+END */
 
 
 ACTION_PHP_EACH spell AS i2 => r2 BEGIN

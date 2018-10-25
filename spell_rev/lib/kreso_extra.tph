@@ -1,0 +1,413 @@
+//// SECONDARY TYPE ERRORS & tweaks IN VANILLA - dragon breath attacks are coded as magic attacx (!?) but I left it be....don't fix if ain't broken...//
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl237.spl~ THEN BEGIN  // no longer breachable, sun monk fireshield
+COPY_EXISTING ~spcl237.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~balshld2.spl~ THEN BEGIN  // no longer breachable
+COPY_EXISTING ~balshld2.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~balshld.spl~ THEN BEGIN  // no longer breachable
+COPY_EXISTING ~balshld.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~balth07.spl~ THEN BEGIN  // malison-like effect, gets disabling sec type
+COPY_EXISTING ~balth07.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~balth11.spl~ THEN BEGIN  // hardiness-like ability, no longer breachable
+COPY_EXISTING ~balth11.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~beguile.spl~ THEN BEGIN  // disabling
+COPY_EXISTING ~beguile.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bgwi930.spl~ THEN BEGIN  // disabling
+COPY_EXISTING ~bgwi930.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~ring27.spl~ THEN BEGIN  // fireshield not breachable
+COPY_EXISTING ~ring27.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~ring27b.spl~ THEN BEGIN  // fireshield not breachable
+COPY_EXISTING ~ring27.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl641.spl~ THEN BEGIN  // some charm stuff
+COPY_EXISTING ~spcl641.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl904.spl~ THEN BEGIN  // warrior Resist Magic HLA, previously spell protection!?
+COPY_EXISTING ~spcl904.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl907.spl~ THEN BEGIN  // warrior Hardiness not breachable
+COPY_EXISTING ~spcl907.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl913.spl~ THEN BEGIN  // thief evasion
+COPY_EXISTING ~spcl913.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl914.spl~ THEN BEGIN  // greater evasion
+COPY_EXISTING ~spcl914.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl916.spl~ THEN BEGIN  // rogue assassination, previously combat protection??
+COPY_EXISTING ~spcl916.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr509.spl~ THEN BEGIN  // magic resistance  
+COPY_EXISTING ~sppr509.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl917.spl~ THEN BEGIN  // avoid death HLA
+COPY_EXISTING ~spcl917.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin108.spl~ THEN BEGIN  // ranger charm
+COPY_EXISTING ~spin108.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin119.spl~ THEN BEGIN  // innate charm ability
+COPY_EXISTING ~spin119.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin536.spl~ THEN BEGIN  // lich fear is disabling
+COPY_EXISTING ~spin536.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin547.spl~ THEN BEGIN  // psionic attack that does damage - offensive
+COPY_EXISTING ~spin547.spl~ ~override~
+WRITE_BYTE 0x27 10
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin553.spl~ THEN BEGIN  // nalmisira charm is disabling
+COPY_EXISTING ~spin553.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin558.spl~ THEN BEGIN  // eryines charm is disabling
+COPY_EXISTING ~spin558.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin582.spl~ THEN BEGIN  // no save confusion, lum the mad
+COPY_EXISTING ~spin582.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin674.spl~ THEN BEGIN  // mist chaos is a disable
+COPY_EXISTING ~spin674.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin675.spl~ THEN BEGIN  // mist horror is a disable
+COPY_EXISTING ~spin675.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin807.spl~ THEN BEGIN  // slayer fear is disable
+COPY_EXISTING ~spin807.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+/* ACTION_IF FILE_EXISTS_IN_GAME ~spin832.spl~ THEN BEGIN  // dragon paralyzing attack isn't magical attack but a disable, but it has a "power level"...??
+COPY_EXISTING ~spin832.spl~ ~override~
+WRITE_BYTE 0x27 11
+END */
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin834.spl~ THEN BEGIN  // elder brain stun is a disable
+COPY_EXISTING ~spin834.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin882.spl~ THEN BEGIN  // vampire fear is disabling
+COPY_EXISTING ~spin882.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin890.spl~ THEN BEGIN  // demon fear is disabling
+COPY_EXISTING ~spin890.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin891.spl~ THEN BEGIN  // dog fear is disabling
+COPY_EXISTING ~spin891.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+/* ACTION_IF FILE_EXISTS_IN_GAME ~spin894.spl~ THEN BEGIN  // dragon breath not a magic attack
+COPY_EXISTING ~spin894.spl~ ~override~
+WRITE_BYTE 0x27 0
+END */
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin895.spl~ THEN BEGIN  // dragon fear is a disable
+COPY_EXISTING ~spin895.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin909.spl~ THEN BEGIN  // psionic ego whip is a stun so a disable
+COPY_EXISTING ~spin909.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin910.spl~ THEN BEGIN  // psionic domination is a disable
+COPY_EXISTING ~spin910.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin911.spl~ THEN BEGIN  // psionic ballistic attack is offensive damage
+COPY_EXISTING ~spin911.spl~ ~override~
+WRITE_BYTE 0x27 10
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin920.spl~ THEN BEGIN  // beholder spell turning is a spell protection
+COPY_EXISTING ~spin920.spl~ ~override~
+WRITE_BYTE 0x27 1
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin957.spl~ THEN BEGIN  // ghoul lord fear is a disable
+COPY_EXISTING ~spin957.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin959.spl~ THEN BEGIN  // ulitharid blast is a disable
+COPY_EXISTING ~spin959.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr982.spl~ THEN BEGIN  // trap
+COPY_EXISTING ~sppr983.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr983.spl~ THEN BEGIN  // trap
+COPY_EXISTING ~sppr983.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr989.spl~ THEN BEGIN  // trap
+COPY_EXISTING ~sppr989.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin960.spl~ THEN BEGIN  // beholder paralyzation is a disable
+COPY_EXISTING ~spin960.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin975.spl~ THEN BEGIN  // psionic domination is a disable
+COPY_EXISTING ~spin975.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin976.spl~ THEN BEGIN  // golem confusion is a disable
+COPY_EXISTING ~spin976.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin996.spl~ THEN BEGIN  // tanarri gaze is a disable
+COPY_EXISTING ~spin996.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin998.spl~ THEN BEGIN  // tanarri silence is a disable
+COPY_EXISTING ~spin998.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin999.spl~ THEN BEGIN  // tanarri paralyzation is a disable
+COPY_EXISTING ~spin999.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi929.spl~ THEN BEGIN  // sucubi charm
+COPY_EXISTING ~spin929.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi930.spl~ THEN BEGIN  // sucubi charm
+COPY_EXISTING ~spin930.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi939.spl~ THEN BEGIN  // some charm
+COPY_EXISTING ~spin939.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi943.spl~ THEN BEGIN  // sirene charm
+COPY_EXISTING ~spin943.spl~ ~override~
+WRITE_BYTE 0x27 11
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~melis02.spl~ THEN BEGIN  // mel's globe OF BLADES is now non-breachable
+COPY_EXISTING ~melis02.spl~ ~override~
+WRITE_BYTE 0x27 0
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~melspl01.spl~ THEN BEGIN  // mel's mantle now makes her damage immune
+COPY_EXISTING ~melspl01.spl~ ~override~
+LPF CLONE_EFFECT INT_VAR match_opcode = 120 opcode = 101  parameter2 = 12 END 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdaurafe.spl~ THEN BEGIN  // fear aura
+COPY_EXISTING ~bdaurafe.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdbbeaut.spl~ THEN BEGIN  // blind beauty disable
+COPY_EXISTING ~bdbbeaut.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdfear.spl~ THEN BEGIN  // fear
+COPY_EXISTING ~bdfear.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdhafear.spl~ THEN BEGIN  // fear
+COPY_EXISTING ~bdhafear.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdtgaze.spl~ THEN BEGIN  // fear
+COPY_EXISTING ~bdtgaze.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdspidga.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~bdspidga.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spdr201.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~spdr201.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin566.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~spin566.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin575.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~spin575.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin683.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~spin683.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spin215.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~spin215.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi215.spl~ THEN BEGIN  // web is now disable
+COPY_EXISTING ~spwi215.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr105.spl~ THEN BEGIN  // entangle is now disable
+COPY_EXISTING ~sppr105.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi101.spl~ THEN BEGIN  // grease is now disable
+COPY_EXISTING ~spwi101.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwish26.spl~ THEN BEGIN  // breach doesn't need removal string
+COPY_EXISTING ~spwish26.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwish38.spl~ THEN BEGIN  // breach doesn't need removal string
+COPY_EXISTING ~spwish38.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi221.spl~ THEN BEGIN  //  ray of enfeeblement disable
+COPY_EXISTING ~spwi221.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF  FILE_EXISTS_IN_GAME  ~sppr698.spl~ BEGIN
+COPY_EXISTING ~sppr698.spl~   ~override~
+WRITE_BYTE 0x27 0
+END
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME  ~sppr725.spl~ BEGIN
+COPY_EXISTING ~sppr725.spl~   ~override~
+WRITE_BYTE 0x27 0
+END
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwish09.spl~ BEGIN
+COPY_EXISTING ~spwish09.spl~   ~override~
+WRITE_BYTE 0x27 0
+END
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~spyancd.spl~ BEGIN
+COPY_EXISTING ~spyancd.spl~   ~override~
+WRITE_BYTE 0x27 0
+END
+ 
+ACTION_IF  FILE_EXISTS_IN_GAME ~sppr730.spl~ BEGIN
+COPY_EXISTING ~sppr730.spl~   ~override~
+WRITE_BYTE 0x27 0
+END
+
+/// chromatic orb effects sectype//
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi118a.spl~ THEN BEGIN  //  
+COPY_EXISTING ~spwi118a.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi118b.spl~ THEN BEGIN  //  
+COPY_EXISTING ~spwi118b.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi118c.spl~ THEN BEGIN  //  
+COPY_EXISTING ~spwi118c.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi118e.spl~ THEN BEGIN  //  
+COPY_EXISTING ~spwi118e.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi118f.spl~ THEN BEGIN  //  
+COPY_EXISTING ~spwi118f.spl~ ~override~
+ WRITE_BYTE 0x27 11 
+END

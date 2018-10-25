@@ -25,7 +25,8 @@ insert_point = 1
    END
  BUT_ONLY
   
-COPY_EXISTING ~sppr218.spl~ ~override~ LPF ADD_SPELL_EFFECT  
+COPY_EXISTING ~sppr218.spl~ ~override~ 
+LPF ADD_SPELL_EFFECT  
       INT_VAR
    opcode = 146
    target = 1 // self
@@ -36,8 +37,8 @@ COPY_EXISTING ~sppr218.spl~ ~override~ LPF ADD_SPELL_EFFECT
         resource = k1#inse
 END
 BUT_ONLY
-
-COPY_EXISTING ~sppr218.spl~ ~override~
+/*
+COPY_EXISTING ~sppr318.spl~ ~override~
 LPF ADD_SPELL_EFFECT
       INT_VAR
    opcode = 146
@@ -46,10 +47,10 @@ LPF ADD_SPELL_EFFECT
    parameter2 = 1
    power = 0   
       STR_VAR
-   resource = k1#insect
+   resource = k1#inse
 END
 BUT_ONLY
-
+*/
 COPY_EXISTING ~sppr319a.spl~     ~override~
 WRITE_BYTE 0x27 "%k1insect%" 
 COPY_EXISTING ~sppr319b.spl~     ~override~

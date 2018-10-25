@@ -1,0 +1,563 @@
+DEFINE_ACTION_FUNCTION set_spell_schools BEGIN
+
+//map spells-scrolls-schools__________________________________________________________
+//
+<<<<<<<< D5/dvscrlmap.2da
+2DA V1.0 
+SPLRES
+			ITMRES	SCHOOL
+>>>>>>>> 
+
+// INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
+
+COPY ~D5/dvscrlmap.2da~ ~override/dvscrlmap.2da~ 
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+	GET_OFFSET_ARRAY headers ITM_V10_HEADERS
+	PHP_EACH headers AS int => hoff BEGIN
+	  GET_OFFSET_ARRAY2 fx hoff ITM_V10_HEAD_EFFECTS
+	  PHP_EACH fx AS intj => foff BEGIN
+		READ_SHORT foff opcode
+		PATCH_IF (opcode = 147) BEGIN 
+		  READ_ASCII (foff + 0x14) splres
+		  PHP_EACH spell_schools AS spl => schl BEGIN 
+			PATCH_IF (FILE_CONTAINS_EVALUATED (~spell.ids~ ~%spl%~)) BEGIN
+			  SET the_num = IDS_OF_SYMBOL (~spell~ ~%spl%~)
+			  SNPRINT (0 - 3) the_res ~%the_num%~
+			  SPRINT spell_res ~SPWI%the_res%~
+			END
+			PATCH_IF FILE_EXISTS_IN_GAME ~%spl%.spl~ BEGIN
+			  SPRINT spell_res ~%spl%~
+			END
+			PATCH_IF VARIABLE_IS_SET ~%spell_res%~ BEGIN
+			  PATCH_IF (~%spell_res%~ STRING_EQUAL_CASE ~%splres%~) BEGIN
+				PATCH_IF NOT (FILE_CONTAINS_EVALUATED (~dvscrlmap.2da~ ~%SOURCE_RES%~)) BEGIN
+				  INNER_ACTION BEGIN
+					APPEND ~dvscrlmap.2da~ ~%spell_res%	%SOURCE_RES%	%schl% ~
+				  END
+				END
+			  END
+			END
+		  END
+		END
+	  END
+	END
+  END
+BUT_ONLY
+
+ACTION_PHP_EACH spell_schools AS spl => schl BEGIN
+  ACTION_IF (FILE_CONTAINS_EVALUATED (~spell.ids~ ~%spl%~)) BEGIN
+	OUTER_SET the_num = IDS_OF_SYMBOL (~spell~ ~%spl%~)
+	OUTER_SNPRINT (0 - 3) the_res ~%the_num%~
+	OUTER_SPRINT extra_res ~SPWI%the_res%~
+  END
+  ACTION_IF FILE_EXISTS_IN_GAME ~%spl%.spl~ BEGIN
+	OUTER_SPRINT extra_res ~%spl%~
+  END
+  ACTION_IF VARIABLE_IS_SET ~%extra_res%~ BEGIN
+	ACTION_IF NOT (FILE_CONTAINS_EVALUATED (~dvscrlmap.2da~ ~%extra_res%~)) BEGIN
+	  APPEND ~dvscrlmap.2da~ ~%extra_res%	none	%schl% ~
+	END
+  END
+END
+	
+COPY_EXISTING ~dvscrlmap.2da~ ~override~
+	PRETTY_PRINT_2DA
+//__________________________________________________________________________________
+
+
+//update schools in spells__________________________________________________________
+//
+COPY_EXISTING ~dvscrlmap.2da~ ~override~
+	COUNT_2DA_COLS cols
+	READ_2DA_ENTRIES_NOW ~r2en_schools~ cols
+      FOR (row = 1; row < r2en_schools; row += 1) BEGIN
+        READ_2DA_ENTRY_FORMER ~r2en_schools~ row 0 the_spell
+        READ_2DA_ENTRY_FORMER ~r2en_schools~ row 1 the_scroll
+        READ_2DA_ENTRY_FORMER ~r2en_schools~ row 2 the_school
+		TEXT_SPRINT $d5_spell_scroll_school(~%the_spell%~ ~%the_scroll%~) ~%the_school%~
+	END
+BUT_ONLY
+
+ACTION_PHP_EACH d5_spell_scroll_school AS spell => school BEGIN 
+  PRINT ~%spell% - %spell_1% - %school%~
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~universal~) BEGIN // no school
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_BYTE 0x25 0 // change to unaffiliated 
+			WRITE_BYTE 0x1e ("0x00") //blocked: none
+			WRITE_BYTE 0x1f ("0x00") //blocked: none
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Universal~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Universal ~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2d ("0x00") //blocked: none
+			WRITE_BYTE 0x2f ("0x00") //blocked: none
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Universal ~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Universal ~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~none~) BEGIN // wild magic
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_BYTE 0x25 9 // change to wild magic
+			WRITE_BYTE 0x1e ("0x00") //blocked: none
+			WRITE_BYTE 0x1f ("0x00") //blocked: none
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: None~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: None ~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: None ~
+					REPLACE_TEXTUALLY ~: Divination~ ~: None ~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: None ~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: None ~
+					REPLACE_TEXTUALLY ~: Illusion~ ~: None ~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: None ~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2d ("0x00") //blocked: none
+			WRITE_BYTE 0x2f ("0x00") //blocked: none
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: None ~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: None ~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: None ~
+					REPLACE_TEXTUALLY ~: Divination~ ~: None ~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: None ~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: None ~
+					REPLACE_TEXTUALLY ~: Illusion~ ~: None ~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: None ~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~abjuration~) BEGIN // abjuration
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 12 //update casting graphic
+			WRITE_BYTE 0x25 1 //change to abjuration 
+			WRITE_BYTE 0x1e ("0x00") //blocked: 
+			WRITE_BYTE 0x1f ("0x20") //blocked: transmuters
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Abjuration~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2f ("0x00") //blocked: 
+			WRITE_BYTE 0x2d ("0x20") //blocked: transmuters
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Abjuration~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Abjuration~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~alteration~) BEGIN // alteration
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 10 //update casting graphic
+			WRITE_BYTE 0x25 8 //change to alteration 
+			WRITE_BYTE 0x1e ("0x40") //blocked: abjurers
+			WRITE_BYTE 0x1f ("0x00") //blocked: 
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Alteration~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2f ("0x40") //blocked: abjurers
+			WRITE_BYTE 0x2d ("0x00") //blocked: 
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Alteration~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Alteration~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~conjuration~) BEGIN // conjuration
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 14 //update casting graphic
+			WRITE_BYTE 0x25 2 //change to conjuration 
+			WRITE_BYTE 0x1e ("0x00") //blocked: 
+			WRITE_BYTE 0x1f ("0x01") //blocked: diviners
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Conjuration~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2f ("0x00") //blocked: 
+			WRITE_BYTE 0x2d ("0x01") //blocked: diviners
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Conjuration~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Conjuration~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~divination~) BEGIN // divination
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 16 //update casting graphic
+			WRITE_BYTE 0x25 3 //change to divination 
+			WRITE_BYTE 0x1e ("0x80") //blocked: conjurers
+			WRITE_BYTE 0x1f ("0x00") //blocked: 
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Divination~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2f ("0x80") //blocked: conjurers
+			WRITE_BYTE 0x2d ("0x00") //blocked: 
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Divination~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Divination~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~enchantment~) BEGIN // enchantment
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 11 //update casting graphic
+			WRITE_BYTE 0x25 4 //change to enchantment 
+			WRITE_BYTE 0x1e ("0x00") //blocked: 
+			WRITE_BYTE 0x1f ("0x08") //blocked: invokers
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Enchantment~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2f ("0x00") //blocked: 
+			WRITE_BYTE 0x2d ("0x08") //blocked: invokers
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Enchantment~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Enchantment~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~evocation~) BEGIN // evocation
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 15 //update casting graphic
+			WRITE_BYTE 0x25 6 //change to evocation 
+			WRITE_BYTE 0x1e ("0x00") //blocked: 
+			WRITE_BYTE 0x1f ("0x02") //blocked: enchanters
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Evocation~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2d ("0x00") //blocked: 
+			WRITE_BYTE 0x2f ("0x02") //blocked: enchanters
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Evocation~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Evocation~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~illusion~) BEGIN // illusion
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 13 //update casting graphic
+			WRITE_BYTE 0x25 5 //change to illusion 
+			WRITE_BYTE 0x1e ("0x00") //blocked: 
+			WRITE_BYTE 0x1f ("0x10") //blocked: necromancers
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Illusion~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2d ("0x00") //blocked: 
+			WRITE_BYTE 0x2f ("0x10") //blocked: necromancers
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Illusion~
+					REPLACE_TEXTUALLY ~: Necromancy~ ~: Illusion~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~necromancy~) BEGIN // necromancy
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			WRITE_SHORT 0x22 9 //update casting graphic
+			WRITE_BYTE 0x25 7 //change to necromancy 
+			WRITE_BYTE 0x1e ("0x00") //blocked: 
+			WRITE_BYTE 0x1f ("0x04") //blocked: illusionists
+			READ_LONG 0x50 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x50 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Necromancy~
+				END
+				SAY_EVALUATED 0x50 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
+		COPY_EXISTING ~%spell_1%.itm~ ~override~
+			WRITE_BYTE 0x2d ("0x00") //blocked:
+			WRITE_BYTE 0x2f ("0x04") //blocked: illusionists
+			READ_LONG 0x54 "valid"
+			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
+				READ_STRREF 0x54 "desc"
+				INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
+					REPLACE_TEXTUALLY ~: Illusion~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Alteration~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Conjuration~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Divination~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Enchantment~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Evocation~ ~: Necromancy~
+					REPLACE_TEXTUALLY ~: Abjuration~ ~: Necromancy~
+				END
+				SAY_EVALUATED 0x54 ~%new_desc%~
+			END
+		BUT_ONLY
+	END
+  END	
+//__________________________________________________________________________________
+//
+  ACTION_IF (~%school%~ STRING_EQUAL_CASE ~disabled~) BEGIN // no school
+	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+		COPY_EXISTING ~%spell%.spl~ ~override~
+			READ_SHORT 0x1c spell_type
+			PATCH_IF spell_type = 1 BEGIN
+				READ_BYTE 0x21 div_excl
+				WRITE_BYTE 0x21 (div_excl BOR 0b11000000)
+			END
+		BUT_ONLY
+	END
+  END
+
+END // end action_php_each
+//__________________________________________________________________________________
+
+
+END // end define function

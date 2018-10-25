@@ -4,10 +4,20 @@ INCLUDE ~spell_rev\lib\cre_spell_immunity.tph~
 
 /* ----Various---- */
 
+// SD: eliminate #bonecir.spl from IWDEE
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME "#bonecir.spl" BEGIN
+	DISABLE_FROM_KEY "#bonecir.spl"
+  END
+  ACTION_IF FILE_EXISTS "override/#bonecir.spl" BEGIN
+	DELETE "override/#bonecir.spl"
+  END
+END
+
 // Scroll Of Restoration: no longer needed since addition of spellbook fixing code in v3
 // adscroll.itm still copied over in case someone wants to CLUAConsole it for use on an old save game
 COPY ~spell_rev\shared\adscroll.itm~     ~override~
-  SAY NAME2 @10000    SAY IDENTIFIED_DESC   @10001
+  SAY NAME2 @22000    SAY IDENTIFIED_DESC   @22001
 COPY ~spell_rev\shared\adscroll.bam~     ~override~
 
 
@@ -175,12 +185,54 @@ COPY ~spell_rev\shared\vermtype.itm~     ~override~  // Vermin type characterist
 
 /* ----Bhaalspawn Abilities---- */
 
+ACTION_IF FILE_EXISTS_IN_GAME ~spin101.spl~ BEGIN
+  COPY_EXISTING ~spin101.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin101.spl~     ~override~ // Cure Light Wounds
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin102.spl~ BEGIN
+  COPY_EXISTING ~spin102.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin102.spl~     ~override~ // Slow Poison
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin103.spl~ BEGIN
+  COPY_EXISTING ~spin103.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin103.spl~     ~override~ // Draw upon Divine Might
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin104.spl~ BEGIN
+  COPY_EXISTING ~spin104.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin104.spl~     ~override~ // Larloch's Minor Drain
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin105.spl~ BEGIN
+  COPY_EXISTING ~spin105.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin105.spl~     ~override~ // Horror
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~spin106.spl~ BEGIN
+  COPY_EXISTING ~spin106.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin106.spl~     ~override~ // Vampiric Drain
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
 
 /* ----Avenger Abilities---- */
 
@@ -210,14 +262,21 @@ COPY ~spell_rev\shared\spra306.spl~     ~override~ // Animal Summoning III
 
 COPY ~spell_rev\shared\spra301.spl~     ~override~ // Haste
   SAY NAME1 @509    SAY UNIDENTIFIED_DESC @510
-COPY ~spell_rev\shared\spra302.spl~     ~override~ // Minor Spell Deflection
-  SAY NAME1 @533    SAY UNIDENTIFIED_DESC @534
+COPY ~spell_rev\shared\spra302.spl~     ~override~ // Non-Detection
+  SAY NAME1 @519    SAY UNIDENTIFIED_DESC @520
 COPY ~spell_rev\shared\spra303.spl~     ~override~ // Protection from Missiles
   SAY NAME1 @521    SAY UNIDENTIFIED_DESC @522
 
 /* ----Paladin Abilities---- */
 
+ACTION_IF FILE_EXISTS_IN_GAME ~spcl213.spl~ BEGIN
+  COPY_EXISTING ~spcl213.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spcl213.spl~     ~override~ // Protection from Evil
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
 
 /* ----Stormlord Abilities---- */
 
@@ -236,7 +295,14 @@ COPY ~spell_rev\shared\dvgasfrm.spl~      ~override~ // Gaseous Form
 COPY ~spell_rev\shared\dvgasfrm.itm~      ~override~ // Gaseous Form
 COPY ~spell_rev\shared\dvtelpor.spl~      ~override~ // Teleport Without Error
 
+ACTION_IF FILE_EXISTS_IN_GAME ~spin113.spl~ BEGIN
+  COPY_EXISTING ~spin113.spl~ ~override~
+	READ_LONG 0x8 spl_name
+	READ_LONG 0x50 spl_desc
 COPY ~spell_rev\shared\spin113.spl~      ~override~ // Branwen Spiritual Hammer
+	WRITE_LONG 0x8 spl_name
+	WRITE_LONG 0x50 spl_desc
+END
 
 COPY ~spell_rev\shared\spin683.spl~      ~override~ // Innate Web Tangle
 COPY ~spell_rev\shared\spin701.spl~      ~override~ // Death Knight's Unholy Fireball
@@ -464,6 +530,7 @@ COPY ~spell_rev\sppr2##\sppr216c.bam~     ~override~
 COPY ~spell_rev\sppr2##\sppr217.spl~     ~override~  // Regenerate Moderate Wounds (new druid spell)
   SAY NAME1 @303    SAY UNIDENTIFIED_DESC @304
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr2##\sppr218.spl~     ~override~  // Gust of Wind (new druid spell)
   SAY NAME1 @313    SAY UNIDENTIFIED_DESC @314
 
@@ -485,7 +552,22 @@ ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
 COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
   WRITE_SHORT 0x98 %dvdscent%
 COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
+END
 
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+ COPY ~spell_rev\sppr2##\sppr218.spl~     ~override/sppr221.spl~  // Gust of Wind (new druid spell)
+  SAY NAME1 @313    SAY UNIDENTIFIED_DESC @314
+
+ COPY ~spell_rev\sppr2##\sppr220.spl~     ~override/sppr222.spl~  // Animal Summoning II
+  SAY NAME1 @323    SAY UNIDENTIFIED_DESC @324
+ COPY ~spell_rev\sppr2##\dogwasu.eff~     ~override~
+ COPY ~spell_rev\sppr2##\dogwasu.cre~     ~override~
+ COPY ~spell_rev\sppr2##\dogwasu.itm~     ~override~
+ ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
+ COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
+  WRITE_SHORT 0x98 %dvdscent%
+ COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
+END
 
 /*-----------------------level 3-----------------------*/
 
@@ -533,9 +615,11 @@ COPY ~spell_rev\sppr3##\sppr310.spl~     ~override~  // Miscast Magic
 COPY ~spell_rev\sppr3##\sppr310a.spl~     ~override~
 COPY ~spell_rev\sppr3##\sppr310b.spl~     ~override~
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr3##\sppr311.spl~     ~override~  // Contagion (replaces Rigid Thinking)
   SAY NAME1 @91    SAY UNIDENTIFIED_DESC @92
   COPY ~spell_rev\sppr3##\sppr311d.spl~     ~override~
+END
 
 ADD_PROJECTILE ~spell_rev\projectles\dvstrone.pro~
 COPY ~spell_rev\sppr3##\sppr312.spl~     ~override~  // Strength of One
@@ -589,6 +673,7 @@ COPY ~spell_rev\sppr3##\dvanpack.spl~     ~override~
   WRITE_SHORT 0x98 %dvanpack%
 COPY ~spell_rev\sppr3##\dvanpack.eff~     ~override~
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr3##\sppr321.spl~     ~override~  // Cause Serious Wounds (disabled at lvl4, active at lvl 3) 
   SAY NAME1 @107    SAY UNIDENTIFIED_DESC @108
 COPY ~spell_rev\sppr3##\serious.itm~     ~override~
@@ -598,10 +683,12 @@ COPY ~spell_rev\sppr3##\sppr322.spl~     ~override~  // Storm Shield (new druid 
   SAY NAME1 @1109    SAY UNIDENTIFIED_DESC @1110
 COPY ~spell_rev\sppr3##\spstorms.vvc~     ~override~
 COPY ~spell_rev\sppr3##\spstorms.bam~     ~override~
+END
 
 COPY ~spell_rev\sppr3##\sppr323.spl~     ~override~  // Regenerate Serious Wounds (new druid spell)
   SAY NAME1 @305    SAY UNIDENTIFIED_DESC @306
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr3##\sppr324.spl~     ~override~  // Magic Fang (new druid spell)
   SAY NAME1 @327    SAY UNIDENTIFIED_DESC @328
 COPY ~spell_rev\sppr3##\mfang~     ~override~
@@ -611,6 +698,7 @@ COPY ~spell_rev\sppr3##\sppr325.spl~     ~override~  // Spike Growth (new druid 
   SAY NAME1 @333    SAY UNIDENTIFIED_DESC @334
   WRITE_SHORT 0x98 %dvspgrow%
 COPY ~spell_rev\sppr3##\sppr325i.eff~     ~override~
+END
   
 ADD_PROJECTILE ~spell_rev\projectles\dvicespr.pro~
 COPY ~spell_rev\sppr3##\sppr326.spl~     ~override~  // Icelance (new druid spell)
@@ -654,10 +742,12 @@ COPY ~spell_rev\sppr4##\sppr406.spl~     ~override~  // Defensive Harmony
 COPY ~spell_rev\sppr4##\scrl5b.itm~     ~override~
   SAY NAME2 @121    SAY IDENTIFIED_DESC   @122
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr4##\sppr407.spl~     ~override~  // Protection from Lightning (Disabled at level 4)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
 COPY ~spell_rev\sppr4##\scrl5c.itm~     ~override~
   SAY NAME2 @123    SAY IDENTIFIED_DESC   @124
+END
 
 COPY ~spell_rev\sppr4##\sppr408.spl~ ~override~ // Magic Circle against Evil (previously named Protection from Evil 10' Radius)
   SAY NAME1 @125 SAY UNIDENTIFIED_DESC @126
@@ -717,11 +807,13 @@ COPY ~spell_rev\sppr4##\sppr417.spl~     ~override~  // Lesser Restoration
 COPY ~spell_rev\sppr4##\restore.itm~     ~override~
   SAY NAME2 @143    SAY IDENTIFIED_DESC   @144 
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr4##\sppr418.spl~     ~override~  // Ice Storm (added to druid's spells)
   SAY NAME1 @145    SAY UNIDENTIFIED_DESC @146
 
 COPY ~spell_rev\sppr4##\sppr419.spl~     ~override~  // Regenerate Critical Wounds (new druid spell)
   SAY NAME1 @307    SAY UNIDENTIFIED_DESC @308
+END
 
 /*-----------------------level 5-----------------------*/
 
@@ -823,9 +915,11 @@ COPY ~spell_rev\sppr5##\sppr517b.spl~     ~override~
 LAF ds_altered_spell INT_VAR old_clone=60 new_clone=~-1~ STR_VAR file=~sppr517.spl~ END
 APPEND_OUTER ~spell_rev/lib/ds_sr_extra.2da~ ~sppr517a.SPL    233     2     120   146    6     A~
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr5##\sppr519.spl~     ~override~  // Polymorph Other (added to druid's spells)
   SAY NAME1 @185    SAY UNIDENTIFIED_DESC @186
 COPY ~spell_rev\sppr5##\dvsquir.itm~     ~override~
+END
 
 COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (added to priest's spells)
   SAY NAME1 @187    SAY UNIDENTIFIED_DESC @188
@@ -833,8 +927,10 @@ COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (ad
 COPY ~spell_rev\sppr5##\sppr521.spl~     ~override~  // Protection from Cold (added to priest's spells)
   SAY NAME1 @189    SAY UNIDENTIFIED_DESC @190
 
+ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr5##\sppr522.spl~     ~override~  // Protection from Electricity (disabled at lvl 4, active at lvl 5)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
+END
 
 COPY ~spell_rev\sppr5##\sppr523.spl~     ~override~  // Protection from Fire (disabled at lvl 3, active at lvl 5)
   SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
@@ -1016,6 +1112,7 @@ COPY ~spell_rev\sppr7##\sppr713.spl~     ~override~  // Greater Restoration
 
 COPY ~spell_rev\sppr7##\sppr715.spl~     ~override~  // Unholy Word
   SAY NAME1 @255    SAY UNIDENTIFIED_DESC @256
+COPY ~spell_rev\sppr7##\sppr715e.spl~     ~override~  // Slow effect
 COPY ~spell_rev\sppr7##\dvunword.eff~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr716.spl~     ~override~  // Animal Summoning VII
@@ -1113,7 +1210,6 @@ COPY ~spell_rev\sppr7##\sppr729.spl~     ~override~  // Mass Raise Dead
 COPY ~spell_rev\sppr7##\sppr730.spl~     ~override~  // Aura of Flaming Death
   SAY NAME1 @289    SAY UNIDENTIFIED_DESC @290
 COPY ~spell_rev\sppr7##\sppr730d.spl~     ~override~
-  SAY NAME1 @289
 COPY ~spell_rev\sppr7##\dvflmhit.eff~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr731.spl~     ~override~  // Fire Elemental Transformation
@@ -1167,6 +1263,7 @@ COPY ~spell_rev\spwi1##\scrl69.itm~     ~override~
 
 COPY ~spell_rev\spwi1##\spwi105.spl~     ~override~  // Color Spray
   SAY NAME1 @409    SAY UNIDENTIFIED_DESC @410
+COPY ~spell_rev\spwi1##\spwi105e.spl~     ~override~  // Slow effect
 COPY ~spell_rev\spwi1##\scrl70.itm~     ~override~
   SAY NAME2 @409    SAY IDENTIFIED_DESC   @410
 COPY ~spell_rev\projectles\cspray.pro~ ~override~
@@ -1272,6 +1369,7 @@ COPY ~spell_rev\spwi1##\spwi119.spl~     ~override~  // Larloch's Minor Drain
   SAY NAME1 @435    SAY UNIDENTIFIED_DESC @436
 COPY ~spell_rev\spwi1##\scrl84.itm~     ~override~
   SAY NAME2 @435    SAY IDENTIFIED_DESC   @436
+COPY ~spell_rev\spwi1##\spwi119.eff~     ~override~
 
 COPY ~spell_rev\spwi1##\spwi120.spl~     ~override~  // Reflected Image
   SAY NAME1 @437    SAY UNIDENTIFIED_DESC @438
@@ -1633,6 +1731,7 @@ COPY ~spell_rev\spwi3##\spwi314.spl~     ~override~  // Vampiric Touch
   SAY NAME1 @527    SAY UNIDENTIFIED_DESC @528
 COPY ~spell_rev\spwi3##\scrl1q.itm~     ~override~
   SAY NAME2 @527    SAY IDENTIFIED_DESC   @528
+COPY ~spell_rev\spwi3##\spwi314.eff~     ~override~
 
 COPY ~spell_rev\spwi3##\spwi316.spl~     ~override~  // Dire Charm
   SAY NAME1 @529    SAY UNIDENTIFIED_DESC @530
@@ -1811,11 +1910,13 @@ COPY ~spell_rev\spwi4##\spwi465.itm~     ~override~
 COPY ~spell_rev\spwi4##\spwi465.spl~     ~override~
   SAY NAME1 ~Shapeshifts Winter Wolf~
 
+ACTION_IF NOT GAME_IS ~bgee bg2ee eet iwdee~ BEGIN
 COPY ~spell_rev\spwi4##\spwi417.spl~     ~override~  // Enchanted Weapon
   SAY NAME1 @593    SAY UNIDENTIFIED_DESC @594
 COPY ~spell_rev\spwi4##\scrl6m.itm~     ~override~
   SAY NAME2 @593    SAY IDENTIFIED_DESC   @594
 COPY ~spell_rev\spwi4##\enchwp~     ~override~
+END
 
 COPY ~spell_rev\spwi4##\spwi418.spl~     ~override~  // Fire Shield (Red)
   SAY NAME1 @595    SAY UNIDENTIFIED_DESC @596
@@ -1840,7 +1941,7 @@ COPY ~spell_rev\spwi4##\spwi420.spl~     ~override~  // Simbul's Spell Matrix (p
 COPY ~spell_rev\spwi4##\scrl6p.itm~     ~override~
   SAY NAME2 @599    SAY IDENTIFIED_DESC   @600
 COPY ~spell_rev\spwi4##\spwi420d.spl~     ~override~
-  SAY NAME2 @599
+  SAY NAME1 @599
 
 COPY ~spell_rev\spwi4##\spwi421.spl~     ~override~  // Teleport Field
   SAY NAME1 @601    SAY UNIDENTIFIED_DESC @602
@@ -2273,8 +2374,8 @@ COPY ~spell_rev\spwi6##\spwi624.spl~     ~override~  // Summon Nishruu
 
 COPY ~spell_rev\spwi6##\spwi625.spl~     ~override~  // Stone to Flesh
   SAY NAME1 @707    SAY UNIDENTIFIED_DESC @708
-COPY ~spell_rev\spwi6##\scrl8c.itm~     ~override~
-  SAY NAME2 @707    SAY IDENTIFIED_DESC   @708
+/* COPY ~spell_rev\spwi6##\scrl8c.itm~     ~override~
+  SAY NAME2 @707    SAY IDENTIFIED_DESC   @708 */
 
 //COPY ~spell_rev\spwi6##\spin686.spl~     ~override~
 /* COPY ~spell_rev\spwi6##\wand18.itm~     ~override~ */
@@ -2546,9 +2647,9 @@ COPY ~spell_rev\spwi8##\scrlb1.itm~     ~override~
 COPY ~spell_rev\spwi8##\spwi818d.spl~     ~override~
 COPY ~spell_rev\spwi8##\spwi818i.eff~     ~override~
 
-COPY ~spell_rev\spwi8##\spwi819.spl~     ~override~  // Monster Summoning VIII
+COPY ~spell_rev\spwi8##\spwi819.spl~     ~override~  // Monster Summoning VIII (new mage spell)
   SAY NAME1 @868    SAY UNIDENTIFIED_DESC @869
-COPY ~spell_rev\spwi8##\scrl9b.itm~     ~override~ // replaces Summon Fiend scroll
+COPY ~spell_rev\spwi8##\scrl8c.itm~     ~override~ // replaces Stone to Flesh scroll
   SAY NAME2 @868   SAY IDENTIFIED_DESC   @869
 COPY ~spell_rev\spwi8##\umbhulsu.eff~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.cre~     ~override~
@@ -2576,10 +2677,10 @@ COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
-
-COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning VIII
+/*
+COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning IX (new mage spell)
   SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
-COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~  // replace Gate scroll
+COPY ~spell_rev\spwi9##\scrlm9.itm~     ~override~  // new scroll
   SAY NAME2 @870    SAY IDENTIFIED_DESC   @871
 COPY ~spell_rev\spwi9##\basilgsu.eff~     ~override~
 COPY ~spell_rev\spwi9##\basilgsu.cre~     ~override~
@@ -2587,6 +2688,7 @@ COPY ~spell_rev\spwi9##\basilgsu.bcs~     ~override~
 COPY ~spell_rev\spwi9##\basilg1.itm~     ~override~
 COPY ~spell_rev\spwi9##\basilg2.itm~     ~override~
 COPY ~spell_rev\spwi9##\basilg3.itm~     ~override~
+*/
 
 COPY ~spell_rev\spwi9##\spwi907.spl~     ~override~  // Absolute Immunity
   SAY NAME1 @817    SAY UNIDENTIFIED_DESC @818
@@ -2626,7 +2728,7 @@ COPY ~spell_rev\spwi9##\spwi913.spl~     ~override~  // Wail of the Banshee
 COPY ~spell_rev\spwi9##\scrl9v.itm~     ~override~
   SAY NAME2 @829    SAY IDENTIFIED_DESC   @830
 
-COPY ~spell_rev\spwi9##\spwi914.spl~     ~override~  // Energy Drain
+COPY ~spell_rev\spwi9##\spwi914.spl~     ~override~  // Larloch's Energy Drain
   SAY NAME1 @831    SAY UNIDENTIFIED_DESC @832
 COPY ~spell_rev\spwi9##\scrl9w.itm~     ~override~
   SAY NAME2 @831    SAY IDENTIFIED_DESC   @832
@@ -2727,29 +2829,31 @@ INCLUDE ~spell_rev\lib\dispelling_screen.tph~
 INCLUDE ~spell_rev\lib\insects.tph~   // insect removal thingie
 INCLUDE ~spell_rev\lib\refinements.tph~  // refinements spells reverted back to SR, won't parse unless Refinements is already there
 
+//// SECTYPE FIXES FOR VANILLA MESS and some more//
 
-// some extra stuff  - make these spells non.breachable//
-COPY_EXISTING ~sppr698.spl~   ~override~
-WRITE_BYTE 0x27 0
- 
-COPY_EXISTING ~sppr725.spl~   ~override~
-WRITE_BYTE 0x27 0
- 
-ACTION_IF  FILE_EXISTS_IN_GAME ~spwish09.spl~ BEGIN
-COPY_EXISTING ~spwish09.spl~   ~override~
-WRITE_BYTE 0x27 0
-END
- 
-ACTION_IF  FILE_EXISTS_IN_GAME ~spyancd.spl~ BEGIN
-COPY_EXISTING ~spyancd.spl~   ~override~
-WRITE_BYTE 0x27 0
-END
- 
-ACTION_IF  FILE_EXISTS_IN_GAME ~sppr730.spl~ BEGIN
-COPY_EXISTING ~sppr730.spl~   ~override~
-WRITE_BYTE 0x27 0
-END
+INCLUDE ~spell_rev\lib\kreso_extra.tph~
 
+////////////////////////KILL DOUBLE STRINGS ON SPELL REMOVALS IT HURTS MY EYES///////////
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513b.spl~ BEGIN
+COPY_EXISTING ~spwi513b.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
+ END
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi805b.spl~ BEGIN
+COPY_EXISTING ~spwi805b.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
+ END
+
+ACTION_IF  FILE_EXISTS_IN_GAME ~spwi903b.spl~ BEGIN
+COPY_EXISTING ~spwi903b.spl~ ~override~
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 139 END
+ END
+
+/// EE COMPONENT//
+ACTION_IF FILE_EXISTS_IN_GAME ~concentr.2da~ BEGIN // EE v2.0+
+INCLUDE ~spell_rev\lib\kreso_ee.tph~
+INCLUDE ~spell_rev\lib\kreso_eestatsr.tph~
+END
 
 /*---------------------Tutu Scrolls---------------------*/
 
@@ -2872,6 +2976,19 @@ COPY ~spell_rev/revised_saves/savewiz.2da~ ~override~  // Wizard saves
 
 COPY ~spell_rev/revised_saves/savecndh.2da~ ~override~  // Dwarf/Halfling save bonuses
 COPY ~spell_rev/revised_saves/savecng.2da~ ~override~  // Gnome save bonuses
+
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
+////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+
+// added by SubtleDoctor:
+
+/*------ SET ARCANE SPELL SCHOOLS ------*/
+
+// and mark arcane spells for spellbook removal 
+
+INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
+INCLUDE ~spell_rev/lib/d5_set_spell_schools.tpa~
+LAF set_spell_schools END
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\

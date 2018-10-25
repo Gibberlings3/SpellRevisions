@@ -35,6 +35,70 @@ To-do List:
 
 ...- updated french language thanks to Mornagest (of the d'Oghmatiques)
 
+v4 - beta 16 (25.10.2018.) updated by Subtledoctor with Bartimaeus, githubbed by Mad Mate
+
+- Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on
+- Banishment will now correctly banish summoned creatures even when using Anthology Tweaks' removed summoning cap component.
+- Bartimaeus Arcane spellbook fix with Subtledoctor's code
+- The innate form of Simbul's Spell Matrix, that you use to actually trigger the sequencer, had the old name of the spell
+- Bhaalspawn powers get named (and descripped, though you won't ever see it) by SR
+- SubtleDoctor Arcane Schools code
+- More Subtledoctor's EE patches
+- Added Stalker Haste to sectypes
+- Vocalize fix for EE
+- Imprisonment graphical effect fix
+- Wail of the Banshee sound fixed
+- Greater Command secondary spells fixes
+- Skelgrsu gender fix
+- IWDEE & EET compatibility
+- Dispel Magic/Remove Magic inconsistencies fixed
+- Regeneration spells made undispellable
+- Fire Shield now protects from Insect spells effect
+- Skip Enchante Weapons for EE's
+- Vampiric effects (Larloch's, Vampiric Touch, etc.) now don't affect some new creature types (illusory, golems, undead, etc.).
+- Slow effect relegated for Un/Holy Word and Color Spray to properly work with the slow sectype
+- Added scrolls for MS8 (used Stone to Flesh scroll) & MS9 (new scroll, spell disabled for now)
+- Brought back Summon Fiend & Gate scrolls
+- Hidden 6th level Summon Nishruu from spellbooks
+- Divine Power & Mesthil's Acid Sheath fixed for EE
+- Enchanted Weapons names fix
+- Cleric Gust of Wind fixes
+- Conjure Animals fixed
+- Baby Wyvern weapon was unequipped
+- Planetars regeneration fixed
+- Emotion: Despair saving throw penalty fixed
+- Disintegrate saving throw types fixed
+- Tenser's Transformation & Divine Power ApR fixes
+- The spell selection variant of Ice Lance's icon was messed up
+- Phantom Blade was missing its special effect.
+- Fixed hidespl_bgee.2da and added hidespl_iwdee.2da
+- Various smaller bugfixes
+- Tra fixes
+- Updated Weidu to 24600
+
+v4 - beta 15 (15.6.2017.) updated by kreso
+- more fixes to Haste_slow and petrification code (hope I AM DONE with it)
+- Imprisonment fix
+- Haste reverted to AoE
+- Free action was preventing petrification
+- included HLAs from KR as optional component
+- Pro Elemental Energy casting time made instant, subspell has casting time
+- Flame Arrow damage slightly nerfed (save removed so it's 1d6 missile + 1d6 fire)
+- Waves of Fatigue buffed - it's now marked as a disable, it does what it's name suggest (increases fatigue level by "a day's worth"), it's effects are stackable
+- storm shield now works vs inc.cloud as well and doesn't stack with itself
+- insect-type spells no longer panick the target, they make them berserk for 6 seconds on failed save
+- priest spell magic resistance is no longer dispellable by spell removals
+- Physical Mirror spell is nerfed; it can block only one melee attack per combat round (this also removes the nonsensical "you cannot cast more contigency yada yada" message)
+ Same goes for wizard's Reflected image.
+- Globe of Blades is tweaked to be a buffed version of Blade Barrier, doing 2d6 damage per 2 seconds and no longer allows a save
+ - disabling effects from Chromatic orb can now be countered by Break Enchantment
+ - Ray of Enfeeblement is now coded as disable
+- Wizard spell  Detect Illusion power fixed so it bypasses spell protections
+- (Minor) Globe of Invulnerability and Spell Trap duration set to fixed 2 turns
+- workaround for Imprisonment - 5 rounds after it's cast on a character, he will reapear (but will die instantly).
+- Wail of Banshee has a no-save Deafness effect, 2 rounds duration
+
+
 V4 - Beta 14 (25 December 2016)
 - Update to WeiDU 240
 - various fixes, a few more EE string ref issues fixed

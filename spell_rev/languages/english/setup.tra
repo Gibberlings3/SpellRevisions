@@ -14,3 +14,17 @@
 @7999=~Please be patient, this may take a moment...~
 @7998=~Done!~
 @7997=~Couldn't find the right places to patch in your bgmain.exe~
+
+@10000=~Revised Warrior HLAs~
+@10001=~Hardiness~
+@10002=~Hardiness
+Calling upon hidden reserves of strength during times of danger, a warrior can use the Hardiness ability to gain 20% resistance to all forms of damage. The ability lasts for 1 round per 2 levels.~
+@10003 = ~Whirlwind Attack~
+@10004 = ~Whirlwind Attack
+This ability allows the warrior to unleash a flurry of super-fast blows. For 2 rounds, movement and attack rate are doubled, but all attacks are made with a -4 penalty to hit and damage rolls.~
+@10005 = ~Greater Whirlwind Attack~
+@10006 = ~Greater Whirlwind Attack
+A more powerful version of the Whirlwind Attack, Greater Whirlwind gives the fighter the same bonuses without penalties.
+
+Requires: Whirlwind Attack~
+

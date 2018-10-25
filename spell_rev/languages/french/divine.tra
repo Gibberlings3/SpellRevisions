@@ -1,5 +1,5 @@
-@10000=~Parchemin de Restauration~
-@10001=~Un Parchemin de Restauration met à jour le livre de sorts d'un personnage. A lire si le livre de sorts du clerc, paladin, druide, ou rôdeur contient des sorts qui ne devraient pas être disponibles. Ces sorts seront retirés, et les sorts corrects seront ajoutés au prochain passage de niveau.~
+@22000=~Parchemin de Restauration~
+@22001=~Un Parchemin de Restauration met à jour le livre de sorts d'un personnage. A lire si le livre de sorts du clerc, paladin, druide, ou rôdeur contient des sorts qui ne devraient pas être disponibles. Ces sorts seront retirés, et les sorts corrects seront ajoutés au prochain passage de niveau.~
 
 //-------------------------level 1------------------------
 

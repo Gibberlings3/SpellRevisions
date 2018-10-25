@@ -87,9 +87,29 @@ BUT_ONLY
 COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
 PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
 LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 opcode = 206 match_parameter2 = 134  STR_VAR resource = spwi604d silent = 1 END 
-LPF DELETE_ITEM_EFFECT INT_VAR opcode_to_delete = 134 END END
+LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 opcode = 206 match_parameter2 = 134  STR_VAR resource = spwi604  silent = 1 END 
+LPF DELETE_ITEM_EFFECT INT_VAR opcode_to_delete = 134 END
+ END
+BUT_ONLY
 
 COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
 PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
 LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 opcode = 206 match_parameter2 = 134  STR_VAR resource = spwi604d silent = 1 END 
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 134 END END
+LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 opcode = 206 match_parameter2 = 134  STR_VAR resource = spwi604  silent = 1 END
+LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 134 END
+ END
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 83 opcode = 206 match_parameter2 = 64  STR_VAR resource = spwi604  silent = 1 END  
+LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 83 opcode = 206 match_parameter2 = 64  STR_VAR resource = spwi604d silent = 1 END
+ END
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 83 opcode = 206 match_parameter2 = 64  STR_VAR resource = spwi604d silent = 1 END  
+LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 83 opcode = 206 match_parameter2 = 64  STR_VAR resource = spwi604  silent = 1 END
+ END
+BUT_ONLY

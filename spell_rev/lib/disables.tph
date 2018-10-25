@@ -1,0 +1,14 @@
+ACTION_IF  FILE_EXISTS_IN_GAME ~tg#come.spl~ BEGIN                     // Refinements check 
+  COPY    ~spell_rev/spwi9##/spwi922.spl~   ~override/tg#drgb.spl~     // Dragon Breath  
+       SAY NAME1 @855    SAY UNIDENTIFIED_DESC @856
+  COPY    ~spell_rev/spwi9##/spwi925.spl~   ~override/tg#come.spl~     // Comet    
+       SAY NAME1 @861    SAY UNIDENTIFIED_DESC @862
+  COPY    ~spell_rev/sppr7##/sppr723.spl~   ~override/tg#elsu.spl~     // Elemental summon
+          SAY NAME1 @275    SAY UNIDENTIFIED_DESC @276
+  COPY    ~spell_rev/sppr7##/sppr724.spl~   ~override/tg#prca.spl~     // Greater Elemental summons (prince)
+         SAY NAME1 @277    SAY UNIDENTIFIED_DESC @278
+  COPY    ~spell_rev/sppr7##/sppr728.spl~   ~override/li#impl.spl~     // Implosion 
+        SAY NAME1 @285    SAY UNIDENTIFIED_DESC @286
+END
+ 
+
