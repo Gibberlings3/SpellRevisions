@@ -17,7 +17,7 @@ END
 // Scroll Of Restoration: no longer needed since addition of spellbook fixing code in v3
 // adscroll.itm still copied over in case someone wants to CLUAConsole it for use on an old save game
 COPY ~spell_rev\shared\adscroll.itm~     ~override~
-  SAY NAME2 @10000    SAY IDENTIFIED_DESC   @10001
+  SAY NAME2 @22000    SAY IDENTIFIED_DESC   @22001
 COPY ~spell_rev\shared\adscroll.bam~     ~override~
 
 
