@@ -35,6 +35,47 @@ To-do List:
 
 ...- updated french language thanks to Mornagest (of the d'Oghmatiques)
 
+v4 - beta 16 (25.10.2018.) updated by Subtledoctor with Bartimaeus, githubbed by Mad Mate
+
+- Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on
+- Banishment will now correctly banish summoned creatures even when using Anthology Tweaks' removed summoning cap component.
+- Bartimaeus Arcane spellbook fix with Subtledoctor's code
+- The innate form of Simbul's Spell Matrix, that you use to actually trigger the sequencer, had the old name of the spell
+- Bhaalspawn powers get named (and descripped, though you won't ever see it) by SR
+- SubtleDoctor Arcane Schools code
+- More Subtledoctor's EE patches
+- Added Stalker Haste to sectypes
+- Vocalize fix for EE
+- Imprisonment graphical effect fix
+- Wail of the Banshee sound fixed
+- Greater Command secondary spells fixes
+- Skelgrsu gender fix
+- IWDEE & EET compatibility
+- Dispel Magic/Remove Magic inconsistencies fixed
+- Regeneration spells made undispellable
+- Fire Shield now protects from Insect spells effect
+- Skip Enchante Weapons for EE's
+- Vampiric effects (Larloch's, Vampiric Touch, etc.) now don't affect some new creature types (illusory, golems, undead, etc.).
+- Slow effect relegated for Un/Holy Word and Color Spray to properly work with the slow sectype
+- Added scrolls for MS8 (used Stone to Flesh scroll) & MS9 (new scroll, spell disabled for now)
+- Brought back Summon Fiend & Gate scrolls
+- Hidden 6th level Summon Nishruu from spellbooks
+- Divine Power & Mesthil's Acid Sheath fixed for EE
+- Enchanted Weapons names fix
+- Cleric Gust of Wind fixes
+- Conjure Animals fixed
+- Baby Wyvern weapon was unequipped
+- Planetars regeneration fixed
+- Emotion: Despair saving throw penalty fixed
+- Disintegrate saving throw types fixed
+- Tenser's Transformation & Divine Power ApR fixes
+- The spell selection variant of Ice Lance's icon was messed up
+- Phantom Blade was missing its special effect.
+- Fixed hidespl_bgee.2da and added hidespl_iwdee.2da
+- Various smaller bugfixes
+- Tra fixes
+- Updated Weidu to 24600
+
 v4 - beta 15 (15.6.2017.) updated by kreso
 - more fixes to Haste_slow and petrification code (hope I AM DONE with it)
 - Imprisonment fix
