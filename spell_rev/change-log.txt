@@ -33,10 +33,7 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
-...- updated french language thanks to Mornagest (of the d'Oghmatiques)
-
-v4 - beta 16 (25.10.2018.) updated by Subtledoctor with Bartimaeus, githubbed by Mad Mate
-
+V4 - Beta 16 (25 October 2018) - updated by subtledoctor, Bartimaeus, and Mad Mate
 - Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on
 - Banishment will now correctly banish summoned creatures even when using Anthology Tweaks' removed summoning cap component.
 - Bartimaeus Arcane spellbook fix with Subtledoctor's code
@@ -76,7 +73,7 @@ v4 - beta 16 (25.10.2018.) updated by Subtledoctor with Bartimaeus, githubbed by
 - Tra fixes
 - Updated Weidu to 24600
 
-v4 - beta 15 (15.6.2017.) updated by kreso
+V4 - Beta 15 (15 June 2017) - updated by kreso
 - more fixes to Haste_slow and petrification code (hope I AM DONE with it)
 - Imprisonment fix
 - Haste reverted to AoE
@@ -91,13 +88,12 @@ v4 - beta 15 (15.6.2017.) updated by kreso
 - Physical Mirror spell is nerfed; it can block only one melee attack per combat round (this also removes the nonsensical "you cannot cast more contigency yada yada" message)
  Same goes for wizard's Reflected image.
 - Globe of Blades is tweaked to be a buffed version of Blade Barrier, doing 2d6 damage per 2 seconds and no longer allows a save
- - disabling effects from Chromatic orb can now be countered by Break Enchantment
- - Ray of Enfeeblement is now coded as disable
+- disabling effects from Chromatic orb can now be countered by Break Enchantment
+- Ray of Enfeeblement is now coded as disable
 - Wizard spell  Detect Illusion power fixed so it bypasses spell protections
 - (Minor) Globe of Invulnerability and Spell Trap duration set to fixed 2 turns
 - workaround for Imprisonment - 5 rounds after it's cast on a character, he will reapear (but will die instantly).
 - Wail of Banshee has a no-save Deafness effect, 2 rounds duration
-
 
 V4 - Beta 14 (25 December 2016)
 - Update to WeiDU 240
@@ -115,6 +111,7 @@ V4 - Beta 14 (25 December 2016)
 - Prismatic Mantle weapon immunity lowered to +2 (as vanilla), on-hit effects slightly nerfed
 - Moment of Prescience AC bonus now bypasses the AC cap
 - Spell Trap no longer absorbs spells but it deflects up to 99 spell lvls (AoE too)
+- updated French language thanks to Mornagest (of the d'Oghmatiques)
 
 V4 - Beta 13 (21 September 2016)
 - many minor fixes
