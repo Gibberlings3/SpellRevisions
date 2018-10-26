@@ -6,12 +6,12 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Spell Revisions"
-set mod_version=v4-beta14
+set mod_version=v4-beta16
 set mod_folder=spell_rev
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
-REM /* %bg1%, %bg2%, %bgt%, %tutu%, %bgee%, %bgiiee%, %iwd1%, %iwdee%, %iwd2%, %iwd2ee%, %iwd-in-bg2%, %pst%, %pstee% */
-set "compatible_games=%bg2%, %bgt%, %tutu%, %bgee%, or %bgiiee%"
+REM /* %bg1%, %bg2%, %bgt%, %tutu%, %bgee%, %bgiiee%, %iwd1%, %iwdee%, %iwd2%, %iwd2ee%, %iwd-in-bg2%, %pst%, %pstee%, %eet% */
+set "compatible_games=%bg2%, %bgt%, %tutu%, %bgee%, %bgiiee%, or %eet%"
 
 REM /* MODIFY: these variables have sensible default values but they may need to be tweaked to match your particular mod */
 REM /* the ico_folder is where your .ico files are stored, which is usually the mod's backup or style folder */
