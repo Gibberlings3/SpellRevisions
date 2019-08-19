@@ -518,6 +518,11 @@ COPY ~spell_rev\sppr2##\dvknow1.eff~     ~override~
 
 COPY ~spell_rev\sppr2##\sppr210.spl~     ~override~  // Resist Fire/Resist Cold
   SAY NAME1 @49    SAY UNIDENTIFIED_DESC @50
+ACTION_IF (GAME_IS ~iwdee~) BEGIN
+  // SPPR216 is Resist Fire/Cold in IWDEE
+  COPY_EXISTING ~sppr210.spl~ ~override/sppr216.spl~
+    LPF ALTER_EFFECT STR_VAR match_resource = ~SPPR210~ resource = ~SPPR216~ END
+END
 
 ADD_PROJECTILE ~spell_rev\projectles\dvsilenc.pro~
 COPY ~spell_rev\sppr2##\sppr211.spl~     ~override~  // Silence
