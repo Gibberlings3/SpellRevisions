@@ -627,12 +627,6 @@ COPY ~spell_rev\sppr3##\sppr310.spl~     ~override~  // Miscast Magic
 COPY ~spell_rev\sppr3##\sppr310a.spl~     ~override~
 COPY ~spell_rev\sppr3##\sppr310b.spl~     ~override~
 
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
-COPY ~spell_rev\sppr3##\sppr311.spl~     ~override~  // Contagion (replaces Rigid Thinking)
-  SAY NAME1 @91    SAY UNIDENTIFIED_DESC @92
-  COPY ~spell_rev\sppr3##\sppr311d.spl~     ~override~
-END
-
 ADD_PROJECTILE ~spell_rev\projectles\dvstrone.pro~
 COPY ~spell_rev\sppr3##\sppr312.spl~     ~override~  // Strength of One
   SAY NAME1 @93    SAY UNIDENTIFIED_DESC @94
@@ -674,6 +668,11 @@ COPY ~spell_rev\sppr3##\sppr319a.spl~     ~override~
 COPY ~spell_rev\sppr3##\sppr319b.spl~     ~override~
 LAF ds_altered_spell INT_VAR old_clone=60 new_clone=~-1~ STR_VAR file=~sppr319.spl~ END
 APPEND_OUTER ~spell_rev/lib/ds_sr_extra.2da~ ~sppr319a.SPL    233     1     120   146    6     A~
+
+//ADD_SPELL: Contagion
+ADD_SPELL ~spell_rev\sppr3##\sppr311.spl~ 1 3 ~CLERIC_CONTAGION~ // Contagion
+  SAY NAME1 @91    SAY UNIDENTIFIED_DESC @92
+COPY ~spell_rev\sppr3##\dvpr311d.spl~     ~override~
 
 COPY ~spell_rev\sppr3##\sppr320.spl~     ~override~  // Animal Summoning III
   SAY NAME1 @325    SAY UNIDENTIFIED_DESC @326
