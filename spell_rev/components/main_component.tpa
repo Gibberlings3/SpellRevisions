@@ -1663,8 +1663,10 @@ COPY ~spell_rev\spwi2##\spwi224d.spl~     ~override~
 //COPY ~spell_rev\spwi2##\scrla3.itm~     ~override~
 //  SAY NAME2 @493    SAY IDENTIFIED_DESC   @494000
 
-COPY ~spell_rev\spwi2##\spwi225.spl~     ~override~  // Resist Elements (added by V4)
+//ADD_SPELL: Resist Elements
+ADD_SPELL ~spell_rev\spwi2##\spwi225.spl~ 2 2 ~WIZARD_RESIST_ELEMENTS~  // Resist Elements (added by V4)
   SAY NAME1 @864    SAY UNIDENTIFIED_DESC @865
+COPY ~spell_rev\spwi2##\dvpr210a.bam~   ~override~  // scroll bam
 COPY ~spell_rev\spwi2##\scrl86.itm~     ~override~  // vanilla's Detect Evil scroll
   SAY NAME2 @864    SAY IDENTIFIED_DESC   @865
   
