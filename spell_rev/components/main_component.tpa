@@ -780,12 +780,10 @@ COPY ~spell_rev\sppr4##\sppr406.spl~     ~override~  // Defensive Harmony
 COPY ~spell_rev\sppr4##\scrl5b.itm~     ~override~
   SAY NAME2 @121    SAY IDENTIFIED_DESC   @122
 
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
 COPY ~spell_rev\sppr4##\sppr407.spl~     ~override~  // Protection from Lightning (Disabled at level 4)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
 COPY ~spell_rev\sppr4##\scrl5c.itm~     ~override~
   SAY NAME2 @123    SAY IDENTIFIED_DESC   @124
-END
 
 COPY ~spell_rev\sppr4##\sppr408.spl~ ~override~ // Magic Circle against Evil (previously named Protection from Evil 10' Radius)
   SAY NAME1 @125 SAY UNIDENTIFIED_DESC @126
