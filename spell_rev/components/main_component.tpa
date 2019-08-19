@@ -441,13 +441,19 @@ COPY ~spell_rev\sppr1##\dvpr120a.bam~     ~override~
 COPY ~spell_rev\sppr1##\dvpr120b.bam~     ~override~
 COPY ~spell_rev\sppr1##\dvpr120c.bam~     ~override~
 
+//ADD_SPELL: Obscuring Mist
 ADD_PROJECTILE ~spell_rev\projectles\dvobmist.pro~
-COPY ~spell_rev\sppr1##\sppr121.spl~     ~override~  // Obscuring Mist
+ADD_SPELL ~spell_rev\sppr1##\sppr121.spl~ 1 1 ~CLERIC_OBSCURING_MIST~ // Obscuring Mist
   SAY NAME1 @321    SAY UNIDENTIFIED_DESC @322
   WRITE_SHORT 0x98 %dvobmist%
   SET dvobmist -= 1
-  APPEND ~clearair.2da~ ~Obscuring Mist             %dvobmist%~
-COPY ~spell_rev\sppr1##\sppr121i.eff~     ~override~
+APPEND ~clearair.2da~ ~Obscuring Mist             %dvobmist%~
+COPY ~spell_rev\sppr1##\dvpr121i.eff~     ~override~
+COPY ~spell_rev\sppr1##\dvpr121a.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr121b.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr121c.bam~     ~override~
+
+
 
 
 /*--------------------level 2----------------------*/
