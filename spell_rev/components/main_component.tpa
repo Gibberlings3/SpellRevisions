@@ -970,10 +970,14 @@ SAY NAME1 @309    SAY UNIDENTIFIED_DESC @310
     SET "loop" = %loop% - 1
   END
 
-COPY ~spell_rev\sppr5##\sppr525.spl~     ~override~  // Animal Growth
+//ADD_SPELL: Animal Growth
+ADD_SPELL ~spell_rev\sppr5##\sppr525.spl~ 1 5 ~CLERIC_ANIMAL_GROWTH~  // Animal Growth
   SAY NAME1 @329    SAY UNIDENTIFIED_DESC @330
-COPY ~spell_rev\sppr5##\sppr525d.spl~     ~override~
-COPY ~spell_rev\sppr5##\sppr525.eff~     ~override~
+COPY ~spell_rev\sppr5##\dvpr525d.spl~     ~override~
+COPY ~spell_rev\sppr5##\dvpr525.eff~      ~override~
+COPY ~spell_rev\sppr5##\dvpr525a.bam~     ~override~
+COPY ~spell_rev\sppr5##\dvpr525b.bam~     ~override~
+COPY ~spell_rev\sppr5##\dvpr525c.bam~     ~override~
 
 COPY ~spell_rev\sppr5##\spja01.spl~     ~override~  // Harper's Call
   SAY NAME1 @2157    SAY UNIDENTIFIED_DESC @2158
