@@ -952,10 +952,9 @@ ADD_SPELL ~spell_rev\sppr5##\sppr520.spl~ 1 5 ~CLERIC_PROTECTION_FROM_ACID~ // P
 ADD_SPELL ~spell_rev\sppr5##\sppr521.spl~ 1 5 ~CLERIC_PROTECTION_FROM_COLD~ // Protection from Cold (added to priest's spells)
   SAY NAME1 @189    SAY UNIDENTIFIED_DESC @190
 
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
-COPY ~spell_rev\sppr5##\sppr522.spl~     ~override~  // Protection from Electricity (disabled at lvl 4, active at lvl 5)
+//ADD_SPELL: Protection from Electricity
+ADD_SPELL ~spell_rev\sppr5##\sppr522.spl~ 1 5 ~CLERIC_PROTECTION_FROM_LIGHTNING~ // Protection from Electricity (disabled at lvl 4, active at lvl 5)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
-END
 
 COPY ~spell_rev\sppr5##\sppr523.spl~     ~override~  // Protection from Fire (disabled at lvl 3, active at lvl 5)
   SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
