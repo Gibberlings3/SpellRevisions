@@ -2365,17 +2365,6 @@ COPY ~spell_rev\spwi6##\spwi618.spl~     ~override~  // Spell Deflection ("moved
 /* COPY ~spell_rev\spwi6##\scrl7v.itm~     ~override~
   SAY NAME2 @721    SAY IDENTIFIED_DESC   @722 */
 
-COPY ~spell_rev\spwi6##\spwi619.spl~     ~override~  // Monster Summoning VI ("replaces" Wyvern Call)
-  SAY NAME1 @695    SAY UNIDENTIFIED_DESC @696
-COPY ~spell_rev\spwi6##\scrl7w.itm~     ~override~
-  SAY NAME2 @695    SAY IDENTIFIED_DESC   @696
-COPY ~spell_rev\spwi6##\wyvbabsu.eff~     ~override~
-COPY ~spell_rev\spwi6##\wyvbabsu.cre~     ~override~
-COPY ~spell_rev\spwi6##\wyvbabsu.itm~     ~override~
-COPY ~spell_rev\spwi6##\wyvernsu.eff~     ~override~
-COPY ~spell_rev\spwi6##\wyvernsu.cre~     ~override~
-COPY ~spell_rev\spwi6##\wyvernsu.itm~     ~override~
-
 COPY ~spell_rev\spwi6##\spwi620.spl~     ~override~  // Conjure Fire Elemental
   SAY NAME1 @697    SAY UNIDENTIFIED_DESC @698
 COPY ~spell_rev\spwi6##\scrl7x.itm~     ~override~
@@ -2446,6 +2435,21 @@ COPY ~spell_rev\spwi6##\spwi625.spl~     ~override~  // Stone to Flesh
 
 //COPY ~spell_rev\spwi6##\spin686.spl~     ~override~
 /* COPY ~spell_rev\spwi6##\wand18.itm~     ~override~ */
+
+//ADD_SPELL: Monster Summoning VI
+ADD_SPELL ~spell_rev\spwi6##\spwi619.spl~ 2 6 ~WIZARD_MONSTER_SUMMONING_4~ // Monster Summoning VI
+  SAY NAME1 @695    SAY UNIDENTIFIED_DESC @696
+COPY ~spell_rev\spwi6##\scrl7w.itm~     ~override~ // vanilla's Wyvern Call scroll
+  SAY NAME2 @695    SAY IDENTIFIED_DESC   @696
+COPY ~spell_rev\spwi6##\wyvbabsu.eff~     ~override~
+COPY ~spell_rev\spwi6##\wyvbabsu.cre~     ~override~
+COPY ~spell_rev\spwi6##\wyvbabsu.itm~     ~override~
+COPY ~spell_rev\spwi6##\wyvernsu.eff~     ~override~
+COPY ~spell_rev\spwi6##\wyvernsu.cre~     ~override~
+COPY ~spell_rev\spwi6##\wyvernsu.itm~     ~override~
+COPY ~spell_rev\spwi6##\dvwi619a.bam~     ~override~
+COPY ~spell_rev\spwi6##\dvwi619b.bam~     ~override~
+COPY ~spell_rev\spwi6##\dvwi619c.bam~     ~override~
 
 
 /*-----------------------level 7-----------------------*/
