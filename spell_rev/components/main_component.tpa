@@ -695,7 +695,8 @@ COPY ~spell_rev\sppr3##\dvpr321d.spl~    ~override~
 COPY ~spell_rev\sppr3##\serious.itm~     ~override~
   SAY NAME2 @107
 
-COPY ~spell_rev\sppr3##\sppr322.spl~     ~override~  // Storm Shield (new druid spell) 
+//ADD_SPELL: Storm Shield
+ADD_SPELL ~spell_rev\sppr3##\sppr322.spl~ 1 3 ~CLERIC_STORM_SHIELD~ // Storm Shield (new druid spell)
   SAY NAME1 @1109    SAY UNIDENTIFIED_DESC @1110
 COPY ~spell_rev\sppr3##\spstorms.vvc~     ~override~
 COPY ~spell_rev\sppr3##\spstorms.bam~     ~override~
