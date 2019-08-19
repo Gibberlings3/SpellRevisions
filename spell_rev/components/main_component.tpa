@@ -2023,13 +2023,17 @@ COPY ~spell_rev\spwi4##\spwi425.spl~     ~override~  // Wizard Eye
   SAY NAME1 @607    SAY UNIDENTIFIED_DESC @608
 COPY ~spell_rev\spwi4##\scrla1.itm~     ~override~
   SAY NAME2 @607    SAY IDENTIFIED_DESC   @608
-  
-COPY ~spell_rev\spwi4##\spwi426.spl~     ~override~  // Protection from Elemental Energy
+
+//ADD_SPELL: Protection from Elemental Energy
+ADD_SPELL ~spell_rev\spwi4##\spwi426.spl~ 2 4 ~WIZARD_PROTECTION_FROM_ELEMENTAL_ENERGY~  // Protection from Elemental Energy
   SAY NAME1 @873    SAY UNIDENTIFIED_DESC @874
 COPY ~spell_rev\spwi4##\scrl6h.itm~     ~override~
   SAY NAME2 @873    SAY IDENTIFIED_DESC   @874
-COPY ~spell_rev\spwi4##\spwi426.2da~     ~override~
-  
+COPY ~spell_rev\spwi4##\dvwi426.2da~     ~override~
+COPY ~spell_rev\spwi4##\dvwi426a.bam~    ~override~
+COPY ~spell_rev\spwi4##\dvwi426b.bam~    ~override~
+COPY ~spell_rev\spwi4##\dvwi426c.bam~    ~override~
+
 ADD_PROJECTILE ~spell_rev\projectles\dvvtrsph.pro~
 COPY ~spell_rev\spwi4##\spwi427.spl~     ~override~  // Vitriolic Sphere (new spell)
   SAY NAME1 @877    SAY UNIDENTIFIED_DESC @878
