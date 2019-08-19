@@ -567,7 +567,8 @@ COPY ~spell_rev\sppr2##\dvpr219a.bam~     ~override~
 COPY ~spell_rev\sppr2##\dvpr219b.bam~     ~override~
 COPY ~spell_rev\sppr2##\dvpr219c.bam~     ~override~
 
-COPY ~spell_rev\sppr2##\sppr220.spl~     ~override~  // Animal Summoning II
+//ADD_SPELL: Animal Summoning II
+ADD_SPELL ~spell_rev\sppr2##\sppr220.spl~ 1 2 ~CLERIC_ANIMAL_SUMMONING_LEVEL_2~ // Animal Summoning II
   SAY NAME1 @323    SAY UNIDENTIFIED_DESC @324
 COPY ~spell_rev\sppr2##\dogwasu.eff~     ~override~
 COPY ~spell_rev\sppr2##\dogwasu.cre~     ~override~
@@ -576,18 +577,9 @@ ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
 COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
   WRITE_SHORT 0x98 %dvdscent%
 COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
-
-ACTION_IF GAME_IS ~iwdee~ BEGIN
- COPY ~spell_rev\sppr2##\sppr220.spl~     ~override/sppr222.spl~  // Animal Summoning II
-  SAY NAME1 @323    SAY UNIDENTIFIED_DESC @324
- COPY ~spell_rev\sppr2##\dogwasu.eff~     ~override~
- COPY ~spell_rev\sppr2##\dogwasu.cre~     ~override~
- COPY ~spell_rev\sppr2##\dogwasu.itm~     ~override~
- ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
- COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
-  WRITE_SHORT 0x98 %dvdscent%
- COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
-END
+COPY ~spell_rev\sppr2##\dvpr220a.bam~     ~override~
+COPY ~spell_rev\sppr2##\dvpr220b.bam~     ~override~
+COPY ~spell_rev\sppr2##\dvpr220c.bam~     ~override~
 
 /*-----------------------level 3-----------------------*/
 
