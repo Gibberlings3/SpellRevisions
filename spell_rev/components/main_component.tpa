@@ -1065,7 +1065,8 @@ COPY ~spell_rev\sppr6##\sppr614.spl~     ~override~  // Sol's Searing Orb
 COPY ~spell_rev\projectles\bulletex.pro~     ~override~
 COPY ~spell_rev\sppr6##\sorb.itm~     ~override~
 
-COPY ~spell_rev\sppr6##\sppr619.spl~     ~override~  // Regeneration (added to druid's spells)
+//ADD_SPELL: Regeneration
+ADD_SPELL ~spell_rev\sppr6##\sppr619.spl~ 1 6 ~CLERIC_REGENERATION_DRUID_VERSION~  // Regeneration (added to druid's spells)
   SAY NAME1 @311    SAY UNIDENTIFIED_DESC @312
 
 COPY ~spell_rev\sppr6##\sppr620.spl~     ~override~  // Banishment (added to cleric's spells)
