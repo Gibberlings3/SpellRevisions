@@ -1084,7 +1084,8 @@ ADD_SPELL ~spell_rev\sppr6##\sppr621.spl~ 1 6 ~CLERIC_CONJURE_AIR_ELEMENTAL~  //
 ADD_SPELL ~spell_rev\sppr6##\sppr622.spl~ 1 6 ~CLERIC_CONJURE_EARTH_ELEMENTAL~  // Conjure Earth Elemental (enabled at level 6, disabled at level 7)
   SAY NAME1 @221    SAY UNIDENTIFIED_DESC @222
 
-COPY ~spell_rev\sppr6##\sppr623.spl~     ~override~  // Animate Skeleton Warrior (added to cleric's spells)
+//ADD_SPELL: Animate Skeleton Warrior
+ADD_SPELL ~spell_rev\sppr6##\sppr623.spl~ 1 6 ~CLERIC_ANIMATE_SKELETON_WARRIOR~  // Animate Skeleton Warrior (added to cleric's spells)
   SAY NAME1 @225    SAY UNIDENTIFIED_DESC @226
 
 
