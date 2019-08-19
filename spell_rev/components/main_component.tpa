@@ -831,13 +831,12 @@ COPY ~spell_rev\sppr4##\sppr417.spl~     ~override~  // Lesser Restoration
 COPY ~spell_rev\sppr4##\restore.itm~     ~override~
   SAY NAME2 @143    SAY IDENTIFIED_DESC   @144 
 
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
-COPY ~spell_rev\sppr4##\sppr418.spl~     ~override~  // Ice Storm (added to druid's spells)
+//ADD_SPELL: Ice Storm
+ADD_SPELL ~spell_rev\sppr4##\sppr418.spl~ 1 4 ~CLERIC_ICE_STORM~  // Ice Storm (added to druid's spells)
   SAY NAME1 @145    SAY UNIDENTIFIED_DESC @146
 
 COPY ~spell_rev\sppr4##\sppr419.spl~     ~override~  // Regenerate Critical Wounds (new druid spell)
   SAY NAME1 @307    SAY UNIDENTIFIED_DESC @308
-END
 
 /*-----------------------level 5-----------------------*/
 
