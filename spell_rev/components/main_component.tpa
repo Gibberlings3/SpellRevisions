@@ -392,7 +392,8 @@ COPY ~spell_rev\sppr1##\dvpr114c.bam~ ~override~
 ADD_SPELL ~spell_rev\sppr1##\sppr115.spl~ 1 1 ~CLERIC_STRENGTH_OF_STONE~ // Strength of Stone
   SAY NAME1 @27    SAY UNIDENTIFIED_DESC @28
 
-COPY ~spell_rev\sppr1##\sppr116.spl~     ~override~  // Sunscorch
+//ADD_SPELL: Sunscorch
+ADD_SPELL ~spell_rev\sppr1##\sppr116.spl~ 1 1 ~CLERIC_SUNSCORCH~ // Sunscorch
   SAY NAME1 @29    SAY UNIDENTIFIED_DESC @30
 COPY ~spell_rev\sppr1##\dvsuns1.eff~     ~override~
 COPY ~spell_rev\sppr1##\dvsuns2.eff~     ~override~
@@ -403,10 +404,10 @@ COPY ~spell_rev\sppr1##\dvsuns6.eff~     ~override~
 COPY ~spell_rev\sppr1##\dvsuns7.eff~     ~override~
 COPY ~spell_rev\sppr1##\dvsuns8.eff~     ~override~
 COPY ~spell_rev\sppr1##\dvsuns9.eff~     ~override~
-COPY ~spell_rev\sppr1##\dvsuns10.eff~     ~override~
-COPY ~spell_rev\sppr1##\sppr116a.bam~     ~override~
-COPY ~spell_rev\sppr1##\sppr116b.bam~     ~override~
-COPY ~spell_rev\sppr1##\sppr116c.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvsuns10.eff~    ~override~
+COPY ~spell_rev\sppr1##\dvpr116a.bam~    ~override~
+COPY ~spell_rev\sppr1##\dvpr116b.bam~    ~override~
+COPY ~spell_rev\sppr1##\dvpr116c.bam~    ~override~
 
 COPY ~spell_rev\sppr1##\sppr117.spl~     ~override~  // Regenerate Light Wounds
   SAY NAME1 @301    SAY UNIDENTIFIED_DESC @302
