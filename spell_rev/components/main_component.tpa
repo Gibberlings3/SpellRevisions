@@ -713,12 +713,16 @@ COPY ~spell_rev\sppr3##\dvpr324a.bam~     ~override~
 COPY ~spell_rev\sppr3##\dvpr324b.bam~     ~override~
 COPY ~spell_rev\sppr3##\dvpr324c.bam~     ~override~
 
+//ADD_SPELL: Spike Growth
 ADD_PROJECTILE ~spell_rev\projectles\dvspgrow.pro~
-COPY ~spell_rev\sppr3##\sppr325.spl~     ~override~  // Spike Growth (new druid spell)
+ADD_SPELL ~spell_rev\sppr3##\sppr325.spl~ 1 3 ~CLERIC_SPIKE_GROWTH~  // Spike Growth (new druid spell)
   SAY NAME1 @333    SAY UNIDENTIFIED_DESC @334
   WRITE_SHORT 0x98 %dvspgrow%
-COPY ~spell_rev\sppr3##\sppr325i.eff~     ~override~
-  
+COPY ~spell_rev\sppr3##\dvpr325i.eff~     ~override~
+COPY ~spell_rev\sppr3##\dvpr325a.bam~     ~override~
+COPY ~spell_rev\sppr3##\dvpr325b.bam~     ~override~
+COPY ~spell_rev\sppr3##\dvpr325c.bam~     ~override~
+
 ADD_PROJECTILE ~spell_rev\projectles\dvicespr.pro~
 COPY ~spell_rev\sppr3##\sppr326.spl~     ~override~  // Icelance (new druid spell)
   SAY NAME1 @335    SAY UNIDENTIFIED_DESC @336
