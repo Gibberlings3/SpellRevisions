@@ -1327,11 +1327,6 @@ COPY ~spell_rev\spwi1##\gibbersu.eff~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.cre~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.itm~     ~override~
 
-COPY ~spell_rev\spwi1##\spwi108.spl~     ~override~  // Expeditious Retreat (replaces ProPetrification)
-  SAY NAME1 @415    SAY UNIDENTIFIED_DESC @416
-COPY ~spell_rev\spwi1##\scrl73.itm~     ~override~
-  SAY NAME2 @415    SAY IDENTIFIED_DESC   @416
-
 // spwi109 was unused in vanilla but the bams were there
 COPY ~spell_rev\spwi1##\spwi109.spl~     ~override~  // Dimension Jump (added by V4)
   SAY NAME1 @563    SAY UNIDENTIFIED_DESC @564
@@ -1515,6 +1510,13 @@ COPY ~spell_rev\spwi1##\spwi125.spl~     ~override~  // Spook
 COPY ~spell_rev\spwi1##\scrla6.itm~     ~override~
   SAY NAME2 @443    SAY IDENTIFIED_DESC   @444
 COPY ~spell_rev\spwi1##\spwi125i.eff~     ~override~
+
+//ADD_SPELL: Expeditious Retreat
+ADD_SPELL ~spell_rev\spwi1##\spwi108.spl~ 2 1 ~WIZARD_EXPEDITIOUS_RETREAT~  // Expeditious Retreat
+  SAY NAME1 @415    SAY UNIDENTIFIED_DESC @416
+COPY ~spell_rev\spwi1##\dvscrl73.itm~     ~override~
+  SAY NAME2 @415    SAY IDENTIFIED_DESC   @416
+// TODO: add unique spell and scroll icon so Expeditious Retreat doesn't have to share the ones from Protection from Petrification
 
 COPY ~spell_rev\spwi1##\spwi126.spl~     ~override~  // Detect Alignment (moved from 2nd lvl)
   SAY NAME1 @453    SAY UNIDENTIFIED_DESC @454
