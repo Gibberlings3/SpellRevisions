@@ -688,17 +688,17 @@ COPY ~spell_rev\sppr3##\dvpr320a.bam~     ~override~
 COPY ~spell_rev\sppr3##\dvpr320b.bam~     ~override~
 COPY ~spell_rev\sppr3##\dvpr320c.bam~     ~override~
 
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
-COPY ~spell_rev\sppr3##\sppr321.spl~     ~override~  // Cause Serious Wounds (disabled at lvl4, active at lvl 3) 
+//ADD_SPELL: Cause Serious Wounds
+ADD_SPELL ~spell_rev\sppr3##\sppr321.spl~ 1 3 ~CLERIC_CAUSE_MEDIUM_WOUNDS~ // Cause Serious Wounds (disabled at lvl4, active at lvl 3)
   SAY NAME1 @107    SAY UNIDENTIFIED_DESC @108
+COPY ~spell_rev\sppr3##\dvpr321d.spl~    ~override~
 COPY ~spell_rev\sppr3##\serious.itm~     ~override~
-COPY ~spell_rev\sppr3##\sppr321d.spl~     ~override~
+  SAY NAME2 @107
 
 COPY ~spell_rev\sppr3##\sppr322.spl~     ~override~  // Storm Shield (new druid spell) 
   SAY NAME1 @1109    SAY UNIDENTIFIED_DESC @1110
 COPY ~spell_rev\sppr3##\spstorms.vvc~     ~override~
 COPY ~spell_rev\sppr3##\spstorms.bam~     ~override~
-END
 
 COPY ~spell_rev\sppr3##\sppr323.spl~     ~override~  // Regenerate Serious Wounds (new druid spell)
   SAY NAME1 @305    SAY UNIDENTIFIED_DESC @306
