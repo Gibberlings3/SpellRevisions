@@ -1669,14 +1669,18 @@ ADD_SPELL ~spell_rev\spwi2##\spwi225.spl~ 2 2 ~WIZARD_RESIST_ELEMENTS~  // Resis
 COPY ~spell_rev\spwi2##\dvpr210a.bam~   ~override~  // scroll bam
 COPY ~spell_rev\spwi2##\scrl86.itm~     ~override~  // vanilla's Detect Evil scroll
   SAY NAME2 @864    SAY IDENTIFIED_DESC   @865
-  
-COPY ~spell_rev\spwi2##\spwi226.spl~     ~override~  // Monster Summoning II
+
+//ADD_SPELL: Monster Summoning II
+ADD_SPELL ~spell_rev\spwi2##\spwi226.spl~ 2 2 ~WIZARD_MONSTER_SUMMONING_LEVEL_2~  // Monster Summoning II
   SAY NAME1 @573    SAY UNIDENTIFIED_DESC @574
 COPY ~spell_rev\spwi2##\scrl2a.itm~     ~override~  // vanilla's MSII scroll, should be changed
   SAY NAME2 @573    SAY IDENTIFIED_DESC   @574
 COPY ~spell_rev\spwi2##\jellgrsu.eff~     ~override~
 COPY ~spell_rev\spwi2##\jellgrsu.cre~     ~override~
 COPY ~spell_rev\spwi2##\jellgrsu.itm~     ~override~
+COPY ~spell_rev\spwi2##\dvwi226a.bam~     ~override~
+COPY ~spell_rev\spwi2##\dvwi226b.bam~     ~override~
+COPY ~spell_rev\spwi2##\dvwi226c.bam~     ~override~
 
 /*-----------------------level 3-----------------------*/
 
