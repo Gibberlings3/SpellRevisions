@@ -959,10 +959,11 @@ ADD_SPELL ~spell_rev\sppr5##\sppr522.spl~ 1 5 ~CLERIC_PROTECTION_FROM_LIGHTNING~
 //ADD_SPELL: Protection from Fire
 ADD_SPELL ~spell_rev\sppr5##\sppr523.spl~ 1 5 ~CLERIC_PROTECTION_FROM_FIRE~ // Protection from Fire (disabled at lvl 3, active at lvl 5)
   SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
-  
+
+//ADD_SPELL: Mass Regenerate
 ADD_PROJECTILE ~spell_rev\projectles\dvmsrege.pro~
-COPY ~spell_rev\sppr5##\sppr524.spl~     ~override~  // Mass Regenerate
-  SAY NAME1 @309    SAY UNIDENTIFIED_DESC @310
+ADD_SPELL ~spell_rev\sppr5##\sppr524.spl~ 1 5 ~CLERIC_MASS_REGENERATE~ // Mass Regenerate
+SAY NAME1 @309    SAY UNIDENTIFIED_DESC @310
   SET "loop" = 10
   WHILE (%loop% > 0) BEGIN
     WRITE_SHORT (0x98 + 0x28 * (%loop% - 1) ) %dvmsrege%
