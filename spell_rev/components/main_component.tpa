@@ -1842,11 +1842,15 @@ COPY ~spell_rev\spwi3##\spwi326.spl~     ~override~  // Dispel Magic
 COPY ~spell_rev\spwi3##\scrl1e.itm~     ~override~
   SAY NAME2 @547    SAY IDENTIFIED_DESC   @548
 
-COPY ~spell_rev\spwi3##\spwi327.spl~     ~override~  // Icelance (added by V4)
+//ADD_SPELL: Icelance
+ADD_SPELL ~spell_rev\spwi3##\spwi327.spl~ 2 3 ~WIZARD_ICELANCE~  // Icelance (added by V4)
   SAY NAME1 @875    SAY UNIDENTIFIED_DESC @876
   WRITE_SHORT 0x98 %dvicespr%
 COPY ~spell_rev\spwi3##\scrl6i.itm~     ~override~
   SAY NAME2 @875    SAY IDENTIFIED_DESC   @876
+COPY ~spell_rev\spwi3##\dvwi327a.bam~     ~override~
+COPY ~spell_rev\spwi3##\dvwi327b.bam~     ~override~
+COPY ~spell_rev\spwi3##\dvwi327c.bam~     ~override~
 
 /*-----------------------level 4-----------------------*/
 
