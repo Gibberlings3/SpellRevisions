@@ -538,7 +538,8 @@ COPY ~spell_rev\sppr2##\sppr214.spl~     ~override~  // Draw upon Divine Might (
 COPY ~spell_rev\sppr2##\sppr214w.spl~     ~override~
 STRING_SET ~12108~ @57 // change portrait icon name into Draw upon Divine Might
 
-COPY ~spell_rev\sppr2##\sppr215.spl~     ~override~  // Cure Moderate Wounds (active at lvl 2, disabled at lvl 3)
+//ADD_SPELL: Cure Moderate Wounds
+ADD_SPELL ~spell_rev\sppr2##\sppr215.spl~ 1 2 ~CLERIC_CURE_MODERATE_WOUNDS~ // Cure Moderate Wounds (active at lvl 2, disabled at lvl 3)
   SAY NAME1 @59    SAY UNIDENTIFIED_DESC @60
 
 COPY ~spell_rev\sppr2##\sppr216.spl~     ~override~  // Fire Trap (new druid spell)
