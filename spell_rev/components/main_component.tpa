@@ -2756,18 +2756,6 @@ COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
-/*
-COPY ~spell_rev\spwi9##\spwi906.spl~     ~override~  // Monster Summoning IX (new mage spell)
-  SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
-COPY ~spell_rev\spwi9##\scrlm9.itm~     ~override~  // new scroll
-  SAY NAME2 @870    SAY IDENTIFIED_DESC   @871
-COPY ~spell_rev\spwi9##\basilgsu.eff~     ~override~
-COPY ~spell_rev\spwi9##\basilgsu.cre~     ~override~
-COPY ~spell_rev\spwi9##\basilgsu.bcs~     ~override~
-COPY ~spell_rev\spwi9##\basilg1.itm~     ~override~
-COPY ~spell_rev\spwi9##\basilg2.itm~     ~override~
-COPY ~spell_rev\spwi9##\basilg3.itm~     ~override~
-*/
 
 COPY ~spell_rev\spwi9##\spwi907.spl~     ~override~  // Absolute Immunity
   SAY NAME1 @817    SAY UNIDENTIFIED_DESC @818
@@ -2856,6 +2844,23 @@ COPY ~spell_rev\spwi9##\scrlb4.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwish38.spl~     ~override~  // Mass Breach
 
 COPY ~spell_rev\spwi9##\p3-12m4.itm~     ~override~
+
+/*
+//ADD_SPELL: Monster Summoning IX
+ADD_SPELL ~spell_rev\spwi9##\spwi906.spl~ 2 9 ~WIZARD_MONSTER_SUMMONING_7~  // Monster Summoning IX (new mage spell)
+  SAY NAME1 @870    SAY UNIDENTIFIED_DESC @871
+COPY ~spell_rev\spwi9##\dvwi906s.itm~     ~override~  // new scroll
+  SAY NAME2 @870    SAY IDENTIFIED_DESC   @871
+COPY ~spell_rev\spwi9##\basilgsu.eff~     ~override~
+COPY ~spell_rev\spwi9##\basilgsu.cre~     ~override~
+COPY ~spell_rev\spwi9##\basilgsu.bcs~     ~override~
+COPY ~spell_rev\spwi9##\basilg1.itm~     ~override~
+COPY ~spell_rev\spwi9##\basilg2.itm~     ~override~
+COPY ~spell_rev\spwi9##\basilg3.itm~     ~override~
+COPY ~spell_rev\spwi9##\dvwi906a.bam~    ~override~
+COPY ~spell_rev\spwi9##\dvwi906b.bam~    ~override~
+COPY ~spell_rev\spwi9##\dvwi906c.bam~    ~override~
+*/
 
 
 /*-----------------------level 10-----------------------*/
