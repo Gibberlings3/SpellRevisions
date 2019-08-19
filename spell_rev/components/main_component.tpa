@@ -956,7 +956,8 @@ ADD_SPELL ~spell_rev\sppr5##\sppr521.spl~ 1 5 ~CLERIC_PROTECTION_FROM_COLD~ // P
 ADD_SPELL ~spell_rev\sppr5##\sppr522.spl~ 1 5 ~CLERIC_PROTECTION_FROM_LIGHTNING~ // Protection from Electricity (disabled at lvl 4, active at lvl 5)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
 
-COPY ~spell_rev\sppr5##\sppr523.spl~     ~override~  // Protection from Fire (disabled at lvl 3, active at lvl 5)
+//ADD_SPELL: Protection from Fire
+ADD_SPELL ~spell_rev\sppr5##\sppr523.spl~ 1 5 ~CLERIC_PROTECTION_FROM_FIRE~ // Protection from Fire (disabled at lvl 3, active at lvl 5)
   SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
   
 ADD_PROJECTILE ~spell_rev\projectles\dvmsrege.pro~
