@@ -2246,13 +2246,17 @@ COPY ~spell_rev\spwi5##\spwi525.spl~     ~override~  // Protection from Cold (mo
   SAY NAME1 @537    SAY UNIDENTIFIED_DESC @538 */
 COPY ~spell_rev\spwi5##\fireelem.itm~     ~override~
 
-COPY ~spell_rev\spwi5##\spwi526.spl~     ~override~  // Mestil's Acid Sheath (new spell)
+//ADD_SPELL: Mestil's Acid Sheath
+ADD_SPELL ~spell_rev\spwi5##\spwi526.spl~ 2 5 ~WIZARD_MESTILS_ACID_SHEATH~  // Mestil's Acid Sheath (new spell)
   SAY NAME1 @565    SAY UNIDENTIFIED_DESC @566
-COPY ~spell_rev\spwi5##\scrl1w.itm~     ~override~
+COPY ~spell_rev\spwi5##\scrl1w.itm~      ~override~
   SAY NAME2 @565    SAY IDENTIFIED_DESC   @566
-COPY ~spell_rev\spwi5##\spwi526d.spl~     ~override~
-COPY ~spell_rev\spwi5##\mestsh.vvc~     ~override~
-COPY ~spell_rev\spwi5##\mestsh.bam~     ~override~
+COPY ~spell_rev\spwi5##\dvwi526d.spl~    ~override~
+COPY ~spell_rev\spwi5##\mestsh.vvc~      ~override~
+COPY ~spell_rev\spwi5##\mestsh.bam~      ~override~
+COPY ~spell_rev\spwi5##\dvwi526a.bam~    ~override~
+COPY ~spell_rev\spwi5##\dvwi526b.bam~    ~override~
+COPY ~spell_rev\spwi5##\dvwi526c.bam~    ~override~
 /* STRING_SET ~13070~ @565 // change portrait icon from Fire Shield (Blue) to Acid Sheath */
 
 /*-----------------------level 6-----------------------*/
