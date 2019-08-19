@@ -701,7 +701,8 @@ ADD_SPELL ~spell_rev\sppr3##\sppr322.spl~ 1 3 ~CLERIC_STORM_SHIELD~ // Storm Shi
 COPY ~spell_rev\sppr3##\spstorms.vvc~     ~override~
 COPY ~spell_rev\sppr3##\spstorms.bam~     ~override~
 
-COPY ~spell_rev\sppr3##\sppr323.spl~     ~override~  // Regenerate Serious Wounds (new druid spell)
+//ADD_SPELL: Regenerate Serious Wounds
+ADD_SPELL ~spell_rev\sppr3##\sppr323.spl~ 1 3 ~CLERIC_REGENERATE_SERIOUS_WOUNDS~ // Regenerate Serious Wounds (new druid spell)
   SAY NAME1 @305    SAY UNIDENTIFIED_DESC @306
 
 ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
