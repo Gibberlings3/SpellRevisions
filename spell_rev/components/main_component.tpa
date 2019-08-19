@@ -1,6 +1,14 @@
 INCLUDE ~spell_rev\lib\cre_spell_immunity.tph~
+INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
 
-////////////////////////////////////////////////////
+
+/*------------Manage ADD_SPELL References, Part 1-----------*/
+
+// Spells that will be installed with ADD_SPELL have an unknown final filename.
+// If any SPL/ITM/EFF files need to reference those new spells, they can do so using their current filenames in the mod folder.
+// This function will go through those files and replace the references to current filenames with temp filenames.
+LAF ASSIGN_TEMP_NAMES_FOR_NEW_SPELL_REFERENCES END
+
 
 /* ----Various---- */
 
@@ -3043,6 +3051,13 @@ COPY ~spell_rev\spwi9##\dw#plane.spl~     ~override~  // SCSII Dark Planetar
 
 COPY ~spell_rev\spwi9##\spwi925.spl~     ~override~  // Comet
   SAY NAME1 @861    SAY UNIDENTIFIED_DESC @862
+
+
+/*------------Manage ADD_SPELL References, Part 2-----------*/
+
+// This function goes through the SPL/ITM/EFF files in the game and replaces references
+// to our temp filenames with references to the final filenames assigned by ADD_SPELL.
+LAF ASSIGN_FINAL_NAMES_FOR_NEW_SPELL_REFERENCES END
 
 
 /*---------------------Spell Shield fix---------------------*/
