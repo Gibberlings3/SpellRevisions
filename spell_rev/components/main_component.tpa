@@ -2034,8 +2034,9 @@ COPY ~spell_rev\spwi4##\dvwi426a.bam~    ~override~
 COPY ~spell_rev\spwi4##\dvwi426b.bam~    ~override~
 COPY ~spell_rev\spwi4##\dvwi426c.bam~    ~override~
 
+//ADD_SPELL: Vitriolic Sphere
 ADD_PROJECTILE ~spell_rev\projectles\dvvtrsph.pro~
-COPY ~spell_rev\spwi4##\spwi427.spl~     ~override~  // Vitriolic Sphere (new spell)
+ADD_SPELL ~spell_rev\spwi4##\spwi427.spl~ 2 4 ~WIZARD_VITRIOLIC_SPHERE~  // Vitriolic Sphere (new spell)
   SAY NAME1 @877    SAY UNIDENTIFIED_DESC @878
   WRITE_SHORT 0x98 %dvvtrsph%
 COPY ~spell_rev\spwi4##\scrl6y.itm~     ~override~
@@ -2043,6 +2044,9 @@ COPY ~spell_rev\spwi4##\scrl6y.itm~     ~override~
 COPY ~spell_rev\spwi4##\dvvtrsph.vvc~     ~override~
 COPY ~spell_rev\spwi4##\dvvtrsph.bam~     ~override~
 COPY ~spell_rev\spwi4##\dvvtrtra.bam~     ~override~
+COPY ~spell_rev\spwi4##\dvwi427a.bam~     ~override~
+COPY ~spell_rev\spwi4##\dvwi427b.bam~     ~override~
+COPY ~spell_rev\spwi4##\dvwi427c.bam~     ~override~
 
 /*-----------------------level 5-----------------------*/
 
