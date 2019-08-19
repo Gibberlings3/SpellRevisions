@@ -417,14 +417,15 @@ ADD_SPELL ~spell_rev\sppr1##\sppr117.spl~ 1 1 ~CLERIC_REGENERATE_LIGHT_WOUNDS~ /
 ADD_SPELL ~spell_rev\sppr1##\sppr118.spl~ 1 1 ~CLERIC_GOOD_BERRIES~ // Goodberry
   SAY NAME1 @43    SAY UNIDENTIFIED_DESC @44
 
-COPY ~spell_rev\sppr1##\sppr119.spl~     ~override~  // Cause Light Wounds
+//ADD_SPELL: Cause Light Wounds
+ADD_SPELL ~spell_rev\sppr1##\sppr119.spl~ 1 1 ~CLERIC_CAUSE_LIGHT_WOUNDS~ // Cause Light Wounds
   SAY NAME1 @315    SAY UNIDENTIFIED_DESC @316
-COPY ~spell_rev\sppr1##\sppr119d.spl~     ~override~
-COPY ~spell_rev\sppr1##\light.itm~     ~override~
-  SAY NAME2 @315    
-COPY ~spell_rev\sppr1##\sppr119a.bam~     ~override~
-COPY ~spell_rev\sppr1##\sppr119b.bam~     ~override~
-COPY ~spell_rev\sppr1##\sppr119c.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr119d.spl~     ~override~
+COPY ~spell_rev\sppr1##\light.itm~        ~override~
+  SAY NAME2 @315
+COPY ~spell_rev\sppr1##\dvpr119a.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr119b.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr119c.bam~     ~override~
 
 COPY ~spell_rev\sppr1##\sppr120.spl~     ~override~  // Animal Summoning I
   SAY NAME1 @319    SAY UNIDENTIFIED_DESC @320
