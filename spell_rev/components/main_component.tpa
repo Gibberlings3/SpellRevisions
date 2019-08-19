@@ -939,11 +939,10 @@ COPY ~spell_rev\sppr5##\sppr517b.spl~     ~override~
 LAF ds_altered_spell INT_VAR old_clone=60 new_clone=~-1~ STR_VAR file=~sppr517.spl~ END
 APPEND_OUTER ~spell_rev/lib/ds_sr_extra.2da~ ~sppr517a.SPL    233     2     120   146    6     A~
 
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
-COPY ~spell_rev\sppr5##\sppr519.spl~     ~override~  // Polymorph Other (added to druid's spells)
+//ADD_SPELL: Polymorph Other
+ADD_SPELL ~spell_rev\sppr5##\sppr519.spl~ 1 5 ~CLERIC_POLYMORPH_OTHER~ // Polymorph Other (added to druid's spells)
   SAY NAME1 @185    SAY UNIDENTIFIED_DESC @186
 COPY ~spell_rev\sppr5##\dvsquir.itm~     ~override~
-END
 
 COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (added to priest's spells)
   SAY NAME1 @187    SAY UNIDENTIFIED_DESC @188
