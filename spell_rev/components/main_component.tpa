@@ -371,16 +371,20 @@ COPY ~spell_rev\sppr1##\sppr111.spl~     ~override~  // Armor Of Faith
 COPY ~spell_rev\sppr1##\sppr113.spl~     ~override~  // Doom
   SAY NAME1 @23    SAY UNIDENTIFIED_DESC @24
 
+//ADD_SPELL: Faerie Fire
 ADD_PROJECTILE ~spell_rev\projectles\dvffire.pro~
-COPY ~spell_rev\sppr1##\sppr114.spl~     ~override~  // Faerie Fire
+ADD_SPELL ~spell_rev\sppr1##\sppr114.spl~ 1 1 ~CLERIC_FAERIE_FIRE~ // Faerie Fire
   SAY NAME1 @25    SAY UNIDENTIFIED_DESC @26
   WRITE_SHORT 0x98 %dvffire%
-COPY ~spell_rev\sppr1##\sppr114f.spl~     ~override~
-COPY ~spell_rev\sppr1##\sppr114b.bam~     ~override~
-COPY ~spell_rev\sppr1##\sppr114c.bam~     ~override~
-
+COPY ~spell_rev\sppr1##\dvpr114f.spl~ ~override~
+COPY ~spell_rev\sppr1##\dvpr114b.bam~ ~override~
+COPY ~spell_rev\sppr1##\dvpr114c.bam~ ~override~
 // uncomment the lines below to allow those affected by Faerie Fire to turn invisible
-//COPY ~spell_rev\sppr1##\nerfed_sppr114.spl~     ~override\sppr114.spl~  // Faerie Fire
+//LAF RES_NUM_OF_SPELL_NAME
+//  STR_VAR spell_name = ~CLERIC_FAERIE_FIRE~
+//  RET spell_res
+//END
+//COPY ~spell_rev\sppr1##\nerfed_sppr114.spl~     ~override\%spell_res%.spl~  // Faerie Fire
 //  SAY NAME1 @25    SAY UNIDENTIFIED_DESC @26000
 //  WRITE_SHORT 0x98 %dvffire%
 
