@@ -427,7 +427,8 @@ COPY ~spell_rev\sppr1##\dvpr119a.bam~     ~override~
 COPY ~spell_rev\sppr1##\dvpr119b.bam~     ~override~
 COPY ~spell_rev\sppr1##\dvpr119c.bam~     ~override~
 
-COPY ~spell_rev\sppr1##\sppr120.spl~     ~override~  // Animal Summoning I
+//ADD_SPELL: Animal Summoning I
+ADD_SPELL ~spell_rev\sppr1##\sppr120.spl~ 1 1 ~CLERIC_ANIMAL_SUMMONING_LEVEL_1~ // Animal Summoning I
   SAY NAME1 @319    SAY UNIDENTIFIED_DESC @320
 COPY ~spell_rev\sppr1##\batsu.eff~     ~override~
 COPY ~spell_rev\sppr1##\batsu.cre~     ~override~
@@ -436,6 +437,9 @@ ADD_PROJECTILE ~spell_rev\projectles\dvrswarm.pro~
 COPY ~spell_rev\sppr1##\dvrswarm.spl~     ~override~
   WRITE_SHORT 0x98 %dvrswarm%
 COPY ~spell_rev\sppr1##\dvrswarm.eff~     ~override~
+COPY ~spell_rev\sppr1##\dvpr120a.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr120b.bam~     ~override~
+COPY ~spell_rev\sppr1##\dvpr120c.bam~     ~override~
 
 ADD_PROJECTILE ~spell_rev\projectles\dvobmist.pro~
 COPY ~spell_rev\sppr1##\sppr121.spl~     ~override~  // Obscuring Mist
