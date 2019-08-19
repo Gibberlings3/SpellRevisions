@@ -2231,19 +2231,16 @@ COPY ~spell_rev\spwi5##\spwi523d.spl~     ~override~
     SET "loop" = "%loop%" - 1
   END
 
-/* COPY ~spell_rev\spwi5##\spwi524.spl~     ~override~  // Ball Lightning (new spell)
+/*
+ADD_SPELL ~spell_rev\spwi5##\spwi524.spl~ 2 5 ~WIZARD_BALL_LIGHTNING~  // Ball Lightning (new spell)
   SAY NAME1 @565    SAY UNIDENTIFIED_DESC @566
 COPY ~spell_rev\spwi5##\scrl1w.itm~     ~override~
   SAY NAME2 @565    SAY IDENTIFIED_DESC   @566
-COPY ~spell_rev\spwi5##\spwi526d.spl~     ~override~
+COPY ~spell_rev\spwi5##\spwi526d.spl~     ~override/dvwi524d.spl~
 COPY ~spell_rev\spwi5##\mestsh.vvc~     ~override~
-COPY ~spell_rev\spwi5##\mestsh.bam~     ~override~ */
+COPY ~spell_rev\spwi5##\mestsh.bam~     ~override~
+*/
 
-/* COPY ~spell_rev\spwi5##\spwi524.spl~     ~override~  // Protection from Fire (moved from level 3)
-  SAY NAME1 @535    SAY UNIDENTIFIED_DESC @536
-
-COPY ~spell_rev\spwi5##\spwi525.spl~     ~override~  // Protection from Cold (moved from level 3)
-  SAY NAME1 @537    SAY UNIDENTIFIED_DESC @538 */
 COPY ~spell_rev\spwi5##\fireelem.itm~     ~override~
 
 //ADD_SPELL: Mestil's Acid Sheath
