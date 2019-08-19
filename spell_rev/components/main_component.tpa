@@ -1327,12 +1327,6 @@ COPY ~spell_rev\spwi1##\gibbersu.eff~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.cre~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.itm~     ~override~
 
-// spwi109 was unused in vanilla but the bams were there
-COPY ~spell_rev\spwi1##\spwi109.spl~     ~override~  // Dimension Jump (added by V4)
-  SAY NAME1 @563    SAY UNIDENTIFIED_DESC @564
-COPY ~spell_rev\spwi1##\scrl1v.itm~     ~override~  // vanilla's Dimension Door scroll
-  SAY NAME2 @563    SAY IDENTIFIED_DESC   @564
-
 COPY ~spell_rev\spwi1##\spwi110.spl~     ~override~  // Identify
   SAY NAME1 @417    SAY UNIDENTIFIED_DESC @418
 COPY ~spell_rev\spwi1##\scrl75.itm~     ~override~
@@ -1517,6 +1511,12 @@ ADD_SPELL ~spell_rev\spwi1##\spwi108.spl~ 2 1 ~WIZARD_EXPEDITIOUS_RETREAT~  // E
 COPY ~spell_rev\spwi1##\dvscrl73.itm~     ~override~
   SAY NAME2 @415    SAY IDENTIFIED_DESC   @416
 // TODO: add unique spell and scroll icon so Expeditious Retreat doesn't have to share the ones from Protection from Petrification
+
+//ADD_SPELL: Dimension Jump
+ADD_SPELL ~spell_rev\spwi1##\spwi109.spl~ 2 1 ~WIZARD_DIMENSION_JUMP~  // Dimension Jump (added by V4)
+  SAY NAME1 @563    SAY UNIDENTIFIED_DESC @564
+COPY ~spell_rev\spwi1##\scrl1v.itm~     ~override~  // vanilla's Dimension Door scroll
+  SAY NAME2 @563    SAY IDENTIFIED_DESC   @564
 
 COPY ~spell_rev\spwi1##\spwi126.spl~     ~override~  // Detect Alignment (moved from 2nd lvl)
   SAY NAME1 @453    SAY UNIDENTIFIED_DESC @454
