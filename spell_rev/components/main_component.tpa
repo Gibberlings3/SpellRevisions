@@ -557,16 +557,15 @@ ADD_SPELL ~spell_rev\sppr2##\sppr217.spl~ 1 2 ~CLERIC_REGENERATE_MODERATE_WOUNDS
 ADD_SPELL ~spell_rev\sppr2##\sppr218.spl~ 1 2 ~CLERIC_GUST_OF_WIND_DRUID_VERSION~ // Gust of Wind (new druid spell)
   SAY NAME1 @313    SAY UNIDENTIFIED_DESC @314
 
-//not installed in iwdee
-ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
-COPY ~spell_rev\sppr2##\sppr219.spl~     ~override~  // Cause Moderate Wounds (new cleric spell)
+//ADD_SPELL: Cause Moderate Wounds
+ADD_SPELL ~spell_rev\sppr2##\sppr219.spl~ 1 2 ~CLERIC_CAUSE_MODERATE_WOUNDS~ // Cause Moderate Wounds (new cleric spell)
   SAY NAME1 @317    SAY UNIDENTIFIED_DESC @318
-COPY ~spell_rev\sppr2##\sppr219d.spl~     ~override~
+COPY ~spell_rev\sppr2##\dvpr219d.spl~     ~override~
 COPY ~spell_rev\sppr2##\moderate.itm~     ~override~
   SAY NAME2 @317
-COPY ~spell_rev\sppr2##\sppr219a.bam~     ~override~
-COPY ~spell_rev\sppr2##\sppr219b.bam~     ~override~
-COPY ~spell_rev\sppr2##\sppr219c.bam~     ~override~
+COPY ~spell_rev\sppr2##\dvpr219a.bam~     ~override~
+COPY ~spell_rev\sppr2##\dvpr219b.bam~     ~override~
+COPY ~spell_rev\sppr2##\dvpr219c.bam~     ~override~
 
 COPY ~spell_rev\sppr2##\sppr220.spl~     ~override~  // Animal Summoning II
   SAY NAME1 @323    SAY UNIDENTIFIED_DESC @324
@@ -577,7 +576,6 @@ ADD_PROJECTILE ~spell_rev\projectles\dvdscent.pro~
 COPY ~spell_rev\sppr2##\dvdscent.spl~     ~override~
   WRITE_SHORT 0x98 %dvdscent%
 COPY ~spell_rev\sppr2##\dvdscent.eff~     ~override~
-END
 
 ACTION_IF GAME_IS ~iwdee~ BEGIN
  COPY ~spell_rev\sppr2##\sppr220.spl~     ~override/sppr222.spl~  // Animal Summoning II
