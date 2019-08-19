@@ -413,7 +413,8 @@ COPY ~spell_rev\sppr1##\dvpr116c.bam~    ~override~
 ADD_SPELL ~spell_rev\sppr1##\sppr117.spl~ 1 1 ~CLERIC_REGENERATE_LIGHT_WOUNDS~ // Regenerate Light Wounds
   SAY NAME1 @301    SAY UNIDENTIFIED_DESC @302
 
-COPY ~spell_rev\sppr1##\sppr118.spl~     ~override~  // Goodberry
+//ADD_SPELL: Goodberry
+ADD_SPELL ~spell_rev\sppr1##\sppr118.spl~ 1 1 ~CLERIC_GOOD_BERRIES~ // Goodberry
   SAY NAME1 @43    SAY UNIDENTIFIED_DESC @44
 
 COPY ~spell_rev\sppr1##\sppr119.spl~     ~override~  // Cause Light Wounds
