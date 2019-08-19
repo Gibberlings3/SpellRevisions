@@ -944,7 +944,8 @@ ADD_SPELL ~spell_rev\sppr5##\sppr519.spl~ 1 5 ~CLERIC_POLYMORPH_OTHER~ // Polymo
   SAY NAME1 @185    SAY UNIDENTIFIED_DESC @186
 COPY ~spell_rev\sppr5##\dvsquir.itm~     ~override~
 
-COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (added to priest's spells)
+//ADD_SPELL: Protection from Acid
+ADD_SPELL ~spell_rev\sppr5##\sppr520.spl~ 1 5 ~CLERIC_PROTECTION_FROM_ACID~ // Protection from Acid (added to priest's spells)
   SAY NAME1 @187    SAY UNIDENTIFIED_DESC @188
 
 COPY ~spell_rev\sppr5##\sppr521.spl~     ~override~  // Protection from Cold (added to priest's spells)
