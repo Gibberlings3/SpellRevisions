@@ -1153,14 +1153,6 @@ COPY ~spell_rev\sppr7##\sppr715.spl~     ~override~  // Unholy Word
 COPY ~spell_rev\sppr7##\sppr715e.spl~     ~override~  // Slow effect
 COPY ~spell_rev\sppr7##\dvunword.eff~     ~override~
 
-COPY ~spell_rev\sppr7##\sppr716.spl~     ~override~  // Animal Summoning VII
-  SAY NAME1 @331    SAY UNIDENTIFIED_DESC @332
-COPY ~spell_rev\sppr7##\bearposu.eff~     ~override~
-COPY ~spell_rev\sppr7##\bearposu.cre~     ~override~
-  SAY NAME1 @1041
-  SAY NAME2 @1041
-COPY ~spell_rev\sppr7##\bearposu.itm~     ~override~
-
 COPY ~spell_rev\sppr7##\sppr717.spl~     ~override~  // Creeping Doom
   SAY NAME1 @257    SAY UNIDENTIFIED_DESC @258
 COPY ~spell_rev\sppr7##\sppr717a.spl~     ~override~
@@ -1182,6 +1174,17 @@ COPY ~spell_rev\sppr7##\sppr720d.spl~     ~override~
 COPY ~spell_rev\sppr7##\sppr720e.spl~     ~override~
 COPY ~spell_rev\sppr7##\dvquake.eff~     ~override~
 
+//ADD_SPELL: Animal Summoning VII
+ADD_SPELL ~spell_rev\sppr7##\sppr716.spl~ 1 7 ~CLERIC_ANIMAL_SUMMONING_4~  // Animal Summoning VII
+  SAY NAME1 @331    SAY UNIDENTIFIED_DESC @332
+COPY ~spell_rev\sppr7##\bearposu.eff~     ~override~
+COPY ~spell_rev\sppr7##\bearposu.cre~     ~override~
+  SAY NAME1 @1041
+  SAY NAME2 @1041
+COPY ~spell_rev\sppr7##\bearposu.itm~     ~override~
+COPY ~spell_rev\sppr7##\dvpr716a.bam~     ~override~
+COPY ~spell_rev\sppr7##\dvpr716b.bam~     ~override~
+COPY ~spell_rev\sppr7##\dvpr716c.bam~     ~override~
 
 /*-----------------------level 8-----------------------*/
 
