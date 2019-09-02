@@ -93,8 +93,6 @@ COPY ~spell_rev\shared\unddeath.eff~     ~override~ // Variant undead death effe
 COPY ~spell_rev\shared\dvtsight.eff~     ~override~ // Highlight illusionary creatures
 COPY ~spell_rev\shared\dvtsight.spl~     ~override~
 
-COPY ~spell_rev\shared\bams~     ~override~ // Bams for new spells
-
 
 /* ----Projectiles---- */
 
@@ -730,6 +728,9 @@ ADD_SPELL ~spell_rev\sppr3##\sppr326.spl~ 1 3 ~CLERIC_ICELANCE~  // Icelance (ne
   WRITE_SHORT 0x98 %dvicespr%
 COPY ~spell_rev\sppr3##\icelance.bam~     ~override~
 COPY ~spell_rev\sppr3##\dvicespr.wav~     ~override~
+COPY ~spell_rev\sppr3##\dvpr326a.bam~     ~override~
+COPY ~spell_rev\sppr3##\dvpr326b.bam~     ~override~
+COPY ~spell_rev\sppr3##\dvpr326c.bam~     ~override~
 
 /*-----------------------level 4-----------------------*/
 
@@ -745,6 +746,9 @@ COPY ~spell_rev\sppr4##\catjagsu.cre~     ~override~
 COPY ~spell_rev\sppr4##\catjagsu.itm~     ~override~
 COPY ~spell_rev\sppr4##\catjagsu.bcs~     ~override~
 COPY ~spell_rev\sppr4##\dvspratt.spl~     ~override~ // Spring Attack (Pounce)
+COPY ~spell_rev\sppr4##\sppr402a.bam~     ~override~
+COPY ~spell_rev\sppr4##\sppr402b.bam~     ~override~
+COPY ~spell_rev\sppr4##\sppr402c.bam~     ~override~
 
 COPY ~spell_rev\sppr4##\sppr403.spl~     ~override~  // Free Action
   SAY NAME1 @115    SAY UNIDENTIFIED_DESC @116
@@ -846,6 +850,9 @@ COPY ~spell_rev\sppr5##\sppr501.spl~     ~override~  // Animal Summoning V
 COPY ~spell_rev\sppr5##\snakegsu.eff~     ~override~
 COPY ~spell_rev\sppr5##\snakegsu.cre~     ~override~
 COPY ~spell_rev\sppr5##\snakegsu.itm~     ~override~
+COPY ~spell_rev\sppr5##\sppr501a.bam~     ~override~
+COPY ~spell_rev\sppr5##\sppr501b.bam~     ~override~
+COPY ~spell_rev\sppr5##\sppr501c.bam~     ~override~
 
 COPY ~spell_rev\sppr5##\sppr502.spl~     ~override~  // Cure Mortal Wounds (disabled at lvl 5)
   SAY NAME1 @153    SAY UNIDENTIFIED_DESC @154
@@ -1000,6 +1007,9 @@ COPY ~spell_rev\sppr6##\sppr602.spl~     ~override~  // Animal Summoning VI
 COPY ~spell_rev\sppr6##\bearcasu.eff~     ~override~
 COPY ~spell_rev\sppr6##\bearcasu.cre~     ~override~
 COPY ~spell_rev\sppr6##\bearcasu.itm~     ~override~
+COPY ~spell_rev\sppr6##\sppr602a.bam~     ~override~
+COPY ~spell_rev\sppr6##\sppr602b.bam~     ~override~
+COPY ~spell_rev\sppr6##\sppr602c.bam~     ~override~
 
 COPY ~spell_rev\sppr6##\sppr603.spl~     ~override~  // Blade Barrier
   SAY NAME1 @195    SAY UNIDENTIFIED_DESC @196
@@ -1101,6 +1111,9 @@ COPY ~spell_rev\sppr7##\smoundsu.cre~     ~override~
 COPY ~spell_rev\sppr7##\smoundsu.itm~     ~override~
 COPY ~spell_rev\sppr7##\dvsmound.spl~     ~override~
 COPY ~spell_rev\sppr7##\dvsmound.bcs~     ~override~
+COPY ~spell_rev\sppr7##\sppr702a.bam~     ~override~
+COPY ~spell_rev\sppr7##\sppr702b.bam~     ~override~
+COPY ~spell_rev\sppr7##\sppr702c.bam~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr703.spl~     ~override~  // Summon Death Knight (replaces Gate)
   SAY NAME1 @235    SAY UNIDENTIFIED_DESC @236
@@ -1317,7 +1330,10 @@ COPY ~spell_rev\spwi1##\spwi106.spl~     ~override~  // Obscuring Mist (replaces
 APPEND ~clearair.2da~ ~Fog Cloud             %dvfogc%~
 COPY ~spell_rev\spwi1##\scrl71.itm~     ~override~
   SAY NAME2 @411    SAY IDENTIFIED_DESC   @412
-COPY ~spell_rev\spwi1##\spwi106i.eff~     ~override~
+COPY ~spell_rev\spwi1##\spwi106i.eff~    ~override~
+COPY ~spell_rev\spwi1##\dvwi106a.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi106b.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi106c.bam~     ~override~
 
 COPY ~spell_rev\spwi1##\spwi107.spl~     ~override~  // Monster Summoning I (replaces Friends)
   SAY NAME1 @413    SAY UNIDENTIFIED_DESC @414
@@ -1326,6 +1342,9 @@ COPY ~spell_rev\spwi1##\scrl72.itm~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.eff~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.cre~     ~override~
 COPY ~spell_rev\spwi1##\gibbersu.itm~     ~override~
+COPY ~spell_rev\spwi1##\dvwi107a.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi107b.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi107c.bam~     ~override~
 
 COPY ~spell_rev\spwi1##\spwi110.spl~     ~override~  // Identify
   SAY NAME1 @417    SAY UNIDENTIFIED_DESC @418
@@ -1555,6 +1574,9 @@ COPY ~spell_rev\spwi2##\spwi207.spl~     ~override~  // Battering Ram ("replaces
   SAY NAME1 @461    SAY UNIDENTIFIED_DESC @462
 COPY ~spell_rev\spwi2##\scrl91.itm~     ~override~
   SAY NAME2 @461    SAY IDENTIFIED_DESC   @462
+COPY ~spell_rev\spwi2##\spwi207a.bam~     ~override~
+COPY ~spell_rev\spwi2##\spwi207b.bam~     ~override~
+COPY ~spell_rev\spwi2##\spwi207c.bam~     ~override~
 
 COPY ~spell_rev\spwi2##\spwi208.spl~     ~override~  // Know Opponent (replaces Know Alignment)
   SAY NAME1 @463    SAY UNIDENTIFIED_DESC @464
@@ -1755,6 +1777,9 @@ COPY ~spell_rev\spwi3##\hobshasu.eff~     ~override~
 COPY ~spell_rev\spwi3##\hobshasu.cre~     ~override~
 COPY ~spell_rev\spwi3##\hobshasu.itm~     ~override~
 COPY ~spell_rev\spwi3##\dvhobsha.bcs~     ~override~
+COPY ~spell_rev\spwi3##\spwi309a.bam~     ~override~
+COPY ~spell_rev\spwi3##\spwi309b.bam~     ~override~
+COPY ~spell_rev\spwi3##\spwi309c.bam~     ~override~
 
 COPY ~spell_rev\spwi3##\spwi310.spl~     ~override~  // Non-Detection
   SAY NAME1 @519    SAY UNIDENTIFIED_DESC @520
@@ -1892,6 +1917,9 @@ COPY ~spell_rev\spwi4##\spwi406.spl~     ~override~  // Minor Globe of Invulnera
   SAY NAME1 @571    SAY UNIDENTIFIED_DESC @572
 COPY ~spell_rev\spwi4##\scrl1z.itm~     ~override~
   SAY NAME2 @571    SAY IDENTIFIED_DESC   @572
+COPY ~spell_rev\spwi4##\spwi406a.bam~    ~override~
+COPY ~spell_rev\spwi4##\spwi406b.bam~    ~override~
+COPY ~spell_rev\spwi4##\spwi406c.bam~    ~override~
 
 COPY ~spell_rev\spwi4##\spwi407.spl~     ~override~  // old Monster Summoning IV (disabled)
   SAY NAME1 @573    SAY UNIDENTIFIED_DESC @574
@@ -2013,6 +2041,9 @@ COPY ~spell_rev\spwi4##\spidphsu.cre~     ~override~
 COPY ~spell_rev\spwi4##\spidphsu.itm~     ~override~
 COPY ~spell_rev\spwi4##\spidswsu.cre~     ~override~
 COPY ~spell_rev\spwi4##\spidswsu.itm~     ~override~
+COPY ~spell_rev\spwi4##\spwi423a.bam~     ~override~
+COPY ~spell_rev\spwi4##\spwi423b.bam~     ~override~
+COPY ~spell_rev\spwi4##\spwi423c.bam~     ~override~
 
 COPY ~spell_rev\spwi4##\spwi424.spl~     ~override~  // Farsight
   SAY NAME1 @605    SAY UNIDENTIFIED_DESC @606
@@ -2092,6 +2123,9 @@ COPY ~spell_rev\spwi5##\ogremasu.eff~     ~override~
 COPY ~spell_rev\spwi5##\ogremasu.cre~     ~override~
 COPY ~spell_rev\spwi5##\ogremasu.itm~     ~override~
 COPY ~spell_rev\spwi5##\ogremasu.bcs~     ~override~
+COPY ~spell_rev\spwi5##\spwi504a.bam~     ~override~
+COPY ~spell_rev\spwi5##\spwi504b.bam~     ~override~
+COPY ~spell_rev\spwi5##\spwi504c.bam~     ~override~
 
 COPY ~spell_rev\spwi5##\spwi505.spl~     ~override~  // Shadow Door
   SAY NAME1 @619    SAY UNIDENTIFIED_DESC @620
@@ -2118,6 +2152,9 @@ COPY ~spell_rev\spwi5##\spwi508.spl~     ~override~  // Waves of Fatigue (replac
   SAY NAME1 @625    SAY UNIDENTIFIED_DESC @626
 COPY ~spell_rev\spwi5##\scrl5p.itm~     ~override~
   SAY NAME2 @625    SAY IDENTIFIED_DESC   @626
+COPY ~spell_rev\spwi5##\spwi508a.bam~    ~override~
+COPY ~spell_rev\spwi5##\spwi508b.bam~    ~override~
+COPY ~spell_rev\spwi5##\spwi508c.bam~    ~override~
 
 COPY ~spell_rev\spwi5##\spwi509.spl~     ~override~  // Feeblemind
   SAY NAME1 @627    SAY UNIDENTIFIED_DESC @628
@@ -2192,8 +2229,9 @@ COPY ~spell_rev\spwi5##\spwi519.spl~     ~override~  // Spell Shield
   SAY NAME1 @647    SAY UNIDENTIFIED_DESC @648
 COPY ~spell_rev\spwi5##\scrl8x.itm~     ~override~
   SAY NAME2 @647    SAY IDENTIFIED_DESC   @648
-/* INCLUDE ~spell_rev\lib\ardanis_spell_shield.tph~
-LAF ardanis_spell_shield END */  // Moved down to avoid overwriting its changes with the following spells
+COPY ~spell_rev\spwi5##\spwi519a.bam~    ~override~
+COPY ~spell_rev\spwi5##\spwi519b.bam~    ~override~
+COPY ~spell_rev\spwi5##\spwi519c.bam~    ~override~
 
 COPY ~spell_rev\spwi5##\spwi520.spl~     ~override~  // Conjure Lesser Air Elemental
   SAY NAME1 @649    SAY UNIDENTIFIED_DESC @650
@@ -2272,6 +2310,9 @@ COPY ~spell_rev\spwi6##\spwi602.spl~     ~override~  // Globe of Invulnerability
   SAY NAME1 @663    SAY UNIDENTIFIED_DESC @664
 COPY ~spell_rev\spwi6##\scrl7f.itm~     ~override~
   SAY NAME2 @663    SAY IDENTIFIED_DESC   @664
+COPY ~spell_rev\spwi6##\spwi602a.bam~    ~override~
+COPY ~spell_rev\spwi6##\spwi602b.bam~    ~override~
+COPY ~spell_rev\spwi6##\spwi602c.bam~    ~override~
 
 COPY ~spell_rev\spwi6##\spwi603.spl~     ~override~  // Tenser's Transformation
   SAY NAME1 @665    SAY UNIDENTIFIED_DESC @666
@@ -2291,6 +2332,9 @@ COPY ~spell_rev\spwi6##\spwi605.spl~     ~override~  // Banishment ("replaces" D
   SAY NAME1 @669    SAY UNIDENTIFIED_DESC @670
 COPY ~spell_rev\spwi6##\scrl7i.itm~     ~override~
   SAY NAME2 @669    SAY IDENTIFIED_DESC   @670
+COPY ~spell_rev\spwi6##\dvwi605a.bam~    ~override~
+COPY ~spell_rev\spwi6##\dvwi605b.bam~    ~override~
+COPY ~spell_rev\spwi6##\dvwi605c.bam~    ~override~
 
 COPY ~spell_rev\spwi6##\spwi606.spl~     ~override~  // Protection from Magic Energy
   SAY NAME1 @671    SAY UNIDENTIFIED_DESC @672
@@ -2457,6 +2501,9 @@ LAF ds_altered_spell INT_VAR old_clone=200 new_clone=~-1~ STR_VAR file=~spwi701.
 APPEND_OUTER ~spell_rev/lib/ds_sr_extra.2da~ ~spwi701.SPL    233     2     116   201    n     A~
 COPY ~spell_rev\spwi7##\scrl7v.itm~     ~override~
   SAY NAME2 @721    SAY IDENTIFIED_DESC   @722
+COPY ~spell_rev\spwi7##\spwi701a.bam~    ~override~
+COPY ~spell_rev\spwi7##\spwi701b.bam~    ~override~
+COPY ~spell_rev\spwi7##\spwi701c.bam~    ~override~
 
 COPY ~spell_rev\spwi7##\spwi702.spl~     ~override~  // Protection from the Elements
   SAY NAME1 @723    SAY UNIDENTIFIED_DESC @724
@@ -2509,6 +2556,9 @@ COPY ~spell_rev\spwi7##\spwi711.spl~     ~override~  // Chaos ("replaces" Sphere
   WRITE_SHORT 0x98 %dvschaos%
 COPY ~spell_rev\spwi7##\scrl8m.itm~     ~override~
   SAY NAME2 @737    SAY IDENTIFIED_DESC   @738
+COPY ~spell_rev\spwi7##\spwi711a.bam~    ~override~
+COPY ~spell_rev\spwi7##\spwi711b.bam~    ~override~
+COPY ~spell_rev\spwi7##\spwi711c.bam~    ~override~
 
 COPY ~spell_rev\spwi7##\spwi712.spl~     ~override~  // Delayed Blast Fireball
   SAY NAME1 @739    SAY UNIDENTIFIED_DESC @740
@@ -2617,6 +2667,9 @@ COPY ~spell_rev\spwi8##\spwi802.spl~     ~override~  // Mind Blank (new spell)
   SAY NAME1 @769    SAY UNIDENTIFIED_DESC @770
 COPY ~spell_rev\spwi8##\scrl8d.itm~     ~override~
   SAY NAME2 @769    SAY IDENTIFIED_DESC   @770
+COPY ~spell_rev\spwi8##\spwi802a.bam~    ~override~
+COPY ~spell_rev\spwi8##\spwi802b.bam~    ~override~
+COPY ~spell_rev\spwi8##\spwi802c.bam~    ~override~
 
 COPY ~spell_rev\spwi8##\spwi803.spl~     ~override~  // Protection from Energy
   SAY NAME1 @771    SAY UNIDENTIFIED_DESC @772
