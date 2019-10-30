@@ -1409,6 +1409,13 @@ COPY ~spell_rev\spwi1##\dvwi107b.bam~     ~override~
 COPY ~spell_rev\spwi1##\dvwi107c.bam~     ~override~
 APPEND ~spell.ids~ ~2107 WIZARD_MONSTER_SUMMONING_LEVEL_1~
 
+ACTION_IF (TRA_ENTRY_EXISTS (~445~ ~spell_rev\languages\%LANGUAGE%\arcane.tra~)) BEGIN
+  COPY_EXISTING ~spwi108.spl~ ~override~ // Protection from Petrification
+    SAY NAME1 @445    SAY UNIDENTIFIED_DESC @446
+  COPY_EXISTING ~scrl73.itm~ ~override~
+    SAY NAME1 @445    SAY IDENTIFIED_DESC   @446
+END
+
 COPY ~spell_rev\spwi1##\spwi110.spl~     ~override~  // Identify
   SAY NAME1 @417    SAY UNIDENTIFIED_DESC @418
 COPY ~spell_rev\spwi1##\scrl75.itm~     ~override~
