@@ -114,6 +114,17 @@ LAF detectable_spells
     table = ~spell_rev/lib/ds_sr_extra.2da~
 END
 
+// Remove Disabled Spells from Spell Selection Screens (Chargen, Sorcerer Level-Up)
+ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
+  COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
+END
+ELSE ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+  COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
+END
+ELSE ACTION_IF GAME_IS ~iwdee~ BEGIN
+  COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
+END
+
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
@@ -189,18 +200,7 @@ BUT_ONLY_IF_IT_CHANGES
 
 BEGIN @9990
 DESIGNATED 50
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
-REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
-
-ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
-  COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
-END
-ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
-  COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
-END
-ACTION_IF GAME_IS ~iwdee~ BEGIN
-  COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
-END
+DEPRECATED ~This feature is now included in the main component of the mod.~
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
