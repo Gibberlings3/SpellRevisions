@@ -1,3 +1,17 @@
+INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
+
+LAF GET_NEW_SPELL_RESREFS RET_ARRAY new_spell_resrefs END
+
+OUTER_TEXT_SPRINT sppr116 $new_spell_resrefs(~sppr116~)
+OUTER_TEXT_SPRINT sppr121 $new_spell_resrefs(~sppr121~)
+OUTER_TEXT_SPRINT sppr216 $new_spell_resrefs(~sppr216~)
+OUTER_TEXT_SPRINT sppr311 $new_spell_resrefs(~sppr311~)
+OUTER_TEXT_SPRINT sppr325 $new_spell_resrefs(~sppr325~)
+OUTER_TEXT_SPRINT sppr326 $new_spell_resrefs(~sppr326~)
+OUTER_TEXT_SPRINT sppr418 $new_spell_resrefs(~sppr418~)
+OUTER_TEXT_SPRINT spwi327 $new_spell_resrefs(~spwi327~)
+OUTER_TEXT_SPRINT spwi427 $new_spell_resrefs(~spwi427~)
+
 //kjernon's code 
 
 DEFINE_ACTION_FUNCTION	ADD_SPLPROT	INT_VAR	stat = 0	value = 0	relation = 0	RET	new_row		BEGIN
@@ -389,7 +403,7 @@ COPY_EXISTING	~spin987.spl~	override		//  Beholder scorcher
 		END
 	BUT_ONLY IF_EXISTS
 	
-	COPY_EXISTING	~sppr116.spl~	override		//  sunscorch
+	COPY_EXISTING	~%sppr116%.spl~	override		//  sunscorch
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -402,7 +416,7 @@ COPY_EXISTING	~spin987.spl~	override		//  Beholder scorcher
 		END
 	BUT_ONLY IF_EXISTS
 	
-		COPY_EXISTING	~sppr216.spl~	override		//  Fire trap
+		COPY_EXISTING	~%sppr216%.spl~	override		//  Fire trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -891,7 +905,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		END
 	BUT_ONLY IF_EXISTS
 	
-		COPY_EXISTING	~sppr418.spl~	override		// ice storm druid
+	COPY_EXISTING	~%sppr418%.spl~	override		// ice storm druid
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -958,7 +972,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		END
 	BUT_ONLY IF_EXISTS
 	
-		COPY_EXISTING	~spwi327.spl~	override		// icelance
+		COPY_EXISTING	~%spwi327%.spl~	override		// icelance
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -971,7 +985,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		END
 	BUT_ONLY IF_EXISTS
 	
-			COPY_EXISTING	~sppr326.spl~	override		// icelance druid
+	COPY_EXISTING	~%sppr326%.spl~	override		// icelance druid
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -1486,7 +1500,7 @@ COPY_EXISTING	~spwi211.spl~	override		// Acid arrow
 		END
 	BUT_ONLY IF_EXISTS
 	
-	COPY_EXISTING	~spwi427.spl~	override		// vitriolic sphere
+	COPY_EXISTING	~%spwi427%.spl~	override		// vitriolic sphere
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -1499,7 +1513,7 @@ COPY_EXISTING	~spwi211.spl~	override		// Acid arrow
 		END
 	BUT_ONLY IF_EXISTS
 	
-	COPY_EXISTING	~spwi526d.spl~	override		// mesthil
+	COPY_EXISTING	~dvwi526d.spl~	override		// mestil
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -2774,8 +2788,8 @@ COPY_EXISTING ~spwi898.spl~ ~override~   //
 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr325.spl~ THEN BEGIN
-COPY_EXISTING ~sppr325.spl~ ~override~   //  Spike Growth - maybe yes, maybe no
+ACTION_IF FILE_EXISTS_IN_GAME ~%sppr325%.spl~ THEN BEGIN
+COPY_EXISTING ~%sppr325%.spl~ ~override~   //  Spike Growth - maybe yes, maybe no
   LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 324
@@ -2788,7 +2802,7 @@ COPY_EXISTING ~sppr325.spl~ ~override~   //  Spike Growth - maybe yes, maybe no
 	timing			= 0
 	insert_point    = 0
 	STR_VAR
-	resource        = sppr325
+	resource        = EVAL ~%sppr325%~
 END
 END
 
@@ -3554,8 +3568,8 @@ LPF ADD_SPELL_EFFECT
 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr311.spl~ THEN BEGIN
-COPY_EXISTING ~sppr311.spl~ ~override~  
+ACTION_IF FILE_EXISTS_IN_GAME ~%sppr311%.spl~ THEN BEGIN
+COPY_EXISTING ~%sppr311%.spl~ ~override~  
 LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 324
@@ -3568,7 +3582,7 @@ LPF ADD_SPELL_EFFECT
 	timing			= 0
 	insert_point    = 0
 	STR_VAR
-	resource        = sppr311
+	resource        = EVAL ~%sppr311%~
 END
 END
 
@@ -4064,7 +4078,7 @@ END
 //////////////////SPELL REV CHANGES to DO// 
 
 /*spdr101 - druid chromatic orb - magic damage + sideeffects
-sppr121 - obscuring mist (blindess, extra senses)
+~%sppr121%~ - obscuring mist (blindess, extra senses)
 sppr704 - nature's beauty ?? Tue seeing
 sppr710 - holy word deaf; probably irrelevant
 sppr715 - unholy word deaf ditto aboe
@@ -4145,13 +4159,3 @@ COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
  silent = 1
  END     END
  BUT_ONLY_IF_IT_CHANGES 
-
- 
- 
- 
- 
- 
-
-
-
-

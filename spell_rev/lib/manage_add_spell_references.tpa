@@ -1,0 +1,265 @@
+// This library can be used to adjust references to spells whose filenames change because of ADD_SPELL.
+//
+// Launch ASSIGN_TEMP_NAMES_FOR_NEW_SPELL_REFERENCES before installing spells.
+// Then, launch ASSIGN_FINAL_NAMES_FOR_NEW_SPELL_REFERENCES after all spells are installed.
+
+// Resource names and IDS entries for all spells added via ADD_SPELL.
+ACTION_DEFINE_ASSOCIATIVE_ARRAY new_spells BEGIN
+  sppr114 => CLERIC_FAERIE_FIRE
+  sppr115 => CLERIC_STRENGTH_OF_STONE
+  sppr116 => CLERIC_SUNSCORCH
+  sppr117 => CLERIC_REGENERATE_LIGHT_WOUNDS
+  sppr118 => CLERIC_GOOD_BERRIES
+  sppr119 => CLERIC_CAUSE_LIGHT_WOUNDS
+  sppr120 => CLERIC_ANIMAL_SUMMONING_LEVEL_1
+  sppr121 => CLERIC_OBSCURING_MIST
+  sppr215 => CLERIC_CURE_MODERATE_WOUNDS
+  sppr216 => CLERIC_FIRE_TRAP
+  sppr217 => CLERIC_REGENERATE_MODERATE_WOUNDS
+  sppr218 => CLERIC_GUST_OF_WIND_DRUID_VERSION
+  sppr219 => CLERIC_CAUSE_MODERATE_WOUNDS
+  sppr220 => CLERIC_ANIMAL_SUMMONING_LEVEL_2
+  sppr311 => CLERIC_CONTAGION
+  sppr320 => CLERIC_ANIMAL_SUMMONING_LEVEL_3
+  sppr321 => CLERIC_CAUSE_MEDIUM_WOUNDS
+  sppr322 => CLERIC_STORM_SHIELD
+  sppr323 => CLERIC_REGENERATE_SERIOUS_WOUNDS
+  sppr324 => CLERIC_MAGIC_FANG
+  sppr325 => CLERIC_SPIKE_GROWTH
+  sppr326 => CLERIC_ICELANCE
+  sppr418 => CLERIC_ICE_STORM
+  sppr419 => CLERIC_REGENERATE_CRITICAL_WOUNDS
+  sppr519 => CLERIC_POLYMORPH_OTHER
+  sppr520 => CLERIC_PROTECTION_FROM_ACID
+  sppr521 => CLERIC_PROTECTION_FROM_COLD
+  sppr522 => CLERIC_PROTECTION_FROM_LIGHTNING
+  sppr523 => CLERIC_PROTECTION_FROM_FIRE
+  sppr524 => CLERIC_MASS_REGENERATE
+  sppr525 => CLERIC_ANIMAL_GROWTH
+  sppr619 => CLERIC_REGENERATION_DRUID_VERSION
+  sppr620 => CLERIC_BANISHMENT
+  sppr621 => CLERIC_CONJURE_AIR_ELEMENTAL
+  sppr622 => CLERIC_CONJURE_EARTH_ELEMENTAL
+  sppr623 => CLERIC_ANIMATE_SKELETON_WARRIOR
+  sppr716 => CLERIC_ANIMAL_SUMMONING_LEVEL_7
+  spwi108 => WIZARD_EXPEDITIOUS_RETREAT
+  spwi109 => WIZARD_DIMENSION_JUMP
+  spwi126 => WIZARD_KNOW_ALIGNMENT
+  spwi225 => WIZARD_RESIST_ELEMENTS
+  spwi226 => WIZARD_MONSTER_SUMMONING_LEVEL_2
+  spwi327 => WIZARD_ICELANCE
+  spwi426 => WIZARD_PROTECTION_FROM_ELEMENTAL_ENERGY
+  spwi427 => WIZARD_VITRIOLIC_SPHERE
+  spwi526 => WIZARD_MESTILS_ACID_SHEATH
+  spwi619 => WIZARD_MONSTER_SUMMONING_4
+  spwi724 => WIZARD_MONSTER_SUMMONING_5
+  spwi819 => WIZARD_MONSTER_SUMMONING_6
+  //spwi906 => WIZARD_MONSTER_SUMMONING_7
+END
+
+// Opcodes that can have a resource parameter for a SPL file.
+ACTION_DEFINE_ASSOCIATIVE_ARRAY spl_resource_opcodes BEGIN
+   78 => ~~
+  146 => ~~
+  147 => ~~
+  148 => ~~
+  171 => ~~
+  172 => ~~
+  200 => ~~
+  201 => ~~
+  206 => ~~
+  207 => ~~
+  223 => ~~
+  226 => ~~
+  227 => ~~
+  228 => ~~
+  232 => ~~
+  251 => ~~
+  252 => ~~
+  256 => ~~
+  258 => ~~
+  259 => ~~
+  260 => ~~
+  266 => ~~
+  313 => ~~
+  318 => ~~
+  321 => ~~
+  324 => ~~
+  326 => ~~
+  333 => ~~
+  335 => ~~
+  340 => ~~
+  341 => ~~
+  361 => ~~
+  366 => ~~
+END
+
+// Looks through SPL, ITM, and EFF files in the mod folder and replaces all references to
+// the original file resources for ADD_SPELL spells (e.g. sppr114) with temporary resource names (e.g. dvppr114).
+// This prevents unintended replacements in case a spell in the game is already assigned one of these resource names.
+DEFINE_ACTION_FUNCTION ~ASSIGN_TEMP_NAMES_FOR_NEW_SPELL_REFERENCES~ 
+  STR_VAR
+    mod_folder = ~spell_rev~
+    subfolder_regexp = ~^\(sp.+\|shared\)$~
+BEGIN
+  GET_DIRECTORY_ARRAY folders ~%mod_folder%~ ~%subfolder_regexp%~
+  ACTION_PHP_EACH folders AS index => folder BEGIN
+    ACTION_BASH_FOR ~%folder%~ ~.+\.\(spl\|itm\|eff\)~ BEGIN
+      COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+        TO_LOWER BASH_FOR_EXT
+        PATCH_MATCH ~%BASH_FOR_EXT%~
+        WITH
+          ~spl~
+          BEGIN
+            LPF REPLACE_RESREF_IN_ITM_OR_SPL INT_VAR ability_size = 0x28 STR_VAR resource_replacement_func = ~GET_TEMP_RESREF~ END
+          END
+          ~itm~
+          BEGIN
+            LPF REPLACE_RESREF_IN_ITM_OR_SPL INT_VAR ability_size = 0x38 STR_VAR resource_replacement_func = ~GET_TEMP_RESREF~ END
+          END
+          ~eff~
+          BEGIN
+            LPF REPLACE_RESREF_IN_EFF STR_VAR resource_replacement_func = ~GET_TEMP_RESREF~ END
+          END
+          DEFAULT
+        END
+        BUT_ONLY
+    END
+  END
+END
+
+// Looks through SPL, ITM, and EFF files in the game and replaces all references to
+// the temporary resource names (e.g dvpr114) with the new resource names assigned by ADD_SPELL.
+DEFINE_ACTION_FUNCTION ~ASSIGN_FINAL_NAMES_FOR_NEW_SPELL_REFERENCES~ BEGIN
+  COPY_EXISTING_REGEXP ~.+\.\(spl\|itm\|eff\)~ ~override~
+    TO_LOWER SOURCE_EXT
+    PATCH_MATCH ~%SOURCE_EXT%~
+    WITH
+      ~spl~
+      BEGIN
+        LPF REPLACE_RESREF_IN_ITM_OR_SPL INT_VAR ability_size = 0x28 STR_VAR resource_replacement_func = ~GET_REAL_RESREF~ END
+      END
+      ~itm~
+      BEGIN
+        LPF REPLACE_RESREF_IN_ITM_OR_SPL INT_VAR ability_size = 0x38 STR_VAR resource_replacement_func = ~GET_REAL_RESREF~ END
+      END
+      ~eff~
+      BEGIN
+        LPF REPLACE_RESREF_IN_EFF STR_VAR resource_replacement_func = ~GET_REAL_RESREF~ END
+      END
+      DEFAULT
+    END
+    BUT_ONLY
+END
+
+// Replaces references to resources in an EFF file.
+// The parameter resource_replacement_func should be set to the name of a function
+// that takes input_resref as a parameter and returns output_resref.
+DEFINE_PATCH_FUNCTION ~REPLACE_RESREF_IN_EFF~
+  STR_VAR resource_replacement_func = ~~
+BEGIN
+  PATCH_IF (SOURCE_SIZE >= 0x38) BEGIN
+    READ_LONG  0x10 opcode
+    READ_ASCII 0x30 resource
+    PATCH_IF (VARIABLE_IS_SET $spl_resource_opcodes(~%opcode%~)) BEGIN
+      LPF ~%resource_replacement_func%~ STR_VAR input_resref = EVAL ~%resource%~ RET new_resource = output_resref END
+      PATCH_IF (NOT ~%new_resource%~ STRING_EQUAL ~%resource%~) BEGIN
+        WRITE_ASCIIE 0x30 ~%new_resource%~ #8
+      END
+    END
+  END
+END
+
+// Replaces references to resources in an EFF or SPL file.
+// The parameter ability_size should be set to 0x38 for an ITM file or 0x28 for a SPL file.
+// The parameter resource_replacement_func should be set to the name of a function
+// that takes input_resref as a parameter and returns output_resref.
+DEFINE_PATCH_FUNCTION ~REPLACE_RESREF_IN_ITM_OR_SPL~
+  INT_VAR ability_size = 0x38
+  STR_VAR resource_replacement_func = ~~
+BEGIN
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+    READ_LONG  0x64 abilities_off
+    READ_SHORT 0x68 num_abilities
+    READ_LONG  0x6a effects_off
+    READ_SHORT 0x6e effects_ind
+    READ_SHORT 0x70 num_effects
+    FOR (i = 0; i < num_effects; i += 1) BEGIN
+      READ_SHORT (effects_off + 0x30*(effects_ind + i) + 0x00) opcode
+      READ_ASCII (effects_off + 0x30*(effects_ind + i) + 0x14) resource
+      PATCH_IF (VARIABLE_IS_SET $spl_resource_opcodes(~%opcode%~)) BEGIN
+        LPF ~%resource_replacement_func%~ STR_VAR input_resref = EVAL ~%resource%~ RET new_resource = output_resref END
+        PATCH_IF (NOT ~%new_resource%~ STRING_EQUAL ~%resource%~) BEGIN
+          WRITE_ASCIIE (effects_off + 0x30*(effects_ind + i) + 0x14) ~%new_resource%~ #8
+        END
+      END
+    END
+    FOR (i = 0; i < num_abilities; i += 1) BEGIN
+      READ_SHORT (abilities_off + ability_size*i + 0x1e) num_features
+      READ_SHORT (abilities_off + ability_size*i + 0x20) features_ind
+      FOR (j = 0; j < num_features; j += 1) BEGIN
+        READ_SHORT (effects_off + 0x30*(features_ind + j) + 0x00) opcode
+        READ_ASCII (effects_off + 0x30*(features_ind + j) + 0x14) resource
+        PATCH_IF (STRING_LENGTH ~%resource%~ > 0) BEGIN
+          LPF ~%resource_replacement_func%~ STR_VAR input_resref = EVAL ~%resource%~ RET new_resource = output_resref END
+          PATCH_IF (NOT ~%new_resource%~ STRING_EQUAL ~%resource%~) BEGIN
+            WRITE_ASCIIE (effects_off + 0x30*(features_ind + j) + 0x14) ~%new_resource%~ #8
+          END
+        END
+      END
+    END
+  END
+END
+
+// Returns the temporary resource name for input_resref.
+// If input_resref can't be found in the new_spells array, output_resref will be set to input_resref.
+DEFINE_PATCH_FUNCTION ~GET_TEMP_RESREF~
+  STR_VAR input_resref = ~~
+  RET output_resref
+BEGIN
+  TEXT_SPRINT output_resref ~%input_resref%~
+  TO_LOWER input_resref
+  PATCH_IF (VARIABLE_IS_SET $new_spells(~%input_resref%~)) BEGIN
+    INNER_PATCH_SAVE output_resref ~%input_resref%~ BEGIN
+      REPLACE_TEXTUALLY ~^sp~ ~dv~
+    END
+  END
+END
+
+// Returns the resource name assigned by ADD_SPELL for the temporary resource input_resref.
+DEFINE_PATCH_FUNCTION ~GET_REAL_RESREF~
+  STR_VAR input_resref = ~~
+  RET output_resref
+BEGIN
+  TEXT_SPRINT output_resref ~%input_resref%~ // default = no change
+  TO_LOWER input_resref
+  INNER_PATCH_SAVE orig_resref ~%input_resref%~ BEGIN
+    REPLACE_TEXTUALLY ~^dv~ ~sp~
+  END
+  PATCH_IF (VARIABLE_IS_SET $new_spells(~%orig_resref%~) AND NOT ~%input_resref%~ STRING_EQUAL ~%orig_resref%~) BEGIN
+    TEXT_SPRINT ids_name $new_spells(~%orig_resref%~)
+    SET ids_number = IDS_OF_SYMBOL (~spell~ ~%ids_name%~)
+    PATCH_IF (ids_number > 0) BEGIN
+      LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%ids_name%~ RET output_resref = spell_res END
+    END
+  END
+END
+
+DEFINE_ACTION_FUNCTION ~GET_NEW_SPELL_RESREFS~
+  RET_ARRAY new_spell_resrefs
+BEGIN
+  ACTION_PHP_EACH new_spells AS original_resource => ids_name BEGIN
+    ACTION_TRY
+      SILENT
+      LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%ids_name%~ RET new_resource = spell_res END
+      OUTER_TEXT_SPRINT $new_spell_resrefs(~%original_resource%~) ~%new_resource%~
+    WITH
+      ~Failure("Invalid spell number: -1")~
+      BEGIN
+        WARN ~Warning: Could not find %ids_name% in SPELL.IDS~
+      END
+      DEFAULT
+    END
+    VERBOSE
+  END
+END

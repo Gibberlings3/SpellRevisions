@@ -1,3 +1,9 @@
+INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
+
+LAF GET_NEW_SPELL_RESREFS RET_ARRAY new_spell_resrefs END
+
+OUTER_TEXT_SPRINT spwi327 $new_spell_resrefs(~spwi327~)
+OUTER_TEXT_SPRINT spwi427 $new_spell_resrefs(~spwi427~)
 
 ACTION_CLEAR_ARRAY spell
 
@@ -34,8 +40,8 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY spell BEGIN
 ~spwi101~ => 1
 ~spwi105~ => 1
 ~spwi106~ => 1
-~spwi327~ => 1
-~spwi427~ => 1
+~%spwi327%~ => 1
+~%spwi427%~ => 1
 ~spwi897~ => 1
 ~spwi898~ => 1
 //~insanity~ => 1 //

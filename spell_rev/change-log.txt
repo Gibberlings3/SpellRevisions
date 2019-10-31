@@ -33,6 +33,19 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
+V4 - Beta 17 - updated by Mike1072
+- Use ADD_SPELL for all new spells (thanks Grammarsalad)
+- Assign IDS aliases for all spell replacements (thanks DavidW and Grammarsalad)
+- Add scroll BAM for arcane Resist Elements (thanks Grammarsalad)
+- Make original version of Rigid Thinking available by adding Contagion as a separate spell (to simplify IWDEE compatibility)
+- Make original version of Protection from Petrification available by adding Expeditious Retreat as a separate spell (to silence complaints)
+- Update descriptions of Rigid Thinking and Protection from Petrification to match SR format
+- Fix Mass Regeneration stacking with itself
+- Avoid installing Cause Wounds spells on IWDEE due to AI issues
+- Prevent multiple copies of Protection from Lightning in IWDEE
+- Prevent multiple copies of Resist Elements in IWDEE
+- Fall back to English for any untranslated strings
+
 V4 - Beta 16 (25 October 2018) - updated by subtledoctor, Bartimaeus, and Mad Mate
 - Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on
 - Banishment will now correctly banish summoned creatures even when using Anthology Tweaks' removed summoning cap component.

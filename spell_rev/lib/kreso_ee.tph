@@ -1,3 +1,20 @@
+INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
+
+LAF GET_NEW_SPELL_RESREFS RET_ARRAY new_spell_resrefs END
+
+OUTER_TEXT_SPRINT sppr117 $new_spell_resrefs(~sppr117~)
+OUTER_TEXT_SPRINT sppr217 $new_spell_resrefs(~sppr217~)
+OUTER_TEXT_SPRINT sppr323 $new_spell_resrefs(~sppr323~)
+OUTER_TEXT_SPRINT sppr419 $new_spell_resrefs(~sppr419~)
+OUTER_TEXT_SPRINT sppr520 $new_spell_resrefs(~sppr520~)
+OUTER_TEXT_SPRINT sppr521 $new_spell_resrefs(~sppr521~)
+OUTER_TEXT_SPRINT sppr522 $new_spell_resrefs(~sppr522~)
+OUTER_TEXT_SPRINT sppr523 $new_spell_resrefs(~sppr523~)
+OUTER_TEXT_SPRINT sppr524 $new_spell_resrefs(~sppr524~)
+OUTER_TEXT_SPRINT sppr619 $new_spell_resrefs(~sppr619~)
+OUTER_TEXT_SPRINT spwi225 $new_spell_resrefs(~spwi225~)
+OUTER_TEXT_SPRINT spwi526 $new_spell_resrefs(~spwi526~)
+
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr111.spl~ THEN BEGIN  // AoFaith
 COPY_EXISTING ~sppr111.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
@@ -10,82 +27,26 @@ LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr113 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr117.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr117.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr711.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr711.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
+ACTION_DEFINE_ARRAY regen_spells BEGIN
+  ~%sppr117%~ // Regenerate Light Wounds
+  ~%sppr217%~ // Regenerate Moderate Wounds
+  ~%sppr323%~ // Regenerate Serious Wounds
+  ~%sppr419%~ // Regenerate Critical Wounds
+  ~%sppr524%~ // Mass Regenerate
+  ~%sppr619%~ // Regeneration (Druid Version)
+  ~sppr711~   // Regeneration
+END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr619.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr619.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr217.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr217.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr323.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr323.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr419.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr419.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr524.spl~ THEN BEGIN  // regen  
-COPY_EXISTING ~sppr524.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr117 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr711 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr619 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr217 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr323 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr419 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr524 END END
+ACTION_PHP_EACH regen_spells AS i => regen_spell BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%regen_spell%.spl~) BEGIN
+    COPY_EXISTING ~%regen_spell%.spl~ ~override~
+      LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+      PHP_EACH regen_spells AS j => regen_spell_inner BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%regen_spell_inner%~ END
+      END
+  END
+END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr201.spl~ THEN BEGIN  // Aid
 COPY_EXISTING ~sppr201.spl~ ~override~
@@ -127,7 +88,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN  // pro elements
 COPY_EXISTING ~sppr210.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi225 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr312.spl~ THEN BEGIN  // strenght of stone
@@ -176,34 +137,34 @@ COPY_EXISTING ~sppr517b.spl~ ~override~
 LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 24 new_opcode = 247 parameter2 = 1 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr520.spl~ THEN BEGIN  // pro acid
-COPY_EXISTING ~sppr520.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~%sppr520%.spl~ THEN BEGIN  // pro acid
+COPY_EXISTING ~%sppr520%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr520 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr520%~ END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr521.spl~ THEN BEGIN  // pro cold
-COPY_EXISTING ~sppr521.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~%sppr521%.spl~ THEN BEGIN  // pro cold
+COPY_EXISTING ~%sppr521%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr521 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr521%~ END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr522.spl~ THEN BEGIN  // pro electric
-COPY_EXISTING ~sppr522.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~%sppr522%.spl~ THEN BEGIN  // pro electric
+COPY_EXISTING ~%sppr522%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr522 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr522%~ END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr523.spl~ THEN BEGIN  // pro fire
-COPY_EXISTING ~sppr523.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~%sppr523%.spl~ THEN BEGIN  // pro fire
+COPY_EXISTING ~%sppr523%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr523 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr523%~ END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr525d.spl~ THEN BEGIN  // pro fire
-COPY_EXISTING ~sppr525d.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~dvpr525d.spl~ THEN BEGIN  // animal growth
+COPY_EXISTING ~dvpr525d.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr525d END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = dvpr525d END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr603.spl~ THEN BEGIN  // blade barrier
@@ -278,10 +239,10 @@ LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi120 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi225.spl~ THEN BEGIN  // pro elements
-COPY_EXISTING ~spwi225.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN  // pro elements
+COPY_EXISTING ~%spwi225%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi225 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
 END
 
@@ -357,10 +318,10 @@ LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi517 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi526.spl~ THEN BEGIN  // mesthil
-COPY_EXISTING ~spwi526.spl~ ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~%spwi526%.spl~ THEN BEGIN  // mestil
+COPY_EXISTING ~%spwi526%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi526 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = EVAL ~%spwi526%~ END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spwi602.spl~ THEN BEGIN  // goi
