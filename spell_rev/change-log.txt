@@ -53,6 +53,7 @@ V4 - Beta 17 - updated by Mike1072
 - Fix strref for Melf's Minute Meteor item on BGEE
 - Fix strrefs for Vampiric Touch spell effects on BGEE and IWDEE
 - Fix spellbook-updating code not being executed
+- Fix area of effect listed in Haste description
 
 V4 - Beta 16 (25 October 2018) - updated by subtledoctor, Bartimaeus, and Mad Mate
 - Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on
