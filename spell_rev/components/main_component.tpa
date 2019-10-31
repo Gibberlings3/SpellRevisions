@@ -2725,7 +2725,7 @@ COPY ~spell_rev\spwi7##\spwi707.spl~     ~override~  // Summon Death Knight (rep
   SAY NAME1 @731    SAY UNIDENTIFIED_DESC @732
 COPY ~spell_rev\spwi7##\scrl8i.itm~     ~override~
   SAY NAME2 @731    SAY IDENTIFIED_DESC   @732
-COPY ~spell_rev\spwi7##\spcaco.eff~     ~override~
+COPY ~spell_rev\spwi7##\spcaco.eff~     ~override~ // also used by SPPR703
 COPY ~spell_rev\spwi7##\dvdeathk.bcs~     ~override~
 COPY ~spell_rev\spwi7##\dvdeathk.cre~     ~override~
   SAY NAME1 @3731
@@ -2905,6 +2905,7 @@ COPY ~spell_rev\spwi8##\spwi807.spl~     ~override~  // Summon Fiend
   SAY NAME1 @777    SAY UNIDENTIFIED_DESC @778
 COPY ~spell_rev\spwi8##\scrl9b.itm~     ~override~
   SAY NAME2 @777    SAY IDENTIFIED_DESC   @778
+COPY ~spell_rev\spwi8##\spfiend.eff~      ~override~
 COPY ~spell_rev\spwi8##\demglasu.cre~     ~override~
   SAY NAME1 @3777
   SAY NAME2 @3777
@@ -3025,6 +3026,7 @@ COPY ~spell_rev\spwi9##\spwi905.spl~     ~override~  // Gate
   SAY NAME1 @815    SAY UNIDENTIFIED_DESC @816
 COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~
   SAY NAME2 @815    SAY IDENTIFIED_DESC   @816
+COPY ~spell_rev\spwi9##\spgate.eff~     ~override~
 COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
   SAY NAME1 @3815
   SAY NAME2 @3815
