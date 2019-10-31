@@ -229,7 +229,9 @@ REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that
 
 PRINT @7999 // ~Patching spellbooks of joinable NPCs, this may take a moment...~
 
+// generate list of joinable NPCs
 INCLUDE ~spell_rev/lib/joinable_npcs.tpa~
+LAM ~JOINABLE_NPC_ARRAYS~
 
 // remove old spells, add new ones
 ACTION_IF NOT MOD_IS_INSTALLED ~Divine_Remix~ ~0~ BEGIN
