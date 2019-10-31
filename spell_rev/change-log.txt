@@ -58,6 +58,7 @@ V4 - Beta 17 - updated by Mike1072
 - Fix inconsistency in summoned fiends' initial alignments
 - Fix number of skeletons summoned by Animate Dead at level 6
 - Make removing disabled spells part of the main component
+- Fix typos and formatting issues in descriptions
 
 V4 - Beta 16 (25 October 2018) - updated by subtledoctor, Bartimaeus, and Mad Mate
 - Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on

@@ -889,7 +889,7 @@ While under the effects of this spell, the recipient is immune to all forms of d
 @129=~Call Woodland Beings~
 @130=~Call Woodland Beings
 Level: 4
-School: Conjuration 
+School: Conjuration
 Sphere: Animal
 Range: Medium
 Duration: 3 turns
@@ -913,9 +913,9 @@ HP 32, AC 3, THAC0 14, Saving Throws 12/16/12/14/16
 Special Qualities:
 Magic Resistance 75%
 
-Special Abilities:
-1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+Memorized Spells:
+1º Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2º Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 
 Nymph (7 Hit Dice):
 STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Neutral Good
@@ -925,11 +925,11 @@ HP 42, AC 3, THAC0 15, Saving Throws 12/10/12/14/10
 Special Qualities:
 Magic Resistance 50%
 
-Spell Memorized:
-1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
-3ï¿½ Call Lightning, Hold Person or Animal, Summon Insects
-4ï¿½ Animal Summoning IV~
+Memorized Spells:
+1º Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2º Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+3º Call Lightning, Hold Person or Animal, Summon Insects
+4º Animal Summoning IV~
 
 @2129=~Nymph~
 
@@ -1123,15 +1123,15 @@ Saving Throw: None
 When the priest casts a Raise Dead spell, life can be restored to a dead comrade. Note that the body of the person must be whole; otherwise, missing parts are still missing when the person is brought back to life. The person has but 1 hit point when raised and must regain the rest by natural healing or curative magic.~
 
 @2157=~Harper's Call~
-@2158=~Harper's Call 
+@2158=~Harper's Call
 Level: 5
 School: Necromancy
-Sphere: Necromantic 
+Sphere: Necromantic
 Range: Short
-Duration: Permanent 
-Casting Time: 1 round 
-Area of Effect: 1 person 
-Saving Throw: None 
+Duration: Permanent
+Casting Time: 1 round
+Area of Effect: 1 person
+Saving Throw: None
 
 This spell is only available to Harpers. The Harper's Call restores a comrade to life, to further serve the cause of the Harpers. This spell functions similarly to Raise Dead, with the following exceptions: the Harper must transfer a small portion of her life essence (10 hit points) to successfully raise the deceased person; the target has but 1 hit point when raised and must regain the rest by natural healing or curative magic; and the raised person suffers a -5 penalty to all ability scores for one minute, making this spell virtually useless in combat.~
 
@@ -1951,7 +1951,7 @@ This spell will affect both enemies and friends of the caster, so care must be t
 @295=~Symbol of Death~
 @296=~Symbol of Death
 Level: 7
-School: Conjuration 
+School: Conjuration
 Sphere: Combat
 Range: Long
 Duration: Special
@@ -2010,23 +2010,23 @@ Each round, the victims suffer 2d6 points of electrical damage and 2d6 points of
 Level: Quest
 School: Conjuration
 Sphere: Elemental, Summoning
-Range: Long 
+Range: Long
 Duration: 2 turns
 Casting Time: 1 round
-Area of Effect: Special 
+Area of Effect: Special
 Saving Throw: None
 
 Drawing power from the environment, this spell summons a 12HD elemental from each of the three Planes of Earth, Air, and Fire. The elementals will do the bidding of the caster until they are slain or the duration of the spell runs out.~
 
 @277=~Elemental Prince Call~
 @278=~Elemental Prince Call
-Level: Quest 
+Level: Quest
 School: Conjuration
 Sphere: Elemental, Summoning
-Range: Long 
+Range: Long
 Duration: 1 turn
 Casting Time: 2 rounds
-Area of Effect: Special 
+Area of Effect: Special
 Saving Throw: None
 
 Druids, having a more powerful link to the elements, can cast a more specialized version of Elemental Swarm. This spell can summon one of the Elemental Princes themselves, randomly chosen from the Planes of Earth, Air, and Fire. The Elemental Prince will stay for 10 rounds and obey the caster as long as they remain summoned. The Elemental Princes rule over other elementals in their respective planes. The Elemental Prince of Air is Chan. The Elemental Prince of Earth is Sunnis. The Elemental Prince of Fire is Zaaman Rul.
@@ -2116,19 +2116,19 @@ Immune to level drain, death, imprisonment, maze, petrification, & poison effect
 Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
-Known Spells:
-1ï¿½ Bless (x3), Resist Fear (x3)
-2ï¿½ Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3ï¿½ Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4ï¿½ Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
-5ï¿½ Mass Cure, Raise Dead, True Seeing
-6ï¿½ Blade Barrier, Heal
-7ï¿½ Holy Word~
+Memorized Spells:
+1º Bless (x3), Resist Fear (x3)
+2º Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3º Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4º Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
+5º Mass Cure, Raise Dead, True Seeing
+6º Blade Barrier, Heal
+7º Holy Word~
 
 @2281=~Deva~
 
 @283=~Summon Fallen Deva~
-@284=~Summon Fallen Deva 
+@284=~Summon Fallen Deva
 Level: Quest
 School: Conjuration
 Sphere: All, Summoning
@@ -2154,14 +2154,14 @@ Immune to level drain, death, imprisonment, maze, petrification, & poison effect
 Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
-Known Spells:
-1ï¿½ Doom (x3), Resist Fear (x3)
-2ï¿½ Hold Person (x3), Find Trap, Know Opponent, Silence
-3ï¿½ Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4ï¿½ Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
-5ï¿½ Flame Strike, Greater Command, True Seeing
-6ï¿½ Blade Barrier, Harm
-7ï¿½ Unholy Word~
+Memorized Spells:
+1º Doom (x3), Resist Fear (x3)
+2º Hold Person (x3), Find Trap, Know Opponent, Silence
+3º Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4º Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
+5º Flame Strike, Greater Command, True Seeing
+6º Blade Barrier, Harm
+7º Unholy Word~
 
 @2283=~Fallen Deva~
 
@@ -2540,9 +2540,9 @@ Range: Short
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
-Saving Throw: Paralisys partial 
+Saving Throw: Paralyzation partial
 
-When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three rounds.~
+When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6 points of damage. The target must make a save vs. paralyzation or be held for three rounds.~
 
 @337=~~
 @338=~~

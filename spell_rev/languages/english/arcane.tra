@@ -734,8 +734,8 @@ HP 36, AC 5, THAC0 16, Saving Throws 9/13/12/15/14
 1 Attack Per Round, 1d8+1 Slashing Damage (Long Sword +1)
 
 Memorized Spells:
-1° Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
-2° Chant, Hold Person, Silence~
+1º Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
+2º Chant, Hold Person, Silence~
 
 @3517=~Hobgoblin Archer~
 @3518=~Hobgoblin Shaman~
@@ -1352,7 +1352,7 @@ HP 60, AC 4, THAC0 12, Saving Throws 10/13/10/13/13
 1 Attack Per Round, 1d8+1 Cold Damage (Touch +1)
 
 Combat Abilities:
-Life Drain: each successeful hit raises wraith hit points by 5 for 1 turn, and the target must save vs. death or lose 1 level
+Life Drain: each successful hit raises the wraith's hit points by 5 for 1 turn and causes the target to save vs. death or lose 1 level
 
 Special Qualities:
 Immune to normal weapons
@@ -1419,9 +1419,9 @@ Invisibility (at will)
 Regeneration: 1 hp/round
 
 Memorized Spells:
-1° Obscuring Mist, Magic Missile (x2), Shield
-2° Horror, Mirror Image
-3° Dire Charm, Slow~
+1º Obscuring Mist, Magic Missile (x2), Shield
+2º Horror, Mirror Image
+3º Dire Charm, Slow~
 
 @619=~Shadow Door~
 @620=~Shadow Door
@@ -1471,7 +1471,7 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
-Surges of negative energy render all hostile living creatures in the spell’s area fatigued, as if they haven't rested in a day. Multiple castings of this spell are cumulative.~
+Surges of negative energy render all hostile living creatures in the spell's area fatigued, as if they haven't rested in a day. Multiple castings of this spell are cumulative.~
 
 @627=~Feeblemind~
 @628=~Feeblemind
@@ -2345,12 +2345,12 @@ HP 98, AC 1, THAC0 5, Saving Throws 8/11/8/11/11
 Special Qualities:
 Fire Resistance 100%
 
-Spell Memorized:
-1° Burning Hands, Magic Missile (x2), Shield
-2° Agannazar's Scorcher, Invisibility (x2)
-3° Fireball (x3)
-4° Fire Shield (x2)
-5° Conjure Lesser Fire Elemental~
+Memorized Spells:
+1º Burning Hands, Magic Missile (x2), Shield
+2º Agannazar's Scorcher, Invisibility (x2)
+3º Fireball (x3)
+4º Fire Shield (x2)
+5º Conjure Lesser Fire Elemental~
 
 @3749=~Efreeti~
 
@@ -2371,12 +2371,12 @@ STR 17, DEX 19, CON 15, INT 14, WIS 14, CHA 15; AL Chaotic Good
 HP 89, AC 0, THAC0 7, Saving Throws 11/7/11/7/7
 3 Attacks Per Round, 1d8+5 Slashing Damage (Scimitar +2)
 
-Spell Memorized:
-1° Magic Missile (x3), Shield
-2° Invisibility (x2), Mirror Image
-3° Haste, Lightning Bolt (x2)
-4° Improved Invisibility, Minor Globe of Invulnerability
-5° Conjure Lesser Air Elemental~
+Memorized Spells:
+1º Magic Missile (x3), Shield
+2º Invisibility (x2), Mirror Image
+3º Haste, Lightning Bolt (x2)
+4º Improved Invisibility, Minor Globe of Invulnerability
+5º Conjure Lesser Air Elemental~
 
 @3751=~Djinni~
 
@@ -3013,14 +3013,14 @@ Regeneration: 2hp/round
 Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
-Known Spells:
-1° Bless (x3), Resist Fear (x3)
-2° Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3° Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4° Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
-5° Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
-6° Blade Barrier, Bolt of Glory, Heal
-7° Greater Restoration, Holy Word~
+Memorized Spells:
+1º Bless (x3), Resist Fear (x3)
+2º Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3º Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4º Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
+5º Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
+6º Blade Barrier, Bolt of Glory, Heal
+7º Greater Restoration, Holy Word~
 
 @3857=~Planetar~
 
@@ -3050,14 +3050,14 @@ Regeneration: 2hp/round
 Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
-Known Spells:
-1° Doom (x3), Resist Fear (x3)
-2° Hold Person (x3), Find Trap, Know Opponent, Silence
-3° Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4° Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
-5° Flame Strike (x2), Greater Command (x2), True Seeing (x2)
-6° Blade Barrier, Dolorous Decay, Harm
-7° Fire Storm, Unholy Word~
+Memorized Spells:
+1º Doom (x3), Resist Fear (x3)
+2º Hold Person (x3), Find Trap, Know Opponent, Silence
+3º Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4º Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
+5º Flame Strike (x2), Greater Command (x2), True Seeing (x2)
+6º Blade Barrier, Dolorous Decay, Harm
+7º Fire Storm, Unholy Word~
 
 @3859=~Fallen Planetar~
 
@@ -3196,9 +3196,9 @@ Range: Short
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
-Saving Throw: Paralisys partial 
+Saving Throw: Paralyzation partial
 
-When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three rounds.~
+When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6 points of damage. The target must make a save vs. paralyzation or be held for three rounds.~
 
 @877=~Vitriolic Sphere~
 @878=~Vitriolic Sphere
@@ -3208,9 +3208,9 @@ Range: Medium
 Duration: Special
 Casting Time: 3
 Area of Effect: Target, and anyone within 10'
-Saving Throw: Breath half 
+Saving Throw: Breath half
 
-When this spell is cast, a glowing orb of emerald acid streaks to the target and explodes in a 10-foot radius. Each creature in that area must make a save vs. breath. On a failed save, a creature takes 10d4 acid damage and 4d4 acid damage at the end of its next 2 rounds. On a successful save, a creature takes half the initial damage and half damage at the end of each round.~
+When this spell is cast, a glowing orb of emerald acid streaks to the target and explodes in a 10-foot radius. Each creature in the area must make a save vs. breath. On a failed save, a creature takes 10d4 acid damage and 4d4 acid damage at the end of its next 2 rounds. On a successful save, a creature takes half the initial damage and half damage at the end of each round.~
 
 @879=~~
 
@@ -3529,7 +3529,7 @@ Special Abilities:
   Detect Illusions: 50%~
 
 @1025=~Familiar~
-  
+
 @21000=~Dispelling Screen Dissipates~
 @21001=~Dispelling Screen Activated~
 @21002=~Insects Dispersed~
