@@ -737,6 +737,9 @@ Memorized Spells:
 1° Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
 2° Chant, Hold Person, Silence~
 
+@3517=~Hobgoblin Archer~
+@3518=~Hobgoblin Shaman~
+
 @519=~Non-Detection~
 @520=~Non-Detection
 Level: 3
@@ -1350,6 +1353,9 @@ Immune to normal weapons
 Immune to backstab, blindness, charm, confusion, hold, poison, sleep, stun, & death effects
 Cold Resistance 100%; Physical Damage Resistance 50%~
 
+@3611=~Shadow~
+@3612=~Wraith~
+
 @613=~Cloudkill~
 @614=~Cloudkill
 Level: 5
@@ -1576,6 +1582,8 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
+@3641=~Lesser Fire Elemental~
+
 @643=~Protection from Acid~
 @644=~Protection from Acid
 Level: 5
@@ -1636,6 +1644,8 @@ Immune to normal weapons
 Immune to hold, poison, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
+@3649=~Lesser Air Elemental~
+
 @651=~Conjure Lesser Earth Elemental~
 @652=~Conjure Lesser Earth Elemental
 Level: 5
@@ -1657,6 +1667,8 @@ Special Qualities:
 Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
+
+@3651=~Lesser Earth Elemental~
 
 @653=~Spell Deflection~
 @654=~Spell Deflection
@@ -1974,6 +1986,9 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
+@3697=~Fire Elemental~
+@3698=~Greater Fire Elemental~
+
 @699=~Conjure Air Elemental~
 @700=~Conjure Air Elemental
 Level: 6
@@ -2001,6 +2016,9 @@ Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
+@3699=~Air Elemental~
+@3700=~Greater Air Elemental~
+
 @701=~Conjure Earth Elemental~
 @702=~Conjure Earth Elemental
 Level: 6
@@ -2027,6 +2045,9 @@ Special Qualities (12 & 16 Hit Dice):
 Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
+
+@3701=~Earth Elemental~
+@3702=~Greater Earth Elemental~
 
 @703=~Animate Skeleton Warrior~
 @704=~Animate Skeleton Warrior
@@ -2076,6 +2097,8 @@ Drain Magic:
 Special Qualities:
 Absorb Magic: immune to magic, every spell cast against a Nishruu heals the creature by 1d8+1 hit points
 Physical Resistance 50%~
+
+@3705=~Nishruu~
 
 @707=~Stone to Flesh~
 @708=~Stone to Flesh
@@ -2188,6 +2211,8 @@ Unholy Fireball (once per day)
 Power Words: Blind, Stun, or Kill (once per day each)
 Symbols: of Weakness or Death (once per day each)~
 
+@3731=~Death Knight~
+
 @733=~Prismatic Mantle~
 @734=~Prismatic Mantle
 Level: 7
@@ -2292,6 +2317,8 @@ Saving Throw: None
 
 Upon casting this spell, the wizard brings into being a shimmering, swordlike plane of force. Once the spell is cast, the sword will float in the air completely under the control of the caster, until the spell duration expires or the sword is dispelled. The sword acts as a +4 weapon in all respects and attacks on its own once each round, inflicting 5d4 damage when it hits a target. It has 100% resistance to almost all forms of dmage (acid, cold, fire, electricity, poison, etc.), and 95% resistance to physical damage, but it's vulnerable to pure magic damage. The sword is immune to mind affecting spells, has 36 hit points, AC 5, and THAC0 2. Note that this spell does not prevent the caster from performing any other actions while the spell is in effect.~
 
+@3747=~Magical Sword~
+
 @749=~Summon Efreeti~
 @750=~Summon Efreeti
 Level: 7
@@ -2319,6 +2346,8 @@ Spell Memorized:
 4° Fire Shield (x2)
 5° Conjure Lesser Fire Elemental~
 
+@3749=~Efreeti~
+
 @751=~Summon Djinni~
 @752=~Summon Djinni
 Level: 7
@@ -2342,6 +2371,8 @@ Spell Memorized:
 3° Haste, Lightning Bolt (x2)
 4° Improved Invisibility, Minor Globe of Invulnerability
 5° Conjure Lesser Air Elemental~
+
+@3751=~Djinni~
 
 @753=~Summon Hakeashar~
 @754=~Summon Hakeashar
@@ -2369,6 +2400,8 @@ Special Qualities:
 Absorb Magic: immune to magic, every spell cast against a Hakeashar heals the creature by 1d8+1 hit points
 Immune to normal weapons
 Physical Resistance 50%~
+
+@3753=~Hakeashar~
 
 @755=~Control Undead~
 @756=~Control Undead
@@ -2517,6 +2550,8 @@ Dispel Magic (once every 5 rounds)
 Unholy Blight (once every 5 rounds)
 Confusion (once every 5 rounds)
 Power Word Stun (once every 5 rounds)~
+
+@3777=~Glabrezu~
 
 @779=~Moment of Prescience~
 @780=~Moment of Prescience
@@ -2714,6 +2749,8 @@ Dispel Magic (once every 5 rounds)
 Symbol of Weakness (once every 5 rounds)
 Unholy Word (once per day)
 Meteor Swarm (once per day)~
+
+@3815=~Pit Fiend~
 
 @817=~Absolute Immunity~
 @818=~Absolute Immunity
@@ -2979,6 +3016,8 @@ Known Spells:
 6° Blade Barrier, Bolt of Glory, Heal
 7° Greater Restoration, Holy Word~
 
+@3857=~Planetar~
+
 @859=~Summon Dark Planetar~
 @860=~Summon Dark Planetar
 Level: Epic
@@ -3013,6 +3052,8 @@ Known Spells:
 5° Flame Strike (x2), Greater Command (x2), True Seeing (x2)
 6° Blade Barrier, Dolorous Decay, Harm
 7° Fire Storm, Unholy Word~
+
+@3859=~Fallen Planetar~
 
 @861=~Comet~
 @862=~Comet
@@ -3074,6 +3115,8 @@ Special Qualities:
 Immune to disease effects
 Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 
+@3866=~Otyugh~
+
 @868=~Monster Summoning VIII~
 @869=~Monster Summoning VIII
 Level: 8
@@ -3099,6 +3142,8 @@ Confusing Gaze
 
 Special Qualities:
 Immune to confusion effects~
+
+@3868=~Umber Hulk~
 
 @870=~Monster Summoning IX~
 @871=~Monster Summoning IX

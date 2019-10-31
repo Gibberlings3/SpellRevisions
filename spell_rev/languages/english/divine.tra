@@ -481,6 +481,8 @@ Immune to charm, confusion, hold, poison, sleep, stun, & death effects
 Cold Resistance 100%
 Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
+@2071=~Greater Skeleton~
+
 @73=~Call Lightning~
 @74=~Call Lightning
 Level: 3
@@ -791,6 +793,8 @@ HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
 Combat Abilities:
 Pounce: can charge a target if at least 6 feet away. During that round the leopard moves at double speed, attacks with a +2 bonus to hit and damage rolls, but suffers a -2 penalty to AC~
 
+@2113=~Leopard~
+
 @115=~Free Action~
 @116=~Free Action
 Level: 4
@@ -926,6 +930,8 @@ Spell Memorized:
 2� Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 3� Call Lightning, Hold Person or Animal, Summon Insects
 4� Animal Summoning IV~
+
+@2129=~Nymph~
 
 @131=~Poison~
 @132=~Poison
@@ -1075,6 +1081,7 @@ Special Qualities
 Immune to entangle, grease, web and poison effects~
 
 @1040=~Dire Leopard~
+@2151=~Giant Snake~
 
 @153=~Cure Mortal Wounds~
 @154=~Cure Mortal Wounds
@@ -1713,6 +1720,8 @@ Immune to charm, hold, poison, polymorph, sleep, & stun effects
 Electrical Resistance 125%; Fire Resistance 100%; Cold Resistance 50%
 Crushing Resistance 100%; Slashing, Piercing, & Missile Resistance 50%~
 
+@2233=~Shambling Mound~
+
 @235=~Summon Death Knight~
 @236=~Summon Death Knight
 Level: 7
@@ -2060,6 +2069,10 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 125%; Magic Resistance 60%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
+@2277=~Chan~
+@2278=~Sunnis~
+@2279=~Zaaman Rul~
+
 @279=~Globe of Blades~
 @280=~Globe of Blades
 Level: Quest
@@ -2112,6 +2125,8 @@ Known Spells:
 6� Blade Barrier, Heal
 7� Holy Word~
 
+@2281=~Deva~
+
 @283=~Summon Fallen Deva~
 @284=~Summon Fallen Deva 
 Level: Quest
@@ -2147,6 +2162,8 @@ Known Spells:
 5� Flame Strike, Greater Command, True Seeing
 6� Blade Barrier, Harm
 7� Unholy Word~
+
+@2283=~Fallen Deva~
 
 @285=~Implosion~
 @286=~Implosion

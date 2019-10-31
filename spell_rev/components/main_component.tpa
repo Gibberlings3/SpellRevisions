@@ -620,6 +620,8 @@ COPY ~spell_rev\sppr3##\skellesu.itm~     ~override~
 COPY ~spell_rev\sppr3##\skelshld.itm~     ~override~
 COPY ~spell_rev\sppr3##\spandl12.eff~     ~override~
 COPY ~spell_rev\sppr3##\skelgrsu.cre~     ~override~
+  SAY NAME1 @2071
+  SAY NAME2 @2071
 COPY ~spell_rev\sppr3##\skelgrsu.itm~     ~override~
 COPY ~spell_rev\sppr3##\spandl15.eff~     ~override~
 COPY ~spell_rev\sppr3##\skelwasu.cre~     ~override~
@@ -786,6 +788,8 @@ COPY ~spell_rev\sppr4##\sppr402.spl~     ~override~  // Animal Summoning IV (ori
   SAY NAME1 @113    SAY UNIDENTIFIED_DESC @114
 COPY ~spell_rev\sppr4##\catjagsu.eff~     ~override~
 COPY ~spell_rev\sppr4##\catjagsu.cre~     ~override~
+  SAY NAME1 @2113
+  SAY NAME2 @2113
 COPY ~spell_rev\sppr4##\catjagsu.itm~     ~override~
 COPY ~spell_rev\sppr4##\catjagsu.bcs~     ~override~
 COPY ~spell_rev\sppr4##\dvspratt.spl~     ~override~ // Spring Attack (Pounce)
@@ -846,6 +850,8 @@ COPY ~spell_rev\sppr4##\hamasu.itm~     ~override~
 COPY ~spell_rev\sppr4##\hamasu.bcs~     ~override~
 COPY ~spell_rev\sppr4##\dvnymph.eff~     ~override~
 COPY ~spell_rev\sppr4##\dvnymph.cre~     ~override~
+  SAY NAME1 @2129
+  SAY NAME2 @2129
 COPY ~spell_rev\sppr4##\dvnymph.itm~     ~override~
 COPY ~spell_rev\sppr4##\dvnymph.bcs~     ~override~
 
@@ -897,6 +903,8 @@ COPY ~spell_rev\sppr5##\sppr501.spl~     ~override~  // Animal Summoning V (orig
   SAY NAME1 @151    SAY UNIDENTIFIED_DESC @152
 COPY ~spell_rev\sppr5##\snakegsu.eff~     ~override~
 COPY ~spell_rev\sppr5##\snakegsu.cre~     ~override~
+  SAY NAME1 @2151
+  SAY NAME2 @2151
 COPY ~spell_rev\sppr5##\snakegsu.itm~     ~override~
 COPY ~spell_rev\sppr5##\sppr501a.bam~     ~override~
 COPY ~spell_rev\sppr5##\sppr501b.bam~     ~override~
@@ -1056,6 +1064,8 @@ COPY ~spell_rev\sppr5##\spja01f.eff~     ~override~
 COPY ~spell_rev\sppr6##\sppr601.spl~     ~override~  // Aerial Servant
   SAY NAME1 @191    SAY UNIDENTIFIED_DESC @192
 COPY ~spell_rev\sppr6##\servsu.cre~     ~override~
+  SAY NAME1 @191
+  SAY NAME2 @191
 COPY ~spell_rev\sppr6##\servsu.itm~     ~override~
 
 COPY ~spell_rev\sppr6##\sppr602.spl~     ~override~  // Animal Summoning VI (originally Animal Summoning III)
@@ -1169,6 +1179,8 @@ COPY ~spell_rev\sppr7##\sppr702.spl~     ~override~  // Summon Shambling Mound (
   SAY NAME1 @233    SAY UNIDENTIFIED_DESC @234
 COPY ~spell_rev\sppr7##\mound.eff~     ~override~
 COPY ~spell_rev\sppr7##\smoundsu.cre~     ~override~
+  SAY NAME1 @2233
+  SAY NAME2 @2233
 COPY ~spell_rev\sppr7##\smoundsu.itm~     ~override~
 COPY ~spell_rev\sppr7##\dvsmound.spl~     ~override~
 COPY ~spell_rev\sppr7##\dvsmound.bcs~     ~override~
@@ -1282,15 +1294,21 @@ COPY ~spell_rev\sppr7##\sppr724.spl~     ~override~  // Elemental Prince Call
   SAY NAME1 @277    SAY UNIDENTIFIED_DESC @278
 COPY ~spell_rev\sppr7##\elemchan.bcs~     ~override~
 COPY ~spell_rev\sppr7##\elemchan.cre~     ~override~
+  SAY NAME1 @2277
+  SAY NAME2 @2277
 COPY ~spell_rev\sppr7##\sumchan.eff~     ~override~
 COPY ~spell_rev\sppr7##\elemchan.itm~     ~override~
 COPY ~spell_rev\sppr7##\elemsunn.bcs~     ~override~
 COPY ~spell_rev\sppr7##\elemsunn.cre~     ~override~
+  SAY NAME1 @2278
+  SAY NAME2 @2278
 COPY ~spell_rev\sppr7##\sumsunn.eff~     ~override~
 COPY ~spell_rev\sppr7##\elemsunn.itm~     ~override~
 COPY ~spell_rev\sppr7##\dvsunnis.spl~     ~override~
 COPY ~spell_rev\sppr7##\elemzaam.bcs~     ~override~
 COPY ~spell_rev\sppr7##\elemzaam.cre~     ~override~
+  SAY NAME1 @2279
+  SAY NAME2 @2279
 COPY ~spell_rev\sppr7##\sumzaam.eff~     ~override~
 COPY ~spell_rev\sppr7##\elemzaam.itm~     ~override~
 COPY ~spell_rev\sppr7##\dvzaaman.spl~     ~override~
@@ -1303,6 +1321,8 @@ COPY ~spell_rev\sppr7##\sppr725e.spl~     ~override~
 COPY ~spell_rev\sppr7##\sppr726.spl~     ~override~  // Summon Deva
   SAY NAME1 @281    SAY UNIDENTIFIED_DESC @282
 COPY ~spell_rev\sppr7##\devagood.cre~     ~override~
+  SAY NAME1 @2281
+  SAY NAME2 @2281
 COPY ~spell_rev\sppr7##\dvdevag.bcs~     ~override~
 COPY ~spell_rev\sppr7##\dvdevaga.itm~     ~override~
 COPY ~spell_rev\sppr7##\dvdevagr.itm~     ~override~
@@ -1313,6 +1333,8 @@ COPY ~spell_rev\sppr7##\dw#devag.spl~     ~override~  // SCSII Summon Deva
 COPY ~spell_rev\sppr7##\sppr727.spl~     ~override~  // Summon Fallen Deva
   SAY NAME1 @283    SAY UNIDENTIFIED_DESC @284
 COPY ~spell_rev\sppr7##\devaevil.cre~     ~override~
+  SAY NAME1 @2283
+  SAY NAME2 @2283
 COPY ~spell_rev\sppr7##\dvdevae.bcs~     ~override~
 COPY ~spell_rev\sppr7##\dvdevaea.itm~     ~override~
 COPY ~spell_rev\sppr7##\dvdevaer.itm~     ~override~
@@ -1887,10 +1909,14 @@ COPY ~spell_rev\spwi3##\scrl1l.itm~     ~override~
   SAY NAME2 @517    SAY IDENTIFIED_DESC   @518
 COPY ~spell_rev\spwi3##\hobarcsu.eff~     ~override~
 COPY ~spell_rev\spwi3##\hobarcsu.cre~     ~override~
+  SAY NAME1 @3517
+  SAY NAME2 @3517
 COPY ~spell_rev\spwi3##\hobarcsu.itm~     ~override~
 COPY ~spell_rev\spwi3##\hobwarsu.itm~     ~override~
 COPY ~spell_rev\spwi3##\hobshasu.eff~     ~override~
 COPY ~spell_rev\spwi3##\hobshasu.cre~     ~override~
+  SAY NAME1 @3518
+  SAY NAME2 @3518
 COPY ~spell_rev\spwi3##\hobshasu.itm~     ~override~
 COPY ~spell_rev\spwi3##\dvhobsha.bcs~     ~override~
 COPY ~spell_rev\spwi3##\spwi309a.bam~     ~override~
@@ -2047,6 +2073,9 @@ COPY ~spell_rev\spwi4##\gnollsu.cre~     ~override~
 COPY ~spell_rev\spwi4##\gnollsu.itm~     ~override~
 COPY ~spell_rev\spwi4##\gnlcapsu.eff~     ~override~
 COPY ~spell_rev\spwi4##\gnlcapsu.cre~     ~override~
+  SAY NAME1 #19691
+  SAY NAME2 #19691
+
 COPY ~spell_rev\spwi4##\gnlcapsu.itm~     ~override~
 COPY_EXISTING ~spell.ids~ ~override~
   REPLACE_TEXTUALLY ~^2407[ %TAB%]+WIZARD_MONSTER_SUMMONING_2\b~ ~2407 WIZARD_MONSTER_SUMMONING_2_DEPRECATED~
@@ -2211,9 +2240,13 @@ COPY ~spell_rev\spwi5##\spwi501.spl~     ~override~  // Summon Shadow (replaces 
 COPY ~spell_rev\spwi5##\scrl2d.itm~     ~override~
   SAY NAME2 @611    SAY IDENTIFIED_DESC   @612
 COPY ~spell_rev\spwi5##\shadowsu.cre~     ~override~
+  SAY NAME1 @3611
+  SAY NAME2 @3611
 COPY ~spell_rev\spwi5##\shadowsu.eff~     ~override~
 COPY ~spell_rev\spwi5##\shadowsu.itm~     ~override~
 COPY ~spell_rev\spwi5##\dvwraith.cre~     ~override~
+  SAY NAME1 @3612
+  SAY NAME2 @3612
 COPY ~spell_rev\spwi5##\dvwraith.eff~     ~override~
 COPY ~spell_rev\spwi5##\dvwraith.itm~     ~override~
 APPEND ~spell.ids~ ~2501 WIZARD_SUMMON_SHADOW~
@@ -2343,6 +2376,8 @@ COPY ~spell_rev\spwi5##\scrl6x.itm~     ~override~
   SAY NAME2 @641    SAY IDENTIFIED_DESC   @642
 COPY ~spell_rev\spwi5##\splesfir.eff~     ~override~
 COPY ~spell_rev\spwi5##\elfirsu1.cre~     ~override~
+  SAY NAME1 @3641
+  SAY NAME2 @3641
 COPY ~spell_rev\spwi5##\elfirsu1.itm~     ~override~
 
 COPY ~spell_rev\spwi5##\spwi517.spl~     ~override~  // Protection From Acid
@@ -2370,6 +2405,8 @@ COPY ~spell_rev\spwi5##\scrl7b.itm~     ~override~
   SAY NAME2 @649    SAY IDENTIFIED_DESC   @650
 COPY ~spell_rev\spwi5##\splesair.eff~     ~override~
 COPY ~spell_rev\spwi5##\elairsu1.cre~     ~override~
+  SAY NAME1 @3649
+  SAY NAME2 @3649
 COPY ~spell_rev\spwi5##\elairsu1.itm~     ~override~
 
 COPY ~spell_rev\spwi5##\spwi521.spl~     ~override~  // Conjure Lesser Earth Elemental
@@ -2378,6 +2415,8 @@ COPY ~spell_rev\spwi5##\scrl7c.itm~     ~override~
   SAY NAME2 @651    SAY IDENTIFIED_DESC   @652
 COPY ~spell_rev\spwi5##\splesear.eff~     ~override~
 COPY ~spell_rev\spwi5##\elearsu1.cre~     ~override~
+  SAY NAME1 @3651
+  SAY NAME2 @3651
 COPY ~spell_rev\spwi5##\elearsu1.itm~     ~override~
 
 COPY ~spell_rev\spwi5##\spwi522.spl~     ~override~  // Spell Deflection (replaces Minor Spell Turning)
@@ -2549,8 +2588,12 @@ COPY ~spell_rev\spwi6##\scrl7x.itm~     ~override~
 COPY ~spell_rev\spwi6##\spfir1.eff~     ~override~
 COPY ~spell_rev\spwi6##\spfir2.eff~     ~override~
 COPY ~spell_rev\spwi6##\elfirsu2.cre~     ~override~
+  SAY NAME1 @3697
+  SAY NAME2 @3697
 COPY ~spell_rev\spwi6##\elfirsu2.itm~     ~override~
 COPY ~spell_rev\spwi6##\elfirsu3.cre~     ~override~
+  SAY NAME1 @3698
+  SAY NAME2 @3698
 COPY ~spell_rev\spwi6##\elfirsu3.itm~     ~override~
 
 COPY ~spell_rev\spwi6##\spwi621.spl~     ~override~  // Conjure Air Elemental
@@ -2560,8 +2603,12 @@ COPY ~spell_rev\spwi6##\scrl7y.itm~     ~override~
 COPY ~spell_rev\spwi6##\spair1.eff~     ~override~
 COPY ~spell_rev\spwi6##\spair2.eff~     ~override~
 COPY ~spell_rev\spwi6##\elairsu2.cre~     ~override~
+  SAY NAME1 @3699
+  SAY NAME2 @3699
 COPY ~spell_rev\spwi6##\elairsu2.itm~     ~override~
 COPY ~spell_rev\spwi6##\elairsu3.cre~     ~override~
+  SAY NAME1 @3700
+  SAY NAME2 @3700
 COPY ~spell_rev\spwi6##\elairsu3.itm~     ~override~
 
 COPY ~spell_rev\spwi6##\spwi622.spl~     ~override~  // Conjure Earth Elemental
@@ -2571,8 +2618,12 @@ COPY ~spell_rev\spwi6##\scrl7z.itm~     ~override~
 COPY ~spell_rev\spwi6##\speart1.eff~     ~override~
 COPY ~spell_rev\spwi6##\speart2.eff~     ~override~
 COPY ~spell_rev\spwi6##\elearsu2.cre~     ~override~
+  SAY NAME1 @3701
+  SAY NAME2 @3701
 COPY ~spell_rev\spwi6##\elearsu2.itm~     ~override~
 COPY ~spell_rev\spwi6##\elearsu3.cre~     ~override~
+  SAY NAME1 @3702
+  SAY NAME2 @3702
 COPY ~spell_rev\spwi6##\elearsu3.itm~     ~override~
 
 COPY ~spell_rev\spwi6##\spwi623.spl~     ~override~  // Animate Skeleton Warrior (replaces Summon Carrion)
@@ -2673,6 +2724,8 @@ COPY ~spell_rev\spwi7##\scrl8i.itm~     ~override~
 COPY ~spell_rev\spwi7##\spcaco.eff~     ~override~
 COPY ~spell_rev\spwi7##\dvdeathk.bcs~     ~override~
 COPY ~spell_rev\spwi7##\dvdeathk.cre~     ~override~
+  SAY NAME1 @3731
+  SAY NAME2 @3731
 COPY ~spell_rev\spwi7##\dvdeathk.itm~     ~override~
 APPEND ~spell.ids~ ~2707 WIZARD_SUMMON_DEATH_KNIGHT~
 
@@ -2732,6 +2785,8 @@ COPY ~spell_rev\spwi7##\spwi716.spl~     ~override~  // Mordenkainen's Sword
 COPY ~spell_rev\spwi7##\scrl8r.itm~     ~override~
   SAY NAME2 @747    SAY IDENTIFIED_DESC   @748
 COPY ~spell_rev\spwi7##\sword01.cre~     ~override~
+  SAY NAME1 @3747
+  SAY NAME2 @3747
 COPY ~spell_rev\spwi7##\spmorsw.eff~     ~override~
 COPY ~spell_rev\spwi7##\morsword.itm~     ~override~
 COPY ~spell_rev\spwi7##\dvmsword.bcs~     ~override~
@@ -2742,6 +2797,8 @@ COPY ~spell_rev\spwi7##\scrl8s.itm~     ~override~
   SAY NAME2 @749    SAY IDENTIFIED_DESC   @750
 COPY ~spell_rev\spwi7##\dvefreet.eff~     ~override~
 COPY ~spell_rev\spwi7##\dvefreet.cre~     ~override~
+  SAY NAME1 @3749
+  SAY NAME2 @3749
 COPY ~spell_rev\spwi7##\dvefreet.itm~     ~override~
 COPY ~spell_rev\spwi7##\dvefreet.bcs~     ~override~
 
@@ -2751,6 +2808,8 @@ COPY ~spell_rev\spwi7##\scrl8t.itm~     ~override~
   SAY NAME2 @751    SAY IDENTIFIED_DESC   @752
 COPY ~spell_rev\spwi7##\dvdjinni.eff~     ~override~
 COPY ~spell_rev\spwi7##\dvdjinni.cre~     ~override~
+  SAY NAME1 @3751
+  SAY NAME2 @3751
 COPY ~spell_rev\spwi7##\dvdjinni.itm~     ~override~
 COPY ~spell_rev\spwi7##\dvdjinni.bcs~     ~override~
 
@@ -2759,9 +2818,13 @@ COPY ~spell_rev\spwi7##\spwi719.spl~     ~override~  // Summon Nishruu/Hakeashar
 COPY ~spell_rev\spwi7##\scrl8u.itm~     ~override~
   SAY NAME2 @705    SAY IDENTIFIED_DESC   @706
 COPY ~spell_rev\spwi7##\nishrusu.cre~     ~override~
+  SAY NAME1 @3705
+  SAY NAME2 @3705
 COPY ~spell_rev\spwi7##\nishruu.itm~     ~override~
 COPY ~spell_rev\spwi7##\nishru01.bcs~     ~override~
 COPY ~spell_rev\spwi7##\haksu.cre~     ~override~
+  SAY NAME1 @3753
+  SAY NAME2 @3753
 COPY ~spell_rev\spwi7##\haksu.itm~     ~override~
 
 COPY ~spell_rev\spwi7##\spwi720.spl~     ~override~  // Control Undead
@@ -2791,6 +2854,8 @@ COPY ~spell_rev\spwi7##\scrl8b.itm~     ~override~  // vanilla's Summon Nishruu 
   SAY NAME2 @866    SAY IDENTIFIED_DESC @867
 COPY ~spell_rev\spwi7##\otyughsu.eff~     ~override~
 COPY ~spell_rev\spwi7##\otyughsu.cre~     ~override~
+  SAY NAME1 @3866
+  SAY NAME2 @3866
 COPY ~spell_rev\spwi7##\otyughsu.itm~     ~override~
 COPY ~spell_rev\spwi7##\dvwi724a.bam~     ~override~
 COPY ~spell_rev\spwi7##\dvwi724b.bam~     ~override~
@@ -2837,6 +2902,8 @@ COPY ~spell_rev\spwi8##\spwi807.spl~     ~override~  // Summon Fiend
 COPY ~spell_rev\spwi8##\scrl9b.itm~     ~override~
   SAY NAME2 @777    SAY IDENTIFIED_DESC   @778
 COPY ~spell_rev\spwi8##\demglasu.cre~     ~override~
+  SAY NAME1 @3777
+  SAY NAME2 @3777
 COPY ~spell_rev\spwi8##\dvglabre.bcs~     ~override~
 COPY ~spell_rev\spwi8##\demglasu.itm~     ~override~
 
@@ -2927,6 +2994,8 @@ COPY ~spell_rev\spwi8##\scrl8c.itm~     ~override~ // replaces Stone to Flesh sc
   SAY NAME2 @868   SAY IDENTIFIED_DESC   @869
 COPY ~spell_rev\spwi8##\umbhulsu.eff~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.cre~     ~override~
+  SAY NAME1 @3868
+  SAY NAME2 @3868
 COPY ~spell_rev\spwi8##\umbhulsu.itm~     ~override~
 COPY ~spell_rev\spwi8##\umbhulsu.bcs~     ~override~
 COPY ~spell_rev\spwi8##\dvwi819a.bam~     ~override~
@@ -2953,6 +3022,8 @@ COPY ~spell_rev\spwi9##\spwi905.spl~     ~override~  // Gate
 COPY ~spell_rev\spwi9##\scrl9n.itm~     ~override~
   SAY NAME2 @815    SAY IDENTIFIED_DESC   @816
 COPY ~spell_rev\spwi9##\dempitsu.cre~     ~override~
+  SAY NAME1 @3815
+  SAY NAME2 @3815
 COPY ~spell_rev\spwi9##\dempitsu.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvpitsu.bcs~     ~override~
 
@@ -3079,6 +3150,8 @@ COPY ~spell_rev\spwi9##\spwi922.spl~     ~override~  // Dragon's Breath
 COPY ~spell_rev\spwi9##\spwi923.spl~     ~override~  // Summon Planetar
   SAY NAME1 @857    SAY UNIDENTIFIED_DESC @858
 COPY ~spell_rev\spwi9##\plangood.cre~     ~override~
+  SAY NAME1 @3857
+  SAY NAME2 @3857
 COPY ~spell_rev\spwi9##\dvplang.bcs~     ~override~
 COPY ~spell_rev\spwi9##\dvplanga.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvplangr.itm~     ~override~
@@ -3089,6 +3162,8 @@ COPY ~spell_rev\spwi9##\dw#plang.spl~     ~override~  // SCSII Planetar
 COPY ~spell_rev\spwi9##\spwi924.spl~     ~override~  // Summon Dark Planetar
   SAY NAME1 @859    SAY UNIDENTIFIED_DESC @860
 COPY ~spell_rev\spwi9##\planevil.cre~     ~override~
+  SAY NAME1 @3859
+  SAY NAME2 @3859
 COPY ~spell_rev\spwi9##\dvplane.bcs~     ~override~
 COPY ~spell_rev\spwi9##\dvplanea.itm~     ~override~
 COPY ~spell_rev\spwi9##\dvplaner.itm~     ~override~
