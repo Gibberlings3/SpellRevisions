@@ -2004,6 +2004,8 @@ COPY ~spell_rev\spwi3##\spwi325.spl~     ~override~  // Melf's Minute Meteors
 COPY ~spell_rev\spwi3##\scrla5.itm~     ~override~
   SAY NAME2 @545    SAY IDENTIFIED_DESC   @546
 COPY ~spell_rev\spwi3##\melfmet.itm~     ~override~
+  SAY NAME1 @3545
+  SAY NAME2 @3545
 
 COPY ~spell_rev\spwi3##\spwi326.spl~     ~override~  // Dispel Magic
   SAY NAME1 @547    SAY UNIDENTIFIED_DESC @548
