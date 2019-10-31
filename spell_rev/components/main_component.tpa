@@ -1948,6 +1948,7 @@ COPY ~spell_rev\spwi3##\spwi313i.eff~     ~override~
 
 COPY ~spell_rev\spwi3##\spwi314.spl~     ~override~  // Vampiric Touch
   SAY NAME1 @527    SAY UNIDENTIFIED_DESC @528
+  LPF ALTER_EFFECT INT_VAR match_opcode = 206 match_parameter1 = 61914 parameter1 = RESOLVE_STR_REF(@3527) END
 COPY ~spell_rev\spwi3##\scrl1q.itm~     ~override~
   SAY NAME2 @527    SAY IDENTIFIED_DESC   @528
 COPY ~spell_rev\spwi3##\spwi314.eff~     ~override~

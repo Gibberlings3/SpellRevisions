@@ -802,6 +802,8 @@ When this spell is cast, the target loses 3 hit points for every two caster leve
 
 Note that this spell may not be cast multiple times to radically increase the caster's hit points. The caster must wait for the first Vampiric Touch spell to run its course before casting another.~
 
+@3527=~A vampiric touch spell is already active~
+
 @529=~Dire Charm~
 @530=~Dire Charm
 Level: 3
