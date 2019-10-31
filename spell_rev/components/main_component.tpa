@@ -816,6 +816,7 @@ COPY ~spell_rev\sppr4##\scrl5b.itm~     ~override~
 
 COPY ~spell_rev\sppr4##\sppr407.spl~     ~override~  // old Protection from Lightning (disabled)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
+  LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 7567 parameter1 = RESOLVE_STR_REF(@123) END
 COPY ~spell_rev\sppr4##\scrl5c.itm~     ~override~
   SAY NAME2 @123    SAY IDENTIFIED_DESC   @124
 COPY_EXISTING ~spell.ids~ ~override~
@@ -1015,6 +1016,7 @@ ADD_SPELL ~spell_rev\sppr5##\sppr521.spl~ 1 5 ~CLERIC_PROTECTION_FROM_COLD~ // P
 //ADD_SPELL: Protection from Electricity
 ADD_SPELL ~spell_rev\sppr5##\sppr522.spl~ 1 5 ~CLERIC_PROTECTION_FROM_LIGHTNING~ // Protection from Electricity (moved from lvl 4)
   SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
+  LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 7567 parameter1 = RESOLVE_STR_REF(@123) END
 
 //ADD_SPELL: Protection from Fire
 ADD_SPELL ~spell_rev\sppr5##\sppr523.spl~ 1 5 ~CLERIC_PROTECTION_FROM_FIRE~ // Protection from Fire (moved from lvl 3)
@@ -2316,6 +2318,7 @@ COPY ~spell_rev\spwi5##\scrl6t.itm~     ~override~
 
 COPY ~spell_rev\spwi5##\spwi512.spl~     ~override~  // Protection from Electricity
   SAY NAME1 @633    SAY UNIDENTIFIED_DESC @634
+  LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 7567 parameter1 = RESOLVE_STR_REF(@633) END
 COPY ~spell_rev\spwi5##\scrl5t.itm~     ~override~
   SAY NAME2 @633    SAY IDENTIFIED_DESC   @634
 
