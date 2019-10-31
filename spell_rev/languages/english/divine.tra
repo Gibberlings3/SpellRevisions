@@ -738,6 +738,17 @@ Saving Throw: None
 
 This spell surrounds the caster with an invisible curtain of stormy winds that moves with him. The wind wall grants the caster +4 bonus to saves vs. breath and AC against missiles for the duration of the spell. Non-magical missile weapons are deflected away, while gases cannot penetrate the barrier. Tiny and small flying creatures cannot pass through.~
 
+@1111=~Rigid Thinking
+Level: 3
+School: Enchantment
+Sphere: Law
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 1 person or mammal
+Saving Throw: Spell negates
+
+The target of this spell must make a saving throw vs. spell or come under its effects. When under the effects of the Rigid Thinking spell, the victim will randomly wander, attack the nearest person, or stand confused.~
 
 /*------------------level 4------------------*/
 
@@ -899,8 +910,8 @@ Special Qualities:
 Magic Resistance 75%
 
 Special Abilities:
-1° Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2° Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 
 Nymph (7 Hit Dice):
 STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Neutral Good
@@ -911,10 +922,10 @@ Special Qualities:
 Magic Resistance 50%
 
 Spell Memorized:
-1° Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2° Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
-3° Call Lightning, Hold Person or Animal, Summon Insects
-4° Animal Summoning IV~
+1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+3ï¿½ Call Lightning, Hold Person or Animal, Summon Insects
+4ï¿½ Animal Summoning IV~
 
 @131=~Poison~
 @132=~Poison
@@ -2093,13 +2104,13 @@ Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Known Spells:
-1° Bless (x3), Resist Fear (x3)
-2° Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3° Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4° Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
-5° Mass Cure, Raise Dead, True Seeing
-6° Blade Barrier, Heal
-7° Holy Word~
+1ï¿½ Bless (x3), Resist Fear (x3)
+2ï¿½ Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3ï¿½ Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4ï¿½ Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
+5ï¿½ Mass Cure, Raise Dead, True Seeing
+6ï¿½ Blade Barrier, Heal
+7ï¿½ Holy Word~
 
 @283=~Summon Fallen Deva~
 @284=~Summon Fallen Deva 
@@ -2129,13 +2140,13 @@ Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Known Spells:
-1° Doom (x3), Resist Fear (x3)
-2° Hold Person (x3), Find Trap, Know Opponent, Silence
-3° Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4° Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
-5° Flame Strike, Greater Command, True Seeing
-6° Blade Barrier, Harm
-7° Unholy Word~
+1ï¿½ Doom (x3), Resist Fear (x3)
+2ï¿½ Hold Person (x3), Find Trap, Know Opponent, Silence
+3ï¿½ Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4ï¿½ Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
+5ï¿½ Flame Strike, Greater Command, True Seeing
+6ï¿½ Blade Barrier, Harm
+7ï¿½ Unholy Word~
 
 @285=~Implosion~
 @286=~Implosion

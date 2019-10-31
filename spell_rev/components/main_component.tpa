@@ -659,6 +659,11 @@ COPY ~spell_rev\sppr3##\sppr310.spl~     ~override~  // Miscast Magic
 COPY ~spell_rev\sppr3##\sppr310a.spl~     ~override~
 COPY ~spell_rev\sppr3##\sppr310b.spl~     ~override~
 
+ACTION_IF (TRA_ENTRY_EXISTS (~1111~ ~spell_rev\languages\%LANGUAGE%\divine.tra~)) BEGIN
+  COPY_EXISTING ~sppr311.spl~ ~override~ // Rigid Thinking
+    SAY UNIDENTIFIED_DESC @1111
+END
+
 ADD_PROJECTILE ~spell_rev\projectles\dvstrone.pro~
 COPY ~spell_rev\sppr3##\sppr312.spl~     ~override~  // Strength of One
   SAY NAME1 @93    SAY UNIDENTIFIED_DESC @94
