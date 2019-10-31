@@ -1102,6 +1102,8 @@ Saving Throw: None
 
 The spell allows the caster to adversely affect the saving throws of his enemies. The effect is applied to all hostile creatures within the area of effect. Those under the influence of this spell make all their saving throws at a penalty of -2, and take an extra point of spell damage for each die rolled. Multiple castings of this spell are not cumulative.~
 
+@3583=~Saving Throws Lowered~
+
 @585=~Otiluke's Resilient Sphere~
 @586=~Otiluke's Resilient Sphere
 Level: 4

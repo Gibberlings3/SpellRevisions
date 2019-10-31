@@ -2103,6 +2103,7 @@ COPY ~spell_rev\spwi4##\scrl5h.itm~     ~override~
 
 COPY ~spell_rev\spwi4##\spwi412.spl~     ~override~  // Greater Malison
   SAY NAME1 @583    SAY UNIDENTIFIED_DESC @584
+  LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 44916 parameter1 = RESOLVE_STR_REF(@3583) END
 COPY ~spell_rev\spwi4##\scrl5i.itm~     ~override~
   SAY NAME2 @583    SAY IDENTIFIED_DESC   @584
 
