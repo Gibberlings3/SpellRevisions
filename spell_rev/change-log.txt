@@ -46,6 +46,7 @@ V4 - Beta 17 - updated by Mike1072
 - Prevent multiple copies of Resist Elements in IWDEE
 - Fall back to English for any untranslated strings
 - Fix bug preventing rabbit familiar from disarming traps
+- Fix strrefs for familiar names on BGEE and IWDEE
 
 V4 - Beta 16 (25 October 2018) - updated by subtledoctor, Bartimaeus, and Mad Mate
 - Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on

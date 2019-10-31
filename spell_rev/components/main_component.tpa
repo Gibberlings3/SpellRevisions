@@ -1510,81 +1510,113 @@ COPY ~spell_rev\spwi1##\famcat.cre~     ~override~
   SAY NAME1 @1042
   SAY NAME2 @1042
 COPY ~spell_rev\spwi1##\famcat.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1008
 COPY ~spell_rev\spwi1##\famcat25.cre~     ~override~
   SAY NAME1 @1042
   SAY NAME2 @1042
 COPY ~spell_rev\spwi1##\famcat25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1009
 COPY ~spell_rev\spwi1##\famdust.cre~     ~override~
   SAY NAME1 @1043
   SAY NAME2 @1043
 COPY ~spell_rev\spwi1##\famdust.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1010
 COPY ~spell_rev\spwi1##\famdus25.cre~     ~override~
   SAY NAME1 @1043
   SAY NAME2 @1043
 COPY ~spell_rev\spwi1##\famdus25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1011
 COPY ~spell_rev\spwi1##\famfair.cre~     ~override~
   SAY NAME1 @1044
   SAY NAME2 @1044
 COPY ~spell_rev\spwi1##\famfair.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1012
 COPY ~spell_rev\spwi1##\famfai25.cre~     ~override~
   SAY NAME1 @1044
   SAY NAME2 @1044
 COPY ~spell_rev\spwi1##\famfai25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1013
 COPY ~spell_rev\spwi1##\famfer.cre~     ~override~
   SAY NAME1 @1045
   SAY NAME2 @1045
 COPY ~spell_rev\spwi1##\famfer.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1014
 COPY ~spell_rev\spwi1##\famfer25.cre~     ~override~
   SAY NAME1 @1045
   SAY NAME2 @1045
 COPY ~spell_rev\spwi1##\famfer25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1015
 COPY ~spell_rev\spwi1##\famimp.cre~     ~override~
   SAY NAME1 @1046
   SAY NAME2 @1046
 COPY ~spell_rev\spwi1##\famimp.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1016
 COPY ~spell_rev\spwi1##\famimp25.cre~     ~override~
   SAY NAME1 @1046
   SAY NAME2 @1046
 COPY ~spell_rev\spwi1##\famimp25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1017
 COPY ~spell_rev\spwi1##\fampsd.cre~     ~override~
   SAY NAME1 @1047
   SAY NAME2 @1047
 COPY ~spell_rev\spwi1##\fampsd.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1018
 COPY ~spell_rev\spwi1##\fampsd25.cre~     ~override~
   SAY NAME1 @1047
   SAY NAME2 @1047
 COPY ~spell_rev\spwi1##\fampsd25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1019
 COPY ~spell_rev\spwi1##\famquas.cre~     ~override~
   SAY NAME1 @1048
   SAY NAME2 @1048
 COPY ~spell_rev\spwi1##\famquas.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1020
 COPY ~spell_rev\spwi1##\famqua25.cre~     ~override~
   SAY NAME1 @1048
   SAY NAME2 @1048
 COPY ~spell_rev\spwi1##\famqua25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1021
 COPY ~spell_rev\spwi1##\famrab.cre~     ~override~
   SAY NAME1 @1049
   SAY NAME2 @1049
 COPY ~spell_rev\spwi1##\famrab.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1022
 COPY ~spell_rev\spwi1##\famrab25.cre~     ~override~
   SAY NAME1 @1049
   SAY NAME2 @1049
 COPY ~spell_rev\spwi1##\famrab25.itm~     ~override~
+  SAY NAME1 @1025
+  SAY NAME2 @1025
   SAY UNIDENTIFIED_DESC @1023
 COPY ~spell_rev\spwi1##\impclaw.itm~     ~override~
 COPY ~spell_rev\spwi1##\mepfir.itm~     ~override~
