@@ -6,7 +6,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Spell Revisions"
-set mod_version=v4-beta16
+set mod_version=v4-beta17
 set mod_folder=spell_rev
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
