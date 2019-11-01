@@ -663,7 +663,7 @@ School: Alteration
 Range: Medium
 Duration: 1 turn + 1 round/level
 Casting Time: 3
-Area of Effect: 1 creature
+Area of Effect: 20' radius
 Saving Throw: None
 
 When this spell is cast, the affected creatures gain +6 to movement rate and can make an extra half attack each round. Spellcasting and spell effects are not affected. Haste negates and counters the effects of a Slow spell. When the spell ends, affected creatures become winded for 3 rounds. While winded they receive penalties of -2 to hit, damage, and armor class. This spell is not cumulative with itself or with other similar magic.~
@@ -734,8 +734,11 @@ HP 36, AC 5, THAC0 16, Saving Throws 9/13/12/15/14
 1 Attack Per Round, 1d8+1 Slashing Damage (Long Sword +1)
 
 Memorized Spells:
-1° Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
-2° Chant, Hold Person, Silence~
+1º Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
+2º Chant, Hold Person, Silence~
+
+@3517=~Hobgoblin Archer~
+@3518=~Hobgoblin Shaman~
 
 @519=~Non-Detection~
 @520=~Non-Detection
@@ -798,6 +801,8 @@ Saving Throw: None
 When this spell is cast, the target loses 3 hit points for every two caster levels, to a maximum drain of 30 for a 20th level caster. These hit points are added to the caster's current hit points, with any hit points over the caster's normal maximum treated as temporary additional hit points. The temporary hit points last for 5 turns.
 
 Note that this spell may not be cast multiple times to radically increase the caster's hit points. The caster must wait for the first Vampiric Touch spell to run its course before casting another.~
+
+@3527=~A vampiric touch spell is already active~
 
 @529=~Dire Charm~
 @530=~Dire Charm
@@ -920,6 +925,8 @@ Area of Effect: Special
 Saving Throw: None
 
 This spell enables the wizard to summon small globes of fire (one for each level of experience of the caster), which, when thrown, burst upon impact and inflict 1d4 points of piercing damage plus 2d4 points of fire damage to the creature struck. The wizard gains a +5 bonus to hit with the missiles, and each meteor is considered to be of +2 enchantment to determine what it can hit. The wizard may discharge up to five missiles per round.~
+
+@3545=~Melf's Minute Meteor~
 
 @547=~Dispel Magic~
 @548=~Dispel Magic
@@ -1098,6 +1105,8 @@ Area of Effect: 30' radius
 Saving Throw: None
 
 The spell allows the caster to adversely affect the saving throws of his enemies. The effect is applied to all hostile creatures within the area of effect. Those under the influence of this spell make all their saving throws at a penalty of -2, and take an extra point of spell damage for each die rolled. Multiple castings of this spell are not cumulative.~
+
+@3583=~Saving Throws Lowered~
 
 @585=~Otiluke's Resilient Sphere~
 @586=~Otiluke's Resilient Sphere
@@ -1343,12 +1352,15 @@ HP 60, AC 4, THAC0 12, Saving Throws 10/13/10/13/13
 1 Attack Per Round, 1d8+1 Cold Damage (Touch +1)
 
 Combat Abilities:
-Life Drain: each successeful hit raises wraith hit points by 5 for 1 turn, and the target must save vs. death or lose 1 level
+Life Drain: each successful hit raises the wraith's hit points by 5 for 1 turn and causes the target to save vs. death or lose 1 level
 
 Special Qualities:
 Immune to normal weapons
 Immune to backstab, blindness, charm, confusion, hold, poison, sleep, stun, & death effects
 Cold Resistance 100%; Physical Damage Resistance 50%~
+
+@3611=~Shadow~
+@3612=~Wraith~
 
 @613=~Cloudkill~
 @614=~Cloudkill
@@ -1407,9 +1419,9 @@ Invisibility (at will)
 Regeneration: 1 hp/round
 
 Memorized Spells:
-1° Obscuring Mist, Magic Missile (x2), Shield
-2° Horror, Mirror Image
-3° Dire Charm, Slow~
+1º Obscuring Mist, Magic Missile (x2), Shield
+2º Horror, Mirror Image
+3º Dire Charm, Slow~
 
 @619=~Shadow Door~
 @620=~Shadow Door
@@ -1459,7 +1471,7 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
-Surges of negative energy render all hostile living creatures in the spell’s area fatigued, as if they haven't rested in a day. Multiple castings of this spell are cumulative.~
+Surges of negative energy render all hostile living creatures in the spell's area fatigued, as if they haven't rested in a day. Multiple castings of this spell are cumulative.~
 
 @627=~Feeblemind~
 @628=~Feeblemind
@@ -1576,6 +1588,8 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
+@3641=~Lesser Fire Elemental~
+
 @643=~Protection from Acid~
 @644=~Protection from Acid
 Level: 5
@@ -1636,6 +1650,8 @@ Immune to normal weapons
 Immune to hold, poison, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
+@3649=~Lesser Air Elemental~
+
 @651=~Conjure Lesser Earth Elemental~
 @652=~Conjure Lesser Earth Elemental
 Level: 5
@@ -1657,6 +1673,8 @@ Special Qualities:
 Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
+
+@3651=~Lesser Earth Elemental~
 
 @653=~Spell Deflection~
 @654=~Spell Deflection
@@ -1974,6 +1992,9 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
+@3697=~Fire Elemental~
+@3698=~Greater Fire Elemental~
+
 @699=~Conjure Air Elemental~
 @700=~Conjure Air Elemental
 Level: 6
@@ -2001,6 +2022,9 @@ Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
+@3699=~Air Elemental~
+@3700=~Greater Air Elemental~
+
 @701=~Conjure Earth Elemental~
 @702=~Conjure Earth Elemental
 Level: 6
@@ -2027,6 +2051,9 @@ Special Qualities (12 & 16 Hit Dice):
 Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
+
+@3701=~Earth Elemental~
+@3702=~Greater Earth Elemental~
 
 @703=~Animate Skeleton Warrior~
 @704=~Animate Skeleton Warrior
@@ -2076,6 +2103,8 @@ Drain Magic:
 Special Qualities:
 Absorb Magic: immune to magic, every spell cast against a Nishruu heals the creature by 1d8+1 hit points
 Physical Resistance 50%~
+
+@3705=~Nishruu~
 
 @707=~Stone to Flesh~
 @708=~Stone to Flesh
@@ -2188,6 +2217,8 @@ Unholy Fireball (once per day)
 Power Words: Blind, Stun, or Kill (once per day each)
 Symbols: of Weakness or Death (once per day each)~
 
+@3731=~Death Knight~
+
 @733=~Prismatic Mantle~
 @734=~Prismatic Mantle
 Level: 7
@@ -2292,6 +2323,8 @@ Saving Throw: None
 
 Upon casting this spell, the wizard brings into being a shimmering, swordlike plane of force. Once the spell is cast, the sword will float in the air completely under the control of the caster, until the spell duration expires or the sword is dispelled. The sword acts as a +4 weapon in all respects and attacks on its own once each round, inflicting 5d4 damage when it hits a target. It has 100% resistance to almost all forms of dmage (acid, cold, fire, electricity, poison, etc.), and 95% resistance to physical damage, but it's vulnerable to pure magic damage. The sword is immune to mind affecting spells, has 36 hit points, AC 5, and THAC0 2. Note that this spell does not prevent the caster from performing any other actions while the spell is in effect.~
 
+@3747=~Magical Sword~
+
 @749=~Summon Efreeti~
 @750=~Summon Efreeti
 Level: 7
@@ -2312,12 +2345,14 @@ HP 98, AC 1, THAC0 5, Saving Throws 8/11/8/11/11
 Special Qualities:
 Fire Resistance 100%
 
-Spell Memorized:
-1° Burning Hands, Magic Missile (x2), Shield
-2° Agannazar's Scorcher, Invisibility (x2)
-3° Fireball (x3)
-4° Fire Shield (x2)
-5° Conjure Lesser Fire Elemental~
+Memorized Spells:
+1º Burning Hands, Magic Missile (x2), Shield
+2º Agannazar's Scorcher, Invisibility (x2)
+3º Fireball (x3)
+4º Fire Shield (x2)
+5º Conjure Lesser Fire Elemental~
+
+@3749=~Efreeti~
 
 @751=~Summon Djinni~
 @752=~Summon Djinni
@@ -2336,12 +2371,14 @@ STR 17, DEX 19, CON 15, INT 14, WIS 14, CHA 15; AL Chaotic Good
 HP 89, AC 0, THAC0 7, Saving Throws 11/7/11/7/7
 3 Attacks Per Round, 1d8+5 Slashing Damage (Scimitar +2)
 
-Spell Memorized:
-1° Magic Missile (x3), Shield
-2° Invisibility (x2), Mirror Image
-3° Haste, Lightning Bolt (x2)
-4° Improved Invisibility, Minor Globe of Invulnerability
-5° Conjure Lesser Air Elemental~
+Memorized Spells:
+1º Magic Missile (x3), Shield
+2º Invisibility (x2), Mirror Image
+3º Haste, Lightning Bolt (x2)
+4º Improved Invisibility, Minor Globe of Invulnerability
+5º Conjure Lesser Air Elemental~
+
+@3751=~Djinni~
 
 @753=~Summon Hakeashar~
 @754=~Summon Hakeashar
@@ -2369,6 +2406,8 @@ Special Qualities:
 Absorb Magic: immune to magic, every spell cast against a Hakeashar heals the creature by 1d8+1 hit points
 Immune to normal weapons
 Physical Resistance 50%~
+
+@3753=~Hakeashar~
 
 @755=~Control Undead~
 @756=~Control Undead
@@ -2517,6 +2556,8 @@ Dispel Magic (once every 5 rounds)
 Unholy Blight (once every 5 rounds)
 Confusion (once every 5 rounds)
 Power Word Stun (once every 5 rounds)~
+
+@3777=~Glabrezu~
 
 @779=~Moment of Prescience~
 @780=~Moment of Prescience
@@ -2714,6 +2755,8 @@ Dispel Magic (once every 5 rounds)
 Symbol of Weakness (once every 5 rounds)
 Unholy Word (once per day)
 Meteor Swarm (once per day)~
+
+@3815=~Pit Fiend~
 
 @817=~Absolute Immunity~
 @818=~Absolute Immunity
@@ -2970,14 +3013,16 @@ Regeneration: 2hp/round
 Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
-Known Spells:
-1° Bless (x3), Resist Fear (x3)
-2° Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3° Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4° Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
-5° Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
-6° Blade Barrier, Bolt of Glory, Heal
-7° Greater Restoration, Holy Word~
+Memorized Spells:
+1º Bless (x3), Resist Fear (x3)
+2º Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3º Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4º Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
+5º Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
+6º Blade Barrier, Bolt of Glory, Heal
+7º Greater Restoration, Holy Word~
+
+@3857=~Planetar~
 
 @859=~Summon Dark Planetar~
 @860=~Summon Dark Planetar
@@ -3005,14 +3050,16 @@ Regeneration: 2hp/round
 Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
-Known Spells:
-1° Doom (x3), Resist Fear (x3)
-2° Hold Person (x3), Find Trap, Know Opponent, Silence
-3° Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4° Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
-5° Flame Strike (x2), Greater Command (x2), True Seeing (x2)
-6° Blade Barrier, Dolorous Decay, Harm
-7° Fire Storm, Unholy Word~
+Memorized Spells:
+1º Doom (x3), Resist Fear (x3)
+2º Hold Person (x3), Find Trap, Know Opponent, Silence
+3º Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4º Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
+5º Flame Strike (x2), Greater Command (x2), True Seeing (x2)
+6º Blade Barrier, Dolorous Decay, Harm
+7º Fire Storm, Unholy Word~
+
+@3859=~Fallen Planetar~
 
 @861=~Comet~
 @862=~Comet
@@ -3074,6 +3121,8 @@ Special Qualities:
 Immune to disease effects
 Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 
+@3866=~Otyugh~
+
 @868=~Monster Summoning VIII~
 @869=~Monster Summoning VIII
 Level: 8
@@ -3099,6 +3148,8 @@ Confusing Gaze
 
 Special Qualities:
 Immune to confusion effects~
+
+@3868=~Umber Hulk~
 
 @870=~Monster Summoning IX~
 @871=~Monster Summoning IX
@@ -3145,9 +3196,9 @@ Range: Short
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
-Saving Throw: Paralisys partial 
+Saving Throw: Paralyzation partial
 
-When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three rounds.~
+When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6 points of damage. The target must make a save vs. paralyzation or be held for three rounds.~
 
 @877=~Vitriolic Sphere~
 @878=~Vitriolic Sphere
@@ -3157,9 +3208,9 @@ Range: Medium
 Duration: Special
 Casting Time: 3
 Area of Effect: Target, and anyone within 10'
-Saving Throw: Breath half 
+Saving Throw: Breath half
 
-When this spell is cast, a glowing orb of emerald acid streaks to the target and explodes in a 10-foot radius. Each creature in that area must make a save vs. breath. On a failed save, a creature takes 10d4 acid damage and 4d4 acid damage at the end of its next 2 rounds. On a successful save, a creature takes half the initial damage and half damage at the end of each round.~
+When this spell is cast, a glowing orb of emerald acid streaks to the target and explodes in a 10-foot radius. Each creature in the area must make a save vs. breath. On a failed save, a creature takes 10d4 acid damage and 4d4 acid damage at the end of its next 2 rounds. On a successful save, a creature takes half the initial damage and half damage at the end of each round.~
 
 @879=~~
 
@@ -3476,7 +3527,9 @@ Special Abilities:
   Hide in Shadows/Move Silently: 60%
   Find/Disarm Traps: 80%
   Detect Illusions: 50%~
-  
+
+@1025=~Familiar~
+
 @21000=~Dispelling Screen Dissipates~
 @21001=~Dispelling Screen Activated~
 @21002=~Insects Dispersed~

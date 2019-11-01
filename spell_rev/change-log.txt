@@ -33,7 +33,7 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
-V4 - Beta 17 - updated by Mike1072
+V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
 - Assign IDS aliases for all spell replacements (thanks DavidW and Grammarsalad)
 - Add scroll BAM for arcane Resist Elements (thanks Grammarsalad)
@@ -45,6 +45,20 @@ V4 - Beta 17 - updated by Mike1072
 - Prevent multiple copies of Protection from Lightning in IWDEE
 - Prevent multiple copies of Resist Elements in IWDEE
 - Fall back to English for any untranslated strings
+- Fix bug preventing rabbit familiar from disarming traps
+- Fix strrefs for familiar names on BGEE and IWDEE
+- Fix strrefs for Protection from Lightning spell effects on BGEE
+- Fix strrefs for summoned creatures on BGEE and IWDEE
+- Fix strrefs for Greater Malison spell effects on BGEE and IWDEE
+- Fix strref for Melf's Minute Meteor item on BGEE
+- Fix strrefs for Vampiric Touch spell effects on BGEE and IWDEE
+- Fix spellbook-updating code not being executed
+- Fix area of effect listed in Haste description
+- Fix Holy Smite's blindness duration
+- Fix inconsistency in summoned fiends' initial alignments
+- Fix number of skeletons summoned by Animate Dead at level 6
+- Make removing disabled spells part of the main component
+- Fix typos and formatting issues in descriptions
 
 V4 - Beta 16 (25 October 2018) - updated by subtledoctor, Bartimaeus, and Mad Mate
 - Aura of Flaming Death no longer says it's been cast every time someone hits you while it's on
