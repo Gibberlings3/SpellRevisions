@@ -33,7 +33,7 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
-V4 - Beta 17 - updated by Mike1072
+V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
 - Assign IDS aliases for all spell replacements (thanks DavidW and Grammarsalad)
 - Add scroll BAM for arcane Resist Elements (thanks Grammarsalad)
