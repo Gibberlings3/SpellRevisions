@@ -4,3 +4,29 @@
 $primary: hsl(171, 100%, 41%);
 
 @import "main";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+// fix vertical padding between columns when specifying column gap
+.columns.is-variable .column {
+  padding: var(--columnGap);
+}
+
+// left-align spell icon and name
+.spell {
+  justify-content: flex-start;
+}
+
+// center class filter buttons on desktop
+.class-filter, .class-filter .navbar-item
+{
+  display: block;
+}

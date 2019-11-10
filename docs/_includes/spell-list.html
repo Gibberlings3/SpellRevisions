@@ -1,0 +1,17 @@
+<div class="header-container">
+  <a class="toc-target" id="{{ include.header_id }}"></a>
+  <h2 id="{{ include.header_id }}">{{ include.header }}</h2>
+</div>
+<div class="columns is-multiline is-variable is-1-mobile is-2-tablet">
+  {% for spell in include.spells %}
+    <div class="column is-half-tablet is-one-third-widescreen">
+      <a class="spell button is-rounded is-size-6 is-primary is-fullwidth" href="{{ spell.url }}"
+        data-url="{{ spell.url }}" data-highlighted-classes="{{ spell.highlighted_classes }}" data-prohibited-classes="{{ spell.prohibited_classes }}">
+        <span class="icon">
+          <img src="{{ site.baseurl}}/assets/img/icons/{{ spell.icon }}.gif" alt="{{ spell.name }} icon" />
+        </span>
+        <span>{{ spell.name }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>

@@ -8,32 +8,40 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+
+  <body 
+    {% if page.has_bottom_navbar %}
+        class="has-navbar-fixed-top has-navbar-fixed-bottom"
+    {% else %}
+        class="has-navbar-fixed-top"
+    {% endif %}>
     {% include header.html %}
-    {% unless page.hide_hero %}
-        {% include hero.html %}
-    {% endunless %}
-    {% include callouts.html %}
-    <section class="section">
-        <div class="container">
-            <div class="columns">
-                {% if page.menubar %}
-                <div class="column is-4-desktop is-4-tablet">
-                    {% include menubar.html %}
+    <main>
+        {% unless page.hide_hero %}
+            {% include hero.html %}
+        {% endunless %}
+        {% include callouts.html %}
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    {% if page.menubar %}
+                    <div class="column is-4-desktop is-4-tablet">
+                        {% include menubar.html %}
+                    </div>
+                    {% endif %}
+                    <div class="column {{ content_width }}">
+                        {% include tabs.html %}
+                        {{ content }}
+                    </div>
+                    {% if site.posts and page.show_sidebar %}
+                    <div class="column is-4-desktop is-12-tablet">
+                        {% include latest-posts.html %}
+                    </div>
+                    {% endif %}
                 </div>
-                {% endif %}
-                <div class="column {{ content_width }}">
-                    {% include tabs.html %}
-                    {{ content }}
-                </div>
-                {% if site.posts and page.show_sidebar %}
-                <div class="column is-4-desktop is-12-tablet">
-                    {% include latest-posts.html %}
-                </div>
-                {% endif %}
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     {% unless page.hide_footer %}
         {% include footer.html %}
     {% endunless %}
@@ -41,4 +49,3 @@
     {%- include footer-scripts.html -%}
   </body>
 </html>
-

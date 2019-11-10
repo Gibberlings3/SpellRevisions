@@ -1,3 +1,20 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 
+#baseurl: '/'
+
 title: 'Spell Revisions'
+version: 'v4b17'
+
+collections_dir: collections
+collections:
+  spells:
+    output: true
+    permalink: /:collection/:path
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "spells"
+    values:
+      layout: "spell"
