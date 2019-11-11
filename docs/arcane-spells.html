@@ -1,0 +1,31 @@
+---
+title: Arcane Spells
+permalink: /spells/arcane/
+layout: spell-list
+toc: true
+has_bottom_navbar: true
+---
+
+<nav class="class-filter navbar is-fixed-bottom">
+  <div class="navbar-item">
+    <div class="buttons are-small is-centered">
+      <button class="button is-danger is-selected" data-class="" onclick="changeSelectedClass('')">All</button>
+      {% for class in site.data.arcane-classes %}
+        <button class="button" data-class="{{ class.value }}" onclick="changeSelectedClass(this.dataset.class)">{{ class.name }}</button>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+
+{% assign levels = site.spells | where: "type","Arcane" | where_exp: "spell","spell.level" | sort: "level" | group_by: "level" %}
+{% for level in levels %}
+  {% capture header %}
+    Level {{ level.name }}
+  {% endcapture %}
+  {% assign header_id = header | slugify %}
+  {% assign spells = level.items | sort: "name" %}
+  {% include spell-list.html header=header header_id=header_id spells=spells %}
+{% endfor %}
+
+{% assign hlas = site.spells | where: "type","Arcane" | where_exp: "spell","spell.hla" | sort: "name" %}
+{% include spell-list.html header='High-Level Ability' header_id='hla' spells=hlas %}

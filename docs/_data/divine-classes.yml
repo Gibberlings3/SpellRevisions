@@ -1,0 +1,6 @@
+- name: Cleric/Paladin
+  value: Cleric
+- name: Druid/Ranger
+  value: Druid
+- name: Shaman
+  value: Shaman

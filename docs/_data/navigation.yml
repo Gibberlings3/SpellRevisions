@@ -1,0 +1,9 @@
+- name: Changes
+  link: /changes
+- name: Spell Lists
+  link: /spells
+  dropdown:
+    - name: Arcane
+      link: /spells/arcane
+    - name: Divine
+      link: /spells/divine

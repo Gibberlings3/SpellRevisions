@@ -1,0 +1,20 @@
+- name: Generalist
+  value: Generalist
+- name: Abjurer
+  value: Abjurer
+- name: Conjurer
+  value: Conjurer
+- name: Diviner
+  value: Diviner
+- name: Enchanter
+  value: Enchanter
+- name: Illusionist
+  value: Illusionist
+- name: Invoker
+  value: Invoker
+- name: Necromancer
+  value: Necromancer
+- name: Transmuter
+  value: Transmuter
+- name: Wild Mage
+  value: Wild Mage

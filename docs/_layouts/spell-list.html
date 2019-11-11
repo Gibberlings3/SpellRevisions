@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="content">
+    {{ content }}
+</div>
+
+<script>
+    function changeSelectedClass(newClass) {
+        $(".spell").removeClass("is-info").addClass("is-primary").attr("disabled", false).each(function() {
+            $(this).prop("href", this.dataset.url);
+        });
+        $(".spell[data-highlighted-classes*='" + newClass + "']").removeClass("is-primary").addClass("is-info");
+        $(".spell[data-prohibited-classes*='" + newClass + "']").attr("disabled", true).each(function() {
+            $(this).removeAttr("href");
+        });
+        $(".class-filter button").removeClass("is-danger is-selected");
+        $(".class-filter button[data-class='" + newClass + "']").addClass("is-danger is-selected");
+    }
+</script>

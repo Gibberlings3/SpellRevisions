@@ -1,0 +1,11 @@
+- label: Documentation
+  items:
+    - name: Changes
+      link: /changes
+    - name: Spell Lists
+      link: /spells
+      items:
+        - name: Arcane
+          link: /spells/arcane
+        - name: Divine
+          link: /spells/divine

@@ -1,0 +1,21 @@
+<footer class="footer">
+    <div class="container">
+        
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="content is-small has-text-centered">
+            <p>Built using the <a href="https://bulma.io/">Bulma</a> CSS Framework and <a href="https://github.com/chrisrhymes/bulma-clean-theme">bulma-clean-theme</a> for Jekyll, both released under the MIT license.</p>
+            <p>Last updated for SR{{ site.version }}.</p>
+        </div>
+    </div>
+</footer>
