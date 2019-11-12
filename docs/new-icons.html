@@ -16,7 +16,7 @@ layout: default
         </tr>
       </thead>
       <tbody>
-        {% assign new_spells = site.data.new-spells-icons %}
+        {% assign new_spells = site.data.new-icons %}
         {% for new_spell in new_spells %}
           {% assign matching_spell = site.spells | where: "identifier", new_spell.id %}
           {% for spell in matching_spell %}
@@ -33,20 +33,20 @@ layout: default
               <td>
                 <span class="icon is-medium">
                   <a href="{{ spell.icon | append: 'c.bam' | downcase | prepend: folder_url }}">
-                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'c.png' }}" alt="{{ spell.name }} spellbook icon" />
+                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | upcase | append: 'C.png' }}" alt="{{ spell.name }} spellbook icon" />
                   </a>
                 </span>
                 <span class="icon is-medium">
                   <a href="{{ spell.icon | append: 'b.bam' | downcase | prepend: folder_url }}">
-                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'b.png' }}" alt="{{ spell.name }} stone icon" />
+                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | upcase | append: 'B.png' }}" alt="{{ spell.name }} stone icon" />
                   </a>
                 </span>
-                {% assign filename = spell.icon | append: 'a' | upcase %}
+                {% assign filename = spell.icon | append: 'A' | upcase %}
                 {% assign matching_icon = site.static_files | where_exp: "file", "file.basename == filename" %}
                 {% for icon in matching_icon %}
                   <span class="icon is-medium">
                     <a href="{{ spell.icon | append: 'a.bam' | downcase | prepend: folder_url }}">
-                      <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'a.png' }}" alt="{{ spell.name }} scroll icon" />
+                      <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | upcase | append: 'A.png' }}" alt="{{ spell.name }} scroll icon" />
                     </a>
                   </span>
                 {% else %}
