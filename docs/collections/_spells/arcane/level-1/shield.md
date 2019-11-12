@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi114c
+icon: spwi114
 identifier: WIZARD_SHIELD
 ---
 Shield  

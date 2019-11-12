@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi210c
+icon: spwi210
 identifier: WIZARD_RESIST_FEAR
 ---
 Resist Fear  

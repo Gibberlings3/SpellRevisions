@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi702c
+icon: spwi702
 identifier: WIZARD_PROTECTION_FROM_THE_ELEMENTS
 ---
 Protection from the Elements  

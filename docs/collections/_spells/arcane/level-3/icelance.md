@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: dvwi327c
+icon: dvwi327
 identifier: WIZARD_ICELANCE
 ---
 Icelance  

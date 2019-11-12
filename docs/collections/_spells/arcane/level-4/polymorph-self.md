@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi416c
+icon: spwi416
 identifier: WIZARD_POLYMORPH_SELF
 ---
 Polymorph Self  

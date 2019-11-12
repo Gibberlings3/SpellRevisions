@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr728c
+icon: sppr728
 identifier: CLERIC_IMPLOSION
 ---
 Implosion  

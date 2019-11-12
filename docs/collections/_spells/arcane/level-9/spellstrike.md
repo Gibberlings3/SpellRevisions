@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi903c
+icon: spwi903
 identifier: WIZARD_SPELL_STRIKE
 ---
 Spellstrike  

@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi819c
+icon: dvwi819
 identifier: WIZARD_MONSTER_SUMMONING_6
 ---
 Monster Summoning VIII  

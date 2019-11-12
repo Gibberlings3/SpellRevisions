@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: spwi210c
+icon: spwi210
 identifier: CLERIC_REMOVE_FEAR
 ---
 Resist Fear  

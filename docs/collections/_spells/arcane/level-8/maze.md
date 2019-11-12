@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi813c
+icon: spwi813
 identifier: WIZARD_MAZE
 ---
 Maze  

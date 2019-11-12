@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi917c
+icon: spwi917
 identifier: WIZARD_FREEDOM
 ---
 Freedom  

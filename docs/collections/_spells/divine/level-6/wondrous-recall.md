@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr611c
+icon: sppr611
 identifier: CLERIC_WONDROUS_RECALL
 ---
 Wondrous Recall  

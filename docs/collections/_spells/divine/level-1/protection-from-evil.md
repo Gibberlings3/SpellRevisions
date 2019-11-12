@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr107c
+icon: sppr107
 identifier: CLERIC_PROTECT_FROM_EVIL
 ---
 Protection from Evil  

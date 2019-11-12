@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi304c
+icon: spwi304
 identifier: WIZARD_FIREBALL
 ---
 Fireball  

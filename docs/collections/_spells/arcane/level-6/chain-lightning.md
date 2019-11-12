@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi615c
+icon: spwi615
 identifier: WIZARD_CHAIN_LIGHTNING
 ---
 Chain Lightning  

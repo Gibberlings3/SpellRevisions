@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi404c
+icon: spwi404
 identifier: WIZARD_ICE_STORM
 ---
 Ice Storm  

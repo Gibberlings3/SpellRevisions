@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi203c
+icon: spwi203
 identifier: WIZARD_DETECT_INVISIBILITY
 ---
 Detect Invisibility  

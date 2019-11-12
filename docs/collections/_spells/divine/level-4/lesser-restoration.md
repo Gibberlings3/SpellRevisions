@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr417c
+icon: sppr417
 identifier: CLERIC_LESSER_RESTORATION
 ---
 Lesser Restoration  

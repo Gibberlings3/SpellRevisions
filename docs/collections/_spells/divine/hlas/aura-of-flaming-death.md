@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr730c
+icon: sppr730
 identifier: CLERIC_AURA_OF_FLAMING_DEATH
 ---
 Aura of Flaming Death  

@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi810c
+icon: spwi810
 identifier: WIZARD_INCENDIARY_CLOUD
 ---
 Incendiary Cloud  

@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi207c
+icon: spwi207
 identifier: WIZARD_KNOCK
 ---
 Battering Ram  

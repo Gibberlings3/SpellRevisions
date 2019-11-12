@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr514c
+icon: sppr514
 identifier: CLERIC_MASS_REGENERATE
 ---
 Mass Regenerate  

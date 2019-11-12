@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi513c
+icon: spwi513
 identifier: WIZARD_BREACH
 ---
 Breach  

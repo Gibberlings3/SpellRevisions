@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr751c
+icon: sppr751
 identifier: CLERIC_ETHEREAL_RETRIBUTION
 ---
 Ethereal Retribution  

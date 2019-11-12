@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr603c
+icon: sppr603
 identifier: CLERIC_BLADE_BARRIER
 ---
 Blade Barrier  

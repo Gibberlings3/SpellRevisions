@@ -5,7 +5,7 @@ type: Arcane
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi924c
+icon: spwi924
 identifier: WIZARD_SUMMON_PLANATAR_EVIL
 ---
 Summon Dark Planetar  

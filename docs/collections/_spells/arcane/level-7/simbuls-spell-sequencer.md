@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi710c
+icon: spwi710
 identifier: WIZARD_SPELL_SEQUENCER
 ---
 Simbul's Spell Sequencer  

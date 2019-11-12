@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr516c
+icon: sppr516
 identifier: CLERIC_PIXIE_DUST
 ---
 Pixie Dust  

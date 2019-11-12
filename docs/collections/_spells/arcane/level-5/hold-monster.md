@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi507c
+icon: spwi507
 identifier: WIZARD_HOLD_MONSTER
 ---
 Hold Monster  

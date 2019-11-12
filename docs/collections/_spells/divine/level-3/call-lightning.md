@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr302c
+icon: sppr302
 identifier: CLERIC_CALL_LIGHTNING
 ---
 Call Lightning  

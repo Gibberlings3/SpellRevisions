@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi419c
+icon: spwi419
 identifier: WIZARD_SECRET_WORD
 ---
 Secret Word  

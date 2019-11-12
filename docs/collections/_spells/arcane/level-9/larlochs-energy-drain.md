@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi914c
+icon: spwi914
 identifier: WIZARD_ENERGY_DRAIN
 ---
 Larloch's Energy Drain  

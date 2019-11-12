@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr512c
+icon: sppr512
 identifier: CLERIC_GREATER_COMMAND
 ---
 Greater Command  

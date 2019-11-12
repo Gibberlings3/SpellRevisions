@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi919c
+icon: spwi919
 identifier: WIZARD_WISH
 ---
 Wish  

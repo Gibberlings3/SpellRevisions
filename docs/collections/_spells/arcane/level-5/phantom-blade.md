@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi518c
+icon: spwi518
 identifier: WIZARD_PHANTOM_BLADE
 ---
 Phantom Blade  

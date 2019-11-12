@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr307c
+icon: sppr307
 identifier: CLERIC_REMOVE_CURSE
 ---
 Break Enchantment  

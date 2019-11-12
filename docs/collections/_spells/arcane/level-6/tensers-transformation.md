@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi603c
+icon: spwi603
 identifier: WIZARD_TENSERS_TRANSFORMATION
 ---
 Tenser's Transformation  

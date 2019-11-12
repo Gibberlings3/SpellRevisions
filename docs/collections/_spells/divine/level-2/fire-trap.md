@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr216c
+icon: dvpr216
 identifier: CLERIC_FIRE_TRAP
 ---
 Fire Trap  

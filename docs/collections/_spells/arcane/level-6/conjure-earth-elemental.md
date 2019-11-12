@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi622c
+icon: spwi622
 identifier: WIZARD_CONJURE_EARTH_ELEMENTAL
 ---
 Conjure Earth Elemental  

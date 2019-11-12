@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: sppr210c
+icon: sppr210
 identifier: WIZARD_RESIST_ELEMENTS
 ---
 Resist Elements  

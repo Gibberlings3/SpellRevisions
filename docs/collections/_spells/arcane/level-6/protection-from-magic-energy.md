@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi606c
+icon: spwi606
 identifier: WIZARD_PROTECTION_FROM_MAGIC_ENERGY
 ---
 Protection from Magic Energy  

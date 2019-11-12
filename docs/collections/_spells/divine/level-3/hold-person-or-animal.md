@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr305c
+icon: sppr305
 identifier: CLERIC_HOLD_ANIMAL
 ---
 Hold Person or Animal  

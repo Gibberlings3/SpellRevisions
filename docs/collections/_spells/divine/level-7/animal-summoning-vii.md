@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr716c
+icon: dvpr716
 identifier: CLERIC_ANIMAL_SUMMONING_4
 ---
 Animal Summoning VII  

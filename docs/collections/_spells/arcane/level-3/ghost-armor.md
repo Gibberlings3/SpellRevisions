@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi317c
+icon: spwi317
 identifier: WIZARD_GHOST_ARMOR
 ---
 Ghost Armor  

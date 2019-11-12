@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi123c
+icon: spwi123
 identifier: WIZARD_FIND_FAMILAR
 ---
 Find Familiar  

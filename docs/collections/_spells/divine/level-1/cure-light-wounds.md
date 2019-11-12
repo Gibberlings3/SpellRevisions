@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr103c
+icon: sppr103
 identifier: CLERIC_CURE_LIGHT_WOUNDS
 ---
 Cure Light Wounds  

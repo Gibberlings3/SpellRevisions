@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr324c
+icon: dvpr324
 identifier: CLERIC_MAGIC_FANG
 ---
 Magic Fang  

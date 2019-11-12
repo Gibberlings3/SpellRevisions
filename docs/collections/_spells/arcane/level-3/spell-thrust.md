@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi321c
+icon: spwi321
 identifier: WIZARD_SPELL_THRUST
 ---
 Spell Thrust  

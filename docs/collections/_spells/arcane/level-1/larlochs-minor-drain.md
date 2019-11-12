@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi119c
+icon: spwi119
 identifier: WIZARD_LARLOCH_MINOR_DRAIN
 ---
 Larloch's Minor Drain  

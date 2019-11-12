@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi316c
+icon: spwi316
 identifier: WIZARD_DIRE_CHARM
 ---
 Dire Charm  

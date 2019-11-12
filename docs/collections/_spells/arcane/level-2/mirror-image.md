@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi212c
+icon: spwi212
 identifier: WIZARD_MIRROR_IMAGE
 ---
 Mirror Image  

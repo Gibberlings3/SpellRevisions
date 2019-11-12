@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi424c
+icon: spwi424
 identifier: WIZARD_FAR_SIGHT
 ---
 Farsight  

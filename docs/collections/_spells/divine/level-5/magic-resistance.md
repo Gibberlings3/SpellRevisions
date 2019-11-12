@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr509c
+icon: sppr509
 identifier: CLERIC_MAGIC_RESISTANCE
 ---
 Magic Resistance  

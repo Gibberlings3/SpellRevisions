@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Good,Druid,Shaman
-icon: spwi501c
+icon: spwi501
 identifier: CLERIC_ANIMATE_SKELETON_WARRIOR
 ---
 Animate Skeleton Warrior  

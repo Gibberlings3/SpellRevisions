@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi617c
+icon: spwi617
 identifier: WIZARD_CONTINGENCY
 ---
 Contingency  

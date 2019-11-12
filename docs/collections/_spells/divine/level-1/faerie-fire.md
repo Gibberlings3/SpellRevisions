@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr114c
+icon: dvpr114
 identifier: CLERIC_FAERIE_FIRE
 ---
 Faerie Fire  

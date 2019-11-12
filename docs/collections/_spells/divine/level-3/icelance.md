@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr326c
+icon: dvpr326
 identifier: CLERIC_ICELANCE
 ---
 Icelance  

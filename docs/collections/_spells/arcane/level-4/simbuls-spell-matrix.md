@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi420c
+icon: spwi420
 identifier: WIZARD_MINOR_SEQUENCER
 ---
 Simbul's Spell Matrix  

@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi211c
+icon: spwi211
 identifier: WIZARD_MELF_ACID_ARROW
 ---
 Melf's Acid Arrow  

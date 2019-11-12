@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr113c
+icon: sppr113
 identifier: CLERIC_DOOM
 ---
 Doom  

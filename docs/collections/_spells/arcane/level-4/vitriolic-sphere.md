@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi427c
+icon: dvwi427
 identifier: WIZARD_VITRIOLIC_SPHERE
 ---
 Vitriolic Sphere  

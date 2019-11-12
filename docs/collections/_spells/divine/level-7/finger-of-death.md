@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr708c
+icon: sppr708
 identifier: CLERIC_FINGER_OF_DEATH
 ---
 Finger of Death  

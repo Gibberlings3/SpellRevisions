@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi417c
+icon: spwi417
 identifier: WIZARD_ENCHANTED_WEAPON
 ---
 Enchanted Weapon  

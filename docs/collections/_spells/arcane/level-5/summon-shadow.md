@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi623c
+icon: spwi623
 identifier: WIZARD_ANIMATE_DEAD
 ---
 Summon Shadow  

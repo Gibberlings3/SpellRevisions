@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi705c
+icon: spwi705
 identifier: WIZARD_KHELBENS_WARDING_WHIP
 ---
 Khelben's Warding Whip  

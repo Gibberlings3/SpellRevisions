@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi508c
+icon: spwi508
 identifier: WIZARD_WAVES_OF_FATIGUE
 ---
 Waves of Fatigue  

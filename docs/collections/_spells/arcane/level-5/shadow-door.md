@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi505c
+icon: spwi505
 identifier: WIZARD_SHADOW_DOOR
 ---
 Shadow Door  

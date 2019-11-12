@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi512c
+icon: spwi512
 identifier: CLERIC_PROTECTION_FROM_LIGHTNING
 ---
 Protection from Electricity  

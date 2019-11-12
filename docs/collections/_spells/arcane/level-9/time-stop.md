@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi909c
+icon: spwi909
 identifier: WIZARD_TIME_STOP
 ---
 Time Stop  

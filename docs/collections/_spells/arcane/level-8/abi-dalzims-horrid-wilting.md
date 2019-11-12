@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi812c
+icon: spwi812
 identifier: WIZARD_ABI_DALZIMS_HORRID_WILTING
 ---
 Abi-Dalzim's Horrid Wilting  

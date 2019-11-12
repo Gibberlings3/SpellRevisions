@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi408c
+icon: spwi408
 identifier: CLERIC_IRONSKIN
 ---
 Stoneskin  

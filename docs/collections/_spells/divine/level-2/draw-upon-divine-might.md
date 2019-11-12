@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr214c
+icon: sppr214
 identifier: CLERIC_DRAW_UPON_HOLY_MIGHT
 ---
 Draw upon Divine Might  

@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr712c
+icon: sppr712
 identifier: CLERIC_RESURRECTION
 ---
 Resurrection  

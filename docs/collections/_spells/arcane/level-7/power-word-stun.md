@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi715c
+icon: spwi715
 identifier: WIZARD_POWER_WORD_STUN
 ---
 Power Word Stun  

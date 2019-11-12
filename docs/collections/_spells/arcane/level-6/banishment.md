@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: dvwi605c
+icon: dvwi605
 identifier: WIZARD_DEATH_SPELL
 ---
 Banishment  

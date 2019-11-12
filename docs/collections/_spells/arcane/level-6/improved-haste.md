@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi613c
+icon: spwi613
 identifier: WIZARD_IMPROVED_HASTE
 ---
 Improved Haste  

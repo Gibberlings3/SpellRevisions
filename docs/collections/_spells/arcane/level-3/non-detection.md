@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi310c
+icon: spwi310
 identifier: WIZARD_NON_DETECTION
 ---
 Non-Detection  

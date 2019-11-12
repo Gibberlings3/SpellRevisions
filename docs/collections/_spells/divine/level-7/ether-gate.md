@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr750c
+icon: sppr750
 identifier: CLERIC_ETHER_GATE
 ---
 Ether Gate  

@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi412c
+icon: spwi412
 identifier: WIZARD_GREATER_MALISON
 ---
 Greater Malison  

@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi711c
+icon: spwi711
 identifier: WIZARD_CHAOS
 ---
 Chaos  

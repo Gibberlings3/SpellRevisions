@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr110c
+icon: sppr110
 identifier: CLERIC_SHILLELAGH
 ---
 Shillelagh  

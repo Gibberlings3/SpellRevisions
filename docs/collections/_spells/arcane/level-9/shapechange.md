@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi916c
+icon: spwi916
 identifier: WIZARD_SHAPECHANGE
 ---
 Shapechange  

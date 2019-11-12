@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi319c
+icon: spwi319
 identifier: CLERIC_PROTECTION_FROM_FIRE
 ---
 Protection from Fire  

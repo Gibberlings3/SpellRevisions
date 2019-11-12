@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi313c
+icon: spwi313
 identifier: WIZARD_SKULL_TRAP
 ---
 Skull Trap  

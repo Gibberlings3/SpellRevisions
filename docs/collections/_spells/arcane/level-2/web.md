@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi215c
+icon: spwi215
 identifier: WIZARD_WEB
 ---
 Web  

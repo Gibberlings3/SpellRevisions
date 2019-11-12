@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr650c
+icon: sppr650
 identifier: CLERIC_SPIRITUAL_LOCK
 ---
 Spiritual Lock  

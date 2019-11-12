@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi201c
+icon: spwi201
 identifier: WIZARD_BLUR
 ---
 Blur  

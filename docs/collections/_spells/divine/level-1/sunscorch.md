@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr116c
+icon: dvpr116
 identifier: CLERIC_SUNSCORCH
 ---
 Sunscorch  

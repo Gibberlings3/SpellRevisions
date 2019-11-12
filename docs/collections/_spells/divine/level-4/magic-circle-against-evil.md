@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr408c
+icon: sppr408
 identifier: CLERIC_PROTECTION_FROM_EVIL_10_FOOT
 ---
 Magic Circle against Evil  

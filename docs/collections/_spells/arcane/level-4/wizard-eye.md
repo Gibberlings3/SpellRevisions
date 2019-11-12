@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi425c
+icon: spwi425
 identifier: WIZARD_EYE
 ---
 Wizard Eye  

@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr413c
+icon: sppr413
 identifier: CLERIC_NEGATIVE_PLANE_PROTECTION
 ---
 Negative Plane Protection  

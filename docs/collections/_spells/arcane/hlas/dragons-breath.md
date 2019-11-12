@@ -5,7 +5,7 @@ type: Arcane
 hla: true
 highlighted_classes: Invoker
 prohibited_classes: 
-icon: spwi922c
+icon: spwi922
 identifier: WIZARD_DRAGONS_BREATH
 ---
 Dragon's Breath  

@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr205c
+icon: sppr205
 identifier: CLERIC_FIND_TRAPS
 ---
 Find Traps  

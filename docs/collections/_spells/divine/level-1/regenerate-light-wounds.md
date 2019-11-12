@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr103c
+icon: sppr103
 identifier: CLERIC_REGENERATE_LIGHT_WOUNDS
 ---
 Regenerate Light Wounds  

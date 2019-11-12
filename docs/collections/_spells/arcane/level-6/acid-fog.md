@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi614c
+icon: spwi614
 identifier: WIZARD_DEATH_FOG
 ---
 Acid Fog  

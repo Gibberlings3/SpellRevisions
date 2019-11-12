@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi604c
+icon: spwi604
 identifier: WIZARD_FLESH_TO_STONE
 ---
 Flesh to Stone  

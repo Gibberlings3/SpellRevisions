@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr411c
+icon: sppr411
 identifier: CLERIC_POISON
 ---
 Poison  

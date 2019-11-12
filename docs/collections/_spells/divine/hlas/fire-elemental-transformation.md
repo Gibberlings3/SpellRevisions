@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr731c
+icon: sppr731
 identifier: CLERIC_ELEMENTAL_TRANSFORMATION_FIRE
 ---
 Fire Elemental Transformation  

@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr607c
+icon: sppr607
 identifier: CLERIC_HEAL
 ---
 Heal  

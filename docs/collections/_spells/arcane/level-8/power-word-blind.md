@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi815c
+icon: spwi815
 identifier: WIZARD_POWER_WORD_BLIND
 ---
 Power Word Blind  

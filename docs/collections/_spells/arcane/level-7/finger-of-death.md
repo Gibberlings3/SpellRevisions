@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi713c
+icon: spwi713
 identifier: WIZARD_FINGER_OF_DEATH
 ---
 Finger of Death  

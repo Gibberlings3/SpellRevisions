@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi707c
+icon: spwi707
 identifier: WIZARD_CACOFIEND
 ---
 Summon Death Knight  

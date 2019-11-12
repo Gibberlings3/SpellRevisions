@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi911c
+icon: spwi911
 identifier: WIZARD_METEOR_SWARM
 ---
 Meteor Swarm  

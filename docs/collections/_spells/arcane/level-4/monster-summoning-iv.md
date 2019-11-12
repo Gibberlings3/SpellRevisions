@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi423c
+icon: spwi423
 identifier: WIZARD_MONSTER_SUMMONING_2
 ---
 Monster Summoning IV  

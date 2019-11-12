@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr507c
+icon: sppr507
 identifier: CLERIC_CHAMPIONS_STRENGTH
 ---
 Champion's Strength  

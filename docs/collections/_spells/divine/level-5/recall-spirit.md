@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr550c
+icon: sppr550
 identifier: CLERIC_RECALL_SPIRIT
 ---
 Recall Spirit  

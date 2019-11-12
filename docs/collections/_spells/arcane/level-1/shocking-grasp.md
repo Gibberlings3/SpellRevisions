@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi115c
+icon: spwi115
 identifier: WIZARD_SHOCKING_GRASP
 ---
 Shocking Grasp  

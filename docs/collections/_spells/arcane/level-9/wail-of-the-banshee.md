@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi913c
+icon: spwi913
 identifier: WIZARD_WAIL_OF_THE_BANSHEE
 ---
 Wail of the Banshee  

@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr409c
+icon: sppr409
 identifier: CLERIC_DEATH_WARD
 ---
 Death Ward  

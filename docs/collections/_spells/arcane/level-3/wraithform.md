@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi315c
+icon: spwi315
 identifier: WIZARD_WRAITH_FORM
 ---
 Wraithform   

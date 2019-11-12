@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi509c
+icon: spwi509
 identifier: WIZARD_FEEBLEMIND
 ---
 Feeblemind  

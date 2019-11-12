@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr720c
+icon: sppr720
 identifier: CLERIC_EARTHQUAKE
 ---
 Earthquake  

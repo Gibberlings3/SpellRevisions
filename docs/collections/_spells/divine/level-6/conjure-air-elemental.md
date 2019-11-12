@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi621c
+icon: spwi621
 identifier: CLERIC_CONJURE_AIR_ELEMENTAL
 ---
 Conjure Air Elemental  

@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi619c
+icon: dvwi619
 identifier: WIZARD_MONSTER_SUMMONING_4
 ---
 Monster Summoning VI  

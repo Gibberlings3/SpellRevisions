@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi223c
+icon: spwi223
 identifier: WIZARD_DEAFNESS
 ---
 Sound Burst  

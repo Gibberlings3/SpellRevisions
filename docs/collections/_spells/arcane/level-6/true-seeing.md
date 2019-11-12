@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi609c
+icon: spwi609
 identifier: WIZARD_TRUE_SIGHT
 ---
 True Seeing  

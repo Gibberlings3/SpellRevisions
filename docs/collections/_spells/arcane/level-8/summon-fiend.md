@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi807c
+icon: spwi807
 identifier: WIZARD_SUMMON_FIEND
 ---
 Summon Fiend  

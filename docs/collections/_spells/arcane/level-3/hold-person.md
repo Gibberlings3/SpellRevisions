@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: sppr208c
+icon: sppr208
 identifier: WIZARD_HOLD_PERSON
 ---
 Hold Person  

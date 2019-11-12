@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr111c
+icon: sppr111
 identifier: CLERIC_ARMOR_OF_FAITH
 ---
 Armor of Faith  

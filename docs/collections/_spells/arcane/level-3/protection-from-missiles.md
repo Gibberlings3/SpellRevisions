@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi311c
+icon: spwi311
 identifier: WIZARD_PROTECTION_FROM_NORMAL_MISSILES
 ---
 Protection from Missiles  

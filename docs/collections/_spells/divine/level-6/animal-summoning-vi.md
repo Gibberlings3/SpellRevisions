@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr602c
+icon: sppr602
 identifier: CLERIC_ANIMAL_SUMMONING_3
 ---
 Animal Summoning VI  

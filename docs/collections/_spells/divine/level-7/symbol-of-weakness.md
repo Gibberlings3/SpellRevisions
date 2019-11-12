@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: spwi811c
+icon: spwi811
 identifier: CLERIC_SYMBOL_FEAR
 ---
 Symbol of Weakness  

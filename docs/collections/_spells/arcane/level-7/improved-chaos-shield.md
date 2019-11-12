@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Wild Mage
 prohibited_classes: Generalist,Abjurer,Conjurer,Diviner,Enchanter,Illusionist,Invoker,Necromancer,Transmuter
-icon: spwi723c
+icon: spwi723
 identifier: WIZARD_IMPROVED_CHAOS_SHIELD
 ---
 Improved Chaos Shield  

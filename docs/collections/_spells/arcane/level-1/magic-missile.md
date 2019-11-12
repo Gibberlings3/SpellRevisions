@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi112c
+icon: spwi112
 identifier: WIZARD_MAGIC_MISSILE
 ---
 Magic Missile  

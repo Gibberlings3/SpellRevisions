@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi503c
+icon: spwi503
 identifier: WIZARD_CONE_OF_COLD
 ---
 Cone of Cold  

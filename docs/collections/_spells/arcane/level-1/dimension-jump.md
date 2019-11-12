@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi402c
+icon: spwi402
 identifier: WIZARD_DIMENSION_JUMP
 ---
 Dimension Jump  

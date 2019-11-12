@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: dvpr119c
+icon: dvpr119
 identifier: CLERIC_CAUSE_LIGHT_WOUNDS
 ---
 Cause Light Wounds  

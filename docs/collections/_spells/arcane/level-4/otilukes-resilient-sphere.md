@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi413c
+icon: spwi413
 identifier: WIZARD_OTILUKES_RESILIENT_SPHERE
 ---
 Otiluke's Resilient Sphere  

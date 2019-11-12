@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr315c
+icon: sppr315
 identifier: CLERIC_CURE_MODERATE_WOUNDS
 ---
 Cure Moderate Wounds  

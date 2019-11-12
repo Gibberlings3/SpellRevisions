@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi221c
+icon: spwi221
 identifier: WIZARD_RAY_OF_ENFEEBLEMENT
 ---
 Ray of Enfeeblement  

@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr713c
+icon: sppr713
 identifier: CLERIC_RESTORATION
 ---
 Greater Restoration  

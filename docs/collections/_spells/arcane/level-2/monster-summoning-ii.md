@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi226c
+icon: dvwi226
 identifier: WIZARD_MONSTER_SUMMONING_LEVEL_2
 ---
 Monster Summoning II  

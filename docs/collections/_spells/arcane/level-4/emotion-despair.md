@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi411c
+icon: spwi411
 identifier: WIZARD_EMOTION_HOPELESSNESS
 ---
 Emotion: Despair  

@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr207c
+icon: sppr207
 identifier: CLERIC_GOOD_BERRIES
 ---
 Goodberry  

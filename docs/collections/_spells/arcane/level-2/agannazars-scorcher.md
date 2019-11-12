@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi217c
+icon: spwi217
 identifier: WIZARD_AGANNAZAR_SCORCHER
 ---
 Agannazar's Scorcher  

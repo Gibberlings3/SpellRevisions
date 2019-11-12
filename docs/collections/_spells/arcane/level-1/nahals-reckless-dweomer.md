@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Wild Mage
 prohibited_classes: Generalist,Abjurer,Conjurer,Diviner,Enchanter,Illusionist,Invoker,Necromancer,Transmuter
-icon: spwi124c
+icon: spwi124
 identifier: WIZARD_NAHALS_RECKLESS_DWEOMER
 ---
 Nahal's Reckless Dweomer  

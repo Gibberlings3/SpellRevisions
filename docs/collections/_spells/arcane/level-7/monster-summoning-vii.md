@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi724c
+icon: dvwi724
 identifier: WIZARD_MONSTER_SUMMONING_5
 ---
 Monster Summoning VII  

@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr511c
+icon: sppr511
 identifier: CLERIC_SLAY_LIVING
 ---
 Slay Living  

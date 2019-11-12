@@ -8,7 +8,7 @@
       <a class="spell button is-rounded is-size-6 is-primary is-fullwidth" href="{{ spell.url | relative_url }}"
         data-url="{{ spell.url }}" data-highlighted-classes="{{ spell.highlighted_classes }}" data-prohibited-classes="{{ spell.prohibited_classes }}">
         <span class="icon">
-          <img src="{{ site.baseurl}}/assets/img/icons/{{ spell.icon }}.gif" alt="{{ spell.name }} icon" />
+          <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'c.png' }}" alt="{{ spell.name }} icon" />
         </span>
         <span>{{ spell.name }}</span>
       </a>

@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr405c
+icon: sppr405
 identifier: CLERIC_MENTAL_DOMINATION
 ---
 Mental Domination  

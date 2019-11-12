@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi111c
+icon: spwi111
 identifier: WIZARD_INFRAVISION
 ---
 True Strike  

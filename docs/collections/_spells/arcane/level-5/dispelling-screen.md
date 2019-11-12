@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi510c
+icon: spwi510
 identifier: WIZARD_SPELL_IMMUNITY
 ---
 Dispelling Screen  

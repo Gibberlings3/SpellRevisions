@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr725c
+icon: sppr725
 identifier: CLERIC_GLOBE_OF_BLADES
 ---
 Globe of Blades  

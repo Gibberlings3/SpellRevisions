@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi117c
+icon: spwi117
 identifier: WIZARD_CHILL_TOUCH
 ---
 Chill Touch  

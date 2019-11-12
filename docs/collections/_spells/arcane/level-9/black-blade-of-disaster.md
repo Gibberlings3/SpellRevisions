@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi915c
+icon: spwi915
 identifier: WIZARD_BLACK_BLADE_OF_DISASTER
 ---
 Black Blade of Disaster  

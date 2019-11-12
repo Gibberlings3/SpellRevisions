@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi908c
+icon: spwi908
 identifier: WIZARD_CHAIN_CONTINGENCY
 ---
 Chain Contingency  

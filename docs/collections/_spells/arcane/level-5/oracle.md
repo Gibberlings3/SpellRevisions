@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi515c
+icon: spwi515
 identifier: WIZARD_ORACLE
 ---
 Oracle  

@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi107c
+icon: dvwi107
 identifier: WIZARD_FRIENDS
 ---
 Monster Summoning I  

@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi105c
+icon: spwi105
 identifier: WIZARD_COLOR_SPRAY
 ---
 Color Spray  

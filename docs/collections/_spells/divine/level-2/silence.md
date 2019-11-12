@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr211c
+icon: sppr211
 identifier: CLERIC_SILENCE_15_FOOT
 ---
 Silence  

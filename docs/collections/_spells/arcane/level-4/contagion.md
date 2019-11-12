@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi409c
+icon: spwi409
 identifier: WIZARD_CONTAGION
 ---
 Contagion  

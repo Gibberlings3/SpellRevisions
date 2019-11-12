@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi202c
+icon: spwi202
 identifier: WIZARD_KNOW_ALIGNMENT
 ---
 Detect Alignment  

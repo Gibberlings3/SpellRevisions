@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi318c
+icon: spwi318
 identifier: WIZARD_MINOR_SPELL_DEFLECTION
 ---
 Minor Spell Deflection  

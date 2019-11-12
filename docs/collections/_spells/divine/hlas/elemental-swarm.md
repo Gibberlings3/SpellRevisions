@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr723c
+icon: sppr723
 identifier: CLERIC_ELEMENTAL_SWARM
 ---
 Elemental Swarm  

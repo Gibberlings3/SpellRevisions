@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi110c
+icon: spwi110
 identifier: WIZARD_IDENTIFY
 ---
 Identify  

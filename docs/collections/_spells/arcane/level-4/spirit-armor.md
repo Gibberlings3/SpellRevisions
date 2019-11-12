@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi414c
+icon: spwi414
 identifier: WIZARD_SPIRIT_ARMOR
 ---
 Spirit Armor  

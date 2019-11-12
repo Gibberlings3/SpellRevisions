@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr301c
+icon: sppr301
 identifier: CLERIC_ANIMATE_DEAD
 ---
 Animate Dead  

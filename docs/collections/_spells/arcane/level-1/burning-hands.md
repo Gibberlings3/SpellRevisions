@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi103c
+icon: spwi103
 identifier: WIZARD_BURNING_HANDS
 ---
 Burning Hands  

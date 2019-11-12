@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi307c
+icon: spwi307
 identifier: WIZARD_INVISIBILITY_10_FOOT
 ---
 Invisibility Sphere  

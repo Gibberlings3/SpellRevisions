@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr311c
+icon: sppr311
 identifier: CLERIC_RIGID_THINKING
 ---
 Rigid Thinking  

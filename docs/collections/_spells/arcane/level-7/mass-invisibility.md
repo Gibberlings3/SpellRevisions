@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi721c
+icon: spwi721
 identifier: WIZARD_MASS_INVISIBILITY
 ---
 Mass Invisibility  

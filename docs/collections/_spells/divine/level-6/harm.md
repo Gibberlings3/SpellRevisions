@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr608c
+icon: sppr608
 identifier: CLERIC_HARM
 ---
 Harm  

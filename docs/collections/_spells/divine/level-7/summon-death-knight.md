@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Good,Druid,Shaman
-icon: spwi707c
+icon: spwi707
 identifier: CLERIC_GATE
 ---
 Summon Death Knight  

@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr513c
+icon: sppr513
 identifier: CLERIC_RIGHTEOUS_MAGIC
 ---
 Righteous Fury  

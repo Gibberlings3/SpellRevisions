@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr701c
+icon: sppr701
 identifier: CLERIC_SHIELD_OF_THE_ARCHONS
 ---
 Shield of the Archons  

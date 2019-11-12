@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr503c
+icon: sppr503
 identifier: CLERIC_FLAME_STRIKE
 ---
 Flame Strike  

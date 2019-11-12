@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi106c
+icon: dvwi106
 identifier: WIZARD_BLINDNESS
 ---
 Obscuring Mist  

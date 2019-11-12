@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr404c
+icon: sppr404
 identifier: CLERIC_NEUTRALIZE_POISON
 ---
 Neutralize Poison  

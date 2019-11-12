@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr504c
+icon: sppr504
 identifier: CLERIC_RAISE_DEAD
 ---
 Raise Dead  

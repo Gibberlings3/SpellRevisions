@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi214c
+icon: spwi214
 identifier: WIZARD_STRENGTH
 ---
 Strength  

@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr104c
+icon: sppr104
 identifier: CLERIC_DETECT_EVIL
 ---
 Detect Alignment  

@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi101c
+icon: spwi101
 identifier: WIZARD_GREASE
 ---
 Grease  

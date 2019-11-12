@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi205c
+icon: spwi205
 identifier: WIZARD_HORROR
 ---
 Horror  

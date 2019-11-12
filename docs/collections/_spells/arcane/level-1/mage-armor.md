@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi102c
+icon: spwi102
 identifier: WIZARD_ARMOR
 ---
 Mage Armor  

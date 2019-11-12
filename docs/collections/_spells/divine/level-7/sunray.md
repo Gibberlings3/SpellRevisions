@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Evil
-icon: sppr707c
+icon: sppr707
 identifier: CLERIC_SUNRAY
 ---
 Sunray  

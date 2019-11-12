@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr210c
+icon: sppr210
 identifier: CLERIC_RESIST_FIRE
 ---
 Resist Elements  

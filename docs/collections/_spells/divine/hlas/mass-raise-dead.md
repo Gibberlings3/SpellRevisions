@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr729c
+icon: sppr729
 identifier: CLERIC_MASS_RAISE_DEAD
 ---
 Mass Raise Dead  

@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr502c
+icon: sppr502
 identifier: CLERIC_REGENERATE_CRITICAL_WOUNDS
 ---
 Regenerate Critical Wounds  

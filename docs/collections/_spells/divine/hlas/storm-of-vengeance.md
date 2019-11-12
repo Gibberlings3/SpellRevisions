@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr722c
+icon: sppr722
 identifier: CLERIC_STORM_OF_VENGEANCE
 ---
 Storm of Vengeance  

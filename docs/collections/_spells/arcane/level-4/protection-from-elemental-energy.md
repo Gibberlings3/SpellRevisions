@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: dvwi426c
+icon: dvwi426
 identifier: WIZARD_PROTECTION_FROM_ELEMENTAL_ENERGY
 ---
 Protection from Elemental Energy  

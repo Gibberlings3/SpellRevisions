@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi622c
+icon: spwi622
 identifier: CLERIC_CONJURE_EARTH_ELEMENTAL
 ---
 Conjure Earth Elemental  

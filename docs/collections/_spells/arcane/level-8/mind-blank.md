@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi802c
+icon: spwi802
 identifier: WIZARD_MIND_BLANK
 ---
 Mind Blank  

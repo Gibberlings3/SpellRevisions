@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr610c
+icon: sppr610
 identifier: CLERIC_DOLOROUS_DECAY
 ---
 Dolorous Decay  
