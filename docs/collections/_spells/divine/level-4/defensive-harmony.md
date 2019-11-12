@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr406c
+icon: sppr406
 identifier: CLERIC_DEFENSIVE_HARMONY
 ---
 Defensive Harmony  

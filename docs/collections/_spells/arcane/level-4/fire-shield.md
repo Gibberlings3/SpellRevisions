@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi418c
+icon: spwi418
 identifier: WIZARD_FIRE_SHIELD_RED
 ---
 Fire Shield  

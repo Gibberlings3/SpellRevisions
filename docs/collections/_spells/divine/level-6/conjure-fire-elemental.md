@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi620c
+icon: spwi620
 identifier: CLERIC_CONJURE_FIRE_ELEMENTAL
 ---
 Conjure Fire Elemental  

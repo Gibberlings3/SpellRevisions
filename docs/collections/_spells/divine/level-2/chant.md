@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr203c
+icon: sppr203
 identifier: CLERIC_CHANT
 ---
 Chant  

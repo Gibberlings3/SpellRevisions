@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi607c
+icon: spwi607
 identifier: WIZARD_MISLEAD
 ---
 Mislead  

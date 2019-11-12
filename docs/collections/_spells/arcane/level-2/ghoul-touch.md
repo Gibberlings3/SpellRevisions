@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi218c
+icon: spwi218
 identifier: WIZARD_GHOUL_TOUCH
 ---
 Ghoul Touch  

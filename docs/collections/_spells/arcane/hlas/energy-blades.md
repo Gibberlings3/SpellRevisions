@@ -5,7 +5,7 @@ type: Arcane
 hla: true
 highlighted_classes: Invoker
 prohibited_classes: 
-icon: spwi920c
+icon: spwi920
 identifier: WIZARD_ENERGY_BLADES
 ---
 Energy Blades  

@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: dvpr219c
+icon: dvpr219
 identifier: CLERIC_CAUSE_MODERATE_WOUNDS
 ---
 Cause Moderate Wounds  

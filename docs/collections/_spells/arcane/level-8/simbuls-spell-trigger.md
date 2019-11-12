@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi809c
+icon: spwi809
 identifier: WIZARD_SPELL_TRIGGER
 ---
 Simbul's Spell Trigger  

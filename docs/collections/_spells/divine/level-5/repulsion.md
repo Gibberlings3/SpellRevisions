@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr515c
+icon: sppr515
 identifier: CLERIC_REPULSE_UNDEAD
 ---
 Repulsion  

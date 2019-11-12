@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr724c
+icon: sppr724
 identifier: CLERIC_GREATER_ELEMENTAL_SWARM
 ---
 Elemental Prince Call  

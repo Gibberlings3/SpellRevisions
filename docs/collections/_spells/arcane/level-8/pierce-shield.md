@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi805c
+icon: spwi805
 identifier: WIZARD_PIERCE_SHIELD
 ---
 Pierce Shield  

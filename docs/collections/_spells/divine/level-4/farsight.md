@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr415c
+icon: sppr415
 identifier: CLERIC_FAR_SIGHT
 ---
 Farsight  

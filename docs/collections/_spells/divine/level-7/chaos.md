@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: spwi711c
+icon: spwi711
 identifier: CLERIC_CONFUSION
 ---
 Chaos  

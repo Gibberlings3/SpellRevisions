@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr510c
+icon: sppr510
 identifier: CLERIC_CAUSE_SERIOUS_WOUNDS
 ---
 Cause Critical Wounds  

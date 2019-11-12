@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr718c
+icon: sppr718
 identifier: CLERIC_SYMBOL_STUN
 ---
 Symbol of Stunning  

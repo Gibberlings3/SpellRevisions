@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi718c
+icon: spwi718
 identifier: WIZARD_SUMMON_DJINNI
 ---
 Summon Djinni  

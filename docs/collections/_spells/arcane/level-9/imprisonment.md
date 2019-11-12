@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi910c
+icon: spwi910
 identifier: WIZARD_IMPRISONMENT
 ---
 Imprisonment  

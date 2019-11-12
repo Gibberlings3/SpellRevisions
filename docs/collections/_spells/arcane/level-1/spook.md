@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi125c
+icon: spwi125
 identifier: WIZARD_SPOOK
 ---
 Spook  

@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi612c
+icon: spwi612
 identifier: WIZARD_POWER_WORD_SILENCE
 ---
 Power Word Silence  

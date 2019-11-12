@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi608c
+icon: spwi608
 identifier: WIZARD_PIERCE_MAGIC
 ---
 Pierce Magic  

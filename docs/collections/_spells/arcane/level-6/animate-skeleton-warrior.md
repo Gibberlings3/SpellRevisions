@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi501c
+icon: spwi501
 identifier: WIZARD_CARRION
 ---
 Animate Skeleton Warrior  

@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr220c
+icon: dvpr220
 identifier: CLERIC_ANIMAL_SUMMONING_LEVEL_2
 ---
 Animal Summoning II  

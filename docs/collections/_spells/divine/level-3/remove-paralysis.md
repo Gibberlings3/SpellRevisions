@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr308c
+icon: sppr308
 identifier: CLERIC_REMOVE_PARALYSIS
 ---
 Remove Paralysis  

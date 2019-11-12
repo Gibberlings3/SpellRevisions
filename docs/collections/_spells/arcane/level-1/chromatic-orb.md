@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi118c
+icon: spwi118
 identifier: WIZARD_CHROMATIC_ORB
 ---
 Chromatic Orb  

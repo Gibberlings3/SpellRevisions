@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr121c
+icon: dvpr121
 identifier: CLERIC_OBSCURING_MIST
 ---
 Obscuring Mist  

@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr318c
+icon: sppr318
 identifier: CLERIC_ZONE_OF_SWEET_AIR
 ---
 Gust of Wind  

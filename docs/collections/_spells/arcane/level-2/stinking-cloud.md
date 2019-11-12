@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi213c
+icon: spwi213
 identifier: WIZARD_STINKING_CLOUD
 ---
 Stinking Cloud  

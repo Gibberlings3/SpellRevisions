@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi918c
+icon: spwi918
 identifier: WIZARD_BIGBYS_CRUSHING_HAND
 ---
 Bigby's Crushing Hand  

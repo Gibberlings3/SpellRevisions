@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi308c
+icon: spwi308
 identifier: WIZARD_LIGHTNING_BOLT
 ---
 Lightning Bolt  

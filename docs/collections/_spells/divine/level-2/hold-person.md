@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr208c
+icon: sppr208
 identifier: CLERIC_HOLD_PERSON
 ---
 Hold Person  

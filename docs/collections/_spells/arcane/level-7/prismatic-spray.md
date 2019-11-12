@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi714c
+icon: spwi714
 identifier: WIZARD_PRISMATIC_SPRAY
 ---
 Prismatic Spray  

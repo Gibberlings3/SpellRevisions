@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr601c
+icon: sppr601
 identifier: CLERIC_AERIAL_SERVANT
 ---
 Aerial Servant  

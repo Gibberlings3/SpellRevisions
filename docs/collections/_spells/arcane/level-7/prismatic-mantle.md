@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi708c
+icon: spwi708
 identifier: WIZARD_MANTLE
 ---
 Prismatic Mantle  

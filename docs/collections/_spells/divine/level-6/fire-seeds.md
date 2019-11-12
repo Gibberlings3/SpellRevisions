@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr606c
+icon: sppr606
 identifier: CLERIC_FIRE_SEEDS
 ---
 Fire Seeds  

@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi519c
+icon: spwi519
 identifier: WIZARD_SPELL_SHIELD
 ---
 Spell Shield  

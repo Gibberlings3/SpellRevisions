@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi722c
+icon: spwi722
 identifier: WIZARD_LIMITED_WISH
 ---
 Limited Wish  

@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr705c
+icon: sppr705
 identifier: CLERIC_FIRE_STORM
 ---
 Fire Storm  

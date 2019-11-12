@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr450c
+icon: sppr450
 identifier: CLERIC_SPIRIT_FIRE
 ---
 Spirit Fire  

@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr412c
+icon: sppr412
 identifier: CLERIC_HOLY_POWER
 ---
 Divine Power  

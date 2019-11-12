@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr312c
+icon: sppr312
 identifier: CLERIC_STRENGTH_OF_ONE
 ---
 Strength of One  

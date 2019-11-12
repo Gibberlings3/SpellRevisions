@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi415c
+icon: spwi415
 identifier: CLERIC_POLYMORPH_OTHER
 ---
 Polymorph Other  

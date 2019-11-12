@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi717c
+icon: spwi717
 identifier: WIZARD_SUMMON_EFREET
 ---
 Summon Efreeti  

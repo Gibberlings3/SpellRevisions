@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Evil,Druid,Shaman
-icon: sppr710c
+icon: sppr710
 identifier: CLERIC_HOLY_WORD
 ---
 Holy Word  

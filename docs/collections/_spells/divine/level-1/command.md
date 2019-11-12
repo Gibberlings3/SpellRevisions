@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr102c
+icon: sppr102
 identifier: CLERIC_COMMAND
 ---
 Command  

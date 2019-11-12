@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi502c
+icon: spwi502
 identifier: WIZARD_CLOUDKILL
 ---
 Cloudkill  

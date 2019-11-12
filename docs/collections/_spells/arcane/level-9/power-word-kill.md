@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi912c
+icon: spwi912
 identifier: WIZARD_POWER_WORD_KILL
 ---
 Power Word Kill  

@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi401c
+icon: spwi401
 identifier: WIZARD_CONFUSION
 ---
 Confusion  

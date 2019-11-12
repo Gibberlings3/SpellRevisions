@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi905c
+icon: spwi905
 identifier: WIZARD_GATE
 ---
 Gate  

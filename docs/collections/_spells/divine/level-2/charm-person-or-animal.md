@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr204c
+icon: sppr204
 identifier: CLERIC_CHARM_PERSON
 ---
 Charm Person or Animal  

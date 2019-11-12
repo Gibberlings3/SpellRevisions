@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr303c
+icon: sppr303
 identifier: CLERIC_DISPEL_MAGIC
 ---
 Dispel Magic  

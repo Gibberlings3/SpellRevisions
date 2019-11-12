@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi803c
+icon: spwi803
 identifier: WIZARD_PROTECTION_FROM_ENERGY
 ---
 Protection from Energy  

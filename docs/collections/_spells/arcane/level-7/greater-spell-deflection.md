@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi701c
+icon: spwi701
 identifier: WIZARD_SPELL_TURNING
 ---
 Greater Spell Deflection  

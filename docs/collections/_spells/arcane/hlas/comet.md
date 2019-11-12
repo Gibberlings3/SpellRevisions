@@ -5,7 +5,7 @@ type: Arcane
 hla: true
 highlighted_classes: Conjurer
 prohibited_classes: 
-icon: spwi925c
+icon: spwi925
 identifier: WIZARD_COMET
 ---
 Comet  

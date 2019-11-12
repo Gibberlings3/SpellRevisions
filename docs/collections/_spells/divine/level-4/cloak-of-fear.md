@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr416c
+icon: sppr416
 identifier: CLERIC_CLOAK_OF_FEAR
 ---
 Cloak of Fear  

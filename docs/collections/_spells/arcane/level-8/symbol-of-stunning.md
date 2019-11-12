@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: sppr718c
+icon: sppr718
 identifier: WIZARD_SYMBOL_STUN
 ---
 Symbol of Stunning  

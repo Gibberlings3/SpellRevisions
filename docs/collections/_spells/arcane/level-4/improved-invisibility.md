@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi405c
+icon: spwi405
 identifier: WIZARD_IMPROVED_INVISIBILITY
 ---
 Improved Invisibility  

@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi704c
+icon: spwi704
 identifier: WIZARD_RUBY_RAY_OF_REVERSAL
 ---
 Ruby Ray of Reversal  

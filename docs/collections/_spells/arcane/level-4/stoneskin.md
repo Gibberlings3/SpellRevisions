@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi408c
+icon: spwi408
 identifier: WIZARD_STONE_SKIN
 ---
 Stoneskin  

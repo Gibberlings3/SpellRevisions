@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr704c
+icon: sppr704
 identifier: CLERIC_NATURE_BEAUTY
 ---
 Nature's Beauty  

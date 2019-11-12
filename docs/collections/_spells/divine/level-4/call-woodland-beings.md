@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr410c
+icon: sppr410
 identifier: CLERIC_CALL_WOODLAND_BEINGS
 ---
 Call Woodland Beings  

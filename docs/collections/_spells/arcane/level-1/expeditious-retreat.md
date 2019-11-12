@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi108c
+icon: spwi108
 identifier: WIZARD_EXPEDITIOUS_RETREAT
 ---
 Expeditious Retreat  

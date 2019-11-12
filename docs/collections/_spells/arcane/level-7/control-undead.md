@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi720c
+icon: spwi720
 identifier: WIZARD_CONTROL_UNDEAD
 ---
 Control Undead  

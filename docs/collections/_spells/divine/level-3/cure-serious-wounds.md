@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr401c
+icon: sppr401
 identifier: CLERIC_CURE_MEDIUM_WOUNDS
 ---
 Cure Serious Wounds  

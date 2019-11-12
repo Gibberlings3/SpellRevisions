@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi517c
+icon: spwi517
 identifier: CLERIC_PROTECTION_FROM_ACID
 ---
 Protection from Acid  

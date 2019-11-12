@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi804c
+icon: spwi804
 identifier: WIZARD_SIMULACRUM
 ---
 Simulacrum  

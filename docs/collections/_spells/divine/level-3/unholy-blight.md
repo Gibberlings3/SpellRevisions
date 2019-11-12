@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Good,Druid,Shaman
-icon: sppr314c
+icon: sppr314
 identifier: CLERIC_UNHOLY_BLIGHT
 ---
 Unholy Blight  

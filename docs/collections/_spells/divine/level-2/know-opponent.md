@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr209c
+icon: sppr209
 identifier: CLERIC_KNOW_ALIGNMENT
 ---
 Know Opponent  

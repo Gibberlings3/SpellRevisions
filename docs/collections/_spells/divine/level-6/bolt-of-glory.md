@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr612c
+icon: sppr612
 identifier: CLERIC_BOLT_OF_GLORY
 ---
 Bolt of Glory  

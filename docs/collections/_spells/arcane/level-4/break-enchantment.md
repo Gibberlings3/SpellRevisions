@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: sppr307c
+icon: sppr307
 identifier: WIZARD_REMOVE_CURSE
 ---
 Break Enchantment  

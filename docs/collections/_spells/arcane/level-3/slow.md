@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi312c
+icon: spwi312
 identifier: WIZARD_SLOW
 ---
 Slow  

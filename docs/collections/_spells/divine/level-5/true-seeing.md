@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi609c
+icon: spwi609
 identifier: CLERIC_TRUE_SIGHT
 ---
 True Seeing  

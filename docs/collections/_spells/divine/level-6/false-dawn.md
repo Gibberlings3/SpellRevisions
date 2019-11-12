@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Evil
-icon: sppr609c
+icon: sppr609
 identifier: CLERIC_FALSE_DAWN
 ---
 False Dawn  

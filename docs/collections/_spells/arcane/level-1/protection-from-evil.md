@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi113c
+icon: spwi113
 identifier: WIZARD_PROTECTION_FROM_EVIL
 ---
 Protection from Evil  

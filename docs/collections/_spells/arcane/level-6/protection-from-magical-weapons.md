@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi611c
+icon: spwi611
 identifier: WIZARD_PROTECTION_FROM_MAGIC_WEAPONS
 ---
 Protection from Magical Weapons  

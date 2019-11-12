@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi907c
+icon: spwi907
 identifier: WIZARD_ABSOLUTE_IMMUNITY
 ---
 Absolute Immunity  

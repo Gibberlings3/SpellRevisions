@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi116c
+icon: spwi116
 identifier: WIZARD_SLEEP
 ---
 Sleep  

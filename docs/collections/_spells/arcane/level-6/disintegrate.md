@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi616c
+icon: spwi616
 identifier: WIZARD_DISINTEGRATE
 ---
 Disintegrate  

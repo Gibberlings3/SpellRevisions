@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr317c
+icon: sppr317
 identifier: CLERIC_CURE_DISEASE
 ---
 Cure Disease  

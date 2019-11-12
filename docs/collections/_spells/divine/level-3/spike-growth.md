@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr325c
+icon: dvpr325
 identifier: CLERIC_SPIKE_GROWTH
 ---
 Spike Growth  

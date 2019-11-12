@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr212c
+icon: sppr212
 identifier: CLERIC_SLOW_POISON
 ---
 Slow Poison  

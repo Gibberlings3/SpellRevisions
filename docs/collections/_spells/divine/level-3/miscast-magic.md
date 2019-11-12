@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr310c
+icon: sppr310
 identifier: CLERIC_MISCAST_MAGIC
 ---
 Miscast Magic  

@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr614c
+icon: sppr614
 identifier: CLERIC_SOL_SEARING_ORB
 ---
 Sol's Searing Orb  

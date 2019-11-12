@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr109c
+icon: sppr109
 identifier: CLERIC_SANCTUARY
 ---
 Sanctuary  

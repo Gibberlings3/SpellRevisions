@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi108c
+icon: spwi108
 identifier: WIZARD_PROTECTION_FROM_PETRIFICATION
 ---
 Protection from Petrification  

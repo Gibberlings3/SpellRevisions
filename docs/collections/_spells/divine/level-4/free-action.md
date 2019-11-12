@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr403c
+icon: sppr403
 identifier: CLERIC_FREE_ACTION
 ---
 Free Action  

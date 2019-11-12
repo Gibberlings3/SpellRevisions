@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr350c
+icon: sppr350
 identifier: CLERIC_SPIRITUAL_CLARITY
 ---
 Spiritual Clarity  

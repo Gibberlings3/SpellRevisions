@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr101c
+icon: sppr101
 identifier: CLERIC_BLESS
 ---
 Bless  

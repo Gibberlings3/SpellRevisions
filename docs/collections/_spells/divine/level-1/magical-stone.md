@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr106c
+icon: sppr106
 identifier: CLERIC_MAGIC_STONE
 ---
 Magical Stone  

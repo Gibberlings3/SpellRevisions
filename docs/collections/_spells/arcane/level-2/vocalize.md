@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi219c
+icon: spwi219
 identifier: WIZARD_VOCALIZE
 ---
 Vocalize  

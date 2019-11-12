@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Evil,Druid,Shaman
-icon: sppr313c
+icon: sppr313
 identifier: CLERIC_HOLY_SMITE
 ---
 Holy Smite  

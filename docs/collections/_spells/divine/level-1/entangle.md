@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr105c
+icon: sppr105
 identifier: CLERIC_ENTANGLE
 ---
 Entangle  

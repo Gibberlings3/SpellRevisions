@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr525c
+icon: dvpr525
 identifier: CLERIC_ANIMAL_GROWTH
 ---
 Animal Growth  

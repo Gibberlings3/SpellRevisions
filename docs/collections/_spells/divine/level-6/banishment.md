@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: dvpr620c
+icon: dvpr620
 identifier: CLERIC_BANISHMENT
 ---
 Banishment  

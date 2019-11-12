@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi301c
+icon: spwi301
 identifier: WIZARD_CLAIRVOYANCE
 ---
 Clairvoyance  

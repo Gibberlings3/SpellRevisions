@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi404c
+icon: spwi404
 identifier: CLERIC_ICE_STORM
 ---
 Ice Storm  

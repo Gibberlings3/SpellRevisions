@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr702c
+icon: sppr702
 identifier: CLERIC_STALKER
 ---
 Summon Shambling Mound  

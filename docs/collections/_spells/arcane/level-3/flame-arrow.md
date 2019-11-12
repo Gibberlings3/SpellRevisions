@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi303c
+icon: spwi303
 identifier: WIZARD_FLAME_ARROW
 ---
 Flame Arrow  

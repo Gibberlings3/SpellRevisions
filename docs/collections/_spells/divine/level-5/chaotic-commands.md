@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr508c
+icon: sppr508
 identifier: CLERIC_CHAOTIC_COMMANDS
 ---
 Chaotic Commands  

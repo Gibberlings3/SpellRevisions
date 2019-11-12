@@ -5,7 +5,7 @@ type: Divine
 level: 5
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr517c
+icon: sppr517
 identifier: CLERIC_INSECT_PLAGUE
 ---
 Insect Plague  

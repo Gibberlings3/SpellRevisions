@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi220c
+icon: spwi220
 identifier: WIZARD_POWER_WORD_SLEEP
 ---
 Power Word Sleep  

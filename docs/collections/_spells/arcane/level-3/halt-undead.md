@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi324c
+icon: spwi324
 identifier: WIZARD_HOLD_UNDEAD
 ---
 Halt Undead  

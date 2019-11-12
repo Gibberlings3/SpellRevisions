@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr201c
+icon: sppr201
 identifier: CLERIC_AID
 ---
 Aid  

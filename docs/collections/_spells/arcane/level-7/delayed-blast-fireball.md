@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi712c
+icon: spwi712
 identifier: WIZARD_DELAYED_BLAST_FIREBALL
 ---
 Delayed Blast Fireball  

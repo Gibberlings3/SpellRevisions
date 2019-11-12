@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: dvwi526c
+icon: dvwi526
 identifier: WIZARD_MESTILS_ACID_SHEATH
 ---
 Mestil's Acid Sheath  

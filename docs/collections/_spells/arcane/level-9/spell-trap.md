@@ -5,7 +5,7 @@ type: Arcane
 level: 9
 highlighted_classes: Abjurer
 prohibited_classes: Transmuter
-icon: spwi902c
+icon: spwi902
 identifier: WIZARD_SPELL_TRAP
 ---
 Spell Trap  

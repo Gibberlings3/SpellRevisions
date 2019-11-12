@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi818c
+icon: spwi818
 identifier: WIZARD_BIGBYS_CLENCHED_FIST
 ---
 Bigby's Icy Grasp  

@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Illusionist
 prohibited_classes: Necromancer
-icon: spwi703c
+icon: spwi703
 identifier: WIZARD_PROJECT_IMAGE
 ---
 Project Image  

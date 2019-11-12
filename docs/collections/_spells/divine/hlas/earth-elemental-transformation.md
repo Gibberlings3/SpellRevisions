@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr732c
+icon: sppr732
 identifier: CLERIC_ELEMENTAL_TRANSFORMATION_EARTH
 ---
 Earth Elemental Transformation  

@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr213c
+icon: sppr213
 identifier: CLERIC_SPIRITUAL_HAMMER
 ---
 Spiritual Hammer  

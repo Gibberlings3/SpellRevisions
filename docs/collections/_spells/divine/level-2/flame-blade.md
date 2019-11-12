@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr206c
+icon: sppr206
 identifier: CLERIC_FLAME_BLADE
 ---
 Flame Blade  

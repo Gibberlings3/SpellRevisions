@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi624c
+icon: spwi624
 identifier: WIZARD_SUMMON_HAKEASHAR
 ---
 Summon Nishruu  

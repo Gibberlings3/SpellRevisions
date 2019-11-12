@@ -5,7 +5,7 @@ type: Arcane
 level: 6
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi601c
+icon: spwi601
 identifier: WIZARD_INVISIBLE_STALKER
 ---
 Invisible Stalker  

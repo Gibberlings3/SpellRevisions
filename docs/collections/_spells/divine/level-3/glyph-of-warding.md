@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr304c
+icon: sppr304
 identifier: CLERIC_GLYPH_OF_WARDING
 ---
 Glyph of Warding  

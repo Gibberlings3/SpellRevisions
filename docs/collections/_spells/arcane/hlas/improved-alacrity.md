@@ -5,7 +5,7 @@ type: Arcane
 hla: true
 highlighted_classes: Transmuter
 prohibited_classes: 
-icon: spwi921c
+icon: spwi921
 identifier: WIZARD_IMPROVED_ALACRITY
 ---
 Improved Alacrity  

@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi421c
+icon: spwi421
 identifier: WIZARD_TELEPORT_FIELD
 ---
 Teleport Field  

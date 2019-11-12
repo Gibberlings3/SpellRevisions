@@ -5,7 +5,7 @@ type: Arcane
 level: 7
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi716c
+icon: spwi716
 identifier: WIZARD_MORDENKAINENS_SWORD
 ---
 Mordenkainen's Sword  

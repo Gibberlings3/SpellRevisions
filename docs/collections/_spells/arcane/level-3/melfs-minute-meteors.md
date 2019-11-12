@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi325c
+icon: spwi325
 identifier: WIZARD_MELF_METEOR
 ---
 Melf's Minute Meteors  

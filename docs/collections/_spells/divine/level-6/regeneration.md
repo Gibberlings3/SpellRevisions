@@ -5,7 +5,7 @@ type: Divine
 level: 6
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr711c
+icon: sppr711
 identifier: CLERIC_REGENERATION_DRUID_VERSION
 ---
 Regeneration  

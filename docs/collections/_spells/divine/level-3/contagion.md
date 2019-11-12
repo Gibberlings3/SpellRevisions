@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi409c
+icon: spwi409
 identifier: CLERIC_CONTAGION
 ---
 Contagion  

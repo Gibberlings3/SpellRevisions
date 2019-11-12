@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr719c
+icon: sppr719
 identifier: CLERIC_SYMBOL_DEATH
 ---
 Symbol of Death  

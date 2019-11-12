@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi224c
+icon: spwi224
 identifier: WIZARD_GLITTERDUST
 ---
 Glitterdust  

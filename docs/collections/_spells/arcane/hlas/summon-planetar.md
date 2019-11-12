@@ -5,7 +5,7 @@ type: Arcane
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: spwi923c
+icon: spwi923
 identifier: WIZARD_SUMMON_PLANATAR_GOOD
 ---
 Summon Planetar  

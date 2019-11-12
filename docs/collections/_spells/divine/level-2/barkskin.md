@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr202c
+icon: sppr202
 identifier: CLERIC_BARKSKIN
 ---
 Barkskin  

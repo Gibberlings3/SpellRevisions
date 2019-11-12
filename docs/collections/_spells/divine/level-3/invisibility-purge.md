@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr309c
+icon: sppr309
 identifier: CLERIC_INVISIBILITY_PURGE
 ---
 Invisibility Purge  

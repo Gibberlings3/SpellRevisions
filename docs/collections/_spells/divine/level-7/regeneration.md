@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr711c
+icon: sppr711
 identifier: CLERIC_REGENERATE
 ---
 Regeneration  

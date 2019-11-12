@@ -5,7 +5,7 @@ type: Arcane
 level: 1
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi104c
+icon: spwi104
 identifier: WIZARD_CHARM_PERSON
 ---
 Charm Person  

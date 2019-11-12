@@ -5,7 +5,7 @@ type: Divine
 level: 7
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr717c
+icon: sppr717
 identifier: CLERIC_CREEPING_DOOM
 ---
 Creeping Doom  

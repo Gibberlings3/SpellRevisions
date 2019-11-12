@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi322c
+icon: spwi322
 identifier: WIZARD_DETECT_ILLUSION
 ---
 Detect Illusion  

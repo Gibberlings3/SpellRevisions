@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi309c
+icon: spwi309
 identifier: WIZARD_MONSTER_SUMMONING_1
 ---
 Monster Summoning III  

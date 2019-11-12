@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr250c
+icon: sppr250
 identifier: CLERIC_WRITHING_FOG
 ---
 Writhing Fog  

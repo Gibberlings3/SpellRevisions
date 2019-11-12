@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi811c
+icon: spwi811
 identifier: WIZARD_SYMBOL_FEAR
 ---
 Symbol of Weakness  

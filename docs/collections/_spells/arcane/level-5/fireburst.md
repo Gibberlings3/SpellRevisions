@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Invoker
 prohibited_classes: Enchanter
-icon: spwi523c
+icon: spwi523
 identifier: WIZARD_SUN_FIRE
 ---
 Fireburst  

@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: dvpr320c
+icon: dvpr320
 identifier: CLERIC_ANIMAL_SUMMONING_LEVEL_3
 ---
 Animal Summoning III  

@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: sppr719c
+icon: sppr719
 identifier: WIZARD_SYMBOL_DEATH
 ---
 Symbol of Death  

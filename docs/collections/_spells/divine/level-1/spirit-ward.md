@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: Shaman
 prohibited_classes: Cleric Druid
-icon: sppr150c
+icon: sppr150
 identifier: CLERIC_SPIRIT_WARD
 ---
 Spirit Ward  

@@ -5,7 +5,7 @@ type: Arcane
 level: 2
 highlighted_classes: Enchanter
 prohibited_classes: Invoker
-icon: spwi209c
+icon: spwi209
 identifier: WIZARD_LUCK
 ---
 Luck  

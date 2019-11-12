@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Conjurer
 prohibited_classes: Diviner
-icon: spwi516c
+icon: spwi516
 identifier: WIZARD_CONJURE_LESSER_FIRE_ELEMENTAL
 ---
 Conjure Lesser Fire Elemental  

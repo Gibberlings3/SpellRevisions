@@ -5,7 +5,7 @@ type: Arcane
 level: 3
 highlighted_classes: Necromancer
 prohibited_classes: Illusionist
-icon: spwi314c
+icon: spwi314
 identifier: WIZARD_VAMPIRIC_TOUCH
 ---
 Vampiric Touch  

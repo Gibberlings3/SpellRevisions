@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spcl721c
+icon: spcl721
 identifier: CLERIC_STORM_SHIELD
 ---
 Storm Shield  

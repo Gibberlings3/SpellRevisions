@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr726c
+icon: sppr726
 identifier: CLERIC_SUMMON_DEVA
 ---
 Summon Deva  

@@ -5,7 +5,7 @@ type: Divine
 hla: true
 highlighted_classes: 
 prohibited_classes: 
-icon: sppr721c
+icon: sppr721
 identifier: CLERIC_ENERGY_BLADES
 ---
 Energy Blades  

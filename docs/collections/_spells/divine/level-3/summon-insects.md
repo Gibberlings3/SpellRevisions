@@ -5,7 +5,7 @@ type: Divine
 level: 3
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr319c
+icon: sppr319
 identifier: CLERIC_SUMMON_INSECTS
 ---
 Summon Insects  

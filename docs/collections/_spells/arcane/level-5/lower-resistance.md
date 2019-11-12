@@ -5,7 +5,7 @@ type: Arcane
 level: 5
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi514c
+icon: spwi514
 identifier: WIZARD_LOWER_RESISTANCE
 ---
 Lower Resistance  

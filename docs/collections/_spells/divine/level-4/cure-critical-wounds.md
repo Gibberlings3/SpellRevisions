@@ -5,7 +5,7 @@ type: Divine
 level: 4
 highlighted_classes: 
 prohibited_classes: Druid,Shaman
-icon: sppr502c
+icon: sppr502
 identifier: CLERIC_CURE_SERIOUS_WOUNDS
 ---
 Cure Critical Wounds  

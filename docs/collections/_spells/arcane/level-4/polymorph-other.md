@@ -5,7 +5,7 @@ type: Arcane
 level: 4
 highlighted_classes: Transmuter
 prohibited_classes: Abjurer
-icon: spwi415c
+icon: spwi415
 identifier: WIZARD_POLYMORPH_OTHER
 ---
 Polymorph Other  
