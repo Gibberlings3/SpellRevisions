@@ -1,0 +1,69 @@
+---
+title: New Spells & New Icons
+permalink: /spells/new-icons
+layout: default
+---
+<div class="columns is-centered">
+  <div class="column is-narrow">
+    <table class="table is-striped is-bordered">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Icons (C, B, A)</th>
+          <th>File Name</th>
+          <th>Type</th>
+          <th>Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign new_spells = site.data.new-spells-icons %}
+        {% for new_spell in new_spells %}
+          {% assign matching_spell = site.spells | where: "identifier", new_spell.id %}
+          {% for spell in matching_spell %}
+            <tr>
+              {% capture folder_name %}
+                {% if spell.type == 'Arcane' %}
+                  {{ spell.level | prepend: 'spwi' | append: '##' | url_encode | append: '/' }}
+                {% elsif spell.type == 'Divine' %}
+                  {{ spell.level | prepend: 'sppr' | append: '##' | url_encode | append: '/' }}
+                {% endif %}
+              {% endcapture %}
+              {% assign folder_url = folder_name | strip | prepend: 'https://github.com/Gibberlings3/SpellRevisions/raw/master/spell_rev/' %}
+              <td><a href="{{ spell.url | prepend: site.baseurl }}">{{ spell.name }}</a></td>
+              <td>
+                <span class="icon is-medium">
+                  <a href="{{ spell.icon | append: 'c.bam' | downcase | prepend: folder_url }}">
+                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'c.png' }}" alt="{{ spell.name }} spellbook icon" />
+                  </a>
+                </span>
+                <span class="icon is-medium">
+                  <a href="{{ spell.icon | append: 'b.bam' | downcase | prepend: folder_url }}">
+                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'b.png' }}" alt="{{ spell.name }} stone icon" />
+                  </a>
+                </span>
+                {% assign filename = spell.icon | append: 'a' | upcase %}
+                {% assign matching_icon = site.static_files | where_exp: "file", "file.basename == filename" %}
+                {% for icon in matching_icon %}
+                  <span class="icon is-medium">
+                    <a href="{{ spell.icon | append: 'a.bam' | downcase | prepend: folder_url }}">
+                      <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | append: 'a.png' }}" alt="{{ spell.name }} scroll icon" />
+                    </a>
+                  </span>
+                {% else %}
+                  <span class="icon is-medium has-background-danger"></span>
+                {% endfor %}
+              </td>
+              <td>{{ spell.icon }}</td>
+              <td>{{ spell.type }}</td>
+              <td>{{ spell.level }}</td>
+            </tr>
+          {% else %}
+            <tr>
+              <td>{{ new_spell.id }}</td>
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
