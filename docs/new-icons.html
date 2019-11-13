@@ -28,30 +28,10 @@ layout: default
                   {{ spell.level | prepend: 'sppr' | append: '##' | url_encode | append: '/' }}
                 {% endif %}
               {% endcapture %}
-              {% assign folder_url = folder_name | strip | prepend: 'https://github.com/Gibberlings3/SpellRevisions/raw/master/spell_rev/' %}
+              {% assign link_prefix = folder_name | strip | prepend: 'https://github.com/Gibberlings3/SpellRevisions/raw/master/spell_rev/' %}
               <td><a href="{{ spell.url | prepend: site.baseurl }}">{{ spell.name }}</a></td>
               <td>
-                <span class="icon is-medium">
-                  <a href="{{ spell.icon | append: 'c.bam' | downcase | prepend: folder_url }}">
-                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | upcase | append: 'C.png' }}" alt="{{ spell.name }} spellbook icon" />
-                  </a>
-                </span>
-                <span class="icon is-medium">
-                  <a href="{{ spell.icon | append: 'b.bam' | downcase | prepend: folder_url }}">
-                    <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | upcase | append: 'B.png' }}" alt="{{ spell.name }} stone icon" />
-                  </a>
-                </span>
-                {% assign filename = spell.icon | append: 'A' | upcase %}
-                {% assign matching_icon = site.static_files | where_exp: "file", "file.basename == filename" %}
-                {% for icon in matching_icon %}
-                  <span class="icon is-medium">
-                    <a href="{{ spell.icon | append: 'a.bam' | downcase | prepend: folder_url }}">
-                      <img src="{{ site.baseurl }}/assets/img/icons/{{ spell.icon | upcase | append: 'A.png' }}" alt="{{ spell.name }} scroll icon" />
-                    </a>
-                  </span>
-                {% else %}
-                  <span class="icon is-medium has-background-danger"></span>
-                {% endfor %}
+                {% include spell-icons.html icon = spell.icon name = spell.name link_prefix = link_prefix class = 'is-medium' show_placeholder = true %}
               </td>
               <td>{{ spell.icon }}</td>
               <td>{{ spell.type }}</td>
