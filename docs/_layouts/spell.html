@@ -22,6 +22,12 @@ layout: default
     </ul>
 </nav>
 
+<p>
+    {% assign alt = page.name | append: ' stone icon' %}
+    {% assign icon = page.icon | append: 'b' | upcase %}
+    {% include spell-icon.html class = 'is-medium has-background-dark' alt = alt icon = icon %}
+</p>
+
 {% assign first_line = page.name | append: "<br />" %}
 <div class="content">
     {{ content | remove_first: first_line }}
