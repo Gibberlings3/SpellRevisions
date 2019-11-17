@@ -1,0 +1,10 @@
+<nav class="class-filter navbar is-fixed-bottom">
+  <div class="navbar-item">
+    <div class="buttons are-small is-centered">
+      <button class="button is-info is-selected" data-class="" onclick="changeSelectedClass('')">All</button>
+      {% for class in include.classes %}
+        <button class="button" data-class="{{ class.value }}" onclick="changeSelectedClass(this.dataset.class)">{{ class.name }}</button>
+      {% endfor %}
+    </div>
+  </div>
+</nav>

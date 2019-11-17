@@ -1,0 +1,22 @@
+---
+title: Vanilla Arcane Spells
+permalink: /vanilla-spells/arcane/
+layout: spell-list
+toc: true
+has_bottom_navbar: true
+---
+
+{% include spell-list-class-filter.html classes = site.data.arcane-classes %}
+
+{% assign levels = site.vanilla-spells | where: 'type','Arcane' | where_exp: 'spell','spell.level' | sort: 'level' | group_by: 'level' %}
+{% for level in levels %}
+  {% capture header %}
+    Level {{ level.name }}
+  {% endcapture %}
+  {% assign header_id = header | slugify %}
+  {% assign spells = level.items | sort: 'name' %}
+  {% include spell-list.html icon_folder='vanilla-icons' header=header header_id=header_id spells=spells %}
+{% endfor %}
+
+{% assign hlas = site.vanilla-spells | where: 'type','Arcane' | where_exp: 'spell','spell.hla' | sort: 'name' %}
+{% include spell-list.html icon_folder='vanilla-icons' header='High-Level Ability' header_id='hla' spells=hlas %}

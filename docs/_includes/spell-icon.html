@@ -1,11 +1,11 @@
-
 {% assign class = include.class | '' %}
 
 {% assign resource = include.icon | upcase %}
-{% assign matching_icon = site.static_files | where_exp: "file", "file.basename == resource" %}
+{% capture path %}/assets/img/{{ include.icon_folder }}/{{ resource | append: '.png' }}{% endcapture %}
+{% assign matching_icon = site.static_files | where_exp: 'file', 'file.path == path' %}
 
 {% capture img %}
-  <img src="{{ site.baseurl }}/assets/img/icons/{{ resource | append: '.png' }}" alt="{{ include.alt | default: resource }}" />
+  <img src="{{ path | prepend: site.baseurl }}" alt="{{ include.alt | default: resource }}" />
 {% endcapture %}
 
 {% for icon in matching_icon %}

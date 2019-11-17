@@ -6,8 +6,8 @@
   {% assign icon = include.icon | append: icon_type.label | upcase %}
   {% if include.link_prefix %}
     {% assign link = include.icon | append: icon_type.label | append: '.bam' | downcase | prepend: include.link_prefix %}
-    {% include spell-icon.html class = class alt = alt icon = icon show_placeholder = show_placeholder link = link %}
+    {% include spell-icon.html icon_folder='icons' class=class alt=alt icon=icon show_placeholder=show_placeholder link=link %}
   {% else %}
-    {% include spell-icon.html class = class alt = alt icon = icon show_placeholder = show_placeholder %}
+    {% include spell-icon.html icon_folder='icons' class=class alt=alt icon=icon show_placeholder=show_placeholder %}
   {% endif %}
 {%endfor %}
