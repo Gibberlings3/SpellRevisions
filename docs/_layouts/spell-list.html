@@ -15,7 +15,7 @@ layout: page
         $(".spell[data-prohibited-classes*='" + newClass + "']").attr("disabled", true).each(function() {
             $(this).removeAttr("href");
         });
-        $(".class-filter button").removeClass("is-danger is-selected");
-        $(".class-filter button[data-class='" + newClass + "']").addClass("is-danger is-selected");
+        $(".class-filter button").removeClass("is-info is-selected");
+        $(".class-filter button[data-class='" + newClass + "']").addClass("is-info is-selected");
     }
 </script>

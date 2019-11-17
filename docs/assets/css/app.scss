@@ -2,6 +2,10 @@
 ---
 
 $primary: hsl(171, 100%, 41%);
+$black: hsl(0, 0%, 4%);
+
+$box-shadow: 0 0.5em 1em -0.125em rgba($black, 0.1), 0 0px 0 1px rgba($black, 0.02);
+$box-radius: 0;
 
 @import "main";
 
@@ -29,4 +33,13 @@ main {
 .class-filter, .class-filter .navbar-item
 {
   display: block;
+}
+
+// make icon on spell page rounded and padded
+.spell-page-icon
+{
+  padding: 6px;
+  border-radius: $radius-rounded;
+  height: 38px;
+  width: 38px;
 }

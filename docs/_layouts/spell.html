@@ -2,33 +2,98 @@
 layout: default
 ---
 
+{% if layout.platform == 'modded' %}
+    {% assign spell_folder = 'spells' %}
+    {% assign icon_folder = 'icons' %}
+    {% assign spells_label = 'Spells' %}
+{% else %}
+    {% assign spell_folder = 'vanilla-spells' %}
+    {% assign icon_folder = 'vanilla-icons' %}
+    {% assign spells_label = 'Vanilla Spells' %}
+{% endif %}
+
 {% if page.toc %}
     {% assign contentsTitle = page.toc_title | default: 'Contents' %}
     {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
 {% endif %}
 
+{% capture root %}{{ site.baseurl }}/{{ spell_folder }}{% endcapture %}
 {% capture parent %}
-    {% if page.type == "Arcane" %}
-        <li><a href="{{ site.baseurl}}/spells/arcane">Arcane</a></li>
-    {% elsif page.type == "Divine" %}
-        <li><a href="{{ site.baseurl}}/spells/divine">Divine</a></li>
+    {% if page.type == 'Arcane' %}
+        <li><a href="{{ root }}/arcane">Arcane</a></li>
+    {% elsif page.type == 'Divine' %}
+        <li><a href="{{ root }}/divine">Divine</a></li>
     {% endif %}
 {% endcapture %}
 
 <nav class="breadcrumb" aria-label="breadcrumbs">
     <ul>
+        <li><a href="{{ root }}">{{ spells_label }}</a></li>
         {{ parent }}
         <li class="is-active"><a href="#" aria-current="page">{{ page.name }}</a></li>
     </ul>
 </nav>
 
-<p>
-    {% assign alt = page.name | append: ' stone icon' %}
-    {% assign icon = page.icon | append: 'b' | upcase %}
-    {% include spell-icon.html class = 'is-medium has-background-dark' alt = alt icon = icon %}
-</p>
+<div class="columns is-vcentered">
+    <div class="column is-narrow">
+        {% assign alt = page.name | append: ' stone icon' %}
+        {% assign icon = page.icon | append: 'b' | upcase %}
+        {% include spell-icon.html icon_folder=icon_folder class='has-background-dark spell-page-icon' alt=alt icon=icon %}
+    </div>
+    <div class="column">
+        {% if page.type == 'Arcane' %}
+            {% assign classes = site.data.arcane-classes %}
+        {% else %}
+            {% assign classes = site.data.divine-classes %}
+        {% endif %}
+        <div class="tags">
+            {% for class in classes %}
+                {% if page.prohibited_classes contains class.value %}
+                    <span class="tag is-danger">{{ class.name }}</span>
+                {% elsif page.highlighted_classes contains class.value %}
+                    <span class="tag is-info">{{ class.name }}</span>
+                {% else %}
+                    <span class="tag is-primary">{{ class.name }}</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
 
-{% assign first_line = page.name | append: "<br />" %}
 <div class="content">
-    {{ content | remove_first: first_line }}
+    <div class="box">
+        {{ content }}
+    </div>
+
+    {% if layout.platform == 'modded' %}
+        {% assign other_spells = site.vanilla-spells %}
+        {% assign other_platform_label = 'vanilla' %}
+        {% assign message_color = 'info' %}
+    {% else %}
+        {% assign other_spells = site.spells %}
+        {% assign other_platform_label = 'SR' %}
+        {% assign message_color = 'warning' %}
+    {% endif %}
+    
+    <article class="message is-small is-{{ message_color }}">
+        <div class="message-body">
+            {% assign matching_spells = other_spells | where: 'identifier',page.identifier %}
+            {% for matching_spell in matching_spells %}
+                {% capture matching_spell_link %}<a href="{{ matching_spell.url | prepend: site.baseurl }}">{{ matching_spell.name }}</a>{% endcapture %}
+                
+                {% assign name = page.name | downcase %}
+                {% assign matching_spell_name = matching_spell.name | downcase %}
+
+                {% if name == matching_spell_name %}
+                    For the {{ other_platform_label }} version of the spell, see {{ matching_spell_link }}.
+                {% elsif layout.platform == 'modded' %}
+                    This spell replaces {{ matching_spell_link }}.
+                {% else %}
+                    This spell is replaced by {{ matching_spell_link }} in SR.
+                {% endif %}
+            {% else %}
+                This spell does not have a direct equivalent in {{ other_platform_label }}.
+            {% endfor %}
+        </div>
+    </article>
 </div>

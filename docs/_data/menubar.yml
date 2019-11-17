@@ -9,3 +9,10 @@
           link: /spells/arcane
         - name: Divine
           link: /spells/divine
+    - name: Vanilla Spell Lists
+      link: /vanilla-spells
+      items:
+        - name: Arcane
+          link: /vanilla-spells/arcane
+        - name: Divine
+          link: /vanilla-spells/divine

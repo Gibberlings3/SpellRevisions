@@ -4,10 +4,14 @@ remote_theme: chrisrhymes/bulma-clean-theme
 
 title: 'Spell Revisions'
 version: 'v4b17'
+bg2ee_version: 'v2.5.16.6'
 
 collections_dir: collections
 collections:
   spells:
+    output: true
+    permalink: /:collection/:path
+  vanilla-spells:
     output: true
     permalink: /:collection/:path
 
@@ -17,4 +21,10 @@ defaults:
       path: ""
       type: "spells"
     values:
-      layout: "spell"
+      layout: "spell-modded"
+  -
+    scope:
+      path: ""
+      type: "vanilla-spells"
+    values:
+      layout: "spell-vanilla"
