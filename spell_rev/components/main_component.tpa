@@ -2753,9 +2753,9 @@ COPY ~spell_rev\spwi7##\spwi711.spl~     ~override~  // Chaos ("replaces" Sphere
   WRITE_SHORT 0x98 %dvschaos%
 COPY ~spell_rev\spwi7##\scrl8m.itm~     ~override~
   SAY NAME2 @737    SAY IDENTIFIED_DESC   @738
-COPY ~spell_rev\spwi7##\spwi711a.bam~    ~override~
-COPY ~spell_rev\spwi7##\spwi711b.bam~    ~override~
-COPY ~spell_rev\spwi7##\spwi711c.bam~    ~override~
+COPY ~spell_rev\spwi7##\dvwi711a.bam~    ~override~
+COPY ~spell_rev\spwi7##\dvwi711b.bam~    ~override~ // also used by CLERIC_CHAOS
+COPY ~spell_rev\spwi7##\dvwi711c.bam~    ~override~ // also used by CLERIC_CHAOS
 APPEND ~spell.ids~ ~2711 WIZARD_CHAOS~
 
 COPY ~spell_rev\spwi7##\spwi712.spl~     ~override~  // Delayed Blast Fireball
