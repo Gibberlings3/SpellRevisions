@@ -36,6 +36,7 @@ To-do List:
 V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Use IWDEE icon for Sunscorch
 - Use EE icon for Spell Shield
+- Use EE icon for Globe of Invulnerability
 
 V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
