@@ -395,6 +395,7 @@ ADD_SPELL ~spell_rev\sppr1##\sppr114.spl~ 1 1 ~CLERIC_FAERIE_FIRE~ // Faerie Fir
   SAY NAME1 @25    SAY UNIDENTIFIED_DESC @26
   WRITE_SHORT 0x98 %dvffire%
 COPY ~spell_rev\sppr1##\dvpr114f.spl~ ~override~
+COPY ~spell_rev\sppr1##\dvpr114a.bam~ ~override~
 COPY ~spell_rev\sppr1##\dvpr114b.bam~ ~override~
 COPY ~spell_rev\sppr1##\dvpr114c.bam~ ~override~
 // uncomment the lines below to allow those affected by Faerie Fire to turn invisible

@@ -41,6 +41,7 @@ V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Use EE icon for Chaos
 - Use IWDEE icon for Cause Light Wounds
 - Use IWDEE Cause Medium Wounds icon for Cause Moderate Wounds
+- Update Faerie Fire icon to EE style (thanks bob_veng)
 
 V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
