@@ -2636,8 +2636,8 @@ COPY ~spell_rev\spwi6##\spwi623.spl~     ~override~  // Animate Skeleton Warrior
 COPY ~spell_rev\spwi6##\scrl8a.itm~     ~override~
   SAY NAME2 @703    SAY IDENTIFIED_DESC   @704
 COPY ~spell_rev\spwi6##\spwi501a.bam~     ~override~
-COPY ~spell_rev\spwi6##\spwi501b.bam~     ~override~
-COPY ~spell_rev\spwi6##\spwi501c.bam~     ~override~
+COPY ~spell_rev\spwi6##\spwi501b.bam~     ~override~ // also used by CLERIC_ANIMATE_SKELETON_WARRIOR
+COPY ~spell_rev\spwi6##\spwi501c.bam~     ~override~ // also used by CLERIC_ANIMATE_SKELETON_WARRIOR
 APPEND ~spell.ids~ ~2623 WIZARD_ANIMATE_SKELETON_WARRIOR~
 
 /* COPY ~spell_rev\spwi6##\ghastsu.eff~     ~override~
