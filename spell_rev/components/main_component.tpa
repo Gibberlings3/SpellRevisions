@@ -572,9 +572,9 @@ ADD_SPELL ~spell_rev\sppr2##\sppr215.spl~ 1 2 ~CLERIC_CURE_MODERATE_WOUNDS~ // C
 //ADD_SPELL: Fire Trap
 ADD_SPELL ~spell_rev\sppr2##\sppr216.spl~ 1 2 ~CLERIC_FIRE_TRAP~ // Fire Trap (new druid spell)
   SAY NAME1 @61    SAY UNIDENTIFIED_DESC @62
+COPY ~spell_rev\sppr2##\dvpr216a.bam~    ~override~
 COPY ~spell_rev\sppr2##\dvpr216b.bam~    ~override~
 COPY ~spell_rev\sppr2##\dvpr216c.bam~    ~override~
-
 
 //ADD_SPELL: Regenerate Moderate Wounds
 ADD_SPELL ~spell_rev\sppr2##\sppr217.spl~ 1 2 ~CLERIC_REGENERATE_MODERATE_WOUNDS~ // Regenerate Moderate Wounds (new druid spell)
