@@ -2188,6 +2188,10 @@ ACTION_IF NOT GAME_IS ~bgee bg2ee eet iwdee~ BEGIN
     SAY NAME2 @593    SAY IDENTIFIED_DESC   @594
   COPY ~spell_rev\spwi4##\enchwp~     ~override~
 END
+// change icon from red to blue on enhanced editions and original games
+COPY ~spell_rev\spwi4##\spwi417a.bam~     ~override~
+COPY ~spell_rev\spwi4##\spwi417b.bam~     ~override~
+COPY ~spell_rev\spwi4##\spwi417c.bam~     ~override~
 
 COPY ~spell_rev\spwi4##\spwi418.spl~     ~override~  // Fire Shield (Red)
   SAY NAME1 @595    SAY UNIDENTIFIED_DESC @596
