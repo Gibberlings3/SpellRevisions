@@ -410,6 +410,9 @@ COPY ~spell_rev\sppr1##\dvpr114c.bam~ ~override~
 //ADD_SPELL: Strength of Stone
 ADD_SPELL ~spell_rev\sppr1##\sppr115.spl~ 1 1 ~CLERIC_STRENGTH_OF_STONE~ // Strength of Stone
   SAY NAME1 @27    SAY UNIDENTIFIED_DESC @28
+COPY ~spell_rev\sppr1##\dvpr115a.bam~ ~override~
+COPY ~spell_rev\sppr1##\dvpr115b.bam~ ~override~
+COPY ~spell_rev\sppr1##\dvpr115c.bam~ ~override~
 
 //ADD_SPELL: Sunscorch
 ADD_SPELL ~spell_rev\sppr1##\sppr116.spl~ 1 1 ~CLERIC_SUNSCORCH~ // Sunscorch
