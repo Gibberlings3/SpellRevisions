@@ -1251,6 +1251,9 @@ COPY ~spell_rev\sppr7##\dvhoword.eff~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr711.spl~     ~override~  // Regeneration
   SAY NAME1 @249    SAY UNIDENTIFIED_DESC @250
+COPY ~spell_rev\sppr7##\sppr711a.bam~     ~override~
+COPY ~spell_rev\sppr7##\sppr711b.bam~     ~override~ // also used by CLERIC_REGENERATION_DRUID_VERSION
+COPY ~spell_rev\sppr7##\sppr711c.bam~     ~override~ // also used by CLERIC_REGENERATION_DRUID_VERSION
 
 COPY ~spell_rev\sppr7##\sppr712.spl~     ~override~  // Resurrection
   SAY NAME1 @251    SAY UNIDENTIFIED_DESC @252
