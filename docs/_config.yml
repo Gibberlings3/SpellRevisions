@@ -3,7 +3,7 @@ remote_theme: chrisrhymes/bulma-clean-theme
 #baseurl: '/'
 
 title: 'Spell Revisions'
-version: 'v4b17'
+version: 'v4b18'
 bg2ee_version: 'v2.5.16.6'
 
 collections_dir: collections
