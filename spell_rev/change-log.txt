@@ -33,6 +33,44 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
+V4 - Beta 18 (24 November 2019) - updated by Mike1072
+- Use IWDEE icon for Sunscorch
+- Use EE icon for Spell Shield
+- Use EE icon for Globe of Invulnerability
+- Use IWDEE icon for Mind Blank
+- Use EE icon for Chaos
+- Use IWDEE icon for Cause Light Wounds
+- Use IWDEE Cause Medium Wounds icon for Cause Moderate Wounds
+- Update Faerie Fire icon to EE style (thanks bob_veng)
+- Update Obscuring Mist icon to EE style (thanks bob_veng)
+- Update Icelance icon to EE style (thanks bob_veng)
+- Update Fire Trap icon to EE style (thanks bob_veng)
+- Update Shambling Mound icon to EE style (thanks bob_veng)
+- Update Animate Skeleton Warrior icon to EE style (thanks bob_veng)
+- Update Waves of Fatigue icon to EE style (thanks bob_veng)
+- Redesign Magic Fang icon (thanks bob_veng)
+- Use IWD-in-EET icon for Banishment (thanks bob_veng)
+- Redesign Animal Growth icon (thanks bob_veng)
+- Make Gust of Wind icon red (thanks bob_veng)
+- Use same icon for the druid and cleric versions of Gust of Wind
+- Add new icon for Moment of Prescience (thanks bob_veng)
+- Use EE icon for Spell Deflection
+- Add new icon for Greater Spell Deflection (thanks bob_veng)
+- Add new icon for Regenerate Light Wounds (thanks DreamSlaveOne)
+- Add new icon for Regenerate Moderate Wounds (thanks DreamSlaveOne)
+- Add new icon for Regenerate Serious Wounds (thanks DreamSlaveOne)
+- Add new icon for Regenerate Critical Wounds (thanks DreamSlaveOne)
+- Add new icon for Mass Regenerate (thanks DreamSlaveOne)
+- Add new icon for Regeneration (thanks DreamSlaveOne)
+- Add new icon for Expeditious Retreat (thanks bob_veng)
+- Add new icon for Strength of Stone (thanks bob_veng)
+- Add new icon for Protection from Elemental Energy (thanks bob_veng)
+- Add new icon for Dimension Jump (thanks DreamSlaveOne)
+- Add new icon for True Strike (thanks bob_veng)
+- Add new icon for Summon Death Knight (thanks DreamSlaveOne)
+- Make Enchanted Weapon icon blue (thanks bob_veng)
+- Fix miscoloured Symbol of Death icon in BGEE and BG2EE v2.5
+
 V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
 - Assign IDS aliases for all spell replacements (thanks DavidW and Grammarsalad)

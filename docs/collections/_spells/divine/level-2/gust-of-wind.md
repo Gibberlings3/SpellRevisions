@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi204
+icon: dvpr318
 identifier: CLERIC_GUST_OF_WIND_DRUID_VERSION
 ---
 Gust of Wind  

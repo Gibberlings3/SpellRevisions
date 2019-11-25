@@ -5,7 +5,7 @@ type: Divine
 level: 2
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: sppr315
+icon: dvpr217
 identifier: CLERIC_REGENERATE_MODERATE_WOUNDS
 ---
 Regenerate Moderate Wounds  

@@ -5,7 +5,7 @@ type: Arcane
 level: 8
 highlighted_classes: Diviner
 prohibited_classes: Conjurer
-icon: spwi306
+icon: dvwi808
 identifier: WIZARD_IMPROVED_MANTLE
 ---
 Moment of Prescience  
