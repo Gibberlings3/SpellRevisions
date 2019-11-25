@@ -2916,10 +2916,13 @@ COPY ~spell_rev\spwi8##\demglasu.cre~     ~override~
 COPY ~spell_rev\spwi8##\dvglabre.bcs~     ~override~
 COPY ~spell_rev\spwi8##\demglasu.itm~     ~override~
 
-COPY ~spell_rev\spwi8##\spwi808.spl~     ~override~  // Moment of Prescience
+COPY ~spell_rev\spwi8##\spwi808.spl~     ~override~  // Moment of Prescience (replaces Improved Mantle)
   SAY NAME1 @779    SAY UNIDENTIFIED_DESC @780
 COPY ~spell_rev\spwi8##\scrl9c.itm~     ~override~
   SAY NAME2 @779    SAY IDENTIFIED_DESC   @780
+COPY ~spell_rev\spwi8##\dvwi808a.bam~     ~override~
+COPY ~spell_rev\spwi8##\dvwi808b.bam~     ~override~
+COPY ~spell_rev\spwi8##\dvwi808c.bam~     ~override~
 APPEND ~spell.ids~ ~2808 WIZARD_MOMENT_OF_PRESCIENCE~
 
 COPY ~spell_rev\spwi8##\spwi809.spl~     ~override~  // Simbul's Spell Trigger (previously named Spell Trigger)
