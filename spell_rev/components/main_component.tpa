@@ -2761,12 +2761,15 @@ COPY ~spell_rev\spwi7##\spwi707.spl~     ~override~  // Summon Death Knight (rep
   SAY NAME1 @731    SAY UNIDENTIFIED_DESC @732
 COPY ~spell_rev\spwi7##\scrl8i.itm~     ~override~
   SAY NAME2 @731    SAY IDENTIFIED_DESC   @732
-COPY ~spell_rev\spwi7##\spcaco.eff~     ~override~ // also used by SPPR703
+COPY ~spell_rev\spwi7##\spcaco.eff~     ~override~ // also used by CLERIC_SUMMON_DEATH_KNIGHT
 COPY ~spell_rev\spwi7##\dvdeathk.bcs~     ~override~
 COPY ~spell_rev\spwi7##\dvdeathk.cre~     ~override~
   SAY NAME1 @3731
   SAY NAME2 @3731
 COPY ~spell_rev\spwi7##\dvdeathk.itm~     ~override~
+COPY ~spell_rev\spwi7##\dvwi707a.bam~    ~override~
+COPY ~spell_rev\spwi7##\dvwi707b.bam~    ~override~ // also used by CLERIC_SUMMON_DEATH_KNIGHT
+COPY ~spell_rev\spwi7##\dvwi707c.bam~    ~override~ // also used by CLERIC_SUMMON_DEATH_KNIGHT
 APPEND ~spell.ids~ ~2707 WIZARD_SUMMON_DEATH_KNIGHT~
 
 COPY ~spell_rev\spwi7##\spwi708.spl~     ~override~  // Mantle
