@@ -48,6 +48,7 @@ V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Update Shambling Mound icon to EE style (thanks bob_veng)
 - Update Animate Skeleton Warrior icon to EE style (thanks bob_veng)
 - Update Waves of Fatigue icon to EE style (thanks bob_veng)
+- Redesign Magic Fang icon (thanks bob_veng)
 
 V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
