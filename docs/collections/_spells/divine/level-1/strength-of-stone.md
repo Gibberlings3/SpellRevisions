@@ -5,7 +5,7 @@ type: Divine
 level: 1
 highlighted_classes: 
 prohibited_classes: Cleric
-icon: spwi214
+icon: dvpr115
 identifier: CLERIC_STRENGTH_OF_STONE
 ---
 Strength of Stone  
