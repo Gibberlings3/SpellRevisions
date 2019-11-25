@@ -5,7 +5,7 @@
 <div class="columns is-multiline is-variable is-1-mobile is-2-tablet">
   {% for spell in include.spells %}
     <div class="column is-half-tablet is-one-third-widescreen">
-      <a class="spell button is-rounded is-size-6 is-primary is-fullwidth" href="{{ spell.url | prepend: site.baseurl }}"
+      <a class="spell-list-entry button is-rounded is-size-6 is-primary is-fullwidth" href="{{ spell.url | prepend: site.baseurl }}"
         data-url="{{ spell.url | prepend: site.baseurl }}" data-highlighted-classes="{{ spell.highlighted_classes }}" data-prohibited-classes="{{ spell.prohibited_classes }}">
         <span class="icon">
           <img src="{{ site.baseurl }}/assets/img/{{ include.icon_folder }}/{{ spell.icon | upcase | append: 'C.png' }}" alt="{{ spell.name }} icon" />

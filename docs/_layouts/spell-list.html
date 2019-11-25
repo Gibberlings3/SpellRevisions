@@ -8,11 +8,11 @@ layout: page
 
 <script>
     function changeSelectedClass(newClass) {
-        $(".spell").removeClass("is-info").addClass("is-primary").attr("disabled", false).each(function() {
+        $(".spell-list-entry").removeClass("is-info").addClass("is-primary").attr("disabled", false).each(function() {
             $(this).prop("href", this.dataset.url);
         });
-        $(".spell[data-highlighted-classes*='" + newClass + "']").removeClass("is-primary").addClass("is-info");
-        $(".spell[data-prohibited-classes*='" + newClass + "']").attr("disabled", true).each(function() {
+        $(".spell-list-entry[data-highlighted-classes*='" + newClass + "']").removeClass("is-primary").addClass("is-info");
+        $(".spell-list-entry[data-prohibited-classes*='" + newClass + "']").attr("disabled", true).each(function() {
             $(this).removeAttr("href");
         });
         $(".class-filter button").removeClass("is-info is-selected");
