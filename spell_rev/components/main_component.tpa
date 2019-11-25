@@ -908,6 +908,9 @@ ADD_SPELL ~spell_rev\sppr4##\sppr418.spl~ 1 4 ~CLERIC_ICE_STORM~  // Ice Storm (
 //ADD_SPELL: Regenerate Critical Wounds
 ADD_SPELL ~spell_rev\sppr4##\sppr419.spl~ 1 4 ~CLERIC_REGENERATE_CRITICAL_WOUNDS~  // Regenerate Critical Wounds (new druid spell)
   SAY NAME1 @307    SAY UNIDENTIFIED_DESC @308
+COPY ~spell_rev\sppr4##\dvpr419a.bam~     ~override~
+COPY ~spell_rev\sppr4##\dvpr419b.bam~     ~override~
+COPY ~spell_rev\sppr4##\dvpr419c.bam~     ~override~
 
 
 /*-----------------------level 5-----------------------*/
