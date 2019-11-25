@@ -701,6 +701,9 @@ COPY ~spell_rev\sppr3##\sppr317.spl~     ~override~  // Cure Disease
 COPY ~spell_rev\sppr3##\sppr318.spl~     ~override~  // Gust of Wind (replaces Zone of Sweet Air)
   SAY NAME1 @101    SAY UNIDENTIFIED_DESC @102
 /* STRING_SET ~45247~ @3101 // change Load Game/Change Area string reference */
+COPY ~spell_rev\sppr3##\dvpr318a.bam~     ~override~
+COPY ~spell_rev\sppr3##\dvpr318b.bam~     ~override~ // also used by CLERIC_GUST_OF_WIND_DRUID_VERSION
+COPY ~spell_rev\sppr3##\dvpr318c.bam~     ~override~ // also used by CLERIC_GUST_OF_WIND_DRUID_VERSION
 APPEND ~spell.ids~ ~1318 CLERIC_GUST_OF_WIND~
 
 COPY ~spell_rev\sppr3##\sppr319.spl~     ~override~  // Summon Insects

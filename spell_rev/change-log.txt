@@ -51,6 +51,8 @@ V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Redesign Magic Fang icon (thanks bob_veng)
 - Use IWD-in-EET icon for Banishment (thanks bob_veng)
 - Redesign Animal Growth icon (thanks bob_veng)
+- Make Gust of Wind icon red (thanks bob_veng)
+- Use same icon for the druid and cleric versions of Gust of Wind
 
 V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)
