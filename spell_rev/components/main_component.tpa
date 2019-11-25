@@ -1695,6 +1695,9 @@ ADD_SPELL ~spell_rev\spwi1##\spwi109.spl~ 2 1 ~WIZARD_DIMENSION_JUMP~  // Dimens
   SAY NAME1 @563    SAY UNIDENTIFIED_DESC @564
 COPY ~spell_rev\spwi1##\scrl1v.itm~     ~override~  // vanilla's Dimension Door scroll
   SAY NAME2 @563    SAY IDENTIFIED_DESC   @564
+COPY ~spell_rev\spwi1##\dvwi109a.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi109b.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi109c.bam~     ~override~
 
 //ADD_SPELL: Know Alignment
  ADD_SPELL ~spell_rev\spwi1##\spwi126.spl~ 2 1 ~WIZARD_KNOW_ALIGNMENT~  // Detect Alignment (moved from lvl 2)
