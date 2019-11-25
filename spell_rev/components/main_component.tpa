@@ -1479,6 +1479,9 @@ COPY ~spell_rev\spwi1##\spwi111.spl~     ~override~  // True Strike (replaces In
   SAY NAME1 @419    SAY UNIDENTIFIED_DESC @420
 COPY ~spell_rev\spwi1##\scrl76.itm~     ~override~
   SAY NAME2 @419    SAY IDENTIFIED_DESC   @420
+COPY ~spell_rev\spwi1##\dvwi111a.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi111b.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi111c.bam~     ~override~
 APPEND ~spell.ids~ ~2111 WIZARD_TRUE_STRIKE~
 
 COPY ~spell_rev\spwi1##\spwi112.spl~     ~override~  // Magic Missile
