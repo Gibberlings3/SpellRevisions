@@ -69,6 +69,7 @@ V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Add new icon for True Strike (thanks bob_veng)
 - Add new icon for Summon Death Knight (thanks DreamSlaveOne)
 - Make Enchanted Weapon icon blue (thanks bob_veng)
+- Fix miscoloured Symbol of Death icon in BGEE and BG2EE v2.5
 
 V4 - Beta 17 (31 October 2019) - updated by Mike1072
 - Use ADD_SPELL for all new spells (thanks Grammarsalad)

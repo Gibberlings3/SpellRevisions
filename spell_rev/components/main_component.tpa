@@ -1283,6 +1283,7 @@ COPY ~spell_rev\sppr7##\a#ishope.vvc~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr719.spl~     ~override~  // Symbol of Death
   SAY NAME1 @295    SAY UNIDENTIFIED_DESC @296
+COPY ~spell_rev\sppr7##\sppr719c.bam~     ~override~ // fix miscoloured icon in BGEE and BG2EE v2.5
 
 COPY ~spell_rev\sppr7##\sppr720.spl~     ~override~  // Earthquake
   SAY NAME1 @261    SAY UNIDENTIFIED_DESC @262
