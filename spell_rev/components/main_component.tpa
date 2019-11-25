@@ -1055,6 +1055,9 @@ SAY NAME1 @309    SAY UNIDENTIFIED_DESC @310
     WRITE_SHORT (0x98 + 0x28 * (%loop% - 1) ) %dvmsrege%
     SET "loop" = %loop% - 1
   END
+COPY ~spell_rev\sppr5##\dvpr524a.bam~     ~override~
+COPY ~spell_rev\sppr5##\dvpr524b.bam~     ~override~
+COPY ~spell_rev\sppr5##\dvpr524c.bam~     ~override~
 
 //ADD_SPELL: Animal Growth
 ADD_SPELL ~spell_rev\sppr5##\sppr525.spl~ 1 5 ~CLERIC_ANIMAL_GROWTH~  // Animal Growth
