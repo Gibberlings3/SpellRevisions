@@ -1683,7 +1683,9 @@ ADD_SPELL ~spell_rev\spwi1##\spwi108.spl~ 2 1 ~WIZARD_EXPEDITIOUS_RETREAT~  // E
   SAY NAME1 @415    SAY UNIDENTIFIED_DESC @416
 COPY ~spell_rev\spwi1##\dvscrl73.itm~     ~override~
   SAY NAME2 @415    SAY IDENTIFIED_DESC   @416
-// TODO: add unique spell and scroll icon so Expeditious Retreat doesn't have to share the ones from Protection from Petrification
+COPY ~spell_rev\spwi1##\dvwi108a.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi108b.bam~     ~override~
+COPY ~spell_rev\spwi1##\dvwi108c.bam~     ~override~
 
 //ADD_SPELL: Dimension Jump
 ADD_SPELL ~spell_rev\spwi1##\spwi109.spl~ 2 1 ~WIZARD_DIMENSION_JUMP~  // Dimension Jump (added by V4)
