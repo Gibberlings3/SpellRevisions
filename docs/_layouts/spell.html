@@ -18,18 +18,18 @@ layout: default
 {% endif %}
 
 {% capture root %}{{ site.baseurl }}/{{ spell_folder }}{% endcapture %}
-{% capture parent %}
-    {% if page.type == 'Arcane' %}
-        <li><a href="{{ root }}/arcane">Arcane</a></li>
-    {% elsif page.type == 'Divine' %}
-        <li><a href="{{ root }}/divine">Divine</a></li>
-    {% endif %}
-{% endcapture %}
+{% if page.type == 'Arcane' %}
+    {% assign parent_url = root | append: '/arcane' %}
+    {% assign parent_label = 'Arcane' %}
+{% elsif page.type == 'Divine' %}
+    {% assign parent_url = root | append: '/divine' %}
+    {% assign parent_label = 'Divine' %}
+{% endif %}
 
 <nav class="breadcrumb" aria-label="breadcrumbs">
     <ul>
         <li><a href="{{ root }}">{{ spells_label }}</a></li>
-        {{ parent }}
+        <li><a href="{{ parent_url }}">{{ parent_label }}</a></li>
         <li class="is-active"><a href="#" aria-current="page">{{ page.name }}</a></li>
     </ul>
 </nav>
@@ -46,15 +46,16 @@ layout: default
         {% else %}
             {% assign classes = site.data.divine-classes %}
         {% endif %}
-        <div class="tags">
+        <div class="buttons">
             {% for class in classes %}
                 {% if page.prohibited_classes contains class.value %}
-                    <span class="tag is-danger">{{ class.name }}</span>
+                    {% assign button_style = 'is-danger' %}
                 {% elsif page.highlighted_classes contains class.value %}
-                    <span class="tag is-info">{{ class.name }}</span>
+                    {% assign button_style = 'is-info' %}
                 {% else %}
-                    <span class="tag is-primary">{{ class.name }}</span>
+                    {% assign button_style = 'is-primary' %}
                 {% endif %}
+                <a href="{{ class.value | url_encode | prepend: '?class=' | prepend: parent_url }}" class="button is-small {{ button_style }}">{{ class.name }}</a>
             {% endfor %}
         </div>
     </div>
