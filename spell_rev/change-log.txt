@@ -33,6 +33,9 @@ To-do List:
 - Imprisonment slay powerful summons?, allow a save?
 - Globe of Blades reworked similar to Blade Barrier (lower damage but no-save)
 
+V4 - Beta 19
+- Fix typo in Dispel Magic description
+
 V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Use IWDEE icon for Sunscorch
 - Use EE icon for Spell Shield
