@@ -36,6 +36,7 @@ To-do List:
 V4 - Beta 19
 - Fix typo in Dispel Magic description
 - Fix inconsistency in Improved Haste description
+- Fix Protection from Elemental Energy not working
 
 V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Use IWDEE icon for Sunscorch

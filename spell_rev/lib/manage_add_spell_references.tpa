@@ -200,7 +200,7 @@ BEGIN
       FOR (j = 0; j < num_features; j += 1) BEGIN
         READ_SHORT (effects_off + 0x30*(features_ind + j) + 0x00) opcode
         READ_ASCII (effects_off + 0x30*(features_ind + j) + 0x14) resource
-        PATCH_IF (STRING_LENGTH ~%resource%~ > 0) BEGIN
+        PATCH_IF (VARIABLE_IS_SET $spl_resource_opcodes(~%opcode%~)) BEGIN
           LPF ~%resource_replacement_func%~ STR_VAR input_resref = EVAL ~%resource%~ RET new_resource = output_resref END
           PATCH_IF (NOT ~%new_resource%~ STRING_EQUAL ~%resource%~) BEGIN
             WRITE_ASCIIE (effects_off + 0x30*(features_ind + j) + 0x14) ~%new_resource%~ #8
