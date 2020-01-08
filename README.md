@@ -1,2 +1,2 @@
-# SpellRevisions
-Fork of SPell Revisions to stage fix patches.
+# Spell Revisions
+Fork of Spell Revisions to stage fix patches.
