@@ -338,7 +338,7 @@ School: Divination
 Sphere: Divination
 Range: Long
 Duration: 2 turns
-Casting Time: 1 round
+Casting Time: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -914,8 +914,8 @@ Special Qualities:
 Magic Resistance 75%
 
 Memorized Spells:
-1º Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2º Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 
 Nymph (7 Hit Dice):
 STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Neutral Good
@@ -926,10 +926,10 @@ Special Qualities:
 Magic Resistance 50%
 
 Memorized Spells:
-1º Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2º Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
-3º Call Lightning, Hold Person or Animal, Summon Insects
-4º Animal Summoning IV~
+1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+3ï¿½ Call Lightning, Hold Person or Animal, Summon Insects
+4ï¿½ Animal Summoning IV~
 
 @2129=~Nymph~
 
@@ -2117,13 +2117,13 @@ Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Memorized Spells:
-1º Bless (x3), Resist Fear (x3)
-2º Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3º Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4º Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
-5º Mass Cure, Raise Dead, True Seeing
-6º Blade Barrier, Heal
-7º Holy Word~
+1ï¿½ Bless (x3), Resist Fear (x3)
+2ï¿½ Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3ï¿½ Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4ï¿½ Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
+5ï¿½ Mass Cure, Raise Dead, True Seeing
+6ï¿½ Blade Barrier, Heal
+7ï¿½ Holy Word~
 
 @2281=~Deva~
 
@@ -2155,13 +2155,13 @@ Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Memorized Spells:
-1º Doom (x3), Resist Fear (x3)
-2º Hold Person (x3), Find Trap, Know Opponent, Silence
-3º Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4º Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
-5º Flame Strike, Greater Command, True Seeing
-6º Blade Barrier, Harm
-7º Unholy Word~
+1ï¿½ Doom (x3), Resist Fear (x3)
+2ï¿½ Hold Person (x3), Find Trap, Know Opponent, Silence
+3ï¿½ Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4ï¿½ Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
+5ï¿½ Flame Strike, Greater Command, True Seeing
+6ï¿½ Blade Barrier, Harm
+7ï¿½ Unholy Word~
 
 @2283=~Fallen Deva~
 
@@ -2339,7 +2339,7 @@ Casting Time: 1
 Area of Effect: Special
 Saving Throw: Special
 
-This spell creates a severe blast of air that originates from the caster, affecting all enemies in its path. Those within 6 feet must save vs. breath or be blown back by the force of the gust and knocked unconscious for 1 round. In addition, this spell will disperse all clouds (including magically created vapors such as Cloudkill) in the caster's current area.~
+This spell creates a severe blast of air that originates from the caster, affecting all enemies in its path. Those within 6 feet must save vs. breath or be blown back by the force of the gust and knocked unconscious for 1 round. In addition, this spell will disperse all clouds in the caster's current area, including magically created vapors such as Cloudkill, as well as dispersing any insect swarms surrounding the caster.~
 
 @315=~Cause Light Wounds~
 @316=~Cause Light Wounds
