@@ -699,7 +699,7 @@ Saving Throw: Special
 
 The Summon Insects spell attracts a cloud or swarm of normal insects to attack one enemy of the caster. This swarm gathers at a point chosen by the caster, within the spell's range, and attacks a single creature the caster points to.
 
-For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, and has a 100% chance of spell failure. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
+For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, has a 100% chance of spell failure and it if fails a save vs. poison at +2 it panics. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
 
 @107=~Cause Serious Wounds~
 @108=~Cause Serious Wounds
