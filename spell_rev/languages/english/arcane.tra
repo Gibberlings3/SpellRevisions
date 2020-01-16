@@ -2277,7 +2277,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
-The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 6d8 points of damage.~
+The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 2d8 + 1 points per level of the caster of magic damage, up to a maximum of 2d8 + 20.~
 
 @743=~Prismatic Spray~
 @744=~Prismatic Spray
