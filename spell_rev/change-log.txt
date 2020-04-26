@@ -38,6 +38,7 @@ V4 - Beta 19
 - Fix inconsistency in Improved Haste description
 - Fix Protection from Elemental Energy not working
 - Fix icons for Obscuring Mist and Monster Summoning I scrolls (thanks NdranC and aenri)
+- Fix compatibility issue with Divine Remix v8+
 
 V4 - Beta 18 (24 November 2019) - updated by Mike1072
 - Use IWDEE icon for Sunscorch
