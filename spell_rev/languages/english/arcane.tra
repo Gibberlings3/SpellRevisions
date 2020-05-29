@@ -882,7 +882,7 @@ Saving Throw: None
 
 When this spell is cast, it will dispel one spell protection of 5th level or lower on all enemies within the area of effect. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
 
-The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen and Spell Shield.~
+The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection and Spell Shield.~
 
 @541=~Detect Illusion~
 @542=~Detect Illusion
@@ -1229,7 +1229,7 @@ Saving Throw: None
 
 When a Secret Word spell is uttered, it will dispel one spell protection of 7th level or lower on the target. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
 
-The spell protection spells dispelled by Secret Word are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons.~
+The spell protection spells dispelled by Secret Word are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons.~
 
 @599=~Simbul's Spell Matrix~
 @600=~Simbul's Spell Matrix
@@ -1819,7 +1819,7 @@ Saving Throw: None
 
 When this spell is cast upon a target creature there will be two major effects. The first is that it will dispel one spell protection of 8th level or lower from the creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The second effect of the spell is that the creature's magic resistance is temporary nullified. The resistance remains lowered for 2 rounds, and this effect cannot be negated in any way. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
+The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
 
 @677=~True Seeing~
 @678=~True Seeing
@@ -2171,7 +2171,7 @@ Saving Throw: None
 
 When this spell is cast it will dispel one spell protection of any level on the target. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
 
-The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.~
+The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.~
 
 @729=~Khelben's Warding Whip~
 @730=~Khelben's Warding Whip
@@ -2185,7 +2185,7 @@ Saving Throw: None
 
 When this spell is cast on the target creature, it will dispel one spell protection of up to 8th level or lower. Every round thereafter, until the duration of the spell expires, another spell protection will be removed from the target. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
+The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
 
 @731=~Summon Death Knight~
 @732=~Summon Death Knight
