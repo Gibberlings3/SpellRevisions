@@ -242,7 +242,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
-With this spell, the wizard drains the life force from a target and adds it to his own. The target creature suffers 2 points of damage, while the mage gains 2 hit points. For every two extra levels of the caster, the draining is augmented by 2 points (up to a maximum of 10 points at 9th level). If the mage goes over his maximum hit point total with this spell, he loses it after 1 turn.~
+With this spell, the wizard drains the life force from a target and adds it to his own. The target creature suffers 2 points of damage, while the mage gains 2 hit points. For every two extra levels of the caster, the draining is augmented by 2 points (up to a maximum of 10 points at 9th level). If the mage goes over his maximum hit point total with this spell, he loses it after 1 turn. Magic resistance does not affect this spell.~
 
 @437=~Reflected Image~
 @438=~Reflected Image
@@ -798,7 +798,7 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
-When this spell is cast, the target loses 3 hit points for every two caster levels, to a maximum drain of 30 for a 20th level caster. These hit points are added to the caster's current hit points, with any hit points over the caster's normal maximum treated as temporary additional hit points. The temporary hit points last for 5 turns.
+When this spell is cast, the target loses 3 hit points for every two caster levels, to a maximum drain of 30 for a 20th level caster. These hit points are added to the caster's current hit points, with any hit points over the caster's normal maximum treated as temporary additional hit points. The temporary hit points last for 5 turns. Magic resistance does not affect this spell.
 
 Note that this spell may not be cast multiple times to radically increase the caster's hit points. The caster must wait for the first Vampiric Touch spell to run its course before casting another.~
 
