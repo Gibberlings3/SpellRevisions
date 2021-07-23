@@ -3407,5 +3407,84 @@ INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
 INCLUDE ~spell_rev/lib/d5_set_spell_schools.tpa~
 LAF set_spell_schools END
 
+/*------------ MODIFY IR STUFF ------------*/
+
+ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]CLERIC_POLYMORPH_OTHER[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN // Periapt of Form Stability Druid Polymorph Other
+  LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~CLERIC_POLYMORPH_OTHER~ RET spell_res END
+  OUTER_SPRINT polymorph_other ~%spell_res%~
+  ACTION_IF (FILE_EXISTS_IN_GAME ~amul24.itm~) THEN BEGIN
+    COPY_EXISTING ~amul24.itm~ ~override~
+      LPF CLONE_EFFECT INT_VAR silent = 1 match_opcode = 206 STR_VAR match_resource = ~spwi415~ resource = EVAL ~%polymorph_other%~ END
+    IF_EXISTS BUT_ONLY
+  END
+END
+
+ACTION_IF (MOD_IS_INSTALLED ~item_rev.tp2~ ~0~) BEGIN
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~brac23.itm~) THEN BEGIN
+	ACTION_IF (TRA_ENTRY_EXISTS (~10057~ ~spell_rev\languages\%LANGUAGE%\divine.tra~)) BEGIN
+	  COPY_EXISTING ~brac23.itm~ ~override~
+		SPRINT old_spell_name @10057 			// Righteous Magic
+		SPRINT new_spell_name @57 				// Righteous Fury
+	    READ_LONG 0x54 "valid"
+	    PATCH_IF ("%valid%" < 2147483646) AND ("%valid%" >= 0) BEGIN 
+	    	READ_STRREF 0x54 "description"
+	    	INNER_PATCH_SAVE new_desc ~%description%~ BEGIN
+	          REPLACE_TEXTUALLY ~%old_spell_name%~ ~%new_spell_name%~
+	    	END
+	    	SAY_EVALUATED 0x54 ~%new_desc%~
+	    END
+	  BUT_ONLY
+	END
+	ACTION_IF (FILE_EXISTS_IN_GAME ~brac23.spl~) THEN BEGIN
+	  COPY_EXISTING ~brac23.spl~ ~override~
+		SAY NAME1 @57 							// Righteous Fury
+	  BUT_ONLY
+	END
+  END
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~misc3a5.itm~) THEN BEGIN
+	ACTION_IF (TRA_ENTRY_EXISTS (~10721~ ~spell_rev\languages\%LANGUAGE%\arcane.tra~)) BEGIN
+	  COPY_EXISTING ~misc3a5.itm~ ~override~
+		SPRINT old_spell_name @10721 			// Spell Turning
+		SPRINT new_spell_name @721 				// Greater Spell Deflection
+	    READ_LONG 0x54 "valid"
+	    PATCH_IF ("%valid%" < 2147483646) AND ("%valid%" >= 0) BEGIN 
+	    	READ_STRREF 0x54 "description"
+	    	INNER_PATCH_SAVE new_desc ~%description%~ BEGIN
+	          REPLACE_TEXTUALLY ~%old_spell_name%~ ~%new_spell_name%~
+	    	END
+	    	SAY_EVALUATED 0x54 ~%new_desc%~
+	    END
+	  BUT_ONLY
+	END
+  END
+
+// also, do this to misc3a, misc3a1-a8 - the other pages of the Book
+  ACTION_FOR_EACH book IN ~misc3a~ ~misc3a1~ ~misc3a2~ ~misc3a3~ ~misc3a4~ ~misc3a5~ ~misc3a6~ ~misc3a7~ ~misc3a8~ BEGIN
+	COPY_EXISTING ~%book%~ ~override~
+	  LPF ALTER_EFFECT INT_VAR match_opcode = 122 STR_VAR match_resource = ~misc3a9~ resource = ~misc3a3~ END
+	IF_EXISTS BUT_ONLY
+  END
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~sw1h65.itm~) THEN BEGIN
+	ACTION_IF (TRA_ENTRY_EXISTS (~10175~ ~spell_rev\languages\%LANGUAGE%\divine.tra~)) BEGIN
+	  COPY_EXISTING ~sw1h65.itm~ ~override~
+		SPRINT old_spell_name @10175 			// Draw Upon Holy Might
+		SPRINT new_spell_name @175 				// Draw Upon Divine Might
+	    READ_LONG 0x54 "valid"
+	    PATCH_IF ("%valid%" < 2147483646) AND ("%valid%" >= 0) BEGIN 
+	    	READ_STRREF 0x54 "description"
+	    	INNER_PATCH_SAVE new_desc ~%description%~ BEGIN
+	          REPLACE_TEXTUALLY ~%old_spell_name%~ ~%new_spell_name%~
+	    	END
+	    	SAY_EVALUATED 0x54 ~%new_desc%~
+	    END
+	  BUT_ONLY
+	END
+  END
+
+END
+
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
