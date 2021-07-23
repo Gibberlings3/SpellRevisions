@@ -107,8 +107,8 @@ ACTION_PHP_EACH d5_spell_scroll_school AS spell => school BEGIN
 	END
 	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
 		COPY_EXISTING ~%spell_1%.itm~ ~override~
-			WRITE_BYTE 0x2d ("0x00") //blocked: none
 			WRITE_BYTE 0x2f ("0x00") //blocked: none
+			WRITE_BYTE 0x2d ("0x00") //blocked: none
 			READ_LONG 0x54 "valid"
 			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
 				READ_STRREF 0x54 "desc"
@@ -154,8 +154,8 @@ ACTION_PHP_EACH d5_spell_scroll_school AS spell => school BEGIN
 	END
 	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
 		COPY_EXISTING ~%spell_1%.itm~ ~override~
-			WRITE_BYTE 0x2d ("0x00") //blocked: none
 			WRITE_BYTE 0x2f ("0x00") //blocked: none
+			WRITE_BYTE 0x2d ("0x00") //blocked: none
 			READ_LONG 0x54 "valid"
 			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
 				READ_STRREF 0x54 "desc"
@@ -431,8 +431,8 @@ ACTION_PHP_EACH d5_spell_scroll_school AS spell => school BEGIN
 	END
 	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
 		COPY_EXISTING ~%spell_1%.itm~ ~override~
-			WRITE_BYTE 0x2d ("0x00") //blocked: 
-			WRITE_BYTE 0x2f ("0x02") //blocked: enchanters
+			WRITE_BYTE 0x2f ("0x00") //blocked: 
+			WRITE_BYTE 0x2d ("0x02") //blocked: enchanters
 			READ_LONG 0x54 "valid"
 			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
 				READ_STRREF 0x54 "desc"
@@ -477,8 +477,8 @@ ACTION_PHP_EACH d5_spell_scroll_school AS spell => school BEGIN
 	END
 	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
 		COPY_EXISTING ~%spell_1%.itm~ ~override~
-			WRITE_BYTE 0x2d ("0x00") //blocked: 
-			WRITE_BYTE 0x2f ("0x10") //blocked: necromancers
+			WRITE_BYTE 0x2f ("0x00") //blocked: 
+			WRITE_BYTE 0x2d ("0x10") //blocked: necromancers
 			READ_LONG 0x54 "valid"
 			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
 				READ_STRREF 0x54 "desc"
@@ -523,8 +523,8 @@ ACTION_PHP_EACH d5_spell_scroll_school AS spell => school BEGIN
 	END
 	ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_1%.itm~) BEGIN 
 		COPY_EXISTING ~%spell_1%.itm~ ~override~
-			WRITE_BYTE 0x2d ("0x00") //blocked:
-			WRITE_BYTE 0x2f ("0x04") //blocked: illusionists
+			WRITE_BYTE 0x2f ("0x00") //blocked:
+			WRITE_BYTE 0x2d ("0x04") //blocked: illusionists
 			READ_LONG 0x54 "valid"
 			PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
 				READ_STRREF 0x54 "desc"
