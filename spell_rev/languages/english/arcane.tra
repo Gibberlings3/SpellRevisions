@@ -734,8 +734,8 @@ HP 36, AC 5, THAC0 16, Saving Throws 9/13/12/15/14
 1 Attack Per Round, 1d8+1 Slashing Damage (Long Sword +1)
 
 Memorized Spells:
-1º Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
-2º Chant, Hold Person, Silence~
+1ï¿½ Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
+2ï¿½ Chant, Hold Person, Silence~
 
 @3517=~Hobgoblin Archer~
 @3518=~Hobgoblin Shaman~
@@ -1010,7 +1010,7 @@ This spell is similar to the Invisibility spell, but the recipient is able to at
 Level: 4
 School: Abjuration
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 4
 Area of Effect: Caster
 Saving Throw: None
@@ -1080,7 +1080,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
-Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of charm, confusion and feeblemindedness, free a victim from magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
+Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from petrification, magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
 
 @581=~Emotion: Despair~
 @582=~Emotion: Despair
@@ -1099,7 +1099,7 @@ When this spell is cast, the wizard can disturb the emotional state of those aro
 Level: 4
 School: Enchantment
 Range: Long
-Duration: 2 rounds/level
+Duration: 2 turns
 Casting Time: 4
 Area of Effect: 30' radius
 Saving Throw: None
@@ -1253,7 +1253,7 @@ Casting Time: 4
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
-With this spell, the wizard instigates a teleportation effect as far as the wizard can see. All enemies in this area are randomly teleported for the duration of the spell unless they save vs. spell at -4. This spell is best used against multiple enemies, serving to confuse them and allowing the wizard to concentrate on activating her defenses.~
+With this spell, the wizard instigates a teleportation effect as far as the wizard can see. All enemies in this area are randomly teleported for the duration of the spell unless they save vs. spell at -4. Magic resistance does not effect this spell. This spell is best used against multiple enemies, serving to confuse them and allowing the wizard to concentrate on activating her defenses.~
 
 @603=~Monster Summoning IV~
 @604=~Monster Summoning IV
@@ -1419,9 +1419,9 @@ Invisibility (at will)
 Regeneration: 1 hp/round
 
 Memorized Spells:
-1º Obscuring Mist, Magic Missile (x2), Shield
-2º Horror, Mirror Image
-3º Dire Charm, Slow~
+1ï¿½ Obscuring Mist, Magic Missile (x2), Shield
+2ï¿½ Horror, Mirror Image
+3ï¿½ Dire Charm, Slow~
 
 @619=~Shadow Door~
 @620=~Shadow Door
@@ -2346,11 +2346,11 @@ Special Qualities:
 Fire Resistance 100%
 
 Memorized Spells:
-1º Burning Hands, Magic Missile (x2), Shield
-2º Agannazar's Scorcher, Invisibility (x2)
-3º Fireball (x3)
-4º Fire Shield (x2)
-5º Conjure Lesser Fire Elemental~
+1ï¿½ Burning Hands, Magic Missile (x2), Shield
+2ï¿½ Agannazar's Scorcher, Invisibility (x2)
+3ï¿½ Fireball (x3)
+4ï¿½ Fire Shield (x2)
+5ï¿½ Conjure Lesser Fire Elemental~
 
 @3749=~Efreeti~
 
@@ -2372,11 +2372,11 @@ HP 89, AC 0, THAC0 7, Saving Throws 11/7/11/7/7
 3 Attacks Per Round, 1d8+5 Slashing Damage (Scimitar +2)
 
 Memorized Spells:
-1º Magic Missile (x3), Shield
-2º Invisibility (x2), Mirror Image
-3º Haste, Lightning Bolt (x2)
-4º Improved Invisibility, Minor Globe of Invulnerability
-5º Conjure Lesser Air Elemental~
+1ï¿½ Magic Missile (x3), Shield
+2ï¿½ Invisibility (x2), Mirror Image
+3ï¿½ Haste, Lightning Bolt (x2)
+4ï¿½ Improved Invisibility, Minor Globe of Invulnerability
+5ï¿½ Conjure Lesser Air Elemental~
 
 @3751=~Djinni~
 
@@ -3014,13 +3014,13 @@ Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
 Memorized Spells:
-1º Bless (x3), Resist Fear (x3)
-2º Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3º Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4º Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
-5º Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
-6º Blade Barrier, Bolt of Glory, Heal
-7º Greater Restoration, Holy Word~
+1ï¿½ Bless (x3), Resist Fear (x3)
+2ï¿½ Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3ï¿½ Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4ï¿½ Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
+5ï¿½ Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
+6ï¿½ Blade Barrier, Bolt of Glory, Heal
+7ï¿½ Greater Restoration, Holy Word~
 
 @3857=~Planetar~
 
@@ -3051,13 +3051,13 @@ Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
 Memorized Spells:
-1º Doom (x3), Resist Fear (x3)
-2º Hold Person (x3), Find Trap, Know Opponent, Silence
-3º Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4º Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
-5º Flame Strike (x2), Greater Command (x2), True Seeing (x2)
-6º Blade Barrier, Dolorous Decay, Harm
-7º Fire Storm, Unholy Word~
+1ï¿½ Doom (x3), Resist Fear (x3)
+2ï¿½ Hold Person (x3), Find Trap, Know Opponent, Silence
+3ï¿½ Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4ï¿½ Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
+5ï¿½ Flame Strike (x2), Greater Command (x2), True Seeing (x2)
+6ï¿½ Blade Barrier, Dolorous Decay, Harm
+7ï¿½ Fire Storm, Unholy Word~
 
 @3859=~Fallen Planetar~
 
