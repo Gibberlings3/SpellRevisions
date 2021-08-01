@@ -914,8 +914,8 @@ Special Qualities:
 Magic Resistance 75%
 
 Memorized Spells:
-1º Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2º Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
 
 Nymph (7 Hit Dice):
 STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Neutral Good
@@ -926,10 +926,10 @@ Special Qualities:
 Magic Resistance 50%
 
 Memorized Spells:
-1º Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2º Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
-3º Call Lightning, Hold Person or Animal, Summon Insects
-4º Animal Summoning IV~
+1ï¿½ Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2ï¿½ Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+3ï¿½ Call Lightning, Hold Person or Animal, Summon Insects
+4ï¿½ Animal Summoning IV~
 
 @2129=~Nymph~
 
@@ -1308,7 +1308,7 @@ Saving Throw: Special
 
 When this spell is cast, a mass of creeping, hopping, and flying insects gather and swarm, first attacking the target, and then moving on to all enemies of the caster within the spell's radius.
 
-For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, and have a 100% chance of spell failure. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
+For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure and on a failed save vs. poison will panic for that round. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
 
 @185=~Polymorph Other~
 @186=~Polymorph Other
@@ -2117,13 +2117,13 @@ Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Memorized Spells:
-1º Bless (x3), Resist Fear (x3)
-2º Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3º Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4º Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
-5º Mass Cure, Raise Dead, True Seeing
-6º Blade Barrier, Heal
-7º Holy Word~
+1ï¿½ Bless (x3), Resist Fear (x3)
+2ï¿½ Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3ï¿½ Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4ï¿½ Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
+5ï¿½ Mass Cure, Raise Dead, True Seeing
+6ï¿½ Blade Barrier, Heal
+7ï¿½ Holy Word~
 
 @2281=~Deva~
 
@@ -2155,13 +2155,13 @@ Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Memorized Spells:
-1º Doom (x3), Resist Fear (x3)
-2º Hold Person (x3), Find Trap, Know Opponent, Silence
-3º Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4º Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
-5º Flame Strike, Greater Command, True Seeing
-6º Blade Barrier, Harm
-7º Unholy Word~
+1ï¿½ Doom (x3), Resist Fear (x3)
+2ï¿½ Hold Person (x3), Find Trap, Know Opponent, Silence
+3ï¿½ Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4ï¿½ Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
+5ï¿½ Flame Strike, Greater Command, True Seeing
+6ï¿½ Blade Barrier, Harm
+7ï¿½ Unholy Word~
 
 @2283=~Fallen Deva~
 
