@@ -2148,6 +2148,7 @@ COPY ~spell_rev\spwi4##\spwi413.spl~     ~override~  // Otiluke's Resilient Sphe
   SAY NAME1 @585    SAY UNIDENTIFIED_DESC @586
 COPY ~spell_rev\spwi4##\scrl5j.itm~     ~override~
   SAY NAME2 @585    SAY IDENTIFIED_DESC   @586
+COPY ~spell_rev\spwi4##\spwi413c.spl~     ~override~
 COPY ~spell_rev\spwi4##\spwi413d.spl~     ~override~
 COPY ~spell_rev\spwi4##\spwi413c.eff~     ~override~
 COPY ~spell_rev\spwi4##\spwi413d.eff~     ~override~

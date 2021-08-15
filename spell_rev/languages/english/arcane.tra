@@ -1010,7 +1010,7 @@ This spell is similar to the Invisibility spell, but the recipient is able to at
 Level: 4
 School: Abjuration
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 4
 Area of Effect: Caster
 Saving Throw: None
@@ -1080,7 +1080,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
-Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of charm, confusion and feeblemindedness, free a victim from magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
+Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from petrification, magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
 
 @581=~Emotion: Despair~
 @582=~Emotion: Despair
@@ -1099,7 +1099,7 @@ When this spell is cast, the wizard can disturb the emotional state of those aro
 Level: 4
 School: Enchantment
 Range: Long
-Duration: 2 rounds/level
+Duration: 2 turns
 Casting Time: 4
 Area of Effect: 30' radius
 Saving Throw: None
@@ -1253,7 +1253,7 @@ Casting Time: 4
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
-With this spell, the wizard instigates a teleportation effect as far as the wizard can see. All enemies in this area are randomly teleported for the duration of the spell unless they save vs. spell at -4. This spell is best used against multiple enemies, serving to confuse them and allowing the wizard to concentrate on activating her defenses.~
+With this spell, the wizard instigates a teleportation effect as far as the wizard can see. All enemies in this area are randomly teleported for the duration of the spell unless they save vs. spell at -4. Magic resistance does not effect this spell. This spell is best used against multiple enemies, serving to confuse them and allowing the wizard to concentrate on activating her defenses.~
 
 @603=~Monster Summoning IV~
 @604=~Monster Summoning IV
