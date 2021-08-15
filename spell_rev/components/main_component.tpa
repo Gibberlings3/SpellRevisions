@@ -592,6 +592,17 @@ COPY ~spell_rev\sppr2##\dvpr217c.bam~    ~override~
 //ADD_SPELL: Gust of Wind
 ADD_SPELL ~spell_rev\sppr2##\sppr218.spl~ 1 2 ~CLERIC_GUST_OF_WIND_DRUID_VERSION~ // Gust of Wind (new druid spell)
   SAY NAME1 @313    SAY UNIDENTIFIED_DESC @314
+//Put guards in place to avoid overwrites and fail early and loudly.
+ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.spl") BEGIN
+  COPY ~spell_rev\sppr2##\dvknbck.spl~    ~override~
+END ELSE BEGIN
+  FAIL "File 'dvknbck.spl' already exists in game."
+END
+ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.spl") BEGIN
+  COPY ~spell_rev\sppr2##\dvknbck.eff~    ~override~
+END ELSE BEGIN
+  FAIL "File 'dvknbck.eff' already exists in game."
+END
 
 //ADD_SPELL: Cause Moderate Wounds
 ACTION_IF install_cause_wounds BEGIN
