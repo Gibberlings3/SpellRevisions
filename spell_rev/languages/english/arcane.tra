@@ -1511,7 +1511,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 
 @633=~Protection from Electricity~
 @634=~Protection from Electricity
-Level: 5
+Level: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -1533,9 +1533,9 @@ Saving Throw: None
 
 When this spell is cast at a creature, it breaches and dispels all of the specific and combat protections on the target creature. The target's magic resistance, if any, does not affect this spell.
 
-The specific protection spells dispelled by Breach are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
+The specific protection spells dispelled by Breach are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, Protection from Energy and Mind Blank.
 
-The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, and Absolute Immunity.~
+The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, Moment of Prescience and Absolute Immunity.~
 
 @637=~Lower Resistance~
 @638=~Lower Resistance
@@ -1592,7 +1592,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @643=~Protection from Acid~
 @644=~Protection from Acid
-Level: 5
+Level: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
