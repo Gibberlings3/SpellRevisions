@@ -1736,7 +1736,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 Level: 6
 School: Abjuration
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 6
 Area of Effect: Caster
 Saving Throw: None
@@ -1793,7 +1793,7 @@ Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
-When a Protection from Magic Energy spell is cast, the recipient receives complete protection from all magic damage-based attacks. 100% of the damage from attacks like Cause Wound will be absorbed, and the target creature will become completely immune to the effects of spells such as Magic Missile, Skull Trap, Disintegrate, and Horrid Wilting. This effect lasts for the duration of the spell or until dispelled. Certain creatures are immune to the effects of this spell, including all undead.~
+When a Protection from Magic Energy spell is cast, the recipient receives complete protection from all magic damage-based attacks. 100% of the damage from attacks like Cause Wound will be absorbed, and the target creature will become completely immune to the effects of spells such as Magic Missile, Skull Trap, Disintegrate, and Horrid Wilting. This effect lasts for the duration of the spell or until dispelled.~
 
 @673=~Mislead~
 @674=~Mislead
@@ -1819,7 +1819,7 @@ Saving Throw: None
 
 When this spell is cast upon a target creature there will be two major effects. The first is that it will dispel one spell protection of 8th level or lower from the creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The second effect of the spell is that the creature's magic resistance is temporary nullified. The resistance remains lowered for 2 rounds, and this effect cannot be negated in any way. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
+The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection and Shield of the Archons.~
 
 @677=~True Seeing~
 @678=~True Seeing
