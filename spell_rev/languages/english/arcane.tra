@@ -2171,7 +2171,7 @@ Saving Throw: None
 
 When this spell is cast it will dispel one spell protection of any level on the target. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
 
-The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.~
+The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Spell Trap.~
 
 @729=~Khelben's Warding Whip~
 @730=~Khelben's Warding Whip
@@ -2185,7 +2185,7 @@ Saving Throw: None
 
 When this spell is cast on the target creature, it will dispel one spell protection of up to 8th level or lower. Every round thereafter, until the duration of the spell expires, another spell protection will be removed from the target. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
+The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons.~
 
 @731=~Summon Death Knight~
 @732=~Summon Death Knight
@@ -2277,7 +2277,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
-The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 6d8 points of damage.~
+The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 2d8 + level points of damage, up to a maximum of 2d8 + 20.~
 
 @743=~Prismatic Spray~
 @744=~Prismatic Spray
