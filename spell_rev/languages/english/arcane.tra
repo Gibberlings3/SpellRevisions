@@ -1104,7 +1104,7 @@ Casting Time: 4
 Area of Effect: 30' radius
 Saving Throw: None
 
-The spell allows the caster to adversely affect the saving throws of his enemies. The effect is applied to all hostile creatures within the area of effect. Those under the influence of this spell make all their saving throws at a penalty of -2, and take an extra point of spell damage for each die rolled. Multiple castings of this spell are not cumulative.~
+The spell allows the caster to adversely affect the dice rolls of their enemies. The effect is applied to all hostile creatures within the area of effect. Those under the influence of this spell make all their saving throws at a penalty of -2 and also suffer a -1 penalty to luck. Magic resistance does not affect this spell, and multiple castings of this spell are not cumulative.~
 
 @3583=~Saving Throws Lowered~
 
