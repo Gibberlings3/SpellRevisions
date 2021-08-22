@@ -102,6 +102,30 @@ END
   OUTER_SET $spell("tg#come")=1
 END */
 
+ACTION_IF FILE_EXISTS_IN_GAME ~staf20.spl~ BEGIN
+  OUTER_SET $spell("staf20")=1
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~wand02.spl~ BEGIN
+  OUTER_SET $spell("wand02")=1
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~wand05a.spl~ BEGIN
+  OUTER_SET $spell("wand05a")=1
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~wand06.spl~ BEGIN
+  OUTER_SET $spell("wand06")=1
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~wand08.spl~ BEGIN
+  OUTER_SET $spell("wand08")=1
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~wand11.spl~ BEGIN
+  OUTER_SET $spell("wand11")=1
+END
+
 ACTION_IF FILE_EXISTS_IN_GAME ~abaz01.spl~ BEGIN
   OUTER_SET $spell("abaz01")=1
 END
