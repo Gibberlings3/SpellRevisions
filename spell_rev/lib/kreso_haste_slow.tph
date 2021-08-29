@@ -135,7 +135,6 @@ ACTION_IF  FILE_EXISTS_IN_GAME ~potn14.spl~ BEGIN // IR Oil of Speed - commented
 COPY_EXISTING ~potn14.spl~ ~override~  
  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 header = 0 END
  WRITE_BYTE 0x27 "%k1#Haste%"
- END
   LPF ADD_SPELL_EFFECT
 	INT_VAR
 	opcode			= 221
