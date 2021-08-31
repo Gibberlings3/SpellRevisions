@@ -9,227 +9,220 @@ ADD_SECTYPE ~k1#Slow~ @21004  // string to counter Slow - "Slow Dispelled" or si
   //// GLOBAL PATCH ///
   
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~  // slowing items are countered by Haste
-  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-    READ_LONG 0x64 ab_off
-    READ_SHORT 0x68 ab_num
-    READ_LONG 0x6a ef_off
-    FOR (i=0;i<ab_num;i+=1) BEGIN
-      READ_SHORT (ab_off+i*0x38+0x1e) ef_num
-      READ_SHORT (ab_off+i*0x38+0x20) ef_ind
-      FOR (k=0;k<ef_num;k+=1) BEGIN
-        READ_SHORT (ef_off+(ef_ind+k)*0x30) opcode
-        PATCH_IF opcode=40 BEGIN
-		WRITE_BYTE 0x8B "%k1#Slow%" 
-END
-END
-END
-END
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        READ_LONG 0x64 ab_off
+        READ_SHORT 0x68 ab_num
+        READ_LONG 0x6a ef_off
+        FOR (i=0;i<ab_num;i+=1) BEGIN
+            READ_SHORT (ab_off+i*0x38+0x1e) ef_num
+            READ_SHORT (ab_off+i*0x38+0x20) ef_ind
+            FOR (k=0;k<ef_num;k+=1) BEGIN
+                READ_SHORT (ef_off+(ef_ind+k)*0x30) opcode
+                PATCH_IF opcode=40 BEGIN
+		                WRITE_BYTE 0x8B "%k1#Slow%" 
+                END
+            END
+        END
+    END
 BUT_ONLY
 
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~ 
-  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-    READ_LONG 0x64 ab_off
-    READ_SHORT 0x68 ab_num
-    READ_LONG 0x6a ef_off
-    FOR (i=0;i<ab_num;i+=1) BEGIN
-      READ_SHORT (ab_off+i*0x38+0x1e) ef_num
-      READ_SHORT (ab_off+i*0x38+0x20) ef_ind
-      FOR (k=0;k<ef_num;k+=1) BEGIN
-        READ_SHORT (ef_off+(ef_ind+k)*0x30) opcode
-        PATCH_IF opcode=16 BEGIN
-		WRITE_BYTE 0x8B "%k1#Haste%" 
-END
-END
-END
-END
-BUT_ONLY
-
-COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
-  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-    SET found_haste=0
-    READ_LONG 0x64 ab_off
-    READ_SHORT 0x68 ab_num
-    READ_LONG 0x6a ef_off
-    FOR (i=0;i<ab_num;i+=1) BEGIN
-      READ_SHORT (ab_off+i*0x28+0x1e) ef_num
-      READ_SHORT (ab_off+i*0x28+0x20) ef_ind
-      FOR (k=0;k<ef_num;k+=1) BEGIN
-        READ_SHORT (ef_off+(k+ef_ind)*0x30) opcode
-        PATCH_IF opcode=16 BEGIN
-          SET found_haste=1
-          PATCH_IF found_haste=1 BEGIN
-		  WRITE_BYTE 0x27 "%k1#Haste%"
-		  END
-		 END
-      END
-	END
-	END
-BUT_ONLY
-
-COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
-  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-    SET found_slow=0
-    READ_LONG 0x64 ab_off
-    READ_SHORT 0x68 ab_num
-    READ_LONG 0x6a ef_off
-    FOR (i=0;i<ab_num;i+=1) BEGIN
-      READ_SHORT (ab_off+i*0x28+0x1e) ef_num
-      READ_SHORT (ab_off+i*0x28+0x20) ef_ind
-      FOR (k=0;k<ef_num;k+=1) BEGIN
-        READ_SHORT (ef_off+(k+ef_ind)*0x30) opcode
-        PATCH_IF opcode=40 BEGIN
-          SET found_slow=1
-          PATCH_IF found_slow=1 BEGIN
-		  WRITE_BYTE 0x27 "%k1#Slow%"
-		  END
-		 END
-      END
-	END
-	END
-BUT_ONLY
- 
-COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
-PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 221 parameter1 = 9 parameter2 = %k1#Haste% savingthrow = 0 silent = 1 END
-END
-BUT_ONLY
-
-COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
-PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-LPF CLONE_EFFECT INT_VAR match_opcode = 16 opcode = 221 parameter1 = 9 parameter2 = %k1#Slow% savingthrow = 0 silent = 1 END
-END
-BUT_ONLY
-
- COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
- PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 16 opcode = 221 parameter1 = 9 parameter2 = %k1#Slow% savingthrow = 0 silent = 1 END
- END
- BUT_ONLY
- 
- COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
- PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 221 parameter1 = 9 parameter2 = %k1#Haste% savingthrow = 0 silent = 1 END
- END
- BUT_ONLY
-  
-  // SR spells don't use Haste opcode so are handled seperately //
-  
- COPY_EXISTING ~spwi305.spl~ ~override~    // Wizard Haste
-  WRITE_BYTE 0x27 "%k1#Haste%"  
-  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 2
-	power			= 3
-	savingthrow     = 0
-	parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        READ_LONG 0x64 ab_off
+        READ_SHORT 0x68 ab_num
+        READ_LONG 0x6a ef_off
+        FOR (i=0;i<ab_num;i+=1) BEGIN
+            READ_SHORT (ab_off+i*0x38+0x1e) ef_num
+            READ_SHORT (ab_off+i*0x38+0x20) ef_ind
+            FOR (k=0;k<ef_num;k+=1) BEGIN
+                READ_SHORT (ef_off+(ef_ind+k)*0x30) opcode
+                PATCH_IF opcode=16 BEGIN
+		                WRITE_BYTE 0x8B "%k1#Haste%" 
+                END
+            END
+        END
     END
-  BUT_ONLY 
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        SET found_haste=0
+        READ_LONG 0x64 ab_off
+        READ_SHORT 0x68 ab_num
+        READ_LONG 0x6a ef_off
+        FOR (i=0;i<ab_num;i+=1) BEGIN
+            READ_SHORT (ab_off+i*0x28+0x1e) ef_num
+            READ_SHORT (ab_off+i*0x28+0x20) ef_ind
+            FOR (k=0;k<ef_num;k+=1) BEGIN
+                READ_SHORT (ef_off+(k+ef_ind)*0x30) opcode
+                PATCH_IF opcode=16 BEGIN
+                    SET found_haste=1
+                    PATCH_IF found_haste=1 BEGIN
+		                    WRITE_BYTE 0x27 "%k1#Haste%"
+		                END
+		            END
+            END
+	      END
+	  END
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        SET found_slow=0
+        READ_LONG 0x64 ab_off
+        READ_SHORT 0x68 ab_num
+        READ_LONG 0x6a ef_off
+        FOR (i=0;i<ab_num;i+=1) BEGIN
+            READ_SHORT (ab_off+i*0x28+0x1e) ef_num
+            READ_SHORT (ab_off+i*0x28+0x20) ef_ind
+            FOR (k=0;k<ef_num;k+=1) BEGIN
+                READ_SHORT (ef_off+(k+ef_ind)*0x30) opcode
+                PATCH_IF opcode=40 BEGIN
+                    SET found_slow=1
+                    PATCH_IF found_slow=1 BEGIN
+		                    WRITE_BYTE 0x27 "%k1#Slow%"
+		                END
+		            END
+            END
+	      END
+	  END
+BUT_ONLY
+ 
+COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 221 parameter1 = 9 parameter2 = %k1#Haste% savingthrow = 0 silent = 1 END
+    END
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        LPF CLONE_EFFECT INT_VAR match_opcode = 16 opcode = 221 parameter1 = 9 parameter2 = %k1#Slow% savingthrow = 0 silent = 1 END
+    END
+BUT_ONLY
+
+ COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        LPF CLONE_EFFECT INT_VAR match_opcode = 16 opcode = 221 parameter1 = 9 parameter2 = %k1#Slow% savingthrow = 0 silent = 1 END
+    END
+ BUT_ONLY
+ 
+ COPY_EXISTING_REGEXP GLOB ~.*\.spl$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 221 parameter1 = 9 parameter2 = %k1#Haste% savingthrow = 0 silent = 1 END
+    END
+ BUT_ONLY
   
-ACTION_IF  FILE_EXISTS_IN_GAME ~potn14.spl~ BEGIN // IR Oil of Speed - commented out for now, shouldn't remove slow
+// SR spells don't use Haste opcode so are handled seperately //
+COPY_EXISTING ~spwi305.spl~ ~override~    // Wizard Haste
+    WRITE_BYTE 0x27 "%k1#Haste%"  
+    LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 221
+        target = 2
+        power = 3
+        savingthrow = 0
+        parameter1 = 9
+        parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+        timing = 1
+        insert_point = 1
+    END
+BUT_ONLY 
+    
+ACTION_IF  FILE_EXISTS_IN_GAME ~potn14.spl~ BEGIN
+// IR Oil of Speed - commented out for now, shouldn't remove slow
 // EDIT by SD: why not? I say uncomment this for now, unless there is good reason to exempt potions of speed
-COPY_EXISTING ~potn14.spl~ ~override~  
- LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 header = 0 END
- WRITE_BYTE 0x27 "%k1#Haste%"
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 2
-	power			= 3
-	parameter1		= 9
-	savingthrow     = 0
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
-    END
-  BUT_ONLY
+    COPY_EXISTING ~potn14.spl~ ~override~  
+        LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 header = 0 END
+        WRITE_BYTE 0x27 "%k1#Haste%"
+        LPF ADD_SPELL_EFFECT INT_VAR
+            opcode = 221
+            target = 2
+            power = 3
+            parameter1 = 9
+            savingthrow = 0
+            parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+            timing = 1
+            insert_point = 1
+        END
+    BUT_ONLY
 END   
   
 // these next two are from Bartimaeus' IRR... included for compatibility
 ACTION_IF (FILE_EXISTS_IN_GAME ~sw1h27.spl~) THEN BEGIN // Arbane's Sword
- COPY_EXISTING ~sw1h27.spl~ ~override~
-  WRITE_BYTE 0x27 "%k1#Haste%"
-  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 2
-	power			= 3
-	savingthrow     = 0
-	parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
-    END
-  BUT_ONLY
+    COPY_EXISTING ~sw1h27.spl~ ~override~
+        WRITE_BYTE 0x27 "%k1#Haste%"
+        LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+        LPF ADD_SPELL_EFFECT INT_VAR
+            opcode = 221
+            target = 2
+            power	= 3
+            savingthrow = 0
+            parameter1 = 9
+            parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+            timing = 1
+            insert_point = 1
+        END
+    BUT_ONLY
 END
   
 ACTION_IF (FILE_EXISTS_IN_GAME ~dvhaste.spl~) THEN BEGIN // Haste
- COPY_EXISTING ~dvhaste.spl~ ~override~
-  WRITE_BYTE 0x27 "%k1#Haste%"
-  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 2
-	power			= 3
-	savingthrow     = 0
-	parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
-    END
-  BUT_ONLY
+    COPY_EXISTING ~dvhaste.spl~ ~override~
+        WRITE_BYTE 0x27 "%k1#Haste%"
+        LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+        LPF ADD_SPELL_EFFECT INT_VAR
+            opcode = 221
+            target = 2
+            power	= 3
+            savingthrow = 0
+            parameter1 = 9
+            parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+            timing = 1
+            insert_point = 1
+        END
+    BUT_ONLY
 END
 
 COPY_EXISTING ~spwi613.spl~ ~override~    // Wizard Imp.Haste  - no sectype change since it's slow-immune
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 2
-	power			= 6
-	parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
-END
+    LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 221
+        target = 2
+        power	= 6
+        parameter1 = 9
+        parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+        timing = 1
+        insert_point = 1
+    END
 BUT_ONLY 
 
 COPY_EXISTING ~spra301.spl~ ~override~    // stalker Haste
-  WRITE_BYTE 0x27 "%k1#Haste%"  
-  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 2
-	power			= 3
-	savingthrow     = 0
-	parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
+    WRITE_BYTE 0x27 "%k1#Haste%"
+    LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 221
+        target = 2
+        power = 3
+        savingthrow = 0
+        parameter1 = 9
+        parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+        timing = 1
+        insert_point = 1
     END
 BUT_ONLY 
 
-ACTION_IF  FILE_EXISTS_IN_GAME ~spin828.spl~ BEGIN
-  COPY_EXISTING ~spin828.spl~ ~override~    // stalker Haste
-  WRITE_BYTE 0x27 "%k1#Haste%"  
-  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 221
-	target			= 1
-	power			= 0
-	savingthrow     = 0
-	parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %k1#Slow%
-	timing			= 1
-	insert_point    = 1
-    END
-  BUT_ONLY 
+ACTION_IF FILE_EXISTS_IN_GAME ~spin828.spl~ BEGIN
+    COPY_EXISTING ~spin828.spl~ ~override~    // stalker Haste
+        WRITE_BYTE 0x27 "%k1#Haste%"  
+        LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 221 END
+        LPF ADD_SPELL_EFFECT INT_VAR
+            opcode = 221
+            target = 1
+            power = 0
+            savingthrow = 0
+            parameter1 = 9
+            parameter2 = EVALUATE_BUFFER "%k1#Slow%"
+            timing = 1
+            insert_point = 1
+        END
+    BUT_ONLY 
 END
