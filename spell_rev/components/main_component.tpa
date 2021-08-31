@@ -598,7 +598,7 @@ ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.spl") BEGIN
 END ELSE BEGIN
   FAIL "File 'dvknbck.spl' already exists in game."
 END
-ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.spl") BEGIN
+ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.eff") BEGIN
   COPY ~spell_rev\sppr2##\dvknbck.eff~    ~override~
 END ELSE BEGIN
   FAIL "File 'dvknbck.eff' already exists in game."
@@ -694,8 +694,6 @@ COPY ~spell_rev\sppr3##\sppr312.spl~     ~override~  // Strength of One
 
 COPY ~spell_rev\sppr3##\sppr313.spl~     ~override~  // Holy Smite
   SAY NAME1 @95    SAY UNIDENTIFIED_DESC @96
-COPY ~spell_rev\sppr3##\sppr313d.spl~     ~override~
-COPY ~spell_rev\sppr3##\sppr313.eff~     ~override~
 COPY ~spell_rev\projectles\pholyst.pro~ ~override~
 /* COPY_EXISTING ~pholyst.pro~ ~override~
   WRITE_SHORT 0x204 190
@@ -703,8 +701,6 @@ COPY ~spell_rev\projectles\pholyst.pro~ ~override~
 
 COPY ~spell_rev\sppr3##\sppr314.spl~     ~override~  // Unholy Blight
   SAY NAME1 @97    SAY UNIDENTIFIED_DESC @98
-COPY ~spell_rev\sppr3##\sppr314d.spl~     ~override~
-COPY ~spell_rev\sppr3##\sppr314.eff~     ~override~
 COPY ~spell_rev\projectles\punhlst.pro~ ~override~
 /* COPY_EXISTING ~punhlst.pro~ ~override~
   WRITE_SHORT 0x204 190
