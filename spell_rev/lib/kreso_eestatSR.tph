@@ -193,839 +193,585 @@ COPY_EXISTING ~spcl237d.spl~ ~override~ // sun soul monk fireshield
 		resource = EVAL ~%SOURCE_RES%~
 	END
 BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spcl239a.spl~	override		// sun soul monk blinding attack, assuming fire causes blindness
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spdd03.spl~	override		// dragon disciple breath attack
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-		COPY_EXISTING	~spctmd01.spl~	override		//fireball
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin539.spl~	override		//magma bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin160.spl~	override		// salamander fire
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spcl239a.spl~ ~override~ // sun soul monk blinding attack, assuming fire causes blindness
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin560.spl~	override		// Cinder Shower
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spdd03.spl~ ~override~ // dragon disciple breath attack
+	LPF	ADD_SPELL_EFFECT INT_VAR
+			insert_point = 0
+			opcode = 324
+			target = 2
+			parameter2 = FIRE
+			duration = 1
+		STR_VAR
+			resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin561.spl~	override		// fire giant lava attack
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spctmd01.spl~ ~override~ //fireball
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin567.spl~	override		// mimic fire
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin539.spl~ ~override~ //magma bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin160.spl~ ~override~ // salamander fire
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin819.spl~	override		// Lava burst
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin560.spl~ ~override~ // Cinder Shower
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin885.spl~	override		// kamikaze explosion
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	
-	COPY_EXISTING	~spin894.spl~	override		// Red dragon breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin561.spl~ ~override~ // fire giant lava attack
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin926.spl~	override		// water jet (fire damage, steam or whatever)
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin567.spl~ ~override~ // mimic fire
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin930.spl~	override		// mephit lava
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin819.spl~ ~override~ // Lava burst
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin938.spl~	override		//  Flame fan
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin885.spl~ ~override~ // kamikaze explosion
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin939.spl~	override		//  Flame jet
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin894.spl~ ~override~ // Red dragon breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin956.spl~	override		//  Hell hound flame breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin926.spl~ ~override~ // water jet (fire damage, steam or whatever)
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin987.spl~	override		//  Beholder scorcher
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~%sppr116%.spl~	override		//  sunscorch
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-		COPY_EXISTING	~%sppr216%.spl~	override		//  Fire trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin930.spl~ ~override~ // mephit lava
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr503.spl~	override		//  Flamestrike
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin938.spl~ ~override~ // Flame fan
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~sppr705.spl~	override		//  Firestorm
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin939.spl~ ~override~ // Flame jet
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin956.spl~ ~override~ // Hell hound flame breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr730d.spl~	override		//  Flaming death aura
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin987.spl~ ~override~ // Beholder scorcher
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr952d.spl~	override		//  some fireshield
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~%sppr116%.spl~ ~override~ //Sunscorch
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr985.spl~	override		//  Flamestrike trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi001.spl~	override		//  fireball trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~%sppr216%.spl~ ~override~ // Fire trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~sppr503.spl~ ~override~ // Flamestrike
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi022.spl~	override		//  muck(!) trap, fire damage
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr705.spl~ ~override~ // Firestorm
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi103.spl~	override		//  burning hands
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr730d.spl~ ~override~ // Flaming death aura
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi217.spl~	override		//  Aganaza scorcher
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr952d.spl~ ~override~ // some fireshield
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi303.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303a.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303b.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303c.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303d.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY 
-	
-	COPY_EXISTING	~spwi303e.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr985.spl~ ~override~ // Flamestrike trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi304.spl~	override		// fireball
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi001.spl~ ~override~ // fireball trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi418d.spl~	override		// fireshield red
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi022.spl~ ~override~ // muck(!) trap, fire damage
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi523.spl~	override		// sunfire
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi523d.spl~	override		// sunfire
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi103.spl~ ~override~ // burning hands
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi712.spl~	override		// Delayed blast fireball
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi217.spl~ ~override~ // Agannazar scorcher
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi810.spl~	override		// incendiary cloud
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi911.spl~	override		// Meteor swarm
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi303.spl~ ~override~ // flame arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi922.spl~	override		// Dragon's Breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi303a.spl~ ~override~ // flame arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spwi303b.spl~ ~override~ // flame arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spwi940.spl~	override		// Firedrake attack
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi303c.spl~ ~override~ // flame arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi957.spl~	override		// "RED" Fireball
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi303d.spl~ ~override~ // flame arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY 
 
-COPY_EXISTING	~spwi979.spl~	override		// sarevok flamestrike - check if buggy or what
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi303e.spl~ ~override~ // flame arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwish24.spl~	override		// meteor swarm on caster
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	
-COPY_EXISTING	~ohbwi304.spl~	override		// fireball
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi304.spl~ ~override~ // fireball
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi418d.spl~ ~override~ // fireshield red
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi523.spl~ ~override~ // sunfire
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi523d.spl~ ~override~ // sunfire
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi712.spl~ ~override~ // Delayed blast fireball
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi810.spl~ ~override~ // incendiary cloud
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi911.spl~ ~override~ // Meteor swarm
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi922.spl~ ~override~ // Dragon's Breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi940.spl~ ~override~ // Firedrake attack
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi957.spl~ ~override~ // "RED" Fireball
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi979.spl~	~override~ // sarevok flamestrike - check if buggy or what
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwish24.spl~ ~override~ // meteor swarm on caster
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~ohbwi304.spl~ ~override~ // fireball
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = FIRE
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 ////COLD IMMUNITY//
+COPY_EXISTING ~ohbicew.spl~ ~override~ // wall of ice, does crushing as well but assuming it's from cold blocks
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-
-COPY_EXISTING	~ohbicew.spl~	override		// wall of ice, does crushing as well but assuming it's from cold blocks
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~1tarss.spl~	override		// cold fireshield (???)
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spcryo01.spl~	override		// cryonax cone of cold
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spcryod.spl~	override		// cryonax fireshield
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-COPY_EXISTING	~spin562.spl~	override		// scalding steam
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-
-	
-	COPY_EXISTING	~spin723.spl~	override		// Dragon rain (cold, can slay but assuming slays by ice)
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin833.spl~	override		// Silver dragon cold attack
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin936.spl~	override		// Mephit ice shard
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~%sppr418%.spl~	override		// ice storm druid
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-			COPY_EXISTING	~spdr501.spl~	override		// cone of cold avenger
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-
-
-	
-	COPY_EXISTING	~sppr951d.spl~	override		// Fireshield
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi015.spl~	override		// trap cold
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi018.spl~	override		// trap cold
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-		COPY_EXISTING	~%spwi327%.spl~	override		// icelance
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~%sppr326%.spl~	override		// icelance druid
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-
-COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = COLD
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-
-COPY_EXISTING	~spwi404.spl~	override		// ice storm
+COPY_EXISTING ~1tarss.spl~ ~override~ // cold fireshield (???)
 	LPF	ADD_SPELL_EFFECT
 		INT_VAR
 			insert_point = 0
@@ -1038,9 +784,80 @@ COPY_EXISTING	~spwi404.spl~	override		// ice storm
 	END
 BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi503.spl~	override		// cone of cold
-	LPF	ADD_SPELL_EFFECT
-		INT_VAR
+COPY_EXISTING ~spcryo01.spl~ ~override~ // cryonax cone of cold
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spcryod.spl~ ~override~ // cryonax fireshield
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spin562.spl~ ~override~ // scalding steam
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spin723.spl~ ~override~ // Dragon rain (cold, can slay but assuming slays by ice)
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spin833.spl~ ~override~ // Silver dragon cold attack
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spin936.spl~ ~override~ // Mephit ice shard
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~%sppr418%.spl~ ~override~ // ice storm druid
+	LPF	ADD_SPELL_EFFECT INT_VAR
 			insert_point = 0
 			opcode = 324
 			target = 2
@@ -1051,9 +868,8 @@ COPY_EXISTING	~spwi503.spl~	override		// cone of cold
 	END
 BUT_ONLY IF_EXISTS
 
-COPY_EXISTING ~ubsnobr.spl~ override // snow golem frost ray
-	LPF	ADD_SPELL_EFFECT
-		INT_VAR
+COPY_EXISTING ~spdr501.spl~ ~override~ // cone of cold avenger
+	LPF	ADD_SPELL_EFFECT INT_VAR
 			insert_point = 0
 			opcode = 324
 			target = 2
@@ -1064,9 +880,8 @@ COPY_EXISTING ~ubsnobr.spl~ override // snow golem frost ray
 	END
 BUT_ONLY IF_EXISTS
 
-COPY_EXISTING ~spwi818.spl~ override // icy grasp
-	LPF	ADD_SPELL_EFFECT
-		INT_VAR
+COPY_EXISTING ~sppr951d.spl~ ~override~ // Fireshield
+	LPF	ADD_SPELL_EFFECT INT_VAR
 			insert_point = 0
 			opcode = 324
 			target = 2
@@ -1077,656 +892,704 @@ COPY_EXISTING ~spwi818.spl~ override // icy grasp
 	END
 BUT_ONLY IF_EXISTS
 
-COPY_EXISTING ~spwi818d.spl~ override // icy grasp
-	LPF	ADD_SPELL_EFFECT
-		INT_VAR
-			insert_point = 0
-			opcode = 324
-			target = 2
-			parameter2 = COLD
-			duration = 1
-		STR_VAR
-			resource = EVAL ~%SOURCE_RES%~
+COPY_EXISTING ~spwi015.spl~ ~override~ // trap cold
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
 	END
 BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spwi018.spl~ ~override~ // trap cold
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~%spwi327%.spl~ ~override~ // icelance
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~%sppr326%.spl~ ~override~ // icelance druid
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi403d.spl~ ~override~ // cold fireshield
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi404.spl~ ~override~ // ice storm
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi503.spl~ ~override~ // cone of cold
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~ubsnobr.spl~ ~override~ // snow golem frost ray
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi818.spl~ ~override~ // icy grasp
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi818d.spl~ ~override~ // icy grasp
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = COLD
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 //// ELECTRIC IMMUNITY //
-COPY_EXISTING	~spcl722.spl~	override		// Talos lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spcl722.spl~ ~override~ // Talos lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spdr301.spl~	override		//  avenger lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spdr301.spl~ ~override~ // avenger lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spdr601.spl~	override		//  avenger lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spdr601.spl~ ~override~ // avenger lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin579.spl~	override		// power amp
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-COPY_EXISTING	~spin597.spl~	override		// blue dragon lighting attack
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin579.spl~ ~override~ // power amp
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin714.spl~	override		//  clestial bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin597.spl~ ~override~ // blue dragon lighting attack
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin932.spl~	override		//  mephit lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin714.spl~ ~override~ // celestial bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin933.spl~	override		//  mephit lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin932.spl~ ~override~ // mephit lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr302.spl~	override		// call lighting
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin933.spl~ ~override~ // mephit lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr304.spl~	override		// glyph of warding
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr302.spl~ ~override~ // call lighting
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr987.spl~	override		// call lighting trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr304.spl~ ~override~ // glyph of warding
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi002.spl~	override		//  lighting trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr987.spl~ ~override~ // call lighting trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi017.spl~	override		// minor lighting trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi002.spl~ ~override~ // lighting trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi025.spl~	override		// lighting orb
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi017.spl~	~override~	// minor lighting trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi026.spl~	override		// lighting orb 2
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi025.spl~ ~override~ // lighting orb
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi027.spl~	override		// orb 3
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi026.spl~ ~override~ // lighting orb 2
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi308.spl~	override		// lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi027.spl~	~override~ // orb 3
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi615.spl~	override		// chain lighting
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi615a.spl~	override		// chain lighting
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi615b.spl~	override		// chain lighting
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~bdhalb01.spl~	override		// some halberd from sod
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~ohbcalll.spl~	override		// ???
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	
-	COPY_EXISTING	~ohbwi308.spl~	override		// lighting bolt
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ELEC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi308.spl~ ~override~ // lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi615.spl~ ~override~ // chain lighting
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi615a.spl~ ~override~ // chain lighting
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi615b.spl~ ~override~	// chain lighting
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~bdhalb01.spl~ ~override~	// some halberd from sod
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~ohbcalll.spl~ ~override~ // ???
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~ohbwi308.spl~ ~override~ // lighting bolt
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ELEC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 ///// ACID IMMUNITY //
+COPY_EXISTING ~ohdmask.spl~ ~override~ // mask attack yea
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~ohrgrog.spl~ ~override~ // ??
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~ohdmask.spl~	override		// mask attack yea
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-		COPY_EXISTING	~ohrgrog.spl~	override		// ??
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~bdmepwat.spl~	override		// ???
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin596.spl~	override		// brown dragon acid breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~bdmepwat.spl~ ~override~ // ???
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin691.spl~	override		// black dragon breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-COPY_EXISTING	~spin708.spl~	override		// slime trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin596.spl~ ~override~ // brown dragon acid breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin913.spl~	override		// Mimic Acid
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin691.spl~ ~override~ // black dragon breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin917.spl~	override		// Mane gas
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin708.spl~ ~override~ // slime trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi211.spl~	override		// Acid arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~%spwi427%.spl~	override		// vitriolic sphere
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~dvwi526d.spl~	override		// mestil
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin913.spl~ ~override~ // Mimic Acid
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi614.spl~	override		// death fog - it will no longer kill summons acid-immune!
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin917.spl~ ~override~ // Mane gas
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spwi211.spl~ ~override~ // Acid arrow
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~%spwi427%.spl~ ~override~ // vitriolic sphere
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~dvwi526d.spl~ ~override~ // mestil
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~spwi614.spl~ ~override~ // death fog - it will no longer kill summons acid-immune!
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = ACID
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 ///  MAGIC DAMAGE IMMUNITY // 
+COPY_EXISTING ~keldorn.spl~ ~override~ // keldorn's armor 
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin202.spl~	~override~ // wounds
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~keldorn.spl~	override		// keldorn's armor 
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin202.spl~	override		// wounds
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin551.spl~ ~override~ // wounds
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-		COPY_EXISTING	~spin551.spl~	override		// wounds
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin958.spl~	override		// wounds
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spin986.spl~	override		// wounds
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	
-COPY_EXISTING	~spin564.spl~	override		// skull trap exp
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin958.spl~ ~override~ // wounds
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin912.spl~	override		// psi detonate
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin986.spl~ ~override~ // wounds
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spin962.spl~	override		// beholder magic missile
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin564.spl~ ~override~ // skull trap exp
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr313.spl~	override		// holy  smite
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~sppr314.spl~	override		// blight
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin912.spl~ ~override~ // psi detonate
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin962.spl~ ~override~ // beholder magic missile
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~sppr612.spl~	override		// bolt of glory
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr313.spl~ ~override~ // holy  smite
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~sppr314.spl~ ~override~ // blight
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~sppr612.spl~ ~override~ // bolt of glory
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
  
-COPY_EXISTING	~spwi003.spl~	override		// mm trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi003.spl~	~override~ // mm trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi112.spl~	override		//mm trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi112.spl~ ~override~ //mm trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 //ACTION_IF FILE_EXISTS_IN_GAME ~spwi119a.spl~ THEN BEGIN // This is LMD. AAAAAAAARGH!
 /*COPY_EXISTING ~spwi119a.spl~ ~override~  
@@ -1746,18 +1609,17 @@ LPF ADD_SPELL_EFFECT
 END
 END  */
 
-COPY_EXISTING	~spwi314.spl~	override		// skull trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS 
+COPY_EXISTING ~spwi314.spl~ ~override~ // skull trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS 
 
 //ACTION_IF FILE_EXISTS_IN_GAME ~spwi314.spl~ THEN BEGIN  // Vampiric Touch. AAAAAAAARGH
 /*COPY_EXISTING ~spwi314.spl~ ~override~  
@@ -1777,236 +1639,212 @@ LPF ADD_SPELL_EFFECT
 END
 END */
 
-COPY_EXISTING	~spwi616.spl~	override		// disintegrate
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi616.spl~ ~override~ // disintegrate
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi812.spl~	override		// adhw
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi812.spl~ ~override~ // adhw
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi950.spl~	override		// skull trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi950.spl~ ~override~ // skull trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi953.spl~	override		// dradael blue firaball
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi953.spl~ ~override~ // dradael blue firaball
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwish32.spl~	override		// Wish ADHW
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = MAGIC
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwish32.spl~ ~override~ // Wish ADHW
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = MAGIC
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 // POISON IMMUNITY //
+COPY_EXISTING ~bdmucou2.spl~ ~override~ // mucus
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~bdmucou2.spl~	override		// mucus
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~drgrbrht.spl~	override		// poison breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~drgrbrht.spl~ ~override~ // poison breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~bhaal2b.spl~	override		// poison ability from Ascension
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~bhaal2b.spl~ ~override~ // poison ability from Ascension
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin506.spl~ ~override~ // neothelid poison breath
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin506.spl~	override		// neothelid poison breath
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-		COPY_EXISTING	~spin568.spl~	override		// mimic poison
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin568.spl~ ~override~ // mimic poison
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin642.spl~ ~override~ // poison cloud
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
+COPY_EXISTING ~spin673.spl~ ~override~ // spore death
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin642.spl~	override		// poison cloud
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spin927.spl~ ~override~ // boiling rain storm, stun and poison damage, assume stun is from poison
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin673.spl~	override		// spore death
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~sppr411.spl~ ~override~ // priest posion
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~spin927.spl~	override		// boiling rain storm, stun and poison damage, assume stun is from poison
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi016.spl~ ~override~ // cloudkill trap
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-	COPY_EXISTING	~sppr411.spl~	override		// priest posion
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-		COPY_EXISTING	~spwi016.spl~	override		// cloudkill trap
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~spwi502.spl~ ~override~ // cloudkill
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
-
-
-	COPY_EXISTING	~spwi502.spl~	override		// cloudkill
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-
-	COPY_EXISTING	~bdleat05.spl~	override		//   posion backlash?
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = POISN
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+COPY_EXISTING ~bdleat05.spl~ ~override~ // posion backlash?
+	LPF	ADD_SPELL_EFFECT INT_VAR
+		insert_point = 0
+		opcode = 324
+		target = 2
+		parameter2 = POISN
+		duration = 1
+	STR_VAR
+		resource = EVAL ~%SOURCE_RES%~
+	END
+BUT_ONLY IF_EXISTS
 
 /// FREE ACTION //
-
 ACTION_IF FILE_EXISTS_IN_GAME ~bdsha06b.spl~ THEN BEGIN
 COPY_EXISTING ~bdsha06b.spl~ ~override~   // some slow
   LPF ADD_SPELL_EFFECT
@@ -2728,7 +2566,6 @@ END
 END
 
 /// FA PROTECTS VS STUN ON EE//
-
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr718.spl~ THEN BEGIN
 COPY_EXISTING ~sppr718.spl~ ~override~   // 
   LPF ADD_SPELL_EFFECT
@@ -2820,7 +2657,6 @@ END
 END
 
 //// FEAR IMMUNITY //
-
 ACTION_IF FILE_EXISTS_IN_GAME ~bdtgaze.spl~ THEN BEGIN  // terrifying gaze
 COPY_EXISTING ~bdtgaze.spl~ ~override~   
 LPF ADD_SPELL_EFFECT
@@ -3327,7 +3163,6 @@ END
 END
 
 // CHAOS & CONFUSION & CHARM //
-
 ACTION_IF FILE_EXISTS_IN_GAME ~bdblun07.spl~ THEN BEGIN
 COPY_EXISTING ~bdblun07.spl~ ~override~  // ??
 LPF ADD_SPELL_EFFECT
@@ -3906,7 +3741,6 @@ END
 END
 
 /// DEATH IMMUNITY //
-
 ACTION_IF FILE_EXISTS_IN_GAME ~spin681.spl~ THEN BEGIN
 COPY_EXISTING ~spin681.spl~ ~override~   
 LPF ADD_SPELL_EFFECT
