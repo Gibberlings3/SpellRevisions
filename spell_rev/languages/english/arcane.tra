@@ -2698,7 +2698,7 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 Level: 9
 School: Abjuration
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: Caster
 Saving Throw: None
@@ -2804,7 +2804,7 @@ Casting Time: 1 round
 Area of Effect: 1 creature
 Saving Throw: None
 
-When the Imprisonment spell is cast the target creature becomes entombed in a small sphere far beneath the surface of the earth in a state of suspended animation, conscious of its fate. The victim remains there unless the reverse of the spell, Freedom, is cast. Otherwise, the victim will remain there as long as the earth exists, rather a horrible fate, actually. If a Freedom spell is cast in the area where the creature was imprisoned then he will reappear exactly where he was last standing. Dispel magic will not free creatures trapped in this manner. The target's magic resistance, if any, does not affect this spell.~
+When the Imprisonment spell is cast the target creature becomes entombed in a small sphere far beneath the surface of the earth in a state of suspended animation, conscious of its fate. The victim remains there unless the reverse of the spell, Freedom, is cast. Otherwise, the victim will remain imprisoned for 1 turn at the end of which it will die a horrible, despairing death by asphyxiation. If a Freedom spell is cast in the area where the creature was imprisoned then he will reappear exactly where he was last standing. Dispel magic will not free creatures trapped in this manner. The target's magic resistance, if any, does not affect this spell.~
 
 @825=~Meteor Swarm~
 @826=~Meteor Swarm
