@@ -1,362 +1,159 @@
 INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
 
+//Fill new regeneration spell references for latter use.
 LAF GET_NEW_SPELL_RESREFS RET_ARRAY new_spell_resrefs END
+OUTER_TEXT_SPRINT sppr117 $new_spell_resrefs("sppr117")
+OUTER_TEXT_SPRINT sppr217 $new_spell_resrefs("sppr217")
+OUTER_TEXT_SPRINT sppr323 $new_spell_resrefs("sppr323")
+OUTER_TEXT_SPRINT sppr419 $new_spell_resrefs("sppr419")
+OUTER_TEXT_SPRINT sppr520 $new_spell_resrefs("sppr520")
+OUTER_TEXT_SPRINT sppr521 $new_spell_resrefs("sppr521")
+OUTER_TEXT_SPRINT sppr522 $new_spell_resrefs("sppr522")
+OUTER_TEXT_SPRINT sppr523 $new_spell_resrefs("sppr523")
+OUTER_TEXT_SPRINT sppr524 $new_spell_resrefs("sppr524")
+OUTER_TEXT_SPRINT sppr619 $new_spell_resrefs("sppr619")
+OUTER_TEXT_SPRINT spwi225 $new_spell_resrefs("spwi225")
+OUTER_TEXT_SPRINT spwi526 $new_spell_resrefs("spwi526")
 
-OUTER_TEXT_SPRINT sppr117 $new_spell_resrefs(~sppr117~)
-OUTER_TEXT_SPRINT sppr217 $new_spell_resrefs(~sppr217~)
-OUTER_TEXT_SPRINT sppr323 $new_spell_resrefs(~sppr323~)
-OUTER_TEXT_SPRINT sppr419 $new_spell_resrefs(~sppr419~)
-OUTER_TEXT_SPRINT sppr520 $new_spell_resrefs(~sppr520~)
-OUTER_TEXT_SPRINT sppr521 $new_spell_resrefs(~sppr521~)
-OUTER_TEXT_SPRINT sppr522 $new_spell_resrefs(~sppr522~)
-OUTER_TEXT_SPRINT sppr523 $new_spell_resrefs(~sppr523~)
-OUTER_TEXT_SPRINT sppr524 $new_spell_resrefs(~sppr524~)
-OUTER_TEXT_SPRINT sppr619 $new_spell_resrefs(~sppr619~)
-OUTER_TEXT_SPRINT spwi225 $new_spell_resrefs(~spwi225~)
-OUTER_TEXT_SPRINT spwi526 $new_spell_resrefs(~spwi526~)
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr111.spl~ THEN BEGIN  // AoFaith
-COPY_EXISTING ~sppr111.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr111 END
+DEFINE_PATCH_FUNCTION MAKE_REFRESHING STR_VAR resource = "" BEGIN
+    //Debug message.
+    PATCH_PRINT "%SOURCE_RES%: refresh, non-stacking on %resource%."
+    //Clone relevant 206 -> 321.
+    LPF CLONE_EFFECT INT_VAR
+        match_opcode = 206              //Protection from spell.
+        opcode = 321                    //Remove effects by resource.
+        parameter1 = 0                  //Zero-out unused field.
+        parameter2 = 0
+        duration = 0                    //Zero-out unused field.
+        power = 0                       //Bypass spell protections.
+        resist_dispel = 0               //non-dispellable, bypass mr.
+        savingthrow = 0                 //No save.
+        savebonus = 0
+    STR_VAR
+        resource = "%resource%"
+        insert = "first"
+    END
+    //Delete relevant 206.
+    LPF DELETE_EFFECT INT_VAR
+        match_opcode = 206              //Protection from spell.
+    STR_VAR
+        match_resource = "%resource%"
+    END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr113.spl~ THEN BEGIN  // Doom
-COPY_EXISTING ~sppr113.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr113 END
+//Spells to patch.
+ACTION_DEFINE_ARRAY spells_to_patch BEGIN
+    //Divine spells.
+    "sppr111"                           //Armor of Faith.
+    "sppr113"                           //Doom.
+    "%sppr117%"                         //Regenerate Light Wounds
+    "sppr201"                           //Aid.
+    "sppr202"                           //Barkskin.
+    "sppr203"                           //Chant.
+    "sppr203d"                          //Aux, Bad chant.
+    "sppr209"                           //Know Opponent, Cleric.
+    "sppr210"                           //Resist Elements, Cleric.
+    "%sppr217%"                         //Regenerate Moderate Wounds
+    "sppr312"                           //Strength of Stone.
+    "%sppr323%"                         //Regenerate Serious Wounds
+    "sppr406"                           //Defensive Harmony.
+    "sppr407"                           //Protection from Electricity.
+    "sppr412"                           //Holy Power.
+    "sppr416"                           //Cloak of Fear.
+    "%sppr419%"                         //Regenerate Critical Wounds
+    "sppr513"                           //Righteous Fury.
+    "%sppr520%"                         //Protection from Acid.
+    "%sppr521%"                         //Protection from Cold.
+    "%sppr522%"                         //Protection from Electricity.
+    "%sppr523%"                         //Protection from Fire.
+    "%sppr524%"                         //Mass Regeneration.
+    "dvpr525d"                          //Animal Growth, aux spell.
+    "sppr603"                           //Blade Barrier.
+    "%sppr619%"                         //Regeneration, Druid.
+    "sppr711"                           //Regeneration.
+    "sppr725"                           //Globe of Blades.
+    "sppr730"                           //Aura of Flaming Death.
+    //Mage spells.
+    "spwi102"                           //Armor.
+    "spwi111"                           //True Strike.
+    "spwi114"                           //Shield.
+    "spwi201"                           //Blur.
+    "spwi208"                           //Know Opponent, Wizard.
+    "spwi209"                           //Luck.
+    "%spwi225%"                         //Resist Elements, Wizard.
+    "spwi301"                           //Clairvoyance.
+    "spwi315"                           //Wraithform.
+    "spwi317"                           //Ghost Armor.
+    "spwi319"                           //Protection from fire.
+    "spwi320"                           //Protection from cold.
+    "spwi403"                           //Mestil's Acid Shield.
+    "spwi411"                           //Emotion.
+    "spwi412"                           //Greater Malison.
+    "spwi414"                           //Spirit Armor.
+    "spwi418"                           //Fire Shield.
+    "spwi512"                           //Protection from Electricity.
+    "spwi517"                           //Protection from Acid.
+    "%spwi526%"                         //Mestil's Acid Shield.
+    "spwi602"                           //Globe of Invulnerability.
+    "spwi606"                           //Protection from Magic Energy.
+    "spwi702"                           //Protection from the Elements.
+    "spwi708"                           //Prismatic Mantle.
+    "spwi801"                           //Ghost Form.
+    "spwi803"                           //Protection from Energy.
+    "spwi808"                           //Moment of Presciense
 END
 
-
-ACTION_DEFINE_ARRAY regen_spells BEGIN
-  ~%sppr117%~ // Regenerate Light Wounds
-  ~%sppr217%~ // Regenerate Moderate Wounds
-  ~%sppr323%~ // Regenerate Serious Wounds
-  ~%sppr419%~ // Regenerate Critical Wounds
-  ~%sppr524%~ // Mass Regenerate
-  ~%sppr619%~ // Regeneration (Druid Version)
-  ~sppr711~   // Regeneration
+//Main patching loop, dealing with self-stacking, the most common case.
+ACTION_PHP_EACH spells_to_patch AS i => resource BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME "%resource%.spl" BEGIN
+        COPY_EXISTING ~%resource%.spl~ ~override~
+            LPF MAKE_REFRESHING STR_VAR resource = "%resource%" END
+    END
 END
 
-ACTION_PHP_EACH regen_spells AS i => regen_spell BEGIN
-  ACTION_IF (FILE_EXISTS_IN_GAME ~%regen_spell%.spl~) BEGIN
-    COPY_EXISTING ~%regen_spell%.spl~ ~override~
-      LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-      PHP_EACH regen_spells AS j => regen_spell_inner BEGIN
-        LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%regen_spell_inner%~ END
-      END
-  END
+//TODO: regeneration spells => not concurrent with each other. Do we want that?
+//ACTION_PHP_EACH regen_spells AS i => regen_spell BEGIN
+//    ACTION_IF (FILE_EXISTS_IN_GAME ~%regen_spell%.spl~) BEGIN
+//        COPY_EXISTING ~%regen_spell%.spl~ ~override~
+//            LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+//            PHP_EACH regen_spells AS j => regen_spell_inner BEGIN
+//                LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%regen_spell_inner%~ END
+//            END
+//    END
+//END
+
+//Know Opponent, Cleric.
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN 
+    COPY_EXISTING ~sppr209.spl~ ~override~
+        //Know Opponent, Wizard.
+        LPF MAKE_REFRESHING STR_VAR resource = "spwi208" END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr201.spl~ THEN BEGIN  // Aid
-COPY_EXISTING ~sppr201.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr201 END
+//Resist Elements, Cleric.
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN
+    COPY_EXISTING ~sppr210.spl~ ~override~
+        //Resist elements, Wizard.
+        LPF MAKE_REFRESHING STR_VAR resource = EVAL "%spwi225%" END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr202.spl~ THEN BEGIN  // Barkskin
-COPY_EXISTING ~sppr202.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr202 END
+//Mage spells.
+//Know opponent, Wizard.
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi208.spl~ THEN BEGIN
+    COPY_EXISTING ~sppr208.spl~ ~override~
+        //Know opponent, Cleric.
+        LPF MAKE_REFRESHING STR_VAR resource = "sppr209" END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr203.spl~ THEN BEGIN  // Chant
-COPY_EXISTING ~sppr203.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+//Mirror Image.
+ACTION_IF FILE_EXISTS_IN_GAME ~spwi212.spl~ THEN BEGIN
+    COPY_EXISTING ~spwi212.spl~ ~override~
+        //Reflected image.
+        LPF MAKE_REFRESHING STR_VAR resource = "spwi120" END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr203d.spl~ THEN BEGIN  // Bad Chant
-COPY_EXISTING ~sppr203d.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr203e END
+//Resist elements, Wizard.
+ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN
+    COPY_EXISTING ~%spwi225%.spl~ ~override~
+        //Resist elements, Cleric
+        LPF MAKE_REFRESHING STR_VAR resource = "sppr210" END
 END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr203e.spl~ THEN BEGIN  // Good Chant
-COPY_EXISTING ~sppr203e.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr203d END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
-COPY_EXISTING ~sppr209.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr209 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN  // pro elements
-COPY_EXISTING ~sppr210.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr312.spl~ THEN BEGIN  // strenght of stone
-COPY_EXISTING ~sppr312.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr312 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr319b.spl~ THEN BEGIN  // insects
-COPY_EXISTING ~sppr319b.spl~ ~override~
-LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 24 new_opcode = 247 parameter2 = 1 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr406.spl~ THEN BEGIN  // def harmony
-COPY_EXISTING ~sppr406.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr406 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr407.spl~ THEN BEGIN  // pro electric
-COPY_EXISTING ~sppr407.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr407 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr412.spl~ THEN BEGIN  // holy power
-COPY_EXISTING ~sppr412.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr412 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr416.spl~ THEN BEGIN  // cloak of fear
-COPY_EXISTING ~sppr416.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr416 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr513.spl~ THEN BEGIN  // righteous fury
-COPY_EXISTING ~sppr513.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr513 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr517b.spl~ THEN BEGIN  // insects
-COPY_EXISTING ~sppr517b.spl~ ~override~
-LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 24 new_opcode = 247 parameter2 = 1 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~%sppr520%.spl~ THEN BEGIN  // pro acid
-COPY_EXISTING ~%sppr520%.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr520%~ END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~%sppr521%.spl~ THEN BEGIN  // pro cold
-COPY_EXISTING ~%sppr521%.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr521%~ END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~%sppr522%.spl~ THEN BEGIN  // pro electric
-COPY_EXISTING ~%sppr522%.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr522%~ END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~%sppr523%.spl~ THEN BEGIN  // pro fire
-COPY_EXISTING ~%sppr523%.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr523%~ END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~dvpr525d.spl~ THEN BEGIN  // animal growth
-COPY_EXISTING ~dvpr525d.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = dvpr525d END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr603.spl~ THEN BEGIN  // blade barrier
-COPY_EXISTING ~sppr603.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr603 END
-END
- 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr717b.spl~ THEN BEGIN  // insects
-COPY_EXISTING ~sppr717b.spl~ ~override~
-LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 24 new_opcode = 247 parameter2 = 1 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr725.spl~ THEN BEGIN  // globe of blades
-COPY_EXISTING ~sppr725.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr725 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr730.spl~ THEN BEGIN  // aura of flaming death
-COPY_EXISTING ~sppr730.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = sppr730 END
-END
-
-
-/////////////MAGE SPELLS///
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi102.spl~ THEN BEGIN  // armor
-COPY_EXISTING ~spwi102.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi102 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi111.spl~ THEN BEGIN  // true strike
-COPY_EXISTING ~spwi111.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi111 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi114.spl~ THEN BEGIN  // shield
-COPY_EXISTING ~spwi111.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi114 END
-LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 206 STR_VAR resource = spwi112 END
-LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 206 STR_VAR resource = wand03 END
-LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 206 STR_VAR resource = spwi003 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi201.spl~ THEN BEGIN  // blur
-COPY_EXISTING ~spwi201.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi201 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi208.spl~ THEN BEGIN  // know oponnent
-COPY_EXISTING ~sppr208.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr209 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi209.spl~ THEN BEGIN  // luck
-COPY_EXISTING ~spwi209.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi209 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi212.spl~ THEN BEGIN  // MI
-COPY_EXISTING ~spwi212.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi120 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN  // pro elements
-COPY_EXISTING ~%spwi225%.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi301.spl~ THEN BEGIN  // clairvoyance
-COPY_EXISTING ~spwi301.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi301 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi315.spl~ THEN BEGIN  // wraithform
-COPY_EXISTING ~spwi315.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi315 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi317.spl~ THEN BEGIN  // ghost armor
-COPY_EXISTING ~spwi317.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi317 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi319.spl~ THEN BEGIN  // pro fire
-COPY_EXISTING ~spwi319.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi319 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi320.spl~ THEN BEGIN  // pro cold
-COPY_EXISTING ~spwi320.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi320 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi403.spl~ THEN BEGIN  // mesthil
-COPY_EXISTING ~spwi403.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi403 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi411.spl~ THEN BEGIN  // emotion
-COPY_EXISTING ~spwi411.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi411 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi412.spl~ THEN BEGIN  // malison
-COPY_EXISTING ~spwi412.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi412 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi414.spl~ THEN BEGIN  // spirit armor
-COPY_EXISTING ~spwi414.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi414 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi418.spl~ THEN BEGIN  // fiershield red
-COPY_EXISTING ~spwi418.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi418 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi512.spl~ THEN BEGIN  // pro electric
-COPY_EXISTING ~spwi512.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi512 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi517.spl~ THEN BEGIN  // pro acid
-COPY_EXISTING ~spwi517.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi517 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~%spwi526%.spl~ THEN BEGIN  // mestil
-COPY_EXISTING ~%spwi526%.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = EVAL ~%spwi526%~ END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi602.spl~ THEN BEGIN  // goi
-COPY_EXISTING ~spwi602.spl~ ~override~
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi602 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi606.spl~ THEN BEGIN  // pro mag energy
-COPY_EXISTING ~spwi606.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi606 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi702.spl~ THEN BEGIN  // pro el energy
-COPY_EXISTING ~spwi702.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi702 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi708.spl~ THEN BEGIN  // Prism mantle
-COPY_EXISTING ~spwi708.spl~ ~override~
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi708 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi801.spl~ THEN BEGIN  // ghost
-COPY_EXISTING ~spwi801.spl~ ~override~
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi801 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi803.spl~ THEN BEGIN  // pro el energy
-COPY_EXISTING ~spwi803.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi803 END END
- 
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi808.spl~ THEN BEGIN  // moment of prescience
-COPY_EXISTING ~spwi808.spl~ ~override~
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 1 STR_VAR resource = spwi808 END END
