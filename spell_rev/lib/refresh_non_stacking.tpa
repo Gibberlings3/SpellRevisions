@@ -26,14 +26,15 @@ DEFINE_PATCH_FUNCTION MAKE_REFRESHING INT_VAR debug = 0 STR_VAR resource = "" BE
         opcode = 321                    //Remove effects by resource.
         parameter1 = 0                  //Zero-out unused field.
         parameter2 = 0
-        duration = 0                    //Zero-out unused field.
+        timing = 1                      //Instantaneous.
+        duration = 0                    //Zero out unused field.
         power = 0                       //Bypass spell protections.
         resist_dispel = 0               //non-dispellable, bypass mr.
         savingthrow = 0                 //No save.
         savebonus = 0
         verbose = debug
     STR_VAR
-        resource = "%resource%"
+        match_resource = "%resource%"
         insert = "first"
     END
     //Delete relevant 206.
