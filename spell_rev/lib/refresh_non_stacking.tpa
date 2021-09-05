@@ -15,9 +15,11 @@ OUTER_TEXT_SPRINT sppr619 $new_spell_resrefs("sppr619")
 OUTER_TEXT_SPRINT spwi225 $new_spell_resrefs("spwi225")
 OUTER_TEXT_SPRINT spwi526 $new_spell_resrefs("spwi526")
 
-DEFINE_PATCH_FUNCTION MAKE_REFRESHING STR_VAR resource = "" BEGIN
-    //Debug message.
-    PATCH_PRINT "%SOURCE_RES%: refresh, non-stacking on %resource%."
+DEFINE_PATCH_FUNCTION MAKE_REFRESHING INT_VAR debug = 0 STR_VAR resource = "" BEGIN
+    PATCH_IF NOT (debug = 0) BEGIN
+        //Debug message.
+        PATCH_PRINT "%SOURCE_RES%: refresh, non-stacking on %resource%."
+    END
     //Clone relevant 206 -> 321.
     LPF CLONE_EFFECT INT_VAR
         match_opcode = 206              //Protection from spell.
@@ -29,6 +31,7 @@ DEFINE_PATCH_FUNCTION MAKE_REFRESHING STR_VAR resource = "" BEGIN
         resist_dispel = 0               //non-dispellable, bypass mr.
         savingthrow = 0                 //No save.
         savebonus = 0
+        verbose = debug
     STR_VAR
         resource = "%resource%"
         insert = "first"
@@ -36,6 +39,7 @@ DEFINE_PATCH_FUNCTION MAKE_REFRESHING STR_VAR resource = "" BEGIN
     //Delete relevant 206.
     LPF DELETE_EFFECT INT_VAR
         match_opcode = 206              //Protection from spell.
+        verbose = debug
     STR_VAR
         match_resource = "%resource%"
     END

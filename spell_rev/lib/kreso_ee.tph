@@ -1,10 +1,12 @@
 //Refresh, but non-stacking.
-INCLUDE "%MOD_FOLDER%/lib/refresh_non_stacking.tpa"
+//Do not pollute namespace => segregate INCLUDE to its own scope. TODO: use dedicated function.
+WITH_SCOPE BEGIN
+    INCLUDE "%MOD_FOLDER%/lib/refresh_non_stacking.tpa"
+END
 
 // EE 2.5 patches by subtledoctor
 //
 ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
-
     ACTION_IF FILE_EXISTS_IN_GAME ~spwi318.spl~ THEN BEGIN  // minor deflection
         COPY_EXISTING ~spwi318.spl~ ~override~
         LPF ALTER_EFFECT INT_VAR silent = 1 multi_match = 1 match_opcode = 201 STR_VAR resource = ~spwi318b~ END 
@@ -24,5 +26,4 @@ ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
         COPY_EXISTING ~spwi701.spl~ ~override~
         LPF ALTER_EFFECT INT_VAR silent = 1 multi_match = 1 match_opcode = 201 STR_VAR resource = ~spwi701b~ END 
     END
-
 END 
