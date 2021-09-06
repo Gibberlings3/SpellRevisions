@@ -3186,22 +3186,22 @@ LPF ADD_SPELL_EFFECT
 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr416.spl~ THEN BEGIN
-COPY_EXISTING ~sppr416.spl~ ~override~   
-LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 324
-	target			= 2
-	power			= 0
-	savingthrow     = 0
-	parameter1      = 106   // fear immune
-	parameter2		= 110
-	duration        = 1
-	timing			= 0
-	insert_point    = 0
-	STR_VAR
-	resource        = sppr416
-END
+ACTION_IF FILE_EXISTS_IN_GAME ~sppr416d.spl~ THEN BEGIN
+	COPY_EXISTING ~sppr416d.spl~ ~override~   
+		LPF ADD_SPELL_EFFECT INT_VAR
+			//Remove effects by resource.
+			opcode = 324
+			target = 2
+			power = 0
+			savingthrow = 0
+			parameter1 = 106          //Fear immunity.
+			parameter2 = 110
+			duration = 1
+			timing = 0
+			insert_point = 0
+		STR_VAR
+			resource = "sppr416d"
+		END
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spwi125.spl~ THEN BEGIN
