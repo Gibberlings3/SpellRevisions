@@ -529,7 +529,7 @@ END
 
 // Cast aux spell eff.
 ACTION_IF NOT FILE_EXISTS_IN_GAME "sppr204.eff" BEGIN
-    COPY ~spell_rev/spwi1##/spwi104.eff~ ~override/sppr204~
+    COPY ~spell_rev/spwi1##/spwi104.eff~ ~override/sppr204.eff~
         //Patch-in spell to cast.
         WRITE_ASCII 0x30 "dvachrm" #8
 END ELSE BEGIN
