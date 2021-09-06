@@ -3568,24 +3568,6 @@ LPF ADD_SPELL_EFFECT
 END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~%sppr311%.spl~ THEN BEGIN
-COPY_EXISTING ~%sppr311%.spl~ ~override~  
-LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 324
-	target			= 2
-	power			= 0
-	savingthrow     = 0
-	parameter1      = 41     // Chaotic commands
-	parameter2		= 110
-	duration        = 1
-	timing			= 0
-	insert_point    = 0
-	STR_VAR
-	resource        = EVAL ~%sppr311%~
-END
-END
-
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr405.spl~ THEN BEGIN
 COPY_EXISTING ~sppr405.spl~ ~override~  
 LPF ADD_SPELL_EFFECT
