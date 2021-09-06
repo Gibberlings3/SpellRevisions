@@ -507,9 +507,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME "dvachrm.spl" BEGIN
       STR_VAR
           resource = "dvachrm"
       END
-      //Add charm mammal.
+      //Add charm animal.
       LPF CLONE_EFFECT INT_VAR
           match_opcode = 5              //Charm.
+          match_parameter1 = 1          //Humanoid.
           parameter1 = 2                //Animal.
       STR_VAR
           insert = "below"
