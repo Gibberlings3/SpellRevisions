@@ -501,13 +501,13 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME "dvachrm.spl" BEGIN
       LPF ALTER_SPELL_EFFECT INT_VAR
           duration_high = 60
       END
-      //Patch in resource for racial immunty. Should already be in, but just in case.
+      //Patch in resource for racial immunity. Should already be in, but just in case.
       LPF ALTER_EFFECT INT_VAR
-          match_opcode = 177              //Use Eff.
+          match_opcode = 177            //Use Eff.
       STR_VAR
           resource = "dvachrm"
       END
-    //Add charm mammal.
+      //Add charm mammal.
       LPF CLONE_EFFECT INT_VAR
           match_opcode = 5              //Charm.
           parameter1 = 2                //Animal.
