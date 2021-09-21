@@ -1,0 +1,441 @@
+// Add Invisibility/Sanctuary-Breaking Flag (EEs)
+
+ACTION_IF (GAME_IS ~bgee bg2ee eet~ AND NOT GAME_IS ~tutu tutu_totsc bg2 tob bgt~) BEGIN
+  ACTION_FOR_EACH resource IN
+    ~SPIN104~ // Bhaalspawn Larloch's Minor Drain
+    ~SPIN105~ // Bhaalspawn Horror
+    ~SPIN106~ // Bhaalspawn Vampiric Touch
+    ~SPRA304~ // Beast Master Animal Summoning IV
+    ~SPRA305~ // Beast Master Animal Summoning V
+    ~SPRA306~ // Beast Master Animal Summoning VI
+    // ~SPCL212~ // Paladin Detect Evil
+    ~SPCL232~ // Inquisitor Dispel Magic
+    ~SPCL232~ // Inquisitor True Seeing
+    ~SPCL722~ // Priest of Talos Lightning Bolt
+    ~SPCL732~ // Priest of Helm True Seeing
+    ~SPCL742~ // Priest of Lathander Halt Undead
+    ~SPDR101~ // Avenger Chromatic Orb
+    ~SPDR201~ // Avenger Web
+    ~SPDR301~ // Avenger Lightning Bolt
+    ~SPDR501~ // Avenger Cone of Cold
+    ~SPDR601~ // Avenger Chain Lightning
+    ~SPIN108~ // Safana Charm Person 
+    ~SPIN112~ // Yeslick Dispel Magic
+    ~SPIN114~ // Faldorn Summon Dread Wolf
+    ~SPIN115~ // Tiax Summon Ghast
+    // ~SPIN120~ // Ajantis Detect Evil
+    ~FEARAURA~ // Aura of Fear
+    // ~DVTELPOR~ // Teleport Without Error
+    ~SPIN683~ // Web Tangle
+    ~SPIN788~ // Demilich Soul Trap
+    // ~SPIN789~ // Demilich Howl (what is this?)
+    ~SPPR102~ // Command
+    // ~SPPR104~ // Detect Alignment
+    ~SPPR105~ // Entangle
+    ~SPPR113~ // Doom
+    ~SPPR203~ // Chant
+    ~SPPR204~ // Charm Person or Animal
+    // ~SPPR205~ // Find Traps
+    // ~SPPR205D~ // Find Traps pulse
+    ~SPPR208~ // Hold Person
+    ~SPPR209~ // Know Opponent
+    ~SPPR211~ // Silence
+    ~SPPR301~ // Animate Dead
+    ~SPPR302~ // Call Lightning
+    ~SPPR303~ // Dispel Magic
+    ~SPPR304~ // Glyph of Warding
+    ~SPPR305~ // Hold Person or Animal
+    ~SPPR309~ // Invisibility Purge
+    // ~SPPR309D~ // Invisibility Purge pulse
+    ~SPPR310~ // Miscast Magic
+    ~SPPR311~ // Rigid Thinking
+    ~SPPR313~ // Holy Smite
+    ~SPPR314~ // Unholy Blight
+    // ~SPPR318~ // Zone of Sweet Air
+    ~SPPR319~ // Summon Insects
+    ~SPPR402~ // Animal Summoning IV
+    ~SPPR405~ // Mental Domination
+    ~SPPR410~ // Call Woodland Beings
+    ~SPPR411~ // Poison
+    // ~SPPR415~ // Farsight
+    ~SPPR416~ // Cloak of Fear
+    // ~SPPR415D~ // Cloak of Fear pulse
+    ~SPPR501~ // Animal Summoning V
+    ~SPPR503~ // Flame Strike
+    // ~SPPR504~ // Raise Dead
+    ~SPPR505~ // True Seeing
+    // ~SPPR505~ // True Seeing pulse
+    ~SPPR512~ // Greater Command
+    ~SPPR515~ // Repulsion
+    // ~SPPR515D~ // Repulsion pulse
+    ~SPPR517~ // Insect Plague
+    ~SPPR601~ // Aerial Servant
+    ~SPPR602~ // Animal Summoning VI
+    ~SPPR603~ // Blade Barrier
+    // ~SPPR603D~ // Blade Barrier pulse
+    ~SPPR698~ // AI Blade Barrier
+    ~SPPR604~ // Animal Summoning VI
+    ~SPPR605~ // Conjure Fire Elemental
+    ~SPPR609~ // False Dawn
+    ~SPPR609E~ // False Dawn pulse~
+    ~SPPR610~ // Dolorous Decay
+    ~SPPR612~ // Bolt of Glory
+    ~SPPR702~ // Summon Shambling Mound
+    ~SPPR703~ // Summon Death Knight
+    ~SPPR704~ // Nature's Beauty
+    ~SPPR705~ // Fire Storm
+    ~SPPR706~ // Symbol of Pain
+    ~SPPR707~ // Sunray
+    ~SPPR708~ // Finger of Death
+    ~SPPR709~ // Chaos
+    ~SPPR710~ // Holy Word
+    // ~SPPR712~ // Resurrection
+    ~SPPR715~ // Unholy Word
+    ~SPPR717~ // Creeping Doom
+    ~SPPR718~ // Symbol of Stunning
+    ~SPPR719~ // Symbol of Death
+    ~SPPR720~ // Earthquake
+    ~SPPR722~ // Storm of Vengeance
+    ~SPPR723~ // Elemental Swarm
+    ~SPPR724~ // Elemental Prince Call
+    ~SPPR725~ // Globe of Blades
+    // ~SPPR725D~ // Globe of Blades pulse
+    ~SPPR726~ // Summon Deva
+    ~DW#DEVAG~ // SCS Summon Deva
+    ~SPPR727~ // Summon Fallen Deva
+    ~DW#DEVAE~ // SCS Summon Fallen Deva
+    ~SPPR728~ // Implosion
+    // ~SPPR729~ // Mass Raise Dead
+    // ~SPPR730~ // Aura of Flaming Death
+    ~SPWI101~ // Grease
+    ~SPWI103~ // Burning Hands
+    ~SPWI104~ // Charm Person
+    ~SPWI105~ // Color Spray
+    ~SPWI106~ // Obscuring Mist / Blindness
+    ~SPWI112~ // Magic Missile
+    ~SPWI116~ // Sleep
+    ~SPWI118~ // Chromatic Orb
+    ~SPWI119~ // Larloch's Minor Drain
+    ~SPWI123~ // Find Familiar
+    ~SPWI125~ // Spook
+    // ~SPWI202~ // Detect Alignment
+    ~SPWI203~ Detect Invisibility
+    // ~SPWI203D~ // Detect Invisibility pulse
+    ~SPWI205~ // Horror
+    ~SPWI207~ // Battering Ram
+    ~SPWI208~ // Know Opponent
+    ~SPWI211~ // Melf's Acid Arrow
+    ~SPWI213~ // Stinking Cloud
+    ~SPWI215~ // Web
+    ~SPWI217~ // Agannazar's Scorcher
+    ~SPWI220~ // Power Word: Sleep
+    ~SPWI221~ // Ray of Enfeeblement
+    ~SPWI223~ // Sound Burst
+    ~SPWI224~ // Glitterdust
+    ~SPWI302~ // Remove Magic
+    ~SPWI303~ // Flame Arrow
+    ~SPWI304~ // Fireball
+    ~SPWI306~ // Hold Person
+    ~SPWI308~ // Lightning Bolt
+    ~SPWI309~ // Monster Summoning III
+    ~SPWI312~ // Slow
+    ~SPWI313~ // Skull Trap
+    ~SPWI314~ // Vampiric Touch
+    ~SPWI316~ // Dire Charm
+    ~SPWI321~ // Spell Thrust
+    ~SPWI322~ // Detect Illusion
+    ~SPWI324~ // Halt Undead
+    ~SPWI326~ // Dispel Magic
+    ~SPWI401~ // Confusion
+    // ~SPWI402~ // Dimension Jump
+    // ~SPWI403~ // Mestil's Acid Sheath
+    ~SPWI404~ // Ice Storm
+    ~SPWI407~ // Monster Summoning IV
+    ~SPWI409~ // Contagion
+    ~SPWI411~ // Emotion: Despair
+    ~SPWI412~ // Greater Malison
+    ~SPWI413~ // Otiluke's Resilient Sphere
+    ~SPWI415~ // Polymorph Other
+    // ~SPWI418~ // Fire Shield
+    ~SPWI419~ // Secret Word
+    // ~SPWI420D~ // Simbul's Spell Matrix activation
+    ~SPWI421~ // Teleport Field
+    ~SPWI423~ // Monster Summoning IV
+    // ~SPWI424~ // Farsight
+    ~SPWI425~ // Wizard Eye
+    ~SPWI501~ // Summon Shadow
+    ~SPWI502~ // Cloudkill
+    ~SPWI503~ // Cone of Cold
+    ~SPWI504~ // Monster Summoning V
+    ~SPWI505~ // Shadow Door
+    ~SPWI506~ // Domination
+    ~SPWI507~ // Hold Monster
+    ~SPWI508~ // Waves of Fatigue
+    ~SPWI509~ // Feeblemind
+    ~SPWI513~ // Breach
+    ~SPWI514~ // Lower Resistance
+    ~SPWI515~ // Oracle
+    ~SPWI516~ // Conjure Lesser Fire Elemental
+    ~SPWI520~ // Conjure Lesser Air Elemental
+    ~SPWI521~ // Conjure Lesser Earth Elemental
+    ~SPWI523~ // Fireburst
+    ~SPWI601~ // Invisible Stalker
+    ~SPWI604~ // Flesh to Stone
+    ~SPWI605~ // Banishment
+    ~SPWI607~ // Mislead
+    ~SPWI608~ // Pierce Magic
+    ~SPWI609~ // True Seeing
+    // ~SPWI609D~ // True Seeing pulse
+    ~SPWI612~ // Power Word: Silence
+    ~SPWI614~ // Acid Fog
+    ~SPWI615~ // Chain Lightning
+    ~SPWI616~ // Disintegrate
+    ~SPWI619~ // Monster Summoning VI
+    ~SPWI620~ // Conjure Fire Elemental
+    ~SPWI621~ // Conjure Air Elemental
+    ~SPWI622~ // Conjure Earth Elemental
+    ~SPWI623~ // Animate Warrior
+    ~SPWI624~ // Summon Nishruu
+    ~SPWI703~ // Project Image
+    ~SPWI704~ // Ruby Ray of Reversal
+    ~SPWI705~ // Khelben's Warding Whip
+    ~SPWI707~ // Summon Death Knight
+    ~SPIN701~ // Unholy Fireball
+    // ~SPWI708~ // Prismatic Mantle
+    // ~SPWI710D~ // Simbul's Spell Sequencer activation
+    ~SPWI711~ // Chaos
+    ~SPWI712~ // Delayed Blast Fireball
+    ~SPWI713~ // Finger of Death
+    ~SPWI714~ // Prismatic Spray
+    ~SPWI715~ // Power Word: Stun
+    ~SPWI716~ // Mordenkainen's Sword
+    ~SPWI717~ // Summon Efreeti
+    ~SPWI718~ // Summon Djinni
+    ~SPWI719~ // Summon Hakeashar
+    ~SPWI720~ // Control Undead
+    ~SPWI722~ // Limited Wish
+    ~SPWI804~ // Simulacrum
+    ~SPWI805~ // Pierce Shield
+    ~SPWI807~ // Summon Fiend
+    // ~SPWI809D~ // Simbul's Spell Trigger activation
+    ~SPWI810~ // Incendiary Cloud
+    ~SPWI811~ // Symbol of Pain
+    ~SPWI899~ // Innate Symbol of Pain
+    ~SPWI812~ // Abi-Dalzim's Horrid Wilting
+    ~SPWI813~ // Maze
+    ~SPWI815~ // Power Word: Blind
+    ~SPWI816~ // Symbol of Stunning
+    ~SPWI898~ // Innate Symbol of Stunning
+    ~SPWI817~ // Symbol of Death
+    ~SPWI897~ // Innate Symbol of Death
+    ~SPIN839~ // Confusing Gaze
+    ~SPWI903~ // Spellstrike
+    ~SPWI905~ // Gate
+    ~SPWI909~ // Time Stop
+    ~SPWI910~ // Imprisonment
+    ~SPWI911~ // Meteor Swarm
+    ~SPWI912~ // Power Word: Kill
+    ~SPWI913~ // Wail of the Banshee
+    ~SPWI914~ // Larloch's Energy Drain
+    // ~SPWI917~ // Freedom
+    ~SPWI918~ // Bigby's Crushing Hand
+    ~SPWI919~ // Wish
+    ~SPWI922~ // Dragon's Breath
+    ~SPWI923~ // Summon Planetar
+    ~DW#PLANG~ // SCS Summon Planetar
+    ~SPWI924~ // Summon Fallen Planetar
+    ~DW#PLANE~ // SCS Summon Fallen Planetar
+    ~SPWI925~
+  BEGIN
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.spl~) BEGIN
+      COPY_EXISTING ~%resource%.spl~ ~override\%resource%.spl~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        READ_BYTE 0x19 flags
+        WRITE_BYTE 0x19 (%flags% BOR 0b00000010) // Add invisibility/sanctuary-breaking flag
+      END
+    END
+  END
+  ACTION_FOR_EACH add_spl IN
+    ~CLERIC_FAERIE_FIRE~
+    ~CLERIC_SUNSCORCH~
+    ~CLERIC_ANIMAL_SUMMONING_LEVEL_1~
+    ~CLERIC_OBSCURING_MIST~
+    ~CLERIC_FIRE_TRAP~
+    ~CLERIC_GUST_OF_WIND_DRUID_VERSION~
+    ~CLERIC_ANIMAL_SUMMONING_LEVEL_2~
+    ~CLERIC_ANIMAL_SUMMONING_LEVEL_3~
+    ~CLERIC_SPIKE_GROWTH~
+    ~CLERIC_ICELANCE~
+    ~CLERIC_CONTAGION~
+    ~CLERIC_ICE_STORM~
+    ~CLERIC_POLYMORPH_OTHER~
+    ~CLERIC_BANISHMENT~
+    ~CLERIC_CONJURE_AIR_ELEMENTAL~
+    ~CLERIC_CONJURE_EARTH_ELEMENTAL~
+    ~CLERIC_ANIMATE_SKELETON_WARRIOR~
+    // ~WIZARD_DIMENSION_JUMP~
+    // ~WIZARD_KNOW_ALIGNMENT~
+    ~WIZARD_MONSTER_SUMMONING_LEVEL_1~
+    ~WIZARD_MONSTER_SUMMONING_LEVEL_2~
+    ~WIZARD_ICELANCE~
+    ~WIZARD_VITRIOLIC_SPHERE~
+    ~WIZARD_BALL_LIGHTNING~
+    // ~WIZARD_MESTILS_ACID_SHEATH~
+    ~WIZARD_MONSTER_SUMMONING_5~
+    ~WIZARD_MONSTER_SUMMONING_6~
+    ~WIZARD_MONSTER_SUMMONING_7~
+  BEGIN
+    ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]%add_spl%[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
+      LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%add_spl%~ RET spell_res END
+      OUTER_SPRINT $add_spl_spells(~%spell_res%~) ~%add_spl%~
+    END
+  END
+  ACTION_PHP_EACH add_spl_spells AS %spell_res% => %add_spl% BEGIN
+    COPY_EXISTING ~%spell_res%.spl~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        READ_BYTE 0x19 flags
+        WRITE_BYTE 0x19 (%flags% BOR 0b00000010) // Add invisibility/sanctuary-breaking flag
+      END
+    BUT_ONLY
+  END
+  ACTION_FOR_EACH resource IN // Extended header #1
+    ~scrl5a~ // Mental Domination
+    ~scrl62~ // Flame Strike
+    // ~scrl63~ // Raise Dead
+    ~scrl66~ // Grease
+    ~scrl68~ // Burning Hands
+    ~scrl69~ // Charm Person
+    ~scrl71~ // Obscuring Mist / Blindness
+    // ~scrl1v~ // Dimension Door / Dimension Jump
+    ~scrl77~ // Magic Missile
+    ~scrl81~ // Sleep
+    ~scrl83~ // Chromatic Orb
+    ~scrl84~ // Larloch's Minor Drain
+    ~scrla6~ // Spook
+    // ~dvscrlda~ // Detect Alignment
+    ~scrl72~ // Monster Summoning I
+    ~scrl89~ // Horror
+    ~scrl91~ // Battering Ram
+    ~scrl92~ // Know Opponent
+    ~scrl95~ // Melf's Acid Arrow
+    ~scrl97~ // Stinking Cloud
+    ~scrl99~ // Web
+    ~scrl1b~ // Agannazar's Scorch
+    ~scrl6e~ // Power Word: Sleep
+    ~scrl6f~ // Ray of Enfeeblement
+    ~scrla2~ // Sound Burst
+    ~scrla3~ // Glitterdust
+    // ~scrl86~ // Detect Evil
+    ~scrl1l~ // Monster Summoning II
+    ~scrla7~ // Remove Magic
+    ~scrl1f~ // Flame Arrow
+    ~scrl1g~ // Fireball
+    ~scrl1i~ // Hold Person
+    ~scrl1k~ // Lightning Bolt
+    ~scrl2a~ // Monster Summoning III
+    ~scrl1o~ // Slow
+    ~scrl1p~ // Skull Trap
+    ~scrl1q~ // Vampiric Touch
+    ~scrl1s~ // Dire Charm
+    ~scrl6j~ // Spell Thrust
+    ~scrl6k~ // Detect Illusion
+    ~scrl6l~ // Halt Undead
+    ~scrl1e~ // Dispel Magic
+    ~scrl6i~ // Icelance
+    ~scrl1u~ // Confusion
+    ~scrl1x~ // Ice Storm
+    ~scrl2b~ // Monster Summoning IV
+    ~scrla8~ // Contagion
+    ~scrl5h~ // Emotion: Despair
+    ~scrl5i~ // Greater Malison
+    ~scrl5l~ // Polymorph Other
+    // ~scrl6n~ // Fire Shield
+    ~scrl6o~ // Secret Word
+    ~scrl6q~ // Teleport Field
+    ~scrl6r~ // Monster Summoning IV
+    // ~scrlaq~ // Farsight
+    ~scrla1~ // Wizard Eye
+    ~scrl6y~ // Vitriolic Sphere
+    ~scrl2d~ // Summon Shadow
+    ~scrl2e~ // Cloudkill
+    ~scrl2f~ // Cone of Cold
+    ~scrl2g~ // Monster Summoning V
+    ~scrl2h~ // Shadow Door
+    ~scrl5n~ // Domination
+    ~scrl5o~ // Hold Monster
+    ~scrl5p~ // Waves of Fatigue
+    ~scrl5q~ // Feeblemind
+    ~scrl6u~ // Breach
+    ~scrl6v~ // Lower Resistance
+    ~scrl6w~ // Oracle
+    ~scrl6x~ // Conjure Lesser Fire Elemental
+    ~scrl7b~ // Conjure Lesser Air Elemental
+    ~scrl7c~ // Conjure Lesser Earth Elemental
+    ~scrlar~ // Fireburst
+    // ~scrl1w~ // Mestil's Acid Sheath
+    ~scrl7e~ // Invisible Stalker
+    ~scrl7h~ // Flesh to Stone
+    ~scrl7i~ // Banishment
+    ~scrl7k~ // Mislead
+    ~scrl7l~ // Pierce Magic
+    ~scrl7m~ // True Seeing
+    ~scrl7p~ // Power Word: Silence
+    ~scrl7r~ // Acid Fog
+    ~scrl7s~ // Chain Lightning
+    ~scrl7t~ // Disintegrate
+    ~scrl7w~ // Monster Summoning VI
+    ~scrl7x~ // Conjure Fire Elemental
+    ~scrl7y~ // Conjure Air Elemental
+    ~scrl7z~ // Conjure Earth Elemental
+    ~scrl8a~ // Animate Warrior
+    ~scrl8c~ // Summon Nishruu
+    ~scrl8f~ // Project Image
+    ~scrl8g~ // Ruby Ray of Reversal
+    ~scrl8h~ // Khleben's Warding Whip
+    ~scrl8i~ // Summon Death Knight
+    ~scrl8j~ // Prismatic Mantle
+    ~scrl8m~ // Chaos
+    ~scrl8n~ // Delayed Blast Fireball
+    ~scrl8o~ // Finger of Death
+    ~scrl8p~ // Prismatic Spray
+    ~scrl8q~ // Power Word: Stun
+    ~scrl8r~ // Mordenkainen's Sword
+    ~scrl8s~ // Summon Efreeti
+    ~scrl8t~ // Summon Djinni
+    ~scrl8u~ // Summon Hakeashar
+    ~scrl8v~ // Control Undead
+    ~scrla4~ // Limited Wish
+    ~scrl8b~ // Monster Summoning VII
+    ~scrl8z~ // Simulacrum
+    ~scrl9a~ // Pierce Shield
+    ~scrl9b~ // Summon Fiend
+    ~scrl9e~ // Incendiary Cloud
+    ~scrl9f~ // Symbol of Pain
+    ~scrl9g~ // Abi-Dalzim's Horrid Wilting
+    ~scrl9h~ // Maze
+    ~scrl9j~ // Power Word: Blind
+    ~scrlap~ // Symbol of Stunning
+    ~scrlao~ // Symbol of Death
+    ~scrlb1~ // Bigby's Icy Grasp
+    ~dvscrlm8~ // Monster Summoning VIII
+    ~scrl9m~ // Spellstrike
+    ~scrl9n~ // Gate
+    ~dvscrlm9~ // Monster Summoning IX
+    ~scrl9r~ // Time Stop
+    ~scrl9s~ // Imprisonment
+    ~scrl9t~ // Meteor Swarm
+    ~scrl9u~ // Power Word: Kill
+    ~scrl9v~ // Wail of the Banshee
+    ~scrl9w~ // Larloch's Energy Drain
+    ~scrlb2~ // Bigby's Crushing Hand
+    ~scrlb4~ // Wish
+  BEGIN
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.itm~) BEGIN
+      COPY_EXISTING ~%resource%.itm~ ~override\%resource%.itm~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        READ_BYTE 0x99 flags
+        WRITE_BYTE 0x99 (%flags% BOR 0b00000010) // Add invisibility/sanctuary-breaking flag
+      END
+    END
+  END
+END
