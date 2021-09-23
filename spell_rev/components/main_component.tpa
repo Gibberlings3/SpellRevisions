@@ -1,5 +1,6 @@
 INCLUDE ~spell_rev\lib\cre_spell_immunity.tph~
 INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
+INCLUDE ~spell_rev\lib\subtledoc_func.tph~
 
 
 /*------------Manage ADD_SPELL References, Part 1-----------*/
@@ -13,18 +14,13 @@ LAF ASSIGN_TEMP_NAMES_FOR_NEW_SPELL_REFERENCES END
 /* ----Various---- */
 
 // SD: eliminate #bonecir.spl from IWDEE
-ACTION_IF GAME_IS ~iwdee~ BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME ~#bonecir.spl~ BEGIN
-	  DISABLE_FROM_KEY ~#bonecir.spl~
-  END
-  ACTION_IF FILE_EXISTS ~override/#bonecir.spl~ BEGIN
-	  DELETE ~override/#bonecir.spl~
-  END
-END
+LAF remove_bonecir END
+
 
 // IWDEE AI can't effectively use SR's Cause Wounds spells
 // Until this is resolved, the spells won't be installed on IWDEE
 OUTER_SET install_cause_wounds = NOT GAME_IS ~iwdee~
+
 
 // Scroll Of Restoration: no longer needed since addition of spellbook fixing code in v3
 // adscroll.itm still copied over in case someone wants to CLUAConsole it for use on an old save game
@@ -3487,6 +3483,12 @@ COPY ~spell_rev/revised_saves/savecng.2da~ ~override~  // Gnome save bonuses
 INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
 INCLUDE ~spell_rev/lib/d5_set_spell_schools.tpa~
 LAF set_spell_schools END
+
+/*------- EE BREAK INVISIBILITY/HOSTILE FLAGS -------*/
+
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  LAF ee_sanctuary_invisibility END
+END
 
 /*------------ MODIFY IR STUFF ------------*/
 

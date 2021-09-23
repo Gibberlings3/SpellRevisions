@@ -1,0 +1,57 @@
+// v4 additions by SubtleDoctor
+
+// SD: eliminate #bonecir.spl from IWDEE
+DEFINE_ACTION_FUNCTION remove_bonecir BEGIN
+
+  ACTION_IF GAME_IS ~iwdee~ BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~#bonecir.spl~ BEGIN
+	  DISABLE_FROM_KEY ~#bonecir.spl~
+    END
+    ACTION_IF FILE_EXISTS ~override/#bonecir.spl~ BEGIN
+	  DELETE ~override/#bonecir.spl~
+    END
+  END
+
+END		//	end define function
+
+
+//____________________________________________________________________________________
+//____________________________________________________________________________________
+
+
+DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
+
+COPY ~spell_rev/lib/dvisflag.2da~ ~override~
+  READ_2DA_ENTRIES_NOW r2en_flags 3
+  FOR (row = 0; row < r2en_flags; ++row) BEGIN
+    READ_2DA_ENTRY_FORMER r2en_flags row 0 ids_name
+    READ_2DA_ENTRY_FORMER r2en_flags row 1 bit9_val
+    READ_2DA_ENTRY_FORMER r2en_flags row 2 bit10_val
+    SPRINT $ee_invisible_flags(~%ids_name%~ ~%bit9_val%~)~%bit10_val%~
+  END
+    
+ACTION_PHP_EACH ee_invisible_flags AS spell => bits BEGIN
+  ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]%spell%[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%spell%~ RET spell_res END
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_res%.spl~) BEGIN
+      ACTION_IF (~%spell_1%~ STRING_EQUAL_CASE ~visible~) BEGIN
+        COPY_EXISTING ~%spell_res%.spl~ ~override~
+            WRITE_BYTE 0x19 (THIS BOR 0b00000010) // Add invisibility/sanctuary-breaking flag
+        BUT_ONLY
+      END
+      ACTION_IF (~%bits%~ STRING_EQUAL_CASE ~hostile~) BEGIN
+        COPY_EXISTING ~%spell_res%.spl~ ~override~
+            WRITE_BYTE 0x19 (THIS BOR 0b00000100) // Add hostile flag
+        BUT_ONLY
+      END
+    END
+  END
+END
+  
+END		//	end define function
+
+
+//____________________________________________________________________________________
+//____________________________________________________________________________________
+
+
