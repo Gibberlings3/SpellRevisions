@@ -1818,7 +1818,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
-The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 6d8 points of damage.~
+The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 2d8 + level points of damage, up to a maximum of 2d8 + 20.~
 
 @247=~Holy Word~
 @248=~Holy Word
@@ -1847,7 +1847,7 @@ Level: 7
 School: Necromancy
 Sphere: Healing
 Range: Touch
-Duration: 1 turn + 2 round/level
+Duration: 3 turns
 Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: None
@@ -1916,7 +1916,7 @@ Saving Throw: Special
 
 When the caster utters the spell Creeping Doom, he calls forth a horde of venomous biting and stinging arachnids, insects, and myriapods. This carpet-like mass swarms over a large area, spreading to all creatures within 30 feet of the target.
 
-For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure, and must make saving throws vs. death at -2 or be poisoned. If a successful save vs. breath at -4 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Poisoned creatures suffer additional 6 points of damage each round for 3 rounds or until cured. Magic resistance does not affect this spell.~
+For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure, and must make saving throws vs. death at -2 or be poisoned and panic. If a successful save vs. breath at -4 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Poisoned creatures suffer additional 2 points of damage each round for 3 rounds or until cured. Magic resistance does not affect this spell.~
 
 @259=~Symbol of Stunning~
 @260=~Symbol of Stunning
