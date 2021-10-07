@@ -2858,13 +2858,31 @@ COPY ~spell_rev\spwi7##\dvwi707b.bam~    ~override~ // also used by CLERIC_SUMMO
 COPY ~spell_rev\spwi7##\dvwi707c.bam~    ~override~ // also used by CLERIC_SUMMON_DEATH_KNIGHT
 APPEND ~spell.ids~ ~2707 WIZARD_SUMMON_DEATH_KNIGHT~
 
-COPY ~spell_rev\spwi7##\spwi708.spl~     ~override~  // Mantle
+COPY ~spell_rev\spwi7##\spwi708.spl~     ~override~  // Prismatic Mantle
   SAY NAME1 @733    SAY UNIDENTIFIED_DESC @734
 COPY ~spell_rev\spwi7##\scrl8j.itm~     ~override~
   SAY NAME2 @733    SAY IDENTIFIED_DESC   @734
-COPY ~spell_rev\spwi7##\spwi708a.spl~     ~override~
 COPY ~spell_rev\spwi7##\dvmantle.vvc~     ~override~
 COPY ~spell_rev\spwi7##\dvmantle.bam~     ~override~
+//Auxiliary resources.
+//Open new scope to avoid polluting namespace.
+WITH_SCOPE BEGIN
+  //Copy spells.
+  ACTION_FOR_EACH res IN "spwi708a" "spwi708b" "dvpcold" "dvpconf" "dvpdeth" "dvpelec" "dvpfire" "dvpmaze" "dvpstun" BEGIN
+    //Existence checks. Should not fail, but if it does, FAIL loudly and early.
+    ACTION_IF NOT (FILE_EXISTS_IN_GAME "%res%.spl") BEGIN
+      COPY ~spell_rev\spwi7##\%res%.spl~ ~override~
+    END ELSE BEGIN
+      FAIL "Name clash: resource %res%.spl already exists in game."
+    END
+  END
+  //Copy eff's.
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME "spwi708b.eff") BEGIN
+    COPY ~spell_rev\spwi7##\spwi708b.eff~ ~override~
+  END ELSE BEGIN
+    FAIL "Name clash: resource spwi708b.eff already exists in game."
+  END
+END
 
 COPY ~spell_rev\spwi7##\spwi710.spl~     ~override~  // Simbul's Spell Sequencer (previously named Spell Sequencer)
   SAY NAME1 @735    SAY UNIDENTIFIED_DESC @736

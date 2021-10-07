@@ -2222,12 +2222,20 @@ Symbols: of Weakness or Death (once per day each)~
 Level: 7
 School: Abjuration
 Range: Personal
-Duration: 6 rounds
+Duration: 4 rounds
 Casting Time: 1
 Area of Effect: Caster
-Saving Throw: None
+Saving Throw: partial
 
-When this spell is cast, an opaque globe of shimmering, multicolored light temporarily surrounds the caster. Opponents that hit the caster with a weapon or spell from within this radius are subject to a random prismatic effect. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.~
+When this spell is cast, an opaque globe of shimmering, multicolored light temporarily surrounds the caster. This magical mantle confers complete invulnerability to all weapons of those of +3 or less enchantment. Furthermore, opponents within a 10' radius that hit the caster with a weapon or spell are subject to a random prismatic effect once per round. The possible effects of the prismatic mantle are listed below. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.
+
+Red: 6D5 fire damage, save vs. breath for half
+Orange: Stun for 5 rounds, save vs. polymorph negates
+Yellow: 6D5 electrical damage, save vs. breath for half
+Green: Death by poison, save vs. poison negates and victim suffers 3D5 poison damage
+Blue: 6D5 cold damage, save vs. breath for half
+Violet: Confusion for 5 rounds, save vs. wand negates
+Pink: Maze, save vs. spell negates~
 
 @735=~Simbul's Spell Sequencer~
 @736=~Simbul's Spell Sequencer
