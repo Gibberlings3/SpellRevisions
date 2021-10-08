@@ -54,7 +54,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         "CLERIC_ARMOR_OF_FAITH"
     END
 
-    //Main patching loop, dealing with self-stacking, the most common case.
+    //Main self-stacking loop: the most common case.
     ACTION_PHP_EACH spells_to_patch AS i => spell BEGIN
         OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
         ACTION_IF (spell_nbr = 0 - 1) BEGIN
