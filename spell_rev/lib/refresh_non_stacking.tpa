@@ -51,14 +51,18 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
     //Array of spells to patch.
     ACTION_DEFINE_ARRAY spells_to_patch BEGIN
         //Divine spells.
-        "sppr111"                       //Armor of Faith.
+        "CLERIC_ARMOR_OF_FAITH"
     END
 
     //Main patching loop, dealing with self-stacking, the most common case.
-    ACTION_PHP_EACH spells_to_patch AS i => resource BEGIN
-        ACTION_IF FILE_EXISTS_IN_GAME "%resource%.spl" BEGIN
-            COPY_EXISTING ~%resource%.spl~ ~override~
-                LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%resource%" END
+    ACTION_PHP_EACH spells_to_patch AS i => spell BEGIN
+        OUTER_SET nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+        ACTION_IF (nbr = 0 - 1) BEGIN
+            WARN "Spell %spell% not present in spell.ids. Doing nothing."
+        END ELSE BEGIN
+            LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+            COPY_EXISTING ~%spell_res%.spl~ ~override~
+                LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell_res%" END
         END
     END
 END
