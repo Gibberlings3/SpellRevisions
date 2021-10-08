@@ -11,7 +11,7 @@ DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
             //Check spell is in spell.ids as RES_NUM_OF_SPELL_NAME returns garbage on non-existent spells.
             spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
             PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
-                LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+                LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
                 PATCH_IF (FILE_EXISTS_IN_GAME "%spell_res%.spl") BEGIN
                     PATCH_IF (break_visible = 1) BEGIN
                         INNER_ACTION BEGIN
