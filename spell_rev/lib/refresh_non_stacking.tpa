@@ -67,7 +67,6 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         "WIZARD_MIRROR_IMAGE"
         "WIZARD_RESIST_ELEMENTS"
         "WIZARD_CLAIRVOYANCE"
-        //"WIZARD_WRAITH_FORM"                //Lacks non-self stacking. Has to be patched.
         "WIZARD_GHOST_ARMOR"
         "WIZARD_MINOR_GLOBE_OF_INVULNERABILITY"
         "WIZARD_EMOTION_HOPELESSNESS"       //Emotion: Despair.
@@ -94,6 +93,26 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
             COPY_EXISTING ~%spell_res%.spl~ ~override~
                 LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell_res%" END
+            BUT_ONLY
+        END
+    END
+
+    //Stragglers.
+    ACTION_FOR_EACH spell IN "WIZARD_WRAITH_FORM" BEGIN
+        OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+        ACTION_IF (spell_nbr = 0 - 1) BEGIN
+            WARN "Spell %spell% not present in spell.ids. Doing nothing."
+        END ELSE BEGIN
+            LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+            COPY_EXISTING ~%spell_res%.spl~ ~override~
+                LPF ADD_EFFECT INT_VAR
+                    opcode = 321                    //Remove effects by resource.
+                    timing = 1                      //Instantaneous.
+                    target = 1                      //Self.
+                STR_VAR
+                    resource = EVAL "%spell_res%"
+                    insert = "first"
+                END
             BUT_ONLY
         END
     END
