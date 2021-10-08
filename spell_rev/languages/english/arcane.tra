@@ -2520,9 +2520,9 @@ Saving Throw: None
 
 By means of this spell, the wizard may launch a massive attack on a target's physical and magical defenses. Pierce Shield will dispel one spell protection of any level from the target creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. After piercing through magical protections, this powerful spell will breach each and every combat protection on the target creature. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.
+The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons and Spell Trap.
 
-The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, and Absolute Immunity.~
+The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, Moment of Prescience and Absolute Immunity.~
 
 @777=~Summon Fiend~
 @778=~Summon Fiend
@@ -2615,7 +2615,7 @@ Casting Time: 8
 Area of Effect: 30' radius
 Saving Throw: Death half
 
-This spell evaporates moisture in the bodies of all living creatures within the area of effect, inflicting 1d6 points of damage per caster level (up to a maximum of 20d6). Affected creatures are allowed a saving throw vs. death at -2 for half damage. Undead creatures are not affected by this spell.~
+This spell evaporates moisture in the bodies of all living creatures within the area of effect, inflicting 1d6 points of damage per caster level (up to a maximum of 20d6). Affected creatures are allowed a saving throw vs. death at -2 for half damage. Undead and other incorporeal creatures such as elementals are not affected by this spell.~
 
 @789=~Maze~
 @790=~Maze
@@ -2686,7 +2686,7 @@ Casting Time: 8
 Area of Effect: 1 creature
 Saving Throw: Special
 
-This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d8 cold damage and holds it for 1 round unless a successful save vs. breath is made at a -2 penalty. After the 8th round, the spell is finished.~
+This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d8 cold damage and holds it for 1 round unless a successful save vs. breath is made at a -2 penalty. Elementals and other incorporeal creatures such as Shadows and Wraiths are immune to the hold effect. After the 8th round, the spell is finished.~
 
 
 /*------------------level 9------------------*/
