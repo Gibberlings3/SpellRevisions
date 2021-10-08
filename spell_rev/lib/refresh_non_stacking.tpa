@@ -282,12 +282,6 @@ LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr203e END
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr203e.spl~ THEN BEGIN  // Good Chant
-COPY_EXISTING ~sppr203e.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr203d END
-END
-
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
 COPY_EXISTING ~sppr209.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
