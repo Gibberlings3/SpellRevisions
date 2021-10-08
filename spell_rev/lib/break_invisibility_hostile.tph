@@ -16,16 +16,16 @@ DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
                     PATCH_IF (break_visible = 1) BEGIN
                         INNER_ACTION BEGIN
                             COPY_EXISTING ~%spell_res%.spl~ ~override~
-                                //Add break invisibility flag.
-                                WRITE_BYTE 0x19 (THIS BOR 0b00000010)
+                                //Add break invisibility flag: set second bit (0-indexed).
+                                WRITE_BYTE 0x19 (THIS BOR (1 << 1))
                             BUT_ONLY
                         END
                     END
                     PATCH_IF (hostile = 1) BEGIN
                         INNER_ACTION BEGIN
                             COPY_EXISTING ~%spell_res%.spl~ ~override~
-                                //Add hostile flag.
-                                WRITE_BYTE 0x19 (THIS BOR 0b00000100)
+                                //Add hostile flag: set third bit (0-indexed).
+                                WRITE_BYTE 0x19 (THIS BOR (1 << 2))
                             BUT_ONLY
                         END
                     END
