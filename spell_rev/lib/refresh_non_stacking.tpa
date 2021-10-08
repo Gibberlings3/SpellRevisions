@@ -94,6 +94,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
             COPY_EXISTING ~%spell_res%.spl~ ~override~
                 LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell_res%" END
+            BUT_ONLY
         END
     END
 END
