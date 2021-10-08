@@ -55,15 +55,15 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         "CLERIC_DOOM"
         "CLERIC_AID"
         "CLERIC_BARKSKIN"
-        "CLERIC_STRENGTH_OF_STONE"
+        "CLERIC_STRENGTH_OF_STONE"          //No protection opcode.
         "CLERIC_DEFENSIVE_HARMONY"
-        "CLERIC_PROTECTION_FROM_LIGHTNING"
+        "CLERIC_PROTECTION_FROM_LIGHTNING"  //No protection opcode.
         "CLERIC_HOLY_POWER"
         "CLERIC_CLOAK_OF_FEAR"
         "CLERIC_RIGHTEOUS_MAGIC"
         "CLERIC_BLADE_BARRIER"
-        "CLERIC_GLOBE_OF_BLADES"
-        "CLERIC_AURA_OF_FLAMING_DEATH"
+        "CLERIC_GLOBE_OF_BLADES"            //No protection opcode.
+        "CLERIC_AURA_OF_FLAMING_DEATH"      //No protection opcode.
         //Arcane spells.
     END
 
