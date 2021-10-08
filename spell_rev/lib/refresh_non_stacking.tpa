@@ -56,8 +56,8 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
 
     //Main patching loop, dealing with self-stacking, the most common case.
     ACTION_PHP_EACH spells_to_patch AS i => spell BEGIN
-        OUTER_SET nbr = IDS_OF_SYMBOL ("spell" "%spell%")
-        ACTION_IF (nbr = 0 - 1) BEGIN
+        OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+        ACTION_IF (spell_nbr = 0 - 1) BEGIN
             WARN "Spell %spell% not present in spell.ids. Doing nothing."
         END ELSE BEGIN
             LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
