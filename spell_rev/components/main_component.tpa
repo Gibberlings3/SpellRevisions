@@ -1,5 +1,6 @@
 INCLUDE ~spell_rev\lib\cre_spell_immunity.tph~
 INCLUDE ~spell_rev\lib\manage_add_spell_references.tpa~
+INCLUDE ~spell_rev\lib\break_invisibility_hostile.tph~
 
 
 /*------------Manage ADD_SPELL References, Part 1-----------*/
@@ -3487,6 +3488,12 @@ COPY ~spell_rev/revised_saves/savecng.2da~ ~override~  // Gnome save bonuses
 INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
 INCLUDE ~spell_rev/lib/d5_set_spell_schools.tpa~
 LAF set_spell_schools END
+
+/*------- EE BREAK INVISIBILITY/HOSTILE FLAGS -------*/
+
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  LAF ee_sanctuary_invisibility END
+END
 
 /*------------ MODIFY IR STUFF ------------*/
 

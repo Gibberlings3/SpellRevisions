@@ -1,0 +1,35 @@
+//Set break invisible and hostile flags.
+DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
+    //Read no-write table.
+    COPY - ~spell_rev/lib/dv_spell_visibility_flags.2da~ ~override~
+        COUNT_2DA_COLS cols
+        READ_2DA_ENTRIES_NOW spell_visibility_flags cols
+        FOR (row = 0; row < spell_visibility_flags; ++row) BEGIN
+            READ_2DA_ENTRY_FORMER spell_visibility_flags row 0 spell
+            READ_2DA_ENTRY_FORMER spell_visibility_flags row 1 break_visible
+            READ_2DA_ENTRY_FORMER spell_visibility_flags row 2 hostile
+            //Check spell is in spell.ids as RES_NUM_OF_SPELL_NAME returns garbage on non-existent spells.
+            spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+            PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
+                LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+                PATCH_IF (FILE_EXISTS_IN_GAME "%spell_res%.spl") BEGIN
+                    PATCH_IF (break_visible = 1) BEGIN
+                        INNER_ACTION BEGIN
+                            COPY_EXISTING ~%spell_res%.spl~ ~override~
+                                //Add break invisibility flag.
+                                WRITE_BYTE 0x19 (THIS BOR 0b00000010)
+                            BUT_ONLY
+                        END
+                    END
+                    PATCH_IF (hostile = 1) BEGIN
+                        INNER_ACTION BEGIN
+                            COPY_EXISTING ~%spell_res%.spl~ ~override~
+                                //Add hostile flag.
+                                WRITE_BYTE 0x19 (THIS BOR 0b00000100)
+                            BUT_ONLY
+                        END
+                    END
+                END
+            END
+        END
+END
