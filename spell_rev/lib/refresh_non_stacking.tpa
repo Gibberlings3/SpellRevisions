@@ -153,12 +153,6 @@ LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = dvpr525d END
 END
 
-//ACTION_IF FILE_EXISTS_IN_GAME ~spwi208.spl~ THEN BEGIN  // know oponnent
-//COPY_EXISTING ~sppr208.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
-//END
-
 ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN  // pro elements
 COPY_EXISTING ~%spwi225%.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
