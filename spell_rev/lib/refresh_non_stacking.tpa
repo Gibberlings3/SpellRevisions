@@ -91,7 +91,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         ACTION_PHP_EACH spells_to_patch AS i => spell BEGIN
             OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
             ACTION_IF (spell_nbr = 0 - 1) BEGIN
-                WARN "Spell %spell% not present in spell.ids. Doing nothing."
+                WARN "Warning: Spell %spell% not present in spell.ids. Doing nothing."
             END ELSE BEGIN
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
                 COPY_EXISTING ~%spell_res%.spl~ ~override~
@@ -114,7 +114,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             OUTER_SET spell_nbr_spell = IDS_OF_SYMBOL ("spell" "%spell%")
             OUTER_SET spell_nbr_res = IDS_OF_SYMBOL ("spell" "%res%")
             ACTION_IF (spell_nbr_spell = 0 - 1) OR (spell_nbr_res = 0 - 1) BEGIN
-                WARN "Either %spell% or %res% not present in spell.ids. Doing nothing."
+                WARN "Warning: Either %spell% or %res% not present in spell.ids. Doing nothing."
             END ELSE BEGIN
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%res%" RET res = spell_res END
