@@ -99,6 +99,28 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         END
     END
 
+    //Concurrent refreshing.
+    ACTION_DEFINE_ASSOCIATIVE_ARRAY spells_to_copy_and_patch BEGIN
+        "CLERIC_KNOW_OPPONENT" => "WIZARD_KNOW_OPPONENT"
+        "WIZARD_KNOW_OPPONENT" => "CLERIC_KNOW_OPPONENT"
+        "WIZARD_RESIST_ELEMENTS" => "CLERIC_RESIST_FIRE_AND_COLD"
+        "CLERIC_RESIST_FIRE_AND_COLD" => "WIZARD_RESIST_ELEMENTS"
+    END
+
+    ACTION_PHP_EACH spells_to_copy_and_patch IN spell => res BEGIN
+        PRINT "Patching %spell% for concurrency with %res%."
+        OUTER_SET spell_nbr_spell = IDS_OF_SYMBOL ("spell" "%spell%")
+        OUTER_SET spell_nbr_res = IDS_OF_SYMBOL ("spell" "%res%")
+        ACTION_IF (spell_nbr_spell = 0 - 1) OR (spell_nbr_res = 0 - 1) BEGIN
+            WARN "Spell not present in spell.ids. Doing nothing."
+        END ELSE BEGIN
+            LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+            LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%res%" RET res = spell_res END
+            COPY_EXISTING ~%spell_res%.spl~ ~override~
+                LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%res%" END
+        END
+    END
+
     //Stragglers.
     //Selfstacking for subspells.
     //Chant.
@@ -135,24 +157,6 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             BUT_ONLY
         END
     END
-
-    //ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
-    //COPY_EXISTING ~sppr209.spl~ ~override~
-    //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-    //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
-    //END
-
-    //ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN  // resist elements
-    //COPY_EXISTING ~sppr210.spl~ ~override~
-    //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-    //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
-    //END
-
-    //ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN  // pro elements
-    //COPY_EXISTING ~%spwi225%.spl~ ~override~
-    //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-    //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
-    //END
 END
 
 //Run main loop.
