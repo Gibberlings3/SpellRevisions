@@ -109,7 +109,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
                     opcode = 321                    //Remove effects by resource.
                     timing = 1                      //Instantaneous.
                     target = 1                      //Self.
-                    insert_point = 0
+                    insert_point = 0                //First.
                 STR_VAR
                     resource = EVAL "%spell_res%"
                 END
