@@ -548,83 +548,18 @@ COPY_EXISTING	~spwi217.spl~	override		//  Aganaza scorcher
 		END
 	BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi303.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303a.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303b.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303c.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
-	
-	COPY_EXISTING	~spwi303d.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY 
-	
-	COPY_EXISTING	~spwi303e.spl~	override		// flame arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+////Flame Arrow: subspell.
+//COPY_EXISTING ~spwi303e.spl~ ~override~
+//	LPF	ADD_SPELL_EFFECT INT_VAR
+//		insert_point = 0
+//		opcode = 324
+//		target = 2
+//		parameter2 = FIRE
+//		duration = 1
+//	STR_VAR
+//		resource = EVAL ~%SOURCE_RES%~
+//	END
+//BUT_ONLY IF_EXISTS
 
 COPY_EXISTING	~spwi304.spl~	override		// fireball
 		LPF	ADD_SPELL_EFFECT
@@ -691,18 +626,18 @@ COPY_EXISTING	~spwi712.spl~	override		// Delayed blast fireball
 		END
 	BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi810.spl~	override		// incendiary cloud
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = FIRE
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+////Incendiary Cloud.
+//COPY_EXISTING ~spwi810.spl~ ~override~
+//    LPF ADD_SPELL_EFFECT INT_VAR
+//        insert_point = 0
+//        opcode = 324
+//        target = 2
+//        parameter2 = FIRE
+//        duration = 1
+//     STR_VAR
+//        resource = EVAL ~%SOURCE_RES%~
+//     END
+//BUT_ONLY IF_EXISTS
 	
 	COPY_EXISTING	~spwi911.spl~	override		// Meteor swarm
 		LPF	ADD_SPELL_EFFECT
@@ -1487,18 +1422,18 @@ COPY_EXISTING	~spin917.spl~	override		// Mane gas
 		END
 	BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi211.spl~	override		// Acid arrow
-		LPF	ADD_SPELL_EFFECT
-			INT_VAR
-				insert_point = 0
-				opcode = 324
-				target = 2
-				parameter2 = ACID
-				duration = 1
-			STR_VAR
-				resource = EVAL ~%SOURCE_RES%~
-		END
-	BUT_ONLY IF_EXISTS
+////Melf's Acid arrow.
+//COPY_EXISTING ~spwi211.spl~ ~override~
+//    LPF ADD_SPELL_EFFECT INT_VAR
+//	      insert_point = 0
+//	      opcode = 324
+//	      target = 2
+//	      parameter2 = ACID
+//	      duration = 1
+//     STR_VAR
+//        resource = EVAL ~%SOURCE_RES%~
+//     END
+//BUT_ONLY IF_EXISTS
 	
 	COPY_EXISTING	~%spwi427%.spl~	override		// vitriolic sphere
 		LPF	ADD_SPELL_EFFECT
@@ -3186,6 +3121,7 @@ LPF ADD_SPELL_EFFECT
 END
 END
 
+//Cloak of Fear: subspell.
 ACTION_IF FILE_EXISTS_IN_GAME ~sppr416d.spl~ THEN BEGIN
 	COPY_EXISTING ~sppr416d.spl~ ~override~   
 		LPF ADD_SPELL_EFFECT INT_VAR
@@ -3202,6 +3138,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~sppr416d.spl~ THEN BEGIN
 		STR_VAR
 			resource = "sppr416d"
 		END
+	BUT_ONLY
 END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~spwi125.spl~ THEN BEGIN
