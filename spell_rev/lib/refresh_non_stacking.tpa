@@ -106,7 +106,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             "CLERIC_RESIST_FIRE_AND_COLD" => "WIZARD_RESIST_ELEMENTS"
         END
 
-        ACTION_PHP_EACH spells_to_patch IN spell => res BEGIN
+        ACTION_PHP_EACH spells_to_patch AS spell => res BEGIN
             PRINT "Patching %spell% for concurrency with %res%."
             OUTER_SET spell_nbr_spell = IDS_OF_SYMBOL ("spell" "%spell%")
             OUTER_SET spell_nbr_res = IDS_OF_SYMBOL ("spell" "%res%")
