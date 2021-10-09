@@ -99,13 +99,24 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         END
     END
 
-    //Selfstacking for subspells: chant.
-    ACTION_FOR_EACH spell IN "sppr203d" BEGIN
-        COPY_EXISTING ~%spell%.spl~ ~override~
-        LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell%" END
-    END
-
     //Stragglers.
+    //Selfstacking for subspells.
+    //Chant.
+    COPY_EXISTING ~sppr203d.spl~ ~override~
+        LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = "sppr203d" END
+    
+    //Animal fang.
+    COPY_EXISTING ~dvpr525d.spl~ ~override~
+        LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = "CLERIC_ANIMAL_GROWTH" RET spell_res END
+        LPF ALTER_EFFECT INT_VAR
+            match_opcode = 206
+            verbose = 1
+        STR_VAR
+            match_resource = EVAL "%spell_res%"
+            resource = "dvpr525d"
+        END
+        LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = "dvpr525d" END
+
     ACTION_FOR_EACH spell IN "WIZARD_WRAITH_FORM" BEGIN
         OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
         ACTION_IF (spell_nbr = 0 - 1) BEGIN
@@ -124,31 +135,25 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             BUT_ONLY
         END
     END
+
+    //ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
+    //COPY_EXISTING ~sppr209.spl~ ~override~
+    //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+    //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
+    //END
+
+    //ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN  // resist elements
+    //COPY_EXISTING ~sppr210.spl~ ~override~
+    //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+    //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
+    //END
+
+    //ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN  // pro elements
+    //COPY_EXISTING ~%spwi225%.spl~ ~override~
+    //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+    //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
+    //END
 END
 
 //Run main loop.
 LAF MAKE_REFRESHING_LOOP END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
-//COPY_EXISTING ~sppr209.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
-//END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN  // resist elements
-//COPY_EXISTING ~sppr210.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
-//END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~dvpr525d.spl~ THEN BEGIN  // animal growth
-COPY_EXISTING ~dvpr525d.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = dvpr525d END
-END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~%spwi225%.spl~ THEN BEGIN  // pro elements
-//COPY_EXISTING ~%spwi225%.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
-//END
