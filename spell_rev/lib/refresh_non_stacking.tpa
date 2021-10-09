@@ -105,13 +105,13 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         END ELSE BEGIN
             LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
             COPY_EXISTING ~%spell_res%.spl~ ~override~
-                LPF ADD_EFFECT INT_VAR
+                LPF ADD_SPELL_EFFECT INT_VAR
                     opcode = 321                    //Remove effects by resource.
                     timing = 1                      //Instantaneous.
                     target = 1                      //Self.
+                    insert_point = 0
                 STR_VAR
                     resource = EVAL "%spell_res%"
-                    insert = "first"
                 END
             BUT_ONLY
         END
