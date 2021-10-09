@@ -2230,12 +2230,12 @@ Saving Throw: partial
 When this spell is cast, an opaque globe of shimmering, multicolored light temporarily surrounds the caster. This magical mantle confers complete invulnerability to all weapons of +3 or less enchantment. Furthermore, opponents within a 10' radius that hit the caster with a weapon or spell are subject to a random prismatic effect once per round. The possible effects of the prismatic mantle are listed below. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.
 
 Red - 6D6 fire damage (save vs. breath half)
-Orange - Stun for 5 rounds (save vs. polymorph neg.)
+Orange - 6D6 acid damage (save vs. breath half)
 Yellow - 6D6 electrical damage (save vs. breath half)
 Green - Death by poison (save vs. poison reduces to 3D6 poison damage)
-Blue - 6D6 cold damage (save vs. breath half)
-Violet - Confusion for 5 rounds (save vs. wand neg.)
-Pink - Maze (save vs. spell neg.)~
+Blue - Stun for 5 rounds (save vs. polymorph neg.)
+Indigo - Confusion for 5 rounds (save vs. wand neg.)
+Violet - Maze (save vs. spell neg.)~
 
 @735=~Simbul's Spell Sequencer~
 @736=~Simbul's Spell Sequencer
