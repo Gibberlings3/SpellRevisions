@@ -38,11 +38,11 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         "CLERIC_DOOM"
         "CLERIC_AID"
         "CLERIC_BARKSKIN"
+        "CLERIC_CHANT"
         "CLERIC_RESIST_FIRE_AND_COLD"
         "CLERIC_KNOW_OPPONENT"
         "CLERIC_STRENGTH_OF_STONE"          //No protection opcode: fixed in spell.
         "CLERIC_DEFENSIVE_HARMONY"
-        "CLERIC_PROTECTION_FROM_LIGHTNING"  //No protection opcode: sppr522.
         "CLERIC_HOLY_POWER"
         "CLERIC_CLOAK_OF_FEAR"
         "CLERIC_RIGHTEOUS_MAGIC"
@@ -99,6 +99,12 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         END
     END
 
+    //Selfstacking for subspells: chant.
+    ACTION_FOR_EACH spell IN "sppr203d" BEGIN
+        COPY_EXISTING ~%spell%.spl~ ~override~
+        LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell%" END
+    END
+
     //Stragglers.
     ACTION_FOR_EACH spell IN "WIZARD_WRAITH_FORM" BEGIN
         OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
@@ -123,51 +129,16 @@ END
 //Run main loop.
 LAF MAKE_REFRESHING_LOOP END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr203.spl~ THEN BEGIN  // Chant
-COPY_EXISTING ~sppr203.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr203d.spl~ THEN BEGIN  // Bad Chant
-COPY_EXISTING ~sppr203d.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr203e END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
-COPY_EXISTING ~sppr209.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
-END
+//ACTION_IF FILE_EXISTS_IN_GAME ~sppr209.spl~ THEN BEGIN  // know oponnent
+//COPY_EXISTING ~sppr209.spl~ ~override~
+//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
+//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi208 END
+//END
 
 //ACTION_IF FILE_EXISTS_IN_GAME ~sppr210.spl~ THEN BEGIN  // resist elements
 //COPY_EXISTING ~sppr210.spl~ ~override~
 //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%spwi225%~ END
-//END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~%sppr520%.spl~ THEN BEGIN  // pro acid
-//COPY_EXISTING ~%sppr520%.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr520%~ END
-//END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~%sppr521%.spl~ THEN BEGIN  // pro cold
-//COPY_EXISTING ~%sppr521%.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr521%~ END
-//END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~%sppr522%.spl~ THEN BEGIN  // pro electric
-//COPY_EXISTING ~%sppr522%.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr522%~ END
-//END
-
-//ACTION_IF FILE_EXISTS_IN_GAME ~%sppr523%.spl~ THEN BEGIN  // pro fire
-//COPY_EXISTING ~%sppr523%.spl~ ~override~
-//LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-//LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = EVAL ~%sppr523%~ END
 //END
 
 ACTION_IF FILE_EXISTS_IN_GAME ~dvpr525d.spl~ THEN BEGIN  // animal growth
@@ -181,28 +152,3 @@ END
 //LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
 //LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = sppr210 END
 //END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi319.spl~ THEN BEGIN  // pro fire
-COPY_EXISTING ~spwi319.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi319 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi320.spl~ THEN BEGIN  // pro cold
-COPY_EXISTING ~spwi320.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi320 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi512.spl~ THEN BEGIN  // pro electric
-COPY_EXISTING ~spwi512.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi512 END
-END
-
-ACTION_IF FILE_EXISTS_IN_GAME ~spwi517.spl~ THEN BEGIN  // pro acid
-COPY_EXISTING ~spwi517.spl~ ~override~
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = 206 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 insert_point = 0 target = 2 STR_VAR resource = spwi517 END
-END
-
