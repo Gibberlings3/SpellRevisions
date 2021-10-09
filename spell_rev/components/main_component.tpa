@@ -2868,7 +2868,7 @@ COPY ~spell_rev\spwi7##\dvmantle.bam~     ~override~
 //Open new scope to avoid polluting namespace.
 WITH_SCOPE BEGIN
   //Copy spells.
-  ACTION_FOR_EACH res IN "spwi708a" "spwi708b" "dvpacid" "dvpconf" "dvpdeth" "dvpelec" "dvpfire" "dvpmaze" "dvpstun" BEGIN
+  ACTION_FOR_EACH res IN "spwi708a" "spwi708b" "dvpacid" "dvpfebl" "dvpdeth" "dvpelec" "dvpfire" "dvpmaze" "dvpstun" BEGIN
     //Existence checks. Should not fail, but if it does, FAIL loudly and early.
     ACTION_IF NOT (FILE_EXISTS_IN_GAME "%res%.spl") BEGIN
       COPY ~spell_rev\spwi7##\%res%.spl~ ~override~

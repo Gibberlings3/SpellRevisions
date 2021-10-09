@@ -2233,9 +2233,9 @@ Red - 6D6 fire damage (save vs. breath half)
 Orange - 6D6 acid damage (save vs. breath half)
 Yellow - 6D6 electrical damage (save vs. breath half)
 Green - Death by poison (save vs. poison reduces to 3D6 poison damage)
-Blue - Stun for 5 rounds (save vs. polymorph neg.)
-Indigo - Confusion for 5 rounds (save vs. wand neg.)
-Violet - Maze (save vs. spell neg.)~
+Blue - Stunned for 5 rounds (save vs. polymorph neg.)
+Indigo - Feebleminded for 5 rounds (save vs. wand neg.)
+Violet - Mazed (save vs. spell neg.)~
 
 @735=~Simbul's Spell Sequencer~
 @736=~Simbul's Spell Sequencer
