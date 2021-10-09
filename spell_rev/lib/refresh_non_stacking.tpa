@@ -95,7 +95,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             END ELSE BEGIN
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
                 COPY_EXISTING ~%spell_res%.spl~ ~override~
-                    LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell_res%" END
+                    LPF MAKE_REFRESHING STR_VAR resource = EVAL "%spell_res%" END
                 BUT_ONLY
             END
         END
@@ -111,7 +111,6 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         END
 
         ACTION_PHP_EACH concurrent_spells_to_patch AS spell => res BEGIN
-            PRINT "Patching %spell% for concurrency with %res%."
             OUTER_SET spell_nbr_spell = IDS_OF_SYMBOL ("spell" "%spell%")
             OUTER_SET spell_nbr_res = IDS_OF_SYMBOL ("spell" "%res%")
             ACTION_IF (spell_nbr_spell = 0 - 1) OR (spell_nbr_res = 0 - 1) BEGIN
@@ -120,7 +119,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%res%" RET res = spell_res END
                 COPY_EXISTING ~%spell_res%.spl~ ~override~
-                    LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%res%" END
+                    LPF MAKE_REFRESHING STR_VAR resource = EVAL "%res%" END
                 BUT_ONLY
             END
         END
@@ -131,7 +130,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         //Selfstacking for subspells.
         //Chant.
         COPY_EXISTING ~sppr203d.spl~ ~override~
-            LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = "sppr203d" END
+            LPF MAKE_REFRESHING STR_VAR resource = "sppr203d" END
         BUT_ONLY
         
         //Animal fang.
@@ -139,12 +138,11 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = "CLERIC_ANIMAL_GROWTH" RET spell_res END
             LPF ALTER_EFFECT INT_VAR
                 match_opcode = 206
-                verbose = 1
             STR_VAR
                 match_resource = EVAL "%spell_res%"
                 resource = "dvpr525d"
             END
-            LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = "dvpr525d" END
+            LPF MAKE_REFRESHING STR_VAR resource = "dvpr525d" END
         BUT_ONLY
 
         ACTION_FOR_EACH spell IN "WIZARD_WRAITH_FORM" BEGIN
