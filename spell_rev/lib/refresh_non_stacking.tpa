@@ -72,7 +72,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             //No protection opcode: fixed in spell.
             "WIZARD_MIRROR_IMAGE" => "WIZARD_MIRROR_IMAGE"
             //No protection opcode: fixed in spell.
-            "WIZARD_RESIST_ELEMENTS" = "WIZARD_RESIST_ELEMENTS"
+            "WIZARD_RESIST_ELEMENTS" => "WIZARD_RESIST_ELEMENTS"
             "WIZARD_CLAIRVOYANCE" => "WIZARD_CLAIRVOYANCE"
             "WIZARD_GHOST_ARMOR" => "WIZARD_GHOST_ARMOR"
             //No protection opcode: fixed in spell.
