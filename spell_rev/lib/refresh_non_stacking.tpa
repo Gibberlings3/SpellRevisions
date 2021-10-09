@@ -58,33 +58,32 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
         "CLERIC_REGENERATION_DRUID_VERSION"
         //Arcane spells.
         "WIZARD_ARMOR"
-        "WIZARD_REFLECTED_IMAGE"            //No protection opcode.
+        "WIZARD_REFLECTED_IMAGE"            //No protection opcode: fixed in spell.
         "WIZARD_TRUE_STRIKE"
         "WIZARD_SHIELD"
         "WIZARD_BLUR"
         "WIZARD_KNOW_OPPONENT"
         "WIZARD_LUCK"
-        "WIZARD_MIRROR_IMAGE"               //No protection opcode.
-        "WIZARD_RESIST_ELEMENTS"            //No protection opcode.
+        "WIZARD_MIRROR_IMAGE"               //No protection opcode: fixed in spell.
+        "WIZARD_RESIST_ELEMENTS"            //No protection opcode: fixed in spell.
         "WIZARD_CLAIRVOYANCE"
         "WIZARD_GHOST_ARMOR"
-        //No protection opcode.
+        //No protection opcode: fixed in spell.
         "WIZARD_MINOR_GLOBE_OF_INVULNERABILITY"
         "WIZARD_EMOTION_HOPELESSNESS"       //Emotion: Despair.
         "WIZARD_GREATER_MALISON"
         "WIZARD_SPIRIT_ARMOR"
-        "WIZARD_FIRE_SHIELD_RED"            //No protection opcode.
-        "WIZARD_FIRE_SHIELD_BLUE"           //AI-only. No protection opcode -> becomes Mestil's Acid Sheath.
-        "WIZARD_MESTILS_ACID_SHEATH"        //No protection opcode.
-        "WIZARD_GLOBE_OF_INVULNERABILITY"   //No protection opcode.
-        //No protection opcode.
+        "WIZARD_FIRE_SHIELD_RED"            //No protection opcode: fixed in spell.
+        "WIZARD_MESTILS_ACID_SHEATH"        //No protection opcode: fixed in spell.
+        "WIZARD_GLOBE_OF_INVULNERABILITY"   //No protection opcode: fixed in spell.
+        //No protection opcode: fixed in spell.
         "WIZARD_PROTECTION_FROM_MAGIC_ENERGY"
-        //No protection opcode.
+        //No protection opcode: fixed in spell.
         "WIZARD_PROTECTION_FROM_THE_ELEMENTS"
         "WIZARD_MANTLE"                     //No protection opcode. This is fixed in RFC.
-        "WIZARD_GHOSTFORM"                  //No protection opcode.
-        "WIZARD_PROTECTION_FROM_ENERGY"     //No protection opcode.
-        "WIZARD_MOMENT_OF_PRESCIENCE"       //No protection opcode.
+        "WIZARD_GHOSTFORM"                  //No protection opcode: fixed in spell.
+        "WIZARD_PROTECTION_FROM_ENERGY"     //No protection opcode: fixed in spell.
+        "WIZARD_MOMENT_OF_PRESCIENCE"       //No protection opcode: fixed in spell.
     END
 
     //Main self-stacking loop: the most common case.
