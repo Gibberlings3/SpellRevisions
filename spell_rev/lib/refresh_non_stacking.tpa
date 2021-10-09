@@ -32,78 +32,74 @@ END
 //Main loop function.
 DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
     WITH_SCOPE BEGIN
-        //Array of spells to patch.
-        ACTION_DEFINE_ARRAY spells_to_patch BEGIN
-            //Divine spells.
-            "CLERIC_ARMOR_OF_FAITH"
-            "CLERIC_DOOM"
-            "CLERIC_AID"
-            "CLERIC_BARKSKIN"
-            "CLERIC_CHANT"
-            "CLERIC_RESIST_FIRE_AND_COLD"
-            "CLERIC_KNOW_OPPONENT"
-            "CLERIC_STRENGTH_OF_STONE"          //No protection opcode: fixed in spell.
-            "CLERIC_DEFENSIVE_HARMONY"
-            "CLERIC_HOLY_POWER"
-            "CLERIC_CLOAK_OF_FEAR"
-            "CLERIC_RIGHTEOUS_MAGIC"
-            "CLERIC_BLADE_BARRIER"
-            "CLERIC_REGENERATE"
-            "CLERIC_GLOBE_OF_BLADES"            //No protection opcode: fixed in spell.
-            "CLERIC_AURA_OF_FLAMING_DEATH"      //No protection opcode: fixed in spell.
-            "CLERIC_REGENERATE_LIGHT_WOUNDS"
-            "CLERIC_REGENERATE_MODERATE_WOUNDS"
-            "CLERIC_REGENERATE_SERIOUS_WOUNDS"
-            "CLERIC_REGENERATE_CRITICAL_WOUNDS"
-            "CLERIC_MASS_REGENERATE"
-            "CLERIC_REGENERATION_DRUID_VERSION"
-            //Arcane spells.
-            "WIZARD_ARMOR"
-            "WIZARD_REFLECTED_IMAGE"            //No protection opcode: fixed in spell.
-            "WIZARD_TRUE_STRIKE"
-            "WIZARD_SHIELD"
-            "WIZARD_BLUR"
-            "WIZARD_KNOW_OPPONENT"
-            "WIZARD_LUCK"
-            "WIZARD_MIRROR_IMAGE"               //No protection opcode: fixed in spell.
-            "WIZARD_RESIST_ELEMENTS"            //No protection opcode: fixed in spell.
-            "WIZARD_CLAIRVOYANCE"
-            "WIZARD_GHOST_ARMOR"
-            //No protection opcode: fixed in spell.
-            "WIZARD_MINOR_GLOBE_OF_INVULNERABILITY"
-            "WIZARD_EMOTION_HOPELESSNESS"       //Emotion: Despair.
-            "WIZARD_GREATER_MALISON"
-            "WIZARD_SPIRIT_ARMOR"
-            "WIZARD_FIRE_SHIELD_RED"            //No protection opcode: fixed in spell.
-            "WIZARD_MESTILS_ACID_SHEATH"        //No protection opcode: fixed in spell.
-            "WIZARD_GLOBE_OF_INVULNERABILITY"   //No protection opcode: fixed in spell.
-            //No protection opcode: fixed in spell.
-            "WIZARD_PROTECTION_FROM_MAGIC_ENERGY"
-            //No protection opcode: fixed in spell.
-            "WIZARD_PROTECTION_FROM_THE_ELEMENTS"
-            "WIZARD_MANTLE"                     //No protection opcode. This is fixed in RFC.
-            "WIZARD_GHOSTFORM"                  //No protection opcode: fixed in spell.
-            "WIZARD_PROTECTION_FROM_ENERGY"     //No protection opcode: fixed in spell.
-            "WIZARD_MOMENT_OF_PRESCIENCE"       //No protection opcode: fixed in spell.
-        END
-
-        //Main self-stacking loop: the most common case.
-        ACTION_PHP_EACH spells_to_patch AS i => spell BEGIN
-            OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
-            ACTION_IF (spell_nbr = 0 - 1) BEGIN
-                WARN "Spell %spell% not present in spell.ids. Doing nothing."
-            END ELSE BEGIN
-                LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
-                COPY_EXISTING ~%spell_res%.spl~ ~override~
-                    LPF MAKE_REFRESHING INT_VAR debug = 1 STR_VAR resource = EVAL "%spell_res%" END
-                BUT_ONLY
-            END
-        END
-    END
-
-    WITH_SCOPE BEGIN
-        //Concurrent refreshing.
         ACTION_DEFINE_ASSOCIATIVE_ARRAY spells_to_patch BEGIN
+            //Divine spells.
+            "CLERIC_ARMOR_OF_FAITH" => "CLERIC_ARMOR_OF_FAITH"
+            "CLERIC_DOOM" => "CLERIC_DOOM"
+            "CLERIC_AID" => "CLERIC_AID"
+            "CLERIC_BARKSKIN" => "CLERIC_BARKSKIN"
+            "CLERIC_CHANT" => "CLERIC_CHANT"
+            "CLERIC_RESIST_FIRE_AND_COLD" => "CLERIC_RESIST_FIRE_AND_COLD"
+            "CLERIC_KNOW_OPPONENT" => "CLERIC_KNOW_OPPONENT"
+            //No protection opcode: fixed in spell.
+            "CLERIC_STRENGTH_OF_STONE" => "CLERIC_STRENGTH_OF_STONE"
+            "CLERIC_DEFENSIVE_HARMONY" => "CLERIC_DEFENSIVE_HARMONY"
+            "CLERIC_HOLY_POWER" => "CLERIC_HOLY_POWER"
+            "CLERIC_CLOAK_OF_FEAR" => "CLERIC_CLOAK_OF_FEAR"
+            "CLERIC_RIGHTEOUS_MAGIC" => "CLERIC_RIGHTEOUS_MAGIC"
+            "CLERIC_BLADE_BARRIER" => "CLERIC_BLADE_BARRIER"
+            "CLERIC_REGENERATE" => "CLERIC_REGENERATE"
+            //No protection opcode: fixed in spell.
+            "CLERIC_GLOBE_OF_BLADES" => "CLERIC_GLOBE_OF_BLADES"
+            //No protection opcode: fixed in spell.
+            "CLERIC_AURA_OF_FLAMING_DEATH" => "CLERIC_AURA_OF_FLAMING_DEATH"
+            "CLERIC_REGENERATE_LIGHT_WOUNDS" => "CLERIC_REGENERATE_LIGHT_WOUNDS"
+            "CLERIC_REGENERATE_MODERATE_WOUNDS" => "CLERIC_REGENERATE_MODERATE_WOUNDS"
+            "CLERIC_REGENERATE_SERIOUS_WOUNDS" => "CLERIC_REGENERATE_SERIOUS_WOUNDS"
+            "CLERIC_REGENERATE_CRITICAL_WOUNDS" => "CLERIC_REGENERATE_CRITICAL_WOUNDS"
+            "CLERIC_MASS_REGENERATE" => "CLERIC_MASS_REGENERATE"
+            "CLERIC_REGENERATION_DRUID_VERSION" => "CLERIC_REGENERATION_DRUID_VERSION"
+
+            //Arcane spells.
+            "WIZARD_ARMOR" => "WIZARD_ARMOR"
+            //No protection opcode: fixed in spell.
+            "WIZARD_REFLECTED_IMAGE" => "WIZARD_REFLECTED_IMAGE"
+            "WIZARD_TRUE_STRIKE" => "WIZARD_TRUE_STRIKE"
+            "WIZARD_SHIELD" => "WIZARD_SHIELD"
+            "WIZARD_BLUR" => "WIZARD_BLUR"
+            "WIZARD_KNOW_OPPONENT" => "WIZARD_KNOW_OPPONENT"
+            "WIZARD_LUCK" => "WIZARD_LUCK"
+            //No protection opcode: fixed in spell.
+            "WIZARD_MIRROR_IMAGE" => "WIZARD_MIRROR_IMAGE"
+            //No protection opcode: fixed in spell.
+            "WIZARD_RESIST_ELEMENTS" = "WIZARD_RESIST_ELEMENTS"
+            "WIZARD_CLAIRVOYANCE" => "WIZARD_CLAIRVOYANCE"
+            "WIZARD_GHOST_ARMOR" => "WIZARD_GHOST_ARMOR"
+            //No protection opcode: fixed in spell.
+            "WIZARD_MINOR_GLOBE_OF_INVULNERABILITY" => "WIZARD_MINOR_GLOBE_OF_INVULNERABILITY"
+            "WIZARD_EMOTION_HOPELESSNESS" => "WIZARD_EMOTION_HOPELESSNESS"
+            "WIZARD_GREATER_MALISON" => "WIZARD_GREATER_MALISON"
+            "WIZARD_SPIRIT_ARMOR" => "WIZARD_SPIRIT_ARMOR"
+            //No protection opcode: fixed in spell.
+            "WIZARD_FIRE_SHIELD_RED" => "WIZARD_FIRE_SHIELD_RED"
+            //No protection opcode: fixed in spell.
+            "WIZARD_MESTILS_ACID_SHEATH" => "WIZARD_MESTILS_ACID_SHEATH"
+            //No protection opcode: fixed in spell.
+            "WIZARD_GLOBE_OF_INVULNERABILITY" => "WIZARD_GLOBE_OF_INVULNERABILITY"
+            //No protection opcode: fixed in spell.
+            "WIZARD_PROTECTION_FROM_MAGIC_ENERGY" => "WIZARD_PROTECTION_FROM_MAGIC_ENERGY"
+            //No protection opcode: fixed in spell.
+            "WIZARD_PROTECTION_FROM_THE_ELEMENTS" => "WIZARD_PROTECTION_FROM_THE_ELEMENTS"
+            //No protection opcode. This is fixed in RFC.
+            "WIZARD_MANTLE" => "WIZARD_MANTLE"
+            //No protection opcode: fixed in spell.
+            "WIZARD_GHOSTFORM" => "WIZARD_GHOSTFORM"
+            //No protection opcode: fixed in spell.
+            "WIZARD_PROTECTION_FROM_ENERGY" => "WIZARD_PROTECTION_FROM_ENERGY"
+            //No protection opcode: fixed in spell.
+            "WIZARD_MOMENT_OF_PRESCIENCE" => "WIZARD_MOMENT_OF_PRESCIENCE"
+
+            //Concurrent refreshing.
             "CLERIC_KNOW_OPPONENT" => "WIZARD_KNOW_OPPONENT"
             "WIZARD_KNOW_OPPONENT" => "CLERIC_KNOW_OPPONENT"
             "WIZARD_RESIST_ELEMENTS" => "CLERIC_RESIST_FIRE_AND_COLD"
@@ -115,7 +111,7 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
             OUTER_SET spell_nbr_spell = IDS_OF_SYMBOL ("spell" "%spell%")
             OUTER_SET spell_nbr_res = IDS_OF_SYMBOL ("spell" "%res%")
             ACTION_IF (spell_nbr_spell = 0 - 1) OR (spell_nbr_res = 0 - 1) BEGIN
-                WARN "Spell not present in spell.ids. Doing nothing."
+                WARN "Either %spell% or %res% not present in spell.ids. Doing nothing."
             END ELSE BEGIN
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
                 LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%res%" RET res = spell_res END
