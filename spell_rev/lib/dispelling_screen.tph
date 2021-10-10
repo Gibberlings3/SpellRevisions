@@ -93,17 +93,17 @@ WITH_SCOPE BEGIN
 				opcode_to_delete = 0 - 1
 			END
 			LPF ADD_SPELL_EFFECT INT_VAR
-				opcode = 146 						//Cast spell.
-				parameter2 = 1 						//Cast instantly.
-				target = 1 							//Spell has caster target.
+				opcode = 146 		        //Cast spell.
+				parameter2 = 1 				//Cast instantly.
+				target = 1 					//Spell has caster target.
 				power = 5 
 			STR_VAR
 				resource = "k1#scre"
 			END
 			LPF ADD_SPELL_EFFECT INT_VAR
-				opcode = 215 						//Play visual effect.
+				opcode = 215 				//Play visual effect.
 				parameter2 = 1
-				target = 2 							//Will only target caster...
+				target = 2 					//Will only target caster...
 				power = 5
 			STR_VAR
 				resource = "sprotect"
