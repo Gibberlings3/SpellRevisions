@@ -85,10 +85,27 @@ COPY_EXISTING ~k1#scre.spl~ ~override~
         resist_dispel = 2
     END
  
-COPY_EXISTING ~spwi510.spl~ ~override~  
-LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = "k1#scre" END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = "sprotect" duration = 4 END
+COPY_EXISTING ~spwi510.spl~ ~override~
+	//Delete all opcodes => relies on k1#scre having everything right.
+	LPF DELETE_SPELL_EFFECT INT_VAR
+ 		opcode_to_delete = 0 - 1
+	END
+	LPF ADD_SPELL_EFFECT INT_VAR
+		opcode = 146 						//Cast spell.
+		parameter2 = 1 						//Cast instantly.
+		target = 1 							//Spell has caster target.
+		power = 5 
+	STR_VAR
+		resource = "k1#scre"
+	END
+	LPF ADD_SPELL_EFFECT INT_VAR
+		opcode = 215 						//Play visual effect.
+		parameter2 = 1
+		target = 2 							//Will only target caster...
+		power = 5
+	STR_VAR
+		resource = "sprotect"
+	END
 
 COPY_EXISTING ~spwi590.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
