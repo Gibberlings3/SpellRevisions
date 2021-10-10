@@ -20,8 +20,8 @@ COPY_EXISTING ~k1#scre.spl~ ~override~
 		target = 1                          //Living actor.
 		min_level = 1
 		speed = 1                           //Cast instantly, so should not matter.
-		range = 30
-		projectile = 158                    //Area, party-only projectile.
+		range = 30 							//Uses projectile.
+		projectile = 158                    //TODO => move spell to parent and make this a subspell.
 	END
 	//Add opcodes.
     //Immunity to Breach.
