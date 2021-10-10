@@ -1,19 +1,9 @@
-INCLUDE ~spell_rev\lib\macros.tpa~ // needed since I dug a hole for myself
+//Needed for ADD_SPELL_HEADER.
+INCLUDE ~spell_rev/lib/macros.tpa~
 
-//// SECONDARY TYPE STUFF///
+//Add sectype.
+ADD_SECTYPE "k1#Dispel" @21000
 
-///DISPELLING SCREEN AOE VERSION aka WHY CAN't MY BUFFS STAY AND WHY DO I MISS AN END SOMEWHERE//
-
-ADD_SECTYPE ~k1#Dispel~ @21000 // add a string reference for removal, like ~Dispelling Screen Dissipates~ or something
-
-COPY_EXISTING ~msectype.2da~ ~override~
-  COUNT_2DA_ROWS "2" "sectype_k1#Dispel"
-  SET "sectype_k1#Dispel" -= "2"
-  PRETTY_PRINT_2DA
- 
- // 16.1.2016... if I go build this spell via code, SRv4 will see the light of day year 2056...//
- // 17.1.2016....I did it... :)//
- 
 LAF CREATE_SPELL STR_VAR spell=~k1#scre~ END  // Could be simpler....
 COPY_EXISTING ~k1#scre.spl~ override
 SAY NAME1 @21001   SAY UNIDENTIFIED_DESC @21001
@@ -140,13 +130,13 @@ INT_VAR
 
  COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 timing = 3 silent = 1 insert_point = 10 END
+ LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = k1#Dispel savingthrow = 0 timing = 3 silent = 1 insert_point = 10 END
  END
  BUT_ONLY_IF_IT_CHANGES
  
  COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = %sectype_k1#Dispel% savingthrow = 0 timing = 3 insert_point = 10 silent = 1 END
+ LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = k1#Dispel savingthrow = 0 timing = 3 insert_point = 10 silent = 1 END
  END
  BUT_ONLY_IF_IT_CHANGES
  
@@ -158,7 +148,7 @@ INT_VAR
 
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513c.spl~ BEGIN   
 COPY_EXISTING ~spwi513c.spl~ ~override~  // 
-LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 230 new_opcode = 221 parameter1 = 9 parameter2  = EVALUATE_BUFFER %sectype_k1#Dispel% STR_VAR END
+LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 230 new_opcode = 221 parameter1 = 9 parameter2  = k1#Dispel STR_VAR END
 
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi805b.spl~ BEGIN       
 COPY_EXISTING ~spwi805b.spl~ ~override~  // patch for Pierce Shield  so it breaks DS; SPell shield stops it however
@@ -168,7 +158,7 @@ LPF ADD_SPELL_EFFECT
 	target			= 2    //preset
 	power			= 8    
     parameter1		= 9
-	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
+	parameter2		= k1#Dispel
 	timing			= 3
 END
   BUT_ONLY
@@ -181,7 +171,7 @@ LPF ADD_SPELL_EFFECT
 	target			= 2    //preset
 	power			= 9 
     parameter1      = 9    
-	parameter2		= EVALUATE_BUFFER %sectype_k1#Dispel%
+	parameter2		= k1#Dispel
 	timing			= 3
 END
   BUT_ONLY
