@@ -156,11 +156,17 @@ COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
 	END
 BUT_ONLY
 
-// PATCH BREACH TYPE STUFF; with code on the fly //
-
-ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513c.spl~ BEGIN   
-COPY_EXISTING ~spwi513c.spl~ ~override~  // 
-LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 230 new_opcode = 221 parameter1 = 9 parameter2  = k1#Dispel STR_VAR END
+//Breach aux spells.
+ACTION_IF FILE_EXISTS_IN_GAME "spwi513c.spl" BEGIN
+	COPY_EXISTING ~spwi513c.spl~ ~override~
+		//What is this for?
+		LPF ALTER_SPELL_EFFECT INT_VAR
+			match_opcode = 230
+			new_opcode = 221
+			parameter1 = 9
+			parameter2 = k1#Dispel
+		END
+	BUT_ONLY
 END
 
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi805b.spl~ BEGIN       
