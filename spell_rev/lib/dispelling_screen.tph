@@ -161,6 +161,7 @@ BUT_ONLY
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513c.spl~ BEGIN   
 COPY_EXISTING ~spwi513c.spl~ ~override~  // 
 LPF ALTER_SPELL_EFFECT INT_VAR match_opcode = 230 new_opcode = 221 parameter1 = 9 parameter2  = k1#Dispel STR_VAR END
+END
 
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi805b.spl~ BEGIN       
 COPY_EXISTING ~spwi805b.spl~ ~override~  // patch for Pierce Shield  so it breaks DS; SPell shield stops it however
@@ -174,6 +175,7 @@ LPF ADD_SPELL_EFFECT
 	timing			= 3
 END
   BUT_ONLY
+END
  
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi903b.spl~ BEGIN   
 COPY_EXISTING ~spwi903b.spl~ ~override~  // patch for Spellstrike
@@ -187,8 +189,4 @@ LPF ADD_SPELL_EFFECT
 	timing			= 3
 END
   BUT_ONLY
-  
-
-END
-END
 END
