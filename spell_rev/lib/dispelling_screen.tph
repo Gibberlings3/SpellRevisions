@@ -24,83 +24,83 @@ COPY_EXISTING ~k1#scre.spl~ ~override~
 		projectile = 158                    //Area, party-only projectile.
 	END
 	//Add opcodes.
- LPF ADD_SPELL_EFFECT 
-INT_VAR
-opcode = 206
-duration = 300
-power = 5
-timing = 0
-resist_dispel = 2
-target = 2
-STR_VAR
-resource = spwi513b // TO DO: kill the damn "Display String" and "remove portait icon" opcodes from all removal spells
- END                // they're automatically displayed once they remove something, so now they display twice.
-
- LPF ADD_SPELL_EFFECT  // Immunity to dispels
-INT_VAR
-opcode = 101
-duration = 300
-resist_dispel = 2
-power = 5
-timing = 0
-target = 2
-parameter2 = 58
-STR_VAR
- END
-
- LPF ADD_SPELL_EFFECT  // Portrait icon; should be renamed....something like "Protected by Dispelling Screen"
-INT_VAR
-opcode = 142
-duration = 300
-power = 5
-timing = 0
-resist_dispel = 2
-target = 2
-parameter2 = 107
-STR_VAR
- END
-
- LPF ADD_SPELL_EFFECT  // plays animation
-INT_VAR
-opcode = 215
-duration = 300
-power = 5
-timing = 0
-target = 2
-resist_dispel = 2
-parameter2 = 1
-STR_VAR
-resource = spturni2
- END
-
- LPF ADD_SPELL_EFFECT
-INT_VAR
-opcode = 267   // "Dispel Effects" string immunity
-duration = 300
-power = 5
-resist_dispel = 2
-timing = 0
-target = 2
-parameter1 = 14056  
-STR_VAR
-END
+    //Immunity to Breach.
+	LPF ADD_SPELL_EFFECT INT_VAR
+		opcode = 206 	 					//Protection from spell.
+		target = 2
+		power = 5
+		timing = 0
+		duration = 300
+		resist_dispel = 2
+	STR_VAR
+		resource = "spwi513b"               //Aux breach spell.
+	END
+	//Immunity to Dispel.
+ 	LPF ADD_SPELL_EFFECT INT_VAR
+		opcode = 101                        //Immuny to opcode.
+		parameter2 = 58                     //Dispel.
+		target = 2
+		power = 5
+		timing = 0
+		duration = 300
+		resist_dispel = 2
+    END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 142                        //Display portrait icon.
+        parameter2 = 107                    //Spell immunity
+        target = 2
+        power = 5
+        timing = 0
+        duration = 300
+        resist_dispel = 2
+    END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 296                        //Protection from animation.
+        target = 2
+        power = 5
+        timing = 0
+        duration = 300
+        resist_dispel = 2
+    STR_VAR
+        resource = "spdispma"
+    END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 215                        //Play visual effect.
+        parameter2 = 1                      //Over target.
+        power = 5
+        target = 2
+        timing = 0
+        duration = 300
+        resist_dispel = 2
+    STR_VAR
+        resource = "spturni2"
+    END
+    LPF ADD_SPELL_EFFECT INT_VAR
+        opcode = 267                        //Immunity from string.
+        parameter1 = 14056                  //'Dispel effects'
+        target = 2
+        power = 5
+        timing = 0
+        duration = 300
+        resist_dispel = 2
+    END
  
 COPY_EXISTING ~spwi510.spl~ ~override~  
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = k1#scre END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = sprotect duration = 4 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = "k1#scre" END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = "sprotect" duration = 4 END
 
 COPY_EXISTING ~spwi590.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = k1#scre END
-LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = sprotect duration = 4 END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = "k1#scre" END
+LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = "sprotect" duration = 4 END
 
 COPY_EXISTING ~spwi519.spl~ ~override~   // SS shouldn't stop Breach anymore
 LPF DELETE_EFFECT 
 INT_VAR
  match_opcode = 206
  STR_VAR
- match_resource = spwi513b END
+ match_resource = "spwi513b" END
  
 
 // GLOBAL CHANGES  // 
@@ -157,24 +157,3 @@ END
 END
 END
 END
-
-
-
-/* ACTION_IF  FILE_EXISTS_IN_GAME ~wand18a.spl~ BEGIN  // IR Wand. I'll recreate it when I get the will to do so, so it doesnt
-   COPY_EXISTING ~wand18a.spl~ ~override~     // summon Cowled wizards
-  LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
-  LPF ADD_SPELL_EFFECT
-	INT_VAR
-	opcode			= 146
-	target			= 2
-	power			= 5
-	parameter1		= 9
-	timing			= 1
-	insert_point    = 1
-	STR_VAR         
-	resource        = spwi513
-    END
-BUT_ONLY
-END */
-
-// END OF CODE for now //
