@@ -128,11 +128,11 @@ COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
 		LPF CLONE_EFFECT INT_VAR
 			check_globals = 0 				//Only change effects in headers.
 			match_opcode = 58 				//Dispel effects.
-			opcode = 221 					//Remove sectype.
+			opcode = 221 					//Remove effects by sectype.
 			parameter1 = 9
 			parameter2 = k1#Dispel
-			timing = 1
-			duration = 0 					//Zero-out field.
+			//Inherit timing from dispel opcode and rely on application order.
+			//timing = 1
 			silent = 1
 		STR_VAR
 			insert = "below"
@@ -148,8 +148,8 @@ COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
 			opcode = 221 					//Remove effects by sectype.
 			parameter1 = 9 					//Level 9.
 			parameter2 = k1#Dispel
-			timing = 1
-			duration = 0 					//Zero-out field.
+			//Inherit timing from dispel opcode and rely on application order.
+			//timing = 1
 			silent = 1
 		STR_VAR
 			insert = "below"
