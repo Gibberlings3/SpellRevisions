@@ -4,10 +4,26 @@ INCLUDE ~spell_rev/lib/macros.tpa~
 //Add sectype.
 ADD_SECTYPE "k1#Dispel" @21000
 
-LAF CREATE_SPELL STR_VAR spell=~k1#scre~ END  // Could be simpler....
-COPY_EXISTING ~k1#scre.spl~ override
-SAY NAME1 @21001   SAY UNIDENTIFIED_DESC @21001
-LPF ADD_SPELL_HEADER INT_VAR type = 1 level = 5 power = 5 projectile = 158 range = 30 END // 
+//Create k1#scre -> TODO: this spell can be added statically.
+LAF CREATE_SPELL STR_VAR spell = "k1#scre" END
+COPY_EXISTING ~k1#scre.spl~ ~override~
+	SAY NAME1 @21001
+	SAY UNIDENTIFIED_DESC @21001
+	//Set sectype and level.
+	WRITE_BYTE 0x27 k1#Dispel
+	WRITE_LONG 0x34 1
+	//Create header and then set its fields via ALTER_SPELL_HEADER.
+	LPF ADD_SPELL_HEADER INT_VAR type = 1 END
+	LPF ALTER_SPELL_HEADER INT_VAR
+		header = 1
+		location = 0                        //Subpell.
+		target = 1                          //Living actor.
+		min_level = 1
+		speed = 1                           //Cast instantly, so should not matter.
+		range = 30
+		projectile = 158                    //Area, party-only projectile.
+	END
+	//Add opcodes.
  LPF ADD_SPELL_EFFECT 
 INT_VAR
 opcode = 206
@@ -19,42 +35,6 @@ target = 2
 STR_VAR
 resource = spwi513b // TO DO: kill the damn "Display String" and "remove portait icon" opcodes from all removal spells
  END                // they're automatically displayed once they remove something, so now they display twice.
- 
- /* LPF ADD_SPELL_EFFECT   // This is commented out. I made all these resources use 146 to cast Breach. *Much* better overall...
-INT_VAR
-opcode = 206
-duration = 300
-power = 5
-timing = 0
-resist_dispel = 2
-target = 2
-STR_VAR
-resource = spwish26 
- END 
- 
-LPF ADD_SPELL_EFFECT 
-INT_VAR
-opcode = 206
-duration = 300
-power = 5
-timing = 0
-resist_dispel = 2
-target = 2
-STR_VAR
-resource = spwish38 
- END
- 
-LPF ADD_SPELL_EFFECT 
-INT_VAR
-opcode = 206
-duration = 300
-power = 5
-timing = 0
-resist_dispel = 2
-target = 2
-STR_VAR
-resource = wand18a
- END */ 
 
  LPF ADD_SPELL_EFFECT  // Immunity to dispels
 INT_VAR
@@ -114,9 +94,6 @@ COPY_EXISTING ~spwi590.spl~ ~override~
 LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete = "-1" header = 1 END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 power = 5 header =1 STR_VAR resource = k1#scre END
 LPF ADD_SPELL_EFFECT INT_VAR opcode = 215 target = 2 parameter2 = 1 power = 5 header =1 STR_VAR resource = sprotect duration = 4 END
-
-COPY_EXISTING ~k1#scre.spl~ ~override~  //sectype marker
-WRITE_BYTE 0x27 "%k1#Dispel%"
 
 COPY_EXISTING ~spwi519.spl~ ~override~   // SS shouldn't stop Breach anymore
 LPF DELETE_EFFECT 
