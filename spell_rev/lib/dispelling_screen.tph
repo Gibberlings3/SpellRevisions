@@ -112,12 +112,13 @@ WITH_SCOPE BEGIN
 	END
 END
 
-COPY_EXISTING ~spwi519.spl~ ~override~   // SS shouldn't stop Breach anymore
-LPF DELETE_EFFECT 
-INT_VAR
- match_opcode = 206
- STR_VAR
- match_resource = "spwi513b" END
+//Spell Shield: remove immunity against aux breach. Why?
+COPY_EXISTING ~spwi519.spl~ ~override~
+	LPF DELETE_EFFECT INT_VAR
+		match_opcode = 206
+	STR_VAR
+		match_resource = "spwi513b"
+	END
  
 
 // GLOBAL CHANGES  // 
