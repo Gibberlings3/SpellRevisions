@@ -119,27 +119,44 @@ COPY_EXISTING ~spwi519.spl~ ~override~
 	STR_VAR
 		match_resource = "spwi513b"
 	END
- 
+BUT_ONLY
 
-// GLOBAL CHANGES  // 
+//Patch items anspells to take into account dispelling screen.
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+		LPF CLONE_EFFECT INT_VAR
+			check_globals = 0 				//Only change effects in headers.
+			match_opcode = 58 				//Dispel effects.
+			opcode = 221 					//Remove sectype.
+			parameter1 = 9
+			parameter2 = k1#Dispel
+			timing = 1
+			duration = 0 					//Zero-out field.
+			silent = 1
+		STR_VAR
+			insert = "below"
+		END
+	END
+BUT_ONLY
 
- COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
- PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = k1#Dispel savingthrow = 0 timing = 3 silent = 1 insert_point = 10 END
- END
- BUT_ONLY_IF_IT_CHANGES
- 
- COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
- PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
- LPF CLONE_EFFECT INT_VAR match_opcode = 58 opcode = 221 parameter1 = 9 parameter2 = k1#Dispel savingthrow = 0 timing = 3 insert_point = 10 silent = 1 END
- END
- BUT_ONLY_IF_IT_CHANGES
- 
- 
+COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+		LPF CLONE_EFFECT INT_VAR
+			check_globals = 0 				//Only clone effects in headers.
+			match_opcode = 58 				//Dispel effects.
+			opcode = 221 					//Remove effects by sectype.
+			parameter1 = 9 					//Level 9.
+			parameter2 = k1#Dispel
+			timing = 1
+			duration = 0 					//Zero-out field.
+			silent = 1
+		STR_VAR
+			insert = "below"
+		END
+	END
+BUT_ONLY
 
-///END OF GLOBAL CHANGES///
-  
-  // PATCH BREACH TYPE STUFF; with code on the fly //
+// PATCH BREACH TYPE STUFF; with code on the fly //
 
 ACTION_IF  FILE_EXISTS_IN_GAME ~spwi513c.spl~ BEGIN   
 COPY_EXISTING ~spwi513c.spl~ ~override~  // 
