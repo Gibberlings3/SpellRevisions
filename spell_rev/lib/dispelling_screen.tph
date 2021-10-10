@@ -167,6 +167,8 @@ ACTION_IF FILE_EXISTS_IN_GAME "spwi513c.spl" BEGIN
 			parameter2 = k1#Dispel
 		END
 	BUT_ONLY
+END ELSE BEGIN
+    WARN "Warning: resource spwi513c does not exist."
 END
 
 //Pierce shield.
@@ -184,6 +186,8 @@ WITH_SCOPE BEGIN
                     timing = 1
                 END
             BUT_ONLY
+        END ELSE BEGIN
+            WARN "Warning: resource %res% does not exist."
         END
     END
 END
