@@ -148,7 +148,6 @@ DEFINE_ACTION_FUNCTION MAKE_REFRESHING_LOOP BEGIN
     END
 
     WITH_SCOPE BEGIN
-        //Stragglers.
         //Selfstacking for subspells.
         //Chant.
         COPY_EXISTING ~sppr203d.spl~ ~override~
