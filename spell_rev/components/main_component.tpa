@@ -493,8 +493,59 @@ COPY ~spell_rev\sppr2##\sppr203.spl~     ~override~  // Chant
   SAY NAME1 @35    SAY UNIDENTIFIED_DESC @36
 COPY ~spell_rev\sppr2##\sppr203d.spl~     ~override~
 
-COPY ~spell_rev\sppr2##\sppr204.spl~     ~override~  // Charm Person or Mammal
-  SAY NAME1 @37    SAY UNIDENTIFIED_DESC @38
+// Auxiliary resources. COPY's under guards for debugging.
+// Aux spell.
+ACTION_IF NOT FILE_EXISTS_IN_GAME "dvachrm.spl" BEGIN
+  COPY ~spell_rev/spwi1##/dvhchrm.spl~ ~override/dvachrm.spl~
+      //Patch duration 30 -> 60.
+      LPF ALTER_SPELL_EFFECT INT_VAR
+          duration_high = 60
+      END
+      //Patch in resource for racial immunity. Should already be in, but just in case.
+      LPF ALTER_EFFECT INT_VAR
+          match_opcode = 177            //Use Eff.
+      STR_VAR
+          resource = "dvachrm"
+      END
+      //Add charm animal.
+      LPF CLONE_EFFECT INT_VAR
+          match_opcode = 5              //Charm.
+          match_parameter1 = 1          //Humanoid.
+          parameter1 = 2                //Animal.
+      STR_VAR
+          insert = "below"
+      END
+END ELSE BEGIN
+  WARN "File 'dvachrm.spl' already exists in-game. No copy made."
+END
+
+// Protection from spell eff for racial immunities.
+ACTION_IF NOT FILE_EXISTS_IN_GAME "dvachrm.eff" BEGIN
+    COPY ~spell_rev/spwi1##/dvhchrm.eff~ ~override/dvachrm.eff~
+        //Patch-in spell to be protected from.
+        WRITE_ASCII 0x30 "dvachrm" #8
+END ELSE BEGIN
+    WARN "File 'dvachrm.eff' already exists in-game. No copy made."
+END
+
+// Cast aux spell eff.
+ACTION_IF NOT FILE_EXISTS_IN_GAME "sppr204.eff" BEGIN
+    COPY ~spell_rev/spwi1##/spwi104.eff~ ~override/sppr204.eff~
+        //Patch-in spell to cast.
+        WRITE_ASCII 0x30 "dvachrm" #8
+END ELSE BEGIN
+    WARN "File 'sppr204.eff' already exists in-game. No copy made."
+END
+
+COPY ~spell_rev\sppr2##\sppr204.spl~ ~override~  // Charm Person or Mammal
+    SAY NAME1 @37
+    SAY UNIDENTIFIED_DESC @38
+    //Patch-in spell to cast. Should already be in, but just in case.
+    LPF ALTER_EFFECT INT_VAR
+        match_opcode = 177              //Use Eff.
+    STR_VAR
+        resource = "sppr204"
+    END
 
 COPY ~spell_rev\sppr2##\sppr205.spl~     ~override~  // Find Traps
   SAY NAME1 @39    SAY UNIDENTIFIED_DESC @40
@@ -1437,6 +1488,28 @@ COPY ~spell_rev\spwi1##\spwi104.spl~     ~override~  // Charm Person
   SAY NAME1 @407    SAY UNIDENTIFIED_DESC @408
 COPY ~spell_rev\spwi1##\scrl69.itm~     ~override~
   SAY NAME2 @407    SAY IDENTIFIED_DESC   @408
+
+// Auxiliary resources. COPY's under guards for debugging.
+// Cast aux spell eff.
+ACTION_IF NOT FILE_EXISTS_IN_GAME "spwi104.eff" BEGIN
+    COPY ~spell_rev/spwi1##/spwi104.eff~ ~override~
+END ELSE BEGIN
+    WARN "File 'spwi104.eff' already exists in-game. No copy made."
+END
+
+// Aux spell.
+ACTION_IF NOT FILE_EXISTS_IN_GAME "dvhchrm.spl" BEGIN
+    COPY ~spell_rev/spwi1##/dvhchrm.spl~ ~override~
+END ELSE BEGIN
+    WARN "File 'dvhchrm.spl' already exists in-game. No copy made."
+END
+
+// Protection from spell eff for racial immunities.
+ACTION_IF NOT FILE_EXISTS_IN_GAME "dvhchrm.eff" BEGIN
+    COPY ~spell_rev/spwi1##/dvhchrm.eff~ ~override~
+END ELSE BEGIN
+    WARN "File 'dvhchrm.eff' already exists in-game. No copy made."
+END
 
 COPY ~spell_rev\spwi1##\spwi105.spl~     ~override~  // Color Spray
   SAY NAME1 @409    SAY UNIDENTIFIED_DESC @410
@@ -2785,13 +2858,31 @@ COPY ~spell_rev\spwi7##\dvwi707b.bam~    ~override~ // also used by CLERIC_SUMMO
 COPY ~spell_rev\spwi7##\dvwi707c.bam~    ~override~ // also used by CLERIC_SUMMON_DEATH_KNIGHT
 APPEND ~spell.ids~ ~2707 WIZARD_SUMMON_DEATH_KNIGHT~
 
-COPY ~spell_rev\spwi7##\spwi708.spl~     ~override~  // Mantle
+COPY ~spell_rev\spwi7##\spwi708.spl~     ~override~  // Prismatic Mantle
   SAY NAME1 @733    SAY UNIDENTIFIED_DESC @734
 COPY ~spell_rev\spwi7##\scrl8j.itm~     ~override~
   SAY NAME2 @733    SAY IDENTIFIED_DESC   @734
-COPY ~spell_rev\spwi7##\spwi708a.spl~     ~override~
 COPY ~spell_rev\spwi7##\dvmantle.vvc~     ~override~
 COPY ~spell_rev\spwi7##\dvmantle.bam~     ~override~
+//Auxiliary resources.
+//Open new scope to avoid polluting namespace.
+WITH_SCOPE BEGIN
+  //Copy spells.
+  ACTION_FOR_EACH res IN "spwi708a" "spwi708b" "dvpacid" "dvpfebl" "dvpdeth" "dvpelec" "dvpfire" "dvpmaze" "dvpstun" BEGIN
+    //Existence checks. Should not fail, but if it does, FAIL loudly and early.
+    ACTION_IF NOT (FILE_EXISTS_IN_GAME "%res%.spl") BEGIN
+      COPY ~spell_rev\spwi7##\%res%.spl~ ~override~
+    END ELSE BEGIN
+      FAIL "Name clash: resource %res%.spl already exists in game."
+    END
+  END
+  //Copy eff's.
+  ACTION_IF NOT (FILE_EXISTS_IN_GAME "spwi708b.eff") BEGIN
+    COPY ~spell_rev\spwi7##\spwi708b.eff~ ~override~
+  END ELSE BEGIN
+    FAIL "Name clash: resource spwi708b.eff already exists in game."
+  END
+END
 
 COPY ~spell_rev\spwi7##\spwi710.spl~     ~override~  // Simbul's Spell Sequencer (previously named Spell Sequencer)
   SAY NAME1 @735    SAY UNIDENTIFIED_DESC @736

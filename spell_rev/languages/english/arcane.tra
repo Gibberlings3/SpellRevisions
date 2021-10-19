@@ -46,9 +46,9 @@ Casting Time: 1
 Area of Effect: 1 person
 Saving Throw: Spell negates
 
-Charm Person affects any single person it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, and others. Thus, a 10th-level fighter could be charmed, but an ogre could not. If the recipient fails his saving throw vs. spell at +2 bonus, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible.
+This spell affects any single person that it is cast upon. The term "person" includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, kobolds, and others. If the target fails their save vs. spell, they regard the caster as a trusted friend and ally to be heeded and protected for the duration of the spell. The caster may give them orders, and the charmed creature will carry them out as quickly as possible.
 
-If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a dispel magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
+Creatures that are currently neutral to the caster are more amenable to helping them and make their saving throw with no bonus, while those that are hostile are significantly more difficult to influence and instead gain a +4 bonus to making their saving throw. If the caster attempts to harm the charmed creature, the spell is broken and the affected creature will immediately become hostile to the caster. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence. After the duration of the spell or if a dispel magic is successfully cast upon them, the affected creature resumes their previous behavior prior to being charmed.~
 
 @409=~Color Spray~
 @410=~Color Spray
@@ -741,16 +741,17 @@ Memorized Spells:
 @3518=~Hobgoblin Shaman~
 
 @519=~Non-Detection~
+// ***** the following description has been altered in English, needs translation
 @520=~Non-Detection
 Level: 3
 School: Abjuration
-Range: Touch
-Duration: 8 hours
 Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
-By casting this spell, the wizard makes the creature touched undetectable by divination spells such as Detect Invisibility, Oracle, and True Seeing, or by a thief's Detect Illusion ability, though an invisible person may still be audible when moving and his presence may still be sensed. Non-Detection wards the creature's gear as well as the creature itself.~
+By casting this spell, the wizard protects a hidden or invisible creature from being exposed by divinations that dispel invisibility, such as Invisibility Purge, Oracle, and True Seeing, or by a thief's Detect Illusion ability.
+
+Note: while a creature protected by Non-Detection cannot be exposed to everyone, they still may be observed and detected by individuals who, through a spell or innate ability, have the power to directly see through invisibility. This includes the caster, and only the caster, of Detect Invisibility and True Seeing.~
 
 @521=~Protection from Missiles~
 @522=~Protection from Missiles
@@ -1736,7 +1737,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 Level: 6
 School: Abjuration
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 6
 Area of Effect: Caster
 Saving Throw: None
@@ -1793,7 +1794,7 @@ Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
-When a Protection from Magic Energy spell is cast, the recipient receives complete protection from all magic damage-based attacks. 100% of the damage from attacks like Cause Wound will be absorbed, and the target creature will become completely immune to the effects of spells such as Magic Missile, Skull Trap, Disintegrate, and Horrid Wilting. This effect lasts for the duration of the spell or until dispelled. Certain creatures are immune to the effects of this spell, including all undead.~
+When a Protection from Magic Energy spell is cast, the recipient receives complete protection from all magic damage-based attacks. 100% of the damage from attacks like Cause Wound will be absorbed, and the target creature will become completely immune to the effects of spells such as Magic Missile, Skull Trap, Disintegrate, and Horrid Wilting. This effect lasts for the duration of the spell or until dispelled.~
 
 @673=~Mislead~
 @674=~Mislead
@@ -1819,7 +1820,7 @@ Saving Throw: None
 
 When this spell is cast upon a target creature there will be two major effects. The first is that it will dispel one spell protection of 8th level or lower from the creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The second effect of the spell is that the creature's magic resistance is temporary nullified. The resistance remains lowered for 2 rounds, and this effect cannot be negated in any way. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
+The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection and Shield of the Archons.~
 
 @677=~True Seeing~
 @678=~True Seeing
@@ -2171,7 +2172,7 @@ Saving Throw: None
 
 When this spell is cast it will dispel one spell protection of any level on the target. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
 
-The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.~
+The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Spell Trap.~
 
 @729=~Khelben's Warding Whip~
 @730=~Khelben's Warding Whip
@@ -2185,7 +2186,7 @@ Saving Throw: None
 
 When this spell is cast on the target creature, it will dispel one spell protection of up to 8th level or lower. Every round thereafter, until the duration of the spell expires, another spell protection will be removed from the target. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Mind Blank.~
+The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons.~
 
 @731=~Summon Death Knight~
 @732=~Summon Death Knight
@@ -2224,12 +2225,20 @@ Symbols: of Weakness or Death (once per day each)~
 Level: 7
 School: Abjuration
 Range: Personal
-Duration: 6 rounds
+Duration: 4 rounds
 Casting Time: 1
 Area of Effect: Caster
-Saving Throw: None
+Saving Throw: partial
 
-When this spell is cast, an opaque globe of shimmering, multicolored light temporarily surrounds the caster. Opponents that hit the caster with a weapon or spell from within this radius are subject to a random prismatic effect. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.~
+When this spell is cast, an opaque globe of shimmering, multicolored light temporarily surrounds the caster. This magical mantle confers complete invulnerability to all weapons of +3 or less enchantment. Furthermore, opponents within a 10' radius that hit the caster with a weapon or spell are subject to a random prismatic effect once per round. The possible effects of the prismatic mantle are listed below. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.
+
+Red - 6D6 fire damage (save vs. breath half)
+Orange - 6D6 acid damage (save vs. breath half)
+Yellow - 6D6 electrical damage (save vs. breath half)
+Green - Death by poison (save vs. poison reduces to 3D6 poison damage)
+Blue - Stunned for 5 rounds (save vs. polymorph neg.)
+Indigo - Feebleminded for 5 rounds (save vs. wand neg.)
+Violet - Mazed (save vs. spell neg.)~
 
 @735=~Simbul's Spell Sequencer~
 @736=~Simbul's Spell Sequencer
@@ -2277,7 +2286,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
-The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 6d8 points of damage.~
+The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 2d8 + level points of damage, up to a maximum of 2d8 + 20.~
 
 @743=~Prismatic Spray~
 @744=~Prismatic Spray
@@ -2522,9 +2531,9 @@ Saving Throw: None
 
 By means of this spell, the wizard may launch a massive attack on a target's physical and magical defenses. Pierce Shield will dispel one spell protection of any level from the target creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. After piercing through magical protections, this powerful spell will breach each and every combat protection on the target creature. The target's magic resistance, if any, does not affect this spell.
 
-The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.
+The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons and Spell Trap.
 
-The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, and Absolute Immunity.~
+The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, Moment of Prescience and Absolute Immunity.~
 
 @777=~Summon Fiend~
 @778=~Summon Fiend
@@ -2617,7 +2626,7 @@ Casting Time: 8
 Area of Effect: 30' radius
 Saving Throw: Death half
 
-This spell evaporates moisture in the bodies of all living creatures within the area of effect, inflicting 1d6 points of damage per caster level (up to a maximum of 20d6). Affected creatures are allowed a saving throw vs. death at -2 for half damage. Undead creatures are not affected by this spell.~
+This spell evaporates moisture in the bodies of all living creatures within the area of effect, inflicting 1d6 points of damage per caster level (up to a maximum of 20d6). Affected creatures are allowed a saving throw vs. death at -2 for half damage. Undead and other incorporeal creatures such as elementals are not affected by this spell.~
 
 @789=~Maze~
 @790=~Maze
@@ -2688,7 +2697,7 @@ Casting Time: 8
 Area of Effect: 1 creature
 Saving Throw: Special
 
-This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d8 cold damage and holds it for 1 round unless a successful save vs. breath is made at a -2 penalty. After the 8th round, the spell is finished.~
+This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d8 cold damage and holds it for 1 round unless a successful save vs. breath is made at a -2 penalty. Elementals and other incorporeal creatures such as Shadows and Wraiths are immune to the hold effect. After the 8th round, the spell is finished.~
 
 
 /*------------------level 9------------------*/
@@ -2698,7 +2707,7 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 Level: 9
 School: Abjuration
 Range: Personal
-Duration: 1 round/level
+Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: Caster
 Saving Throw: None
@@ -2804,7 +2813,7 @@ Casting Time: 1 round
 Area of Effect: 1 creature
 Saving Throw: None
 
-When the Imprisonment spell is cast the target creature becomes entombed in a small sphere far beneath the surface of the earth in a state of suspended animation, conscious of its fate. The victim remains there unless the reverse of the spell, Freedom, is cast. Otherwise, the victim will remain there as long as the earth exists, rather a horrible fate, actually. If a Freedom spell is cast in the area where the creature was imprisoned then he will reappear exactly where he was last standing. Dispel magic will not free creatures trapped in this manner. The target's magic resistance, if any, does not affect this spell.~
+When the Imprisonment spell is cast the target creature becomes entombed in a small sphere far beneath the surface of the earth in a state of suspended animation, conscious of its fate. The victim remains there unless the reverse of the spell, Freedom, is cast. Otherwise, the victim will remain imprisoned for 1 turn at the end of which it will die a horrible, despairing death by asphyxiation. If a Freedom spell is cast in the area where the creature was imprisoned then he will reappear exactly where he was last standing. Dispel magic will not free creatures trapped in this manner. The target's magic resistance, if any, does not affect this spell.~
 
 @825=~Meteor Swarm~
 @826=~Meteor Swarm
