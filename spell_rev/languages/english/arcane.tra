@@ -749,7 +749,9 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
-By casting this spell, the wizard protects a hidden or invisible creature from being exposed by divinations that dispel invisibility, such as Invisibility Purge, Oracle, and True Seeing, or by a thief's Detect Illusion ability. Note: while a creature protected by Non-Detection cannot be exposed to everyone, they still may be observed and detected by individuals who, through a spell or innate ability, have the power to directly see through invisibility. This includes the caster - only the caster - of Detect Invisibility and True Seeing.~
+By casting this spell, the wizard protects a hidden or invisible creature from being exposed by divinations that dispel invisibility, such as Invisibility Purge, Oracle, and True Seeing, or by a thief's Detect Illusion ability.
+
+Note: while a creature protected by Non-Detection cannot be exposed to everyone, they still may be observed and detected by individuals who, through a spell or innate ability, have the power to directly see through invisibility. This includes the caster, and only the caster, of Detect Invisibility and True Seeing.~
 
 @521=~Protection from Missiles~
 @522=~Protection from Missiles
