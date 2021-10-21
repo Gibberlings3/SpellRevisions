@@ -39,4 +39,4 @@
 
 ## Earlier versions.
 
-For earlier versions, see [Previous Changelog](change-log.txt).
+For earlier versions, see [Previous Changelog](./change-log.txt).
