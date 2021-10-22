@@ -30,7 +30,7 @@ DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
                         END
                     END
                 END ELSE BEGIN
-                    WARN "Warning: resource %spell_res%.spl does not exist in game. Table spell.ids malformed."
+                    PATCH_WARN "Warning: resource %spell_res%.spl does not exist in game. Table spell.ids malformed."
                 END
             END
         END
