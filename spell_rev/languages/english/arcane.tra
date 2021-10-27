@@ -734,8 +734,8 @@ HP 36, AC 5, THAC0 16, Saving Throws 9/13/12/15/14
 1 Attack Per Round, 1d8+1 Slashing Damage (Long Sword +1)
 
 Memorized Spells:
-1� Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
-2� Chant, Hold Person, Silence~
+1. Armor of Faith, Bless, Cure Light Wounds (x2), Resist Fear
+2. Chant, Hold Person, Silence~
 
 @3517=~Hobgoblin Archer~
 @3518=~Hobgoblin Shaman~
@@ -1420,9 +1420,9 @@ Invisibility (at will)
 Regeneration: 1 hp/round
 
 Memorized Spells:
-1� Obscuring Mist, Magic Missile (x2), Shield
-2� Horror, Mirror Image
-3� Dire Charm, Slow~
+1. Obscuring Mist, Magic Missile (x2), Shield
+2. Horror, Mirror Image
+3. Dire Charm, Slow~
 
 @619=~Shadow Door~
 @620=~Shadow Door
@@ -2355,11 +2355,11 @@ Special Qualities:
 Fire Resistance 100%
 
 Memorized Spells:
-1� Burning Hands, Magic Missile (x2), Shield
-2� Agannazar's Scorcher, Invisibility (x2)
-3� Fireball (x3)
-4� Fire Shield (x2)
-5� Conjure Lesser Fire Elemental~
+1. Burning Hands, Magic Missile (x2), Shield
+2. Agannazar's Scorcher, Invisibility (x2)
+3. Fireball (x3)
+4. Fire Shield (x2)
+5. Conjure Lesser Fire Elemental~
 
 @3749=~Efreeti~
 
@@ -2381,11 +2381,11 @@ HP 89, AC 0, THAC0 7, Saving Throws 11/7/11/7/7
 3 Attacks Per Round, 1d8+5 Slashing Damage (Scimitar +2)
 
 Memorized Spells:
-1� Magic Missile (x3), Shield
-2� Invisibility (x2), Mirror Image
-3� Haste, Lightning Bolt (x2)
-4� Improved Invisibility, Minor Globe of Invulnerability
-5� Conjure Lesser Air Elemental~
+1. Magic Missile (x3), Shield
+2. Invisibility (x2), Mirror Image
+3. Haste, Lightning Bolt (x2)
+4. Improved Invisibility, Minor Globe of Invulnerability
+5. Conjure Lesser Air Elemental~
 
 @3751=~Djinni~
 
@@ -3023,13 +3023,13 @@ Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
 Memorized Spells:
-1� Bless (x3), Resist Fear (x3)
-2� Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3� Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4� Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
-5� Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
-6� Blade Barrier, Bolt of Glory, Heal
-7� Greater Restoration, Holy Word~
+1. Bless (x3), Resist Fear (x3)
+2. Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3. Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4. Cure Critical Wounds (x2), Death Ward (x2), Neutralize Poison (x2), Magic Circle against Evil (x2)
+5. Chaotic Commands (x2), Raise Dead (x2), True Seeing (x2)
+6. Blade Barrier, Bolt of Glory, Heal
+7. Greater Restoration, Holy Word~
 
 @3857=~Planetar~
 
@@ -3060,13 +3060,13 @@ Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 75%
 Slashing, Crushing, Piercing, & Missile Resistance 20%
 
 Memorized Spells:
-1� Doom (x3), Resist Fear (x3)
-2� Hold Person (x3), Find Trap, Know Opponent, Silence
-3� Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4� Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
-5� Flame Strike (x2), Greater Command (x2), True Seeing (x2)
-6� Blade Barrier, Dolorous Decay, Harm
-7� Fire Storm, Unholy Word~
+1. Doom (x3), Resist Fear (x3)
+2. Hold Person (x3), Find Trap, Know Opponent, Silence
+3. Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4. Cause Critical Wounds (x2), Mental Domination (x2), Poison (x2), Cloak of Fear (x2)
+5. Flame Strike (x2), Greater Command (x2), True Seeing (x2)
+6. Blade Barrier, Dolorous Decay, Harm
+7. Fire Storm, Unholy Word~
 
 @3859=~Fallen Planetar~
 
