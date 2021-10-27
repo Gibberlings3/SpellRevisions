@@ -1,6 +1,6 @@
-BACKUP ~spell_rev\backup~ // location to store files for uninstall purposes
+BACKUP ~weidu_external/backup/spell_rev~
 AUTHOR ~marco.montagnoli83@hotmail.it~ // display email address if install fails
-README ~spell_rev\readme-spell_rev.html~
+README ~spell_rev/readme-spell_rev.html~
 //MODDER
 ASK_EVERY_COMPONENT
 
