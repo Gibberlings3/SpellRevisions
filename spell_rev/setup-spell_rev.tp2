@@ -91,12 +91,6 @@ ACTION_IF install_tobex && (ENGINE_IS ~tob~) BEGIN
     REPLACE_TEXTUALLY ~Apply Concentration Check On Damage=0~ ~Apply Concentration Check On Damage=1~
 END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~concentr.2da~ BEGIN // EE v2.0+
-  COPY_EXISTING ~concentr.2da~ ~override~
-    SET_2DA_ENTRY 2 1 2 ~1~ // enable concentration check on EE games
-  BUT_ONLY
-END
-
 INCLUDE ~spell_rev/lib/ds.tph~
 
 // actual component
