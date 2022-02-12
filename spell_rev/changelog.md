@@ -4,6 +4,8 @@
 
 The highlight of this new version is in the purely administrative side of leaving beta status behind and adding a readme to the GitHub site and a brand new spanking changelog in markdown, which you are now looking. Very little in terms of new features, most of the changes are in polishing old bad code (of which there is a lot) and bug fixes.
 
+The most salient ones are:
+
 1. [Fix icons for Obscuring Mist and Monster Summoning I scrolls](https://github.com/Gibberlings3/SpellRevisions/pull/25)
 2. [Fix compatibility issue with DR v8+](https://github.com/Gibberlings3/SpellRevisions/pull/40)
 3. Spell fixes. Too many to document here, so we just link to the respective PR's for the documentation.
@@ -34,12 +36,11 @@ The highlight of this new version is in the purely administrative side of leavin
 9. [Remove install blockers](https://github.com/Gibberlings3/SpellRevisions/pull/60)
 10. [RFC:Neutral Charm Spells](https://github.com/Gibberlings3/SpellRevisions/pull/60)
 11. [Patch to Fire Shield protection from insects](https://github.com/Gibberlings3/SpellRevisions/pull/66)
-12. [Lowercase kreso_eestatsr.tph](https://github.com/Gibberlings3/SpellRevisions/pull/68)
-13. [Update description of Non-Detection](https://github.com/Gibberlings3/SpellRevisions/pull/71)
-14. [RFC: Prismatic Mantle](https://github.com/Gibberlings3/SpellRevisions/pull/72)
-16. [Invisibility and Hostile flags](https://github.com/Gibberlings3/SpellRevisions/pull/73)
+12. [Update description of Non-Detection](https://github.com/Gibberlings3/SpellRevisions/pull/71)
+13. [RFC: Prismatic Mantle](https://github.com/Gibberlings3/SpellRevisions/pull/72)
+14. [Invisibility and Hostile flags](https://github.com/Gibberlings3/SpellRevisions/pull/73)
 15. [Re-write and bug-fix EE refresh, non-stacking code](https://github.com/Gibberlings3/SpellRevisions/pull/75)
-17. [Drop concentration checks](https://github.com/Gibberlings3/SpellRevisions/pull/81)
+16. [Drop concentration checks](https://github.com/Gibberlings3/SpellRevisions/pull/81)
 
 ## Earlier versions.
 
