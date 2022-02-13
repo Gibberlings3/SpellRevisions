@@ -52,7 +52,7 @@ DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
                         BUT_ONLY
                     END
                 END ELSE BEGIN
-                    PATCH_WARN "ee_sanctuary_invisibility: resource '%spell%' not found in 'spell.ids'."
+                    PATCH_WARN "Warn: ee_sanctuary_invisibility: spell '%spell%' not found in 'spell.ids'."
                 END
             END
         END
