@@ -26,6 +26,7 @@ The most salient ones are:
    * [Divine level 5 Spell Fixes](https://github.com/Gibberlings3/SpellRevisions/pull/54)
    * [Divine level 6 Spell Fixes](https://github.com/Gibberlings3/SpellRevisions/pull/57)
    * [Divine level 7 Spell Fixes](https://github.com/Gibberlings3/SpellRevisions/pull/59)
+   * [Incorrect patching](https://github.com/Gibberlings3/SpellRevisions/pull/67)
    * [More Spell Fixes](https://github.com/Gibberlings3/SpellRevisions/pull/74)
 
 4. [Update spell school setting code](https://github.com/Gibberlings3/SpellRevisions/pull/42)
@@ -33,14 +34,13 @@ The most salient ones are:
 6. [Update Haste + Slow patching code](https://github.com/Gibberlings3/SpellRevisions/pull/44)
 7. [Handling of some IR items](https://github.com/Gibberlings3/SpellRevisions/pull/45)
 8. [RFC:Greater Malison](https://github.com/Gibberlings3/SpellRevisions/pull/55)
-9. [Remove install blockers](https://github.com/Gibberlings3/SpellRevisions/pull/60)
-10. [RFC:Neutral Charm Spells](https://github.com/Gibberlings3/SpellRevisions/pull/60)
-11. [Patch to Fire Shield protection from insects](https://github.com/Gibberlings3/SpellRevisions/pull/66)
-12. [Update description of Non-Detection](https://github.com/Gibberlings3/SpellRevisions/pull/71)
-13. [RFC: Prismatic Mantle](https://github.com/Gibberlings3/SpellRevisions/pull/72)
-14. [Invisibility and Hostile flags](https://github.com/Gibberlings3/SpellRevisions/pull/73)
-15. [Re-write and bug-fix EE refresh, non-stacking code](https://github.com/Gibberlings3/SpellRevisions/pull/75)
-16. [Drop concentration checks](https://github.com/Gibberlings3/SpellRevisions/pull/81)
+9. [RFC:Neutral Charm Spells](https://github.com/Gibberlings3/SpellRevisions/pull/64)
+10. [Patch to Fire Shield protection from insects](https://github.com/Gibberlings3/SpellRevisions/pull/66)
+11. [Update description of Non-Detection](https://github.com/Gibberlings3/SpellRevisions/pull/71)
+12. [RFC: Prismatic Mantle](https://github.com/Gibberlings3/SpellRevisions/pull/72)
+13. [Invisibility and Hostile flags](https://github.com/Gibberlings3/SpellRevisions/pull/73)
+14. [Re-write and bug-fix EE refresh, non-stacking code](https://github.com/Gibberlings3/SpellRevisions/pull/75)
+15. [Drop concentration checks](https://github.com/Gibberlings3/SpellRevisions/pull/81)
 
 ## Earlier versions.
 
