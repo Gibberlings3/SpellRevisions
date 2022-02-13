@@ -23,8 +23,8 @@ DEFINE_PATCH_FUNCTION toggle_bit INT_VAR offset = 0 bit = 0 value = 0 - 1 BEGIN
     PATCH_MATCH value WITH
         //Do nothing case.
         0 - 1 BEGIN END
-        0 BEGIN LPF clear_bit INT_VAR offset = offset bit = bit END
-        1 BEGIN LPF set_bit INT_VAR offset = offset bit = bit END
+        0 BEGIN LPF clear_bit INT_VAR offset = offset bit = bit END END
+        1 BEGIN LPF set_bit INT_VAR offset = offset bit = bit END END
         DEFAULT
             PATCH_FAIL "toggle_bit: '%value%' not between -1 and 1."
     END
