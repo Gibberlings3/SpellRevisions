@@ -2,7 +2,7 @@
 
 ## Version: 4.19.
 
-The highlight of this new version is in the purely administrative side of leaving beta status behind and adding a readme to the GitHub site and a brand new spanking changelog in markdown, which you are now looking. Very little in terms of new features, most of the changes are in polishing old bad code (of which there is a lot) and bug fixes.
+The highlight of this new version is in the purely administrative side of leaving beta status behind and adding a readme to the GitHub site and a brand new spanking changelog in markdown, which you are now reading. Very little in terms of new features, most of the changes are in polishing old code (of which there is a lot) and bug fixes.
 
 The most salient ones are:
 
