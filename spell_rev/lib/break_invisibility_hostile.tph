@@ -1,6 +1,6 @@
 //Auxiliary functions.
 //Bit-twiddling.
-//Set ith bit (0-indexed) of byte at offset to 1.
+//Set ith bit (0-indexed, least-to-most significant order) of byte at offset to 1.
 DEFINE_PATCH_FUNCTION set_bit INT_VAR offset = 0 bit = 0 BEGIN
     PATCH_IF (0 <= bit) AND (bit <= 7) BEGIN
         WRITE_BYTE offset (THIS BOR (1 << bit))
@@ -9,7 +9,7 @@ DEFINE_PATCH_FUNCTION set_bit INT_VAR offset = 0 bit = 0 BEGIN
     END
 END
 
-//Set ith bit (0-indexed) of byte at offset to 0.
+//Set ith bit (0-indexed, least-to-most significant order) of byte at offset to 0.
 DEFINE_PATCH_FUNCTION clear_bit INT_VAR offset = 0 bit = 0 BEGIN
     PATCH_IF (0 <= bit) AND (bit <= 7) BEGIN
         WRITE_BYTE offset (THIS BAND (BNOT 1 << bit))
