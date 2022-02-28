@@ -31,15 +31,22 @@ DEFINE_PATCH_FUNCTION toggle_bit INT_VAR offset = 0 bit = 0 value = 0 - 1 BEGIN
 END
 
 //Set break invisible and hostile flags.
-DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
+DEFINE_ACTION_FUNCTION ee_handle_spell_flags BEGIN
     //Read no-write table.
-    COPY - ~spell_rev/lib/dv_spell_visibility_flags.2da~ ~override~
+    COPY - ~spell_rev/lib/dv_spell_flags.2da~ ~override~
         COUNT_2DA_COLS cols
-        READ_2DA_ENTRIES_NOW spell_visibility_flags cols
-        FOR (row = 0; row < spell_visibility_flags; ++row) BEGIN
-            READ_2DA_ENTRY_FORMER spell_visibility_flags row 0 spell
-            READ_2DA_ENTRY_FORMER spell_visibility_flags row 1 break_invisible
-            READ_2DA_ENTRY_FORMER spell_visibility_flags row 2 hostile
+        READ_2DA_ENTRIES_NOW spell_flags cols
+        FOR (row = 0; row < spell_flags; ++row) BEGIN
+            READ_2DA_ENTRY_FORMER spell_flags row 0 spell
+            READ_2DA_ENTRY_FORMER spell_flags row 1 break_invisible
+            READ_2DA_ENTRY_FORMER spell_flags row 2 hostile
+            READ_2DA_ENTRY_FORMER spell_flags row 3 outdoors_only
+            READ_2DA_ENTRY_FORMER spell_flags row 4 ignore_dead_zone
+            READ_2DA_ENTRY_FORMER spell_flags row 5 ignore_wild_surge
+            READ_2DA_ENTRY_FORMER spell_flags row 6 non_combat
+            READ_2DA_ENTRY_FORMER spell_flags row 7 target_invisible
+            READ_2DA_ENTRY_FORMER spell_flags row 8 cast_silenced
+
             //Check first spell is in spell.ids.
             spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
             PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
@@ -49,10 +56,16 @@ DEFINE_ACTION_FUNCTION ee_sanctuary_invisibility BEGIN
                         COPY_EXISTING ~%spell_res%.spl~ ~override~
                             LPF toggle_bit INT_VAR offset = 0x19 bit = 1 value = break_invisible END
                             LPF toggle_bit INT_VAR offset = 0x19 bit = 2 value = hostile END
+                            LPF toggle_bit INT_VAR offset = 0x19 bit = 5 value = outdoors_only END
+                            LPF toggle_bit INT_VAR offset = 0x19 bit = 6 value = ignore_dead_zone END
+                            LPF toggle_bit INT_VAR offset = 0x19 bit = 7 value = ignore_wild_surge END
+                            LPF toggle_bit INT_VAR offset = 0x1a bit = 0 value = non_combat END
+                            LPF toggle_bit INT_VAR offset = 0x1b bit = 0 value = target_invisible END
+                            LPF toggle_bit INT_VAR offset = 0x1b bit = 1 value = cast_silenced END
                         BUT_ONLY
                     END
                 END ELSE BEGIN
-                    PATCH_PRINT "Debug warn: ee_sanctuary_invisibility: spell '%spell%' not found in 'spell.ids'."
+                    PATCH_PRINT "Debug warning: ee_handle_spell_flags: spell '%spell%' not found in 'spell.ids'."
                 END
             END
         END
