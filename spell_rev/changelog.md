@@ -43,6 +43,7 @@ The most salient ones are:
 15. [Drop concentration checks](https://github.com/Gibberlings3/SpellRevisions/pull/81): the formula for concentration checks is bugged, so until Beamdog fixes it, reverting to vanilla behavior.
 16. [Berserk -> Feeblemind in Chaos](https://github.com/Gibberlings3/SpellRevisions/pull/87): The Berserk opcode does not work correctly on non-party members in old, non-EE BG versions, so it was decided to change the Chaos spells to inflict feeblemind instead.
 17. [Avenger Cone of Cold -> Confusion](https://github.com/Gibberlings3/SpellRevisions/pull/90): SR changes the level 4 Avenger spell from Chaos to Cone of Cold. There is something to be said about this choice, but it has its downsides, not the least confusing SCS (in fairness, in part because it was implemented as a straight override) so it was decided to switch back to a spell that is closer to the original Chaos.
+18. [Fix dvbanish](https://github.com/Gibberlings3/SpellRevisions/pull/92)
 
 ## Earlier versions.
 
