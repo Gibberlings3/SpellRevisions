@@ -14,3 +14,4 @@ setup-spell_rev.command
 spell_rev/backup/*
 spell_rev/debug/*
 !spell_rev/debug/debug.txt
+.DS_Store
