@@ -3236,16 +3236,21 @@ COPY ~spell_rev\spwi9##\scrl9y.itm~     ~override~
   SAY NAME2 @835    SAY IDENTIFIED_DESC   @836
 COPY ~spell_rev\spwi9##\spwi971.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwi971.spl~     ~override~
+  PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36185 END
 COPY ~spell_rev\spwi9##\spwi972.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwi972.spl~     ~override~
+  PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36183 END
 COPY ~spell_rev\spwi9##\spwi973.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwi973.spl~     ~override~
+  PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36177 END
 COPY ~spell_rev\spwi9##\spwi974.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwi974.spl~     ~override~
+  PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36175 END
 COPY ~spell_rev\spwi9##\spwi975.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwi975.spl~     ~override~
-  SAY NAME1 ~Shapechange Spirit Troll~
+  SAY NAME1 ~Shapechange: Spirit Troll~
 COPY ~spell_rev\spwi9##\spwi976.spl~     ~override~
+  PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36181 END
 COPY ~spell_rev\spwi9##\spwi976.itm~     ~override~
 
 COPY ~spell_rev\spwi9##\spwi917.spl~     ~override~  // Freedom
