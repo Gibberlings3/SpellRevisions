@@ -79,6 +79,7 @@ LANGUAGE ~Polish by dradiel (djc@poczta.fm)~
 
 BEGIN @9996
 DESIGNATED 0
+LABEL "dv-spell_rev-main"
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet iwdee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 // ToBEx
@@ -128,6 +129,7 @@ END
 
 BEGIN @9995
 DESIGNATED 10
+LABEL "dv-spell_rev-deva_planetar_animations"
 REQUIRE_PREDICATE (ENGINE_IS ~tob bgee bg2ee eet~) @8997 // ~This component requires Baldur's Gate II: Throne of Bhaal be installed.~
 
 INCLUDE ~spell_rev/components/celestials.tpa~
@@ -141,6 +143,7 @@ INCLUDE ~spell_rev/components/celestials.tpa~
 
 BEGIN @9992
 DESIGNATED 20
+LABEL "dv-spell_rev-mirror_image_fix"
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee iwdee~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 INCLUDE ~spell_rev/components/mirror_image_vs_aoe.tpa~
@@ -154,6 +157,7 @@ INCLUDE ~spell_rev/components/mirror_image_vs_aoe.tpa~
 
 BEGIN @9991
 DESIGNATED 30
+LABEL "dv-spell_rev-dispel_magic_fix"
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 
 INCLUDE ~spell_rev/components/dispellable_items.tpa~
@@ -205,8 +209,9 @@ DEPRECATED ~This feature is now included in the main component of the mod.~
 
 BEGIN ~Spell Deflection blocks AoE spells~
 DESIGNATED 55
-// removing 'bypassing MR' exploit and making spells affectable by spell protections
+LABEL "dv-spell_rev-nwn_style_spell_deflection"
 
+// removing 'bypassing MR' exploit and making spells affectable by spell protections
 INCLUDE ~spell_rev/components/nwn_spell_deflection.tpa~
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
@@ -218,6 +223,7 @@ INCLUDE ~spell_rev/components/nwn_spell_deflection.tpa~
 
 BEGIN @9989
 DESIGNATED 60
+LABEL "dv-spell_rev-update_npc_spellbooks"
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bgee bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
 
@@ -242,8 +248,8 @@ INCLUDE ~spell_rev/components/fix_arcane_spellbooks.tpa~
 /*--------Revised HLAs----------------*/
 BEGIN @10000
 DESIGNATED 65
+LABEL "dv-spell_rev-revised_hlas"
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 INCLUDE ~spell_rev/lib/kreso_hla.tph~
 
 PRINT @7998 // ~Done!~
-
