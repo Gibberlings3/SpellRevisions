@@ -167,44 +167,6 @@ INCLUDE ~spell_rev/components/dispellable_items.tpa~
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 
-/*------Cure Sleep Fix------*/
-
-BEGIN @9994
-DESIGNATED 40
-DEPRECATED ~This component has been deprecated~
-REQUIRE_PREDICATE (ENGINE_IS ~soa tob~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
-REQUIRE_COMPONENT ~setup-spell_rev.tp2~ 0 @8999 // ~This component requires that the main Spell Revisions component be installed.~
-
-COPY_EXISTING ~bgmain.exe~ ~bgmain.exe~
-  PATCH_FOR_EACH "of" IN 0x1035f4 0x10362c BEGIN
-    READ_BYTE "of" "val"
-    PATCH_IF ("val" = 0x2 || "val" = 0x27) THEN BEGIN
-      WRITE_BYTE "of" 0x27
-    END
-    ELSE BEGIN
-      INNER_ACTION BEGIN
-        FAIL @7997 // ~Couldn't find the right places to patch in your bgmain.exe~
-      END
-    END
-  END
-BUT_ONLY_IF_IT_CHANGES
-
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
-////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
-////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-
-/*------Remove Disabled Spells from Spell Selection Screens (Chargen, Sorcerer Level-Up)------*/
-
-BEGIN @9990
-DESIGNATED 50
-DEPRECATED ~This feature is now included in the main component of the mod.~
-
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
-////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
-////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-
 /*------NWN-style Spell Deflection------*/
 
 BEGIN ~Spell Deflection blocks AoE spells~
