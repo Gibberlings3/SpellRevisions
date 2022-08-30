@@ -45,6 +45,7 @@ The most salient ones are:
 17. [Avenger Cone of Cold -> Confusion](https://github.com/Gibberlings3/SpellRevisions/pull/90): SR changes the level 4 Avenger spell from Chaos to Cone of Cold. There is something to be said about this choice, but it has its downsides, not the least confusing SCS (in fairness, in part because it was implemented as a straight override) so it was decided to switch back to a spell that is closer to the original Chaos.
 18. [Fix dvbanish](https://github.com/Gibberlings3/SpellRevisions/pull/92)
 19. [French translation](https://github.com/Gibberlings3/SpellRevisions/pull/93): French translation files generously provided by mleduque.
+20. [LABEL components](https://github.com/Gibberlings3/SpellRevisions/pull/100): Add `LABEL` commands to every (non-deprecated) component.
 
 ## Earlier versions.
 
