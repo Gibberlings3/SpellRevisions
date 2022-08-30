@@ -48,6 +48,7 @@ The most salient ones are:
 20. [Fix Shapechange ability names in IWD](https://github.com/Gibberlings3/SpellRevisions/pull/96): Patch by gsz.
 21. [Sleep Fix](https://github.com/Gibberlings3/SpellRevisions/pull/97): Change waking condition from On-Hit to Took-Damage. Patch by subtledoctor.
 22. [Power level fix on Vitriolic Sphere](https://github.com/Gibberlings3/SpellRevisions/pull/98): Power Level on Vitriolic Sphere acid damage opcode -> 4. Patch by Bartimeus.
+23. [LABEL components](https://github.com/Gibberlings3/SpellRevisions/pull/100): Add `LABEL` commands to every (non-deprecated) component.
 
 ## Earlier versions.
 
