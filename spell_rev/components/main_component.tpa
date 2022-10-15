@@ -3248,7 +3248,7 @@ COPY ~spell_rev\spwi9##\spwi974.spl~     ~override~
   PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36175 END
 COPY ~spell_rev\spwi9##\spwi975.itm~     ~override~
 COPY ~spell_rev\spwi9##\spwi975.spl~     ~override~
-  SAY NAME1 ~Shapechange: Spirit Troll~
+  SAY NAME1 @21006
 COPY ~spell_rev\spwi9##\spwi976.spl~     ~override~
   PATCH_IF GAME_IS ~iwdee~ BEGIN SAY NAME1 #36181 END
 COPY ~spell_rev\spwi9##\spwi976.itm~     ~override~
