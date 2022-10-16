@@ -2,6 +2,9 @@ Spell Revisions aims to fix, tweak, and enhance arcane and divine spells in Bald
 
 The mod comes with documentation that you can find [here](./readme-spell_rev.html). Detailed lists of spells can be consulted [here](https://gibberlings3.github.io/SpellRevisions/).
 
+note(s):
+- The spell documentation, both the one shipped with the mod and the one in [GitHub](https://gibberlings3.github.io/SpellRevisions/), has *not* been updated to reflect the changes since the 4.18beta. The in-game documentation is of course, fully up dated.
+
 # A. Latest release.
 
 Latest release is 4.19rc1.
