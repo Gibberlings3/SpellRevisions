@@ -3545,9 +3545,14 @@ Special Abilities:
 @21003=~Haste Effect Removed~
 @21004=~Slow Effect Countered~
 @21005=~Petrification Effect Reverted~
+
+// Shapechange ability names.
 @21006=~Shapechange: Spirit Troll~
 @21007=~Shapechange: Earth Elemental~ // original iwdee @36185
 @21008=~Shapechange: Fire Elemental~ // original iwdee @36183
 @21009=~Shapechange: Iron Golem~ // original iwdee @36177
 @21010=~Shapechange: Mind Flayer~ // original iwdee @36175
 @21011=~Shapechange: Greater Wolfwere~ // original iwdee @36181
+
+// String for display opcodes.
+@22000 = ~Regenerating~

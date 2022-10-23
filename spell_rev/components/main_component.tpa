@@ -3597,5 +3597,8 @@ ACTION_IF (MOD_IS_INSTALLED ~item_rev.tp2~ ~0~) BEGIN
 
 END
 
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
-////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+// Last batch of fixes: patch opcode with correct strings.
+//
+// Depends only on the main copy block, so can be moved up in the main
+// component without problems.
+INCLUDE ~spell_rev/lib/fix_displayed_strings.tph~

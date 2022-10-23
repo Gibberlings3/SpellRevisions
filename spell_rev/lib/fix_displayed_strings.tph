@@ -1,0 +1,34 @@
+// Fixes borked opcode displayed strings.
+//
+// The fix is simple. Insert the correct string as a tra ref at, or near, the
+// end of arcane.tra and then patch the opcode to point to it.
+WITH_SCOPE BEGIN
+    DEFINE_ARRAY spells_to_patch BEGIN
+        "CLERIC_REGENERATE_LIGHT_WOUNDS"
+        "CLERIC_REGENERATE_MODERATE_WOUNDS"
+        "CLERIC_REGENERATE_SERIOUS_WOUNDS"
+        "CLERIC_REGENERATE_CRITICAL_WOUNDS"
+        "CLERIC_MASS_REGENERATE"
+        "CLERIC_REGENERATION_DRUID_VERSION"
+    END
+
+    ACTION_PHP_EACH spells_to_patch AS dummy => spell BEGIN
+        OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+        ACTION_IF (spell_nbr = 0 - 1) BEGIN
+            WARN "Warning: Spell %spell% not present in spell.ids. Doing nothing."
+        END ELSE BEGIN
+            LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+            OUTER_SET ref = RESOLVE_STR_REF ((AT 22000))    //'Regenerating'.
+            COPY_EXISTING ~%spell_res%.spl~ ~override~
+                PATCH_PRINT "Patching '%spell_res%' by patching in reference %ref% into opcode 139."
+                LPF ALTER_EFFECT INT_VAR
+                    check_globals = 0
+                    match_opcode = 139                      // Display string.
+                    match_parameter1 = 11006                // Oringinal string being borked.
+                    parameter1 = ref
+                    verbose = 1
+                END
+            BUT_ONLY
+        END
+    END
+END
