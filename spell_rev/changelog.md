@@ -45,9 +45,10 @@ The most salient ones are:
 17. [Avenger Cone of Cold -> Confusion](https://github.com/Gibberlings3/SpellRevisions/pull/90): SR changes the level 4 Avenger spell from Chaos to Cone of Cold. There is something to be said about this choice, but it has its downsides, not the least confusing SCS (in fairness, in part because it was implemented as a straight override) so it was decided to switch back to a spell that is closer to the original Chaos.
 18. [Fix dvbanish](https://github.com/Gibberlings3/SpellRevisions/pull/92)
 19. [French translation](https://github.com/Gibberlings3/SpellRevisions/pull/93): French translation files generously provided by mleduque.
-20. [Fix Shapechange ability names in IWD](https://github.com/Gibberlings3/SpellRevisions/pull/96): Patch by gsz.
+20. [Fix Shapechange ability names in IWD](https://github.com/Gibberlings3/SpellRevisions/pull/96): Patch by gsz. Then improved in [Extract spirit troll shapechange name and add FR translation](https://github.com/Gibberlings3/SpellRevisions/pull/105) by mleduque.
 21. [Power level fix on Vitriolic Sphere](https://github.com/Gibberlings3/SpellRevisions/pull/98): Power Level on Vitriolic Sphere acid damage opcode -> 4. Patch by Bartimeus.
 22. [LABEL components](https://github.com/Gibberlings3/SpellRevisions/pull/100): Add `LABEL` commands to every (non-deprecated) component.
+23. [Fix displayed strings in Regeneration spells](https://github.com/Gibberlings3/SpellRevisions/pull/107):
 
 ## Earlier versions.
 
