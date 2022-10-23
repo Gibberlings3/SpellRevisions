@@ -24,7 +24,7 @@ WITH_SCOPE BEGIN
                 LPF ALTER_EFFECT INT_VAR
                     check_globals = 0
                     match_opcode = 139                      // Display string.
-                    match_parameter1 = 11006                // Oringinal string being borked.
+                    match_parameter1 = 11006                // Original string being borked.
                     parameter1 = ref
                     verbose = 1
                 END
