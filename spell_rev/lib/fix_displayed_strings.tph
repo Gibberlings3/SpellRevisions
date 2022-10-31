@@ -1,0 +1,53 @@
+// Fixes borked opcode displayed strings.
+//
+// The fix is simple. Insert the correct string as a tra ref at, or near, the
+// end of arcane.tra and then patch the opcode to point to it. WeiDU should
+// pick up the already existing string without inserting a new one, but at any
+// this fixes mismatched string refs.
+
+//Patch a spell's 139 opcode string references.
+//
+// Argument(s):
+// - ref_to_change: the tlk string reference to change. -1 for changing unconditonally.
+// - traref: tra reference to patch in.
+DEFINE_ACTION_FUNCTION patch_display_strrefs INT_VAR ref_to_change = 0 - 1 traref = 0 STR_VAR spell = "" BEGIN
+    OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+    ACTION_IF (spell_nbr = 0 - 1) BEGIN
+        WARN "Warning: Spell %spell% not present in spell.ids. Doing nothing."
+    END ELSE BEGIN
+        LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET spell_res END
+        OUTER_SET ref = RESOLVE_STR_REF ((AT traref))
+        COPY_EXISTING ~%spell_res%.spl~ ~override~
+            LPF ALTER_EFFECT INT_VAR
+                check_globals = 0
+                match_opcode = 139                      // Display string.
+                match_parameter1 = ref_to_change        // Original string being borked.
+                parameter1 = ref
+                verbose = 1
+            END
+        BUT_ONLY
+    END
+END
+
+//Main loop function.
+DEFINE_ACTION_FUNCTION fix_displayed_strrefs BEGIN
+    //Read no-write table.
+    COPY - ~spell_rev/lib/dv_displayed_strings.2da~ ~override~
+        COUNT_2DA_COLS cols
+        READ_2DA_ENTRIES_NOW spell_strings cols
+        FOR (row = 0; row < spell_strings; ++row) BEGIN
+            READ_2DA_ENTRY_FORMER spell_strings row 0 spell
+            READ_2DA_ENTRY_FORMER spell_strings row 1 ref_to_change
+            READ_2DA_ENTRY_FORMER spell_strings row 2 traref
+
+            //Patch spell.
+            INNER_ACTION BEGIN
+                LAF patch_display_strrefs INT_VAR
+                    ref_to_change = ref_to_change
+                    traref = traref
+                STR_VAR
+                    spell = EVAL "%spell%"
+                END
+            END
+        END
+END
