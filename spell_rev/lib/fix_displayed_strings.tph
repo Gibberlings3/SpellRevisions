@@ -1,7 +1,9 @@
 // Fixes borked opcode displayed strings.
 //
 // The fix is simple. Insert the correct string as a tra ref at, or near, the
-// end of arcane.tra and then patch the opcode to point to it.
+// end of arcane.tra and then patch the opcode to point to it. WeiDU should
+// pick up the already existing string without inserting a new one, but at any
+// this fixes mismatched string refs.
 
 //Patch a spell's 139 opcode string references.
 //
