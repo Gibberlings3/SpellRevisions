@@ -41,7 +41,7 @@ DEFINE_ACTION_FUNCTION fix_displayed_strrefs BEGIN
             READ_2DA_ENTRY_FORMER spell_strings row 1 ref_to_change
             READ_2DA_ENTRY_FORMER spell_strings row 2 traref
 
-            PRINT "Processing %spell% with '%ref_to_change%' -> '%traref%'."
+            PATCH_PRINT "Processing %spell% with '%ref_to_change%' -> '%traref%'."
             //Patch spell.
             INNER_ACTION BEGIN
                 LAF patch_display_strrefs INT_VAR
