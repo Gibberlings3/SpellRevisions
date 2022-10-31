@@ -30,8 +30,10 @@ END
 
 //Main loop function.
 DEFINE_ACTION_FUNCTION fix_displayed_strrefs BEGIN
+    PRINT "Main loop entered."
     //Read no-write table.
     COPY - ~spell_rev/lib/dv_displayed_strings.2da~ ~override~
+        PATCH_PRINT "Table of spells to patch copied."
         COUNT_2DA_COLS cols
         READ_2DA_ENTRIES_NOW spell_strings cols
         FOR (row = 0; row < spell_strings; ++row) BEGIN
@@ -39,6 +41,7 @@ DEFINE_ACTION_FUNCTION fix_displayed_strrefs BEGIN
             READ_2DA_ENTRY_FORMER spell_strings row 1 ref_to_change
             READ_2DA_ENTRY_FORMER spell_strings row 2 traref
 
+            PRINT "Processing %spell% with '%ref_to_change%' -> '%traref%'."
             //Patch spell.
             INNER_ACTION BEGIN
                 LAF patch_display_strrefs INT_VAR
