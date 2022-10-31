@@ -8,7 +8,7 @@
 // Argument(s):
 // - ref_to_change: the tlk string reference to change. -1 for changing unconditonally.
 // - traref: tra reference to patch in.
-DEFINE_ACTION_FUNCTION patch_display_strrefs INT_VAR ref_to_change = -1 traref = 0 STR_VAR spell = "" BEGIN
+DEFINE_ACTION_FUNCTION patch_display_strrefs INT_VAR ref_to_change = 0 - 1 traref = 0 STR_VAR spell = "" BEGIN
     OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
     ACTION_IF (spell_nbr = 0 - 1) BEGIN
         WARN "Warning: Spell %spell% not present in spell.ids. Doing nothing."
