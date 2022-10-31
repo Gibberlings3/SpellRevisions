@@ -6,7 +6,7 @@
 //Patch a spell's 139 opcode string references.
 //
 // Argument(s):
-// - ref_to_change: the tlk string reference to change. -1 for change unconditonally.
+// - ref_to_change: the tlk string reference to change. -1 for changing unconditonally.
 // - traref: tra reference to patch in.
 DEFINE_ACTION_FUNCTION patch_display_strrefs INT_VAR ref_to_change = -1 traref = 0 STR_VAR spell = "" BEGIN
     OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
@@ -33,11 +33,11 @@ DEFINE_ACTION_FUNCTION fix_displayed_strrefs BEGIN
     //Read no-write table.
     COPY - ~spell_rev/lib/dv_displayed_strings.2da~ ~override~
         COUNT_2DA_COLS cols
-        READ_2DA_ENTRIES_NOW spell_flags cols
-        FOR (row = 0; row < spell_flags; ++row) BEGIN
-            READ_2DA_ENTRY_FORMER spell_flags row 0 spell
-            READ_2DA_ENTRY_FORMER spell_flags row 1 ref_to_change
-            READ_2DA_ENTRY_FORMER spell_flags row 2 traref
+        READ_2DA_ENTRIES_NOW spell_strings cols
+        FOR (row = 0; row < spell_strings; ++row) BEGIN
+            READ_2DA_ENTRY_FORMER spell_strings row 0 spell
+            READ_2DA_ENTRY_FORMER spell_strings row 1 ref_to_change
+            READ_2DA_ENTRY_FORMER spell_strings row 2 traref
 
             //Patch spell.
             LAF patch_display_strrefs INT_VAR
