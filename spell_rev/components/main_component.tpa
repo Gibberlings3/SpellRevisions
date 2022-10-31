@@ -3511,11 +3511,10 @@ INCLUDE ~spell_rev/lib/d5_spell_school_list.tpa~
 INCLUDE ~spell_rev/lib/d5_set_spell_schools.tpa~
 LAF set_spell_schools END
 
-/*------- EE BREAK INVISIBILITY/HOSTILE FLAGS -------*/
+// EE spell flags.
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
-  INCLUDE ~spell_rev/lib/handle_spell_flags.tph~
-  
-  LAF ee_handle_spell_flags END
+    INCLUDE ~spell_rev/lib/handle_spell_flags.tph~
+    LAF ee_handle_spell_flags END
 END
 
 /*------------ MODIFY IR STUFF ------------*/
@@ -3597,8 +3596,11 @@ ACTION_IF (MOD_IS_INSTALLED ~item_rev.tp2~ ~0~) BEGIN
 
 END
 
-// Last batch of fixes: patch Display Text [139] with correct strings.
+// Last batch of fixes: patch Display Text [139] with correct string refs.
 //
 // Depends only on the main copy block and having resource references resolved,
 // so can be moved up in the main component if needed.
-INCLUDE ~spell_rev/lib/fix_displayed_strings.tph~
+WITH_SCOPE BEGIN
+    INCLUDE ~spell_rev/lib/fix_displayed_strings.tph~
+    LAF fix_displayed_strrefs END
+END
