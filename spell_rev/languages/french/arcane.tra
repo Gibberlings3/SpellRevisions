@@ -3495,9 +3495,15 @@ Détecter les illusions : 50 %~
 @21003=~Effets de Hâte enlevés~
 @21004=~Effets de Lenteur contrés~
 @21005=~Effets de Pétrification inversés~
+
+// Shapechange ability names.
 @21006=~Métamorphose en troll fantôme~
 @21007=~Métamorphose en Élémental de terre~ // original iwdee @36185
 @21008=~Métamorphose en Élémental de feu~ // original iwdee @36183
 @21009=~Métamorphose en Golem de fer~ // original iwdee @36177
 @21010=~Métamorphose en Flagelleur mental~ // original iwdee @36175
 @21011=~Métamorphose en muloup majeur~ // original iwdee @36181 is WRONG loup-garou -> muloup
+
+// String for display opcodes: start at 21500.
+// 22000 already taken up in divine.tra. Sigh.
+@21500 = ~Régénération~ // bg1ee @25077
