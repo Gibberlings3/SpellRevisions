@@ -3600,6 +3600,5 @@ END
 //
 // Depends only on the main copy block and having resource references resolved,
 // so can be moved up in the main component if needed.
-PRINT "Fixing displayed strings in spells."
 INCLUDE ~spell_rev/lib/fix_displayed_strings.tph~
 LAF fix_displayed_strrefs END
