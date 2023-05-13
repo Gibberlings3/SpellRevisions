@@ -12,7 +12,7 @@ END
 //Set ith bit (0-indexed, least-to-most significant order) of byte at offset to 0.
 DEFINE_PATCH_FUNCTION clear_bit INT_VAR offset = 0 bit = 0 BEGIN
     PATCH_IF (0 <= bit) AND (bit <= 7) BEGIN
-        WRITE_BYTE offset (THIS BAND (BNOT 1 << bit))
+        WRITE_BYTE offset (THIS BAND (BNOT (1 << bit)))
     END ELSE BEGIN
         PATCH_FAIL "clear_bit: bit '%bit%' not between 0 and 7."
     END
