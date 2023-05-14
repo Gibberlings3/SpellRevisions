@@ -11,7 +11,7 @@ Latest release is 4.19rc1.
 
 From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip.
 
-Note that it is a *source release*; it just bundles the files in the GitHub repository in an archive and does not have an executable weidu, so for installation you will need the command line -- see section below. It is slightly more inconvenient for users than the standard release, but it allows for faster and more timely releases.
+Note that it is a *source release*; it just bundles the files in the GitHub repository in an archive and does not have any executables, so for the installation you will need the command line -- see section below. It is slightly more inconvenient for users than the standard release, but it allows for faster and more timely releases.
 
 # B. Installation.
 
