@@ -15,7 +15,7 @@ Note that it is a *source release*; it just bundles the files in the GitHub repo
 
 # B. Installation.
 
-Installation is like any other WeiDU mod. Assuming you have WeiDU [^1] installed and on the executable path [^2], just download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [^3] `spell_rev` to your Baldur's Gate install directory. Then open a command line, change directory to the BG installation dir and do
+Installation is like any other WeiDU mod -- see [A New Player’s Guide to Installing and Playing Mods](https://www.gibberlings3.net/forums/topic/33164-a-new-player%E2%80%99s-guide-to-installing-and-playing-mods/). Assuming you have WeiDU [^1] installed and on the executable path [^2], just download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [^3] `spell_rev` to your Baldur's Gate install directory. Then open a command line, change directory to the BG installation dir and do
 
 ```
 weinstall spell_rev
