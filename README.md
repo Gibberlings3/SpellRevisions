@@ -9,11 +9,13 @@ note(s):
 
 Latest release is 4.19rc1.
 
-It is a *source release*; it just bundles the files in the GitHub repository in an archive. It is slightly more inconvenient for users than the standard release, but it allows for faster and more timely releases.
+From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip.
+
+Note that it is a *source release*; it just bundles the files in the GitHub repository in an archive and does not have any executables, so for the installation you will need the command line -- see section below. It is slightly more inconvenient for users than the standard release, but it allows for faster and more timely releases.
 
 # B. Installation.
 
-Installation is like any other WeiDU mod. Download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [1^] `spell_rev` to your Baldur's Gate install directory. Then do
+Installation is like any other WeiDU mod. Assuming you have WeiDU [^1] installed and on the executable path [^2], just download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [^3] `spell_rev` to your Baldur's Gate install directory. Then open a command line, change directory to the BG installation dir and do
 
 ```
 weinstall spell_rev
@@ -21,7 +23,9 @@ weinstall spell_rev
 
 and install the components you want.
 
-[1^] for a source release, the top folder is *not* what one wants, rather it is the `spell_rev` subfolder.
+[^1] latest version can be grabbed from [here](https://github.com/WeiDUorg/weidu/releases).
+[^2] precise details depend on the platform.
+[^3] for a source release, the top folder is *not* what one wants, rather it is the `spell_rev` subfolder.
 
 # C. Mod order.
 
