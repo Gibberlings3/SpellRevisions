@@ -49,6 +49,7 @@ The most salient ones are:
 21. [Power level fix on Vitriolic Sphere](https://github.com/Gibberlings3/SpellRevisions/pull/98): Power Level on Vitriolic Sphere acid damage opcode -> 4. Patch by Bartimeus.
 22. [LABEL components](https://github.com/Gibberlings3/SpellRevisions/pull/100): Add `LABEL` commands to every (non-deprecated) component.
 23. [Fix displayed strings in spells](https://github.com/Gibberlings3/SpellRevisions/pull/107):
+24. [Fixes to Elemental Prince HLA](https://github.com/Gibberlings3/SpellRevisions/pull/114):
 
 ## Earlier versions.
 
