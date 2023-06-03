@@ -45,7 +45,7 @@ DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" 
     END
 END
 
-
+//Read table into array.
 DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
     //Sanitize column.
     ACTION_IF NOT (("%column%" STRING_EQUAL_CASE "ee") OR ("%column%" STRING_EQUAL_CASE "iwd")) BEGIN
@@ -79,6 +79,7 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
         END
 END
 
+//The main function.
 DEFINE_ACTION_FUNCTION hide_spells BEGIN
     ACTION_IF GAME_IS ~tob~ BEGIN
         //Straight-up override in tob games.
