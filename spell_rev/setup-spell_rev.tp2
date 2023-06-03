@@ -111,6 +111,7 @@ END
 
 // Remove Disabled Spells from Spell Selection Screens (Chargen, Sorcerer Level-Up)
 INCLUDE ~spell_rev/lib/hidespl_patching.tph~
+LAF hide_spells END
 
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
