@@ -10,14 +10,14 @@
 
 
 //Utilities.
-DEFINE_DIMORPHIC_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
-    OUTER_TEXT_SPRINT resource "*"
+DEFINE_PATCH_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
+    TEXT_SPRINT resource "*"
     
     //Protect against garbage.
-    OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
-    ACTION_IF NOT (spell_nbr = 0 - 1) BEGIN
+    spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+    PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
         //Get resource name.
-        LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = "%spell%" RET resource = spell_res END
+        LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = "%spell%" RET resource = spell_res END
     END
 END
 
