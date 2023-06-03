@@ -8,6 +8,44 @@
 //   COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
 // END
 
+
+//Utilities.
+DEFINE_DIMORPHIC_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
+    OUTER_TEXT_SPRINT resource "*"
+    
+    //Protect against garbage.
+    OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+    ACTION_IF NOT (spell_nbr = 0 - 1) BEGIN
+        //Get resource name.
+        LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = "%spell%" RET resource = spell_res END
+    END
+END
+
+DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" RET index BEGIN
+    //Sanity bounds check.
+    COUNT_2DA_COLS cols
+    PATCH_IF NOT ((0 <= col) AND (col <= cols)) BEGIN
+        PATCH_FAIL "find_first_row: column index '%col%' out of bounds."
+    END
+
+    COUNT_2DA_ROWS cols rows
+    //Sanitize start.
+    PATCH_IF NOT ((0 <= start) AND (start < rows)) BEGIN
+        PATCH_FAIL "find_first_row: argument start: '%start%' out of bounds."
+    END
+
+    //Read table.
+    index = 0 - 1
+    FOR (i = start ; (i < rows) AND (index < 0) ; ++i) BEGIN
+        READ_2DA_ENTRY i col cols value
+        PATCH_IF ("%key%" STRING_EQUAL_CASE "%value%") BEGIN
+            //Set index => break out of the loop.
+            index = i
+        END
+    END
+END
+
+
 DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
     //Sanitize column.
     ACTION_IF NOT (("%column%" STRING_EQUAL_CASE "ee") OR ("%column%" STRING_EQUAL_CASE "iwd")) BEGIN
@@ -42,4 +80,45 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
 END
 
 DEFINE_ACTION_FUNCTION hide_spells BEGIN
+    ACTION_IF GAME_IS ~tob~ BEGIN
+        //Straight-up override in tob games.
+        COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
+    END ELSE BEGIN
+        //Read table.
+        ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+            LAF get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells END
+        END ELSE BEGIN
+            ACTION_IF GAME_IS ~iwdee~ BEGIN
+                LAF get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells END
+            END ELSE BEGIN
+                WARN "hide_spells: unhandled case; no patching will be done."
+            END
+        END
+
+        //Patch table.
+        COPY_EXISTING ~hidespl.2da~ ~override~
+            COUNT_2DA_COLS cols
+            PATCH_IF NOT (cols = 4) BEGIN
+                //Sanitize columns value.
+                PATCH_FAIL "hide_spells: unexpected number of columns '%cols%'."
+            END
+
+            PHP_EACH spells AS spell => flag BEGIN
+                PATCH_IF (flag = 1) BEGIN
+                    //Fetch resource name.
+                    LPF get_spell_res STR_VAR spell = "%spell%" RET res_name = resource END
+                    //Check if it is already in table.
+                    LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
+                    PATCH_IF index = 0 - 1 BEGIN
+                        SET_2DA_ENTRY row 1 cols 1
+                    END ELSE BEGIN
+                        //Append row.
+                        COUNT_2DA_ROWS cols rows
+                        INSERT_2DA_ROW rows cols "%res_name% 1 0 0"
+                    END
+                END
+            END
+        PRETTY_PRINT_2DA
+        BUT_ONLY
+    END
 END
