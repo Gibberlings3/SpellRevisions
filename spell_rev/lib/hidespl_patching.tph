@@ -1,9 +1,45 @@
-ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
-  COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
+// ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
+//   COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
+// END
+// ELSE ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+//   COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
+// END
+// ELSE ACTION_IF GAME_IS ~iwdee~ BEGIN
+//   COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
+// END
+
+DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
+    //Sanitize column.
+    ACTION_IF NOT (("%column%" STRING_EQUAL_CASE "ee") OR ("%column%" STRING_EQUAL_CASE "iwd")) BEGIN
+        FAIL "get_spells_hide_array: column '%column%' must be either 'ee' or 'iwd'."
+    END
+
+    ACTION_DEFINE_ASSOCIATIVE_ARRAY spells BEGIN END
+
+    //Read table of spells to patch.
+    COPY - ~%MOD_FOLDER%/lib/hidespl_patch.2da~ ~override~
+        COUNT_2DA_COLS cols
+        //Sanitize number of columns.
+        PATCH_IF NOT (cols = 4) BEGIN
+            PATCH_FAIL "get_spells_hide_array: table has '%cols%' columns, should be 4."
+        END
+
+        //Loop through table.
+        READ_2DA_ENTRIES_NOW "spells_hide#table" cols
+        FOR (i = 0; i < spells_hide#table; ++i) BEGIN
+            //Gather data.
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 0 spell
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 0 resource
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 0 ee
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 0 iwd
+
+            PATCH_IF ("%column%" STRING_EQUAL_CASE "ee") BEGIN
+                TEXT_SPRINT $spells("%spell%") "%ee%"
+            END ELSE BEGIN
+                TEXT_SPRINT $spells("%spell%") "%iwd%"
+            END
+        END
 END
-ELSE ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
-  COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
-END
-ELSE ACTION_IF GAME_IS ~iwdee~ BEGIN
-  COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
+
+DEFINE_ACTION_FUNCTION hide_spells BEGIN
 END
