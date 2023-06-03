@@ -1,0 +1,9 @@
+ACTION_IF FILE_EXISTS ~tobex_ini/tobexcore.ini~ BEGIN
+  COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
+END
+ELSE ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+  COPY ~spell_rev/shared/hidespl_bgee.2da~ ~override/hidespl.2da~
+END
+ELSE ACTION_IF GAME_IS ~iwdee~ BEGIN
+  COPY ~spell_rev/shared/hidespl_iwdee.2da~ ~override/hidespl.2da~
+END
