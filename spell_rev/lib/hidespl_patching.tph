@@ -98,7 +98,7 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
                 spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
                 PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
                     //Get resource name.
-                    LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET resource = spell_res END
+                    LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET res_name = spell_res END
                 END ELSE BEGIN
                     PATCH_WARN "hide_spells: resource name for spell '%spell%' not found."
                 END
