@@ -110,7 +110,7 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
                     LPF get_spell_res STR_VAR spell = "%spell%" RET res_name = resource END
                     //Check if it is already in table.
                     LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
-                    PATCH_IF row = 0 - 1 BEGIN
+                    PATCH_IF NOT (row = 0 - 1) BEGIN
                         SET_2DA_ENTRY row 1 cols 1
                     END ELSE BEGIN
                         //Append row.
