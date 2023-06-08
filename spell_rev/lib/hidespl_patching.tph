@@ -109,16 +109,17 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
                     //Fetch resource name and sanitize it.
                     LPF get_spell_res STR_VAR spell = "%spell%" RET res_name = resource END
                     PATCH_IF ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
-                        PATCH_PRINT "hide_spells: resource name for spell '%spell%' not found."
-                    END
-                    //Check if it is already in table.
-                    LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
-                    PATCH_IF NOT (row = 0 - 1) BEGIN
-                        SET_2DA_ENTRY row 1 cols 1
+                        PATCH_WARN "hide_spells: resource name for spell '%spell%' not found."
                     END ELSE BEGIN
-                        //Append row.
-                        COUNT_2DA_ROWS cols rows
-                        INSERT_2DA_ROW rows cols "%res_name% 1 0 0"
+                        //Check if it is already in table.
+                        LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
+                        PATCH_IF NOT (row = 0 - 1) BEGIN
+                            SET_2DA_ENTRY row 1 cols 1
+                        END ELSE BEGIN
+                            //Append row.
+                            COUNT_2DA_ROWS cols rows
+                            INSERT_2DA_ROW rows cols "%res_name% 1 0 0"
+                        END
                     END
                 END
             END
