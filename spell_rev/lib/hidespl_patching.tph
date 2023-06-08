@@ -86,11 +86,11 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
         COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
     END ELSE BEGIN
         //Read table.
-        ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+        ACTION_IF GAME_IS "bgee bg2ee eet" BEGIN
             LAF get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells END
         END ELSE BEGIN
-            ACTION_IF GAME_IS ~iwdee~ BEGIN
-                LAF get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells END
+            ACTION_IF GAME_IS "iwdee" BEGIN
+                LAF get_spells_hide_array STR_VAR column = "iwd" RET_ARRAY spells END
             END ELSE BEGIN
                 WARN "hide_spells: unhandled case; no patching will be done."
             END
@@ -106,8 +106,11 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
 
             PHP_EACH spells AS spell => flag BEGIN
                 PATCH_IF (flag = 1) BEGIN
-                    //Fetch resource name.
+                    //Fetch resource name and sanitize it.
                     LPF get_spell_res STR_VAR spell = "%spell%" RET res_name = resource END
+                    PATCH_IF ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
+                        PATCH_PRINT "hide_spells: resource name for spell '%spell%' not found."
+                    END
                     //Check if it is already in table.
                     LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
                     PATCH_IF NOT (row = 0 - 1) BEGIN
