@@ -106,9 +106,10 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
 
             PHP_EACH spells AS spell => flag BEGIN
                 PATCH_IF (flag = 1) BEGIN
-                    //Fetch resource name and sanitize it.
+                    //Fetch resource name.
                     LPF get_spell_res STR_VAR spell = "%spell%" RET res_name = resource END
                     PATCH_IF ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
+                        //Sanitize and do nothing.
                         PATCH_WARN "hide_spells: resource name for spell '%spell%' not found."
                     END ELSE BEGIN
                         //Check if it is already in table.
