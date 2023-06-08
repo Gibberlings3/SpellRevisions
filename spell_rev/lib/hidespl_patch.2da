@@ -5,7 +5,6 @@
 WIZARD_DETECT_EVIL_DEPRECATED               spwi202     1   1
 WIZARD_PROTECTION_FROM_FIRE                 spwi319     1   1
 WIZARD_PROTECTION_FROM_COLD                 spwi320     1   1
-WIZARD_ICELANCE                             *           0   1
 WIZARD_TRUE_DISPEL_MAGIC                    spwi326     1   1
 WIZARD_DIMENSION_DOOR_DEPRECATED            spwi402     1   1
 WIZARD_FIRE_SHIELD_BLUE                     spwi403     1   1
