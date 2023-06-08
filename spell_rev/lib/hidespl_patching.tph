@@ -10,17 +10,6 @@
 
 
 //Utilities.
-DEFINE_PATCH_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
-    TEXT_SPRINT resource "*"
-    
-    //Protect against garbage.
-    spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
-    PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
-        //Get resource name.
-        LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = "%spell%" RET resource = spell_res END
-    END
-END
-
 DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" RET index BEGIN
     //Sanity bounds check.
     COUNT_2DA_COLS cols
@@ -105,23 +94,23 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
             END
 
             PHP_EACH spells AS spell => flag BEGIN
-                PATCH_IF (flag = 1) BEGIN
-                    //Fetch resource name.
-                    LPF get_spell_res STR_VAR spell = "%spell%" RET res_name = resource END
-                    PATCH_IF ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
-                        //Sanitize and do nothing.
-                        PATCH_WARN "hide_spells: resource name for spell '%spell%' not found."
-                    END ELSE BEGIN
-                        //Check if it is already in table.
-                        LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
-                        PATCH_IF NOT (row = 0 - 1) BEGIN
-                            SET_2DA_ENTRY row 1 cols 1
-                        END ELSE BEGIN
-                            //Append row.
-                            COUNT_2DA_ROWS cols rows
-                            INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
-                        END
-                    END
+                //Fetch resource name.
+                spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+                PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
+                    //Get resource name.
+                    LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET resource = spell_res END
+                END ELSE BEGIN
+                    PATCH_WARN "hide_spells: resource name for spell '%spell%' not found."
+                END
+
+                //Check if it is already in table.
+                LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
+                PATCH_IF NOT (row = 0 - 1) BEGIN
+                    SET_2DA_ENTRY row 1 cols 1
+                END ELSE BEGIN
+                    //Append row.
+                    COUNT_2DA_ROWS cols rows
+                    INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
                 END
             END
         PRETTY_PRINT_2DA
