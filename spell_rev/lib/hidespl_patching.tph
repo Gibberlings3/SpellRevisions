@@ -85,8 +85,8 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
                 //Get resource name. EVAL needed because weidu.
                 LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET res_name = spell_res END
 
-                //Check if it is already in table.
-                LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
+                //Check if it is already in table. EVAL needed because weidu.
+                LPF find_first_row STR_VAR key = EVAL "%res_name%" RET row = index END
                 PATCH_IF NOT (row = 0 - 1) BEGIN
                     SET_2DA_ENTRY row 1 cols 1
                 END ELSE BEGIN
