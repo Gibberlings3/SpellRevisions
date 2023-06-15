@@ -26,8 +26,12 @@ END
 //Read table into array.
 DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
     //Sanitize column.
-    ACTION_IF NOT (("%column%" STRING_EQUAL_CASE "ee") OR ("%column%" STRING_EQUAL_CASE "iwd")) BEGIN
-        FAIL "get_spells_hide_array: column '%column%' must be either 'ee' or 'iwd'."
+    ACTION_IF NOT (
+        ("%column%" STRING_EQUAL_CASE "ee") OR
+        ("%column%" STRING_EQUAL_CASE "iwd") OR
+        ("%column%" STRING_EQUAL_CASE "tobex")
+    ) BEGIN
+        FAIL "get_spells_hide_array: column '%column%' must be 'ee', 'iwd' or 'tobex'."
     END
 
     ACTION_DEFINE_ASSOCIATIVE_ARRAY spells BEGIN END
@@ -36,8 +40,8 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
     COPY - ~%MOD_FOLDER%/lib/hidespl_patch.2da~ ~override~
         COUNT_2DA_COLS cols
         //Sanitize number of columns.
-        PATCH_IF NOT (cols = 4) BEGIN
-            PATCH_FAIL "get_spells_hide_array: table has '%cols%' columns, should be 4."
+        PATCH_IF NOT (cols = 5) BEGIN
+            PATCH_FAIL "get_spells_hide_array: table has '%cols%' columns, should be 5."
         END
 
         //Loop through table.
@@ -48,11 +52,16 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 1 resource
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 2 ee
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 iwd
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 4 tobex
 
             PATCH_IF ("%column%" STRING_EQUAL_CASE "ee") BEGIN
                 TEXT_SPRINT $spells("%spell%") "%ee%"
             END ELSE BEGIN
-                TEXT_SPRINT $spells("%spell%") "%iwd%"
+                PATCH_IF ("%column%" STRING_EQUAL_CASE "iwdee") BEGIN
+                    TEXT_SPRINT $spells("%spell%") "%iwd%"
+                END ELSE BEGIN
+                    TEXT_SPRINT $spells("%spell%") "%tobex%"
+                END
             END
         END
 END
@@ -82,7 +91,11 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
                 END ELSE BEGIN
                     //Append row.
                     COUNT_2DA_ROWS cols rows
-                    INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
+                    PATCH_IF ("%engine%" STRING_EQUAL_CASE "tobex") BEGIN
+                        INSERT_2DA_ROW rows cols "%res_name% %flag%"
+                    END ELSE BEGIN
+                        INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
+                    END
                 END
             END ELSE BEGIN
                 PATCH_WARN "hide_spells_from_array: resource name for spell '%spell%' not found."
@@ -103,7 +116,11 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
         ACTION_IF GAME_IS "iwdee" BEGIN
             OUTER_TEXT_SPRINT engine "iwdee"
         END ELSE BEGIN
-            WARN "hide_spells: unhandled case; no patching will be done."
+            ACTION_IF GAME_IS "tobex" BEGIN
+                OUTER_TEXT_SPRINT engine "tobex"
+            END ELSE BEGIN
+                WARN "hide_spells: unhandled case; no patching will be done."
+            END
         END
     END
 
