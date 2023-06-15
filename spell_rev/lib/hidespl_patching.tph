@@ -54,12 +54,18 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 tobex
 
             PATCH_IF ("%column%" STRING_EQUAL_CASE "ee") BEGIN
-                TEXT_SPRINT $spells("%spell%") "%ee%"
+                PATCH_IF NOT ("%ee%" STRING_EQUAL_CASE "*") BEGIN
+                    TEXT_SPRINT $spells("%spell%") "%ee%"
+                END
             END ELSE BEGIN
                 PATCH_IF ("%column%" STRING_EQUAL_CASE "iwdee") BEGIN
-                    TEXT_SPRINT $spells("%spell%") "%iwd%"
+                    PATCH_IF NOT ("%iwd%" STRING_EQUAL_CASE "*") BEGIN
+                        TEXT_SPRINT $spells("%spell%") "%iwd%"
+                    END
                 END ELSE BEGIN
-                    TEXT_SPRINT $spells("%spell%") "%tobex%"
+                    PATCH_IF NOT ("%tobex%" STRING_EQUAL_CASE "*") BEGIN
+                        TEXT_SPRINT $spells("%spell%") "%tobex%"
+                    END
                 END
             END
         END
