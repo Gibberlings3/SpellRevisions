@@ -40,8 +40,8 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
     COPY - ~%MOD_FOLDER%/lib/hidespl_patch.2da~ ~override~
         COUNT_2DA_COLS cols
         //Sanitize number of columns.
-        PATCH_IF NOT (cols = 5) BEGIN
-            PATCH_FAIL "get_spells_hide_array: table has '%cols%' columns, should be 5."
+        PATCH_IF NOT (cols = 4) BEGIN
+            PATCH_FAIL "get_spells_hide_array: table has '%cols%' columns, should be 4."
         END
 
         //Loop through table.
@@ -49,10 +49,9 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
         FOR (i = 0; i < spells_hide#table; ++i) BEGIN
             //Gather data.
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 0 spell
-            READ_2DA_ENTRY_FORMER "spells_hide#table" i 1 resource
-            READ_2DA_ENTRY_FORMER "spells_hide#table" i 2 ee
-            READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 iwd
-            READ_2DA_ENTRY_FORMER "spells_hide#table" i 4 tobex
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 1 ee
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 2 iwd
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 tobex
 
             PATCH_IF ("%column%" STRING_EQUAL_CASE "ee") BEGIN
                 TEXT_SPRINT $spells("%spell%") "%ee%"
