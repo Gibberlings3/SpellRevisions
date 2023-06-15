@@ -57,52 +57,57 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
         END
 END
 
-//The main function.
-DEFINE_ACTION_FUNCTION hide_spells BEGIN
-    ACTION_IF GAME_IS ~tob~ BEGIN
-        //Straight-up override in tob games.
-        COPY ~spell_rev/shared/hidespl_tobex.2da~ ~override/hidespl.2da~
-    END ELSE BEGIN
-        //Read table.
-        ACTION_IF GAME_IS "bgee bg2ee eet" BEGIN
-            LAF get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells END
-        END ELSE BEGIN
-            ACTION_IF GAME_IS "iwdee" BEGIN
-                LAF get_spells_hide_array STR_VAR column = "iwd" RET_ARRAY spells END
-            END ELSE BEGIN
-                WARN "hide_spells: unhandled case; no patching will be done."
-            END
+DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
+    LAF get_spells_hide_array STR_VAR column = "%engine%" RET_ARRAY spells END
+
+    //Patch table.
+    COPY_EXISTING ~hidespl.2da~ ~override~
+        COUNT_2DA_COLS cols
+        PATCH_IF NOT ((2 <= cols) AND (cols <= 4)) BEGIN
+            //Sanitize columns value. tobex has 2 columns, others have 4.
+            PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%'."
         END
 
-        //Patch table.
-        COPY_EXISTING ~hidespl.2da~ ~override~
-            COUNT_2DA_COLS cols
-            PATCH_IF NOT (cols = 4) BEGIN
-                //Sanitize columns value.
-                PATCH_FAIL "hide_spells: unexpected number of columns '%cols%'."
-            END
+        PHP_EACH spells AS spell => flag BEGIN
+            //Fetch resource name.
+            spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+            PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
+                //Get resource name. EVAL needed because weidu.
+                LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET res_name = spell_res END
 
-            PHP_EACH spells AS spell => flag BEGIN
-                //Fetch resource name.
-                spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
-                PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
-                    //Get resource name.
-                    LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET res_name = spell_res END
-
-                    //Check if it is already in table.
-                    LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
-                    PATCH_IF NOT (row = 0 - 1) BEGIN
-                        SET_2DA_ENTRY row 1 cols 1
-                    END ELSE BEGIN
-                        //Append row.
-                        COUNT_2DA_ROWS cols rows
-                        INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
-                    END
+                //Check if it is already in table.
+                LPF find_first_row STR_VAR key = "%res_name%" RET row = index END
+                PATCH_IF NOT (row = 0 - 1) BEGIN
+                    SET_2DA_ENTRY row 1 cols 1
                 END ELSE BEGIN
-                    PATCH_WARN "hide_spells: resource name for spell '%spell%' not found."
+                    //Append row.
+                    COUNT_2DA_ROWS cols rows
+                    INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
                 END
+            END ELSE BEGIN
+                PATCH_WARN "hide_spells_from_array: resource name for spell '%spell%' not found."
             END
-        PRETTY_PRINT_2DA
-        BUT_ONLY
+        END
+    PRETTY_PRINT_2DA
+    BUT_ONLY
+END
+
+//The main function.
+DEFINE_ACTION_FUNCTION hide_spells BEGIN
+    OUTER_TEXT_SPRINT engine "*"
+
+    //Determine engine.
+    ACTION_IF GAME_IS "bgee bg2ee eet" BEGIN
+        OUTER_TEXT_SPRINT engine "ee"
+    END ELSE BEGIN
+        ACTION_IF GAME_IS "iwdee" BEGIN
+            OUTER_TEXT_SPRINT engine "iwdee"
+        END ELSE BEGIN
+            WARN "hide_spells: unhandled case; no patching will be done."
+        END
+    END
+
+    ACTION_IF NOT ("%engine%" STRING_EQUAL_CASE "*") BEGIN
+        LAF hide_spells_from_array STR_VAR engine = "%engine%" END
     END
 END
