@@ -88,7 +88,7 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
                 //Check if it is already in table. EVAL needed because weidu.
                 LPF find_first_row STR_VAR key = EVAL "%res_name%" RET row = index END
                 PATCH_IF NOT (row = 0 - 1) BEGIN
-                    SET_2DA_ENTRY row 1 cols 1
+                    SET_2DA_ENTRY row 1 cols flag
                 END ELSE BEGIN
                     //Append row.
                     COUNT_2DA_ROWS cols rows
