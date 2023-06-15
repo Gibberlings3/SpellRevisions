@@ -67,7 +67,8 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
 END
 
 DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
-    LAF get_spells_hide_array STR_VAR column = "%engine%" RET_ARRAY spells END
+    //EVAL needed because weidu.
+    LAF get_spells_hide_array STR_VAR column = EVAL "%engine%" RET_ARRAY spells END
 
     //Patch table.
     COPY_EXISTING ~hidespl.2da~ ~override~
@@ -125,6 +126,7 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
     END
 
     ACTION_IF NOT ("%engine%" STRING_EQUAL_CASE "*") BEGIN
-        LAF hide_spells_from_array STR_VAR engine = "%engine%" END
+        //EVAL needed because weidu.
+        LAF hide_spells_from_array STR_VAR engine = EVAL "%engine%" END
     END
 END
