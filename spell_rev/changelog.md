@@ -50,6 +50,8 @@ The most salient ones are:
 22. [LABEL components](https://github.com/Gibberlings3/SpellRevisions/pull/100): Add `LABEL` commands to every (non-deprecated) component.
 23. [Fix displayed strings in spells](https://github.com/Gibberlings3/SpellRevisions/pull/107):
 24. [Fixes to Elemental Prince HLA](https://github.com/Gibberlings3/SpellRevisions/pull/114):
+25. [Missing projectile in Avenger's chromatic orb](https://github.com/Gibberlings3/SpellRevisions/pull/117): patch by mercurier.
+26. [Patching hidespl.2da instead of overriding](https://github.com/Gibberlings3/SpellRevisions/pull/116): as the name says; instead of overwriting `hidespl.2da` tables, patch them.
 
 ## Earlier versions.
 
