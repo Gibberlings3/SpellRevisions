@@ -1,0 +1,137 @@
+//Utilities.
+DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" RET index BEGIN
+    //Sanity bounds check.
+    COUNT_2DA_COLS cols
+    PATCH_IF NOT ((0 <= col) AND (col <= cols)) BEGIN
+        PATCH_FAIL "find_first_row: column index '%col%' out of bounds."
+    END
+
+    COUNT_2DA_ROWS cols rows
+    //Sanitize start.
+    PATCH_IF NOT ((0 <= start) AND (start < rows)) BEGIN
+        PATCH_FAIL "find_first_row: argument start: '%start%' out of bounds."
+    END
+
+    //Read table.
+    index = 0 - 1
+    FOR (i = start ; (i < rows) AND (index < 0) ; ++i) BEGIN
+        READ_2DA_ENTRY i col cols value
+        PATCH_IF ("%key%" STRING_EQUAL_CASE "%value%") BEGIN
+            //Set index => break out of the loop.
+            index = i
+        END
+    END
+END
+
+//Read table into array.
+DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
+    //Sanitize column.
+    ACTION_IF NOT (
+        ("%column%" STRING_EQUAL_CASE "ee") OR
+        ("%column%" STRING_EQUAL_CASE "iwd") OR
+        ("%column%" STRING_EQUAL_CASE "tobex")
+    ) BEGIN
+        FAIL "get_spells_hide_array: column '%column%' must be 'ee', 'iwd' or 'tobex'."
+    END
+
+    ACTION_DEFINE_ASSOCIATIVE_ARRAY spells BEGIN END
+
+    //Read table of spells to patch.
+    COPY - ~%MOD_FOLDER%/lib/hidespl_patch.2da~ ~override~
+        COUNT_2DA_COLS cols
+        //Sanitize number of columns.
+        PATCH_IF NOT (cols = 4) BEGIN
+            PATCH_FAIL "get_spells_hide_array: table has '%cols%' columns, should be 4."
+        END
+
+        //Loop through table.
+        READ_2DA_ENTRIES_NOW "spells_hide#table" cols
+        FOR (i = 0; i < spells_hide#table; ++i) BEGIN
+            //Gather data.
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 0 spell
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 1 ee
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 2 iwd
+            READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 tobex
+
+            PATCH_IF ("%column%" STRING_EQUAL_CASE "ee") BEGIN
+                PATCH_IF NOT ("%ee%" STRING_EQUAL_CASE "*") BEGIN
+                    TEXT_SPRINT $spells("%spell%") "%ee%"
+                END
+            END ELSE BEGIN
+                PATCH_IF ("%column%" STRING_EQUAL_CASE "iwdee") BEGIN
+                    PATCH_IF NOT ("%iwd%" STRING_EQUAL_CASE "*") BEGIN
+                        TEXT_SPRINT $spells("%spell%") "%iwd%"
+                    END
+                END ELSE BEGIN
+                    PATCH_IF NOT ("%tobex%" STRING_EQUAL_CASE "*") BEGIN
+                        TEXT_SPRINT $spells("%spell%") "%tobex%"
+                    END
+                END
+            END
+        END
+END
+
+DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
+    //EVAL needed because weidu.
+    LAF get_spells_hide_array STR_VAR column = EVAL "%engine%" RET_ARRAY spells END
+
+    //Patch table.
+    COPY_EXISTING ~hidespl.2da~ ~override~
+        COUNT_2DA_COLS cols
+        PATCH_IF NOT ((2 <= cols) AND (cols <= 4)) BEGIN
+            //Sanitize columns value. tobex has 2 columns, others have 4.
+            PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%'."
+        END
+
+        PHP_EACH spells AS spell => flag BEGIN
+            //Fetch resource name.
+            spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+            PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
+                //Get resource name. EVAL needed because weidu.
+                LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET res_name = spell_res END
+
+                //Check if it is already in table. EVAL needed because weidu.
+                LPF find_first_row STR_VAR key = EVAL "%res_name%" RET row = index END
+                PATCH_IF NOT (row = 0 - 1) BEGIN
+                    SET_2DA_ENTRY row 1 cols flag
+                END ELSE BEGIN
+                    //Append row.
+                    COUNT_2DA_ROWS cols rows
+                    PATCH_IF ("%engine%" STRING_EQUAL_CASE "tobex") BEGIN
+                        INSERT_2DA_ROW rows cols "%res_name% %flag%"
+                    END ELSE BEGIN
+                        INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
+                    END
+                END
+            END ELSE BEGIN
+                PATCH_WARN "hide_spells_from_array: resource name for spell '%spell%' not found."
+            END
+        END
+    PRETTY_PRINT_2DA
+    BUT_ONLY
+END
+
+//The main function.
+DEFINE_ACTION_FUNCTION hide_spells BEGIN
+    OUTER_TEXT_SPRINT engine "*"
+
+    //Determine engine.
+    ACTION_IF GAME_IS "bgee bg2ee eet" BEGIN
+        OUTER_TEXT_SPRINT engine "ee"
+    END ELSE BEGIN
+        ACTION_IF GAME_IS "iwdee" BEGIN
+            OUTER_TEXT_SPRINT engine "iwdee"
+        END ELSE BEGIN
+            ACTION_IF GAME_IS "tobex" BEGIN
+                OUTER_TEXT_SPRINT engine "tobex"
+            END ELSE BEGIN
+                WARN "hide_spells: unhandled case; no patching will be done."
+            END
+        END
+    END
+
+    ACTION_IF NOT ("%engine%" STRING_EQUAL_CASE "*") BEGIN
+        //EVAL needed because weidu.
+        LAF hide_spells_from_array STR_VAR engine = EVAL "%engine%" END
+    END
+END
