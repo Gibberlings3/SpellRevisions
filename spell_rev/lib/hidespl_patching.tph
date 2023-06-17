@@ -63,12 +63,9 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
         END
 
         PHP_EACH spells AS spell => flag BEGIN
-            //Fetch resource name.
-            spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
-            PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
-                //Get resource name. EVAL needed because weidu.
-                LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET res_name = spell_res END
-
+            //Fetch resource name. EVAL needed because weidu.
+            LPF get_spell_res STR_VAR spell = EVAL "%spell%" RET res_name = resource END
+            PATCH_IF NOT ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
                 //Check if it is already in table. EVAL needed because weidu.
                 LPF find_first_row STR_VAR key = EVAL "%res_name%" RET row = index END
                 PATCH_IF NOT (row = 0 - 1) BEGIN
