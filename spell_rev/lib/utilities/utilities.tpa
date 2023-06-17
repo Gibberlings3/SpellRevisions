@@ -35,3 +35,14 @@ DEFINE_PATCH_FUNCTION get_sectype STR_VAR sectype = "" RET id BEGIN
         id -= 1
     END
 END
+
+DEFINE_PATCH_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
+    TEXT_SPRINT resource "*"
+    
+    //Protect against garbage.
+    spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+    PATCH_IF NOT (spell_nbr = 0 - 1) BEGIN
+        //Get resource name: EVAL needed because weidu and not using AUTO_EVAL_STRINGS.
+        LPF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET resource = spell_res END
+    END
+END
