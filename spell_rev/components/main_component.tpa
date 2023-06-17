@@ -3358,7 +3358,7 @@ INCLUDE ~spell_rev\lib\refinements.tph~  // refinements spells reverted back to 
 INCLUDE "%MOD_FOLDER%/lib/imprisonment.tph"
 
 //True sight patches.
-INCLUDE "%MOD_FOLDER%/lib/inquisitor_true_seing.tph"
+INCLUDE "%MOD_FOLDER%/lib/inquisitor_true_seeing.tph"
 
 //// SECTYPE FIXES FOR VANILLA MESS and some more//
 
