@@ -1,0 +1,43 @@
+//Libraries.
+INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
+
+//Functions.
+DEFINE_PATCH_FUNCTION patch_true_seeing_immunities STR_VAR spell = "" BEGIN
+    LPF CLONE_EFFECT INT_VAR
+        match_opcode = 142      //Display icon.
+        match_parameter2 = 108  //True seeeing.
+        opcode = 206            //Protection from spell.
+        parameter1 = 0          //Zero out.
+        parameter2 = 0
+    STR_VAR
+        resource = EVAL "%spell%"
+        insert = "last"
+    END
+END
+
+//Main loop.
+WITH_SCOPE BEGIN
+    LAF get_spell_res STR_VAR spell = "INQUIS_TRUE_SIGHT" RET spell_to_patch = resource END
+    ACTION_IF ("%spell_to_patch%" STRING_EQUAL_CASE "*") BEGIN
+        FAIL "inquisitor_true_seeing.tph: spell 'INQUIS_TRUE_SIGHT' not found."
+    END
+
+    COPY_EXISTING ~%spell_to_patch%.spl~ ~overriding~
+        PATCH_FOR_EACH spell IN
+            "WIZARD_OBSCURING_MIST"
+            "CLERIC_OBSCURING_MIST"
+            "WIZARD_SPOOK"
+            "WIZARD_KNOW_ALIGNMENT"
+        BEGIN
+            LPF get_spell_res STR_VAR spell = EVAL "%spell%" RET res_name = resource END
+            PATCH_IF NOT ("%spell%" STRING_EQUAL_CASE "*") BEGIN
+                LPF patch_true_seeing_immunities STR_VAR spell = EVAL "%res_name%" END
+            END ELSE BEGIN
+                PATCH_FAIL "inquisitor_true_seeing.tph: spell '%spell%' not found."
+            END
+        END
+
+        //Shadow door aux spell mazing.
+        LPF patch_true_seeing_immunities STR_VAR spell = "spwi505d" END
+    BUT_ONLY
+END
