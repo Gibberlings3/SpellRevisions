@@ -24,7 +24,9 @@ weinstall spell_rev
 and install the components you want.
 
 [^1]: latest version can be grabbed from [here](https://github.com/WeiDUorg/weidu/releases).
+
 [^2]: precise details depend on the platform.
+
 [^3]: for a source release, the top folder is *not* what one wants, rather it is the `spell_rev` subfolder.
 
 # C. Mod order.
