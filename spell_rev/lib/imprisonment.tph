@@ -3,7 +3,14 @@ INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
 
 
 //Imprisonment sectype for kill effect.
-ADD_SECTYPE "IMPRISONMENT" @23000
+WITH_SCOPE BEGIN
+    ADD_SECTYPE "Imprisonment" @23000
+
+    //Pretty print.
+    COPY_EXISTING ~msectype.2da~ ~override~
+        PRETTY_PRINT_2DA
+    BUT_ONLY
+END
 
 //Set sectype in Imprisonment.
 WITH_SCOPE BEGIN
@@ -13,7 +20,7 @@ WITH_SCOPE BEGIN
     
     ACTION_IF NOT ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
         COPY_EXISTING ~%res_name%.spl~ ~override~
-            WRITE_BYTE 0x27 "%IMPRISONMENT%"
+            WRITE_BYTE 0x27 "%Imprisonment%"
     END ELSE BEGIN
         FAIL "imprisonment.tph: spell 'WIZARD_IMPRISONMENT' not found."
     END
@@ -32,7 +39,7 @@ WITH_SCOPE BEGIN
                 match_opcode = 212      //Freedom.
                 opcode = 221            //Sectype removal.
                 parameter1 = 9
-                parameter2 = "%IMPRISONMENT%"
+                parameter2 = "%Imprisonment%"
             STR_VAR
                 insert = "below"
             END
