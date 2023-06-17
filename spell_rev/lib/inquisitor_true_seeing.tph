@@ -41,4 +41,5 @@ WITH_SCOPE BEGIN
 
         //Shadow door aux spell mazing.
         LPF patch_true_seeing_immunities STR_VAR spell = "spwi505d" END
+    BUT_ONLY
 END
