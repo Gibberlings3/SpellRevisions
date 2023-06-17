@@ -24,7 +24,7 @@ WITH_SCOPE BEGIN
         FAIL "inquisitor_true_seeing.tph: spell 'INQUIS_TRUE_SIGHT' not found."
     END
 
-    COPY_EXISTING ~%spell_to_patch%.spl~ ~overriding~
+    COPY_EXISTING ~%spell_to_patch%.spl~ ~override~
         PATCH_FOR_EACH spell IN
             "WIZARD_OBSCURING_MIST"
             "CLERIC_OBSCURING_MIST"
