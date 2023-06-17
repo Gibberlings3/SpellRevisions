@@ -53,6 +53,7 @@ The most salient ones are:
 25. [Missing projectile in Avenger's chromatic orb](https://github.com/Gibberlings3/SpellRevisions/pull/117): patch by mercurier.
 26. [Patching hidespl.2da instead of overriding](https://github.com/Gibberlings3/SpellRevisions/pull/116): as the name says; instead of overwriting `hidespl.2da` tables, patch them.
 27. [Imprisonment vs. Freedom patches](https://github.com/Gibberlings3/SpellRevisions/pull/118):
+28. [Patch inquisitor true seeing](https://github.com/Gibberlings3/SpellRevisions/pull/119):
 
 ## Earlier versions.
 
