@@ -5,6 +5,7 @@ INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
 DEFINE_PATCH_FUNCTION patch_true_seeing_immunities STR_VAR spell = "" BEGIN
     LPF CLONE_EFFECT INT_VAR
         check_globals = 0
+        verbose = 1
         match_opcode = 142      //Display icon.
         match_parameter2 = 108  //True seeeing.
         opcode = 206            //Protection from spell.
