@@ -7,7 +7,7 @@ note(s):
 
 # A. Latest release.
 
-Latest release is 4.19rc3.
+Latest release is 4.19rc4.
 
 From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip.
 
