@@ -1,0 +1,80 @@
+//Libraries.
+INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
+
+
+//Imprisonment sectype for kill effect.
+ADD_SECTYPE "Imprisonment" @23000
+
+//Pretty print.
+COPY_EXISTING ~msectype.2da~ ~override~
+    PRETTY_PRINT_2DA
+BUT_ONLY
+
+
+//Set sectype in Imprisonment.
+WITH_SCOPE BEGIN
+    OUTER_INNER_PATCH "" BEGIN
+        LPF get_spell_res STR_VAR spell = "WIZARD_IMPRISONMENT" RET res_name = resource END
+    END
+    
+    ACTION_IF NOT ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
+        COPY_EXISTING ~%res_name%.spl~ ~override~
+            WRITE_BYTE 0x27 Imprisonment
+    END ELSE BEGIN
+        FAIL "imprisonment.tph: spell 'WIZARD_IMPRISONMENT' not found."
+    END
+END
+
+//Patch freedom spell.
+WITH_SCOPE BEGIN
+    OUTER_INNER_PATCH "" BEGIN
+        LPF get_spell_res STR_VAR spell = "WIZARD_FREEDOM" RET res_name = resource END
+    END
+
+    ACTION_IF NOT ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
+        COPY_EXISTING ~%res_name%.spl~ ~override~
+            LPF CLONE_EFFECT INT_VAR
+                check_globals = 0
+                match_opcode = 212          //Freedom.
+                opcode = 221                //Sectype removal.
+                parameter1 = 9              //Power.
+                parameter2 = Imprisonment
+            STR_VAR
+                insert = "below"
+            END
+    END ELSE BEGIN
+        FAIL "imprisonment.tph: spell 'WIZARD_FREEDOM' not found."
+    END
+END
+
+//Patch rages.
+WITH_SCOPE BEGIN
+    LAF get_spell_res STR_VAR spell = "WIZARD_IMPRISONMENT" RET res_name_imp = resource END
+    ACTION_IF ("%res_name_imp%" STRING_EQUAL_CASE "*") BEGIN
+        FAIL "imprisonment.tph: spell 'WIZARD_IMPRISONMENT' not found."
+    END
+
+    ACTION_FOR_EACH spell IN
+        "BARBARIAN_RAGE"
+        "BERSERKER_RAGE"
+        "MINSC_BERSERK"
+    BEGIN
+        LAF get_spell_res STR_VAR spell = EVAL "%spell%" RET res_name = resource END
+        ACTION_IF NOT ("%res_name%" STRING_EQUAL_CASE "*") BEGIN
+        COPY_EXISTING ~%res_name%.spl~ ~override~
+            LPF CLONE_EFFECT INT_VAR
+                check_globals = 0
+                match_opcode = 101      //Immunity to effect.
+                match_parameter2 = 213  //Maze.
+                opcode = 206            //Protection from spell.
+                parameter1 = 0          //Zero out.
+                parameter2 = 0
+            STR_VAR
+                resource = EVAL "%res_name_imp%"
+                insert = "below"
+            END
+        END ELSE BEGIN
+            FAIL "imprisonment.tph: spell '%spell%' not found."
+        END
+    END
+END

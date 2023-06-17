@@ -1,0 +1,58 @@
+//Utilities.
+DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" RET index BEGIN
+    //Sanity bounds check.
+    COUNT_2DA_COLS cols
+    PATCH_IF NOT ((0 <= col) AND (col <= cols)) BEGIN
+        PATCH_FAIL "find_first_row: column index '%col%' out of bounds."
+    END
+
+    COUNT_2DA_ROWS cols rows
+    //Sanitize start.
+    PATCH_IF NOT ((0 <= start) AND (start < rows)) BEGIN
+        PATCH_FAIL "find_first_row: argument start: '%start%' out of bounds."
+    END
+
+    //Read table.
+    index = 0 - 1
+    FOR (i = start ; (i < rows) AND (index < 0) ; ++i) BEGIN
+        READ_2DA_ENTRY i col cols value
+        PATCH_IF ("%key%" STRING_EQUAL_CASE "%value%") BEGIN
+            //Set index => break out of the loop.
+            index = i
+        END
+    END
+END
+
+DEFINE_ACTION_FUNCTION get_sectype STR_VAR sectype = "" RET id BEGIN
+    //Get sectype.
+    COPY_EXISTING - ~msectype.2da~ ~override~
+        LPF find_first_row STR_VAR key = EVAL "%sectype%" RET id = index END
+    
+    //Correct index to account for 2DA spurious line.
+    ACTION_IF NOT (id = 0 - 1) BEGIN
+        OUTER_SET id -= 1
+    END
+END
+
+DEFINE_PATCH_FUNCTION get_sectype STR_VAR sectype = "" RET id BEGIN
+    INNER_ACTION BEGIN
+        LAF get_sectype STR_VAR sectype = EVAL "%sectype%" RET id END
+    END
+END
+
+DEFINE_ACTION_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
+    OUTER_TEXT_SPRINT resource "*"
+    
+    //Protect against garbage.
+    OUTER_SET spell_nbr = IDS_OF_SYMBOL ("spell" "%spell%")
+    ACTION_IF NOT (spell_nbr = 0 - 1) BEGIN
+        //Get resource name: EVAL needed because weidu and not using AUTO_EVAL_STRINGS.
+        LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL "%spell%" RET resource = spell_res END
+    END
+END
+
+DEFINE_PATCH_FUNCTION get_spell_res STR_VAR spell = "" RET resource BEGIN
+    INNER_ACTION BEGIN
+        LAF get_spell_res STR_VAR spell = EVAL "%spell%" RET resource END
+    END
+END

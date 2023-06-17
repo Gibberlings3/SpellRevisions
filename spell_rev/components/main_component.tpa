@@ -3254,7 +3254,8 @@ COPY ~spell_rev\spwi9##\spwi976.spl~     ~override~
 COPY ~spell_rev\spwi9##\spwi976.itm~     ~override~
 
 COPY ~spell_rev\spwi9##\spwi917.spl~     ~override~  // Freedom
-  SAY NAME1 @837    SAY UNIDENTIFIED_DESC @838
+  SAY NAME1 @837 SAY UNIDENTIFIED_DESC @838
+
 COPY ~spell_rev\spwi9##\scrl9z.itm~     ~override~
   SAY NAME2 @837    SAY IDENTIFIED_DESC   @838
 
@@ -3352,6 +3353,9 @@ INCLUDE ~spell_rev\lib\kreso_petrification.tph~
 INCLUDE ~spell_rev\lib\dispelling_screen.tph~
 INCLUDE ~spell_rev\lib\insects.tph~   // insect removal thingie
 INCLUDE ~spell_rev\lib\refinements.tph~  // refinements spells reverted back to SR, won't parse unless Refinements is already there
+
+//Imprisonment patches.
+INCLUDE "%MOD_FOLDER%/lib/imprisonment.tph"
 
 //// SECTYPE FIXES FOR VANILLA MESS and some more//
 
