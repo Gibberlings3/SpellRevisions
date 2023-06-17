@@ -1,0 +1,2 @@
+//Imprisonment sectype for kill effect.
+ADD_SECTYPE "IMPRISONMENT" @23000

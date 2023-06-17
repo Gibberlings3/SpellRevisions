@@ -1,0 +1,37 @@
+//Utilities.
+DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" RET index BEGIN
+    //Sanity bounds check.
+    COUNT_2DA_COLS cols
+    PATCH_IF NOT ((0 <= col) AND (col <= cols)) BEGIN
+        PATCH_FAIL "find_first_row: column index '%col%' out of bounds."
+    END
+
+    COUNT_2DA_ROWS cols rows
+    //Sanitize start.
+    PATCH_IF NOT ((0 <= start) AND (start < rows)) BEGIN
+        PATCH_FAIL "find_first_row: argument start: '%start%' out of bounds."
+    END
+
+    //Read table.
+    index = 0 - 1
+    FOR (i = start ; (i < rows) AND (index < 0) ; ++i) BEGIN
+        READ_2DA_ENTRY i col cols value
+        PATCH_IF ("%key%" STRING_EQUAL_CASE "%value%") BEGIN
+            //Set index => break out of the loop.
+            index = i
+        END
+    END
+END
+
+DEFINE_PATCH_FUNCTION get_sectype STR_VAR sectype = "" RET id BEGIN
+    INNER_ACTION BEGIN
+        //Get sectype.
+        COPY_EXISTING - ~msectype.2da~ ~override~
+            LPF find_first_row STR_VAR key = EVAL "%sectype%" RET id = index END
+    END
+    
+    //Correct index to account for 2DA spurious line.
+    PATCH_IF NOT (id = 0 - 1) BEGIN
+        id -= 1
+    END
+END

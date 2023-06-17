@@ -1,27 +1,6 @@
-//Utilities.
-DEFINE_PATCH_FUNCTION find_first_row INT_VAR col = 0 start = 0 STR_VAR key = "" RET index BEGIN
-    //Sanity bounds check.
-    COUNT_2DA_COLS cols
-    PATCH_IF NOT ((0 <= col) AND (col <= cols)) BEGIN
-        PATCH_FAIL "find_first_row: column index '%col%' out of bounds."
-    END
+//Libraries.
+INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
 
-    COUNT_2DA_ROWS cols rows
-    //Sanitize start.
-    PATCH_IF NOT ((0 <= start) AND (start < rows)) BEGIN
-        PATCH_FAIL "find_first_row: argument start: '%start%' out of bounds."
-    END
-
-    //Read table.
-    index = 0 - 1
-    FOR (i = start ; (i < rows) AND (index < 0) ; ++i) BEGIN
-        READ_2DA_ENTRY i col cols value
-        PATCH_IF ("%key%" STRING_EQUAL_CASE "%value%") BEGIN
-            //Set index => break out of the loop.
-            index = i
-        END
-    END
-END
 
 //Read table into array.
 DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
