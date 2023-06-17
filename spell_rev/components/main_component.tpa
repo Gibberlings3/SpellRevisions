@@ -3354,6 +3354,9 @@ INCLUDE ~spell_rev\lib\dispelling_screen.tph~
 INCLUDE ~spell_rev\lib\insects.tph~   // insect removal thingie
 INCLUDE ~spell_rev\lib\refinements.tph~  // refinements spells reverted back to SR, won't parse unless Refinements is already there
 
+//Imprisonment patches.
+INCLUDE "%MOD_FOLDER%/lib/imprisonment.tph"
+
 //// SECTYPE FIXES FOR VANILLA MESS and some more//
 
 INCLUDE ~spell_rev\lib\kreso_extra.tph~
