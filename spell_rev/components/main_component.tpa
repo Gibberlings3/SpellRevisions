@@ -3254,22 +3254,7 @@ COPY ~spell_rev\spwi9##\spwi976.spl~     ~override~
 COPY ~spell_rev\spwi9##\spwi976.itm~     ~override~
 
 COPY ~spell_rev\spwi9##\spwi917.spl~     ~override~  // Freedom
-    SAY NAME1 @837
-    SAY UNIDENTIFIED_DESC @838
-    //Patch-in spell effect removel.
-    PATCH_IF GAME_IS "bgee bg2ee eet iwdee" BEGIN
-        LPF CLONE_EFFECT INT_VAR
-            check_globals = 0
-            multi_match = 1
-            match_opcode = 212      //Freedom
-            opcode = 321            //Remove effects by resource.
-            parameter1 = 0          //Zero out.
-            parameter2 = 2          //Only temporary.
-        STR_VAR
-            resource = "spwi310"    //Imprisonment
-            insert = "above"
-        END
-    END
+  SAY NAME1 @837 SAY UNIDENTIFIED_DESC @838
 
 COPY ~spell_rev\spwi9##\scrl9z.itm~     ~override~
   SAY NAME2 @837    SAY IDENTIFIED_DESC   @838
