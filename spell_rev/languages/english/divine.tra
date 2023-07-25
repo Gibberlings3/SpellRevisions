@@ -1549,7 +1549,7 @@ Creature Type  --  Damage
  Undead  --  8d8
  Demonic  --  10d10
 
-Magic resistance does not effect this spell.~
+Magic resistance does not affect this spell.~
 
 @215=~Physical Mirror~
 @216=~Physical Mirror
@@ -1575,7 +1575,7 @@ Casting Time: 6
 Area of Effect: Special
 Saving Throw: Breath partial
 
-When the spell is completed, it creates a glowing gem. This gem must be thrown at an opponent within 3 rounds, or it will become too hot to hold. When it hits, the gem bursts with a brilliant, searing flash that causes 12d6 points of fire damage to anyone within 30 feet. Creatures within the burst are allowed a saving throw vs. breath at -4 penalty. If successful, only half damage is sustained. On a failed save, the victim also suffers -2 penalty to thac0 and 1d6 points of fire damage each round for 6 rounds. It is not possible for the priest to give the stone to another character to throw. Magic resistance does not effect this spell, nor do any of the spell protections.~
+When the spell is completed, it creates a glowing gem. This gem must be thrown at an opponent within 3 rounds, or it will become too hot to hold. When it hits, the gem bursts with a brilliant, searing flash that causes 12d6 points of fire damage to anyone within 30 feet. Creatures within the burst are allowed a saving throw vs. breath at -4 penalty. If successful, only half damage is sustained. On a failed save, the victim also suffers -2 penalty to thac0 and 1d6 points of fire damage each round for 6 rounds. It is not possible for the priest to give the stone to another character to throw. Magic resistance does not affect this spell, nor do any of the spell protections.~
 
 @219=~Conjure Air Elemental~
 @220=~Conjure Air Elemental
@@ -1644,7 +1644,7 @@ Casting Time: 6
 Area of Effect: 30' radius
 Saving Throw: None
 
-This spell forces hostile summoned creatures in the area back to their proper plane. Magic resistance does not effect this spell.~
+This spell forces hostile summoned creatures in the area back to their proper plane. Magic resistance does not affect this spell.~
 
 @225=~Animate Skeleton Warrior~
 @226=~Animate Skeleton Warrior
