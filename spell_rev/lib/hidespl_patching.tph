@@ -98,7 +98,8 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
         ACTION_IF GAME_IS "iwdee" BEGIN
             OUTER_TEXT_SPRINT engine "iwdee"
         END ELSE BEGIN
-            ACTION_IF GAME_IS "tobex" BEGIN
+            //Not an ee. Check for tobex by a simple file check.
+            ACTION_IF (FILE_EXISTS "tobexcore.ini") AND (FILE_EXISTS_IN_GAME "hidespl.2da") BEGIN
                 OUTER_TEXT_SPRINT engine "tobex"
             END ELSE BEGIN
                 WARN "hide_spells: unhandled case; no patching will be done."
