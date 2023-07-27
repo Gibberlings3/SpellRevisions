@@ -51,11 +51,10 @@ The most salient ones are:
 23. [Fix displayed strings in spells](https://github.com/Gibberlings3/SpellRevisions/pull/107):
 24. [Fixes to Elemental Prince HLA](https://github.com/Gibberlings3/SpellRevisions/pull/114):
 25. [Missing projectile in Avenger's chromatic orb](https://github.com/Gibberlings3/SpellRevisions/pull/117): patch by mercurier.
-26. [Patching hidespl.2da instead of overriding](https://github.com/Gibberlings3/SpellRevisions/pull/116): as the name says; instead of overwriting `hidespl.2da` tables, patch them.
+26. [Patching hidespl.2da instead of overriding](https://github.com/Gibberlings3/SpellRevisions/pull/116): as the name says; instead of overwriting `hidespl.2da` tables, patch them. Subsequently refined in [Fix hidespl.2da patching in tobex](https://github.com/Gibberlings3/SpellRevisions/pull/126).
 27. [Imprisonment vs. Freedom patches](https://github.com/Gibberlings3/SpellRevisions/pull/118):
 28. [Patch inquisitor true seeing](https://github.com/Gibberlings3/SpellRevisions/pull/119):
 29. [Wrong dice in Talos' Lightning Bolt](https://github.com/Gibberlings3/SpellRevisions/pull/124): a sleuth of fixes to the Cleric of Talos' version of Lightning Bolt (more than the title suggests).
-30. [Fix hidespl.2da patching in tobex](https://github.com/Gibberlings3/SpellRevisions/pull/126):
 
 ## Earlier versions.
 
