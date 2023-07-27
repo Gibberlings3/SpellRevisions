@@ -55,6 +55,7 @@ The most salient ones are:
 27. [Imprisonment vs. Freedom patches](https://github.com/Gibberlings3/SpellRevisions/pull/118):
 28. [Patch inquisitor true seeing](https://github.com/Gibberlings3/SpellRevisions/pull/119):
 29. [Wrong dice in Talos' Lightning Bolt](https://github.com/Gibberlings3/SpellRevisions/pull/124): a sleuth of fixes to the Cleric of Talos' version of Lightning Bolt (more than the title suggests).
+30. [Fix hidespl.2da patching in tobex](https://github.com/Gibberlings3/SpellRevisions/pull/126):
 
 ## Earlier versions.
 
