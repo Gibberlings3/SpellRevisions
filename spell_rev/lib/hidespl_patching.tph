@@ -57,7 +57,7 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
     //Patch table.
     COPY_EXISTING ~hidespl.2da~ ~override~
         COUNT_2DA_COLS cols
-        PATCH_IF NOT ((2 <= cols) AND (cols <= 4)) BEGIN
+        PATCH_IF NOT ((cols = 2) OR (cols = 4)) BEGIN
             //Sanitize columns value. tobex has 2 columns, others have 4.
             PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%'."
         END
@@ -98,7 +98,8 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
         ACTION_IF GAME_IS "iwdee" BEGIN
             OUTER_TEXT_SPRINT engine "iwdee"
         END ELSE BEGIN
-            ACTION_IF GAME_IS "tobex" BEGIN
+            //Not an ee. Check for tobex by a simple file check.
+            ACTION_IF (FILE_EXISTS "tobex_ini/tobexcore.ini") AND (FILE_EXISTS_IN_GAME "hidespl.2da") BEGIN
                 OUTER_TEXT_SPRINT engine "tobex"
             END ELSE BEGIN
                 WARN "hide_spells: unhandled case; no patching will be done."
