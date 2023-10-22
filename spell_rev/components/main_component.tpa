@@ -1785,7 +1785,7 @@ COPY ~spell_rev\spwi1##\dvwi109c.bam~     ~override~
 
 //ADD_SPELL: Know Alignment
  ADD_SPELL ~spell_rev\spwi1##\spwi126.spl~ 2 1 ~WIZARD_KNOW_ALIGNMENT~  // Detect Alignment (moved from lvl 2)
-  SAY NAME1 @453    SAY UNIDENTIFIED_DESC @454
+  SAY NAME1 @453    SAY UNIDENTIFIED_DESC @2000                         //New desc ref because old version still around -- see below.
 // TODO: add scroll
 
 
