@@ -150,8 +150,9 @@ END ELSE BEGIN // ...and only in vanilla
   COPY_EXISTING ~fireseed.itm~ ~override~ // fire seeds
                 ~sppr951d.itm~ ~override~ // fire shield blue
                 ~sppr952d.itm~ ~override~ // fire shield red
-  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
-    LPF bypass_mirror_image INT_VAR skip_check=1 END
-  END BUT_ONLY
+    PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+      LPF bypass_mirror_image INT_VAR skip_check=1 END
+    END
+  IF_EXISTS BUT_ONLY
 END
 
