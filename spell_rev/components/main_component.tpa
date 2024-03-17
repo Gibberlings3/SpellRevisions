@@ -3604,8 +3604,11 @@ ACTION_IF (MOD_IS_INSTALLED ~item_rev.tp2~ ~0~) BEGIN
 END
 
 // Last batch of fixes: patch Display Text [139] with correct string refs.
+// This is for BG1 only, so wrapped in an ACTION_IF block.
 //
 // Depends only on the main copy block and having resource references resolved,
 // so can be moved up in the main component if needed.
-INCLUDE ~spell_rev/lib/fix_displayed_strings.tph~
-LAF fix_displayed_strrefs END
+//ACTION_IF (ENGINE_IS ~bgee~) BEGIN
+  INCLUDE ~spell_rev/lib/fix_displayed_strings.tph~
+  LAF fix_displayed_strrefs END
+//END
