@@ -1,0 +1,4 @@
+// BG1 String replacements for display opcodes.
+// Used in table "lib/dv_displayed_strings.2da".
+@1 = ~Regenerating~
+@2 = ~Enfeeble~

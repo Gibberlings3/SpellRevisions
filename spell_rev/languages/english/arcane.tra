@@ -3565,9 +3565,5 @@ Special Abilities:
 @21010=~Shapechange: Mind Flayer~ // original iwdee @36175
 @21011=~Shapechange: Greater Wolfwere~ // original iwdee @36181
 
-// String for display opcodes: start at 21500.
-// 22000 already taken up in divine.tra. Sigh.
-@21500 = ~Regenerating~
-
 //More sectypes.
 @23000 = "Imprisonment ended."

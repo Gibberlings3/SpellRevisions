@@ -48,13 +48,14 @@ The most salient ones are:
 20. [Fix Shapechange ability names in IWD](https://github.com/Gibberlings3/SpellRevisions/pull/96): Patch by gsz. Then improved in [Extract spirit troll shapechange name and add FR translation](https://github.com/Gibberlings3/SpellRevisions/pull/105) by mleduque.
 21. [Power level fix on Vitriolic Sphere](https://github.com/Gibberlings3/SpellRevisions/pull/98): Power Level on Vitriolic Sphere acid damage opcode -> 4. Patch by Bartimeus.
 22. [LABEL components](https://github.com/Gibberlings3/SpellRevisions/pull/100): Add `LABEL` commands to every (non-deprecated) component.
-23. [Fix displayed strings in spells](https://github.com/Gibberlings3/SpellRevisions/pull/107):
+23. [Fix displayed strings in spells](https://github.com/Gibberlings3/SpellRevisions/pull/107): Improved in [Fix Ray Enfeeble message (and overall improvements)](https://github.com/Gibberlings3/SpellRevisions/pull/134).
 24. [Fixes to Elemental Prince HLA](https://github.com/Gibberlings3/SpellRevisions/pull/114):
 25. [Missing projectile in Avenger's chromatic orb](https://github.com/Gibberlings3/SpellRevisions/pull/117): patch by mercurier.
 26. [Patching hidespl.2da instead of overriding](https://github.com/Gibberlings3/SpellRevisions/pull/116): as the name says; instead of overwriting `hidespl.2da` tables, patch them. Subsequently refined in [Fix hidespl.2da patching in tobex](https://github.com/Gibberlings3/SpellRevisions/pull/126).
 27. [Imprisonment vs. Freedom patches](https://github.com/Gibberlings3/SpellRevisions/pull/118):
 28. [Patch inquisitor true seeing](https://github.com/Gibberlings3/SpellRevisions/pull/119):
 29. [Wrong dice in Talos' Lightning Bolt](https://github.com/Gibberlings3/SpellRevisions/pull/124): a sleuth of fixes to the Cleric of Talos' version of Lightning Bolt (more than the title suggests).
+30. [rc5 fixes](https://github.com/Gibberlings3/SpellRevisions/pull/132): patch by subtledoctor to fix issues with 232 opcodes in Sleep, Magic Fang, etc.
 
 ## Earlier versions.
 
