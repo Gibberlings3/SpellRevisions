@@ -7,7 +7,7 @@ note(s):
 
 # A. Latest release.
 
-Latest release is 4.19rc4.
+Latest release is 4.19rc5.
 
 From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip.
 
@@ -15,13 +15,26 @@ Note that it is a *source release*; it just bundles the files in the GitHub repo
 
 # B. Installation.
 
-Installation is like any other WeiDU mod -- see [A New Player’s Guide to Installing and Playing Mods](https://www.gibberlings3.net/forums/topic/33164-a-new-player%E2%80%99s-guide-to-installing-and-playing-mods/). Assuming you have WeiDU [^1] installed and on the executable path [^2], just download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [^3] `spell_rev` to your Baldur's Gate install directory. Then open a command line, change directory to the BG installation dir and do
+Installation is like any other WeiDU mod -- see [A New Player’s Guide to Installing and Playing Mods](https://www.gibberlings3.net/forums/topic/33164-a-new-player%E2%80%99s-guide-to-installing-and-playing-mods/).
+
+## B. 1. Command line.
+
+Assuming you have WeiDU [^1] installed and on the executable path [^2], just download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [^3] `spell_rev` to your Baldur's Gate install directory. Then open a command line, change directory to the BG installation dir and do
 
 ```
 weinstall spell_rev
 ```
 
 and install the components you want.
+
+## B. 2. Double-clicking.
+
+If the command line is proving to be too difficult (e.g. Windows platform, do not have `weinstall` in the executable path, etc.), you can install as usual by double clicking the executable installer. For a *source release* that does not come with an executable installer, you can proceed as follows:
+
+* Do the same download, copy into BG installation dir, etc. as in previous point B. 1. 
+* Download any, relatively recent updated, mod with such an installer, e.g. [Tweaks Anthology](https://www.gibberlings3.net/files/file/973-the-tweaks-anthology/).
+* Grab its executable installer, rename it as `setup-spell_rev.exe` and drop it on the root dir of `spell_rev`.
+* Double-click the executable and proceed as usual.
 
 [^1]: latest version can be grabbed from [here](https://github.com/WeiDUorg/weidu/releases).
 
