@@ -1,0 +1,19 @@
+//Resvised saves component.
+
+WITH_SCOPE BEGIN
+    ACTION_DEFINE_ASSOCIATIVE_ARRAY save_tables BEGIN
+        "Warrior"           => "savewar.2da"
+        "Monk"              => "savemonk.2da"
+        "Rogue"             => "saverog.2da"
+        "Priest"            => "saveprs.2da"
+        "Wizard"            => "savewiz.2da"
+        "Dwarf/Halfling"    => "savecndh.2da"
+        "Gnome"             => "savecng.2da"
+    END
+
+
+    OUTER_TEXT_SPRINT dir "spell_rev/revised_saves"
+    ACTION_PHP_EACH save_tables AS _ => file BEGIN
+        COPY "%dir%/%file%" "override"
+    END
+END
