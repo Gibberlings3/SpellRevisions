@@ -208,4 +208,9 @@ LABEL "dv-spell_rev-revised_hlas"
 REQUIRE_PREDICATE (ENGINE_IS ~soa tob bg2ee eet~) @8996 // ~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
 INCLUDE ~spell_rev/lib/kreso_hla.tph~
 
-PRINT @7998 // ~Done!~
+//Revised saves.
+BEGIN @10010
+DESIGNATED 70
+LABEL "dv-spell_rev-revised_saving_throws"
+REQUIRE_PREDICATE (ENGINE_IS ~soa tob bg2ee eet~) @8996
+INCLUDE ~spell_rev/components/saving_throw_tables.tpa~
