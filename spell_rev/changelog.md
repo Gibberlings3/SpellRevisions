@@ -56,7 +56,8 @@ The most salient ones are:
 28. [Patch inquisitor true seeing](https://github.com/Gibberlings3/SpellRevisions/pull/119):
 29. [Wrong dice in Talos' Lightning Bolt](https://github.com/Gibberlings3/SpellRevisions/pull/124): a sleuth of fixes to the Cleric of Talos' version of Lightning Bolt (more than the title suggests).
 30. [rc5 fixes](https://github.com/Gibberlings3/SpellRevisions/pull/132): patch by subtledoctor to fix issues with 232 opcodes in Sleep, Magic Fang, etc.
-31. [Find Traps fix](https://github.com/Gibberlings3/SpellRevisions/pull/138):
+31. [Find Traps fix](https://github.com/Gibberlings3/SpellRevisions/pull/138): Fix a targeting bug in the cleric Find Traps spell.
+32. [Saves Component](https://github.com/Gibberlings3/SpellRevisions/pull/139): the code copying the new, revised saving throw tables has been relegated to its own component. 
 
 ## Earlier versions.
 
