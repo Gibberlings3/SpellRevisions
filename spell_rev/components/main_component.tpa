@@ -474,7 +474,7 @@ ADD_SPELL ~spell_rev\sppr1##\sppr121.spl~ 1 1 ~CLERIC_OBSCURING_MIST~ // Obscuri
   SAY NAME1 @321    SAY UNIDENTIFIED_DESC @322
   WRITE_SHORT 0x98 %dvobmist%
   SET dvobmist -= 1
-APPEND ~clearair.2da~ ~Obscuring Mist             %dvobmist%~
+APPEND ~clearair.2da~ ~Obscuring_Mist             %dvobmist%~
 COPY ~spell_rev\sppr1##\dvpr121i.eff~     ~override~
 COPY ~spell_rev\sppr1##\dvpr121a.bam~     ~override~
 COPY ~spell_rev\sppr1##\dvpr121b.bam~     ~override~
@@ -1523,7 +1523,7 @@ COPY ~spell_rev\spwi1##\spwi106.spl~     ~override~  // Obscuring Mist (replaces
   SAY NAME1 @411    SAY UNIDENTIFIED_DESC @412
   WRITE_SHORT 0x98 %dvfogc%
   SET dvfogc -= 1
-APPEND ~clearair.2da~ ~Fog Cloud             %dvfogc%~
+APPEND ~clearair.2da~ ~Fog_Cloud             %dvfogc%~
 COPY ~spell_rev\spwi1##\scrl71.itm~     ~override~
   SAY NAME2 @411    SAY IDENTIFIED_DESC   @412
 COPY ~spell_rev\spwi1##\spwi106i.eff~    ~override~
@@ -1859,7 +1859,7 @@ COPY ~spell_rev\spwi2##\spwi213.spl~     ~override~  // Stinking Cloud
   SAY NAME1 @473    SAY UNIDENTIFIED_DESC @474
   WRITE_SHORT 0x98 %dvstink%
   SET dvstink -= 1
-APPEND ~clearair.2da~ ~Stink Cloud             %dvstink%~
+APPEND ~clearair.2da~ ~Stink_Cloud             %dvstink%~
 COPY ~spell_rev\spwi2##\scrl97.itm~     ~override~
   SAY NAME2 @473    SAY IDENTIFIED_DESC   @474
 COPY ~spell_rev\spwi2##\spwi213i.eff~     ~override~
@@ -2677,7 +2677,7 @@ COPY ~spell_rev\spwi6##\spwi614.spl~     ~override~  // Acid Fog ("replaces" Dea
   SAY NAME1 @685    SAY UNIDENTIFIED_DESC @686
   WRITE_SHORT 0x98 %dvafog%
   SET dvafog -= 1
-APPEND ~clearair.2da~ ~Acid Fog                %dvafog%~
+APPEND ~clearair.2da~ ~Acid_Fog                %dvafog%~
 COPY ~spell_rev\spwi6##\scrl7r.itm~     ~override~
   SAY NAME2 @685    SAY IDENTIFIED_DESC   @686
 APPEND ~spell.ids~ ~2614 WIZARD_ACID_FOG~
@@ -3076,7 +3076,7 @@ COPY ~spell_rev\spwi8##\spwi810.spl~     ~override~  // Incendiary Cloud
   SAY NAME1 @783    SAY UNIDENTIFIED_DESC @784
   WRITE_SHORT 0x98 %dvicloud%
   SET dvicloud -= 1
-APPEND ~clearair.2da~ ~Incendiary Cloud                %dvicloud%~
+APPEND ~clearair.2da~ ~Incendiary_Cloud                %dvicloud%~
 COPY ~spell_rev\spwi8##\scrl9e.itm~     ~override~
   SAY NAME2 @783    SAY IDENTIFIED_DESC   @784
 COPY ~spell_rev\spwi8##\dvicloud.eff~     ~override~
