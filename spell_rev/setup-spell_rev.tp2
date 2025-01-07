@@ -15,7 +15,7 @@ ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET cd_always THEN BEGIN
     OUTER_SET cd_always = 1
     
-    ACTION_DEFINE_ARRAY cdnoconvert BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+    ACTION_DEFINE_ARRAY cdnoconvert BEGIN setup install END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
     ACTION_DEFINE_ARRAY cdreload BEGIN arcane divine END // List of tra files that contain strings used for game content that get converted in the next step
     
     LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR tra_path = EVAL ~%MOD_FOLDER%/languages~ noconvert_array = cdnoconvert reload_array = cdreload  END
@@ -42,6 +42,11 @@ LANGUAGE ~French~
          ~spell_rev\languages\french\divine.tra~
          ~spell_rev\languages\french\setup.tra~
 
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~spell_rev\languages\schinese\arcane.tra~
+         ~spell_rev\languages\schinese\divine.tra~
+         ~spell_rev\languages\schinese\install.tra~
 /* LANGUAGE ~Russian~
          ~russian~
          ~spell_rev\languages\english\arcane.tra~
