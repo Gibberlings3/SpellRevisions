@@ -2,7 +2,7 @@
 
 @1=~Bless~
 @2=~Bless
-Level: 1
+Grad: 1
 School: Enchantment
 Sphere: All
 Range: Long
@@ -15,7 +15,7 @@ Upon uttering the Bless spell, the caster raises the morale of friendly creature
 
 @3=~Command~
 @4=~Command
-Level: 1
+Grad: 1
 School: Enchantment
 Sphere: Charm, Combat, Law
 Range: Long
@@ -28,7 +28,7 @@ This spell enables the priest to command another creature to lie down and take n
 
 @5=~Cure Light Wounds~
 @6=~Cure Light Wounds
-Level: 1
+Grad: 1
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -41,7 +41,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 
 @7=~Detect Alignment~
 @8=~Detect Alignment
-Level: 1
+Grad: 1
 School: Divination
 Sphere: Divination
 Range: Personal
@@ -54,7 +54,7 @@ This spell allows the priestd to search out the feelings of all creatures within
 
 @9=~Entangle~
 @10=~Entangle
-Level: 1
+Grad: 1
 School: Alteration
 Sphere: Plant
 Range: Long
@@ -67,7 +67,7 @@ By means of this spell, the caster causes plants to entangle all creatures in th
 
 @11=~Magical Stone~
 @12=~Magical Stone
-Level: 1
+Grad: 1
 School: Enchantment
 Sphere: Combat
 Range: Personal
@@ -82,7 +82,7 @@ Using this spell, the priest can temporarily enchant ten small stones, no larger
 
 @13=~Protection from Evil~
 @14=~Protection from Evil
-Level: 1
+Grad: 1
 School: Abjuration
 Sphere: Protection
 Range: Touch
@@ -95,7 +95,7 @@ When this spell is cast, it creates a magical barrier around the recipient at a 
 
 @15=~Resist Fear~
 @16=~Resist Fear
-Level: 1
+Grad: 1
 School: Abjuration
 Sphere: Charm
 Range: Long
@@ -108,7 +108,7 @@ The caster instills courage in the spell recipients, raising their morale to its
 
 @17=~Sanctuary~
 @18=~Sanctuary
-Level: 1
+Grad: 1
 School: Abjuration
 Sphere: Charm, Protection
 Range: Personal
@@ -121,7 +121,7 @@ When the priest casts a Sanctuary spell, it causes all of his opponents to ignor
 
 @19=~Shillelagh~
 @20=~Shillelagh
-Level: 1
+Grad: 1
 School: Alteration
 Sphere: Combat, Plant
 Range: Personal
@@ -134,7 +134,7 @@ This spell enables the caster to create a magical cudgel. The shillelagh inflict
 
 @21=~Armor of Faith~
 @22=~Armor of Faith
-Level: 1
+Grad: 1
 School: Abjuration
 Sphere: Protection
 Range: Personal
@@ -147,7 +147,7 @@ The caster of the Armor of Faith receives significant protection against physica
 
 @23=~Doom~
 @24=~Doom
-Level: 1
+Grad: 1
 School: Enchantment
 Sphere: Charm
 Range: Long
@@ -160,7 +160,7 @@ This spell causes a feeling of doom to overwhelm the target. For the duration of
 
 @25=~Faerie Fire~
 @26=~Faerie Fire
-Level: 1
+Grad: 1
 School: Evocation
 Sphere: Weather
 Range: Long
@@ -171,7 +171,7 @@ Saving Throw: Spell negates
 
 When this spell is cast, a pale glow surrounds and outlines all enemies within the area of effect, making their position and movements easily visible. Outlined creatures do not benefit from the concealment normally provided by darkness, invisibility, or similar effects, and suffer a -2 penalty to AC. Those who succeed at a saving throw vs. spell are totally unaffected by the spell. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire does not cause any harm to the objects or creatures thus outlined.~
 @26000=~Faerie Fire
-Level: 1
+Grad: 1
 School: Evocation
 Sphere: Weather
 Range: Long
@@ -184,7 +184,7 @@ When this spell is cast, a pale glow surrounds and outlines all creatures within
 
 @27=~Strength of Stone~
 @28=~Strength of Stone
-Level: 1
+Grad: 1
 School: Alteration
 Sphere: Elemental (Earth)
 Range: Personal
@@ -197,7 +197,7 @@ Calling upon the strength of the earth, the caster gains some of the solidity an
 
 @29=~Sunscorch~
 @30=~Sunscorch
-Level: 1
+Grad: 1
 School: Evocation
 Sphere: Sun
 Range: Long
@@ -213,7 +213,7 @@ When this spell is cast, a brilliant ray of scorching heat slants down from the 
 
 @31=~Aid~
 @32=~Aid
-Level: 2
+Grad: 2
 School: Necromancy
 Sphere: Combat, Necromantic
 Range: Touch
@@ -226,7 +226,7 @@ The recipient of this spell gains a +1 bonus to attack rolls, damage rolls, and 
 
 @33=~Barkskin~
 @34=~Barkskin
-Level: 2
+Grad: 2
 School: Alteration
 Sphere: Plant
 Range: Touch
@@ -239,7 +239,7 @@ When a priest casts the Barkskin spell upon a creature, its skin becomes as toug
 
 @35=~Chant~
 @36=~Chant
-Level: 2
+Grad: 2
 School: Conjuration
 Sphere: Combat
 Range: Personal
@@ -252,7 +252,7 @@ By means of the Chant spell, the priest brings special favor upon himself and hi
 
 @37=~Charm Person or Animal~
 @38=~Charm Person or Animal
-Level: 2
+Grad: 2
 School: Enchantment
 Sphere: Animal
 Range: Medium
@@ -267,7 +267,7 @@ Creatures that are currently neutral to the caster are more amenable to helping 
 
 @39=~Find Traps~
 @40=~Find Traps
-Level: 2
+Grad: 2
 School: Divination
 Sphere: Divination
 Range: Personal
@@ -280,7 +280,7 @@ When a priest casts a find traps spell, all traps - concealed normally or magica
 
 @41=~Flame Blade~
 @42=~Flame Blade
-Level: 2
+Grad: 2
 School: Evocation
 Sphere: Elemental (Fire)
 Range: Personal
@@ -293,7 +293,7 @@ With this spell, the caster causes a blazing ray of red-hot fire to spring forth
 
 @43=~Goodberry~
 @44=~Goodberry
-Level: 1
+Grad: 1
 School: Alteration
 Sphere: Plant
 Range: Personal
@@ -314,7 +314,7 @@ Casting a Goodberry spell creates 5 magical berries that the caster can carry wi
 
 @45=~Hold Person~
 @46=~Hold Person
-Level: 2
+Grad: 2
 School: Enchantment
 Sphere: Charm, Law
 Range: Long
@@ -329,7 +329,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 
 @47=~Know Opponent~
 @48=~Know Opponent
-Level: 2
+Grad: 2
 School: Divination
 Sphere: Divination
 Range: Long
@@ -342,7 +342,7 @@ When this spell is cast, the caster's eyes glow with magical energy, enabling hi
 
 @49=~Resist Elements~
 @50=~Resist Elements
-Level: 2
+Grad: 2
 School: Abjuration
 Sphere: Protection
 Range: Touch
@@ -355,7 +355,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of eleme
 
 @51=~Silence~
 @52=~Silence
-Level: 2
+Grad: 2
 School: Alteration
 Sphere: Guardian
 Range: Long
@@ -368,7 +368,7 @@ Upon casting this spell, complete silence prevails in the affected area. All sou
 
 @53=~Slow Poison~
 @54=~Slow Poison
-Level: 2
+Grad: 2
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -381,7 +381,7 @@ When this spell is cast upon a poisoned individual, it greatly slows the effects
 
 @55=~Spiritual Hammer~
 @56=~Spiritual Hammer
-Level: 2
+Grad: 2
 School: Evocation
 Sphere: Combat
 Range: Medium
@@ -394,7 +394,7 @@ By calling upon his deity, the caster of a Spiritual Hammer spell brings into ex
 
 @57=~Draw upon Divine Might~
 @58=~Draw upon Divine Might
-Level: 2
+Grad: 2
 School: Evocation
 Sphere: Combat
 Range: Personal
@@ -407,7 +407,7 @@ When this spell is cast, the priest's body shudders and glows with a shimmering 
 
 @59=~Cure Moderate Wounds~
 @60=~Cure Moderate Wounds
-Level: 2
+Grad: 2
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -420,7 +420,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 
 @61=~Fire Trap~
 @62=~Fire Trap
-Level: 2
+Grad: 2
 School: Abjuration
 Sphere: Elemental (Fire)
 Range: Short
@@ -438,7 +438,7 @@ When the spell is cast, the druid weaves a tracery of faintly glowing lines arou
 
 @71=~Animate Dead~
 @72=~Animate Dead
-Level: 3
+Grad: 3
 School: Necromancy
 Sphere: Necromantic
 Range: Medium
@@ -481,7 +481,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
 @73=~Call Lightning~
 @74=~Call Lightning
-Level: 3
+Grad: 3
 School: Alteration
 Sphere: Weather
 Range: Long
@@ -494,7 +494,7 @@ Immediately upon completion of the spell, and once per round thereafter, the cas
 
 @75=~Dispel Magic~
 @76=~Dispel Magic
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: All
 Range: Long
@@ -509,7 +509,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 
 @77=~Glyph of Warding~
 @78=~Glyph of Warding
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: Guardian
 Range: Short
@@ -524,7 +524,7 @@ When the spell is cast, the priest weaves a tracery of faintly glowing lines aro
 
 @79=~Hold Person or Animal~
 @80=~Hold Person or Animal
-Level: 3
+Grad: 3
 School: Enchantment
 Sphere: Animal
 Range: Long
@@ -539,7 +539,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 
 @81=~Protection from Fire~
 @82=~Protection from Fire
-Level: 5
+Grad: 5
 School: Abjuration
 Sphere: Elemental, Protection
 Range: Touch
@@ -552,7 +552,7 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 
 @83=~Break Enchantment~
 @84=~Break Enchantment
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: All
 Range: Short
@@ -565,7 +565,7 @@ Upon casting this spell, the priest is able to free a victim from enchantments a
 
 @85=~Remove Paralysis~
 @86=~Remove Paralysis
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: Necromantic, Protection
 Range: Long
@@ -578,7 +578,7 @@ By the use of this spell, the priest can free several creatures from the effects
 
 @87=~Invisibility Purge~
 @88=~Invisibility Purge
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: Wards
 Range: Personal
@@ -591,7 +591,7 @@ Instantly and once each round for 5 rounds after this spell is cast, all conceal
 
 @89=~Miscast Magic~
 @90=~Miscast Magic
-Level: 3
+Grad: 3
 School: Enchantment
 Sphere: Chaos
 Range: Long
@@ -604,7 +604,7 @@ Miscast Magic causes spells cast by the affected creature to take on an effect d
 
 @91=~Contagion~
 @92=~Contagion
-Level: 3
+Grad: 3
 School: Necromancy
 Sphere: Necromantic
 Range: Short
@@ -617,7 +617,7 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 
 @93=~Strength of One~
 @94=~Strength of One
-Level: 3
+Grad: 3
 School: Alteration
 Sphere: Law
 Range: Personal
@@ -630,7 +630,7 @@ When this spell is cast, all party members within 30 feet of the caster gain a +
 
 @95=~Holy Smite~
 @96=~Holy Smite
-Level: 3
+Grad: 3
 School: Necromancy
 Sphere: Necromantic
 Range: Long
@@ -643,7 +643,7 @@ With this spell the priest draws down holy power to smite his enemies. Opponents
 
 @97=~Unholy Blight~
 @98=~Unholy Blight
-Level: 3
+Grad: 3
 School: Necromancy
 Sphere: Necromantic
 Range: Long
@@ -656,7 +656,7 @@ With this spell the priest calls up unholy power to smite his enemies. The power
 
 @99=~Cure Disease~
 @100=~Cure Disease
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: Healing
 Range: Touch
@@ -669,7 +669,7 @@ By laying her hands upon a sickly person, the caster can cure almost any disease
 
 @101=~Gust of Wind~
 @102=~Gust of Wind
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: Wards, Elemental (Air)
 Range: Personal
@@ -684,7 +684,7 @@ This spell creates a severe blast of air that originates from the caster, affect
 
 @103=~Summon Insects~
 @104=~Summon Insects
-Level: 3
+Grad: 3
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -699,7 +699,7 @@ For the duration of the spell, the affected creature fights with a -2 penalty to
 
 @107=~Cause Serious Wounds~
 @108=~Cause Serious Wounds
-Level: 3
+Grad: 3
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -712,7 +712,7 @@ This spell is the reverse of Cure Serious Wounds. Instead of healing the creatur
 
 @109=~Cure Serious Wounds~
 @110=~Cure Serious Wounds
-Level: 3
+Grad: 3
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -725,7 +725,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 
 @1109=~Storm Shield~
 @1110=~Storm Shield
-Level: 3
+Grad: 3
 School: Abjuration
 Sphere: Weather, Elemental (Air)
 Range: Personal
@@ -737,7 +737,7 @@ Saving Throw: None
 This spell surrounds the caster with an invisible curtain of stormy winds that moves with him. The wind wall grants the caster +4 bonus to saves vs. breath and AC against missiles for the duration of the spell. Non-magical missile weapons are deflected away, while gases cannot penetrate the barrier. Tiny and small flying creatures cannot pass through.~
 
 @1111=~Rigid Thinking
-Level: 3
+Grad: 3
 School: Enchantment
 Sphere: Law
 Range: Long
@@ -752,7 +752,7 @@ The target of this spell must make a saving throw vs. spell or come under its ef
 
 @111=~Cure Critical Wounds~
 @112=~Cure Critical Wounds
-Level: 4
+Grad: 4
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -765,7 +765,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 
 @113=~Animal Summoning IV~
 @114=~Animal Summoning IV
-Level: 4
+Grad: 4
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -793,7 +793,7 @@ Pounce: can charge a target if at least 6 feet away. During that round the leopa
 
 @115=~Free Action~
 @116=~Free Action
-Level: 4
+Grad: 4
 School: Abjuration
 Sphere: Charm
 Range: Touch
@@ -806,7 +806,7 @@ While under the effects of this spell, the recipient becomes immune to everythin
 
 @117=~Neutralize Poison~
 @118=~Neutralize Poison
-Level: 4
+Grad: 4
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -819,7 +819,7 @@ This spell removes all toxins from the body, both natural and magical in nature.
 
 @119=~Mental Domination~
 @120=~Mental Domination
-Level: 4
+Grad: 4
 School: Enchantment
 Sphere: Thought
 Range: Long
@@ -832,7 +832,7 @@ When cast upon a subject, he must make a save vs. spell at -2 in order to avoid 
 
 @121=~Defensive Harmony~
 @122=~Defensive Harmony
-Level: 4
+Grad: 4
 School: Enchantment
 Sphere: Law
 Range: Personal
@@ -845,7 +845,7 @@ Defensive Harmony grants affected creatures a defensive bonus by enhancing the c
 
 @123=~Protection from Electricity~
 @124=~Protection from Electricity
-Level: 5
+Grad: 5
 School: Abjuration
 Sphere: Elemental, Protection
 Range: Touch
@@ -858,7 +858,7 @@ When a Protection from Electricity spell is cast, the recipient receives complet
 
 @125=~Magic Circle against Evil~
 @126=~Magic Circle against Evil
-Level: 4
+Grad: 4
 School: Abjuration
 Sphere: Protection
 Range: Personal
@@ -871,7 +871,7 @@ Upon casting this spell, the priest causes all friendly creatures within the are
 
 @127=~Death Ward~
 @128=~Death Ward
-Level: 4
+Grad: 4
 School: Necromancy
 Sphere: Necromantic
 Range: Touch
@@ -884,7 +884,7 @@ While under the effects of this spell, the recipient is immune to all forms of d
 
 @129=~Call Woodland Beings~
 @130=~Call Woodland Beings
-Level: 4
+Grad: 4
 School: Conjuration
 Sphere: Animal
 Range: Medium
@@ -931,7 +931,7 @@ Memorized Spells:
 
 @131=~Poison~
 @132=~Poison
-Level: 4
+Grad: 4
 School: Necromancy
 Sphere: Healing
 Range: Short
@@ -942,16 +942,16 @@ Saving Throw: Poison partial
 
 Through this spell, the caster can poison a single victim. The damage dealt by the poison depends upon the level of the priest casting the spell.
 
-7th level:  4d4  +  1 every 4 seconds
-9th level:  5d5  +  1 every 3 seconds
-12th level:  6d6  +  1 every 2 seconds
-15th+ level:  8d8  +  1 every 1 second
+7. Stufe:  4d4  +  1 every 4 seconds
+9. Stufe:  5d5  +  1 every 3 seconds
+12. Stufe:  6d6  +  1 every 2 seconds
+15.+ Stufe:  8d8  +  1 every 1 second
 
 The victim cannot avoid the initial damage unless it is completely immune to the effects of poison, but a successful save vs. poison at -2 will negate the ongoing damage.~
 
 @133=~Divine Power~
 @134=~Divine Power
-Level: 4
+Grad: 4
 School: Evocation
 Sphere: Combat
 Range: Personal
@@ -966,7 +966,7 @@ Note: this spell does not give any extra attacks to multiclassed or dual-classed
 
 @135=~Negative Plane Protection~
 @136=~Negative Plane Protection
-Level: 4
+Grad: 4
 School: Abjuration
 Sphere: Necromantic, Protection
 Range: Touch
@@ -979,7 +979,7 @@ When a Negative Plane Protection spell is cast, the recipient receives complete 
 
 @137=~Cause Critical Wounds~
 @138=~Cause Critical Wounds
-Level: 4
+Grad: 4
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -992,7 +992,7 @@ This spell is the reverse of Cure Critical Wounds. Instead of healing the creatu
 
 @139=~Farsight~
 @140=~Farsight
-Level: 4
+Grad: 4
 School: Divination
 Sphere: Divination
 Range: Personal
@@ -1005,7 +1005,7 @@ When Farsight is cast, the caster is able to view an area of an unexplored map. 
 
 @141=~Cloak of Fear~
 @142=~Cloak of Fear
-Level: 4
+Grad: 4
 School: Conjuration
 Sphere: Charm
 Range: Personal
@@ -1018,7 +1018,7 @@ Cloak of Fear empowers the caster to radiate a personal aura of fear out to a 6'
 
 @143=~Lesser Restoration~
 @144=~Lesser Restoration
-Level: 4
+Grad: 4
 School: Necromancy
 Sphere: Necromantic
 Range: Touch
@@ -1033,7 +1033,7 @@ The casting of this spell is very draining on the priest, leaving him physically
 
 @145=~Ice Storm~
 @146=~Ice Storm
-Level: 4
+Grad: 4
 School: Evocation
 Sphere: Elemental (Water)
 Range: Long
@@ -1049,7 +1049,7 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 
 @151=~Animal Summoning V~
 @152=~Animal Summoning V
-Level: 5
+Grad: 5
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -1081,7 +1081,7 @@ Immune to entangle, grease, web and poison effects~
 
 @153=~Cure Mortal Wounds~
 @154=~Cure Mortal Wounds
-Level: 5
+Grad: 5
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -1094,7 +1094,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 
 @155=~Flame Strike~
 @156=~Flame Strike
-Level: 5
+Grad: 5
 School: Evocation
 Sphere: Combat, Elemental (Fire)
 Range: Long
@@ -1107,7 +1107,7 @@ Upon casting this spell, a vertical column of fire roars downward, striking a vi
 
 @157=~Raise Dead~
 @158=~Raise Dead
-Level: 5
+Grad: 5
 School: Necromancy
 Sphere: Necromantic
 Range: Short
@@ -1120,7 +1120,7 @@ When the priest casts a Raise Dead spell, life can be restored to a dead comrade
 
 @2157=~Harper's Call~
 @2158=~Harper's Call
-Level: 5
+Grad: 5
 School: Necromancy
 Sphere: Necromantic
 Range: Short
@@ -1133,7 +1133,7 @@ This spell is only available to Harpers. The Harper's Call restores a comrade to
 
 @159=~True Seeing~
 @160=~True Seeing
-Level: 5
+Grad: 5
 School: Divination
 Sphere: All
 Range: Personal
@@ -1148,7 +1148,7 @@ Note: True Seeing does not dispel illusionary clones such as those conjured by M
 
 @161=~Stoneskin~
 @162=~Stoneskin
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Elemental (Earth)
 Range: Personal
@@ -1163,7 +1163,7 @@ It is important to note that this will not protect the druid from any area attac
 
 @163=~Champion's Strength~
 @164=~Champion's Strength
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Law
 Range: Medium
@@ -1176,7 +1176,7 @@ When this spell is cast, the priest draws on the power of his god and lends it t
 
 @165=~Chaotic Commands~
 @166=~Chaotic Commands
-Level: 5
+Grad: 5
 School: Enchantment
 Sphere: Chaos
 Range: Touch
@@ -1189,7 +1189,7 @@ While under the effects of this spell, the recipient becomes immune to magical c
 
 @167=~Magic Resistance~
 @168=~Magic Resistance
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Protection
 Range: Touch
@@ -1202,7 +1202,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of magic
 
 @169=~Cause Mortal Wounds~
 @170=~Cause Mortal Wounds
-Level: 5
+Grad: 5
 School: Necromancy
 Sphere: Healing
 Range: Personal
@@ -1215,7 +1215,7 @@ This spell is the reverse of Cure Mortal Wounds. Instead of healing the creature
 
 @171=~Slay Living~
 @172=~Slay Living
-Level: 5
+Grad: 5
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -1228,7 +1228,7 @@ Upon casting this spell, the priest has to touch an opponent in order to visit t
 
 @173=~Greater Command~
 @174=~Greater Command
-Level: 5
+Grad: 5
 School: Enchantment
 Sphere: Charm, Combat, Law
 Range: Long
@@ -1241,7 +1241,7 @@ As with the first level spell Command, this spell enables the priest to command 
 
 @175=~Righteous Fury~
 @176=~Righteous Fury
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Combat
 Range: Personal
@@ -1254,7 +1254,7 @@ This is a powerful combat spell that enhances the priest's physical prowess, cha
 
 @177=~Mass Cure~
 @178=~Mass Cure
-Level: 5
+Grad: 5
 School: Necromancy
 Sphere: Healing
 Range: Personal
@@ -1267,7 +1267,7 @@ When casting this spell, the priest must picture the faces of his fellow party m
 
 @105=~Repulsion~
 @106=~Repulsion
-Level: 5
+Grad: 5
 School: Abjuration
 Sphere: Wards
 Range: Personal
@@ -1280,7 +1280,7 @@ An invisible, mobile field surrounds the caster and prevents creatures from appr
 
 @179=~Pixie Dust~
 @180=~Pixie Dust
-Level: 5
+Grad: 5
 School: Conjuration
 Sphere: Combat
 Range: Personal
@@ -1293,7 +1293,7 @@ This spell creates a handful of pixie dust that the caster can toss into the air
 
 @181=~Insect Plague~
 @182=~Insect Plague
-Level: 5
+Grad: 5
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -1308,7 +1308,7 @@ For the duration of the spell, those affected fight with a -2 penalty to attack 
 
 @185=~Polymorph Other~
 @186=~Polymorph Other
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Animal
 Range: Long
@@ -1323,7 +1323,7 @@ Note that all clothes and equipment that the target was wearing will mold into t
 
 @187=~Protection from Acid~
 @188=~Protection from Acid
-Level: 5
+Grad: 5
 School: Abjuration
 Sphere: Elemental, Protection
 Range: Touch
@@ -1336,7 +1336,7 @@ When a Protection from Acid spell is cast, the recipient receives complete prote
 
 @189=~Protection from Cold~
 @190=~Protection from Cold
-Level: 5
+Grad: 5
 School: Abjuration
 Sphere: Elemental, Protection
 Range: Touch
@@ -1352,7 +1352,7 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 
 @191=~Aerial Servant~
 @192=~Aerial Servant
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Summoning
 Range: Medium
@@ -1374,7 +1374,7 @@ Immune to hold, poison, sleep, & stun effects~
 
 @193=~Animal Summoning VI~
 @194=~Animal Summoning VI
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -1397,7 +1397,7 @@ HP 78, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
 
 @195=~Blade Barrier~
 @196=~Blade Barrier
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Guardian, Creation
 Range: Personal
@@ -1412,7 +1412,7 @@ Note that spells like Invisibility, Shadow Door, etc. will not function on the c
 
 @197=~Conjure Animals~
 @198=~Conjure Animals
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Summoning
 Range: Long
@@ -1425,7 +1425,7 @@ This spell allows the caster to summon forth and control one or two massive moun
 
 @199=~Conjure Fire Elemental~
 @200=~Conjure Fire Elemental
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Elemental (Fire)
 Range: Medium
@@ -1454,7 +1454,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @201=~Fire Seeds~
 @202=~Fire Seeds
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Elemental (Fire)
 Range: Personal
@@ -1467,7 +1467,7 @@ This spell enables the druid to create a number of fire seeds, one for every 2 e
 
 @203=~Heal~
 @204=~Heal
-Level: 6
+Grad: 6
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -1480,7 +1480,7 @@ The very potent Heal spell enables the priest to wipe away any injury in the cre
 
 @205=~Harm~
 @206=~Harm
-Level: 6
+Grad: 6
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -1493,7 +1493,7 @@ This spell is the reverse of Heal. Instead of healing the creature touched, it c
 
 @207=~False Dawn~
 @208=~False Dawn
-Level: 6
+Grad: 6
 School: Evocation
 Sphere: Sun
 Range: Personal
@@ -1506,7 +1506,7 @@ By drawing on the power of the sun, this spell causes the caster's body to emana
 
 @209=~Dolorous Decay~
 @210=~Dolorous Decay
-Level: 6
+Grad: 6
 School: Alteration, Necromancy
 Sphere: Combat, Necromantic
 Range: Medium
@@ -1519,7 +1519,7 @@ This spell affects a single living creature. Dolorous Decay is a rotting and wit
 
 @211=~Wondrous Recall~
 @212=~Wondrous Recall
-Level: 6
+Grad: 6
 School: Alteration
 Sphere: Charm, Creation
 Range: Personal
@@ -1532,7 +1532,7 @@ This spell enables the caster to bring back into memory two spells that have bee
 
 @213=~Bolt of Glory~
 @214=~Bolt of Glory
-Level: 6
+Grad: 6
 School: Evocation
 Sphere: Combat, Summoning
 Range: Long
@@ -1553,7 +1553,7 @@ Magic resistance does not affect this spell.~
 
 @215=~Physical Mirror~
 @216=~Physical Mirror
-Level: 6
+Grad: 6
 School: Alteration
 Sphere: Numbers
 Range: Personal
@@ -1566,7 +1566,7 @@ This spell causes a localized folding of space. The folded space takes the form 
 
 @217=~Sol's Searing Orb~
 @218=~Sol's Searing Orb
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Elemental (Fire)
 Range: Personal
@@ -1579,7 +1579,7 @@ When the spell is completed, it creates a glowing gem. This gem must be thrown a
 
 @219=~Conjure Air Elemental~
 @220=~Conjure Air Elemental
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Elemental (Air)
 Range: Medium
@@ -1607,7 +1607,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
 @221=~Conjure Earth Elemental~
 @222=~Conjure Earth Elemental
-Level: 6
+Grad: 6
 School: Conjuration
 Sphere: Elemental (Earth)
 Range: Medium
@@ -1635,7 +1635,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 
 @223=~Banishment~
 @224=~Banishment
-Level: 6
+Grad: 6
 School: Abjuration
 Sphere: Wards
 Range: Long
@@ -1648,7 +1648,7 @@ This spell forces hostile summoned creatures in the area back to their proper pl
 
 @225=~Animate Skeleton Warrior~
 @226=~Animate Skeleton Warrior
-Level: 6
+Grad: 6
 School: Necromancy
 Sphere: Necromantic
 Range: Long
@@ -1675,7 +1675,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
 @231=~Shield of the Archons~
 @232=~Shield of the Archons
-Level: 7
+Grad: 7
 School: Abjuration
 Sphere: Protection
 Range: Personal
@@ -1690,7 +1690,7 @@ This spell also grants protection from spells cast from scrolls and innate spell
 
 @233=~Summon Shambling Mound~
 @234=~Summon Shambling Mound
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Plant
 Range: Medium
@@ -1720,7 +1720,7 @@ Crushing Resistance 100%; Slashing, Piercing, & Missile Resistance 50%~
 
 @235=~Summon Death Knight~
 @236=~Summon Death Knight
-Level: 7
+Grad: 7
 School: Necromancy
 Sphere: All
 Range: Medium
@@ -1751,7 +1751,7 @@ Symbols: of Weakness or Death (once per day each)~
 
 @237=~Nature's Beauty~
 @238=~Nature's Beauty
-Level: 7
+Grad: 7
 School: Illusion
 Sphere: Elemental
 Range: Personal
@@ -1766,7 +1766,7 @@ If the caster harms, or attempts to harm, a charmed creature by some overt actio
 
 @239=~Fire Storm~
 @240=~Fire Storm
-Level: 7
+Grad: 7
 School: Evocation
 Sphere: Combat, Elemental (Fire)
 Range: Long
@@ -1779,7 +1779,7 @@ When a Fire Storm spell is cast, the whole area is shot through with sheets of r
 
 @241=~Symbol of Weakness~
 @242=~Symbol of Weakness
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Combat
 Range: Long
@@ -1792,7 +1792,7 @@ Symbol of Weakness is a powerful enchantment that allows the caster to inscribe 
 
 @243=~Sunray~
 @244=~Sunray
-Level: 7
+Grad: 7
 School: Evocation
 Sphere: Sun
 Range: Personal
@@ -1805,7 +1805,7 @@ When this spell is cast, it causes a ray of sunlight to beam down upon the caste
 
 @245=~Finger of Death~
 @246=~Finger of Death
-Level: 7
+Grad: 7
 School: Necromancy
 Sphere: War
 Range: Long
@@ -1818,7 +1818,7 @@ The Finger of Death spell snuffs out the victim's life force. The caster points 
 
 @247=~Holy Word~
 @248=~Holy Word
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Combat
 Range: Personal
@@ -1839,7 +1839,7 @@ The effects are cumulative and concurrent.~
 
 @249=~Regeneration~
 @250=~Regeneration
-Level: 7
+Grad: 7
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -1852,7 +1852,7 @@ This powerful spell enables the caster to imbue a creature with the ability to r
 
 @251=~Resurrection~
 @252=~Resurrection
-Level: 7
+Grad: 7
 School: Necromancy
 Sphere: Necromantic
 Range: Touch
@@ -1865,7 +1865,7 @@ Like the 5th level spell Raise Dead, Resurrection will return a character back t
 
 @253=~Greater Restoration~
 @254=~Greater Restoration
-Level: 7
+Grad: 7
 School: Necromancy
 Sphere: Necromantic
 Range: Touch
@@ -1880,7 +1880,7 @@ The casting of this spell is very draining on the priest, leaving him physically
 
 @255=~Unholy Word~
 @256=~Unholy Word
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Combat
 Range: Personal
@@ -1901,7 +1901,7 @@ The effects are cumulative and concurrent.~
 
 @257=~Creeping Doom~
 @258=~Creeping Doom
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -1916,7 +1916,7 @@ For the duration of the spell, those affected fight with a -2 penalty to attack 
 
 @259=~Symbol of Stunning~
 @260=~Symbol of Stunning
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Combat
 Range: Long
@@ -1929,7 +1929,7 @@ Symbol of Stunning is a powerful enchantment that allows the caster to inscribe 
 
 @261=~Earthquake~
 @262=~Earthquake
-Level: 7
+Grad: 7
 School: Alteration
 Sphere: Elemental (Earth)
 Range: Long
@@ -1946,7 +1946,7 @@ This spell will affect both enemies and friends of the caster, so care must be t
 
 @295=~Symbol of Death~
 @296=~Symbol of Death
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Combat
 Range: Long
@@ -1959,7 +1959,7 @@ Symbol of Death is a powerful enchantment that allows the caster to inscribe a s
 
 @297=~Chaos~
 @298=~Chaos
-Level: 7
+Grad: 7
 School: Enchantment
 Sphere: Chaos
 Range: Long
@@ -1975,7 +1975,7 @@ This spell allows the caster to create a sphere of chaotic magic. All enemies wi
 
 @271=~Energy Blades~
 @272=~Energy Blades
-Level: Quest
+Grad: Quest
 School: Evocation
 Sphere: Creation, Combat
 Range: Personal
@@ -1988,7 +1988,7 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 
 @273=~Storm of Vengeance~
 @274=~Storm of Vengeance
-Level: Quest
+Grad: Quest
 School: Evocation
 Sphere: War, Weather
 Range: Long
@@ -2003,7 +2003,7 @@ Each round, the victims suffer 2d6 points of electrical damage and 2d6 points of
 
 @275=~Elemental Swarm~
 @276=~Elemental Swarm
-Level: Quest
+Grad: Quest
 School: Conjuration
 Sphere: Elemental, Summoning
 Range: Long
@@ -2016,7 +2016,7 @@ Drawing power from the environment, this spell summons a 12HD elemental from eac
 
 @277=~Elemental Prince Call~
 @278=~Elemental Prince Call
-Level: Quest
+Grad: Quest
 School: Conjuration
 Sphere: Elemental, Summoning
 Range: Long
@@ -2071,7 +2071,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @279=~Globe of Blades~
 @280=~Globe of Blades
-Level: Quest
+Grad: Quest
 School: Evocation
 Sphere: Guardian, Creation
 Range: Personal
@@ -2086,7 +2086,7 @@ Note that spells like Invisibility, Shadow Door, etc. will not function on the c
 
 @281=~Summon Deva~
 @282=~Summon Deva
-Level: Quest
+Grad: Quest
 School: Conjuration
 Sphere: All, Summoning
 Range: Long
@@ -2125,7 +2125,7 @@ Memorized Spells:
 
 @283=~Summon Fallen Deva~
 @284=~Summon Fallen Deva
-Level: Quest
+Grad: Quest
 School: Conjuration
 Sphere: All, Summoning
 Range: Long
@@ -2163,7 +2163,7 @@ Memorized Spells:
 
 @285=~Implosion~
 @286=~Implosion
-Level: Quest
+Grad: Quest
 School: Alteration
 Sphere: Combat, Numbers
 Range: Long
@@ -2176,7 +2176,7 @@ This fearsome spell creates a destructive resonance in a corporeal creature's bo
 
 @287=~Mass Raise Dead~
 @288=~Mass Raise Dead
-Level: Quest
+Grad: Quest
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -2189,7 +2189,7 @@ A more powerful version of Raise Dead, this spell brings up to 5 party members b
 
 @289=~Aura of Flaming Death~
 @290=~Aura of Flaming Death
-Level: Quest
+Grad: Quest
 School: Evocation
 Sphere: Protection, Elemental (Fire)
 Range: Personal
@@ -2202,7 +2202,7 @@ This spell causes the caster to be enveloped by an aura of intense flame that bo
 
 @291=~Fire Elemental Transformation~
 @292=~Fire Elemental Transformation
-Level: Quest
+Grad: Quest
 School: Alteration
 Sphere: Combat, Elemental (Fire)
 Range: Personal
@@ -2222,7 +2222,7 @@ Fire Resistance 100%;  Physical Resistance 20%~
 
 @293=~Earth Elemental Transformation~
 @294=~Earth Elemental Transformation
-Level: Quest
+Grad: Quest
 School: Alteration
 Sphere: Combat, Elemental (Earth)
 Range: Personal
@@ -2245,7 +2245,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 
 @301=~Regenerate Light Wounds~
 @302=~Regenerate Light Wounds
-Level: 1
+Grad: 1
 School: Alteration
 Sphere: Healing
 Range: Touch
@@ -2258,7 +2258,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 
 @303=~Regenerate Moderate Wounds~
 @304=~Regenerate Moderate Wounds
-Level: 2
+Grad: 2
 School: Alteration
 Sphere: Healing
 Range: Touch
@@ -2271,7 +2271,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 
 @305=~Regenerate Serious Wounds~
 @306=~Regenerate Serious Wounds
-Level: 3
+Grad: 3
 School: Alteration
 Sphere: Healing
 Range: Touch
@@ -2284,7 +2284,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 
 @307=~Regenerate Critical Wounds~
 @308=~Regenerate Critical Wounds
-Level: 4
+Grad: 4
 School: Alteration
 Sphere: Healing
 Range: Touch
@@ -2297,7 +2297,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 
 @309=~Mass Regenerate~
 @310=~Mass Regenerate
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Healing
 Range: Touch
@@ -2310,7 +2310,7 @@ This spell enables the caster to imbue all allies within sight with the ability 
 
 @311=~Regeneration~
 @312=~Regeneration
-Level: 6
+Grad: 6
 School: Alteration
 Sphere: Healing
 Range: Touch
@@ -2326,7 +2326,7 @@ This powerful spell enables the caster to imbue a creature with the ability to r
 
 @313=~Gust of Wind~
 @314=~Gust of Wind
-Level: 2
+Grad: 2
 School: Evocation
 Sphere: Elemental (Air)
 Range: Personal
@@ -2339,7 +2339,7 @@ This spell creates a severe blast of air that originates from the caster, affect
 
 @315=~Cause Light Wounds~
 @316=~Cause Light Wounds
-Level: 1
+Grad: 1
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -2352,7 +2352,7 @@ This spell is the reverse of Cure Light Wounds. Instead of healing the creature 
 
 @317=~Cause Moderate Wounds~
 @318=~Cause Moderate Wounds
-Level: 2
+Grad: 2
 School: Necromancy
 Sphere: Necromantic
 Range: Personal
@@ -2365,7 +2365,7 @@ This spell is the reverse of Cure Moderate Wounds. Instead of healing the creatu
 
 @319=~Animal Summoning I~
 @320=~Animal Summoning I
-Level: 1
+Grad: 1
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -2396,7 +2396,7 @@ Blindsense: relies on echolocation to fight in conditions of poor light or total
 
 @321=~Obscuring Mist~
 @322=~Obscuring Mist
-Level: 1
+Grad: 1
 School: Conjuration
 Sphere: Weather
 Range: Long
@@ -2409,7 +2409,7 @@ When this spell is cast, a misty bank of fog billows out from the designated poi
 
 @323=~Animal Summoning II~
 @324=~Animal Summoning II
-Level: 2
+Grad: 2
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -2436,7 +2436,7 @@ Scent: detect invisible creatures within 10 feet~
 
 @325=~Animal Summoning III~
 @326=~Animal Summoning III
-Level: 3
+Grad: 3
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -2463,7 +2463,7 @@ Pack Attack: each wolf within 10 feet grants additional +1 bonus to attack rolls
 
 @327=~Magic Fang~
 @328=~Magic Fang
-Level: 3
+Grad: 3
 School: Alteration
 Sphere: Animal
 Range: Long
@@ -2476,7 +2476,7 @@ This spell turns natural weapons (such as teeth, claws, etc.) of friendly animal
 
 @329=~Animal Growth~
 @330=~Animal Growth
-Level: 5
+Grad: 5
 School: Alteration
 Sphere: Animal
 Range: Long
@@ -2489,7 +2489,7 @@ When this spell is cast, the caster causes all friendly animals within range to 
 
 @331=~Animal Summoning VII~
 @332=~Animal Summoning VII
-Level: 7
+Grad: 7
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -2516,7 +2516,7 @@ Cold Resistance 20%~
 
 @333=~Spike Growth~
 @334=~Spike Growth
-Level: 3
+Grad: 3
 School: Alteration
 Sphere: Plant
 Range: Long
@@ -2529,7 +2529,7 @@ The ground in a 20-foot radius centered on a point within range twists and sprou
 
 @335=~Icelance~
 @336=~Icelance
-Level: 3
+Grad: 3
 School: Evocation
 Sphere: Elemental (Water)
 Range: Short
@@ -2551,7 +2551,7 @@ When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6
 
 @394=~Animal Summoning IV~
 @395=~Animal Summoning IV
-Level: 1
+Grad: 1
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -2569,7 +2569,7 @@ HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
 
 @396=~Animal Summoning V~
 @397=~Animal Summoning V
-Level: 2
+Grad: 2
 School: Conjuration
 Sphere: Animal
 Range: Long
@@ -2587,7 +2587,7 @@ HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
 
 @398=~Animal Summoning VI~
 @399=~Animal Summoning VI
-Level: 3
+Grad: 3
 School: Conjuration
 Sphere: Animal
 Range: Long

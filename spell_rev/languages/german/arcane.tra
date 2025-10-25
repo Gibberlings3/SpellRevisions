@@ -2,7 +2,7 @@
 
 @401=~Grease~
 @402=~Grease
-Level: 1
+Grad: 1
 School: Conjuration
 Range: Medium
 Duration: 1 turn
@@ -14,7 +14,7 @@ A Grease spell covers a material surface with a slippery layer of a fatty, greas
 
 @403=~Mage Armor~
 @404=~Mage Armor
-Level: 1
+Grad: 1
 School: Conjuration
 Range: Personal
 Duration: 8 hours
@@ -26,7 +26,7 @@ By means of this spell, the wizard creates a magical field of force that sets it
 
 @405=~Burning Hands~
 @406=~Burning Hands
-Level: 1
+Grad: 1
 School: Evocation
 Range: Special
 Duration: Instant
@@ -38,7 +38,7 @@ When the wizard casts this spell, a cone of searing flames shoots from his finge
 
 @407=~Charm Person~
 @408=~Charm Person
-Level: 1
+Grad: 1
 School: Enchantment
 Range: Long
 Duration: 5 rounds
@@ -52,7 +52,7 @@ Creatures that are currently neutral to the caster are more amenable to helping 
 
 @409=~Color Spray~
 @410=~Color Spray
-Level: 1
+Grad: 1
 School: Alteration
 Range: Special
 Duration: Special
@@ -64,7 +64,7 @@ Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing
 
 @411=~Obscuring Mist~
 @412=~Obscuring Mist
-Level: 1
+Grad: 1
 School: Conjuration
 Range: Long
 Duration: 6 rounds
@@ -76,7 +76,7 @@ When this spell is cast, a misty bank of fog billows out from the designated poi
 
 @413=~Monster Summoning I~
 @414=~Monster Summoning I
-Level: 1
+Grad: 1
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -98,7 +98,7 @@ HP 8, AC 10, THAC0 19, Saving Throws 13/17/15/13/17
 
 @415=~Expeditious Retreat~
 @416=~Expeditious Retreat
-Level: 1
+Grad: 1
 School: Alteration
 Range: Personal
 Duration: 3 rounds
@@ -110,7 +110,7 @@ When cast, this spell provides all friendly creatures in the area with an amazin
 
 @417=~Identify~
 @418=~Identify
-Level: 1
+Grad: 1
 School: Divination
 Range: Personal
 Duration: Instant
@@ -122,7 +122,7 @@ When this spell is cast, name and enchantments (including curses) of one item su
 
 @419=~True Strike~
 @420=~True Strike
-Level: 1
+Grad: 1
 School: Divination
 Range: Personal
 Duration: 3 rounds
@@ -134,7 +134,7 @@ This spell grants the caster otherworldly sight, resulting in preternatural accu
 
 @421=~Magic Missile~
 @422=~Magic Missile
-Level: 1
+Grad: 1
 School: Evocation
 Range: Long
 Duration: Instant
@@ -146,7 +146,7 @@ Use of the Magic Missile spell, one of the most popular first level spells, crea
 
 @423=~Protection from Evil~
 @424=~Protection from Evil
-Level: 1
+Grad: 1
 School: Abjuration
 Range: Touch
 Duration: 5 turns
@@ -158,7 +158,7 @@ When this spell is cast, it creates a magical barrier around the recipient at a 
 
 @425=~Shield~
 @426=~Shield
-Level: 1
+Grad: 1
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -170,7 +170,7 @@ When this spell is cast, an invisible barrier comes into being in front of the w
 
 @427=~Shocking Grasp~
 @428=~Shocking Grasp
-Level: 1
+Grad: 1
 School: Evocation
 Range: Personal
 Duration: Special
@@ -182,7 +182,7 @@ When the wizard touches a creature while this spell is in effect, an electrical 
 
 @429=~Sleep~
 @430=~Sleep
-Level: 1
+Grad: 1
 School: Enchantment
 Range: Long
 Duration: 5 rounds
@@ -194,7 +194,7 @@ When a wizard casts a Sleep spell, he causes a comatose slumber to come upon one
 
 @431=~Chill Touch~
 @432=~Chill Touch
-Level: 1
+Grad: 1
 School: Necromancy
 Range: Personal
 Duration: 1 turn
@@ -206,7 +206,7 @@ When the caster completes this spell, a blue glow encompasses his hand. This ene
 
 @433=~Chromatic Orb~
 @434=~Chromatic Orb
-Level: 1
+Grad: 1
 School: Alteration
 Range: Long
 Duration: Special
@@ -216,13 +216,13 @@ Saving Throw: Spell partial
 
 This spell causes a 2-foot-diameter sphere to appear in the caster's hand. When thrown, the sphere heads unerringly towards its target. The sphere inflicts magic damage and causes different effects depending upon its color. As the level of the caster improves, both the damage inflicted and number of colors known increases. The color of any given orb is chosen randomly from the colors known at the wizard's level. The orb is occasionally even multicolored, causing multiple effects. The victim can save vs. spell against all special effects but gets no save against the damage. All special effects last for 5 rounds.
 
-1st level: 1d3 damage; White - Light (-4 penalty to saving throws)
-2nd level: 1d4 damage; Aquamarine - Magnetism (-4 penalty to AC)
-4th level: 1d6 damage; Red - Pain (-1 to strength and dexterity)
-6th level: 1d8 damage; Green - Poison (2hp/round)
-8th level: 1d10 damage; Yellow - Blindness
-10th level: 2d6 damage; Violet - Slow
-12th+ level:  2d8 damage; Blue - Paralysis~
+1. Stufe: 1d3 damage; White - Light (-4 penalty to saving throws)
+2. Stufe: 1d4 damage; Aquamarine - Magnetism (-4 penalty to AC)
+4. Stufe: 1d6 damage; Red - Pain (-1 to strength and dexterity)
+6. Stufe: 1d8 damage; Green - Poison (2hp/round)
+8. Stufe: 1d10 damage; Yellow - Blindness
+10. Stufe: 2d6 damage; Violet - Slow
+12.+ Stufe:  2d8 damage; Blue - Paralysis~
 
 @1001=~White Orb~
 @1002=~Red Orb~
@@ -234,7 +234,7 @@ This spell causes a 2-foot-diameter sphere to appear in the caster's hand. When 
 
 @435=~Larloch's Minor Drain~
 @436=~Larloch's Minor Drain
-Level: 1
+Grad: 1
 School: Necromancy
 Range: Long
 Duration: Special
@@ -246,7 +246,7 @@ With this spell, the wizard drains the life force from a target and adds it to h
 
 @437=~Reflected Image~
 @438=~Reflected Image
-Level: 1
+Grad: 1
 School: Illusion
 Range: Personal
 Duration: 4 rounds +1 round/3 levels
@@ -258,7 +258,7 @@ Upon casting this spell, the wizard creates one illusory image of himself that w
 
 @439=~Find Familiar~
 @440=~Find Familiar
-Level: 1
+Grad: 1
 School: Universal
 Range: Short
 Duration: Permanent
@@ -289,7 +289,7 @@ You can view your familiar's statistics from the inventory screen.~
 
 @441=~Nahal's Reckless Dweomer~
 @442=~Nahal's Reckless Dweomer
-Level: 1
+Grad: 1
 School: Conjuration
 Range: Personal
 Duration: Special
@@ -305,7 +305,7 @@ Because the release of energy is planned by the mage, his level is added to the 
 
 @443=~Spook~
 @444=~Spook
-Level: 1
+Grad: 1
 School: Illusion
 Range: Long
 Duration: 5 rounds
@@ -317,7 +317,7 @@ A Spook spell enables the wizard to play upon natural fears to cause the target 
 
 @445=~Protection from Petrification~
 @446=~Protection from Petrification
-Level: 1
+Grad: 1
 School: Abjuration
 Range: Touch
 Duration: 1 hour
@@ -331,7 +331,7 @@ This spell grants the recipient immunity to all petrification attacks. This incl
 
 @451=~Blur~
 @452=~Blur
-Level: 2
+Grad: 2
 School: Illusion
 Range: Personal
 Duration: 5 turns
@@ -343,7 +343,7 @@ A Blur spell causes the mage's form and spirit to become blurred, shifting and w
 
 @453=~Detect Alignment~
 @454=~Detect Alignment
-Level: 2
+Grad: 2
 School: Divination
 Range: Personal
 Duration: Instant
@@ -354,7 +354,7 @@ Saving Throw: None
 This spell allows the wizard to search out the feelings of all creatures within the current area. When affected by this spell, a target will briefly glow red if he's evil, green if he's good, and white if he's neutral. Magic resistance does not affect this spell.~
 //Detect alignment in level 1.
 @2000=~Detect Alignment
-Level: 1
+Grad: 1
 School: Divination
 Range: Personal
 Duration: Instant
@@ -366,7 +366,7 @@ This spell allows the wizard to search out the feelings of all creatures within 
 
 @455=~Detect Invisibility~
 @456=~Detect Invisibility
-Level: 2
+Grad: 2
 School: Divination
 Range: Personal
 Duration: 5 rounds
@@ -378,7 +378,7 @@ When a wizard casts a Detect Invisibility spell, he becomes able to see clearly 
 
 @457=~Horror~
 @458=~Horror
-Level: 2
+Grad: 2
 School: Necromancy
 Range: Long
 Duration: 5 rounds
@@ -390,7 +390,7 @@ When this spell is cast, all enemies within the area of effect must save vs. spe
 
 @459=~Invisibility~
 @460=~Invisibility
-Level: 2
+Grad: 2
 School: Illusion
 Range: Touch
 Duration: Special
@@ -402,7 +402,7 @@ This spell causes the creature touched to vanish from sight and be undetectable 
 
 @461=~Battering Ram~
 @462=~Battering Ram
-Level: 2
+Grad: 2
 School: Evocation
 Range: Medium
 Duration: Instant
@@ -414,7 +414,7 @@ This spell creates a ram-like force that can strike with considerable power. The
 
 @463=~Know Opponent~
 @464=~Know Opponent
-Level: 2
+Grad: 2
 School: Divination
 Range: Long
 Duration: 2 turns
@@ -426,7 +426,7 @@ When this spell is cast, the wizard's eyes glow with magical energy, enabling hi
 
 @465=~Luck~
 @466=~Luck
-Level: 2
+Grad: 2
 School: Enchantment
 Range: Medium
 Duration: 5 turns
@@ -438,7 +438,7 @@ The recipient of this spell is lucky in everything that he does for the next hou
 
 @467=~Resist Fear~
 @468=~Resist Fear
-Level: 2
+Grad: 2
 School: Abjuration
 Range: Long
 Duration: 5 turns
@@ -450,7 +450,7 @@ The wizard instills courage in allies, raising their morale to its highest. If t
 
 @469=~Melf's Acid Arrow~
 @470=~Melf's Acid Arrow
-Level: 2
+Grad: 2
 School: Conjuration
 Range: Long
 Duration: 1 round/3 levels
@@ -462,7 +462,7 @@ By means of this spell, the wizard creates a magical arrow that speeds to its ta
 
 @471=~Mirror Image~
 @472=~Mirror Image
-Level: 2
+Grad: 2
 School: Illusion
 Range: Personal
 Duration: 5 turns
@@ -474,7 +474,7 @@ When a Mirror Image spell is invoked, the spellcaster causes a number of illusor
 
 @473=~Stinking Cloud~
 @474=~Stinking Cloud
-Level: 2
+Grad: 2
 School: Conjuration
 Range: Long
 Duration: 1 turn
@@ -486,7 +486,7 @@ When Stinking Cloud is cast, a billowing mass of nauseous vapors appears centere
 
 @475=~Strength~
 @476=~Strength
-Level: 2
+Grad: 2
 School: Alteration
 Range: Short
 Duration: 1 turn/level
@@ -498,7 +498,7 @@ Application of this spell sets the strength of the character to 18 and then adds
 
 @477=~Web~
 @478=~Web
-Level: 2
+Grad: 2
 School: Conjuration
 Range: Long
 Duration: 1 turn
@@ -510,7 +510,7 @@ A Web spell creates a many-layered mass of strong, sticky strands similar to spi
 
 @479=~Agannazar's Scorcher~
 @480=~Agannazar's Scorcher
-Level: 2
+Grad: 2
 School: Evocation
 Range: Medium
 Duration: 2 rounds
@@ -522,7 +522,7 @@ Upon casting this spell, a jet of flame appears at the caster's fingertips and b
 
 @481=~Ghoul Touch~
 @482=~Ghoul Touch
-Level: 2
+Grad: 2
 School: Necromancy
 Range: Personal
 Duration: 1 turn
@@ -534,7 +534,7 @@ When the caster completes this spell, a red glow encompasses his hand. On a succ
 
 @483=~Vocalize~
 @484=~Vocalize
-Level: 2
+Grad: 2
 School: Alteration
 Range: Personal
 Duration: 1 turn
@@ -546,7 +546,7 @@ The recipient of this spell gains the ability to cast spells with a verbal compo
 
 @485=~Power Word Sleep~
 @486=~Power Word Sleep
-Level: 2
+Grad: 2
 School: Enchantment
 Range: Long
 Duration: 5 rounds
@@ -558,7 +558,7 @@ When a wizard utters this power word, he causes a comatose slumber to come upon 
 
 @487=~Ray of Enfeeblement~
 @488=~Ray of Enfeeblement
-Level: 2
+Grad: 2
 School: Necromancy
 Range: Long
 Duration: 1 turn
@@ -570,7 +570,7 @@ By means of a Ray of Enfeeblement, a wizard weakens an opponent, reducing its st
 
 @489=~Chaos Shield~
 @490=~Chaos Shield
-Level: 2
+Grad: 2
 School: Abjuration
 Range: Personal
 Duration: 2 rounds/level
@@ -582,7 +582,7 @@ Chaos Shield increases a wild mage's chance to gain a favorable result when a wi
 
 @491=~Sound Burst~
 @492=~Sound Burst
-Level: 2
+Grad: 2
 School: Evocation
 Range: Long
 Duration: 1 turn
@@ -594,7 +594,7 @@ This spell blasts an area with a tremendous cacophony. Enemies within the area s
 
 @493=~Glitterdust~
 @494=~Glitterdust
-Level: 2
+Grad: 2
 School: Conjuration
 Range: Medium
 Duration: 4 rounds
@@ -604,7 +604,7 @@ Saving Throw: Special
 
 This spell creates a cloud of glittering golden particles within the area of effect. The sparkling dust dazzles all opponents in the area (-2 penalty to attack rolls) for 4 rounds and reveals any opponents who are invisible. Those affected must also save vs. breath to avoid becoming completely covered by the dust, which cannot be removed and continues to sparkle for 4 rounds. Those failing the save remain unable to successfully hide themselves until the dust fades.~
 @494000=~Glitterdust
-Level: 2
+Grad: 2
 School: Conjuration
 Range: Medium
 Duration: 4 rounds
@@ -619,7 +619,7 @@ This spell creates a cloud of glittering golden particles within the area of eff
 
 @501=~Clairvoyance~
 @502=~Clairvoyance
-Level: 3
+Grad: 3
 School: Divination
 Range: Personal
 Duration: 2 turns
@@ -631,7 +631,7 @@ This spell grants an unnatural perception of things to come. Once Clairvoyance i
 
 @503=~Dispel Magic~
 @504=~Dispel Magic
-Level: 3
+Grad: 3
 School: Abjuration
 Range: Long
 Duration: Instant
@@ -645,7 +645,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 
 @505=~Flame Arrow~
 @506=~Flame Arrow
-Level: 3
+Grad: 3
 School: Conjuration
 Range: Long
 Duration: Instant
@@ -657,7 +657,7 @@ This spell enables the caster to hurl flaming arrows at his enemies. The caster 
 
 @507=~Fireball~
 @508=~Fireball
-Level: 3
+Grad: 3
 School: Evocation
 Range: Long
 Duration: Instant
@@ -669,7 +669,7 @@ A fireball is an explosive burst of flame that detonates with a low roar, delive
 
 @509=~Haste~
 @510=~Haste
-Level: 3
+Grad: 3
 School: Alteration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -681,7 +681,7 @@ When this spell is cast, the affected creatures gain +6 to movement rate and can
 
 @511=~Hold Person~
 @512=~Hold Person
-Level: 3
+Grad: 3
 School: Enchantment
 Range: Long
 Duration: 1 turn
@@ -695,7 +695,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 
 @513=~Invisibility Sphere~
 @514=~Invisibility Sphere
-Level: 3
+Grad: 3
 School: Illusion
 Range: Personal
 Duration: Special
@@ -707,7 +707,7 @@ This spell confers invisibility upon all friendly creatures within 10 feet of th
 
 @515=~Lightning Bolt~
 @516=~Lightning Bolt
-Level: 3
+Grad: 3
 School: Evocation
 Range: Long
 Duration: Instant
@@ -719,7 +719,7 @@ Upon casting this spell, the wizard releases a powerful stroke of electrical ene
 
 @517=~Monster Summoning III~
 @518=~Monster Summoning III
-Level: 3
+Grad: 3
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -754,7 +754,7 @@ Memorized Spells:
 @519=~Non-Detection~
 // ***** the following description has been altered in English, needs translation
 @520=~Non-Detection
-Level: 3
+Grad: 3
 School: Abjuration
 Casting Time: 3
 Area of Effect: 1 creature
@@ -766,7 +766,7 @@ Note: while a creature protected by Non-Detection cannot be exposed to everyone,
 
 @521=~Protection from Missiles~
 @522=~Protection from Missiles
-Level: 3
+Grad: 3
 School: Abjuration
 Range: Touch
 Duration: 1 turn
@@ -778,7 +778,7 @@ By means of this spell, the wizard bestows upon a creature total invulnerability
 
 @523=~Slow~
 @524=~Slow
-Level: 3
+Grad: 3
 School: Alteration
 Range: Long
 Duration: 1 turn
@@ -790,7 +790,7 @@ A Slow spell causes creatures to move and attack at half of their normal rates u
 
 @525=~Skull Trap~
 @526=~Skull Trap
-Level: 3
+Grad: 3
 School: Necromancy
 Range: Medium
 Duration: Special
@@ -802,7 +802,7 @@ Upon casting this spell, a skull is thrown by the caster at the target area. The
 
 @527=~Vampiric Touch~
 @528=~Vampiric Touch
-Level: 3
+Grad: 3
 School: Necromancy
 Range: Touch
 Duration: Special
@@ -818,7 +818,7 @@ Note that this spell may not be cast multiple times to radically increase the ca
 
 @529=~Dire Charm~
 @530=~Dire Charm
-Level: 3
+Grad: 3
 School: Enchantment
 Range: Long
 Duration: 1 turn
@@ -832,7 +832,7 @@ If the caster harms, or attempts to harm, the charmed creature by some overt act
 
 @531=~Ghost Armor~
 @532=~Ghost Armor
-Level: 3
+Grad: 3
 School: Illusion
 Range: Touch
 Duration: 10 turns
@@ -844,7 +844,7 @@ When this spell is cast, the wizard creates an insubstantial but quasi-real suit
 
 @533=~Minor Spell Deflection~
 @534=~Minor Spell Deflection
-Level: 3
+Grad: 3
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -859,7 +859,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 //Moved to level 4
 @535=~Protection from Fire~
 @536=~Protection from Fire
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -872,7 +872,7 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 //Moved to level 4
 @537=~Protection from Cold~
 @538=~Protection from Cold
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -884,7 +884,7 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 
 @539=~Spell Thrust~
 @540=~Spell Thrust
-Level: 3
+Grad: 3
 School: Abjuration
 Range: Long
 Duration: Instant
@@ -898,7 +898,7 @@ The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Non
 
 @541=~Detect Illusion~
 @542=~Detect Illusion
-Level: 3
+Grad: 3
 School: Divination
 Range: Long
 Duration: Instant
@@ -914,7 +914,7 @@ The illusion spells dispelled by Detect Illusion are: Reflected Image, Blur, Inv
 
 @543=~Halt Undead~
 @544=~Halt Undead
-Level: 3
+Grad: 3
 School: Necromancy
 Range: Long
 Duration: 1 turn
@@ -928,7 +928,7 @@ Those affected become unable move or groan, but they remain aware of events arou
 
 @545=~Melf's Minute Meteors~
 @546=~Melf's Minute Meteors
-Level: 3
+Grad: 3
 School: Evocation
 Range: Personal
 Duration: Special
@@ -942,7 +942,7 @@ This spell enables the wizard to summon small globes of fire (one for each level
 
 @547=~Dispel Magic~
 @548=~Dispel Magic
-Level: 3
+Grad: 3
 School: Abjuration
 Range: Long
 Duration: Instant
@@ -959,7 +959,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 
 @561=~Confusion~
 @562=~Confusion
-Level: 4
+Grad: 4
 School: Enchantment
 Range: Long
 Duration: 5 rounds
@@ -971,7 +971,7 @@ This spell causes confusion in one or more creatures within the area, creating i
 
 @563=~Dimension Jump~
 @564=~Dimension Jump
-Level: 1
+Grad: 1
 School: Conjuration
 Range: Personal
 Duration: Instant
@@ -983,7 +983,7 @@ This spell transports the caster to any place within sight. When the spell is ca
 
 @565=~Mestil's Acid Sheath~
 @566=~Mestil's Acid Sheath
-Level: 5
+Grad: 5
 School: Conjuration
 Range: Personal
 Duration: 2 turns
@@ -995,7 +995,7 @@ This spell conjures an acid shield around the caster. This shield not only grant
 
 @567=~Ice Storm~
 @568=~Ice Storm
-Level: 4
+Grad: 4
 School: Evocation
 Range: Long
 Duration: 4 rounds
@@ -1007,7 +1007,7 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 
 @569=~Improved Invisibility~
 @570=~Improved Invisibility
-Level: 4
+Grad: 4
 School: Illusion
 Range: Touch
 Duration: 3 rounds + 1 round/level
@@ -1019,7 +1019,7 @@ This spell is similar to the Invisibility spell, but the recipient is able to at
 
 @571=~Minor Globe of Invulnerability~
 @572=~Minor Globe of Invulnerability
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Personal
 Duration: 2 turns
@@ -1031,7 +1031,7 @@ This spell creates a faintly shimmering magical sphere around the caster that pr
 
 @573=~Monster Summoning II~
 @574=~Monster Summoning II
-Level: 2
+Grad: 2
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -1058,7 +1058,7 @@ Missile Resistance 90%~
 
 @575=~Stoneskin~
 @576=~Stoneskin
-Level: 4
+Grad: 4
 School: Alteration
 Range: Personal
 Duration: 8 hours
@@ -1072,7 +1072,7 @@ It is important to note that this will not protect the wizard from any area atta
 
 @577=~Contagion~
 @578=~Contagion
-Level: 4
+Grad: 4
 School: Necromancy
 Range: Short
 Duration: 8 hours
@@ -1084,7 +1084,7 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 
 @579=~Break Enchantment~
 @580=~Break Enchantment
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Short
 Duration: Permanent
@@ -1096,7 +1096,7 @@ Upon casting this spell, the mage is able to free a victim from enchantments and
 
 @581=~Emotion: Despair~
 @582=~Emotion: Despair
-Level: 4
+Grad: 4
 School: Enchantment
 Range: Long
 Duration: 2 round/level
@@ -1108,7 +1108,7 @@ When this spell is cast, the wizard can disturb the emotional state of those aro
 
 @583=~Greater Malison~
 @584=~Greater Malison
-Level: 4
+Grad: 4
 School: Enchantment
 Range: Long
 Duration: 2 turns
@@ -1122,7 +1122,7 @@ The spell allows the caster to adversely affect the dice rolls of their enemies.
 
 @585=~Otiluke's Resilient Sphere~
 @586=~Otiluke's Resilient Sphere
-Level: 4
+Grad: 4
 School: Alteration
 Range: Long
 Duration: 1 turn
@@ -1136,7 +1136,7 @@ The caster has the option of using the spell to protect her allies. Resistances 
 
 @587=~Spirit Armor~
 @588=~Spirit Armor
-Level: 4
+Grad: 4
 School: Necromancy
 Range: Touch
 Duration: 10 turns
@@ -1148,7 +1148,7 @@ This spell taps the target's life force in order to create a corporeal barrier a
 
 @589=~Polymorph Other~
 @590=~Polymorph Other
-Level: 4
+Grad: 4
 School: Alteration
 Range: Long
 Duration: Permanent
@@ -1162,7 +1162,7 @@ Note that all clothes and equipment that the target was wearing will mold into t
 
 @591=~Polymorph Self~
 @592=~Polymorph Self
-Level: 4
+Grad: 4
 School: Alteration
 Range: Personal
 Duration: 5 turns
@@ -1207,7 +1207,7 @@ Cold Resistance 100%~
 
 @593=~Enchanted Weapon~
 @594=~Enchanted Weapon
-Level: 4
+Grad: 4
 School: Conjuration
 Range: Personal
 Duration: 1 day
@@ -1219,7 +1219,7 @@ This spell conjures forth a +3 enchanted weapon that can be given to anyone. The
 
 @595=~Fire Shield~
 @596=~Fire Shield
-Level: 4
+Grad: 4
 School: Evocation
 Range: Personal
 Duration: 3 rounds + 1 round/level
@@ -1231,7 +1231,7 @@ This spell protects the user by surrounding the caster with a circular wall of f
 
 @597=~Secret Word~
 @598=~Secret Word
-Level: 4
+Grad: 4
 School: Enchantment
 Range: Long
 Duration: Instant
@@ -1245,7 +1245,7 @@ The spell protection spells dispelled by Secret Word are: Minor Spell Deflection
 
 @599=~Simbul's Spell Matrix~
 @600=~Simbul's Spell Matrix
-Level: 4
+Grad: 4
 School: Universal
 Range: Personal
 Duration: Special
@@ -1257,7 +1257,7 @@ This spell allows a mage to prepare a magical matrix that can store spells to be
 
 @601=~Teleport Field~
 @602=~Teleport Field
-Level: 4
+Grad: 4
 School: Alteration
 Range: Long
 Duration: 1 turn
@@ -1269,7 +1269,7 @@ With this spell, the wizard instigates a teleportation effect as far as the wiza
 
 @603=~Monster Summoning IV~
 @604=~Monster Summoning IV
-Level: 4
+Grad: 4
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -1302,7 +1302,7 @@ Immune to poison & web effects~
 
 @605=~Farsight~
 @606=~Farsight
-Level: 4
+Grad: 4
 School: Divination
 Range: Personal
 Duration: 5 turns
@@ -1314,7 +1314,7 @@ When Farsight is cast, the caster is able to view an area of an unexplored map. 
 
 @607=~Wizard Eye~
 @608=~Wizard Eye
-Level: 4
+Grad: 4
 School: Divination
 Range: Short
 Duration: 1 round/level
@@ -1329,7 +1329,7 @@ When this spell is employed, the wizard creates an invisible sensory organ that 
 
 @611=~Summon Shadow~
 @612=~Summon Shadow
-Level: 5
+Grad: 5
 School: Necromancy
 Range: Long
 Duration: 3 turns
@@ -1376,7 +1376,7 @@ Cold Resistance 100%; Physical Damage Resistance 50%~
 
 @613=~Cloudkill~
 @614=~Cloudkill
-Level: 5
+Grad: 5
 School: Conjuration
 Range: Long
 Duration: 1 turn
@@ -1388,7 +1388,7 @@ This spell generates a billowing cloud of ghastly, yellowish green vapors that i
 
 @615=~Cone of Cold~
 @616=~Cone of Cold
-Level: 5
+Grad: 5
 School: Evocation
 Range: Special
 Duration: Instant
@@ -1400,7 +1400,7 @@ When this spell is cast, it causes a cone-shaped spray of extreme cold to spring
 
 @617=~Monster Summoning V~
 @618=~Monster Summoning V
-Level: 5
+Grad: 5
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -1437,7 +1437,7 @@ Memorized Spells:
 
 @619=~Shadow Door~
 @620=~Shadow Door
-Level: 5
+Grad: 5
 School: Illusion
 Range: Personal
 Duration: 1 round/level
@@ -1449,7 +1449,7 @@ By means of this spell, the wizard creates the illusion of a door. The illusion 
 
 @621=~Domination~
 @622=~Domination
-Level: 5
+Grad: 5
 School: Enchantment
 Range: Long
 Duration: 1 turn
@@ -1461,7 +1461,7 @@ The Domination spell enables the caster to control the actions of any one creatu
 
 @623=~Hold Monster~
 @624=~Hold Monster
-Level: 5
+Grad: 5
 School: Enchantment
 Range: Long
 Duration: 1 turn
@@ -1475,7 +1475,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 
 @625=~Waves of Fatigue~
 @626=~Waves of Fatigue
-Level: 5
+Grad: 5
 School: Necromancy
 Range: Long
 Duration: 5 rounds
@@ -1487,7 +1487,7 @@ Surges of negative energy render all hostile living creatures in the spell's are
 
 @627=~Feeblemind~
 @628=~Feeblemind
-Level: 5
+Grad: 5
 School: Enchantment
 Range: Long
 Duration: Permanent
@@ -1499,7 +1499,7 @@ Feeblemind causes the subject's intellect to degenerate into that of a simple be
 
 @629=~Dispelling Screen~
 @630=~Dispelling Screen
-Level: 5
+Grad: 5
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -1511,7 +1511,7 @@ By casting this spell, caster creates a transparent, permeable barrier that shie
 
 @631=~Protection from Normal Weapons~
 @632=~Protection from Normal Weapons
-Level: 5
+Grad: 5
 School: Abjuration
 Range: Personal
 Duration: 1 round/level
@@ -1523,7 +1523,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 
 @633=~Protection from Electricity~
 @634=~Protection from Electricity
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -1535,7 +1535,7 @@ When a Protection from Electricity spell is cast, the recipient receives complet
 
 @635=~Breach~
 @636=~Breach
-Level: 5
+Grad: 5
 School: Abjuration
 Range: Long
 Duration: Instant
@@ -1551,7 +1551,7 @@ The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor 
 
 @637=~Lower Resistance~
 @638=~Lower Resistance
-Level: 5
+Grad: 5
 School: Alteration
 Range: Long
 Duration: 1 round/level
@@ -1565,7 +1565,7 @@ For example, if a creature has 50% magic resistance and this spell is cast on it
 
 @639=~Oracle~
 @640=~Oracle
-Level: 5
+Grad: 5
 School: Divination
 Range: Personal
 Duration: Instant
@@ -1579,7 +1579,7 @@ The spells that are affected by this are: Reflected Image, Invisibility, Blur, M
 
 @641=~Conjure Lesser Fire Elemental~
 @642=~Conjure Lesser Fire Elemental
-Level: 5
+Grad: 5
 School: Conjuration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -1604,7 +1604,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @643=~Protection from Acid~
 @644=~Protection from Acid
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -1616,7 +1616,7 @@ When a Protection from Acid spell is cast, the recipient receives complete prote
 
 @645=~Phantom Blade~
 @646=~Phantom Blade
-Level: 5
+Grad: 5
 School: Illusion
 Range: Personal
 Duration: 1 round/level
@@ -1628,7 +1628,7 @@ This spell creates a translucent, weightless, shadowlike sword made of material 
 
 @647=~Spell Shield~
 @648=~Spell Shield
-Level: 5
+Grad: 5
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -1642,7 +1642,7 @@ The spells that Spell Shield protects the wizard from are: Spell Thrust, Secret 
 
 @649=~Conjure Lesser Air Elemental~
 @650=~Conjure Lesser Air Elemental
-Level: 5
+Grad: 5
 School: Conjuration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -1666,7 +1666,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
 @651=~Conjure Lesser Earth Elemental~
 @652=~Conjure Lesser Earth Elemental
-Level: 5
+Grad: 5
 School: Conjuration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -1690,7 +1690,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 
 @653=~Spell Deflection~
 @654=~Spell Deflection
-Level: 5
+Grad: 5
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -1704,7 +1704,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 
 @655=~Fireburst~
 @656=~Fireburst
-Level: 5
+Grad: 5
 School: Evocation
 Range: Personal
 Duration: Instant
@@ -1719,7 +1719,7 @@ This spell creates an explosive burst of flame that detonates with a low roar an
 
 @661=~Invisible Stalker~
 @662=~Invisible Stalker
-Level: 6
+Grad: 6
 School: Conjuration
 Range: Long
 Duration: 8 hours
@@ -1745,7 +1745,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
 @663=~Globe of Invulnerability~
 @664=~Globe of Invulnerability
-Level: 6
+Grad: 6
 School: Abjuration
 Range: Personal
 Duration: 2 turns
@@ -1757,7 +1757,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 
 @665=~Tenser's Transformation~
 @666=~Tenser's Transformation
-Level: 6
+Grad: 6
 School: Alteration
 Range: Personal
 Duration: 1 round/level
@@ -1771,7 +1771,7 @@ Note: this spell does not give any extra attacks to multiclassed or dual-classed
 
 @667=~Flesh to Stone~
 @668=~Flesh to Stone
-Level: 6
+Grad: 6
 School: Alteration
 Range: Long
 Duration: Special
@@ -1785,7 +1785,7 @@ Flesh to Stone is a powerful magic that permanently turns the flesh of the creat
 
 @669=~Banishment~
 @670=~Banishment
-Level: 6
+Grad: 6
 School: Abjuration
 Range: Long
 Duration: Instant
@@ -1797,7 +1797,7 @@ This spell forces hostile summoned creatures in the area back to their proper pl
 
 @671=~Protection from Magic Energy~
 @672=~Protection from Magic Energy
-Level: 6
+Grad: 6
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -1809,7 +1809,7 @@ When a Protection from Magic Energy spell is cast, the recipient receives comple
 
 @673=~Mislead~
 @674=~Mislead
-Level: 6
+Grad: 6
 School: Illusion
 Range: Personal
 Duration: 1 round/level
@@ -1821,7 +1821,7 @@ When this spell is cast the wizard is affected with an Improved Invisibility spe
 
 @675=~Pierce Magic~
 @676=~Pierce Magic
-Level: 6
+Grad: 6
 School: Abjuration
 Range: Long
 Duration: Special
@@ -1835,7 +1835,7 @@ The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflectio
 
 @677=~True Seeing~
 @678=~True Seeing
-Level: 6
+Grad: 6
 School: Divination
 Range: Personal
 Duration: 1 turn
@@ -1849,7 +1849,7 @@ Note: True Seeing does not dispel illusionary clones such as those conjured by M
 
 @679=~Protection from Magical Weapons~
 @680=~Protection from Magical Weapons
-Level: 6
+Grad: 6
 School: Abjuration
 Range: Personal
 Duration: 4 rounds
@@ -1861,7 +1861,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 
 @681=~Power Word Silence~
 @682=~Power Word Silence
-Level: 6
+Grad: 6
 School: Enchantment
 Range: Long
 Duration: 1 turn
@@ -1873,7 +1873,7 @@ When a Power Word Silence spell is uttered, the target creature becomes unable m
 
 @683=~Improved Haste~
 @684=~Improved Haste
-Level: 6
+Grad: 6
 School: Alteration
 Range: Long
 Duration: 1 turn
@@ -1885,7 +1885,7 @@ When this spell is cast, each affected creature functions at double normal movem
 
 @685=~Acid Fog~
 @686=~Acid Fog
-Level: 6
+Grad: 6
 School: Conjuration
 Range: Long
 Duration: 1 turn
@@ -1897,7 +1897,7 @@ This spell creates a thick, clinging, greenish cloud. All creatures who aren't i
 
 @687=~Chain Lightning~
 @688=~Chain Lightning
-Level: 6
+Grad: 6
 School: Evocation
 Range: Long
 Duration: Instant
@@ -1909,7 +1909,7 @@ This spell creates an electrical discharge that begins as a single stroke commen
 
 @689=~Disintegrate~
 @690=~Disintegrate
-Level: 6
+Grad: 6
 School: Alteration
 Range: Long
 Duration: Instant
@@ -1921,7 +1921,7 @@ Upon casting this spell at another creature, a thin green ray shoots unerringly 
 
 @691=~Contingency~
 @692=~Contingency
-Level: 6
+Grad: 6
 School: Universal
 Range: Personal
 Duration: Special
@@ -1933,7 +1933,7 @@ Upon casting this spell, the wizard is allowed to choose a spell out of his repe
 
 @693=~Spell Deflection~
 @694=~Spell Deflection
-Level: 6
+Grad: 6
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -1947,7 +1947,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 
 @695=~Monster Summoning VI~
 @696=~Monster Summoning VI
-Level: 6
+Grad: 6
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -1978,7 +1978,7 @@ Immune to entangle, grease, hold, sleep, slow, stun, & web effects~
 
 @697=~Conjure Fire Elemental~
 @698=~Conjure Fire Elemental
-Level: 6
+Grad: 6
 School: Conjuration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -2009,7 +2009,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @699=~Conjure Air Elemental~
 @700=~Conjure Air Elemental
-Level: 6
+Grad: 6
 School: Conjuration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -2039,7 +2039,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
 @701=~Conjure Earth Elemental~
 @702=~Conjure Earth Elemental
-Level: 6
+Grad: 6
 School: Conjuration
 Range: Medium
 Duration: 1 turn + 1 round/level
@@ -2069,7 +2069,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 
 @703=~Animate Skeleton Warrior~
 @704=~Animate Skeleton Warrior
-Level: 6
+Grad: 6
 School: Necromancy
 Range: Long
 Duration: 8 hours
@@ -2092,7 +2092,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
 @705=~Summon Nishruu~
 @706=~Summon Nishruu
-Level: 7
+Grad: 7
 School: Conjuration
 Range: Long
 Duration: 1 round/level
@@ -2120,7 +2120,7 @@ Physical Resistance 50%~
 
 @707=~Stone to Flesh~
 @708=~Stone to Flesh
-Level: 6
+Grad: 6
 School: Alteration
 Range: Long
 Duration: Permanent
@@ -2135,7 +2135,7 @@ This spell is the reverse of Flesh to Stone and will return any creature that ha
 
 @721=~Greater Spell Deflection~
 @722=~Greater Spell Deflection
-Level: 7
+Grad: 7
 School: Abjuration
 Range: Personal
 Duration: 5 turns
@@ -2149,7 +2149,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 
 @723=~Protection from the Elements~
 @724=~Protection from the Elements
-Level: 7
+Grad: 7
 School: Abjuration
 Range: Touch
 Duration: 1 turn/2 levels
@@ -2161,7 +2161,7 @@ When this spell is cast, it confers complete protection from all elemental attac
 
 @725=~Project Image~
 @726=~Project Image
-Level: 7
+Grad: 7
 School: Illusion
 Range: Personal
 Duration: 1 round/level
@@ -2173,7 +2173,7 @@ When this spell is cast, an illusory copy of the casting wizard appears to step 
 
 @727=~Ruby Ray of Reversal~
 @728=~Ruby Ray of Reversal
-Level: 7
+Grad: 7
 School: Alteration
 Range: Long
 Duration: Instant
@@ -2187,7 +2187,7 @@ The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell D
 
 @729=~Khelben's Warding Whip~
 @730=~Khelben's Warding Whip
-Level: 7
+Grad: 7
 School: Evocation
 Range: Medium
 Duration: 3 rounds
@@ -2201,7 +2201,7 @@ The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell
 
 @731=~Summon Death Knight~
 @732=~Summon Death Knight
-Level: 7
+Grad: 7
 School: Necromancy
 Range: Medium
 Duration: 3 turns
@@ -2233,7 +2233,7 @@ Symbols: of Weakness or Death (once per day each)~
 
 @733=~Prismatic Mantle~
 @734=~Prismatic Mantle
-Level: 7
+Grad: 7
 School: Abjuration
 Range: Personal
 Duration: 4 rounds
@@ -2253,7 +2253,7 @@ Violet - Mazed (save vs. spell neg.)~
 
 @735=~Simbul's Spell Sequencer~
 @736=~Simbul's Spell Sequencer
-Level: 7
+Grad: 7
 School: Universal
 Range: Personal
 Duration: Special
@@ -2265,7 +2265,7 @@ This spell allows a mage to prepare a magical sequencer that can store spells to
 
 @737=~Chaos~
 @738=~Chaos
-Level: 7
+Grad: 7
 School: Enchantment
 Range: Long
 Duration: 1 turn
@@ -2277,7 +2277,7 @@ This spell allows the caster to create a sphere of chaotic magic. All enemies wi
 
 @739=~Delayed Blast Fireball~
 @740=~Delayed Blast Fireball
-Level: 7
+Grad: 7
 School: Evocation
 Range: Long
 Duration: Special
@@ -2289,7 +2289,7 @@ This spell creates a fireball that hovers at a point determined by the caster. T
 
 @741=~Finger of Death~
 @742=~Finger of Death
-Level: 7
+Grad: 7
 School: Necromancy
 Range: Long
 Duration: Instant
@@ -2301,7 +2301,7 @@ The Finger of Death spell snuffs out the victim's life force. The caster points 
 
 @743=~Prismatic Spray~
 @744=~Prismatic Spray
-Level: 7
+Grad: 7
 School: Alteration
 Range: Special
 Duration: Special
@@ -2321,7 +2321,7 @@ Violet - Maze (save vs. spell neg.)~
 
 @745=~Power Word Stun~
 @746=~Power Word Stun
-Level: 7
+Grad: 7
 School: Enchantment
 Range: Long
 Duration: Special
@@ -2333,7 +2333,7 @@ When a Power Word Stun spell is uttered, any creature of the mage's choice withi
 
 @747=~Mordenkainen's Sword~
 @748=~Mordenkainen's Sword
-Level: 7
+Grad: 7
 School: Evocation
 Range: Personal
 Duration: 1 round/level
@@ -2347,7 +2347,7 @@ Upon casting this spell, the wizard brings into being a shimmering, swordlike pl
 
 @749=~Summon Efreeti~
 @750=~Summon Efreeti
-Level: 7
+Grad: 7
 School: Conjuration
 Range: Long
 Duration: 8 rounds + 1 round/level
@@ -2376,7 +2376,7 @@ Memorized Spells:
 
 @751=~Summon Djinni~
 @752=~Summon Djinni
-Level: 7
+Grad: 7
 School: Conjuration
 Range: Long
 Duration: 8 rounds + 1 round/level
@@ -2402,7 +2402,7 @@ Memorized Spells:
 
 @753=~Summon Hakeashar~
 @754=~Summon Hakeashar
-Level: 7
+Grad: 7
 School: Conjuration
 Range: Long
 Duration: 8 rounds + 1 round/level
@@ -2431,7 +2431,7 @@ Physical Resistance 50%~
 
 @755=~Control Undead~
 @756=~Control Undead
-Level: 7
+Grad: 7
 School: Necromancy
 Range: Long
 Duration: 5 turns
@@ -2443,7 +2443,7 @@ The Control Undead spell allows the caster to take control of undead creatures w
 
 @757=~Mass Invisibility~
 @758=~Mass Invisibility
-Level: 7
+Grad: 7
 School: Illusion
 Range: Long
 Duration: 1 round/level
@@ -2455,7 +2455,7 @@ Upon casting this spell, the wizard causes all friendly creatures within the are
 
 @759=~Limited Wish~
 @760=~Limited Wish
-Level: 7
+Grad: 7
 School: Universal
 Range: Personal
 Duration: Special
@@ -2467,7 +2467,7 @@ Limited Wish is a very potent but difficult spell. It will fulfill literally, bu
 
 @761=~Improved Chaos Shield~
 @762=~Improved Chaos Shield
-Level: 7
+Grad: 7
 School: Abjuration
 Range: Personal
 Duration: 2 turns
@@ -2482,7 +2482,7 @@ Improved Chaos Shield increases a wild mage's chance to gain a favorable result 
 
 @767=~Ghostform~
 @768=~Ghostform
-Level: 8
+Grad: 8
 School: Alteration
 Range: Personal
 Duration: 1 round/level
@@ -2496,7 +2496,7 @@ As an incorporeal creature, the caster moves silently and cannot be heard (+100%
 
 @769=~Mind Blank~
 @770=~Mind Blank
-Level: 8
+Grad: 8
 School: Abjuration
 Range: Touch
 Duration: 8 hours
@@ -2508,7 +2508,7 @@ The subject is protected from all devices and spells that detect, influence, or 
 
 @771=~Protection from Energy~
 @772=~Protection from Energy
-Level: 8
+Grad: 8
 School: Abjuration
 Range: Touch
 Duration: 2 rounds/level
@@ -2520,7 +2520,7 @@ When this spell is cast, it confers complete protection from all energy attacks 
 
 @773=~Simulacrum~
 @774=~Simulacrum
-Level: 8
+Grad: 8
 School: Illusion
 Range: Personal
 Duration: 1 round/level
@@ -2532,7 +2532,7 @@ When this spell is cast, the caster taps energy from the Plane of Shadow to crea
 
 @775=~Pierce Shield~
 @776=~Pierce Shield
-Level: 8
+Grad: 8
 School: Abjuration
 Range: Long
 Duration: Special
@@ -2548,7 +2548,7 @@ The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield,
 
 @777=~Summon Fiend~
 @778=~Summon Fiend
-Level: 8
+Grad: 8
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -2581,7 +2581,7 @@ Power Word Stun (once every 5 rounds)~
 
 @779=~Moment of Prescience~
 @780=~Moment of Prescience
-Level: 8
+Grad: 8
 School: Divination
 Range: Personal
 Duration: 4 rounds
@@ -2593,7 +2593,7 @@ This spell grants an almost omniscient perception of things to come. For the dur
 
 @781=~Simbul's Spell Trigger~
 @782=~Simbul's Spell Trigger
-Level: 8
+Grad: 8
 School: Universal
 Range: Personal
 Duration: Special
@@ -2605,7 +2605,7 @@ This spell allows a mage to prepare a magical trigger that can store spells to b
 
 @783=~Incendiary Cloud~
 @784=~Incendiary Cloud
-Level: 8
+Grad: 8
 School: Evocation
 Range: Long
 Duration: 1 turn
@@ -2617,7 +2617,7 @@ An Incendiary Cloud spell creates a cloud of roiling smoke and roaring flame. Th
 
 @785=~Symbol of Weakness~
 @786=~Symbol of Weakness
-Level: 8
+Grad: 8
 School: Conjuration
 Range: Long
 Duration: Special
@@ -2629,7 +2629,7 @@ Symbol of Weakness is a powerful enchantment that allows the caster to inscribe 
 
 @787=~Abi-Dalzim's Horrid Wilting~
 @788=~Abi-Dalzim's Horrid Wilting
-Level: 8
+Grad: 8
 School: Necromancy
 Range: Long
 Duration: Instant
@@ -2641,7 +2641,7 @@ This spell evaporates moisture in the bodies of all living creatures within the 
 
 @789=~Maze~
 @790=~Maze
-Level: 8
+Grad: 8
 School: Conjuration
 Range: Medium
 Duration: Special
@@ -2664,7 +2664,7 @@ If the 9th level spell Freedom is cast in the area where a creature is mazed, it
 
 @791=~Power Word Blind~
 @792=~Power Word Blind
-Level: 8
+Grad: 8
 School: Enchantment
 Range: Long
 Duration: Special
@@ -2676,7 +2676,7 @@ When a Power Word Blind spell is uttered, any creature of the mage's choice with
 
 @793=~Symbol of Stunning~
 @794=~Symbol of Stunning
-Level: 8
+Grad: 8
 School: Conjuration
 Range: Long
 Duration: Special
@@ -2688,7 +2688,7 @@ Symbol of Stunning is a powerful enchantment that allows the caster to inscribe 
 
 @795=~Symbol of Death~
 @796=~Symbol of Death
-Level: 8
+Grad: 8
 School: Conjuration
 Range: Long
 Duration: Special
@@ -2700,7 +2700,7 @@ Symbol of Death is a powerful enchantment that allows the caster to inscribe a s
 
 @797=~Bigby's Icy Grasp~
 @798=~Bigby's Icy Grasp
-Level: 8
+Grad: 8
 School: Evocation
 Range: Long
 Duration: 8 rounds
@@ -2715,7 +2715,7 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 
 @811=~Spell Trap~
 @812=~Spell Trap
-Level: 9
+Grad: 9
 School: Abjuration
 Range: Personal
 Duration: 2 turns
@@ -2727,7 +2727,7 @@ This abjuration spell causes any spells cast against the wizard to be absorbed a
 
 @813=~Spellstrike~
 @814=~Spellstrike
-Level: 9
+Grad: 9
 School: Abjuration
 Range: Long
 Duration: Special
@@ -2741,7 +2741,7 @@ The spell protection spells dispelled by Spellstrike are: Minor Spell Deflection
 
 @815=~Gate~
 @816=~Gate
-Level: 9
+Grad: 9
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -2780,7 +2780,7 @@ Meteor Swarm (once per day)~
 
 @817=~Absolute Immunity~
 @818=~Absolute Immunity
-Level: 9
+Grad: 9
 School: Abjuration
 Range: Personal
 Duration: 4 rounds
@@ -2792,7 +2792,7 @@ When Absolute Immunity is cast, the caster gains complete invulnerability to phy
 
 @819=~Chain Contingency~
 @820=~Chain Contingency
-Level: 9
+Grad: 9
 School: Universal
 Range: Personal
 Duration: Special
@@ -2804,7 +2804,7 @@ Chain Contingency channels some of the magical energy of the mage and releases i
 
 @821=~Time Stop~
 @822=~Time Stop
-Level: 9
+Grad: 9
 School: Alteration
 Range: Personal
 Duration: 3 rounds
@@ -2816,7 +2816,7 @@ Upon casting a Time Stop spell, the wizard causes the flow of time to stop in th
 
 @823=~Imprisonment~
 @824=~Imprisonment
-Level: 9
+Grad: 9
 School: Abjuration
 Range: Short
 Duration: Permanent
@@ -2828,7 +2828,7 @@ When the Imprisonment spell is cast the target creature becomes entombed in a sm
 
 @825=~Meteor Swarm~
 @826=~Meteor Swarm
-Level: 9
+Grad: 9
 School: Evocation
 Range: Long
 Duration: Instant
@@ -2840,7 +2840,7 @@ Upon completion of this spell, a swarm of minute meteors bombards the affected a
 
 @827=~Power Word Kill~
 @828=~Power Word Kill
-Level: 9
+Grad: 9
 School: Enchantment
 Range: Long
 Duration: Instant
@@ -2852,7 +2852,7 @@ When a Power Word Kill spell is uttered, one creature targeted by the caster is 
 
 @829=~Wail of the Banshee~
 @830=~Wail of the Banshee
-Level: 9
+Grad: 9
 School: Necromancy
 Range: Personal
 Duration: Instant
@@ -2864,7 +2864,7 @@ At the culmination of this dreadful spell, the wizard screams like a banshee (gr
 
 @831=~Larloch's Energy Drain~
 @832=~Larloch's Energy Drain
-Level: 9
+Grad: 9
 School: Necromancy
 Range: Short
 Duration: Special
@@ -2876,7 +2876,7 @@ The casting of this spell opens a channel between the caster's plane and the Neg
 
 @833=~Black Blade of Disaster~
 @834=~Black Blade of Disaster
-Level: 9
+Grad: 9
 School: Conjuration
 Range: Personal
 Duration: 1 round/level
@@ -2888,7 +2888,7 @@ This spell enables the caster to create a black, blade-shaped planar rift, about
 
 @835=~Shapechange~
 @836=~Shapechange
-Level: 9
+Grad: 9
 School: Alteration
 Range: Personal
 Duration: 5 turns
@@ -2934,7 +2934,7 @@ Regeneration: 3 hp/round; Cold Resistance 100%~
 
 @837=~Freedom~
 @838=~Freedom
-Level: 9
+Grad: 9
 School: Abjuration
 Range: Personal
 Duration: Instant
@@ -2946,7 +2946,7 @@ When this spell is cast, all friendly creatures in the area are freed from spell
 
 @839=~Bigby's Crushing Hand~
 @840=~Bigby's Crushing Hand
-Level: 9
+Grad: 9
 School: Evocation
 Range: Long
 Duration: 1 turn
@@ -2958,7 +2958,7 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 
 @841=~Wish~
 @842=~Wish
-Level: 9
+Grad: 9
 School: Universal
 Range: Personal
 Duration: Special
@@ -2973,7 +2973,7 @@ Wish is a more potent version of the Limited Wish spell. It will fulfill literal
 
 @851=~Energy Blades~
 @852=~Energy Blades
-Level: Epic
+Grad: Epic
 School: Evocation
 Range: Personal
 Duration: 5 turns
@@ -2985,7 +2985,7 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 
 @853=~Improved Alacrity~
 @854=~Improved Alacrity
-Level: Epic
+Grad: Epic
 School: Alteration
 Range: Personal
 Duration: 2 rounds
@@ -2997,7 +2997,7 @@ Improved Alacrity essentially erases the pause between casting spells. When cast
 
 @855=~Dragon's Breath~
 @856=~Dragon's Breath
-Level: Epic
+Grad: Epic
 School: Evocation
 Range: Long
 Duration: Instant
@@ -3009,7 +3009,7 @@ This spell causes the disembodied head of a red dragon to appear and breathe fir
 
 @857=~Summon Planetar~
 @858=~Summon Planetar
-Level: Epic
+Grad: Epic
 School: Conjuration
 Range: Long
 Duration: 2 turns
@@ -3046,7 +3046,7 @@ Memorized Spells:
 
 @859=~Summon Dark Planetar~
 @860=~Summon Dark Planetar
-Level: Epic
+Grad: Epic
 School: Conjuration
 Range: Long
 Duration: 2 turns
@@ -3083,7 +3083,7 @@ Memorized Spells:
 
 @861=~Comet~
 @862=~Comet
-Level: Epic
+Grad: Epic
 School: Conjuration
 Range: Long
 Duration: Instantaneous
@@ -3103,7 +3103,7 @@ When this spell is cast, a huge meteor or comet strikes the earth, damaging all 
 
 @864=~Resist Elements~
 @865=~Resist Elements
-Level: 2
+Grad: 2
 School: Abjuration
 Sphere: Protection
 Range: Touch
@@ -3116,7 +3116,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of eleme
 
 @866=~Monster Summoning VII~
 @867=~Monster Summoning VII
-Level: 7
+Grad: 7
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -3145,7 +3145,7 @@ Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 
 @868=~Monster Summoning VIII~
 @869=~Monster Summoning VIII
-Level: 8
+Grad: 8
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -3173,7 +3173,7 @@ Immune to confusion effects~
 
 @870=~Monster Summoning IX~
 @871=~Monster Summoning IX
-Level: 9
+Grad: 9
 School: Conjuration
 Range: Medium
 Duration: 3 turns
@@ -3198,7 +3198,7 @@ Poison~
 
 @873=~Protection from Elemental Energy~
 @874=~Protection from Elemental Energy
-Level: 4
+Grad: 4
 School: Abjuration
 Range: Touch
 Duration: 1 turn/level
@@ -3210,7 +3210,7 @@ When this spell is cast, the recipient receives complete protection from one dam
 
 @875=~Icelance~
 @876=~Icelance
-Level: 3
+Grad: 3
 School: Evocation
 Range: Short
 Duration: Special
@@ -3222,7 +3222,7 @@ When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6
 
 @877=~Vitriolic Sphere~
 @878=~Vitriolic Sphere
-Level: 4
+Grad: 4
 School: Conjuration
 Range: Medium
 Duration: Special
