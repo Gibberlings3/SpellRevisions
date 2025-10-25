@@ -42,6 +42,15 @@ LANGUAGE ~French~
          ~spell_rev\languages\french\divine.tra~
          ~spell_rev\languages\french\setup.tra~
 
+LANGUAGE ~German~
+         ~german~
+         ~spell_rev\languages\english\arcane.tra~
+         ~spell_rev\languages\english\divine.tra~
+         ~spell_rev\languages\english\setup.tra~
+         ~spell_rev\languages\german\arcane.tra~
+         ~spell_rev\languages\german\divine.tra~
+         ~spell_rev\languages\german\setup.tra~
+
 /* LANGUAGE ~Russian~
          ~russian~
          ~spell_rev\languages\english\arcane.tra~
