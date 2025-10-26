@@ -2005,7 +2005,7 @@ Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
 @3697=~Feuerelementar~
-@3698=~Großes Feuerelementar~
+@3698=~Höheres Feuerelementar~
 
 @699=~Luftelementar beschwören~
 @700=~Luftelementar beschwören
@@ -2035,7 +2035,7 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
 @3699=~Luftelementar~
-@3700=~Großes Luftelementar~
+@3700=~Höheres Luftelementar~
 
 @701=~Erdelementar beschwören~
 @702=~Erdelementar beschwören
@@ -2065,7 +2065,7 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
 
 @3701=~Erdelementar~
-@3702=~Großes Erdelementar~
+@3702=~Höheres Erdelementar~
 
 @703=~Kriegerskelett beleben~
 @704=~Kriegerskelett beleben
@@ -2133,8 +2133,8 @@ This spell is the reverse of Flesh to Stone and will return any creature that ha
 
 /*------------------level 7------------------*/
 
-@721=~Große Zauberabwehr~
-@722=~Große Zauberabwehr
+@721=~Höhere Zauberabwehr~
+@722=~Höhere Zauberabwehr
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
