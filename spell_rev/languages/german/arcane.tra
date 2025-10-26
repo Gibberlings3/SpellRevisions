@@ -4,7 +4,7 @@
 @402=~Grease
 Grad: 1
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: 10' radius
@@ -16,7 +16,7 @@ A Grease spell covers a material surface with a slippery layer of a fatty, greas
 @404=~Mage Armor
 Grad: 1
 Schule: Conjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Caster
@@ -28,7 +28,7 @@ By means of this spell, the wizard creates a magical field of force that sets it
 @406=~Burning Hands
 Grad: 1
 Schule: Evocation
-Range: Special
+Reichweite: Spezial
 Duration: Instant
 Casting Time: 1
 Area of Effect: Special
@@ -40,7 +40,7 @@ When the wizard casts this spell, a cone of searing flames shoots from his finge
 @408=~Charm Person
 Grad: 1
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 1
 Area of Effect: 1 person
@@ -54,7 +54,7 @@ Creatures that are currently neutral to the caster are more amenable to helping 
 @410=~Color Spray
 Grad: 1
 Schule: Alteration
-Range: Special
+Reichweite: Spezial
 Duration: Special
 Casting Time: 1
 Area of Effect: Special
@@ -66,7 +66,7 @@ Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing
 @412=~Obscuring Mist
 Grad: 1
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 6 rounds
 Casting Time: 5
 Area of Effect: 20' radius
@@ -78,7 +78,7 @@ When this spell is cast, a misty bank of fog billows out from the designated poi
 @414=~Monster Summoning I
 Grad: 1
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -100,7 +100,7 @@ HP 8, AC 10, THAC0 19, Saving Throws 13/17/15/13/17
 @416=~Expeditious Retreat
 Grad: 1
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 3 rounds
 Casting Time: 1
 Area of Effect: Special
@@ -112,7 +112,7 @@ When cast, this spell provides all friendly creatures in the area with an amazin
 @418=~Identify
 Grad: 1
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: Special
 Area of Effect: 1 item
@@ -124,7 +124,7 @@ When this spell is cast, name and enchantments (including curses) of one item su
 @420=~True Strike
 Grad: 1
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 3 rounds
 Casting Time: 1
 Area of Effect: Caster
@@ -136,7 +136,7 @@ This spell grants the caster otherworldly sight, resulting in preternatural accu
 @422=~Magic Missile
 Grad: 1
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 1
 Area of Effect: 1 creature
@@ -148,7 +148,7 @@ Use of the Magic Missile spell, one of the most popular first level spells, crea
 @424=~Protection from Evil
 Grad: 1
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: 1 creature
@@ -160,7 +160,7 @@ When this spell is cast, it creates a magical barrier around the recipient at a 
 @426=~Shield
 Grad: 1
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: Caster
@@ -172,7 +172,7 @@ When this spell is cast, an invisible barrier comes into being in front of the w
 @428=~Shocking Grasp
 Grad: 1
 Schule: Evocation
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1
 Area of Effect: 1 creature
@@ -184,7 +184,7 @@ When the wizard touches a creature while this spell is in effect, an electrical 
 @430=~Sleep
 Grad: 1
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 1
 Area of Effect: 30' radius
@@ -196,7 +196,7 @@ When a wizard casts a Sleep spell, he causes a comatose slumber to come upon one
 @432=~Chill Touch
 Grad: 1
 Schule: Necromancy
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: Special
@@ -208,7 +208,7 @@ When the caster completes this spell, a blue glow encompasses his hand. This ene
 @434=~Chromatic Orb
 Grad: 1
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1
 Area of Effect: 1 creature
@@ -236,7 +236,7 @@ This spell causes a 2-foot-diameter sphere to appear in the caster's hand. When 
 @436=~Larloch's Minor Drain
 Grad: 1
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1
 Area of Effect: 1 creature
@@ -248,7 +248,7 @@ With this spell, the wizard drains the life force from a target and adds it to h
 @438=~Reflected Image
 Grad: 1
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 4 rounds +1 round/3 levels
 Casting Time: 1
 Area of Effect: Caster
@@ -260,7 +260,7 @@ Upon casting this spell, the wizard creates one illusory image of himself that w
 @440=~Find Familiar
 Grad: 1
 Schule: Universal
-Range: Short
+Reichweite: Kurz
 Duration: Permanent
 Casting Time: 1 round
 Area of Effect: Special
@@ -291,7 +291,7 @@ You can view your familiar's statistics from the inventory screen.~
 @442=~Nahal's Reckless Dweomer
 Grad: 1
 Schule: Conjuration
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1
 Area of Effect: Special
@@ -307,7 +307,7 @@ Because the release of energy is planned by the mage, his level is added to the 
 @444=~Spook
 Grad: 1
 Schule: Illusion
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 1
 Area of Effect: 1 creature
@@ -319,7 +319,7 @@ A Spook spell enables the wizard to play upon natural fears to cause the target 
 @446=~Protection from Petrification
 Grad: 1
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 hour
 Casting Time: 1
 Area of Effect: 1 creature
@@ -333,7 +333,7 @@ This spell grants the recipient immunity to all petrification attacks. This incl
 @452=~Blur
 Grad: 2
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 2
 Area of Effect: Caster
@@ -345,7 +345,7 @@ A Blur spell causes the mage's form and spirit to become blurred, shifting and w
 @454=~Detect Alignment
 Grad: 2
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 2
 Area of Effect: Special
@@ -356,7 +356,7 @@ This spell allows the wizard to search out the feelings of all creatures within 
 @2000=~Detect Alignment
 Grad: 1
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 2
 Area of Effect: Special
@@ -368,7 +368,7 @@ This spell allows the wizard to search out the feelings of all creatures within 
 @456=~Detect Invisibility
 Grad: 2
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 5 rounds
 Casting Time: 2
 Area of Effect: 50' radius
@@ -380,7 +380,7 @@ When a wizard casts a Detect Invisibility spell, he becomes able to see clearly 
 @458=~Horror
 Grad: 2
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 2
 Area of Effect: 30' radius
@@ -392,7 +392,7 @@ When this spell is cast, all enemies within the area of effect must save vs. spe
 @460=~Invisibility
 Grad: 2
 Schule: Illusion
-Range: Touch
+Reichweite: Berührung
 Duration: Special
 Casting Time: 2
 Area of Effect: 1 creature
@@ -404,7 +404,7 @@ This spell causes the creature touched to vanish from sight and be undetectable 
 @462=~Battering Ram
 Grad: 2
 Schule: Evocation
-Range: Medium
+Reichweite: Mittel
 Duration: Instant
 Casting Time: 2
 Area of Effect: 1 creature or object
@@ -416,7 +416,7 @@ This spell creates a ram-like force that can strike with considerable power. The
 @464=~Know Opponent
 Grad: 2
 Schule: Divination
-Range: Long
+Reichweite: Lang
 Duration: 2 turns
 Casting Time: 2
 Area of Effect: 1 creature
@@ -428,7 +428,7 @@ When this spell is cast, the wizard's eyes glow with magical energy, enabling hi
 @466=~Luck
 Grad: 2
 Schule: Enchantment
-Range: Medium
+Reichweite: Mittel
 Duration: 5 turns
 Casting Time: 2
 Area of Effect: 1 creature
@@ -440,7 +440,7 @@ The recipient of this spell is lucky in everything that he does for the next hou
 @468=~Resist Fear
 Grad: 2
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: 30' radius
@@ -452,7 +452,7 @@ The wizard instills courage in allies, raising their morale to its highest. If t
 @470=~Melf's Acid Arrow
 Grad: 2
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 1 round/3 levels
 Casting Time: 2
 Area of Effect: 1 creature
@@ -464,7 +464,7 @@ By means of this spell, the wizard creates a magical arrow that speeds to its ta
 @472=~Mirror Image
 Grad: 2
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 2
 Area of Effect: Caster
@@ -476,7 +476,7 @@ When a Mirror Image spell is invoked, the spellcaster causes a number of illusor
 @474=~Stinking Cloud
 Grad: 2
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: 30' radius
@@ -488,7 +488,7 @@ When Stinking Cloud is cast, a billowing mass of nauseous vapors appears centere
 @476=~Strength
 Grad: 2
 Schule: Alteration
-Range: Short
+Reichweite: Kurz
 Duration: 1 turn/level
 Casting Time: 2
 Area of Effect: 1 creature
@@ -500,7 +500,7 @@ Application of this spell sets the strength of the character to 18 and then adds
 @478=~Web
 Grad: 2
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 20' radius
@@ -512,7 +512,7 @@ A Web spell creates a many-layered mass of strong, sticky strands similar to spi
 @480=~Agannazar's Scorcher
 Grad: 2
 Schule: Evocation
-Range: Medium
+Reichweite: Mittel
 Duration: 2 rounds
 Casting Time: 2
 Area of Effect: Special
@@ -524,7 +524,7 @@ Upon casting this spell, a jet of flame appears at the caster's fingertips and b
 @482=~Ghoul Touch
 Grad: 2
 Schule: Necromancy
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: Special
@@ -536,7 +536,7 @@ When the caster completes this spell, a red glow encompasses his hand. On a succ
 @484=~Vocalize
 Grad: 2
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: Caster
@@ -548,7 +548,7 @@ The recipient of this spell gains the ability to cast spells with a verbal compo
 @486=~Power Word Sleep
 Grad: 2
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 1
 Area of Effect: 1 creature
@@ -560,7 +560,7 @@ When a wizard utters this power word, he causes a comatose slumber to come upon 
 @488=~Ray of Enfeeblement
 Grad: 2
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: 1 creature
@@ -572,7 +572,7 @@ By means of a Ray of Enfeeblement, a wizard weakens an opponent, reducing its st
 @490=~Chaos Shield
 Grad: 2
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 rounds/level
 Casting Time: 2
 Area of Effect: Caster
@@ -584,7 +584,7 @@ Chaos Shield increases a wild mage's chance to gain a favorable result when a wi
 @492=~Sound Burst
 Grad: 2
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: Target, and enemies within 10'
@@ -596,7 +596,7 @@ This spell blasts an area with a tremendous cacophony. Enemies within the area s
 @494=~Glitterdust
 Grad: 2
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 4 rounds
 Casting Time: 2
 Area of Effect: 10' radius
@@ -606,7 +606,7 @@ This spell creates a cloud of glittering golden particles within the area of eff
 @494000=~Glitterdust
 Grad: 2
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 4 rounds
 Casting Time: 2
 Area of Effect: 10' radius
@@ -621,7 +621,7 @@ This spell creates a cloud of glittering golden particles within the area of eff
 @502=~Clairvoyance
 Grad: 3
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 3
 Area of Effect: Caster
@@ -633,7 +633,7 @@ This spell grants an unnatural perception of things to come. Once Clairvoyance i
 @504=~Dispel Magic
 Grad: 3
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 20' radius
@@ -647,7 +647,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 @506=~Flame Arrow
 Grad: 3
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: Special
@@ -659,7 +659,7 @@ This spell enables the caster to hurl flaming arrows at his enemies. The caster 
 @508=~Fireball
 Grad: 3
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 30' radius
@@ -671,7 +671,7 @@ A fireball is an explosive burst of flame that detonates with a low roar, delive
 @510=~Haste
 Grad: 3
 Schule: Alteration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 3
 Area of Effect: 20' radius
@@ -683,7 +683,7 @@ When this spell is cast, the affected creatures gain +6 to movement rate and can
 @512=~Hold Person
 Grad: 3
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Target, and enemies within 5'
@@ -697,7 +697,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 @514=~Invisibility Sphere
 Grad: 3
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1
 Area of Effect: 10' radius
@@ -709,7 +709,7 @@ This spell confers invisibility upon all friendly creatures within 10 feet of th
 @516=~Lightning Bolt
 Grad: 3
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 1 creature
@@ -721,7 +721,7 @@ Upon casting this spell, the wizard releases a powerful stroke of electrical ene
 @518=~Monster Summoning III
 Grad: 3
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -768,7 +768,7 @@ Note: while a creature protected by Non-Detection cannot be exposed to everyone,
 @522=~Protection from Missiles
 Grad: 3
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn
 Casting Time: 3
 Area of Effect: 1 creature
@@ -780,7 +780,7 @@ By means of this spell, the wizard bestows upon a creature total invulnerability
 @524=~Slow
 Grad: 3
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 3
 Area of Effect: 30' radius
@@ -792,7 +792,7 @@ A Slow spell causes creatures to move and attack at half of their normal rates u
 @526=~Skull Trap
 Grad: 3
 Schule: Necromancy
-Range: Medium
+Reichweite: Mittel
 Duration: Special
 Casting Time: 3
 Area of Effect: 20' radius
@@ -804,7 +804,7 @@ Upon casting this spell, a skull is thrown by the caster at the target area. The
 @528=~Vampiric Touch
 Grad: 3
 Schule: Necromancy
-Range: Touch
+Reichweite: Berührung
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
@@ -820,7 +820,7 @@ Note that this spell may not be cast multiple times to radically increase the ca
 @530=~Dire Charm
 Grad: 3
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 3
 Area of Effect: 1 creature
@@ -834,7 +834,7 @@ If the caster harms, or attempts to harm, the charmed creature by some overt act
 @532=~Ghost Armor
 Grad: 3
 Schule: Illusion
-Range: Touch
+Reichweite: Berührung
 Duration: 10 turns
 Casting Time: 3
 Area of Effect: 1 creature
@@ -846,7 +846,7 @@ When this spell is cast, the wizard creates an insubstantial but quasi-real suit
 @534=~Minor Spell Deflection
 Grad: 3
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 3
 Area of Effect: Caster
@@ -861,7 +861,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 @536=~Protection from Fire
 Grad: 4
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -874,7 +874,7 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 @538=~Protection from Cold
 Grad: 4
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -886,7 +886,7 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 @540=~Spell Thrust
 Grad: 3
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 15' radius
@@ -900,7 +900,7 @@ The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Non
 @542=~Detect Illusion
 Grad: 3
 Schule: Divination
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 30' radius
@@ -916,7 +916,7 @@ The illusion spells dispelled by Detect Illusion are: Reflected Image, Blur, Inv
 @544=~Halt Undead
 Grad: 3
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 3
 Area of Effect: Target, and enemies within 5'
@@ -930,7 +930,7 @@ Those affected become unable move or groan, but they remain aware of events arou
 @546=~Melf's Minute Meteors
 Grad: 3
 Schule: Evocation
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 3
 Area of Effect: Special
@@ -944,7 +944,7 @@ This spell enables the wizard to summon small globes of fire (one for each level
 @548=~Dispel Magic
 Grad: 3
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 20' radius
@@ -961,7 +961,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 @562=~Confusion
 Grad: 4
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 4
 Area of Effect: 30' radius
@@ -973,7 +973,7 @@ This spell causes confusion in one or more creatures within the area, creating i
 @564=~Dimension Jump
 Grad: 1
 Schule: Conjuration
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1
 Area of Effect: Caster
@@ -985,7 +985,7 @@ This spell transports the caster to any place within sight. When the spell is ca
 @566=~Mestil's Acid Sheath
 Grad: 5
 Schule: Conjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 5
 Area of Effect: Special
@@ -997,7 +997,7 @@ This spell conjures an acid shield around the caster. This shield not only grant
 @568=~Ice Storm
 Grad: 4
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: 4 rounds
 Casting Time: 4
 Area of Effect: 30' radius
@@ -1009,7 +1009,7 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 @570=~Improved Invisibility
 Grad: 4
 Schule: Illusion
-Range: Touch
+Reichweite: Berührung
 Duration: 3 rounds + 1 round/level
 Casting Time: 4
 Area of Effect: 1 creature
@@ -1021,7 +1021,7 @@ This spell is similar to the Invisibility spell, but the recipient is able to at
 @572=~Minor Globe of Invulnerability
 Grad: 4
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 4
 Area of Effect: Caster
@@ -1033,7 +1033,7 @@ This spell creates a faintly shimmering magical sphere around the caster that pr
 @574=~Monster Summoning II
 Grad: 2
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1060,7 +1060,7 @@ Missile Resistance 90%~
 @576=~Stoneskin
 Grad: 4
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 8 hours
 Casting Time: 1
 Area of Effect: Caster
@@ -1074,7 +1074,7 @@ It is important to note that this will not protect the wizard from any area atta
 @578=~Contagion
 Grad: 4
 Schule: Necromancy
-Range: Short
+Reichweite: Kurz
 Duration: 8 hours
 Casting Time: 4
 Area of Effect: 1 creature
@@ -1086,7 +1086,7 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 @580=~Break Enchantment
 Grad: 4
 Schule: Abjuration
-Range: Short
+Reichweite: Kurz
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1098,7 +1098,7 @@ Upon casting this spell, the mage is able to free a victim from enchantments and
 @582=~Emotion: Despair
 Grad: 4
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 2 round/level
 Casting Time: 4
 Area of Effect: 30' radius
@@ -1110,7 +1110,7 @@ When this spell is cast, the wizard can disturb the emotional state of those aro
 @584=~Greater Malison
 Grad: 4
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 2 turns
 Casting Time: 4
 Area of Effect: 30' radius
@@ -1124,7 +1124,7 @@ The spell allows the caster to adversely affect the dice rolls of their enemies.
 @586=~Otiluke's Resilient Sphere
 Grad: 4
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 4
 Area of Effect: 1 creature
@@ -1138,7 +1138,7 @@ The caster has the option of using the spell to protect her allies. Resistances 
 @588=~Spirit Armor
 Grad: 4
 Schule: Necromancy
-Range: Touch
+Reichweite: Berührung
 Duration: 10 turns
 Casting Time: 4
 Area of Effect: 1 creature
@@ -1150,7 +1150,7 @@ This spell taps the target's life force in order to create a corporeal barrier a
 @590=~Polymorph Other
 Grad: 4
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: Permanent
 Casting Time: 4
 Area of Effect: 1 creature
@@ -1164,7 +1164,7 @@ Note that all clothes and equipment that the target was wearing will mold into t
 @592=~Polymorph Self
 Grad: 4
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 4
 Area of Effect: Caster
@@ -1209,7 +1209,7 @@ Cold Resistance 100%~
 @594=~Enchanted Weapon
 Grad: 4
 Schule: Conjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 1 day
 Casting Time: 4
 Area of Effect: Special
@@ -1221,7 +1221,7 @@ This spell conjures forth a +3 enchanted weapon that can be given to anyone. The
 @596=~Fire Shield
 Grad: 4
 Schule: Evocation
-Range: Personal
+Reichweite: Anwender
 Duration: 3 rounds + 1 round/level
 Casting Time: 4
 Area of Effect: Special
@@ -1233,7 +1233,7 @@ This spell protects the user by surrounding the caster with a circular wall of f
 @598=~Secret Word
 Grad: 4
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 1
 Area of Effect: 1 creature
@@ -1247,7 +1247,7 @@ The spell protection spells dispelled by Secret Word are: Minor Spell Deflection
 @600=~Simbul's Spell Matrix
 Grad: 4
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -1259,7 +1259,7 @@ This spell allows a mage to prepare a magical matrix that can store spells to be
 @602=~Teleport Field
 Grad: 4
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 4
 Area of Effect: 30' radius
@@ -1271,7 +1271,7 @@ With this spell, the wizard instigates a teleportation effect as far as the wiza
 @604=~Monster Summoning IV
 Grad: 4
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1304,7 +1304,7 @@ Immune to poison & web effects~
 @606=~Farsight
 Grad: 4
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 4
 Area of Effect: Special
@@ -1316,7 +1316,7 @@ When Farsight is cast, the caster is able to view an area of an unexplored map. 
 @608=~Wizard Eye
 Grad: 4
 Schule: Divination
-Range: Short
+Reichweite: Kurz
 Duration: 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -1331,7 +1331,7 @@ When this spell is employed, the wizard creates an invisible sensory organ that 
 @612=~Summon Shadow
 Grad: 5
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1378,7 +1378,7 @@ Cold Resistance 100%; Physical Damage Resistance 50%~
 @614=~Cloudkill
 Grad: 5
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 30' radius
@@ -1390,7 +1390,7 @@ This spell generates a billowing cloud of ghastly, yellowish green vapors that i
 @616=~Cone of Cold
 Grad: 5
 Schule: Evocation
-Range: Special
+Reichweite: Spezial
 Duration: Instant
 Casting Time: 1
 Area of Effect: Special
@@ -1402,7 +1402,7 @@ When this spell is cast, it causes a cone-shaped spray of extreme cold to spring
 @618=~Monster Summoning V
 Grad: 5
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1439,7 +1439,7 @@ Memorized Spells:
 @620=~Shadow Door
 Grad: 5
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 1
 Area of Effect: Special
@@ -1451,7 +1451,7 @@ By means of this spell, the wizard creates the illusion of a door. The illusion 
 @622=~Domination
 Grad: 5
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1463,7 +1463,7 @@ The Domination spell enables the caster to control the actions of any one creatu
 @624=~Hold Monster
 Grad: 5
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Target, and enemies within 5'
@@ -1477,7 +1477,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 @626=~Waves of Fatigue
 Grad: 5
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 5
 Area of Effect: 30' radius
@@ -1489,7 +1489,7 @@ Surges of negative energy render all hostile living creatures in the spell's are
 @628=~Feeblemind
 Grad: 5
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1501,7 +1501,7 @@ Feeblemind causes the subject's intellect to degenerate into that of a simple be
 @630=~Dispelling Screen
 Grad: 5
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: Caster and nearby allies
@@ -1513,7 +1513,7 @@ By casting this spell, caster creates a transparent, permeable barrier that shie
 @632=~Protection from Normal Weapons
 Grad: 5
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 5
 Area of Effect: Caster
@@ -1525,7 +1525,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 @634=~Protection from Electricity
 Grad: 4
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1537,7 +1537,7 @@ When a Protection from Electricity spell is cast, the recipient receives complet
 @636=~Breach
 Grad: 5
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1553,7 +1553,7 @@ The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor 
 @638=~Lower Resistance
 Grad: 5
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: 1 round/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1567,7 +1567,7 @@ For example, if a creature has 50% magic resistance and this spell is cast on it
 @640=~Oracle
 Grad: 5
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 5
 Area of Effect: 30' radius
@@ -1581,7 +1581,7 @@ The spells that are affected by this are: Reflected Image, Invisibility, Blur, M
 @642=~Conjure Lesser Fire Elemental
 Grad: 5
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 8
 Area of Effect: Special
@@ -1606,7 +1606,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 @644=~Protection from Acid
 Grad: 4
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1618,7 +1618,7 @@ When a Protection from Acid spell is cast, the recipient receives complete prote
 @646=~Phantom Blade
 Grad: 5
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 5
 Area of Effect: Special
@@ -1630,7 +1630,7 @@ This spell creates a translucent, weightless, shadowlike sword made of material 
 @648=~Spell Shield
 Grad: 5
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: Caster
@@ -1644,7 +1644,7 @@ The spells that Spell Shield protects the wizard from are: Spell Thrust, Secret 
 @650=~Conjure Lesser Air Elemental
 Grad: 5
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 8
 Area of Effect: Special
@@ -1668,7 +1668,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 @652=~Conjure Lesser Earth Elemental
 Grad: 5
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 8
 Area of Effect: Special
@@ -1692,7 +1692,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 @654=~Spell Deflection
 Grad: 5
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: Caster
@@ -1706,7 +1706,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 @656=~Fireburst
 Grad: 5
 Schule: Evocation
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1
 Area of Effect: 15' radius
@@ -1721,7 +1721,7 @@ This spell creates an explosive burst of flame that detonates with a low roar an
 @662=~Invisible Stalker
 Grad: 6
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Special
@@ -1747,7 +1747,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 @664=~Globe of Invulnerability
 Grad: 6
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 6
 Area of Effect: Caster
@@ -1759,7 +1759,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 @666=~Tenser's Transformation
 Grad: 6
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 6
 Area of Effect: Caster
@@ -1773,7 +1773,7 @@ Note: this spell does not give any extra attacks to multiclassed or dual-classed
 @668=~Flesh to Stone
 Grad: 6
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1787,7 +1787,7 @@ Flesh to Stone is a powerful magic that permanently turns the flesh of the creat
 @670=~Banishment
 Grad: 6
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 6
 Area of Effect: 30' radius
@@ -1799,7 +1799,7 @@ This spell forces hostile summoned creatures in the area back to their proper pl
 @672=~Protection from Magic Energy
 Grad: 6
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1811,7 +1811,7 @@ When a Protection from Magic Energy spell is cast, the recipient receives comple
 @674=~Mislead
 Grad: 6
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 1
 Area of Effect: Caster
@@ -1823,7 +1823,7 @@ When this spell is cast the wizard is affected with an Improved Invisibility spe
 @676=~Pierce Magic
 Grad: 6
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1837,7 +1837,7 @@ The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflectio
 @678=~True Seeing
 Grad: 6
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 30' radius
@@ -1851,7 +1851,7 @@ Note: True Seeing does not dispel illusionary clones such as those conjured by M
 @680=~Protection from Magical Weapons
 Grad: 6
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 4 rounds
 Casting Time: 1
 Area of Effect: Caster
@@ -1863,7 +1863,7 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 @682=~Power Word Silence
 Grad: 6
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: 1 creature
@@ -1875,7 +1875,7 @@ When a Power Word Silence spell is uttered, the target creature becomes unable m
 @684=~Improved Haste
 Grad: 6
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 6
 Area of Effect: 30' radius
@@ -1887,7 +1887,7 @@ When this spell is cast, each affected creature functions at double normal movem
 @686=~Acid Fog
 Grad: 6
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 6
 Area of Effect: 30' radius
@@ -1899,7 +1899,7 @@ This spell creates a thick, clinging, greenish cloud. All creatures who aren't i
 @688=~Chain Lightning
 Grad: 6
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 6
 Area of Effect: Target, and enemies within 30'
@@ -1911,7 +1911,7 @@ This spell creates an electrical discharge that begins as a single stroke commen
 @690=~Disintegrate
 Grad: 6
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1923,7 +1923,7 @@ Upon casting this spell at another creature, a thin green ray shoots unerringly 
 @692=~Contingency
 Grad: 6
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -1935,7 +1935,7 @@ Upon casting this spell, the wizard is allowed to choose a spell out of his repe
 @694=~Spell Deflection
 Grad: 6
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: Caster
@@ -1949,7 +1949,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 @696=~Monster Summoning VI
 Grad: 6
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1980,7 +1980,7 @@ Immune to entangle, grease, hold, sleep, slow, stun, & web effects~
 @698=~Conjure Fire Elemental
 Grad: 6
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2011,7 +2011,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 @700=~Conjure Air Elemental
 Grad: 6
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2041,7 +2041,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 @702=~Conjure Earth Elemental
 Grad: 6
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2071,7 +2071,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 @704=~Animate Skeleton Warrior
 Grad: 6
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Special
@@ -2094,7 +2094,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 @706=~Summon Nishruu
 Grad: 7
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2122,7 +2122,7 @@ Physical Resistance 50%~
 @708=~Stone to Flesh
 Grad: 6
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: Permanent
 Casting Time: 6
 Area of Effect: 1 creature
@@ -2137,7 +2137,7 @@ This spell is the reverse of Flesh to Stone and will return any creature that ha
 @722=~Greater Spell Deflection
 Grad: 7
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 7
 Area of Effect: Caster
@@ -2151,7 +2151,7 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 @724=~Protection from the Elements
 Grad: 7
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/2 levels
 Casting Time: 7
 Area of Effect: 1 creature
@@ -2163,7 +2163,7 @@ When this spell is cast, it confers complete protection from all elemental attac
 @726=~Project Image
 Grad: 7
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 1
 Area of Effect: Caster
@@ -2175,7 +2175,7 @@ When this spell is cast, an illusory copy of the casting wizard appears to step 
 @728=~Ruby Ray of Reversal
 Grad: 7
 Schule: Alteration
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 5
 Area of Effect: 1 creature
@@ -2189,7 +2189,7 @@ The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell D
 @730=~Khelben's Warding Whip
 Grad: 7
 Schule: Evocation
-Range: Medium
+Reichweite: Mittel
 Duration: 3 rounds
 Casting Time: 7
 Area of Effect: 1 creature
@@ -2203,7 +2203,7 @@ The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell
 @732=~Summon Death Knight
 Grad: 7
 Schule: Necromancy
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2235,7 +2235,7 @@ Symbols: of Weakness or Death (once per day each)~
 @734=~Prismatic Mantle
 Grad: 7
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 4 rounds
 Casting Time: 1
 Area of Effect: Caster
@@ -2255,7 +2255,7 @@ Violet - Mazed (save vs. spell neg.)~
 @736=~Simbul's Spell Sequencer
 Grad: 7
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -2267,7 +2267,7 @@ This spell allows a mage to prepare a magical sequencer that can store spells to
 @738=~Chaos
 Grad: 7
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 7
 Area of Effect: 30' radius
@@ -2279,7 +2279,7 @@ This spell allows the caster to create a sphere of chaotic magic. All enemies wi
 @740=~Delayed Blast Fireball
 Grad: 7
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 7
 Area of Effect: 30' radius
@@ -2291,7 +2291,7 @@ This spell creates a fireball that hovers at a point determined by the caster. T
 @742=~Finger of Death
 Grad: 7
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 5
 Area of Effect: 1 creature
@@ -2303,7 +2303,7 @@ The Finger of Death spell snuffs out the victim's life force. The caster points 
 @744=~Prismatic Spray
 Grad: 7
 Schule: Alteration
-Range: Special
+Reichweite: Spezial
 Duration: Special
 Casting Time: 1
 Area of Effect: Cone
@@ -2323,7 +2323,7 @@ Violet - Maze (save vs. spell neg.)~
 @746=~Power Word Stun
 Grad: 7
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1
 Area of Effect: 1 creature
@@ -2335,7 +2335,7 @@ When a Power Word Stun spell is uttered, any creature of the mage's choice withi
 @748=~Mordenkainen's Sword
 Grad: 7
 Schule: Evocation
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 7
 Area of Effect: Special
@@ -2349,7 +2349,7 @@ Upon casting this spell, the wizard brings into being a shimmering, swordlike pl
 @750=~Summon Efreeti
 Grad: 7
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 8 rounds + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2378,7 +2378,7 @@ Memorized Spells:
 @752=~Summon Djinni
 Grad: 7
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 8 rounds + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2404,7 +2404,7 @@ Memorized Spells:
 @754=~Summon Hakeashar
 Grad: 7
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 8 rounds + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -2433,7 +2433,7 @@ Physical Resistance 50%~
 @756=~Control Undead
 Grad: 7
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: 5 turns
 Casting Time: 7
 Area of Effect: Target, and enemies within 5'
@@ -2445,7 +2445,7 @@ The Control Undead spell allows the caster to take control of undead creatures w
 @758=~Mass Invisibility
 Grad: 7
 Schule: Illusion
-Range: Long
+Reichweite: Lang
 Duration: 1 round/level
 Casting Time: 7
 Area of Effect: 30' radius
@@ -2457,7 +2457,7 @@ Upon casting this spell, the wizard causes all friendly creatures within the are
 @760=~Limited Wish
 Grad: 7
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -2469,7 +2469,7 @@ Limited Wish is a very potent but difficult spell. It will fulfill literally, bu
 @762=~Improved Chaos Shield
 Grad: 7
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 7
 Area of Effect: Caster
@@ -2484,7 +2484,7 @@ Improved Chaos Shield increases a wild mage's chance to gain a favorable result 
 @768=~Ghostform
 Grad: 8
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 8
 Area of Effect: Caster
@@ -2498,7 +2498,7 @@ As an incorporeal creature, the caster moves silently and cannot be heard (+100%
 @770=~Mind Blank
 Grad: 8
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 8 hours
 Casting Time: 8
 Area of Effect: 1 creature
@@ -2510,7 +2510,7 @@ The subject is protected from all devices and spells that detect, influence, or 
 @772=~Protection from Energy
 Grad: 8
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 2 rounds/level
 Casting Time: 8
 Area of Effect: 1 creature
@@ -2522,7 +2522,7 @@ When this spell is cast, it confers complete protection from all energy attacks 
 @774=~Simulacrum
 Grad: 8
 Schule: Illusion
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 1 round
 Area of Effect: Caster
@@ -2534,7 +2534,7 @@ When this spell is cast, the caster taps energy from the Plane of Shadow to crea
 @776=~Pierce Shield
 Grad: 8
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 8
 Area of Effect: 1 creature
@@ -2550,7 +2550,7 @@ The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield,
 @778=~Summon Fiend
 Grad: 8
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2583,7 +2583,7 @@ Power Word Stun (once every 5 rounds)~
 @780=~Moment of Prescience
 Grad: 8
 Schule: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 4 rounds
 Casting Time: 1
 Area of Effect: Caster
@@ -2595,7 +2595,7 @@ This spell grants an almost omniscient perception of things to come. For the dur
 @782=~Simbul's Spell Trigger
 Grad: 8
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -2607,7 +2607,7 @@ This spell allows a mage to prepare a magical trigger that can store spells to b
 @784=~Incendiary Cloud
 Grad: 8
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 8
 Area of Effect: 30' radius
@@ -2619,7 +2619,7 @@ An Incendiary Cloud spell creates a cloud of roiling smoke and roaring flame. Th
 @786=~Symbol of Weakness
 Grad: 8
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 20' radius
@@ -2631,7 +2631,7 @@ Symbol of Weakness is a powerful enchantment that allows the caster to inscribe 
 @788=~Abi-Dalzim's Horrid Wilting
 Grad: 8
 Schule: Necromancy
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 8
 Area of Effect: 30' radius
@@ -2643,7 +2643,7 @@ This spell evaporates moisture in the bodies of all living creatures within the 
 @790=~Maze
 Grad: 8
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: Special
 Casting Time: 5
 Area of Effect: 1 creature
@@ -2666,7 +2666,7 @@ If the 9th level spell Freedom is cast in the area where a creature is mazed, it
 @792=~Power Word Blind
 Grad: 8
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1
 Area of Effect: 1 creature
@@ -2678,7 +2678,7 @@ When a Power Word Blind spell is uttered, any creature of the mage's choice with
 @794=~Symbol of Stunning
 Grad: 8
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 20' radius
@@ -2690,7 +2690,7 @@ Symbol of Stunning is a powerful enchantment that allows the caster to inscribe 
 @796=~Symbol of Death
 Grad: 8
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 20' radius
@@ -2702,7 +2702,7 @@ Symbol of Death is a powerful enchantment that allows the caster to inscribe a s
 @798=~Bigby's Icy Grasp
 Grad: 8
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: 8 rounds
 Casting Time: 8
 Area of Effect: 1 creature
@@ -2717,7 +2717,7 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 @812=~Spell Trap
 Grad: 9
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: Caster
@@ -2729,7 +2729,7 @@ This abjuration spell causes any spells cast against the wizard to be absorbed a
 @814=~Spellstrike
 Grad: 9
 Schule: Abjuration
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 5
 Area of Effect: 1 creature
@@ -2743,7 +2743,7 @@ The spell protection spells dispelled by Spellstrike are: Minor Spell Deflection
 @816=~Gate
 Grad: 9
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2782,7 +2782,7 @@ Meteor Swarm (once per day)~
 @818=~Absolute Immunity
 Grad: 9
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 4 rounds
 Casting Time: 1
 Area of Effect: Caster
@@ -2794,7 +2794,7 @@ When Absolute Immunity is cast, the caster gains complete invulnerability to phy
 @820=~Chain Contingency
 Grad: 9
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -2806,7 +2806,7 @@ Chain Contingency channels some of the magical energy of the mage and releases i
 @822=~Time Stop
 Grad: 9
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 3 rounds
 Casting Time: 1 round
 Area of Effect: Special
@@ -2818,7 +2818,7 @@ Upon casting a Time Stop spell, the wizard causes the flow of time to stop in th
 @824=~Imprisonment
 Grad: 9
 Schule: Abjuration
-Range: Short
+Reichweite: Kurz
 Duration: Permanent
 Casting Time: 1 round
 Area of Effect: 1 creature
@@ -2830,7 +2830,7 @@ When the Imprisonment spell is cast the target creature becomes entombed in a sm
 @826=~Meteor Swarm
 Grad: 9
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -2842,7 +2842,7 @@ Upon completion of this spell, a swarm of minute meteors bombards the affected a
 @828=~Power Word Kill
 Grad: 9
 Schule: Enchantment
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 1
 Area of Effect: 1 creature
@@ -2854,7 +2854,7 @@ When a Power Word Kill spell is uttered, one creature targeted by the caster is 
 @830=~Wail of the Banshee
 Grad: 9
 Schule: Necromancy
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -2866,7 +2866,7 @@ At the culmination of this dreadful spell, the wizard screams like a banshee (gr
 @832=~Larloch's Energy Drain
 Grad: 9
 Schule: Necromancy
-Range: Short
+Reichweite: Kurz
 Duration: Special
 Casting Time: 5
 Area of Effect: Special
@@ -2878,7 +2878,7 @@ The casting of this spell opens a channel between the caster's plane and the Neg
 @834=~Black Blade of Disaster
 Grad: 9
 Schule: Conjuration
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 5
 Area of Effect: Special
@@ -2890,7 +2890,7 @@ This spell enables the caster to create a black, blade-shaped planar rift, about
 @836=~Shapechange
 Grad: 9
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 1 round
 Area of Effect: Caster
@@ -2936,7 +2936,7 @@ Regeneration: 3 hp/round; Cold Resistance 100%~
 @838=~Freedom
 Grad: 9
 Schule: Abjuration
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1 round
 Area of Effect: Special
@@ -2948,7 +2948,7 @@ When this spell is cast, all friendly creatures in the area are freed from spell
 @840=~Bigby's Crushing Hand
 Grad: 9
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 1 creature
@@ -2960,7 +2960,7 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 @842=~Wish
 Grad: 9
 Schule: Universal
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 5
 Area of Effect: Special
@@ -2975,7 +2975,7 @@ Wish is a more potent version of the Limited Wish spell. It will fulfill literal
 @852=~Energy Blades
 Grad: Epic
 Schule: Evocation
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: Special
@@ -2987,7 +2987,7 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 @854=~Improved Alacrity
 Grad: Epic
 Schule: Alteration
-Range: Personal
+Reichweite: Anwender
 Duration: 2 rounds
 Casting Time: 1 round
 Area of Effect: Caster
@@ -2999,7 +2999,7 @@ Improved Alacrity essentially erases the pause between casting spells. When cast
 @856=~Dragon's Breath
 Grad: Epic
 Schule: Evocation
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 5
 Area of Effect: 30' radius
@@ -3011,7 +3011,7 @@ This spell causes the disembodied head of a red dragon to appear and breathe fir
 @858=~Summon Planetar
 Grad: Epic
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -3048,7 +3048,7 @@ Memorized Spells:
 @860=~Summon Dark Planetar
 Grad: Epic
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -3085,7 +3085,7 @@ Memorized Spells:
 @862=~Comet
 Grad: Epic
 Schule: Conjuration
-Range: Long
+Reichweite: Lang
 Duration: Instantaneous
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -3106,7 +3106,7 @@ When this spell is cast, a huge meteor or comet strikes the earth, damaging all 
 Grad: 2
 Schule: Abjuration
 Sphere: Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 1 round/level
 Casting Time: 2
 Area of Effect: 1 creature
@@ -3118,7 +3118,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of eleme
 @867=~Monster Summoning VII
 Grad: 7
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -3147,7 +3147,7 @@ Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 @869=~Monster Summoning VIII
 Grad: 8
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -3175,7 +3175,7 @@ Immune to confusion effects~
 @871=~Monster Summoning IX
 Grad: 9
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -3200,7 +3200,7 @@ Poison~
 @874=~Protection from Elemental Energy
 Grad: 4
 Schule: Abjuration
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -3212,7 +3212,7 @@ When this spell is cast, the recipient receives complete protection from one dam
 @876=~Icelance
 Grad: 3
 Schule: Evocation
-Range: Short
+Reichweite: Kurz
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
@@ -3224,7 +3224,7 @@ When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6
 @878=~Vitriolic Sphere
 Grad: 4
 Schule: Conjuration
-Range: Medium
+Reichweite: Mittel
 Duration: Special
 Casting Time: 3
 Area of Effect: Target, and anyone within 10'

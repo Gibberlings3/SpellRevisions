@@ -5,7 +5,7 @@
 Grad: 1
 Schule: Enchantment
 Sphere: All
-Range: Long
+Reichweite: Lang
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: 30' radius
@@ -18,7 +18,7 @@ Upon uttering the Bless spell, the caster raises the morale of friendly creature
 Grad: 1
 Schule: Enchantment
 Sphere: Charm, Combat, Law
-Range: Long
+Reichweite: Lang
 Duration: 1 round
 Casting Time: 1
 Area of Effect: 1 creature
@@ -31,7 +31,7 @@ This spell enables the priest to command another creature to lie down and take n
 Grad: 1
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 1
 Area of Effect: 1 creature
@@ -44,7 +44,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 Grad: 1
 Schule: Divination
 Sphere: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1
 Area of Effect: Special
@@ -57,7 +57,7 @@ This spell allows the priestd to search out the feelings of all creatures within
 Grad: 1
 Schule: Alteration
 Sphere: Plant
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 30' radius
@@ -70,7 +70,7 @@ By means of this spell, the caster causes plants to entangle all creatures in th
 Grad: 1
 Schule: Enchantment
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 1
 Area of Effect: Special
@@ -85,7 +85,7 @@ Using this spell, the priest can temporarily enchant ten small stones, no larger
 Grad: 1
 Schule: Abjuration
 Sphere: Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: 1 creature
@@ -98,7 +98,7 @@ When this spell is cast, it creates a magical barrier around the recipient at a 
 Grad: 1
 Schule: Abjuration
 Sphere: Charm
-Range: Long
+Reichweite: Lang
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: 30' radius
@@ -111,7 +111,7 @@ The caster instills courage in the spell recipients, raising their morale to its
 Grad: 1
 Schule: Abjuration
 Sphere: Charm, Protection
-Range: Personal
+Reichweite: Anwender
 Duration: 6 rounds
 Casting Time: 1
 Area of Effect: Caster
@@ -124,7 +124,7 @@ When the priest casts a Sanctuary spell, it causes all of his opponents to ignor
 Grad: 1
 Schule: Alteration
 Sphere: Combat, Plant
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 5
 Area of Effect: Special
@@ -137,7 +137,7 @@ This spell enables the caster to create a magical cudgel. The shillelagh inflict
 Grad: 1
 Schule: Abjuration
 Sphere: Protection
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: Caster
@@ -150,7 +150,7 @@ The caster of the Armor of Faith receives significant protection against physica
 Grad: 1
 Schule: Enchantment
 Sphere: Charm
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: 1 creature
@@ -163,7 +163,7 @@ This spell causes a feeling of doom to overwhelm the target. For the duration of
 Grad: 1
 Schule: Evocation
 Sphere: Weather
-Range: Long
+Reichweite: Lang
 Duration: 4 rounds
 Casting Time: 1
 Area of Effect: 5' radius
@@ -174,7 +174,7 @@ When this spell is cast, a pale glow surrounds and outlines all enemies within t
 Grad: 1
 Schule: Evocation
 Sphere: Weather
-Range: Long
+Reichweite: Lang
 Duration: 4 rounds
 Casting Time: 1
 Area of Effect: 5' radius
@@ -187,7 +187,7 @@ When this spell is cast, a pale glow surrounds and outlines all creatures within
 Grad: 1
 Schule: Alteration
 Sphere: Elemental (Earth)
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: Caster
@@ -200,7 +200,7 @@ Calling upon the strength of the earth, the caster gains some of the solidity an
 Grad: 1
 Schule: Evocation
 Sphere: Sun
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 5
 Area of Effect: 1 creature
@@ -216,7 +216,7 @@ When this spell is cast, a brilliant ray of scorching heat slants down from the 
 Grad: 2
 Schule: Necromancy
 Sphere: Combat, Necromantic
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -229,7 +229,7 @@ The recipient of this spell gains a +1 bonus to attack rolls, damage rolls, and 
 Grad: 2
 Schule: Alteration
 Sphere: Plant
-Range: Touch
+Reichweite: Berührung
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: 1 creature
@@ -242,7 +242,7 @@ When a priest casts the Barkskin spell upon a creature, its skin becomes as toug
 Grad: 2
 Schule: Conjuration
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -255,7 +255,7 @@ By means of the Chant spell, the priest brings special favor upon himself and hi
 Grad: 2
 Schule: Enchantment
 Sphere: Animal
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: 1 person or animal
@@ -270,7 +270,7 @@ Creatures that are currently neutral to the caster are more amenable to helping 
 Grad: 2
 Schule: Divination
 Sphere: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 3 turns
 Casting Time: 5
 Area of Effect: 30' radius
@@ -283,7 +283,7 @@ When a priest casts a find traps spell, all traps - concealed normally or magica
 Grad: 2
 Schule: Evocation
 Sphere: Elemental (Fire)
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 5
 Area of Effect: Special
@@ -296,7 +296,7 @@ With this spell, the caster causes a blazing ray of red-hot fire to spring forth
 Grad: 1
 Schule: Alteration
 Sphere: Plant
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1 round
 Area of Effect: Special
@@ -317,7 +317,7 @@ Casting a Goodberry spell creates 5 magical berries that the caster can carry wi
 Grad: 2
 Schule: Enchantment
 Sphere: Charm, Law
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Target, and enemies within 5'
@@ -332,7 +332,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 Grad: 2
 Schule: Divination
 Sphere: Divination
-Range: Long
+Reichweite: Lang
 Duration: 2 turns
 Casting Time: 2
 Area of Effect: 1 creature
@@ -345,7 +345,7 @@ When this spell is cast, the caster's eyes glow with magical energy, enabling hi
 Grad: 2
 Schule: Abjuration
 Sphere: Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 1 round/level
 Casting Time: 2
 Area of Effect: 1 creature
@@ -358,7 +358,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of eleme
 Grad: 2
 Schule: Alteration
 Sphere: Guardian
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 15' radius
@@ -371,7 +371,7 @@ Upon casting this spell, complete silence prevails in the affected area. All sou
 Grad: 2
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Instant
 Casting Time: 1
 Area of Effect: 1 creature
@@ -384,7 +384,7 @@ When this spell is cast upon a poisoned individual, it greatly slows the effects
 Grad: 2
 Schule: Evocation
 Sphere: Combat
-Range: Medium
+Reichweite: Mittel
 Duration: 2 turns
 Casting Time: 5
 Area of Effect: Special
@@ -397,7 +397,7 @@ By calling upon his deity, the caster of a Spiritual Hammer spell brings into ex
 Grad: 2
 Schule: Evocation
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 2
 Area of Effect: Caster
@@ -410,7 +410,7 @@ When this spell is cast, the priest's body shudders and glows with a shimmering 
 Grad: 2
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 2
 Area of Effect: 1 creature
@@ -423,7 +423,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 Grad: 2
 Schule: Abjuration
 Sphere: Elemental (Fire)
-Range: Short
+Reichweite: Kurz
 Duration: Special
 Casting Time: 5
 Area of Effect: 20' radius
@@ -441,7 +441,7 @@ When the spell is cast, the druid weaves a tracery of faintly glowing lines arou
 Grad: 3
 Schule: Necromancy
 Sphere: Necromantic
-Range: Medium
+Reichweite: Mittel
 Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Special
@@ -484,7 +484,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 Grad: 3
 Schule: Alteration
 Sphere: Weather
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 360' radius
@@ -497,7 +497,7 @@ Immediately upon completion of the spell, and once per round thereafter, the cas
 Grad: 3
 Schule: Abjuration
 Sphere: All
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 3
 Area of Effect: 20' radius
@@ -512,7 +512,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 Grad: 3
 Schule: Abjuration
 Sphere: Guardian
-Range: Short
+Reichweite: Kurz
 Duration: Special
 Casting Time: 5
 Area of Effect: 20' radius
@@ -527,7 +527,7 @@ When the spell is cast, the priest weaves a tracery of faintly glowing lines aro
 Grad: 3
 Schule: Enchantment
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Target, and enemies within 5'
@@ -542,7 +542,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 Grad: 5
 Schule: Abjuration
 Sphere: Elemental, Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -555,7 +555,7 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 Grad: 3
 Schule: Abjuration
 Sphere: All
-Range: Short
+Reichweite: Kurz
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -568,7 +568,7 @@ Upon casting this spell, the priest is able to free a victim from enchantments a
 Grad: 3
 Schule: Abjuration
 Sphere: Necromantic, Protection
-Range: Long
+Reichweite: Lang
 Duration: Permanent
 Casting Time: 3
 Area of Effect: 30' radius
@@ -581,7 +581,7 @@ By the use of this spell, the priest can free several creatures from the effects
 Grad: 3
 Schule: Abjuration
 Sphere: Wards
-Range: Personal
+Reichweite: Anwender
 Duration: 5 rounds
 Casting Time: 3
 Area of Effect: 30' radius
@@ -594,7 +594,7 @@ Instantly and once each round for 5 rounds after this spell is cast, all conceal
 Grad: 3
 Schule: Enchantment
 Sphere: Chaos
-Range: Long
+Reichweite: Lang
 Duration: 5 rounds
 Casting Time: 3
 Area of Effect: 1 creature
@@ -607,7 +607,7 @@ Miscast Magic causes spells cast by the affected creature to take on an effect d
 Grad: 3
 Schule: Necromancy
 Sphere: Necromantic
-Range: Short
+Reichweite: Kurz
 Duration: 8 hours
 Casting Time: 3
 Area of Effect: 1 creature
@@ -620,7 +620,7 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 Grad: 3
 Schule: Alteration
 Sphere: Law
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 3
 Area of Effect: 30' radius
@@ -633,7 +633,7 @@ When this spell is cast, all party members within 30 feet of the caster gain a +
 Grad: 3
 Schule: Necromancy
 Sphere: Necromantic
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 3
 Area of Effect: 20' radius
@@ -646,7 +646,7 @@ With this spell the priest draws down holy power to smite his enemies. Opponents
 Grad: 3
 Schule: Necromancy
 Sphere: Necromantic
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 3
 Area of Effect: 20' radius
@@ -659,7 +659,7 @@ With this spell the priest calls up unholy power to smite his enemies. The power
 Grad: 3
 Schule: Abjuration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 1
 Area of Effect: 1 creature
@@ -672,7 +672,7 @@ By laying her hands upon a sickly person, the caster can cure almost any disease
 Grad: 3
 Schule: Abjuration
 Sphere: Wards, Elemental (Air)
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1
 Area of Effect: Special
@@ -687,7 +687,7 @@ This spell creates a severe blast of air that originates from the caster, affect
 Grad: 3
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 6 rounds
 Casting Time: 5
 Area of Effect: 1 creature
@@ -702,7 +702,7 @@ For the duration of the spell, the affected creature fights with a -2 penalty to
 Grad: 3
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
@@ -715,7 +715,7 @@ This spell is the reverse of Cure Serious Wounds. Instead of healing the creatur
 Grad: 3
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 3
 Area of Effect: 1 creature
@@ -728,7 +728,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 Grad: 3
 Schule: Abjuration
 Sphere: Weather, Elemental (Air)
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Caster
@@ -740,7 +740,7 @@ This spell surrounds the caster with an invisible curtain of stormy winds that m
 Grad: 3
 Schule: Enchantment
 Sphere: Law
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 1 person or mammal
@@ -755,7 +755,7 @@ The target of this spell must make a saving throw vs. spell or come under its ef
 Grad: 4
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 4
 Area of Effect: 1 creature
@@ -768,7 +768,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 Grad: 4
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -796,7 +796,7 @@ Pounce: can charge a target if at least 6 feet away. During that round the leopa
 Grad: 4
 Schule: Abjuration
 Sphere: Charm
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -809,7 +809,7 @@ While under the effects of this spell, the recipient becomes immune to everythin
 Grad: 4
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 1
 Area of Effect: 1 creature
@@ -822,7 +822,7 @@ This spell removes all toxins from the body, both natural and magical in nature.
 Grad: 4
 Schule: Enchantment
 Sphere: Thought
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 4
 Area of Effect: 1 creature
@@ -835,7 +835,7 @@ When cast upon a subject, he must make a save vs. spell at -2 in order to avoid 
 Grad: 4
 Schule: Enchantment
 Sphere: Law
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: 10' radius
@@ -848,7 +848,7 @@ Defensive Harmony grants affected creatures a defensive bonus by enhancing the c
 Grad: 5
 Schule: Abjuration
 Sphere: Elemental, Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -861,7 +861,7 @@ When a Protection from Electricity spell is cast, the recipient receives complet
 Grad: 4
 Schule: Abjuration
 Sphere: Protection
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: 30' radius
@@ -874,7 +874,7 @@ Upon casting this spell, the priest causes all friendly creatures within the are
 Grad: 4
 Schule: Necromancy
 Sphere: Necromantic
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -887,7 +887,7 @@ While under the effects of this spell, the recipient is immune to all forms of d
 Grad: 4
 Schule: Conjuration
 Sphere: Animal
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -934,7 +934,7 @@ Memorized Spells:
 Grad: 4
 Schule: Necromancy
 Sphere: Healing
-Range: Short
+Reichweite: Kurz
 Duration: 1 turn
 Casting Time: 4
 Area of Effect: 1 creature
@@ -954,7 +954,7 @@ The victim cannot avoid the initial damage unless it is completely immune to the
 Grad: 4
 Schule: Evocation
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 4
 Area of Effect: Caster
@@ -969,7 +969,7 @@ Note: this spell does not give any extra attacks to multiclassed or dual-classed
 Grad: 4
 Schule: Abjuration
 Sphere: Necromantic, Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: 1 creature
@@ -982,7 +982,7 @@ When a Negative Plane Protection spell is cast, the recipient receives complete 
 Grad: 4
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 4
 Area of Effect: 1 creature
@@ -995,7 +995,7 @@ This spell is the reverse of Cure Critical Wounds. Instead of healing the creatu
 Grad: 4
 Schule: Divination
 Sphere: Divination
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 4
 Area of Effect: Special
@@ -1008,7 +1008,7 @@ When Farsight is cast, the caster is able to view an area of an unexplored map. 
 Grad: 4
 Schule: Conjuration
 Sphere: Charm
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: 6' radius
@@ -1021,7 +1021,7 @@ Cloak of Fear empowers the caster to radiate a personal aura of fear out to a 6'
 Grad: 4
 Schule: Necromancy
 Sphere: Necromantic
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 4
 Area of Effect: 1 creature
@@ -1036,7 +1036,7 @@ The casting of this spell is very draining on the priest, leaving him physically
 Grad: 4
 Schule: Evocation
 Sphere: Elemental (Water)
-Range: Long
+Reichweite: Lang
 Duration: 4 rounds
 Casting Time: 4
 Area of Effect: 30' radius
@@ -1052,7 +1052,7 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 Grad: 5
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1084,7 +1084,7 @@ Immune to entangle, grease, web and poison effects~
 Grad: 5
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1097,7 +1097,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 Grad: 5
 Schule: Evocation
 Sphere: Combat, Elemental (Fire)
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 5
 Area of Effect: Target, and enemies within 5'
@@ -1110,7 +1110,7 @@ Upon casting this spell, a vertical column of fire roars downward, striking a vi
 Grad: 5
 Schule: Necromancy
 Sphere: Necromantic
-Range: Short
+Reichweite: Kurz
 Duration: Permanent
 Casting Time: 1 round
 Area of Effect: 1 person
@@ -1123,7 +1123,7 @@ When the priest casts a Raise Dead spell, life can be restored to a dead comrade
 Grad: 5
 Schule: Necromancy
 Sphere: Necromantic
-Range: Short
+Reichweite: Kurz
 Duration: Permanent
 Casting Time: 1 round
 Area of Effect: 1 person
@@ -1136,7 +1136,7 @@ This spell is only available to Harpers. The Harper's Call restores a comrade to
 Grad: 5
 Schule: Divination
 Sphere: All
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Special
@@ -1151,7 +1151,7 @@ Note: True Seeing does not dispel illusionary clones such as those conjured by M
 Grad: 5
 Schule: Alteration
 Sphere: Elemental (Earth)
-Range: Personal
+Reichweite: Anwender
 Duration: 8 hours
 Casting Time: 1
 Area of Effect: Caster
@@ -1166,7 +1166,7 @@ It is important to note that this will not protect the druid from any area attac
 Grad: 5
 Schule: Alteration
 Sphere: Law
-Range: Medium
+Reichweite: Mittel
 Duration: 1 round/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1179,7 +1179,7 @@ When this spell is cast, the priest draws on the power of his god and lends it t
 Grad: 5
 Schule: Enchantment
 Sphere: Chaos
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1192,7 +1192,7 @@ While under the effects of this spell, the recipient becomes immune to magical c
 Grad: 5
 Schule: Alteration
 Sphere: Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 2 rounds/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1205,7 +1205,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of magic
 Grad: 5
 Schule: Necromancy
 Sphere: Healing
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1218,7 +1218,7 @@ This spell is the reverse of Cure Mortal Wounds. Instead of healing the creature
 Grad: 5
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1231,7 +1231,7 @@ Upon casting this spell, the priest has to touch an opponent in order to visit t
 Grad: 5
 Schule: Enchantment
 Sphere: Charm, Combat, Law
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: Target, and enemies within 20'
@@ -1244,7 +1244,7 @@ As with the first level spell Command, this spell enables the priest to command 
 Grad: 5
 Schule: Alteration
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 1 round/level
 Casting Time: 5
 Area of Effect: Caster
@@ -1257,7 +1257,7 @@ This is a powerful combat spell that enhances the priest's physical prowess, cha
 Grad: 5
 Schule: Necromancy
 Sphere: Healing
-Range: Personal
+Reichweite: Anwender
 Duration: Permanent
 Casting Time: 5
 Area of Effect: Sight
@@ -1270,7 +1270,7 @@ When casting this spell, the priest must picture the faces of his fellow party m
 Grad: 5
 Schule: Abjuration
 Sphere: Wards
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 10' radius
@@ -1283,7 +1283,7 @@ An invisible, mobile field surrounds the caster and prevents creatures from appr
 Grad: 5
 Schule: Conjuration
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 30' radius
@@ -1296,7 +1296,7 @@ This spell creates a handful of pixie dust that the caster can toss into the air
 Grad: 5
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 6 rounds
 Casting Time: 5
 Area of Effect: Target, and enemies within 30'
@@ -1311,7 +1311,7 @@ For the duration of the spell, those affected fight with a -2 penalty to attack 
 Grad: 5
 Schule: Alteration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1326,7 +1326,7 @@ Note that all clothes and equipment that the target was wearing will mold into t
 Grad: 5
 Schule: Abjuration
 Sphere: Elemental, Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1339,7 +1339,7 @@ When a Protection from Acid spell is cast, the recipient receives complete prote
 Grad: 5
 Schule: Abjuration
 Sphere: Elemental, Protection
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn/level
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1355,7 +1355,7 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 Grad: 6
 Schule: Conjuration
 Sphere: Summoning
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -1377,7 +1377,7 @@ Immune to hold, poison, sleep, & stun effects~
 Grad: 6
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1400,7 +1400,7 @@ HP 78, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
 Grad: 6
 Schule: Conjuration
 Sphere: Guardian, Creation
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 6
 Area of Effect: 6' radius
@@ -1415,7 +1415,7 @@ Note that spells like Invisibility, Shadow Door, etc. will not function on the c
 Grad: 6
 Schule: Conjuration
 Sphere: Summoning
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1428,7 +1428,7 @@ This spell allows the caster to summon forth and control one or two massive moun
 Grad: 6
 Schule: Conjuration
 Sphere: Elemental (Fire)
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -1457,7 +1457,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 Grad: 6
 Schule: Conjuration
 Sphere: Elemental (Fire)
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 6
 Area of Effect: Special
@@ -1470,7 +1470,7 @@ This spell enables the druid to create a number of fire seeds, one for every 2 e
 Grad: 6
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: Instant
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1483,7 +1483,7 @@ The very potent Heal spell enables the priest to wipe away any injury in the cre
 Grad: 6
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1496,7 +1496,7 @@ This spell is the reverse of Heal. Instead of healing the creature touched, it c
 Grad: 6
 Schule: Evocation
 Sphere: Sun
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1 round
 Area of Effect: 15' radius
@@ -1509,7 +1509,7 @@ By drawing on the power of the sun, this spell causes the caster's body to emana
 Grad: 6
 Schule: Alteration, Necromancy
 Sphere: Combat, Necromantic
-Range: Medium
+Reichweite: Mittel
 Duration: Special
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1522,7 +1522,7 @@ This spell affects a single living creature. Dolorous Decay is a rotting and wit
 Grad: 6
 Schule: Alteration
 Sphere: Charm, Creation
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1 round
 Area of Effect: Caster
@@ -1535,7 +1535,7 @@ This spell enables the caster to bring back into memory two spells that have bee
 Grad: 6
 Schule: Evocation
 Sphere: Combat, Summoning
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1556,7 +1556,7 @@ Magic resistance does not affect this spell.~
 Grad: 6
 Schule: Alteration
 Sphere: Numbers
-Range: Personal
+Reichweite: Anwender
 Duration: 2 turns
 Casting Time: 6
 Area of Effect: Special
@@ -1569,7 +1569,7 @@ This spell causes a localized folding of space. The folded space takes the form 
 Grad: 6
 Schule: Conjuration
 Sphere: Elemental (Fire)
-Range: Personal
+Reichweite: Anwender
 Duration: 3 rounds
 Casting Time: 6
 Area of Effect: Special
@@ -1582,7 +1582,7 @@ When the spell is completed, it creates a glowing gem. This gem must be thrown a
 Grad: 6
 Schule: Conjuration
 Sphere: Elemental (Air)
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -1610,7 +1610,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 Grad: 6
 Schule: Conjuration
 Sphere: Elemental (Earth)
-Range: Medium
+Reichweite: Mittel
 Duration: 1 turn + 1 round/level
 Casting Time: 1 round
 Area of Effect: Special
@@ -1638,7 +1638,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 Grad: 6
 Schule: Abjuration
 Sphere: Wards
-Range: Long
+Reichweite: Lang
 Duration: Instant
 Casting Time: 6
 Area of Effect: 30' radius
@@ -1651,7 +1651,7 @@ This spell forces hostile summoned creatures in the area back to their proper pl
 Grad: 6
 Schule: Necromancy
 Sphere: Necromantic
-Range: Long
+Reichweite: Lang
 Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Special
@@ -1678,7 +1678,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 Grad: 7
 Schule: Abjuration
 Sphere: Protection
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1
 Area of Effect: Caster
@@ -1693,7 +1693,7 @@ This spell also grants protection from spells cast from scrolls and innate spell
 Grad: 7
 Schule: Conjuration
 Sphere: Plant
-Range: Medium
+Reichweite: Mittel
 Duration: 8 hours
 Casting Time: 1 round
 Area of Effect: Special
@@ -1723,7 +1723,7 @@ Crushing Resistance 100%; Slashing, Piercing, & Missile Resistance 50%~
 Grad: 7
 Schule: Necromancy
 Sphere: All
-Range: Medium
+Reichweite: Mittel
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -1754,7 +1754,7 @@ Symbols: of Weakness or Death (once per day each)~
 Grad: 7
 Schule: Illusion
 Sphere: Elemental
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 7
 Area of Effect: 30' radius
@@ -1769,7 +1769,7 @@ If the caster harms, or attempts to harm, a charmed creature by some overt actio
 Grad: 7
 Schule: Evocation
 Sphere: Combat, Elemental (Fire)
-Range: Long
+Reichweite: Lang
 Duration: 4 rounds
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -1782,7 +1782,7 @@ When a Fire Storm spell is cast, the whole area is shot through with sheets of r
 Grad: 7
 Schule: Conjuration
 Sphere: Combat
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 20' radius
@@ -1795,7 +1795,7 @@ Symbol of Weakness is a powerful enchantment that allows the caster to inscribe 
 Grad: 7
 Schule: Evocation
 Sphere: Sun
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 5
 Area of Effect: 30' radius
@@ -1808,7 +1808,7 @@ When this spell is cast, it causes a ray of sunlight to beam down upon the caste
 Grad: 7
 Schule: Necromancy
 Sphere: War
-Range: Long
+Reichweite: Lang
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1821,7 +1821,7 @@ The Finger of Death spell snuffs out the victim's life force. The caster points 
 Grad: 7
 Schule: Conjuration
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1
 Area of Effect: 30' radius
@@ -1842,7 +1842,7 @@ The effects are cumulative and concurrent.~
 Grad: 7
 Schule: Necromancy
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 3 turns
 Casting Time: 6
 Area of Effect: 1 creature
@@ -1855,7 +1855,7 @@ This powerful spell enables the caster to imbue a creature with the ability to r
 Grad: 7
 Schule: Necromancy
 Sphere: Necromantic
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 1 round
 Area of Effect: 1 creature
@@ -1868,7 +1868,7 @@ Like the 5th level spell Raise Dead, Resurrection will return a character back t
 Grad: 7
 Schule: Necromancy
 Sphere: Necromantic
-Range: Touch
+Reichweite: Berührung
 Duration: Permanent
 Casting Time: 5
 Area of Effect: 1 creature
@@ -1883,7 +1883,7 @@ The casting of this spell is very draining on the priest, leaving him physically
 Grad: 7
 Schule: Conjuration
 Sphere: Combat
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1
 Area of Effect: 30' radius
@@ -1904,7 +1904,7 @@ The effects are cumulative and concurrent.~
 Grad: 7
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 6 rounds
 Casting Time: 5
 Area of Effect: Target, and enemies within 30'
@@ -1919,7 +1919,7 @@ For the duration of the spell, those affected fight with a -2 penalty to attack 
 Grad: 7
 Schule: Conjuration
 Sphere: Combat
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 20' radius
@@ -1932,7 +1932,7 @@ Symbol of Stunning is a powerful enchantment that allows the caster to inscribe 
 Grad: 7
 Schule: Alteration
 Sphere: Elemental (Earth)
-Range: Long
+Reichweite: Lang
 Duration: 3 rounds
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -1949,7 +1949,7 @@ This spell will affect both enemies and friends of the caster, so care must be t
 Grad: 7
 Schule: Conjuration
 Sphere: Combat
-Range: Long
+Reichweite: Lang
 Duration: Special
 Casting Time: 1 round
 Area of Effect: 20' radius
@@ -1962,7 +1962,7 @@ Symbol of Death is a powerful enchantment that allows the caster to inscribe a s
 Grad: 7
 Schule: Enchantment
 Sphere: Chaos
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 7
 Area of Effect: 30' radius
@@ -1978,7 +1978,7 @@ This spell allows the caster to create a sphere of chaotic magic. All enemies wi
 Grad: Quest
 Schule: Evocation
 Sphere: Creation, Combat
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 5
 Area of Effect: Special
@@ -1991,7 +1991,7 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 Grad: Quest
 Schule: Evocation
 Sphere: War, Weather
-Range: Long
+Reichweite: Lang
 Duration: 3 rounds
 Casting Time: 1 round
 Area of Effect: 30' radius
@@ -2006,7 +2006,7 @@ Each round, the victims suffer 2d6 points of electrical damage and 2d6 points of
 Grad: Quest
 Schule: Conjuration
 Sphere: Elemental, Summoning
-Range: Long
+Reichweite: Lang
 Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2019,7 +2019,7 @@ Drawing power from the environment, this spell summons a 12HD elemental from eac
 Grad: Quest
 Schule: Conjuration
 Sphere: Elemental, Summoning
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 1 round
 Area of Effect: Special
@@ -2074,7 +2074,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 Grad: Quest
 Schule: Evocation
 Sphere: Guardian, Creation
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 1 round
 Area of Effect: 6' radius
@@ -2089,7 +2089,7 @@ Note that spells like Invisibility, Shadow Door, etc. will not function on the c
 Grad: Quest
 Schule: Conjuration
 Sphere: All, Summoning
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2128,7 +2128,7 @@ Memorized Spells:
 Grad: Quest
 Schule: Conjuration
 Sphere: All, Summoning
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2166,7 +2166,7 @@ Memorized Spells:
 Grad: Quest
 Schule: Alteration
 Sphere: Combat, Numbers
-Range: Long
+Reichweite: Lang
 Duration: 1 round
 Casting Time: 7
 Area of Effect: 1 creature
@@ -2179,7 +2179,7 @@ This fearsome spell creates a destructive resonance in a corporeal creature's bo
 Grad: Quest
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: Permanent
 Casting Time: 4
 Area of Effect: Up to 5 party members
@@ -2192,7 +2192,7 @@ A more powerful version of Raise Dead, this spell brings up to 5 party members b
 Grad: Quest
 Schule: Evocation
 Sphere: Protection, Elemental (Fire)
-Range: Personal
+Reichweite: Anwender
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 5' radius
@@ -2205,7 +2205,7 @@ This spell causes the caster to be enveloped by an aura of intense flame that bo
 Grad: Quest
 Schule: Alteration
 Sphere: Combat, Elemental (Fire)
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: Caster
@@ -2225,7 +2225,7 @@ Fire Resistance 100%;  Physical Resistance 20%~
 Grad: Quest
 Schule: Alteration
 Sphere: Combat, Elemental (Earth)
-Range: Personal
+Reichweite: Anwender
 Duration: 5 turns
 Casting Time: 1
 Area of Effect: Caster
@@ -2248,7 +2248,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 Grad: 1
 Schule: Alteration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 2 rounds/level
 Casting Time: 1
 Area of Effect: 1 creature
@@ -2261,7 +2261,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 Grad: 2
 Schule: Alteration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 2 rounds/level
 Casting Time: 2
 Area of Effect: 1 creature
@@ -2274,7 +2274,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 Grad: 3
 Schule: Alteration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 2 rounds/level
 Casting Time: 3
 Area of Effect: 1 creature
@@ -2287,7 +2287,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 Grad: 4
 Schule: Alteration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 2 rounds/level
 Casting Time: 4
 Area of Effect: 1 creature
@@ -2300,7 +2300,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 Grad: 5
 Schule: Alteration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 1 turn + 2 rounds/level
 Casting Time: 5
 Area of Effect: Sight
@@ -2313,7 +2313,7 @@ This spell enables the caster to imbue all allies within sight with the ability 
 Grad: 6
 Schule: Alteration
 Sphere: Healing
-Range: Touch
+Reichweite: Berührung
 Duration: 3 turns
 Casting Time: 6
 Area of Effect: 1 creature
@@ -2329,7 +2329,7 @@ This powerful spell enables the caster to imbue a creature with the ability to r
 Grad: 2
 Schule: Evocation
 Sphere: Elemental (Air)
-Range: Personal
+Reichweite: Anwender
 Duration: Instant
 Casting Time: 1
 Area of Effect: Special
@@ -2342,7 +2342,7 @@ This spell creates a severe blast of air that originates from the caster, affect
 Grad: 1
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 1
 Area of Effect: 1 creature
@@ -2355,7 +2355,7 @@ This spell is the reverse of Cure Light Wounds. Instead of healing the creature 
 Grad: 2
 Schule: Necromancy
 Sphere: Necromantic
-Range: Personal
+Reichweite: Anwender
 Duration: Special
 Casting Time: 2
 Area of Effect: 1 creature
@@ -2368,7 +2368,7 @@ This spell is the reverse of Cure Moderate Wounds. Instead of healing the creatu
 Grad: 1
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2399,7 +2399,7 @@ Blindsense: relies on echolocation to fight in conditions of poor light or total
 Grad: 1
 Schule: Conjuration
 Sphere: Weather
-Range: Long
+Reichweite: Lang
 Duration: 6 rounds
 Casting Time: 5
 Area of Effect: 20' radius
@@ -2412,7 +2412,7 @@ When this spell is cast, a misty bank of fog billows out from the designated poi
 Grad: 2
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2439,7 +2439,7 @@ Scent: detect invisible creatures within 10 feet~
 Grad: 3
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2466,7 +2466,7 @@ Pack Attack: each wolf within 10 feet grants additional +1 bonus to attack rolls
 Grad: 3
 Schule: Alteration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 5
 Area of Effect: 30' radius
@@ -2479,7 +2479,7 @@ This spell turns natural weapons (such as teeth, claws, etc.) of friendly animal
 Grad: 5
 Schule: Alteration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 5
 Area of Effect: 30' radius
@@ -2492,7 +2492,7 @@ When this spell is cast, the caster causes all friendly animals within range to 
 Grad: 7
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2519,7 +2519,7 @@ Cold Resistance 20%~
 Grad: 3
 Schule: Alteration
 Sphere: Plant
-Range: Long
+Reichweite: Lang
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: 20' radius
@@ -2532,7 +2532,7 @@ The ground in a 20-foot radius centered on a point within range twists and sprou
 Grad: 3
 Schule: Evocation
 Sphere: Elemental (Water)
-Range: Short
+Reichweite: Kurz
 Duration: Special
 Casting Time: 3
 Area of Effect: 1 creature
@@ -2554,7 +2554,7 @@ When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6
 Grad: 1
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2572,7 +2572,7 @@ HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
 Grad: 2
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
@@ -2590,7 +2590,7 @@ HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
 Grad: 3
 Schule: Conjuration
 Sphere: Animal
-Range: Long
+Reichweite: Lang
 Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
