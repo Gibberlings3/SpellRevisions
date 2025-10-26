@@ -5,8 +5,8 @@
 Grad: 1
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn
-Casting Time: 1
+Dauer: 1 Phase
+Zeitaufwand: 1
 Area of Effect: 10' radius
 Saving Throw: Breath partial
 
@@ -17,8 +17,8 @@ A Grease spell covers a material surface with a slippery layer of a fatty, greas
 Grad: 1
 Schule: Beschwörung
 Reichweite: Anwender
-Duration: 8 hours
-Casting Time: 1 round
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
 Area of Effect: Caster
 Saving Throw: None
 
@@ -29,8 +29,8 @@ By means of this spell, the wizard creates a magical field of force that sets it
 Grad: 1
 Schule: Hervorrufung
 Reichweite: Spezial
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: None
 
@@ -41,8 +41,8 @@ When the wizard casts this spell, a cone of searing flames shoots from his finge
 Grad: 1
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 1
+Dauer: 5 Runden
+Zeitaufwand: 1
 Area of Effect: 1 person
 Saving Throw: Spell negates
 
@@ -55,8 +55,8 @@ Creatures that are currently neutral to the caster are more amenable to helping 
 Grad: 1
 Schule: Veränderung
 Reichweite: Spezial
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: Spell negates
 
@@ -67,8 +67,8 @@ Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing
 Grad: 1
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 6 rounds
-Casting Time: 5
+Dauer: 6 Runden
+Zeitaufwand: 5
 Area of Effect: 20' radius
 Saving Throw: None
 
@@ -79,8 +79,8 @@ When this spell is cast, a misty bank of fog billows out from the designated poi
 Grad: 1
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -101,8 +101,8 @@ HP 8, AC 10, THAC0 19, Saving Throws 13/17/15/13/17
 Grad: 1
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 3 rounds
-Casting Time: 1
+Dauer: 3 Runden
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: None
 
@@ -113,8 +113,8 @@ When cast, this spell provides all friendly creatures in the area with an amazin
 Grad: 1
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: Instant
-Casting Time: Special
+Dauer: Sofort
+Zeitaufwand: Special
 Area of Effect: 1 item
 Saving Throw: None
 
@@ -125,8 +125,8 @@ When this spell is cast, name and enchantments (including curses) of one item su
 Grad: 1
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: 3 rounds
-Casting Time: 1
+Dauer: 3 Runden
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -137,8 +137,8 @@ This spell grants the caster otherworldly sight, resulting in preternatural accu
 Grad: 1
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -149,8 +149,8 @@ Use of the Magic Missile spell, one of the most popular first level spells, crea
 Grad: 1
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 5 turns
-Casting Time: 1
+Dauer: 5 Phasen
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -161,8 +161,8 @@ When this spell is cast, it creates a magical barrier around the recipient at a 
 Grad: 1
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 1
+Dauer: 5 Phasen
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -173,8 +173,8 @@ When this spell is cast, an invisible barrier comes into being in front of the w
 Grad: 1
 Schule: Hervorrufung
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: Special
 
@@ -185,8 +185,8 @@ When the wizard touches a creature while this spell is in effect, an electrical 
 Grad: 1
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 1
+Dauer: 5 Runden
+Zeitaufwand: 1
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
@@ -197,8 +197,8 @@ When a wizard casts a Sleep spell, he causes a comatose slumber to come upon one
 Grad: 1
 Schule: Nekromantie
 Reichweite: Anwender
-Duration: 1 turn
-Casting Time: 1
+Dauer: 1 Phase
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: Special
 
@@ -209,8 +209,8 @@ When the caster completes this spell, a blue glow encompasses his hand. This ene
 Grad: 1
 Schule: Veränderung
 Reichweite: Lang
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: Spell partial
 
@@ -237,8 +237,8 @@ This spell causes a 2-foot-diameter sphere to appear in the caster's hand. When 
 Grad: 1
 Schule: Nekromantie
 Reichweite: Lang
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -249,8 +249,8 @@ With this spell, the wizard drains the life force from a target and adds it to h
 Grad: 1
 Schule: Illusion
 Reichweite: Anwender
-Duration: 4 rounds +1 round/3 levels
-Casting Time: 1
+Dauer: 4 Runden + 1 Runde pro 3 Stufen
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -261,8 +261,8 @@ Upon casting this spell, the wizard creates one illusory image of himself that w
 Grad: 1
 Schule: Universal
 Reichweite: Kurz
-Duration: Permanent
-Casting Time: 1 round
+Dauer: Unbefristet
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -292,8 +292,8 @@ You can view your familiar's statistics from the inventory screen.~
 Grad: 1
 Schule: Beschwörung
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: Special
 
@@ -308,8 +308,8 @@ Because the release of energy is planned by the mage, his level is added to the 
 Grad: 1
 Schule: Illusion
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 1
+Dauer: 5 Runden
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: Special
 
@@ -320,8 +320,8 @@ A Spook spell enables the wizard to play upon natural fears to cause the target 
 Grad: 1
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 hour
-Casting Time: 1
+Dauer: 1 Stunde
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -334,8 +334,8 @@ This spell grants the recipient immunity to all petrification attacks. This incl
 Grad: 2
 Schule: Illusion
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 2
+Dauer: 5 Phasen
+Zeitaufwand: 2
 Area of Effect: Caster
 Saving Throw: None
 
@@ -346,8 +346,8 @@ A Blur spell causes the mage's form and spirit to become blurred, shifting and w
 Grad: 2
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 2
+Dauer: Sofort
+Zeitaufwand: 2
 Area of Effect: Special
 Saving Throw: None
 
@@ -357,8 +357,8 @@ This spell allows the wizard to search out the feelings of all creatures within 
 Grad: 1
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 2
+Dauer: Sofort
+Zeitaufwand: 2
 Area of Effect: Special
 Saving Throw: None
 
@@ -369,8 +369,8 @@ This spell allows the wizard to search out the feelings of all creatures within 
 Grad: 2
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: 5 rounds
-Casting Time: 2
+Dauer: 5 Runden
+Zeitaufwand: 2
 Area of Effect: 50' radius
 Saving Throw: None
 
@@ -381,8 +381,8 @@ When a wizard casts a Detect Invisibility spell, he becomes able to see clearly 
 Grad: 2
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 2
+Dauer: 5 Runden
+Zeitaufwand: 2
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
@@ -393,8 +393,8 @@ When this spell is cast, all enemies within the area of effect must save vs. spe
 Grad: 2
 Schule: Illusion
 Reichweite: Berührung
-Duration: Special
-Casting Time: 2
+Dauer: Spezial
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -405,8 +405,8 @@ This spell causes the creature touched to vanish from sight and be undetectable 
 Grad: 2
 Schule: Hervorrufung
 Reichweite: Mittel
-Duration: Instant
-Casting Time: 2
+Dauer: Sofort
+Zeitaufwand: 2
 Area of Effect: 1 creature or object
 Saving Throw: Special
 
@@ -417,8 +417,8 @@ This spell creates a ram-like force that can strike with considerable power. The
 Grad: 2
 Schule: Erkenntniszauber
 Reichweite: Lang
-Duration: 2 turns
-Casting Time: 2
+Dauer: 2 Phasen
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -429,8 +429,8 @@ When this spell is cast, the wizard's eyes glow with magical energy, enabling hi
 Grad: 2
 Schule: Verzauberung
 Reichweite: Mittel
-Duration: 5 turns
-Casting Time: 2
+Dauer: 5 Phasen
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -441,8 +441,8 @@ The recipient of this spell is lucky in everything that he does for the next hou
 Grad: 2
 Schule: Bannzauber
 Reichweite: Lang
-Duration: 5 turns
-Casting Time: 1
+Dauer: 5 Phasen
+Zeitaufwand: 1
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -453,8 +453,8 @@ The wizard instills courage in allies, raising their morale to its highest. If t
 Grad: 2
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 1 round/3 levels
-Casting Time: 2
+Dauer: 1 Runde pro 3 Stufen
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -465,8 +465,8 @@ By means of this spell, the wizard creates a magical arrow that speeds to its ta
 Grad: 2
 Schule: Illusion
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 2
+Dauer: 5 Phasen
+Zeitaufwand: 2
 Area of Effect: Caster
 Saving Throw: None
 
@@ -477,8 +477,8 @@ When a Mirror Image spell is invoked, the spellcaster causes a number of illusor
 Grad: 2
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 2
+Dauer: 1 Phase
+Zeitaufwand: 2
 Area of Effect: 30' radius
 Saving Throw: Poison negates
 
@@ -489,8 +489,8 @@ When Stinking Cloud is cast, a billowing mass of nauseous vapors appears centere
 Grad: 2
 Schule: Veränderung
 Reichweite: Kurz
-Duration: 1 turn/level
-Casting Time: 2
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -501,8 +501,8 @@ Application of this spell sets the strength of the character to 18 and then adds
 Grad: 2
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: 20' radius
 Saving Throw: Breath negates
 
@@ -513,8 +513,8 @@ A Web spell creates a many-layered mass of strong, sticky strands similar to spi
 Grad: 2
 Schule: Hervorrufung
 Reichweite: Mittel
-Duration: 2 rounds
-Casting Time: 2
+Dauer: 2 Runden
+Zeitaufwand: 2
 Area of Effect: Special
 Saving Throw: None
 
@@ -525,8 +525,8 @@ Upon casting this spell, a jet of flame appears at the caster's fingertips and b
 Grad: 2
 Schule: Nekromantie
 Reichweite: Anwender
-Duration: 1 turn
-Casting Time: 2
+Dauer: 1 Phase
+Zeitaufwand: 2
 Area of Effect: Special
 Saving Throw: Death partial
 
@@ -537,8 +537,8 @@ When the caster completes this spell, a red glow encompasses his hand. On a succ
 Grad: 2
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 1 turn
-Casting Time: 2
+Dauer: 1 Phase
+Zeitaufwand: 2
 Area of Effect: Caster
 Saving Throw: None
 
@@ -549,8 +549,8 @@ The recipient of this spell gains the ability to cast spells with a verbal compo
 Grad: 2
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 1
+Dauer: 5 Runden
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
@@ -561,8 +561,8 @@ When a wizard utters this power word, he causes a comatose slumber to come upon 
 Grad: 2
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 2
+Dauer: 1 Phase
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
@@ -573,8 +573,8 @@ By means of a Ray of Enfeeblement, a wizard weakens an opponent, reducing its st
 Grad: 2
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 2 rounds/level
-Casting Time: 2
+Dauer: 2 Runden pro Stufe
+Zeitaufwand: 2
 Area of Effect: Caster
 Saving Throw: None
 
@@ -585,8 +585,8 @@ Chaos Shield increases a wild mage's chance to gain a favorable result when a wi
 Grad: 2
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 2
+Dauer: 1 Phase
+Zeitaufwand: 2
 Area of Effect: Target, and enemies within 10'
 Saving Throw: Breath partial
 
@@ -597,8 +597,8 @@ This spell blasts an area with a tremendous cacophony. Enemies within the area s
 Grad: 2
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 4 rounds
-Casting Time: 2
+Dauer: 4 Runden
+Zeitaufwand: 2
 Area of Effect: 10' radius
 Saving Throw: Special
 
@@ -607,8 +607,8 @@ This spell creates a cloud of glittering golden particles within the area of eff
 Grad: 2
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 4 rounds
-Casting Time: 2
+Dauer: 4 Runden
+Zeitaufwand: 2
 Area of Effect: 10' radius
 Saving Throw: Special
 
@@ -622,8 +622,8 @@ This spell creates a cloud of glittering golden particles within the area of eff
 Grad: 3
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: 2 turns
-Casting Time: 3
+Dauer: 2 Phasen
+Zeitaufwand: 3
 Area of Effect: Caster
 Saving Throw: None
 
@@ -634,8 +634,8 @@ This spell grants an unnatural perception of things to come. Once Clairvoyance i
 Grad: 3
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: 20' radius
 Saving Throw: Special
 
@@ -648,8 +648,8 @@ The chance of the dispel succeeding is determined by the level of the caster and
 Grad: 3
 Schule: Beschwörung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: Special
 Saving Throw: Breath half
 
@@ -660,8 +660,8 @@ This spell enables the caster to hurl flaming arrows at his enemies. The caster 
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: 30' radius
 Saving Throw: Breath half
 
@@ -672,8 +672,8 @@ A fireball is an explosive burst of flame that detonates with a low roar, delive
 Grad: 3
 Schule: Veränderung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 3
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 3
 Area of Effect: 20' radius
 Saving Throw: None
 
@@ -684,8 +684,8 @@ When this spell is cast, the affected creatures gain +6 to movement rate and can
 Grad: 3
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: Target, and enemies within 5'
 Saving Throw: Spell negates
 
@@ -698,8 +698,8 @@ Held creatures cannot move or speak, but they remain aware of events around them
 Grad: 3
 Schule: Illusion
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: 10' radius
 Saving Throw: None
 
@@ -710,8 +710,8 @@ This spell confers invisibility upon all friendly creatures within 10 feet of th
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: Breath half
 
@@ -722,8 +722,8 @@ Upon casting this spell, the wizard releases a powerful stroke of electrical ene
 Grad: 3
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -756,7 +756,7 @@ Memorized Spells:
 @520=~Non-Detection
 Grad: 3
 Schule: Bannzauber
-Casting Time: 3
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -769,8 +769,8 @@ Note: while a creature protected by Non-Detection cannot be exposed to everyone,
 Grad: 3
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn
-Casting Time: 3
+Dauer: 1 Phase
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -781,8 +781,8 @@ By means of this spell, the wizard bestows upon a creature total invulnerability
 Grad: 3
 Schule: Veränderung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 3
+Dauer: 1 Phase
+Zeitaufwand: 3
 Area of Effect: 30' radius
 Saving Throw: Polymorph negates
 
@@ -793,8 +793,8 @@ A Slow spell causes creatures to move and attack at half of their normal rates u
 Grad: 3
 Schule: Nekromantie
 Reichweite: Mittel
-Duration: Special
-Casting Time: 3
+Dauer: Spezial
+Zeitaufwand: 3
 Area of Effect: 20' radius
 Saving Throw: Breath half
 
@@ -805,8 +805,8 @@ Upon casting this spell, a skull is thrown by the caster at the target area. The
 Grad: 3
 Schule: Nekromantie
 Reichweite: Berührung
-Duration: Special
-Casting Time: 3
+Dauer: Spezial
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -821,8 +821,8 @@ Note that this spell may not be cast multiple times to radically increase the ca
 Grad: 3
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 3
+Dauer: 1 Phase
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
@@ -835,8 +835,8 @@ If the caster harms, or attempts to harm, the charmed creature by some overt act
 Grad: 3
 Schule: Illusion
 Reichweite: Berührung
-Duration: 10 turns
-Casting Time: 3
+Dauer: 10 Phasen
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -847,8 +847,8 @@ When this spell is cast, the wizard creates an insubstantial but quasi-real suit
 Grad: 3
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 3
+Dauer: 5 Phasen
+Zeitaufwand: 3
 Area of Effect: Caster
 Saving Throw: None
 
@@ -862,8 +862,8 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/level
-Casting Time: 5
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -875,8 +875,8 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/level
-Casting Time: 5
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -887,8 +887,8 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 Grad: 3
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: 15' radius
 Saving Throw: None
 
@@ -901,8 +901,8 @@ The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Non
 Grad: 3
 Schule: Erkenntniszauber
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -917,8 +917,8 @@ The illusion spells dispelled by Detect Illusion are: Reflected Image, Blur, Inv
 Grad: 3
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 3
+Dauer: 1 Phase
+Zeitaufwand: 3
 Area of Effect: Target, and enemies within 5'
 Saving Throw: Spell negates
 
@@ -931,8 +931,8 @@ Those affected become unable move or groan, but they remain aware of events arou
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Anwender
-Duration: Special
-Casting Time: 3
+Dauer: Spezial
+Zeitaufwand: 3
 Area of Effect: Special
 Saving Throw: None
 
@@ -945,8 +945,8 @@ This spell enables the wizard to summon small globes of fire (one for each level
 Grad: 3
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Instant
-Casting Time: 3
+Dauer: Sofort
+Zeitaufwand: 3
 Area of Effect: 20' radius
 Saving Throw: Special
 
@@ -962,8 +962,8 @@ The chance of the dispel succeeding is determined by the level of the caster and
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 4
+Dauer: 5 Runden
+Zeitaufwand: 4
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
@@ -974,8 +974,8 @@ This spell causes confusion in one or more creatures within the area, creating i
 Grad: 1
 Schule: Beschwörung
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -986,8 +986,8 @@ This spell transports the caster to any place within sight. When the spell is ca
 Grad: 5
 Schule: Beschwörung
 Reichweite: Anwender
-Duration: 2 turns
-Casting Time: 5
+Dauer: 2 Phasen
+Zeitaufwand: 5
 Area of Effect: Special
 Saving Throw: None
 
@@ -998,8 +998,8 @@ This spell conjures an acid shield around the caster. This shield not only grant
 Grad: 4
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: 4 rounds
-Casting Time: 4
+Dauer: 4 Runden
+Zeitaufwand: 4
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1010,8 +1010,8 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 Grad: 4
 Schule: Illusion
 Reichweite: Berührung
-Duration: 3 rounds + 1 round/level
-Casting Time: 4
+Dauer: 3 Runden + 1 Runde pro Stufe
+Zeitaufwand: 4
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1022,8 +1022,8 @@ This spell is similar to the Invisibility spell, but the recipient is able to at
 Grad: 4
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 2 turns
-Casting Time: 4
+Dauer: 2 Phasen
+Zeitaufwand: 4
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1034,8 +1034,8 @@ This spell creates a faintly shimmering magical sphere around the caster that pr
 Grad: 2
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1061,8 +1061,8 @@ Missile Resistance 90%~
 Grad: 4
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 8 hours
-Casting Time: 1
+Dauer: 8 Stunden
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1075,8 +1075,8 @@ It is important to note that this will not protect the wizard from any area atta
 Grad: 4
 Schule: Nekromantie
 Reichweite: Kurz
-Duration: 8 hours
-Casting Time: 4
+Dauer: 8 Stunden
+Zeitaufwand: 4
 Area of Effect: 1 creature
 Saving Throw: Death negates
 
@@ -1087,8 +1087,8 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 Grad: 4
 Schule: Bannzauber
 Reichweite: Kurz
-Duration: Permanent
-Casting Time: 5
+Dauer: Unbefristet
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1099,8 +1099,8 @@ Upon casting this spell, the mage is able to free a victim from enchantments and
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 2 round/level
-Casting Time: 4
+Dauer: 2 Runden pro Stufe
+Zeitaufwand: 4
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
@@ -1111,8 +1111,8 @@ When this spell is cast, the wizard can disturb the emotional state of those aro
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 2 turns
-Casting Time: 4
+Dauer: 2 Phasen
+Zeitaufwand: 4
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1125,8 +1125,8 @@ The spell allows the caster to adversely affect the dice rolls of their enemies.
 Grad: 4
 Schule: Veränderung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 4
+Dauer: 1 Phase
+Zeitaufwand: 4
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
@@ -1139,8 +1139,8 @@ The caster has the option of using the spell to protect her allies. Resistances 
 Grad: 4
 Schule: Nekromantie
 Reichweite: Berührung
-Duration: 10 turns
-Casting Time: 4
+Dauer: 10 Phasen
+Zeitaufwand: 4
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1151,8 +1151,8 @@ This spell taps the target's life force in order to create a corporeal barrier a
 Grad: 4
 Schule: Veränderung
 Reichweite: Lang
-Duration: Permanent
-Casting Time: 4
+Dauer: Unbefristet
+Zeitaufwand: 4
 Area of Effect: 1 creature
 Saving Throw: Polymorph negates
 
@@ -1165,8 +1165,8 @@ Note that all clothes and equipment that the target was wearing will mold into t
 Grad: 4
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 4
+Dauer: 5 Phasen
+Zeitaufwand: 4
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1211,7 +1211,7 @@ Grad: 4
 Schule: Beschwörung
 Reichweite: Anwender
 Duration: 1 day
-Casting Time: 4
+Zeitaufwand: 4
 Area of Effect: Special
 Saving Throw: None
 
@@ -1222,8 +1222,8 @@ This spell conjures forth a +3 enchanted weapon that can be given to anyone. The
 Grad: 4
 Schule: Hervorrufung
 Reichweite: Anwender
-Duration: 3 rounds + 1 round/level
-Casting Time: 4
+Dauer: 3 Runden + 1 Runde pro Stufe
+Zeitaufwand: 4
 Area of Effect: Special
 Saving Throw: None
 
@@ -1234,8 +1234,8 @@ This spell protects the user by surrounding the caster with a circular wall of f
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1248,8 +1248,8 @@ The spell protection spells dispelled by Secret Word are: Minor Spell Deflection
 Grad: 4
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1260,8 +1260,8 @@ This spell allows a mage to prepare a magical matrix that can store spells to be
 Grad: 4
 Schule: Veränderung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 4
+Dauer: 1 Phase
+Zeitaufwand: 4
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
@@ -1272,8 +1272,8 @@ With this spell, the wizard instigates a teleportation effect as far as the wiza
 Grad: 4
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1305,8 +1305,8 @@ Immune to poison & web effects~
 Grad: 4
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 4
+Dauer: 5 Phasen
+Zeitaufwand: 4
 Area of Effect: Special
 Saving Throw: None
 
@@ -1317,8 +1317,8 @@ When Farsight is cast, the caster is able to view an area of an unexplored map. 
 Grad: 4
 Schule: Erkenntniszauber
 Reichweite: Kurz
-Duration: 1 round/level
-Casting Time: 1 round
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1332,8 +1332,8 @@ When this spell is employed, the wizard creates an invisible sensory organ that 
 Grad: 5
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1379,8 +1379,8 @@ Cold Resistance 100%; Physical Damage Resistance 50%~
 Grad: 5
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1391,8 +1391,8 @@ This spell generates a billowing cloud of ghastly, yellowish green vapors that i
 Grad: 5
 Schule: Hervorrufung
 Reichweite: Spezial
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: Breath half
 
@@ -1403,8 +1403,8 @@ When this spell is cast, it causes a cone-shaped spray of extreme cold to spring
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1440,8 +1440,8 @@ Memorized Spells:
 Grad: 5
 Schule: Illusion
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 1
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 1
 Area of Effect: Special
 Saving Throw: Special
 
@@ -1452,8 +1452,8 @@ By means of this spell, the wizard creates the illusion of a door. The illusion 
 Grad: 5
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
@@ -1464,8 +1464,8 @@ The Domination spell enables the caster to control the actions of any one creatu
 Grad: 5
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: Target, and enemies within 5'
 Saving Throw: Spell negates
 
@@ -1478,8 +1478,8 @@ Held creatures cannot move or speak, but they remain aware of events around them
 Grad: 5
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 5 rounds
-Casting Time: 5
+Dauer: 5 Runden
+Zeitaufwand: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1490,8 +1490,8 @@ Surges of negative energy render all hostile living creatures in the spell's are
 Grad: 5
 Schule: Verzauberung
 Reichweite: Lang
-Duration: Permanent
-Casting Time: 5
+Dauer: Unbefristet
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
@@ -1502,8 +1502,8 @@ Feeblemind causes the subject's intellect to degenerate into that of a simple be
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 5
+Dauer: 5 Phasen
+Zeitaufwand: 5
 Area of Effect: Caster and nearby allies
 Saving Throw: None
 
@@ -1514,8 +1514,8 @@ By casting this spell, caster creates a transparent, permeable barrier that shie
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 5
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 5
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1526,8 +1526,8 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/level
-Casting Time: 5
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1538,8 +1538,8 @@ When a Protection from Electricity spell is cast, the recipient receives complet
 Grad: 5
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Instant
-Casting Time: 5
+Dauer: Sofort
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1554,8 +1554,8 @@ The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor 
 Grad: 5
 Schule: Veränderung
 Reichweite: Lang
-Duration: 1 round/level
-Casting Time: 5
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1568,8 +1568,8 @@ For example, if a creature has 50% magic resistance and this spell is cast on it
 Grad: 5
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 5
+Dauer: Sofort
+Zeitaufwand: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1582,8 +1582,8 @@ The spells that are affected by this are: Reflected Image, Invisibility, Blur, M
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 8
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 8
 Area of Effect: Special
 Saving Throw: None
 
@@ -1607,8 +1607,8 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/level
-Casting Time: 5
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1619,8 +1619,8 @@ When a Protection from Acid spell is cast, the recipient receives complete prote
 Grad: 5
 Schule: Illusion
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 5
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 5
 Area of Effect: Special
 Saving Throw: None
 
@@ -1631,8 +1631,8 @@ This spell creates a translucent, weightless, shadowlike sword made of material 
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 5
+Dauer: 5 Phasen
+Zeitaufwand: 5
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1645,8 +1645,8 @@ The spells that Spell Shield protects the wizard from are: Spell Thrust, Secret 
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 8
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 8
 Area of Effect: Special
 Saving Throw: None
 
@@ -1669,8 +1669,8 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 8
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 8
 Area of Effect: Special
 Saving Throw: None
 
@@ -1693,8 +1693,8 @@ Slashing, Piercing, & Missile Resistance 40%~
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 5
+Dauer: 5 Phasen
+Zeitaufwand: 5
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1707,8 +1707,8 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 Grad: 5
 Schule: Hervorrufung
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: 15' radius
 Saving Throw: Breath half
 
@@ -1722,8 +1722,8 @@ This spell creates an explosive burst of flame that detonates with a low roar an
 Grad: 6
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 8 hours
-Casting Time: 1 round
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1748,8 +1748,8 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 Grad: 6
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 2 turns
-Casting Time: 6
+Dauer: 2 Phasen
+Zeitaufwand: 6
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1760,8 +1760,8 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 Grad: 6
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 6
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 6
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1774,8 +1774,8 @@ Note: this spell does not give any extra attacks to multiclassed or dual-classed
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
-Duration: Special
-Casting Time: 6
+Dauer: Spezial
+Zeitaufwand: 6
 Area of Effect: 1 creature
 Saving Throw: Special
 
@@ -1788,8 +1788,8 @@ Flesh to Stone is a powerful magic that permanently turns the flesh of the creat
 Grad: 6
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Instant
-Casting Time: 6
+Dauer: Sofort
+Zeitaufwand: 6
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1800,8 +1800,8 @@ This spell forces hostile summoned creatures in the area back to their proper pl
 Grad: 6
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/level
-Casting Time: 6
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1812,8 +1812,8 @@ When a Protection from Magic Energy spell is cast, the recipient receives comple
 Grad: 6
 Schule: Illusion
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 1
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1824,8 +1824,8 @@ When this spell is cast the wizard is affected with an Improved Invisibility spe
 Grad: 6
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Special
-Casting Time: 6
+Dauer: Spezial
+Zeitaufwand: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1838,8 +1838,8 @@ The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflectio
 Grad: 6
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1852,8 +1852,8 @@ Note: True Seeing does not dispel illusionary clones such as those conjured by M
 Grad: 6
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 4 rounds
-Casting Time: 1
+Dauer: 4 Runden
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1864,8 +1864,8 @@ This spell creates an immobile, faintly shimmering magical sphere around the cas
 Grad: 6
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 1
+Dauer: 1 Phase
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -1876,8 +1876,8 @@ When a Power Word Silence spell is uttered, the target creature becomes unable m
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 6
+Dauer: 1 Phase
+Zeitaufwand: 6
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1888,8 +1888,8 @@ When this spell is cast, each affected creature functions at double normal movem
 Grad: 6
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 6
+Dauer: 1 Phase
+Zeitaufwand: 6
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -1900,8 +1900,8 @@ This spell creates a thick, clinging, greenish cloud. All creatures who aren't i
 Grad: 6
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 6
+Dauer: Sofort
+Zeitaufwand: 6
 Area of Effect: Target, and enemies within 30'
 Saving Throw: Breath half
 
@@ -1912,8 +1912,8 @@ This spell creates an electrical discharge that begins as a single stroke commen
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 6
+Dauer: Sofort
+Zeitaufwand: 6
 Area of Effect: 1 creature
 Saving Throw: Breath partial
 
@@ -1924,8 +1924,8 @@ Upon casting this spell at another creature, a thin green ray shoots unerringly 
 Grad: 6
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1936,8 +1936,8 @@ Upon casting this spell, the wizard is allowed to choose a spell out of his repe
 Grad: 6
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 5
+Dauer: 5 Phasen
+Zeitaufwand: 5
 Area of Effect: Caster
 Saving Throw: None
 
@@ -1950,8 +1950,8 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -1981,8 +1981,8 @@ Immune to entangle, grease, hold, sleep, slow, stun, & web effects~
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 1 round
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2012,8 +2012,8 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 1 round
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2042,8 +2042,8 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 1 turn + 1 round/level
-Casting Time: 1 round
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2072,8 +2072,8 @@ Slashing, Piercing, & Missile Resistance 40%~
 Grad: 6
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 8 hours
-Casting Time: 1 round
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2095,8 +2095,8 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 1 round/level
-Casting Time: 1 round
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2123,8 +2123,8 @@ Physical Resistance 50%~
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
-Duration: Permanent
-Casting Time: 6
+Dauer: Unbefristet
+Zeitaufwand: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2138,8 +2138,8 @@ This spell is the reverse of Flesh to Stone and will return any creature that ha
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 7
+Dauer: 5 Phasen
+Zeitaufwand: 7
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2152,8 +2152,8 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 Grad: 7
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/2 levels
-Casting Time: 7
+Dauer: 1 Phase pro 2 Stufen
+Zeitaufwand: 7
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2164,8 +2164,8 @@ When this spell is cast, it confers complete protection from all elemental attac
 Grad: 7
 Schule: Illusion
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 1
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2176,8 +2176,8 @@ When this spell is cast, an illusory copy of the casting wizard appears to step 
 Grad: 7
 Schule: Veränderung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 5
+Dauer: Sofort
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2190,8 +2190,8 @@ The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell D
 Grad: 7
 Schule: Hervorrufung
 Reichweite: Mittel
-Duration: 3 rounds
-Casting Time: 7
+Dauer: 3 Runden
+Zeitaufwand: 7
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2204,8 +2204,8 @@ The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell
 Grad: 7
 Schule: Nekromantie
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2236,8 +2236,8 @@ Symbols: of Weakness or Death (once per day each)~
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 4 rounds
-Casting Time: 1
+Dauer: 4 Runden
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: partial
 
@@ -2256,8 +2256,8 @@ Violet - Mazed (save vs. spell neg.)~
 Grad: 7
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2268,8 +2268,8 @@ This spell allows a mage to prepare a magical sequencer that can store spells to
 Grad: 7
 Schule: Verzauberung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 7
+Dauer: 1 Phase
+Zeitaufwand: 7
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
@@ -2280,8 +2280,8 @@ This spell allows the caster to create a sphere of chaotic magic. All enemies wi
 Grad: 7
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Special
-Casting Time: 7
+Dauer: Spezial
+Zeitaufwand: 7
 Area of Effect: 30' radius
 Saving Throw: Breath half
 
@@ -2292,8 +2292,8 @@ This spell creates a fireball that hovers at a point determined by the caster. T
 Grad: 7
 Schule: Nekromantie
 Reichweite: Lang
-Duration: Instant
-Casting Time: 5
+Dauer: Sofort
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
@@ -2304,8 +2304,8 @@ The Finger of Death spell snuffs out the victim's life force. The caster points 
 Grad: 7
 Schule: Veränderung
 Reichweite: Spezial
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: Cone
 Saving Throw: Special
 
@@ -2324,8 +2324,8 @@ Violet - Maze (save vs. spell neg.)~
 Grad: 7
 Schule: Verzauberung
 Reichweite: Lang
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2336,8 +2336,8 @@ When a Power Word Stun spell is uttered, any creature of the mage's choice withi
 Grad: 7
 Schule: Hervorrufung
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 7
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 7
 Area of Effect: Special
 Saving Throw: None
 
@@ -2350,8 +2350,8 @@ Upon casting this spell, the wizard brings into being a shimmering, swordlike pl
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 8 rounds + 1 round/level
-Casting Time: 1 round
+Dauer: 8 Runden + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2379,8 +2379,8 @@ Memorized Spells:
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 8 rounds + 1 round/level
-Casting Time: 1 round
+Dauer: 8 Runden + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2405,8 +2405,8 @@ Memorized Spells:
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 8 rounds + 1 round/level
-Casting Time: 1 round
+Dauer: 8 Runden + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2434,8 +2434,8 @@ Physical Resistance 50%~
 Grad: 7
 Schule: Nekromantie
 Reichweite: Lang
-Duration: 5 turns
-Casting Time: 7
+Dauer: 5 Phasen
+Zeitaufwand: 7
 Area of Effect: Target, and enemies within 5'
 Saving Throw: Special
 
@@ -2446,8 +2446,8 @@ The Control Undead spell allows the caster to take control of undead creatures w
 Grad: 7
 Schule: Illusion
 Reichweite: Lang
-Duration: 1 round/level
-Casting Time: 7
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 7
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -2458,8 +2458,8 @@ Upon casting this spell, the wizard causes all friendly creatures within the are
 Grad: 7
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2470,8 +2470,8 @@ Limited Wish is a very potent but difficult spell. It will fulfill literally, bu
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 2 turns
-Casting Time: 7
+Dauer: 2 Phasen
+Zeitaufwand: 7
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2485,8 +2485,8 @@ Improved Chaos Shield increases a wild mage's chance to gain a favorable result 
 Grad: 8
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 8
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 8
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2499,8 +2499,8 @@ As an incorporeal creature, the caster moves silently and cannot be heard (+100%
 Grad: 8
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 8 hours
-Casting Time: 8
+Dauer: 8 Stunden
+Zeitaufwand: 8
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2511,8 +2511,8 @@ The subject is protected from all devices and spells that detect, influence, or 
 Grad: 8
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 2 rounds/level
-Casting Time: 8
+Dauer: 2 Runden pro Stufe
+Zeitaufwand: 8
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2523,8 +2523,8 @@ When this spell is cast, it confers complete protection from all energy attacks 
 Grad: 8
 Schule: Illusion
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 1 round
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2535,8 +2535,8 @@ When this spell is cast, the caster taps energy from the Plane of Shadow to crea
 Grad: 8
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Special
-Casting Time: 8
+Dauer: Spezial
+Zeitaufwand: 8
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2551,8 +2551,8 @@ The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield,
 Grad: 8
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2584,8 +2584,8 @@ Power Word Stun (once every 5 rounds)~
 Grad: 8
 Schule: Erkenntniszauber
 Reichweite: Anwender
-Duration: 4 rounds
-Casting Time: 1
+Dauer: 4 Runden
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2596,8 +2596,8 @@ This spell grants an almost omniscient perception of things to come. For the dur
 Grad: 8
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2608,8 +2608,8 @@ This spell allows a mage to prepare a magical trigger that can store spells to b
 Grad: 8
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 8
+Dauer: 1 Phase
+Zeitaufwand: 8
 Area of Effect: 30' radius
 Saving Throw: Special
 
@@ -2620,8 +2620,8 @@ An Incendiary Cloud spell creates a cloud of roiling smoke and roaring flame. Th
 Grad: 8
 Schule: Beschwörung
 Reichweite: Lang
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: 20' radius
 Saving Throw: Spell negates
 
@@ -2632,8 +2632,8 @@ Symbol of Weakness is a powerful enchantment that allows the caster to inscribe 
 Grad: 8
 Schule: Nekromantie
 Reichweite: Lang
-Duration: Instant
-Casting Time: 8
+Dauer: Sofort
+Zeitaufwand: 8
 Area of Effect: 30' radius
 Saving Throw: Death half
 
@@ -2644,8 +2644,8 @@ This spell evaporates moisture in the bodies of all living creatures within the 
 Grad: 8
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: Special
-Casting Time: 5
+Dauer: Spezial
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2667,8 +2667,8 @@ If the 9th level spell Freedom is cast in the area where a creature is mazed, it
 Grad: 8
 Schule: Verzauberung
 Reichweite: Lang
-Duration: Special
-Casting Time: 1
+Dauer: Spezial
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2679,8 +2679,8 @@ When a Power Word Blind spell is uttered, any creature of the mage's choice with
 Grad: 8
 Schule: Beschwörung
 Reichweite: Lang
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: 20' radius
 Saving Throw: Spell negates
 
@@ -2691,8 +2691,8 @@ Symbol of Stunning is a powerful enchantment that allows the caster to inscribe 
 Grad: 8
 Schule: Beschwörung
 Reichweite: Lang
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: 20' radius
 Saving Throw: Death negates
 
@@ -2703,8 +2703,8 @@ Symbol of Death is a powerful enchantment that allows the caster to inscribe a s
 Grad: 8
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: 8 rounds
-Casting Time: 8
+Dauer: 8 Runden
+Zeitaufwand: 8
 Area of Effect: 1 creature
 Saving Throw: Special
 
@@ -2718,8 +2718,8 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 Grad: 9
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 2 turns
-Casting Time: 1 round
+Dauer: 2 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2730,8 +2730,8 @@ This Bannzauber spell causes any spells cast against the wizard to be absorbed a
 Grad: 9
 Schule: Bannzauber
 Reichweite: Lang
-Duration: Special
-Casting Time: 5
+Dauer: Spezial
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2744,8 +2744,8 @@ The spell protection spells dispelled by Spellstrike are: Minor Spell Deflection
 Grad: 9
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2783,8 +2783,8 @@ Meteor Swarm (once per day)~
 Grad: 9
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: 4 rounds
-Casting Time: 1
+Dauer: 4 Runden
+Zeitaufwand: 1
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2795,8 +2795,8 @@ When Absolute Immunity is cast, the caster gains complete invulnerability to phy
 Grad: 9
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 1 round
+Dauer: Spezial
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2807,8 +2807,8 @@ Chain Contingency channels some of the magical energy of the mage and releases i
 Grad: 9
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 3 rounds
-Casting Time: 1 round
+Dauer: 3 Runden
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2819,8 +2819,8 @@ Upon casting a Time Stop spell, the wizard causes the flow of time to stop in th
 Grad: 9
 Schule: Bannzauber
 Reichweite: Kurz
-Duration: Permanent
-Casting Time: 1 round
+Dauer: Unbefristet
+Zeitaufwand: 1 Runde
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -2831,8 +2831,8 @@ When the Imprisonment spell is cast the target creature becomes entombed in a sm
 Grad: 9
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 1 round
+Dauer: Sofort
+Zeitaufwand: 1 Runde
 Area of Effect: 30' radius
 Saving Throw: Breath half
 
@@ -2843,8 +2843,8 @@ Upon completion of this spell, a swarm of minute meteors bombards the affected a
 Grad: 9
 Schule: Verzauberung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 1
+Dauer: Sofort
+Zeitaufwand: 1
 Area of Effect: 1 creature
 Saving Throw: Special
 
@@ -2855,8 +2855,8 @@ When a Power Word Kill spell is uttered, one creature targeted by the caster is 
 Grad: 9
 Schule: Nekromantie
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 1 round
+Dauer: Sofort
+Zeitaufwand: 1 Runde
 Area of Effect: 30' radius
 Saving Throw: Death negates
 
@@ -2867,8 +2867,8 @@ At the culmination of this dreadful spell, the wizard screams like a banshee (gr
 Grad: 9
 Schule: Nekromantie
 Reichweite: Kurz
-Duration: Special
-Casting Time: 5
+Dauer: Spezial
+Zeitaufwand: 5
 Area of Effect: Special
 Saving Throw: None
 
@@ -2879,8 +2879,8 @@ The casting of this spell opens a channel between the caster's plane and the Neg
 Grad: 9
 Schule: Beschwörung
 Reichweite: Anwender
-Duration: 1 round/level
-Casting Time: 5
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 5
 Area of Effect: Special
 Saving Throw: None
 
@@ -2891,8 +2891,8 @@ This spell enables the caster to create a black, blade-shaped planar rift, about
 Grad: 9
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 1 round
+Dauer: 5 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Caster
 Saving Throw: None
 
@@ -2937,8 +2937,8 @@ Regeneration: 3 hp/round; Cold Resistance 100%~
 Grad: 9
 Schule: Bannzauber
 Reichweite: Anwender
-Duration: Instant
-Casting Time: 1 round
+Dauer: Sofort
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -2949,8 +2949,8 @@ When this spell is cast, all friendly creatures in the area are freed from spell
 Grad: 9
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: 1 turn
-Casting Time: 5
+Dauer: 1 Phase
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: Special
 
@@ -2961,8 +2961,8 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 Grad: 9
 Schule: Universal
 Reichweite: Anwender
-Duration: Special
-Casting Time: 5
+Dauer: Spezial
+Zeitaufwand: 5
 Area of Effect: Special
 Saving Throw: None
 
@@ -2976,8 +2976,8 @@ Wish is a more potent version of the Limited Wish spell. It will fulfill literal
 Grad: Epic
 Schule: Hervorrufung
 Reichweite: Anwender
-Duration: 5 turns
-Casting Time: 5
+Dauer: 5 Phasen
+Zeitaufwand: 5
 Area of Effect: Special
 Saving Throw: None
 
@@ -2988,8 +2988,8 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 Grad: Epic
 Schule: Veränderung
 Reichweite: Anwender
-Duration: 2 rounds
-Casting Time: 1 round
+Dauer: 2 Runden
+Zeitaufwand: 1 Runde
 Area of Effect: Caster
 Saving Throw: None
 
@@ -3000,8 +3000,8 @@ Improved Alacrity essentially erases the pause between casting spells. When cast
 Grad: Epic
 Schule: Hervorrufung
 Reichweite: Lang
-Duration: Instant
-Casting Time: 5
+Dauer: Sofort
+Zeitaufwand: 5
 Area of Effect: 30' radius
 Saving Throw: Breath partial
 
@@ -3012,8 +3012,8 @@ This spell causes the disembodied head of a red dragon to appear and breathe fir
 Grad: Epic
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 2 turns
-Casting Time: 1 round
+Dauer: 2 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -3049,8 +3049,8 @@ Memorized Spells:
 Grad: Epic
 Schule: Beschwörung
 Reichweite: Lang
-Duration: 2 turns
-Casting Time: 1 round
+Dauer: 2 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -3086,8 +3086,8 @@ Memorized Spells:
 Grad: Epic
 Schule: Beschwörung
 Reichweite: Lang
-Duration: Instantaneous
-Casting Time: 1 round
+Dauer: Sofort
+Zeitaufwand: 1 Runde
 Area of Effect: 30' radius
 Saving Throw: Paralyzation partial
 
@@ -3107,8 +3107,8 @@ Grad: 2
 Schule: Bannzauber
 Sphere: Protection
 Reichweite: Berührung
-Duration: 1 turn + 1 round/level
-Casting Time: 2
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 2
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -3119,8 +3119,8 @@ Upon the casting of this spell, the recipient's resistance to all forms of eleme
 Grad: 7
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -3148,8 +3148,8 @@ Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 Grad: 8
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -3176,8 +3176,8 @@ Immune to confusion effects~
 Grad: 9
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: 3 turns
-Casting Time: 1 round
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
 Area of Effect: Special
 Saving Throw: None
 
@@ -3201,8 +3201,8 @@ Poison~
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
-Duration: 1 turn/level
-Casting Time: 5
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
@@ -3213,8 +3213,8 @@ When this spell is cast, the recipient receives complete protection from one dam
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Kurz
-Duration: Special
-Casting Time: 3
+Dauer: Spezial
+Zeitaufwand: 3
 Area of Effect: 1 creature
 Saving Throw: Paralyzation partial
 
@@ -3225,8 +3225,8 @@ When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6
 Grad: 4
 Schule: Beschwörung
 Reichweite: Mittel
-Duration: Special
-Casting Time: 3
+Dauer: Spezial
+Zeitaufwand: 3
 Area of Effect: Target, and anyone within 10'
 Saving Throw: Breath half
 
