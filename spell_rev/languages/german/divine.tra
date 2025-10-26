@@ -4,7 +4,7 @@
 @2=~Bless
 Grad: 1
 Schule: Verzauberung
-Sphere: All
+Domäne: Alle
 Reichweite: Lang
 Dauer: 5 Phasen
 Zeitaufwand: 5
@@ -17,7 +17,7 @@ Upon uttering the Bless spell, the caster raises the morale of friendly creature
 @4=~Command
 Grad: 1
 Schule: Verzauberung
-Sphere: Charm, Combat, Law
+Domäne: Charme, Kampf, Gesetz
 Reichweite: Lang
 Dauer: 1 Runde
 Zeitaufwand: 1
@@ -30,7 +30,7 @@ This spell enables the priest to command another creature to lie down and take n
 @6=~Cure Light Wounds
 Grad: 1
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 1
@@ -43,7 +43,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 @8=~Detect Alignment
 Grad: 1
 Schule: Erkenntniszauber
-Sphere: Erkenntniszauber
+Domäne: Wissen
 Reichweite: Anwender
 Dauer: Sofort
 Zeitaufwand: 1
@@ -56,7 +56,7 @@ This spell allows the priestd to search out the feelings of all creatures within
 @10=~Entangle
 Grad: 1
 Schule: Veränderung
-Sphere: Plant
+Domäne: Pflanzen
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -69,7 +69,7 @@ By means of this spell, the caster causes plants to entangle all creatures in th
 @12=~Magical Stone
 Grad: 1
 Schule: Verzauberung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: 2 Phasen
 Zeitaufwand: 1
@@ -84,7 +84,7 @@ Using this spell, the priest can temporarily enchant ten small stones, no larger
 @14=~Protection from Evil
 Grad: 1
 Schule: Bannzauber
-Sphere: Protection
+Domäne: Schutz
 Reichweite: Berührung
 Dauer: 5 Phasen
 Zeitaufwand: 1
@@ -97,7 +97,7 @@ When this spell is cast, it creates a magical barrier around the recipient at a 
 @16=~Resist Fear
 Grad: 1
 Schule: Bannzauber
-Sphere: Charm
+Domäne: Charme
 Reichweite: Lang
 Dauer: 5 Phasen
 Zeitaufwand: 1
@@ -110,7 +110,7 @@ The caster instills courage in the spell recipients, raising their morale to its
 @18=~Sanctuary
 Grad: 1
 Schule: Bannzauber
-Sphere: Charm, Protection
+Domäne: Charme, Schutz
 Reichweite: Anwender
 Dauer: 6 Runden
 Zeitaufwand: 1
@@ -123,7 +123,7 @@ When the priest casts a Sanctuary spell, it causes all of his opponents to ignor
 @20=~Shillelagh
 Grad: 1
 Schule: Veränderung
-Sphere: Combat, Plant
+Domäne: Kampf, Pflanzen
 Reichweite: Anwender
 Dauer: 2 Phasen
 Zeitaufwand: 5
@@ -136,7 +136,7 @@ This spell enables the caster to create a magical cudgel. The shillelagh inflict
 @22=~Armor of Faith
 Grad: 1
 Schule: Bannzauber
-Sphere: Protection
+Domäne: Schutz
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 1
@@ -149,7 +149,7 @@ The caster of the Armor of Faith receives significant protection against physica
 @24=~Doom
 Grad: 1
 Schule: Verzauberung
-Sphere: Charm
+Domäne: Charme
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 1
@@ -162,7 +162,7 @@ This spell causes a feeling of doom to overwhelm the target. For the duration of
 @26=~Faerie Fire
 Grad: 1
 Schule: Hervorrufung
-Sphere: Weather
+Domäne: Wetter
 Reichweite: Lang
 Dauer: 4 Runden
 Zeitaufwand: 1
@@ -173,7 +173,7 @@ When this spell is cast, a pale glow surrounds and outlines all enemies within t
 @26000=~Faerie Fire
 Grad: 1
 Schule: Hervorrufung
-Sphere: Weather
+Domäne: Wetter
 Reichweite: Lang
 Dauer: 4 Runden
 Zeitaufwand: 1
@@ -186,7 +186,7 @@ When this spell is cast, a pale glow surrounds and outlines all creatures within
 @28=~Strength of Stone
 Grad: 1
 Schule: Veränderung
-Sphere: Elemental (Earth)
+Domäne: Elemente (Erde)
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 1
@@ -199,7 +199,7 @@ Calling upon the strength of the earth, the caster gains some of the solidity an
 @30=~Sunscorch
 Grad: 1
 Schule: Hervorrufung
-Sphere: Sun
+Domäne: Sonne
 Reichweite: Lang
 Dauer: Sofort
 Zeitaufwand: 5
@@ -215,7 +215,7 @@ When this spell is cast, a brilliant ray of scorching heat slants down from the 
 @32=~Aid
 Grad: 2
 Schule: Nekromantie
-Sphere: Combat, Necromantic
+Domäne: Kampf, Nekromantie
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -228,7 +228,7 @@ The recipient of this spell gains a +1 bonus to attack rolls, damage rolls, and 
 @34=~Barkskin
 Grad: 2
 Schule: Veränderung
-Sphere: Plant
+Domäne: Pflanzen
 Reichweite: Berührung
 Dauer: 5 Phasen
 Zeitaufwand: 5
@@ -241,7 +241,7 @@ When a priest casts the Barkskin spell upon a creature, its skin becomes as toug
 @36=~Chant
 Grad: 2
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 1 Runde
@@ -254,7 +254,7 @@ By means of the Chant spell, the priest brings special favor upon himself and hi
 @38=~Charm Person or Animal
 Grad: 2
 Schule: Verzauberung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Mittel
 Dauer: 1 Phase
 Zeitaufwand: 2
@@ -269,7 +269,7 @@ Creatures that are currently neutral to the caster are more amenable to helping 
 @40=~Find Traps
 Grad: 2
 Schule: Erkenntniszauber
-Sphere: Erkenntniszauber
+Domäne: Wissen
 Reichweite: Anwender
 Dauer: 3 Phasen
 Zeitaufwand: 5
@@ -282,7 +282,7 @@ When a priest casts a find traps spell, all traps - concealed normally or magica
 @42=~Flame Blade
 Grad: 2
 Schule: Hervorrufung
-Sphere: Elemental (Fire)
+Domäne: Elemente (Feuer)
 Reichweite: Anwender
 Dauer: 2 Phasen
 Zeitaufwand: 5
@@ -295,7 +295,7 @@ With this spell, the caster causes a blazing ray of red-hot fire to spring forth
 @44=~Goodberry
 Grad: 1
 Schule: Veränderung
-Sphere: Plant
+Domäne: Pflanzen
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 1 Runde
@@ -316,7 +316,7 @@ Casting a Goodberry spell creates 5 magical berries that the caster can carry wi
 @46=~Hold Person
 Grad: 2
 Schule: Verzauberung
-Sphere: Charm, Law
+Domäne: Charme, Gesetz
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -331,7 +331,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 @48=~Know Opponent
 Grad: 2
 Schule: Erkenntniszauber
-Sphere: Erkenntniszauber
+Domäne: Wissen
 Reichweite: Lang
 Dauer: 2 Phasen
 Zeitaufwand: 2
@@ -344,7 +344,7 @@ When this spell is cast, the caster's eyes glow with magical energy, enabling hi
 @50=~Resist Elements
 Grad: 2
 Schule: Bannzauber
-Sphere: Protection
+Domäne: Schutz
 Reichweite: Berührung
 Dauer: 1 Phase + 1 Runde pro Stufe
 Zeitaufwand: 2
@@ -357,7 +357,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of eleme
 @52=~Silence
 Grad: 2
 Schule: Veränderung
-Sphere: Guardian
+Domäne: Wächter
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -370,7 +370,7 @@ Upon casting this spell, complete silence prevails in the affected area. All sou
 @54=~Slow Poison
 Grad: 2
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Sofort
 Zeitaufwand: 1
@@ -383,7 +383,7 @@ When this spell is cast upon a poisoned individual, it greatly slows the effects
 @56=~Spiritual Hammer
 Grad: 2
 Schule: Hervorrufung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Mittel
 Dauer: 2 Phasen
 Zeitaufwand: 5
@@ -396,7 +396,7 @@ By calling upon his deity, the caster of a Spiritual Hammer spell brings into ex
 @58=~Draw upon Divine Might
 Grad: 2
 Schule: Hervorrufung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 2
@@ -409,7 +409,7 @@ When this spell is cast, the priest's body shudders and glows with a shimmering 
 @60=~Cure Moderate Wounds
 Grad: 2
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 2
@@ -422,7 +422,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 @62=~Fire Trap
 Grad: 2
 Schule: Bannzauber
-Sphere: Elemental (Fire)
+Domäne: Elemente (Feuer)
 Reichweite: Kurz
 Dauer: Speziell
 Zeitaufwand: 5
@@ -440,7 +440,7 @@ When the spell is cast, the druid weaves a tracery of faintly glowing lines arou
 @72=~Animate Dead
 Grad: 3
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Mittel
 Dauer: 8 Stunden
 Zeitaufwand: 1 Runde
@@ -483,7 +483,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 @74=~Call Lightning
 Grad: 3
 Schule: Veränderung
-Sphere: Weather
+Domäne: Wetter
 Reichweite: Lang
 Dauer: Speziell
 Zeitaufwand: 1 Runde
@@ -496,7 +496,7 @@ Immediately upon completion of the spell, and once per round thereafter, the cas
 @76=~Dispel Magic
 Grad: 3
 Schule: Bannzauber
-Sphere: All
+Domäne: Alle
 Reichweite: Lang
 Dauer: Sofort
 Zeitaufwand: 3
@@ -511,7 +511,7 @@ The chance of the dispel succeeding is determined by the level of the caster and
 @78=~Glyph of Warding
 Grad: 3
 Schule: Bannzauber
-Sphere: Guardian
+Domäne: Wächter
 Reichweite: Kurz
 Dauer: Speziell
 Zeitaufwand: 5
@@ -526,7 +526,7 @@ When the spell is cast, the priest weaves a tracery of faintly glowing lines aro
 @80=~Hold Person or Animal
 Grad: 3
 Schule: Verzauberung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -541,7 +541,7 @@ Held creatures cannot move or speak, but they remain aware of events around them
 @82=~Protection from Fire
 Grad: 5
 Schule: Bannzauber
-Sphere: Elemental, Protection
+Domäne: Elemente, Schutz
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -554,7 +554,7 @@ When a Protection from Fire spell is cast, the recipient receives complete prote
 @84=~Break Enchantment
 Grad: 3
 Schule: Bannzauber
-Sphere: All
+Domäne: Alle
 Reichweite: Kurz
 Dauer: Unbefristet
 Zeitaufwand: 5
@@ -567,7 +567,7 @@ Upon casting this spell, the priest is able to free a victim from enchantments a
 @86=~Remove Paralysis
 Grad: 3
 Schule: Bannzauber
-Sphere: Necromantic, Protection
+Domäne: Nekromantie, Schutz
 Reichweite: Lang
 Dauer: Unbefristet
 Zeitaufwand: 3
@@ -580,7 +580,7 @@ By the use of this spell, the priest can free several creatures from the effects
 @88=~Invisibility Purge
 Grad: 3
 Schule: Bannzauber
-Sphere: Wards
+Domäne: Abwehr
 Reichweite: Anwender
 Dauer: 5 Runden
 Zeitaufwand: 3
@@ -593,7 +593,7 @@ Instantly and once each round for 5 rounds after this spell is cast, all conceal
 @90=~Miscast Magic
 Grad: 3
 Schule: Verzauberung
-Sphere: Chaos
+Domäne: Chaos
 Reichweite: Lang
 Dauer: 5 Runden
 Zeitaufwand: 3
@@ -606,7 +606,7 @@ Miscast Magic causes spells cast by the affected creature to take on an effect d
 @92=~Contagion
 Grad: 3
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Kurz
 Dauer: 8 Stunden
 Zeitaufwand: 3
@@ -619,7 +619,7 @@ This spell causes a major disease and weakness in a creature. Every 2 rounds the
 @94=~Strength of One
 Grad: 3
 Schule: Veränderung
-Sphere: Law
+Domäne: Gesetz
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 3
@@ -632,7 +632,7 @@ When this spell is cast, all party members within 30 feet of the caster gain a +
 @96=~Holy Smite
 Grad: 3
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Lang
 Dauer: Speziell
 Zeitaufwand: 3
@@ -645,7 +645,7 @@ With this spell the priest draws down holy power to smite his enemies. Opponents
 @98=~Unholy Blight
 Grad: 3
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Lang
 Dauer: Speziell
 Zeitaufwand: 3
@@ -658,7 +658,7 @@ With this spell the priest calls up unholy power to smite his enemies. The power
 @100=~Cure Disease
 Grad: 3
 Schule: Bannzauber
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 1
@@ -671,7 +671,7 @@ By laying her hands upon a sickly person, the caster can cure almost any disease
 @102=~Gust of Wind
 Grad: 3
 Schule: Bannzauber
-Sphere: Wards, Elemental (Air)
+Domäne: Abwehr, Elemente (Luft)
 Reichweite: Anwender
 Dauer: Sofort
 Zeitaufwand: 1
@@ -686,7 +686,7 @@ This spell creates a severe blast of air that originates from the caster, affect
 @104=~Summon Insects
 Grad: 3
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 6 Runden
 Zeitaufwand: 5
@@ -701,7 +701,7 @@ For the duration of the spell, the affected creature fights with a -2 penalty to
 @108=~Cause Serious Wounds
 Grad: 3
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 3
@@ -714,7 +714,7 @@ This spell is the reverse of Cure Serious Wounds. Instead of healing the creatur
 @110=~Cure Serious Wounds
 Grad: 3
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 3
@@ -727,7 +727,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 @1110=~Storm Shield
 Grad: 3
 Schule: Bannzauber
-Sphere: Weather, Elemental (Air)
+Domäne: Wetter, Elemente (Luft)
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -739,7 +739,7 @@ This spell surrounds the caster with an invisible curtain of stormy winds that m
 @1111=~Rigid Thinking
 Grad: 3
 Schule: Verzauberung
-Sphere: Law
+Domäne: Gesetz
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -754,7 +754,7 @@ The target of this spell must make a saving throw vs. spell or come under its ef
 @112=~Cure Critical Wounds
 Grad: 4
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 4
@@ -767,7 +767,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 @114=~Animal Summoning IV
 Grad: 4
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -795,7 +795,7 @@ Pounce: can charge a target if at least 6 feet away. During that round the leopa
 @116=~Free Action
 Grad: 4
 Schule: Bannzauber
-Sphere: Charm
+Domäne: Charme
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -808,7 +808,7 @@ While under the effects of this spell, the recipient becomes immune to everythin
 @118=~Neutralize Poison
 Grad: 4
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 1
@@ -821,7 +821,7 @@ This spell removes all toxins from the body, both natural and magical in nature.
 @120=~Mental Domination
 Grad: 4
 Schule: Verzauberung
-Sphere: Thought
+Domäne: Gedanken
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 4
@@ -834,7 +834,7 @@ When cast upon a subject, he must make a save vs. spell at -2 in order to avoid 
 @122=~Defensive Harmony
 Grad: 4
 Schule: Verzauberung
-Sphere: Law
+Domäne: Gesetz
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 1
@@ -847,7 +847,7 @@ Defensive Harmony grants affected creatures a defensive bonus by enhancing the c
 @124=~Protection from Electricity
 Grad: 5
 Schule: Bannzauber
-Sphere: Elemental, Protection
+Domäne: Elemente, Schutz
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -860,7 +860,7 @@ When a Protection from Electricity spell is cast, the recipient receives complet
 @126=~Magic Circle against Evil
 Grad: 4
 Schule: Bannzauber
-Sphere: Protection
+Domäne: Schutz
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 5
@@ -873,7 +873,7 @@ Upon casting this spell, the priest causes all friendly creatures within the are
 @128=~Death Ward
 Grad: 4
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -886,7 +886,7 @@ While under the effects of this spell, the recipient is immune to all forms of d
 @130=~Call Woodland Beings
 Grad: 4
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Mittel
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -933,7 +933,7 @@ Memorized Spells:
 @132=~Poison
 Grad: 4
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Kurz
 Dauer: 1 Phase
 Zeitaufwand: 4
@@ -953,7 +953,7 @@ The victim cannot avoid the initial damage unless it is completely immune to the
 @134=~Divine Power
 Grad: 4
 Schule: Hervorrufung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: 1 Runde pro Stufe
 Zeitaufwand: 4
@@ -968,7 +968,7 @@ Note: this spell does not give any extra attacks to multiclassed or dual-classed
 @136=~Negative Plane Protection
 Grad: 4
 Schule: Bannzauber
-Sphere: Necromantic, Protection
+Domäne: Nekromantie, Schutz
 Reichweite: Berührung
 Dauer: 5 Phasen
 Zeitaufwand: 5
@@ -981,7 +981,7 @@ When a Negative Plane Protection spell is cast, the recipient receives complete 
 @138=~Cause Critical Wounds
 Grad: 4
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 4
@@ -994,7 +994,7 @@ This spell is the reverse of Cure Critical Wounds. Instead of healing the creatu
 @140=~Farsight
 Grad: 4
 Schule: Erkenntniszauber
-Sphere: Erkenntniszauber
+Domäne: Wissen
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 4
@@ -1007,7 +1007,7 @@ When Farsight is cast, the caster is able to view an area of an unexplored map. 
 @142=~Cloak of Fear
 Grad: 4
 Schule: Beschwörung
-Sphere: Charm
+Domäne: Charme
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 1
@@ -1020,7 +1020,7 @@ Cloak of Fear empowers the caster to radiate a personal aura of fear out to a 6'
 @144=~Lesser Restoration
 Grad: 4
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 4
@@ -1035,7 +1035,7 @@ The casting of this spell is very draining on the priest, leaving him physically
 @146=~Ice Storm
 Grad: 4
 Schule: Hervorrufung
-Sphere: Elemental (Water)
+Domäne: Elemente (Wasser)
 Reichweite: Lang
 Dauer: 4 Runden
 Zeitaufwand: 4
@@ -1051,7 +1051,7 @@ When this spell is cast, great magical hailstones pound down for 4 rounds within
 @152=~Animal Summoning V
 Grad: 5
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -1083,7 +1083,7 @@ Immune to entangle, grease, web and poison effects~
 @154=~Cure Mortal Wounds
 Grad: 5
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 5
@@ -1096,7 +1096,7 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 @156=~Flame Strike
 Grad: 5
 Schule: Hervorrufung
-Sphere: Combat, Elemental (Fire)
+Domäne: Kampf, Elemente (Feuer)
 Reichweite: Lang
 Dauer: Sofort
 Zeitaufwand: 5
@@ -1109,7 +1109,7 @@ Upon casting this spell, a vertical column of fire roars downward, striking a vi
 @158=~Raise Dead
 Grad: 5
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Kurz
 Dauer: Unbefristet
 Zeitaufwand: 1 Runde
@@ -1122,7 +1122,7 @@ When the priest casts a Raise Dead spell, life can be restored to a dead comrade
 @2158=~Harper's Call
 Grad: 5
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Kurz
 Dauer: Unbefristet
 Zeitaufwand: 1 Runde
@@ -1135,7 +1135,7 @@ This spell is only available to Harpers. The Harper's Call restores a comrade to
 @160=~True Seeing
 Grad: 5
 Schule: Erkenntniszauber
-Sphere: All
+Domäne: Alle
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -1150,7 +1150,7 @@ Note: True Seeing does not dispel illusionary clones such as those conjured by M
 @162=~Stoneskin
 Grad: 5
 Schule: Veränderung
-Sphere: Elemental (Earth)
+Domäne: Elemente (Erde)
 Reichweite: Anwender
 Dauer: 8 Stunden
 Zeitaufwand: 1
@@ -1165,7 +1165,7 @@ It is important to note that this will not protect the druid from any area attac
 @164=~Champion's Strength
 Grad: 5
 Schule: Veränderung
-Sphere: Law
+Domäne: Gesetz
 Reichweite: Mittel
 Dauer: 1 Runde pro Stufe
 Zeitaufwand: 5
@@ -1178,7 +1178,7 @@ When this spell is cast, the priest draws on the power of his god and lends it t
 @166=~Chaotic Commands
 Grad: 5
 Schule: Verzauberung
-Sphere: Chaos
+Domäne: Chaos
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -1191,7 +1191,7 @@ While under the effects of this spell, the recipient becomes immune to magical c
 @168=~Magic Resistance
 Grad: 5
 Schule: Veränderung
-Sphere: Protection
+Domäne: Schutz
 Reichweite: Berührung
 Dauer: 2 Runden pro Stufe
 Zeitaufwand: 5
@@ -1204,7 +1204,7 @@ Upon the casting of this spell, the recipient's resistance to all forms of magic
 @170=~Cause Mortal Wounds
 Grad: 5
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 5
@@ -1217,7 +1217,7 @@ This spell is the reverse of Cure Mortal Wounds. Instead of healing the creature
 @172=~Slay Living
 Grad: 5
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 5
@@ -1230,7 +1230,7 @@ Upon casting this spell, the priest has to touch an opponent in order to visit t
 @174=~Greater Command
 Grad: 5
 Schule: Verzauberung
-Sphere: Charm, Combat, Law
+Domäne: Charme, Kampf, Gesetz
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 1
@@ -1243,7 +1243,7 @@ As with the first level spell Command, this spell enables the priest to command 
 @176=~Righteous Fury
 Grad: 5
 Schule: Veränderung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: 1 Runde pro Stufe
 Zeitaufwand: 5
@@ -1256,7 +1256,7 @@ This is a powerful combat spell that enhances the priest's physical prowess, cha
 @178=~Mass Cure
 Grad: 5
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Anwender
 Dauer: Unbefristet
 Zeitaufwand: 5
@@ -1269,7 +1269,7 @@ When casting this spell, the priest must picture the faces of his fellow party m
 @106=~Repulsion
 Grad: 5
 Schule: Bannzauber
-Sphere: Wards
+Domäne: Abwehr
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -1282,7 +1282,7 @@ An invisible, mobile field surrounds the caster and prevents creatures from appr
 @180=~Pixie Dust
 Grad: 5
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -1295,7 +1295,7 @@ This spell creates a handful of pixie dust that the caster can toss into the air
 @182=~Insect Plague
 Grad: 5
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 6 Runden
 Zeitaufwand: 5
@@ -1310,7 +1310,7 @@ For the duration of the spell, those affected fight with a -2 penalty to attack 
 @186=~Polymorph Other
 Grad: 5
 Schule: Veränderung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: Unbefristet
 Zeitaufwand: 5
@@ -1325,7 +1325,7 @@ Note that all clothes and equipment that the target was wearing will mold into t
 @188=~Protection from Acid
 Grad: 5
 Schule: Bannzauber
-Sphere: Elemental, Protection
+Domäne: Elemente, Schutz
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -1338,7 +1338,7 @@ When a Protection from Acid spell is cast, the recipient receives complete prote
 @190=~Protection from Cold
 Grad: 5
 Schule: Bannzauber
-Sphere: Elemental, Protection
+Domäne: Elemente, Schutz
 Reichweite: Berührung
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 5
@@ -1354,7 +1354,7 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 @192=~Aerial Servant
 Grad: 6
 Schule: Beschwörung
-Sphere: Summoning
+Domäne: Herbeirufung
 Reichweite: Mittel
 Dauer: 1 Phase pro Stufe
 Zeitaufwand: 1 Runde
@@ -1376,7 +1376,7 @@ Immune to hold, poison, sleep, & stun effects~
 @194=~Animal Summoning VI
 Grad: 6
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -1399,7 +1399,7 @@ HP 78, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
 @196=~Blade Barrier
 Grad: 6
 Schule: Beschwörung
-Sphere: Guardian, Creation
+Domäne: Wächter, Erschaffung
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 6
@@ -1414,7 +1414,7 @@ Note that spells like Invisibility, Shadow Door, etc. will not function on the c
 @198=~Conjure Animals
 Grad: 6
 Schule: Beschwörung
-Sphere: Summoning
+Domäne: Herbeirufung
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -1427,7 +1427,7 @@ This spell allows the caster to summon forth and control one or two massive moun
 @200=~Conjure Fire Elemental
 Grad: 6
 Schule: Beschwörung
-Sphere: Elemental (Fire)
+Domäne: Elemente (Feuer)
 Reichweite: Mittel
 Dauer: 1 Phase + 1 Runde pro Stufe
 Zeitaufwand: 1 Runde
@@ -1456,7 +1456,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 @202=~Fire Seeds
 Grad: 6
 Schule: Beschwörung
-Sphere: Elemental (Fire)
+Domäne: Elemente (Feuer)
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 6
@@ -1469,7 +1469,7 @@ This spell enables the druid to create a number of fire seeds, one for every 2 e
 @204=~Heal
 Grad: 6
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: Sofort
 Zeitaufwand: 6
@@ -1482,7 +1482,7 @@ The very potent Heal spell enables the priest to wipe away any injury in the cre
 @206=~Harm
 Grad: 6
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 6
@@ -1495,7 +1495,7 @@ This spell is the reverse of Heal. Instead of healing the creature touched, it c
 @208=~False Dawn
 Grad: 6
 Schule: Hervorrufung
-Sphere: Sun
+Domäne: Sonne
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 1 Runde
@@ -1508,7 +1508,7 @@ By drawing on the power of the sun, this spell causes the caster's body to emana
 @210=~Dolorous Decay
 Grad: 6
 Schule: Veränderung, Nekromantie
-Sphere: Combat, Necromantic
+Domäne: Kampf, Nekromantie
 Reichweite: Mittel
 Dauer: Speziell
 Zeitaufwand: 6
@@ -1521,7 +1521,7 @@ This spell affects a single living creature. Dolorous Decay is a rotting and wit
 @212=~Wondrous Recall
 Grad: 6
 Schule: Veränderung
-Sphere: Charm, Creation
+Domäne: Charme, Erschaffung
 Reichweite: Anwender
 Dauer: Sofort
 Zeitaufwand: 1 Runde
@@ -1534,7 +1534,7 @@ This spell enables the caster to bring back into memory two spells that have bee
 @214=~Bolt of Glory
 Grad: 6
 Schule: Hervorrufung
-Sphere: Combat, Summoning
+Domäne: Kampf, Herbeirufung
 Reichweite: Lang
 Dauer: Sofort
 Zeitaufwand: 6
@@ -1555,7 +1555,7 @@ Magic resistance does not affect this spell.~
 @216=~Physical Mirror
 Grad: 6
 Schule: Veränderung
-Sphere: Numbers
+Domäne: Zahlen
 Reichweite: Anwender
 Dauer: 2 Phasen
 Zeitaufwand: 6
@@ -1568,7 +1568,7 @@ This spell causes a localized folding of space. The folded space takes the form 
 @218=~Sol's Searing Orb
 Grad: 6
 Schule: Beschwörung
-Sphere: Elemental (Fire)
+Domäne: Elemente (Feuer)
 Reichweite: Anwender
 Dauer: 3 Runden
 Zeitaufwand: 6
@@ -1581,7 +1581,7 @@ When the spell is completed, it creates a glowing gem. This gem must be thrown a
 @220=~Conjure Air Elemental
 Grad: 6
 Schule: Beschwörung
-Sphere: Elemental (Air)
+Domäne: Elemente (Luft)
 Reichweite: Mittel
 Dauer: 1 Phase + 1 Runde pro Stufe
 Zeitaufwand: 1 Runde
@@ -1609,7 +1609,7 @@ Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 @222=~Conjure Earth Elemental
 Grad: 6
 Schule: Beschwörung
-Sphere: Elemental (Earth)
+Domäne: Elemente (Erde)
 Reichweite: Mittel
 Dauer: 1 Phase + 1 Runde pro Stufe
 Zeitaufwand: 1 Runde
@@ -1637,7 +1637,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 @224=~Banishment
 Grad: 6
 Schule: Bannzauber
-Sphere: Wards
+Domäne: Abwehr
 Reichweite: Lang
 Dauer: Sofort
 Zeitaufwand: 6
@@ -1650,7 +1650,7 @@ This spell forces hostile summoned creatures in the area back to their proper pl
 @226=~Animate Skeleton Warrior
 Grad: 6
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Lang
 Dauer: 8 Stunden
 Zeitaufwand: 1 Runde
@@ -1677,7 +1677,7 @@ Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 @232=~Shield of the Archons
 Grad: 7
 Schule: Bannzauber
-Sphere: Protection
+Domäne: Schutz
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 1
@@ -1692,7 +1692,7 @@ This spell also grants protection from spells cast from scrolls and innate spell
 @234=~Summon Shambling Mound
 Grad: 7
 Schule: Beschwörung
-Sphere: Plant
+Domäne: Pflanzen
 Reichweite: Mittel
 Dauer: 8 Stunden
 Zeitaufwand: 1 Runde
@@ -1722,7 +1722,7 @@ Crushing Resistance 100%; Slashing, Piercing, & Missile Resistance 50%~
 @236=~Summon Death Knight
 Grad: 7
 Schule: Nekromantie
-Sphere: All
+Domäne: Alle
 Reichweite: Mittel
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -1753,7 +1753,7 @@ Symbols: of Weakness or Death (once per day each)~
 @238=~Nature's Beauty
 Grad: 7
 Schule: Illusion
-Sphere: Elemental
+Domäne: Elemente
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 7
@@ -1768,7 +1768,7 @@ If the caster harms, or attempts to harm, a charmed creature by some overt actio
 @240=~Fire Storm
 Grad: 7
 Schule: Hervorrufung
-Sphere: Combat, Elemental (Fire)
+Domäne: Kampf, Elemente (Feuer)
 Reichweite: Lang
 Dauer: 4 Runden
 Zeitaufwand: 1 Runde
@@ -1781,7 +1781,7 @@ When a Fire Storm spell is cast, the whole area is shot through with sheets of r
 @242=~Symbol of Weakness
 Grad: 7
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Lang
 Dauer: Speziell
 Zeitaufwand: 1 Runde
@@ -1794,7 +1794,7 @@ Symbol of Weakness is a powerful enchantment that allows the caster to inscribe 
 @244=~Sunray
 Grad: 7
 Schule: Hervorrufung
-Sphere: Sun
+Domäne: Sonne
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 5
@@ -1807,7 +1807,7 @@ When this spell is cast, it causes a ray of sunlight to beam down upon the caste
 @246=~Finger of Death
 Grad: 7
 Schule: Nekromantie
-Sphere: War
+Domäne: Krieg
 Reichweite: Lang
 Dauer: Unbefristet
 Zeitaufwand: 5
@@ -1820,7 +1820,7 @@ The Finger of Death spell snuffs out the victim's life force. The caster points 
 @248=~Holy Word
 Grad: 7
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 1
@@ -1841,7 +1841,7 @@ The effects are cumulative and concurrent.~
 @250=~Regeneration
 Grad: 7
 Schule: Nekromantie
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 3 Phasen
 Zeitaufwand: 6
@@ -1854,7 +1854,7 @@ This powerful spell enables the caster to imbue a creature with the ability to r
 @252=~Resurrection
 Grad: 7
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 1 Runde
@@ -1867,7 +1867,7 @@ Like the 5th level spell Raise Dead, Resurrection will return a character back t
 @254=~Greater Restoration
 Grad: 7
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Berührung
 Dauer: Unbefristet
 Zeitaufwand: 5
@@ -1882,7 +1882,7 @@ The casting of this spell is very draining on the priest, leaving him physically
 @256=~Unholy Word
 Grad: 7
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 1
@@ -1903,7 +1903,7 @@ The effects are cumulative and concurrent.~
 @258=~Creeping Doom
 Grad: 7
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 6 Runden
 Zeitaufwand: 5
@@ -1918,7 +1918,7 @@ For the duration of the spell, those affected fight with a -2 penalty to attack 
 @260=~Symbol of Stunning
 Grad: 7
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Lang
 Dauer: Speziell
 Zeitaufwand: 1 Runde
@@ -1931,7 +1931,7 @@ Symbol of Stunning is a powerful enchantment that allows the caster to inscribe 
 @262=~Earthquake
 Grad: 7
 Schule: Veränderung
-Sphere: Elemental (Earth)
+Domäne: Elemente (Erde)
 Reichweite: Lang
 Dauer: 3 Runden
 Zeitaufwand: 1 Runde
@@ -1948,7 +1948,7 @@ This spell will affect both enemies and friends of the caster, so care must be t
 @296=~Symbol of Death
 Grad: 7
 Schule: Beschwörung
-Sphere: Combat
+Domäne: Kampf
 Reichweite: Lang
 Dauer: Speziell
 Zeitaufwand: 1 Runde
@@ -1961,7 +1961,7 @@ Symbol of Death is a powerful enchantment that allows the caster to inscribe a s
 @298=~Chaos
 Grad: 7
 Schule: Verzauberung
-Sphere: Chaos
+Domäne: Chaos
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 7
@@ -1977,7 +1977,7 @@ This spell allows the caster to create a sphere of chaotic magic. All enemies wi
 @272=~Energy Blades
 Grad: Quest
 Schule: Hervorrufung
-Sphere: Creation, Combat
+Domäne: Erschaffung, Kampf
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 5
@@ -1990,7 +1990,7 @@ An energy blade is a discus made of pure energy. The discs are thrown with a +10
 @274=~Storm of Vengeance
 Grad: Quest
 Schule: Hervorrufung
-Sphere: War, Weather
+Domäne: Krieg, Wetter
 Reichweite: Lang
 Dauer: 3 Runden
 Zeitaufwand: 1 Runde
@@ -2005,7 +2005,7 @@ Each round, the victims suffer 2d6 points of electrical damage and 2d6 points of
 @276=~Elemental Swarm
 Grad: Quest
 Schule: Beschwörung
-Sphere: Elemental, Summoning
+Domäne: Elemente, Herbeirufung
 Reichweite: Lang
 Dauer: 2 Phasen
 Zeitaufwand: 1 Runde
@@ -2018,7 +2018,7 @@ Drawing power from the environment, this spell summons a 12HD elemental from eac
 @278=~Elemental Prince Call
 Grad: Quest
 Schule: Beschwörung
-Sphere: Elemental, Summoning
+Domäne: Elemente, Herbeirufung
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 1 Runde
@@ -2073,7 +2073,7 @@ Slashing, Crushing, Piercing, & Missile Resistance 20%~
 @280=~Globe of Blades
 Grad: Quest
 Schule: Hervorrufung
-Sphere: Guardian, Creation
+Domäne: Wächter, Erschaffung
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 1 Runde
@@ -2088,7 +2088,7 @@ Note that spells like Invisibility, Shadow Door, etc. will not function on the c
 @282=~Summon Deva
 Grad: Quest
 Schule: Beschwörung
-Sphere: All, Summoning
+Domäne: Alle, Herbeirufung
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2127,7 +2127,7 @@ Memorized Spells:
 @284=~Summon Fallen Deva
 Grad: Quest
 Schule: Beschwörung
-Sphere: All, Summoning
+Domäne: Alle, Herbeirufung
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2165,7 +2165,7 @@ Memorized Spells:
 @286=~Implosion
 Grad: Quest
 Schule: Veränderung
-Sphere: Combat, Numbers
+Domäne: Kampf, Zahlen
 Reichweite: Lang
 Dauer: 1 Runde
 Zeitaufwand: 7
@@ -2178,7 +2178,7 @@ This fearsome spell creates a destructive resonance in a corporeal creature's bo
 @288=~Mass Raise Dead
 Grad: Quest
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: Unbefristet
 Zeitaufwand: 4
@@ -2191,7 +2191,7 @@ A more powerful version of Raise Dead, this spell brings up to 5 party members b
 @290=~Aura of Flaming Death
 Grad: Quest
 Schule: Hervorrufung
-Sphere: Protection, Elemental (Fire)
+Domäne: Schutz, Elemente (Feuer)
 Reichweite: Anwender
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -2204,7 +2204,7 @@ This spell causes the caster to be enveloped by an aura of intense flame that bo
 @292=~Fire Elemental Transformation
 Grad: Quest
 Schule: Veränderung
-Sphere: Combat, Elemental (Fire)
+Domäne: Kampf, Elemente (Feuer)
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 1
@@ -2224,7 +2224,7 @@ Fire Resistance 100%;  Physical Resistance 20%~
 @294=~Earth Elemental Transformation
 Grad: Quest
 Schule: Veränderung
-Sphere: Combat, Elemental (Earth)
+Domäne: Kampf, Elemente (Erde)
 Reichweite: Anwender
 Dauer: 5 Phasen
 Zeitaufwand: 1
@@ -2247,7 +2247,7 @@ Slashing, Piercing, & Missile Resistance 40%~
 @302=~Regenerate Light Wounds
 Grad: 1
 Schule: Veränderung
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 1 Phase + 2 Runden pro Stufe
 Zeitaufwand: 1
@@ -2260,7 +2260,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 @304=~Regenerate Moderate Wounds
 Grad: 2
 Schule: Veränderung
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 1 Phase + 2 Runden pro Stufe
 Zeitaufwand: 2
@@ -2273,7 +2273,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 @306=~Regenerate Serious Wounds
 Grad: 3
 Schule: Veränderung
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 1 Phase + 2 Runden pro Stufe
 Zeitaufwand: 3
@@ -2286,7 +2286,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 @308=~Regenerate Critical Wounds
 Grad: 4
 Schule: Veränderung
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 1 Phase + 2 Runden pro Stufe
 Zeitaufwand: 4
@@ -2299,7 +2299,7 @@ This spell enables the caster to imbue a creature with the ability to regenerate
 @310=~Mass Regenerate
 Grad: 5
 Schule: Veränderung
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 1 Phase + 2 Runden pro Stufe
 Zeitaufwand: 5
@@ -2312,7 +2312,7 @@ This spell enables the caster to imbue all allies within sight with the ability 
 @312=~Regeneration
 Grad: 6
 Schule: Veränderung
-Sphere: Healing
+Domäne: Heilung
 Reichweite: Berührung
 Dauer: 3 Phasen
 Zeitaufwand: 6
@@ -2328,7 +2328,7 @@ This powerful spell enables the caster to imbue a creature with the ability to r
 @314=~Gust of Wind
 Grad: 2
 Schule: Hervorrufung
-Sphere: Elemental (Air)
+Domäne: Elemente (Luft)
 Reichweite: Anwender
 Dauer: Sofort
 Zeitaufwand: 1
@@ -2341,7 +2341,7 @@ This spell creates a severe blast of air that originates from the caster, affect
 @316=~Cause Light Wounds
 Grad: 1
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 1
@@ -2354,7 +2354,7 @@ This spell is the reverse of Cure Light Wounds. Instead of healing the creature 
 @318=~Cause Moderate Wounds
 Grad: 2
 Schule: Nekromantie
-Sphere: Necromantic
+Domäne: Nekromantie
 Reichweite: Anwender
 Dauer: Speziell
 Zeitaufwand: 2
@@ -2367,7 +2367,7 @@ This spell is the reverse of Cure Moderate Wounds. Instead of healing the creatu
 @320=~Animal Summoning I
 Grad: 1
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2398,7 +2398,7 @@ Blindsense: relies on echolocation to fight in conditions of poor light or total
 @322=~Obscuring Mist
 Grad: 1
 Schule: Beschwörung
-Sphere: Weather
+Domäne: Wetter
 Reichweite: Lang
 Dauer: 6 Runden
 Zeitaufwand: 5
@@ -2411,7 +2411,7 @@ When this spell is cast, a misty bank of fog billows out from the designated poi
 @324=~Animal Summoning II
 Grad: 2
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2438,7 +2438,7 @@ Scent: detect invisible creatures within 10 feet~
 @326=~Animal Summoning III
 Grad: 3
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2465,7 +2465,7 @@ Pack Attack: each wolf within 10 feet grants additional +1 bonus to attack rolls
 @328=~Magic Fang
 Grad: 3
 Schule: Veränderung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 5
@@ -2478,7 +2478,7 @@ This spell turns natural weapons (such as teeth, claws, etc.) of friendly animal
 @330=~Animal Growth
 Grad: 5
 Schule: Veränderung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 5
@@ -2491,7 +2491,7 @@ When this spell is cast, the caster causes all friendly animals within range to 
 @332=~Animal Summoning VII
 Grad: 7
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2518,7 +2518,7 @@ Cold Resistance 20%~
 @334=~Spike Growth
 Grad: 3
 Schule: Veränderung
-Sphere: Plant
+Domäne: Pflanzen
 Reichweite: Lang
 Dauer: 1 Phase
 Zeitaufwand: 5
@@ -2531,7 +2531,7 @@ The ground in a 20-foot radius centered on a point within range twists and sprou
 @336=~Icelance
 Grad: 3
 Schule: Hervorrufung
-Sphere: Elemental (Water)
+Domäne: Elemente (Wasser)
 Reichweite: Kurz
 Dauer: Speziell
 Zeitaufwand: 3
@@ -2553,7 +2553,7 @@ When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6
 @395=~Animal Summoning IV
 Grad: 1
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2571,7 +2571,7 @@ HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
 @397=~Animal Summoning V
 Grad: 2
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
@@ -2589,7 +2589,7 @@ HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
 @399=~Animal Summoning VI
 Grad: 3
 Schule: Beschwörung
-Sphere: Animal
+Domäne: Tiere
 Reichweite: Lang
 Dauer: 3 Phasen
 Zeitaufwand: 1 Runde
