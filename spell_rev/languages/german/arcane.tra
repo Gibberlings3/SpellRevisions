@@ -2480,8 +2480,8 @@ Improved Chaos Shield increases a wild mage's chance to gain a favorable result 
 
 /*------------------level 8------------------*/
 
-@767=~Ghostform~
-@768=~Ghostform
+@767=~Geistergestalt~
+@768=~Geistergestalt
 Grad: 8
 Schule: Veränderung
 Reichweite: Anwender
@@ -2494,8 +2494,8 @@ When this spell is cast, the wizard and all of his gear assume a visible, incorp
 
 As an incorporeal creature, the caster moves silently and cannot be heard (+100% Move Silently) or backstabbed. While in ghost form, the caster has a base armor class of 0 and is immune to the effects of disease and poison. Any melee attack made while in ghost form is considered a melee touch attack and thus gains a +4 bonus to the attack roll, while projectiles become corporeal as soon as they are fired. The transformation lasts until successfully dispelled or until the duration runs out, but cannot be used in conjunction with other shapeshifting spells such as Polymorph Self and Shapechange.~
 
-@769=~Mind Blank~
-@770=~Mind Blank
+@769=~Geistesschild~
+@770=~Geistesschild
 Grad: 8
 Schule: Bannzauber
 Reichweite: Berührung
@@ -2504,10 +2504,10 @@ Zeitaufwand: 8
 Bereich: 1 Wesen
 Rettungswurf: Nein
 
-The subject is protected from all devices and spells that detect, influence, or read emotions or thoughts. This spell protects against all mind-affecting spells and effects as well as information gathering by Erkenntniszauber spells or effects.~
+Das Ziel wird vor allen magischen Effekten und Gegenständen geschützt, die Gedanken oder Emotionen erkennen, beeinflussen oder lesen. Dieser Zauber bietet Schutz vor allen geistesbeeinflussenden Zaubern und Effekten sowie vor jeglicher Informationsgewinnung durch Erkenntniszauber oder ähnliche magische Mittel.~
 
-@771=~Protection from Energy~
-@772=~Protection from Energy
+@771=~Schutz vor Energie~
+@772=~Schutz vor Energie
 Grad: 8
 Schule: Bannzauber
 Reichweite: Berührung
@@ -2518,8 +2518,8 @@ Rettungswurf: Nein
 
 When this spell is cast, it confers complete protection from all energy attacks composed of acid, cold, electricity, fire, or magic damage, whether magical or non-magical in origin. 100% of the energy damage from attacks with weapons, wands, breath weapons, etc. will be absorbed, and the target creature will become completely immune to the effects of energy-based spells. This effect lasts for the duration of the spell or until dispelled.~
 
-@773=~Simulacrum~
-@774=~Simulacrum
+@773=~Abbild~
+@774=~Abbild
 Grad: 8
 Schule: Illusion
 Reichweite: Anwender
@@ -2530,8 +2530,8 @@ Rettungswurf: Nein
 
 When this spell is cast, the caster taps energy from the Plane of Shadow to create a quasi-real, illusory version of himself. The duplicate is a near-perfect copy of the caster, making it a very powerful ally. The simulacrum is created at 60% of the level of the caster and has all the spells and abilities that the caster would have at that level. It also has 60% of the hit points of the caster. The simulacrum is fully under the control of the caster. The caster may have only one simulacrum at a time.~
 
-@775=~Pierce Shield~
-@776=~Pierce Shield
+@775=~Zauberschutz durchdringen~
+@776=~Zauberschutz durchdringen
 Grad: 8
 Schule: Bannzauber
 Reichweite: Lang
@@ -2546,8 +2546,8 @@ The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflecti
 
 The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, Moment of Prescience and Absolute Immunity.~
 
-@777=~Summon Fiend~
-@778=~Summon Fiend
+@777=~Scheusal beschwören~
+@778=~Scheusal beschwören
 Grad: 8
 Schule: Beschwörung
 Reichweite: Mittel
@@ -2579,8 +2579,8 @@ Power Word Stun (once every 5 rounds)~
 
 @3777=~Glabrezu~
 
-@779=~Moment of Prescience~
-@780=~Moment of Prescience
+@779=~Moment der Vorahnung~
+@780=~Moment der Vorahnung
 Grad: 8
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -2591,8 +2591,8 @@ Rettungswurf: Nein
 
 This spell grants an almost omniscient perception of things to come. For the duration of the spell the mage's armor class is improved by 20 points, and any save is made by the caster with a +20 bonus. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of intense combat.~
 
-@781=~Simbul's Spell Trigger~
-@782=~Simbul's Spell Trigger
+@781=~Simbuls Zauberauslöser~
+@782=~Simbuls Zauberauslöser
 Grad: 8
 Schule: Universal
 Reichweite: Anwender
@@ -2603,8 +2603,8 @@ Rettungswurf: Nein
 
 This spell allows a mage to prepare a magical trigger that can store spells to be used later in a single swift action. The trigger can store three spells to be released simultaneously, all of which must be of 6th level or lower. A mage can only possess one spell trigger at a time, and the trigger will remain active until the spells contained within it are released.~
 
-@783=~Incendiary Cloud~
-@784=~Incendiary Cloud
+@783=~Flammende Wolke~
+@784=~Flammende Wolke
 Grad: 8
 Schule: Hervorrufung
 Reichweite: Lang
@@ -2615,8 +2615,8 @@ Rettungswurf: Speziell
 
 An Incendiary Cloud spell creates a cloud of roiling smoke and roaring flame. The smoke obscures all sight beyond 15 feet, including darkvision. Creatures within the area suffer a -4 penalty to attack rolls and armor class. In addition, the flames deal 4d6 points of fire damage each round to everything within the cloud, with a saving throw vs. breath at -4 allowed for half damage. Fire dwellers like fire elementals, fire giants, and salamanders are immune to the effects of this spell.~
 
-@785=~Symbol of Weakness~
-@786=~Symbol of Weakness
+@785=~Symbol der Schwäche~
+@786=~Symbol der Schwäche
 Grad: 8
 Schule: Beschwörung
 Reichweite: Lang
@@ -2627,8 +2627,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 Symbol of Weakness is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -4 or suffer a -4 penalty to strength, dexterity, and constitution. The spell effects will persist until the character receives a Cure Disease spell.~
 
-@787=~Abi-Dalzim's Horrid Wilting~
-@788=~Abi-Dalzim's Horrid Wilting
+@787=~Abi-Dalzims abscheuliche Austrocknung~
+@788=~Abi-Dalzims abscheuliche Austrocknung
 Grad: 8
 Schule: Nekromantie
 Reichweite: Lang
@@ -2639,8 +2639,8 @@ Rettungswurf: 1/2 (gg. Tod)
 
 This spell evaporates moisture in the bodies of all living creatures within the area of effect, inflicting 1d6 points of damage per caster level (up to a maximum of 20d6). Affected creatures are allowed a saving throw vs. death at -2 for half damage. Undead and other incorporeal creatures such as elementals are not affected by this spell.~
 
-@789=~Maze~
-@790=~Maze
+@789=~Irrgarten~
+@790=~Irrgarten
 Grad: 8
 Schule: Beschwörung
 Reichweite: Mittel
@@ -2662,8 +2662,8 @@ Intelligence -- Time trapped in maze
 
 If the 9th level spell Freedom is cast in the area where a creature is mazed, it will effectively bring him back to this plane, ending the spell prematurely. Otherwise, the effect lasts for the duration of the spell. A mazed creature cannot be freed through a dispel magic.~
 
-@791=~Power Word Blind~
-@792=~Power Word Blind
+@791=~Wort der Macht: Blindheit~
+@792=~Wort der Macht: Blindheit
 Grad: 8
 Schule: Verzauberung
 Reichweite: Lang
@@ -2674,8 +2674,8 @@ Rettungswurf: Nein
 
 When a Power Word Blind spell is uttered, any creature of the mage's choice within visual range becomes sightless. This lasts for 1 turn or until dispelled. Creatures with less than 6 Hit Dice are blinded permanently. All of the effects of blindness apply to the victims, including a decreased visibility range and -10 penalty to THAC0.~
 
-@793=~Symbol of Stunning~
-@794=~Symbol of Stunning
+@793=~Symbol der Betäubung~
+@794=~Symbol der Betäubung
 Grad: 8
 Schule: Beschwörung
 Reichweite: Lang
@@ -2686,8 +2686,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 Symbol of Stunning is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -4 or be stunned for 4 rounds.~
 
-@795=~Symbol of Death~
-@796=~Symbol of Death
+@795=~Symbol des Todes~
+@796=~Symbol des Todes
 Grad: 8
 Schule: Beschwörung
 Reichweite: Lang
@@ -2698,8 +2698,8 @@ Rettungswurf: Ja (gg. Tod)
 
 Symbol of Death is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. death at -4 or die. Creatures with more than 60 current hit points are immune to this effect.~
 
-@797=~Bigby's Icy Grasp~
-@798=~Bigby's Icy Grasp
+@797=~Bigbys Eisiger Griff~
+@798=~Bigbys Eisiger Griff
 Grad: 8
 Schule: Hervorrufung
 Reichweite: Lang
@@ -2713,8 +2713,8 @@ This spell causes a huge disembodied hand to crush the target and pin it to the 
 
 /*------------------level 9------------------*/
 
-@811=~Spell Trap~
-@812=~Spell Trap
+@811=~Zauberfalle~
+@812=~Zauberfalle
 Grad: 9
 Schule: Bannzauber
 Reichweite: Anwender
@@ -2725,8 +2725,8 @@ Rettungswurf: Nein
 
 This Bannzauber spell causes any spells cast against the wizard to be absorbed and consumed. This affects a total of 99 spell levels, but having 1 level left of protection means a 1st level spell would get absorbed, as well as a 9th level spell. This spell will not protect the caster from a dispel magic. However, it will not be affected by a dispel magic, either.~
 
-@813=~Spellstrike~
-@814=~Spellstrike
+@813=~Zauberschlag~
+@814=~Zauberschlag
 Grad: 9
 Schule: Bannzauber
 Reichweite: Lang
@@ -2739,8 +2739,8 @@ When this spell is cast, it will dispel all spell protections on the target. In 
 
 The spell protection spells dispelled by Spellstrike are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Mind Blank, and Spell Trap.~
 
-@815=~Gate~
-@816=~Gate
+@815=~Tor~
+@816=~Tor
 Grad: 9
 Schule: Beschwörung
 Reichweite: Mittel
@@ -2776,10 +2776,10 @@ Symbol of Weakness (once every 5 rounds)
 Unholy Word (once per day)
 Meteor Swarm (once per day)~
 
-@3815=~Pit Fiend~
+@3815=~Grubenfürst~
 
-@817=~Absolute Immunity~
-@818=~Absolute Immunity
+@817=~Absolute Immunität~
+@818=~Absolute Immunität
 Grad: 9
 Schule: Bannzauber
 Reichweite: Anwender
@@ -2790,8 +2790,8 @@ Rettungswurf: Nein
 
 When Absolute Immunity is cast, the caster gains complete invulnerability to physical and magical damage. This spell is incredibly powerful, hence the short duration. Combined with a short casting time, these factors make the spell ideally suited for use in the thick of combat where buying a few seconds can mean the difference between life or death.~
 
-@819=~Chain Contingency~
-@820=~Chain Contingency
+@819=~Kombinierter Notfall~
+@820=~Kombinierter Notfall
 Grad: 9
 Schule: Universal
 Reichweite: Anwender
@@ -2802,8 +2802,8 @@ Rettungswurf: Nein
 
 Chain Contingency channels some of the magical energy of the mage and releases it only under certain circumstances. Basically, the mage chooses three spells, which will be released under certain conditions such as being hit by an enemy. When this condition occurs all three spells are cast immediately. Spells of up to 8th level may be used in the contingency.~
 
-@821=~Time Stop~
-@822=~Time Stop
+@821=~Zeitstopp~
+@822=~Zeitstopp
 Grad: 9
 Schule: Veränderung
 Reichweite: Anwender
@@ -2814,8 +2814,8 @@ Rettungswurf: Nein
 
 Upon casting a Time Stop spell, the wizard causes the flow of time to stop in the entire area that the caster is currently in. Outside this area the sphere simply seems to shimmer for an instant. Inside the sphere, the caster is free to act for three rounds of apparent time. The wizard can move and act freely within the area where time is stopped, but all other creatures are frozen in their actions, for they are literally between ticks of the time clock. Nothing can enter the area of effect without being stopped in time also. When the spell duration ceases, everyone is again operating in normal time. All spells cast during the Time Stop will take effect immediately after time returns to normal.~
 
-@823=~Imprisonment~
-@824=~Imprisonment
+@823=~Einkerkerung~
+@824=~Einkerkerung
 Grad: 9
 Schule: Bannzauber
 Reichweite: Kurz
@@ -2826,8 +2826,8 @@ Rettungswurf: Nein
 
 When the Imprisonment spell is cast the target creature becomes entombed in a small sphere far beneath the surface of the earth in a state of suspended animation, conscious of its fate. The victim remains there unless the reverse of the spell, Freedom, is cast. Otherwise, the victim will remain imprisoned for 1 turn at the end of which it will die a horrible, despairing death by asphyxiation. If a Freedom spell is cast in the area where the creature was imprisoned then he will reappear exactly where he was last standing. Dispel magic will not free creatures trapped in this manner. The target's magic resistance, if any, does not affect this spell.~
 
-@825=~Meteor Swarm~
-@826=~Meteor Swarm
+@825=~Meteorschwarm~
+@826=~Meteorschwarm
 Grad: 9
 Schule: Hervorrufung
 Reichweite: Lang
@@ -2838,8 +2838,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 Upon completion of this spell, a swarm of minute meteors bombards the affected area, dealing devastating damage to friend and foe. Any creature caught in the destructive path of the meteors will suffer 40d4 points of fire damage, with a save vs. breath at -4 allowed for half damage. The caster is well advised to be careful in his use of this spell. Magic resistance does not affect this spell.~
 
-@827=~Power Word Kill~
-@828=~Power Word Kill
+@827=~Wort der Macht: Tod~
+@828=~Wort der Macht: Tod
 Grad: 9
 Schule: Verzauberung
 Reichweite: Lang
@@ -2850,8 +2850,8 @@ Rettungswurf: Speziell
 
 When a Power Word Kill spell is uttered, one creature targeted by the caster is slain. Creatures who currently have 60 or more hit points can save vs. spell to avoid the effects, but those with 1 to 59 hit points are powerless to resist. Even if the creature's maximum hit points are higher than 60, its current hit points are used for this determination.~
 
-@829=~Wail of the Banshee~
-@830=~Wail of the Banshee
+@829=~Schrei der Todesfee~
+@830=~Schrei der Todesfee
 Grad: 9
 Schule: Nekromantie
 Reichweite: Anwender
@@ -2862,8 +2862,8 @@ Rettungswurf: Ja (gg. Tod)
 
 At the culmination of this dreadful spell, the wizard screams like a banshee (groaning spirit). Everyone in the area of effect hears the awful cry. Enemies who fail a saving throw vs. death at -2 die instantly, and those surviving the wail are deafened for 2 rounds. The caster and his companions are immune to the effects of the wail.~
 
-@831=~Larloch's Energy Drain~
-@832=~Larloch's Energy Drain
+@831=~Entzug von Lebensenergie~
+@832=~Entzug von Lebensenergie
 Grad: 9
 Schule: Nekromantie
 Reichweite: Kurz
@@ -2874,8 +2874,8 @@ Rettungswurf: Nein
 
 The casting of this spell opens a channel between the caster's plane and the Negative Energy Plane. The caster of the spell acts as a conduit between the two planes, sucking life from a living creature and transferring it to the Negative Energy Plane, draining him of 4 levels of experience. The target of this spell loses levels, Hit Dice, hit points, and abilities permanently. These levels can only be restored by a priest's Restoration spell. As the life force passes through the caster, it temporarily invigorates him, granting him an additional 20 hit points, a +4 bonus to attack rolls and saving throws, and +20% bonus to every skill. These effects last for 1 hour. The target's magic resistance, if any, does not affect this spell.~
 
-@833=~Black Blade of Disaster~
-@834=~Black Blade of Disaster
+@833=~Schwarze Klinge der Verdammnis~
+@834=~Schwarze Klinge der Verdammnis
 Grad: 9
 Schule: Beschwörung
 Reichweite: Anwender
@@ -2886,8 +2886,8 @@ Rettungswurf: Nein
 
 This spell enables the caster to create a black, blade-shaped planar rift, about 5 feet long. It jumps into the caster's hand and is used as a normal sword, remaining there for the duration of the spell. The caster wields the blade as if proficient with the weapon, and brandishes it with a base THAC0 of 0. The sword deals 2d12 damage per strike, and acts as a +5 magical weapon in all regards, including hit and damage bonuses. With each hit, there is a 15% chance the victim must make a save vs. spell at -2 or be disintegrated (40d6 points of magic damage, 5d6 on a successful save).~
 
-@835=~Shapechange~
-@836=~Shapechange
+@835=~Gestaltwandlung~
+@836=~Gestaltwandlung
 Grad: 9
 Schule: Veränderung
 Reichweite: Anwender
@@ -2932,8 +2932,8 @@ Ability Score Drain: -1 to target's strength (save vs. death negates)
 Improved Invisible;  Immune to normal weapons
 Regeneration: 3 hp/round; Cold Resistance 100%~
 
-@837=~Freedom~
-@838=~Freedom
+@837=~Freiheit~
+@838=~Freiheit
 Grad: 9
 Schule: Bannzauber
 Reichweite: Anwender
@@ -2944,8 +2944,8 @@ Rettungswurf: Nein
 
 When this spell is cast, all friendly creatures in the area are freed from spells and effects that restrict their movement or bind their minds. These effects include charm, confusion, domination, entangle, feeblemindedness, hold, paralysis, petrification, sleep, slow, stun, and web. This spell will also cancel the effects of the spell Maze and return any characters trapped in the labyrinth of planes. If it is cast in an area where a creature was sealed with an Imprisonment spell, it will instantly free him and he will reappear exactly where he was standing when he was imprisoned.~
 
-@839=~Bigby's Crushing Hand~
-@840=~Bigby's Crushing Hand
+@839=~Bigbys zermalmende Faust~
+@840=~Bigbys zermalmende Faust
 Grad: 9
 Schule: Hervorrufung
 Reichweite: Lang
@@ -2956,8 +2956,8 @@ Rettungswurf: Speziell
 
 This spell causes a huge disembodied hand to crush the target and pin it to the ground. Each round the massive hand smashes the target for 2d10 crushing damage and stuns it for 1 round unless a successful save vs. paralyzation is made at a -4 penalty. After the 10th round, the spell is finished.~
 
-@841=~Wish~
-@842=~Wish
+@841=~Wunsch~
+@842=~Wunsch
 Grad: 9
 Schule: Universal
 Reichweite: Anwender
@@ -2971,9 +2971,9 @@ Wish is a more potent version of the Limited Wish spell. It will fulfill literal
 
 /*------------------level 10------------------*/
 
-@851=~Energy Blades~
-@852=~Energy Blades
-Grad: Epic
+@851=~Energieklingen~
+@852=~Energieklingen
+Grad: Episch
 Schule: Hervorrufung
 Reichweite: Anwender
 Dauer: 5 Phasen
@@ -2983,9 +2983,9 @@ Rettungswurf: Nein
 
 An energy blade is a discus made of pure energy. The discs are thrown with a +10 bonus to THAC0, inflict 1d4+5 missile damage as well as 1d10 additional electrical damage, and are considered to be of +5 enchantment to determine what they can hit. This spell creates 20 energy discs and sets the caster's number of attacks per round to 9 as long as the discs are held.~
 
-@853=~Improved Alacrity~
-@854=~Improved Alacrity
-Grad: Epic
+@853=~Verbesserte Beschleunigung~
+@854=~Verbesserte Beschleunigung
+Grad: Episch
 Schule: Veränderung
 Reichweite: Anwender
 Dauer: 2 Runden
@@ -2995,9 +2995,9 @@ Rettungswurf: Nein
 
 Improved Alacrity essentially erases the pause between casting spells. When cast, the mage can begin casting a new spell the instant he is finished casting his current spell. The effect lasts for 2 rounds.~
 
-@855=~Dragon's Breath~
-@856=~Dragon's Breath
-Grad: Epic
+@855=~Drachenodem~
+@856=~Drachenodem
+Grad: Episch
 Schule: Hervorrufung
 Reichweite: Lang
 Dauer: Sofort
@@ -3007,9 +3007,9 @@ Rettungswurf: Speziell (gg. Odem)
 
 This spell causes the disembodied head of a red dragon to appear and breathe fire with the strength of an adult red dragon. In addition to the enormous 24d6 fireball, the force of the dragon's breath knocks opponents away from the caster and leaves them unconscious for 1 round. The victims can save vs. breath at a -2 penalty to take half damage and not be blown backwards. This spell will not harm party members. Magic resistance does not affect this spell.~
 
-@857=~Summon Planetar~
-@858=~Summon Planetar
-Grad: Epic
+@857=~Planetar beschwören~
+@858=~Planetar beschwören
+Grad: Episch
 Schule: Beschwörung
 Reichweite: Lang
 Dauer: 2 Phasen
@@ -3044,9 +3044,9 @@ Memorized Spells:
 
 @3857=~Planetar~
 
-@859=~Summon Dark Planetar~
-@860=~Summon Dark Planetar
-Grad: Epic
+@859=~Dunklen Planetar beschwören~
+@860=~Dunklen Planetar beschwören
+Grad: Episch
 Schule: Beschwörung
 Reichweite: Lang
 Dauer: 2 Phasen
@@ -3081,9 +3081,9 @@ Memorized Spells:
 
 @3859=~Fallen Planetar~
 
-@861=~Comet~
-@862=~Comet
-Grad: Epic
+@861=~Komet~
+@862=~Komet
+Grad: Episch
 Schule: Beschwörung
 Reichweite: Lang
 Dauer: Sofort
@@ -3101,8 +3101,8 @@ When this spell is cast, a huge meteor or comet strikes the earth, damaging all 
 
 @863=~Spell Shield Dispelled~
 
-@864=~Resist Elements~
-@865=~Resist Elements
+@864=~Elemente widerstehen~
+@865=~Elemente widerstehen
 Grad: 2
 Schule: Bannzauber
 Sphere: Protection
@@ -3194,10 +3194,10 @@ Combat Abilities:
 Petrifying Gaze
 Poison~
 
-@872=~Unholy Fireball~
+@872=~Unheiliger Feuerball~
 
-@873=~Protection from Elemental Energy~
-@874=~Protection from Elemental Energy
+@873=~Schutz vor Elementen~
+@874=~Schutz vor Elementen
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
@@ -3208,8 +3208,8 @@ Rettungswurf: Nein
 
 When this spell is cast, the recipient receives complete protection from one damage type: acid, cold, fire, or lightning. 100% of the damage from the selected source of energy will be absorbed, and the target creature will become completely immune to the effects of spells based on that element. Multiple castings of this spell are not cumulative, but each time a different damage type can be selected.~
 
-@875=~Icelance~
-@876=~Icelance
+@875=~Eislanze~
+@876=~Eislanze
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Kurz
@@ -3220,8 +3220,8 @@ Rettungswurf: Speziell (gg. Lähmung)
 
 When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6 points of damage. The target must make a save vs. paralyzation or be held for three rounds.~
 
-@877=~Vitriolic Sphere~
-@878=~Vitriolic Sphere
+@877=~Vitriolkugel~
+@878=~Vitriolkugel
 Grad: 4
 Schule: Beschwörung
 Reichweite: Mittel
@@ -3237,7 +3237,7 @@ When this spell is cast, a glowing orb of emerald acid streaks to the target and
 
 /*------------------ Familiars ------------------*/
 
-@1042=~Cat~
+@1042=~Katze~
 @1008=~This is your cat familiar, currently curled up and safe within your backpack. The cat familiar is a master scout, able to move in the shadows with the ability of a master thief. It is also difficult to hit in combat, and the magic of your bond has made this cat resistant to both physical and magical attacks.
 
 Statistics:
@@ -3317,7 +3317,7 @@ Special Abilities:
   Stoneskin 1/day
   Prismatic Spray 1/day~
 
-@1044=~Fairy Dragon~
+@1044=~Feendrache~
 @1012=~This is your familiar, a fairy dragon, currently curled up and safe within your backpack. The mischievous fairy dragon is fairly resistant to magic and has the ability to both protect and obscure itself with illusionary magic of its own.
 
 Statistics:
