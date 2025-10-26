@@ -1,7 +1,7 @@
 /*-------------------------level 1------------------------*/
 
-@401=~Grease~
-@402=~Grease
+@401=~Schmieren~
+@402=~Schmieren
 Grad: 1
 Schule: Beschwörung
 Reichweite: Mittel
@@ -12,8 +12,8 @@ Rettungswurf: Speziell (gg. Odem)
 
 A Grease spell covers a material surface with a slippery layer of a fatty, greasy nature. Any creature caught in it when the spell is cast must save vs. breath at +2 bonus or fall to the ground for one round. Those who enter the area or remain within it must make a save each round until they reach the nearest non-greased surface. A creature that succeeds on their saving throw can walk within or through the area of grease but will have their movements slowed considerably. Incorporeal and flying creatures are unaffected by this spell, as are exceptionally large creatures who suffer little to no distress from the greasy coating.~
 
-@403=~Mage Armor~
-@404=~Mage Armor
+@403=~Magierpanzer~
+@404=~Magierpanzer
 Grad: 1
 Schule: Beschwörung
 Reichweite: Anwender
@@ -24,8 +24,8 @@ Rettungswurf: Nein
 
 By means of this spell, the wizard creates a magical field of force that sets its base armor class to 6. This improves by 1 AC for every four levels of the caster, up to a minimum base armor class of 3 at 12th level. This armor does not hinder movement, adds no weight or encumbrance, nor does it prevent spellcasting. It lasts until successfully dispelled or until the duration runs out.~
 
-@405=~Burning Hands~
-@406=~Burning Hands
+@405=~Brennende Hände~
+@406=~Brennende Hände
 Grad: 1
 Schule: Hervorrufung
 Reichweite: Speziell
@@ -36,8 +36,8 @@ Rettungswurf: Nein
 
 When the wizard casts this spell, a cone of searing flames shoots from his fingertips towards a designated point. His hands must be held so as to send forth a fan-like sheet of flames: the wizard's thumbs must touch each other and his fingers must be spread. The burning hands send out 10-foot-long jets of flame in a horizontal arc of about 60 degrees in front of the wizard. All creatures caught in the flames suffer 1d6 points of fire damage plus 1d6 for every other 2 levels of the caster (up to a maximum of 5d6).~
 
-@407=~Charm Person~
-@408=~Charm Person
+@407=~Personen bezaubern~
+@408=~Personen bezaubern
 Grad: 1
 Schule: Verzauberung
 Reichweite: Lang
@@ -50,8 +50,8 @@ This spell affects any single person that it is cast upon. The term "person" inc
 
 Creatures that are currently neutral to the caster are more amenable to helping them and make their saving throw with no bonus, while those that are hostile are significantly more difficult to influence and instead gain a +4 bonus to making their saving throw. If the caster attempts to harm the charmed creature, the spell is broken and the affected creature will immediately become hostile to the caster. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence. After the duration of the spell or if a dispel magic is successfully cast upon them, the affected creature resumes their previous behavior prior to being charmed.~
 
-@409=~Color Spray~
-@410=~Color Spray
+@409=~Sprühende Farben~
+@410=~Sprühende Farben
 Grad: 1
 Schule: Veränderung
 Reichweite: Speziell
@@ -62,8 +62,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 Upon casting this spell, the wizard causes a vivid, fan-shaped spray of clashing colors to spring forth from his hand. The spray is 15 feet in length and spread out in a horizontal arc of about 60 degrees in front of the wizard. The spell's effects depend upon the caster's level - creatures with Hit Dice/levels less than or equal to the caster are slowed for 5 rounds, those with Hit Dice/levels one or two greater than the wizard are blinded for 3 rounds, and all others are confused for 1 round. Creatures with more than 22 Hit Dice/levels will have to save only against the confusion effect, regardless of the caster's level.~
 
-@411=~Obscuring Mist~
-@412=~Obscuring Mist
+@411=~Verdeckender Nebel~
+@412=~Verdeckender Nebel
 Grad: 1
 Schule: Beschwörung
 Reichweite: Lang
@@ -74,8 +74,8 @@ Rettungswurf: Nein
 
 When this spell is cast, a misty bank of fog billows out from the designated point obscuring all sight. Everyone within the cloud suffer -2 penalty to attack rolls, and have their line of sight halved. Anyone, inside or outside the cloud, trying to attack a creature concealed by the fog with ranged weapons will do so with a -4 penalty to attack rolls. Creatures with blindsight, or that do not rely on sight can fight within the cloud without penalties.~
 
-@413=~Monster Summoning I~
-@414=~Monster Summoning I
+@413=~Monster herbeirufen I~
+@414=~Monster herbeirufen I
 Grad: 1
 Schule: Beschwörung
 Reichweite: Mittel
@@ -96,8 +96,8 @@ STR 10, DEX 10, CON 10, INT 6, WIS 7, CHA 4;  AL Chaotic Neutral
 HP 8, AC 10, THAC0 19, Saving Throws 13/17/15/13/17
 1 Attack Per Round, 1d6 Piercing Damage (Short Sword)~
 
-@415=~Expeditious Retreat~
-@416=~Expeditious Retreat
+@415=~Schneller Rückzug~
+@416=~Schneller Rückzug
 Grad: 1
 Schule: Veränderung
 Reichweite: Anwender
@@ -108,8 +108,8 @@ Rettungswurf: Nein
 
 When cast, this spell provides all friendly creatures in the area with an amazing fleetness of foot. The affected creatures movement rate is almost tripled for the duration of the spell, but the excessively unnatural speed prevents them from taking almost any other actions except for running.~
 
-@417=~Identify~
-@418=~Identify
+@417=~Identifizieren~
+@418=~Identifizieren
 Grad: 1
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -120,8 +120,8 @@ Rettungswurf: Nein
 
 When this spell is cast, name and enchantments (including curses) of one item subsequently touched by the wizard are revealed without fail. Many unidentified items can still be used, but at great risk.~
 
-@419=~True Strike~
-@420=~True Strike
+@419=~Wahrer Schlag~
+@420=~Wahrer Schlag
 Grad: 1
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -132,8 +132,8 @@ Rettungswurf: Nein
 
 This spell grants the caster otherworldly sight, resulting in preternatural accuracy for a short period. While the spell is in effect attack rolls are made with a +4 perception bonus and the chance to score critical hits is increased by 5%.~
 
-@421=~Magic Missile~
-@422=~Magic Missile
+@421=~Magisches Geschoss~
+@422=~Magisches Geschoss
 Grad: 1
 Schule: Hervorrufung
 Reichweite: Lang
@@ -144,8 +144,8 @@ Rettungswurf: Nein
 
 Use of the Magic Missile spell, one of the most popular first level spells, creates up to five missiles of magical energy that dart forth from the wizard's fingertip and unerringly strike their target, which must be a creature of some sort. Each missile inflicts 1d4+1 points of damage. For every two extra levels of experience, the wizard gains an additional missile - he has two at 3rd level, three at 5th level, four at 7th level, and a maximum of five missiles at 9th level.~
 
-@423=~Protection from Evil~
-@424=~Protection from Evil
+@423=~Schutz vor Bösem~
+@424=~Schutz vor Bösem
 Grad: 1
 Schule: Bannzauber
 Reichweite: Berührung
@@ -156,8 +156,8 @@ Rettungswurf: Nein
 
 When this spell is cast, it creates a magical barrier around the recipient at a distance of one foot. The barrier moves with the recipient and has two major effects: first, all attacks made by evil or evilly enchanted creatures against the protected creature receive a -2 penalty to their attack roll, and second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
 
-@425=~Shield~
-@426=~Shield
+@425=~Schild~
+@426=~Schild
 Grad: 1
 Schule: Bannzauber
 Reichweite: Anwender
@@ -168,8 +168,8 @@ Rettungswurf: Nein
 
 When this spell is cast, an invisible barrier comes into being in front of the wizard, granting him immunity to the spell Magic Missile. Furthermore, the fluctuating force shield around the caster acts similarly to a regular shield, effectively increasing AC by 2 points (+4 vs. missile weapons). This effect lasts for the duration of the spell or until dispelled.~
 
-@427=~Shocking Grasp~
-@428=~Shocking Grasp
+@427=~Schockgriff~
+@428=~Schockgriff
 Grad: 1
 Schule: Hervorrufung
 Reichweite: Anwender
@@ -180,8 +180,8 @@ Rettungswurf: Speziell
 
 When the wizard touches a creature while this spell is in effect, an electrical charge will deal 1d6 points of damage and stun the target for 1 round. If the target makes a successful saving throw vs. spell, he is not stunned. For every two extra experience levels of the caster, the creature will suffer an additional 1d6 points of damage and roll their saving throw at an increased -1 penalty (to a maximum of 5d6 damage and a -4 saving throw penalty at 9th level). The spell expires once the caster makes a successful melee attack or after 1 turn has passed. The wizard gains a +4 bonus to hit the target.~
 
-@429=~Sleep~
-@430=~Sleep
+@429=~Schlaf~
+@430=~Schlaf
 Grad: 1
 Schule: Verzauberung
 Reichweite: Lang
@@ -192,8 +192,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 When a wizard casts a Sleep spell, he causes a comatose slumber to come upon one or more creatures. Creatures in the area of effect must make a saving throw vs. spell or fall asleep. Any further attempts to harm the targets will waken them. Opponents with more Hit Dice/levels than the caster are unaffected by this spell. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
 
-@431=~Chill Touch~
-@432=~Chill Touch
+@431=~Kalte Hand~
+@432=~Kalte Hand
 Grad: 1
 Schule: Nekromantie
 Reichweite: Anwender
@@ -204,8 +204,8 @@ Rettungswurf: Speziell
 
 When the caster completes this spell, a blue glow encompasses his hand. This energy attacks the life force of any living creature upon which the wizard makes a successful melee attack. The touched creature suffers 1d6 points of cold damage and loses one point of strength for 1 hour (no ability drain if the victim saves vs. death). The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
 
-@433=~Chromatic Orb~
-@434=~Chromatic Orb
+@433=~Farbkugel~
+@434=~Farbkugel
 Grad: 1
 Schule: Veränderung
 Reichweite: Lang
@@ -232,8 +232,8 @@ This spell causes a 2-foot-diameter sphere to appear in the caster's hand. When 
 @1006=~Blue Orb~
 @1007=~Violet Orb~
 
-@435=~Larloch's Minor Drain~
-@436=~Larloch's Minor Drain
+@435=~Entzug von Lebenskraft~
+@436=~Entzug von Lebenskraft
 Grad: 1
 Schule: Nekromantie
 Reichweite: Lang
@@ -244,8 +244,8 @@ Rettungswurf: Nein
 
 With this spell, the wizard drains the life force from a target and adds it to his own. The target creature suffers 2 points of damage, while the mage gains 2 hit points. For every two extra levels of the caster, the draining is augmented by 2 points (up to a maximum of 10 points at 9th level). If the mage goes over his maximum hit point total with this spell, he loses it after 1 turn.~
 
-@437=~Reflected Image~
-@438=~Reflected Image
+@437=~Gespiegeltes Ebenbild~
+@438=~Gespiegeltes Ebenbild
 Grad: 1
 Schule: Illusion
 Reichweite: Anwender
@@ -256,8 +256,8 @@ Rettungswurf: Nein
 
 Upon casting this spell, the wizard creates one illusory image of himself that will travel alongside him. The image performs all of the actions that the wizard does, and seems to react normally to both physical and magical damage (such as appearing to be burned when hit by a fireball) so that if any enemies are trying to attack the wizard they will not know which one is real. There is a 50% chance that an attacker will attack the image and a 50% chance that he will attack the caster. The image is immune to all forms of damage, but will disappear if a dispel magic or a detect illusion spell is cast upon it, or when the spell duration runs out. This spell cannot be cast on anyone who is under the effects of a Mirror Image spell, and multiple castings of this spell will not create additional images.~
 
-@439=~Find Familiar~
-@440=~Find Familiar
+@439=~Vertrauten finden~
+@440=~Vertrauten finden
 Grad: 1
 Schule: Universal
 Reichweite: Kurz
@@ -287,8 +287,8 @@ CHAOTIC EVIL:  Quasit
 
 You can view your familiar's statistics from the inventory screen.~
 
-@441=~Nahal's Reckless Dweomer~
-@442=~Nahal's Reckless Dweomer
+@441=~Nahals gewagte Hexerei~
+@442=~Nahals gewagte Hexerei
 Grad: 1
 Schule: Beschwörung
 Reichweite: Anwender
@@ -303,8 +303,8 @@ To use Reckless Dweomer, simply cast it and then choose from your list of known 
 
 Because the release of energy is planned by the mage, his level is added to the dice roll. If the result indicates success, the mage has shaped the magical energy into the desired effect. More often than not, the effect is completely unexpected. The result may be beneficial to the mage or it may be completely disastrous; this is the risk the mage takes in casting Nahal's Reckless Dweomer.~
 
-@443=~Spook~
-@444=~Spook
+@443=~Spuk~
+@444=~Spuk
 Grad: 1
 Schule: Illusion
 Reichweite: Lang
@@ -315,8 +315,8 @@ Rettungswurf: Speziell
 
 A Spook spell enables the wizard to play upon natural fears to cause the target creature to perceive the spellcaster as someone or something inimical which then appears to advance upon it in a threatening manner. If the creature does not make a successful saving throw vs. spell, it turns and flees at maximum speed as far from the wizard as possible. The creature has a saving throw penalty of -1 (to save against this spell) for every two extra experience levels of the caster, to a maximum of -4 at 9th level. Although the caster does not actually pursue the fleeing creature, a phantasm from its own mind does. Undead creatures, certain powerful creatures who can easily discern the illusion, such as dragons, and those with no intelligence score are unaffected by this spell, as are creatures under the effect of a True Seeing spell.~
 
-@445=~Protection from Petrification~
-@446=~Protection from Petrification
+@445=~Schutz vor Versteinerung~
+@446=~Schutz vor Versteinerung
 Grad: 1
 Schule: Bannzauber
 Reichweite: Berührung
@@ -329,8 +329,8 @@ This spell grants the recipient immunity to all petrification attacks. This incl
 
 /*-------------------level 2---------------------*/
 
-@451=~Blur~
-@452=~Blur
+@451=~Verschwimmen~
+@452=~Verschwimmen
 Grad: 2
 Schule: Illusion
 Reichweite: Anwender
@@ -341,8 +341,8 @@ Rettungswurf: Nein
 
 A Blur spell causes the mage's form and spirit to become blurred, shifting and wavering. This distortion causes all melee and missile attacks against the caster to be made with -3 penalties, whereas all saves vs. spell are made by the caster with a +3 bonus. Multiple castings of this spell are not cumulative.~
 
-@453=~Detect Alignment~
-@454=~Detect Alignment
+@453=~Gesinnung erkennen~
+@454=~Gesinnung erkennen
 Grad: 2
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -353,7 +353,7 @@ Rettungswurf: Nein
 
 This spell allows the wizard to search out the feelings of all creatures within the current area. When affected by this spell, a target will briefly glow red if he's evil, green if he's good, and white if he's neutral. Magic resistance does not affect this spell.~
 //Detect alignment in level 1.
-@2000=~Detect Alignment
+@2000=~Gesinnung erkennen
 Grad: 1
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -364,8 +364,8 @@ Rettungswurf: Nein
 
 This spell allows the wizard to search out the feelings of all creatures within the current area. When affected by this spell, a target will briefly glow red if he's evil, green if he's good, and white if he's neutral. Magic resistance does not affect this spell.~
 
-@455=~Detect Invisibility~
-@456=~Detect Invisibility
+@455=~Unsichtbares entdecken~
+@456=~Unsichtbares entdecken
 Grad: 2
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -376,8 +376,8 @@ Rettungswurf: Nein
 
 When a wizard casts a Detect Invisibility spell, he becomes able to see clearly any objects or beings that are invisible within a 50 foot radius, as well as any that are astral, ethereal, or out of phase. Instantly and once each round for 5 rounds after the spell is cast, all concealed enemies within the area of effect will become visible to the caster and his allies. Invisible objects carried into the warded area will also become visible. This spell does not reveal illusions or enable the caster to see through physical objects. Magic resistance does not affect this spell.~
 
-@457=~Horror~
-@458=~Horror
+@457=~Schrecken~
+@458=~Schrecken
 Grad: 2
 Schule: Nekromantie
 Reichweite: Lang
@@ -388,8 +388,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 When this spell is cast, all enemies within the area of effect must save vs. spell or flee in terror. Certain creatures are immune to the effects of fear, including all undead.~
 
-@459=~Invisibility~
-@460=~Invisibility
+@459=~Unsichtbarkeit~
+@460=~Unsichtbarkeit
 Grad: 2
 Schule: Illusion
 Reichweite: Berührung
@@ -400,8 +400,8 @@ Rettungswurf: Nein
 
 This spell causes the creature touched to vanish from sight and be undetectable by normal vision or even infravision. Of course, the invisible creature is not magically silenced, and certain other conditions can render the creature detectable. Items dropped or put down by the invisible creature become visible, items picked up disappear if tucked into the clothing or pouches worn by the creature. The caster cannot perform any actions that manipulate the environment around him such as opening doors, disarming traps, or opening chests. An invisible creature can drink a potion, or cast non-attack spells centered on himself and remain invisible, but he cannot attack nor cast spells on other targets without ending the spell. The spell remains in effect until it is magically broken or dispelled, until the recipient attacks any creature, or until 8 hours have passed.~
 
-@461=~Battering Ram~
-@462=~Battering Ram
+@461=~Rammbock~
+@462=~Rammbock
 Grad: 2
 Schule: Hervorrufung
 Reichweite: Mittel
@@ -412,8 +412,8 @@ Rettungswurf: Speziell
 
 This spell creates a ram-like force that can strike with considerable power. The force can be used to open or smash locked, held, or wizard-locked doors, as well as locked boxes or chests, but it does not raise barred gates or similar impediments. If used against a creature, the target suffers 2d6 points of crushing damage, and must save vs. breath to avoid being knocked unconscious for 1 round.~
 
-@463=~Know Opponent~
-@464=~Know Opponent
+@463=~Kenne den Gegner~
+@464=~Kenne den Gegner
 Grad: 2
 Schule: Erkenntniszauber
 Reichweite: Lang
@@ -424,8 +424,8 @@ Rettungswurf: Nein
 
 When this spell is cast, the wizard's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
 
-@465=~Luck~
-@466=~Luck
+@465=~Glück~
+@466=~Glück
 Grad: 2
 Schule: Verzauberung
 Reichweite: Mittel
@@ -436,8 +436,8 @@ Rettungswurf: Nein
 
 The recipient of this spell is lucky in everything that he does for the next hour. The affected character receives a 5% or +1 bonus to all of his actions. This includes saving throws, to hit chances, damage rolls, thieving skills, etc. Multiple castings of this spell are not cumulative.~
 
-@467=~Resist Fear~
-@468=~Resist Fear
+@467=~Furcht bannen~
+@468=~Furcht bannen
 Grad: 2
 Schule: Bannzauber
 Reichweite: Lang
@@ -448,8 +448,8 @@ Rettungswurf: Nein
 
 The wizard instills courage in allies, raising their morale to its highest. If the recipients are affected by magical fear, this is negated. In addition, the recipients are protected from magical fear for the duration of the spell.~
 
-@469=~Melf's Acid Arrow~
-@470=~Melf's Acid Arrow
+@469=~Melfs Säurepfeil~
+@470=~Melfs Säurepfeil
 Grad: 2
 Schule: Beschwörung
 Reichweite: Lang
@@ -460,8 +460,8 @@ Rettungswurf: Nein
 
 By means of this spell, the wizard creates a magical arrow that speeds to its target unerringly. The arrow inflicts 1d6 points of missile damage, and 2d4 points of acid damage. For every three levels that the caster has achieved, the acid lasts for another round, unless somehow dispelled, inflicting another 2d4 points of damage each round. So at 3rd-5th level, the acid lasts for two rounds, at 6th-8th level, the acid lasts for three rounds, and so on (up to a maximum of six rounds at 15th level).~
 
-@471=~Mirror Image~
-@472=~Mirror Image
+@471=~Spiegelbild~
+@472=~Spiegelbild
 Grad: 2
 Schule: Illusion
 Reichweite: Anwender
@@ -472,8 +472,8 @@ Rettungswurf: Nein
 
 When a Mirror Image spell is invoked, the spellcaster causes a number of illusory duplicates of himself to come into being around him. The spell creates two images plus one for every 3 levels of the caster (up to a maximum of eight images at 18th level). These images do exactly what the wizard does, and since the spell causes a blurring and slight distortion when it is cast, it is impossible for opponents to be certain which are the illusions and which is the actual wizard. When an image is directly struck by a melee or missile attack, magical or otherwise, it disappears, while other existing images remain intact. It is important to note that this will not protect the caster against all attacks, as it is possible for an enemy to choose the real caster amongst all the images. This spell cannot be cast on anyone who is under the effects of a Reflected Image spell, and casting the spell multiple times will not multiply the number of images created.~
 
-@473=~Stinking Cloud~
-@474=~Stinking Cloud
+@473=~Stinkende Wolke~
+@474=~Stinkende Wolke
 Grad: 2
 Schule: Beschwörung
 Reichweite: Lang
@@ -484,8 +484,8 @@ Rettungswurf: Ja (gg. Gift)
 
 When Stinking Cloud is cast, a billowing mass of nauseous vapors appears centered on a point selected by the caster. Any creature caught within the cloud must roll a successful saving throw vs. poison or be nauseated for 1 round. Nauseated characters are unable to attack or cast spells, but can still move. Those who make successful saving throws can leave the cloud without suffering any ill effects, although those remaining in the cloud must continue to save each round. A dispel magic will temporarily remove the nausea from a particular character, but they will continue to be subjected to the spell's effects so long as they remain within the cloud. Certain creatures are immune to the effects of the cloud, including all undead, and creatures who don't need to breathe, such as elementals.~
 
-@475=~Strength~
-@476=~Strength
+@475=~Stärke~
+@476=~Stärke
 Grad: 2
 Schule: Veränderung
 Reichweite: Kurz
@@ -496,8 +496,8 @@ Rettungswurf: Nein
 
 Application of this spell sets the strength of the character to 18 and then adds 50 exceptional strength on top of this. The character receives any strength bonuses appropriate. For example, if a character has between 18/50 and 18/00 strength, then his strength will just be set to 18/00. If a character has a strength between 18/01 and 18/50, then his strength will become 18/50 + original percentage. If his strength is less then 18, then it will just become 18/50. However, this spell will actually lower a character's strength if it is already 19 or more.~
 
-@477=~Web~
-@478=~Web
+@477=~Netz~
+@478=~Netz
 Grad: 2
 Schule: Beschwörung
 Reichweite: Lang
@@ -508,8 +508,8 @@ Rettungswurf: Ja (gg. Odem)
 
 A Web spell creates a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher. The Web spell covers a maximum area of about 20 feet in radius. Creatures caught within webs, or simply touching them, become stuck among the gluey fibers. Creatures that make a successful saving throw vs. breath can move at half speed through the area, but must make additional saving throws each round they remain in the area of effect. A failed saving throw means the creature is stuck in the webs, unable to move for that round. Incorporeal and flying creatures are unaffected by this spell, as are spiders and exceptionally large and strong creatures who suffer little to no distress from the webs.~
 
-@479=~Agannazar's Scorcher~
-@480=~Agannazar's Scorcher
+@479=~Agannazars Flamme~
+@480=~Agannazars Flamme
 Grad: 2
 Schule: Hervorrufung
 Reichweite: Mittel
@@ -520,8 +520,8 @@ Rettungswurf: Nein
 
 Upon casting this spell, a jet of flame appears at the caster's fingertips and bursts out toward one target of the caster's choice. That target will be hit by this flame for 3d6 points of damage. The fiery ray will persist for one further round, burning the victim for another 3d6 points of fire damage. Other creatures who cross the path of the flame jet will also take damage as long as they stand in the flame. There is no saving throw against this spell, though anti-fire capabilities such as fire resistance will apply and may reduce or eliminate the damage.~
 
-@481=~Ghoul Touch~
-@482=~Ghoul Touch
+@481=~Ghulgriff~
+@482=~Ghulgriff
 Grad: 2
 Schule: Nekromantie
 Reichweite: Anwender
@@ -532,8 +532,8 @@ Rettungswurf: Speziell (gg. Tod)
 
 When the caster completes this spell, a red glow encompasses his hand. On a successful touch from the wizard, the spell inflicts 1d8 points of magic damage and paralyzes the target for 5 rounds unless a successful save vs. death at a -1 penalty is made. The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
 
-@483=~Vocalize~
-@484=~Vocalize
+@483=~Wortloses Zaubern~
+@484=~Wortloses Zaubern
 Grad: 2
 Schule: Veränderung
 Reichweite: Anwender
@@ -544,8 +544,8 @@ Rettungswurf: Nein
 
 The recipient of this spell gains the ability to cast spells with a verbal component without having to make any noise. Effectively, this spell cancels the silenced effect and makes the recipient immune to it for the spell's duration. This spell has no effect on other noises or speech - it simply removes a spell's verbal component.~
 
-@485=~Power Word Sleep~
-@486=~Power Word Sleep
+@485=~Wort der Macht: Schlaf~
+@486=~Wort der Macht: Schlaf
 Grad: 2
 Schule: Verzauberung
 Reichweite: Lang
@@ -556,8 +556,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 When a wizard utters this power word, he causes a comatose slumber to come upon one creature. Creatures who currently have 20 or more hit points can save vs. spell to avoid the effects, but those with 1 to 19 hit points are powerless to resist. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
 
-@487=~Ray of Enfeeblement~
-@488=~Ray of Enfeeblement
+@487=~Strahl der Schwächung~
+@488=~Strahl der Schwächung
 Grad: 2
 Schule: Nekromantie
 Reichweite: Lang
@@ -568,8 +568,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 By means of a Ray of Enfeeblement, a wizard weakens an opponent, reducing its strength and thereby the attacks that rely upon it. The victim suffers a -3 penalty to attack and damage rolls and has its movement speed reduced by 50% unless they make a successful saving throw vs. spell at a -2 penalty.~
 
-@489=~Chaos Shield~
-@490=~Chaos Shield
+@489=~Chaosschild~
+@490=~Chaosschild
 Grad: 2
 Schule: Bannzauber
 Reichweite: Anwender
@@ -580,8 +580,8 @@ Rettungswurf: Nein
 
 Chaos Shield increases a wild mage's chance to gain a favorable result when a wild surge occurs. Every time a roll is made on the wild surge chart, an extra 15 is added to the dice roll. When Nahal's Reckless Dweomer is cast, the bonus from Chaos Shield stacks with the wild mage's level bonus.~
 
-@491=~Sound Burst~
-@492=~Sound Burst
+@491=~Schallstoß~
+@492=~Schallstoß
 Grad: 2
 Schule: Hervorrufung
 Reichweite: Lang
@@ -592,8 +592,8 @@ Rettungswurf: Speziell (gg. Odem)
 
 This spell blasts an area with a tremendous cacophony. Enemies within the area suffer 4d4 points of crushing damage, and are deafened for 1 turn. A successful save vs. breath at -2 penalty halves the damage and negates the deafness. Deafened spellcasters have a 50% chance to miscast any spell. This deafness can be done away with by means of a Dispel Magic spell or a Cure Disease spell.~
 
-@493=~Glitterdust~
-@494=~Glitterdust
+@493=~Glitzerstaub~
+@494=~Glitzerstaub
 Grad: 2
 Schule: Beschwörung
 Reichweite: Mittel
@@ -603,7 +603,7 @@ Bereich: 3 m Radius
 Rettungswurf: Speziell
 
 This spell creates a cloud of glittering golden particles within the area of effect. The sparkling dust dazzles all opponents in the area (-2 penalty to attack rolls) for 4 rounds and reveals any opponents who are invisible. Those affected must also save vs. breath to avoid becoming completely covered by the dust, which cannot be removed and continues to sparkle for 4 rounds. Those failing the save remain unable to successfully hide themselves until the dust fades.~
-@494000=~Glitterdust
+@494000=~Glitzerstaub
 Grad: 2
 Schule: Beschwörung
 Reichweite: Mittel
@@ -617,8 +617,8 @@ This spell creates a cloud of glittering golden particles within the area of eff
 
 /*-----------------------level 3-------------------------*/
 
-@501=~Clairvoyance~
-@502=~Clairvoyance
+@501=~Hellsehen~
+@502=~Hellsehen
 Grad: 3
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -629,8 +629,8 @@ Rettungswurf: Nein
 
 This spell grants an unnatural perception of things to come. Once Clairvoyance is cast, the caster receives instantaneous warnings of impending danger or harm. He becomes impossible to surprise and cannot be backstabbed. In addition, the spell gives a general idea of what action might be taken to best protect oneself, granting a +2 insight bonus to AC and saves vs. breath. The effects last for the duration of the spell, and cannot be dispelled.~
 
-@503=~Dispel Magic~
-@504=~Dispel Magic
+@503=~Magie bannen~
+@504=~Magie bannen
 Grad: 3
 Schule: Bannzauber
 Reichweite: Lang
@@ -643,8 +643,8 @@ Dispel Magic dispels the magical effects upon any enemies within the area of eff
 
 The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Dispel Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Dispel Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
 
-@505=~Flame Arrow~
-@506=~Flame Arrow
+@505=~Flammenpfeil~
+@506=~Flammenpfeil
 Grad: 3
 Schule: Beschwörung
 Reichweite: Lang
@@ -655,8 +655,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 This spell enables the caster to hurl flaming arrows at his enemies. The caster receives one arrow for every two experience levels (up to a maximum of five arrows at level 10), and each arrow inflicts 1d6 points of missile damage plus 1d6 points of fire damage. Upon completion of the spell, the first arrow will streak towards the creature targeted by the wizard, while additional arrows will randomly target opponents within range.~
 
-@507=~Fireball~
-@508=~Fireball
+@507=~Feuerball~
+@508=~Feuerball
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Lang
@@ -667,8 +667,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 A fireball is an explosive burst of flame that detonates with a low roar, delivering damage proportional to the level of the wizard who cast it - 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 10d6). The wizard points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures who fail their saving throw vs. breath at -2 suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half damage.~
 
-@509=~Haste~
-@510=~Haste
+@509=~Hast~
+@510=~Hast
 Grad: 3
 Schule: Veränderung
 Reichweite: Mittel
@@ -679,8 +679,8 @@ Rettungswurf: Nein
 
 When this spell is cast, the affected creatures gain +6 to movement rate and can make an extra half attack each round. Spellcasting and spell effects are not affected. Haste negates and counters the effects of a Slow spell. When the spell ends, affected creatures become winded for 3 rounds. While winded they receive penalties of -2 to hit, damage, and armor class. This spell is not cumulative with itself or with other similar magic.~
 
-@511=~Hold Person~
-@512=~Hold Person
+@511=~Personen festhalten~
+@512=~Personen festhalten
 Grad: 3
 Schule: Verzauberung
 Reichweite: Lang
@@ -693,8 +693,8 @@ This spell holds one or more humans, demihumans, or humanoid creatures rigidly i
 
 Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
 
-@513=~Invisibility Sphere~
-@514=~Invisibility Sphere
+@513=~Unsichtbarkeitskugel~
+@514=~Unsichtbarkeitskugel
 Grad: 3
 Schule: Illusion
 Reichweite: Anwender
@@ -705,8 +705,8 @@ Rettungswurf: Nein
 
 This spell confers invisibility upon all friendly creatures within 10 feet of the caster. Creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not. If an affected creature makes an attack, they will negate the invisibility only for themselves. The spell otherwise lasts for 1 turn.~
 
-@515=~Lightning Bolt~
-@516=~Lightning Bolt
+@515=~Blitzstrahl~
+@516=~Blitzstrahl
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Lang
@@ -717,8 +717,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 Upon casting this spell, the wizard releases a powerful stroke of electrical energy that inflicts 1d6 points of damage per level of the spellcaster (maximum damage of 10d6) to the target creature. A successful saving throw vs. breath at -4 reduces this damage to half.~
 
-@517=~Monster Summoning III~
-@518=~Monster Summoning III
+@517=~Monster herbeirufen III~
+@518=~Monster herbeirufen III
 Grad: 3
 Schule: Beschwörung
 Reichweite: Mittel
@@ -751,9 +751,9 @@ Memorized Spells:
 @3517=~Hobgoblin Archer~
 @3518=~Hobgoblin Shaman~
 
-@519=~Non-Detection~
+@519=~Unauffindbarkeit~
 // ***** the following description has been altered in English, needs translation
-@520=~Non-Detection
+@520=~Unauffindbarkeit
 Grad: 3
 Schule: Bannzauber
 Zeitaufwand: 3
@@ -764,8 +764,8 @@ By casting this spell, the wizard protects a hidden or invisible creature from b
 
 Note: while a creature protected by Non-Detection cannot be exposed to everyone, they still may be observed and detected by individuals who, through a spell or innate ability, have the power to directly see through invisibility. This includes the caster, and only the caster, of Detect Invisibility and True Seeing.~
 
-@521=~Protection from Missiles~
-@522=~Protection from Missiles
+@521=~Schutz vor normalen Geschossen~
+@522=~Schutz vor normalen Geschossen
 Grad: 3
 Schule: Bannzauber
 Reichweite: Berührung
@@ -776,8 +776,8 @@ Rettungswurf: Nein
 
 By means of this spell, the wizard bestows upon a creature total invulnerability to hurled and projected missiles such as arrows, axes, bolts, javelins, and sling stones. This spell does not convey any protection from magical attacks such as Fireballs, Lightning Bolts, or Magic Missiles, but magically created missiles such as Melf's Acid Arrows, Melf's Minute Meteors, and Flame Arrows will be harmlessly deflected.~
 
-@523=~Slow~
-@524=~Slow
+@523=~Verlangsamen~
+@524=~Verlangsamen
 Grad: 3
 Schule: Veränderung
 Reichweite: Lang
@@ -788,8 +788,8 @@ Rettungswurf: Ja (gg. Verwandlung)
 
 A Slow spell causes creatures to move and attack at half of their normal rates unless a save vs. polymorph at -2 is made. Slowed creatures also suffer a -2 penalty to attack rolls, AC, and saves vs. breath. Spellcasting time is doubled, though spell effects are not affected. Furthermore, the rate at which these creatures regenerate or suffer damage from poison is halved. At the instant the spell is completed, all hostile creatures in 30 foot radius of a point selected by the caster will be affected (thus, creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not). It negates the effects of a Haste spell, but does not otherwise affect magically speeded or slowed creatures. This spell is not cumulative with itself or with other similar magic.~
 
-@525=~Skull Trap~
-@526=~Skull Trap
+@525=~Schädelfalle~
+@526=~Schädelfalle
 Grad: 3
 Schule: Nekromantie
 Reichweite: Mittel
@@ -800,8 +800,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 Upon casting this spell, a skull is thrown by the caster at the target area. The skull floats in the area until a creature comes within 15 feet of it. When this happens, the skull is triggered and explodes, damaging everyone within a 20 foot radius. The explosion deals 1d6 points of magic damage per level of the caster (up to a maximum of 10d6), with a save vs. breath at -2 allowed for half damage. When casting this spell, it is wise to set it far away from the party, lest they set it off accidentally. Undead creatures are not affected by this spell.~
 
-@527=~Vampiric Touch~
-@528=~Vampiric Touch
+@527=~Vampirgriff~
+@528=~Vampirgriff
 Grad: 3
 Schule: Nekromantie
 Reichweite: Berührung
@@ -816,8 +816,8 @@ Note that this spell may not be cast multiple times to radically increase the ca
 
 @3527=~A vampiric touch spell is already active~
 
-@529=~Dire Charm~
-@530=~Dire Charm
+@529=~Schreckenszauber~
+@530=~Schreckenszauber
 Grad: 3
 Schule: Verzauberung
 Reichweite: Lang
@@ -830,8 +830,8 @@ This spell works in the exact same manner as Charm Person, with two differences:
 
 If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a Dispel Magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
 
-@531=~Ghost Armor~
-@532=~Ghost Armor
+@531=~Geisterrüstung~
+@532=~Geisterrüstung
 Grad: 3
 Schule: Illusion
 Reichweite: Berührung
@@ -842,8 +842,8 @@ Rettungswurf: Nein
 
 When this spell is cast, the wizard creates an insubstantial but quasi-real suit of armor. This semi-illusory material covers the subject and actually gives some real protection provided that opponents don't actively disbelieve in the armor (detecting the illusion) and neither a dispel magic nor detect illusion spell is cast upon it. Until dispelled or disbelieved, the armor sets the recipient's base armor class to 2. This spell will not function with any other form of magical armor, but it is cumulative with dexterity bonuses and, in the case of fighter/mages, with the shield bonus. The ghost armor does not hinder movement, adds no weight or encumbrance, nor does it prevent spellcasting. A favourite among mage/thieves, the ghostly nimbus of light which surrounds the recipient grants +20% bonus to Hide in Shadows.~
 
-@533=~Minor Spell Deflection~
-@534=~Minor Spell Deflection
+@533=~Geringere Zauberabwehr~
+@534=~Geringere Zauberabwehr
 Grad: 3
 Schule: Bannzauber
 Reichweite: Anwender
@@ -857,8 +857,8 @@ This Bannzauber spell causes any spells cast against the wizard to be absorbed a
 This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
 
 //Moved to level 4
-@535=~Protection from Fire~
-@536=~Protection from Fire
+@535=~Schutz vor Feuer~
+@536=~Schutz vor Feuer
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
@@ -870,8 +870,8 @@ Rettungswurf: Nein
 When a Protection from Fire spell is cast, the recipient receives complete protection from all fire-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like fiery dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Burning Hands, Fireball, Flame Strike, and Fire Storm. Multiple castings of this spell are not cumulative.~
 
 //Moved to level 4
-@537=~Protection from Cold~
-@538=~Protection from Cold
+@537=~Schutz vor Kälte~
+@538=~Schutz vor Kälte
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
@@ -882,8 +882,8 @@ Rettungswurf: Nein
 
 When a Protection from Cold spell is cast, the recipient receives complete protection from all cold-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like icy dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Ice Storm and Cone of Cold. Multiple castings of this spell are not cumulative.~
 
-@539=~Spell Thrust~
-@540=~Spell Thrust
+@539=~Zauberstoß~
+@540=~Zauberstoß
 Grad: 3
 Schule: Bannzauber
 Reichweite: Lang
@@ -896,8 +896,8 @@ When this spell is cast, it will dispel one spell protection of 5th level or low
 
 The spell protections dispelled by Spell Thrust are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen and Spell Shield.~
 
-@541=~Detect Illusion~
-@542=~Detect Illusion
+@541=~Illusion entdecken~
+@542=~Illusion entdecken
 Grad: 3
 Schule: Erkenntniszauber
 Reichweite: Lang
@@ -912,8 +912,8 @@ The illusion spells dispelled by Detect Illusion are: Reflected Image, Blur, Inv
 
 @5410=~Illusionary protections removed~
 
-@543=~Halt Undead~
-@544=~Halt Undead
+@543=~Untote festhalten~
+@544=~Untote festhalten
 Grad: 3
 Schule: Nekromantie
 Reichweite: Lang
@@ -926,8 +926,8 @@ This spell stops undead creatures in their place for the duration of the spell. 
 
 Those affected become unable move or groan, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence the effect does not stop any worsening of their condition due to injury or rot.~
 
-@545=~Melf's Minute Meteors~
-@546=~Melf's Minute Meteors
+@545=~Melfs magische Meteoriten~
+@546=~Melfs magische Meteoriten
 Grad: 3
 Schule: Hervorrufung
 Reichweite: Anwender
@@ -938,10 +938,10 @@ Rettungswurf: Nein
 
 This spell enables the wizard to summon small globes of fire (one for each level of experience of the caster), which, when thrown, burst upon impact and inflict 1d4 points of piercing damage plus 2d4 points of fire damage to the creature struck. The wizard gains a +5 bonus to hit with the missiles, and each meteor is considered to be of +2 enchantment to determine what it can hit. The wizard may discharge up to five missiles per round.~
 
-@3545=~Melf's Minute Meteor~
+@3545=~Melfs magische Meteorit~
 
-@547=~Dispel Magic~
-@548=~Dispel Magic
+@547=~Magie bannen~
+@548=~Magie bannen
 Grad: 3
 Schule: Bannzauber
 Reichweite: Lang
@@ -957,8 +957,8 @@ The chance of the dispel succeeding is determined by the level of the caster and
 
 /*------------------level 4------------------*/
 
-@561=~Confusion~
-@562=~Confusion
+@561=~Verwirrung~
+@562=~Verwirrung
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
@@ -969,8 +969,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 This spell causes confusion in one or more creatures within the area, creating indecision and the inability to take effective action. All hostile creatures within the area of effect are allowed a saving throw vs. spell at -2. Those successfully saving are unaffected by the spell. Those who fail their saving throws will either go berserk, stand confused, or wander about for the duration of the spell. Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature.~
 
-@563=~Dimension Jump~
-@564=~Dimension Jump
+@563=~Dimensionstor~
+@564=~Dimensionstor
 Grad: 1
 Schule: Beschwörung
 Reichweite: Anwender
@@ -981,8 +981,8 @@ Rettungswurf: Nein
 
 This spell transports the caster to any place within sight. When the spell is cast, a dimensional portal opens up in front of the caster, which he immediately steps through. Upon passing through the portal, the caster finds himself at his chosen destination. The caster always arrives at exactly the spot desired, and the dimensional door doesn't allow anyone or anything else to pass through. Spells about to be cast upon the wizard will fail, and missiles about to hit him will instead hit thin air.~
 
-@565=~Mestil's Acid Sheath~
-@566=~Mestil's Acid Sheath
+@565=~Mestils Säureschild~
+@566=~Mestils Säureschild
 Grad: 5
 Schule: Beschwörung
 Reichweite: Anwender
@@ -993,8 +993,8 @@ Rettungswurf: Nein
 
 This spell conjures an acid shield around the caster. This shield not only grants the user 50% acid resistance, but also protects the caster from attacks made within a 5' radius. Opponents that hit the caster with a weapon or spell from within this radius will suffer 4d4 points of acid damage. Multiple castings of this spell are not cumulative, but it can be used in conjunction with similar spells. Tiny and small flying creatures cannot pass through the caustic barrier. Magic resistance does not affect this spell.~
 
-@567=~Ice Storm~
-@568=~Ice Storm
+@567=~Eissturm~
+@568=~Eissturm
 Grad: 4
 Schule: Hervorrufung
 Reichweite: Lang
@@ -1005,8 +1005,8 @@ Rettungswurf: Nein
 
 When this spell is cast, great magical hailstones pound down for 4 rounds within a 30 foot radius of a point selected by the caster. Creatures within the area of effect have their movement speed reduced by 50%, and receive 2d8 points of cold damage for each round they remain inside the storm.~
 
-@569=~Improved Invisibility~
-@570=~Improved Invisibility
+@569=~Verbesserte Unsichtbarkeit~
+@570=~Verbesserte Unsichtbarkeit
 Grad: 4
 Schule: Illusion
 Reichweite: Berührung
@@ -1017,8 +1017,8 @@ Rettungswurf: Nein
 
 This spell is similar to the Invisibility spell, but the recipient is able to attack, either by missile discharge, melee combat, or spellcasting, and remain unseen. Note, however, that there are sometimes telltale traces, a shimmering, that enable observant opponents to approximate the invisible character's whereabouts. These traces are only noticeable when specifically looked for, after the creature has made his presence known. Once the character has revealed himself, opponents can attempt to attack him with conventional weapons, though they do so with a -4 penalty to the attack roll, or they may cast area of effect spells near his position. Opponents remain unable to directly target the invisible creature with spells, scrolls, or abilities until the spell duration expires or the invisibility is dispelled.~
 
-@571=~Minor Globe of Invulnerability~
-@572=~Minor Globe of Invulnerability
+@571=~Kleinere Kugel der Unverwundbarkeit~
+@572=~Kleinere Kugel der Unverwundbarkeit
 Grad: 4
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1029,8 +1029,8 @@ Rettungswurf: Nein
 
 This spell creates a faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, or 3rd-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the globe of invulnerability). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the globe to their subject without affecting the globe. Fourth and higher level spells are not affected by the globe. The globe can be brought down by a successful dispel magic.~
 
-@573=~Monster Summoning II~
-@574=~Monster Summoning II
+@573=~Monster herbeirufen II~
+@574=~Monster herbeirufen II
 Grad: 2
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1056,8 +1056,8 @@ Immune to charm, confusion, disease, hold, poison, sleep & stun, effects
 Electrical Resistance 100%, Acid Resistance 50%
 Missile Resistance 90%~
 
-@575=~Stoneskin~
-@576=~Stoneskin
+@575=~Steinhaut~
+@576=~Steinhaut
 Grad: 4
 Schule: Veränderung
 Reichweite: Anwender
@@ -1070,8 +1070,8 @@ When a wizard casts this powerful spell upon himself, an outer skin of stone wil
 
 It is important to note that this will not protect the wizard from any area attacks (such as Fireball), and that any weapon capable of inflicting some type of elemental damage can still harm the caster - the skins will not protect against fire, cold, acid, or electrical damage, even if physical damage is blocked. Multiple castings of this spell are not cumulative.~
 
-@577=~Contagion~
-@578=~Contagion
+@577=~Ansteckung~
+@578=~Ansteckung
 Grad: 4
 Schule: Nekromantie
 Reichweite: Kurz
@@ -1082,8 +1082,8 @@ Rettungswurf: Ja (gg. Tod)
 
 This spell causes a major disease and weakness in a creature. Every 2 rounds the afflicted individual must make a saving throw vs. poison at -2 or suffer additional -2 penalty to strength, dexterity, constitution, and charisma (up to -8 to all stats). The effects of this spell will persist until the creature receives a Cure Disease spell, or the spell duration expires.~
 
-@579=~Break Enchantment~
-@580=~Break Enchantment
+@579=~Zauber brechen~
+@580=~Zauber brechen
 Grad: 4
 Schule: Bannzauber
 Reichweite: Kurz
@@ -1094,8 +1094,8 @@ Rettungswurf: Nein
 
 Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from petrification, magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
 
-@581=~Emotion: Despair~
-@582=~Emotion: Despair
+@581=~Gefühl: Hoffnungslosigkeit~
+@582=~Gefühl: Hoffnungslosigkeit
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
@@ -1106,8 +1106,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 When this spell is cast, the wizard can disturb the emotional state of those around him. The effect of this is to inflict a feeling of absolute hopelessness upon enemies within visual range of the caster. Upon a failed saving throw vs. spell at -2, those affected will receive a -4 penalty on attack rolls and weapon damage, and a +4 penalty to armor class. This will last for the duration of the spell or until dispelled.~
 
-@583=~Greater Malison~
-@584=~Greater Malison
+@583=~Größeres Unbehagen~
+@584=~Größeres Unbehagen
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
@@ -1118,10 +1118,10 @@ Rettungswurf: Nein
 
 The spell allows the caster to adversely affect the dice rolls of their enemies. The effect is applied to all hostile creatures within the area of effect. Those under the influence of this spell make all their saving throws at a penalty of -2 and also suffer a -1 penalty to luck. Magic resistance does not affect this spell, and multiple castings of this spell are not cumulative.~
 
-@3583=~Saving Throws Lowered~
+@3583=~Rettungswurfe gesunken~
 
-@585=~Otiluke's Resilient Sphere~
-@586=~Otiluke's Resilient Sphere
+@585=~Otilukes elastische Kugel~
+@586=~Otilukes elastische Kugel
 Grad: 4
 Schule: Veränderung
 Reichweite: Lang
@@ -1134,8 +1134,8 @@ When this spell is cast, the result is a globe of shimmering force that encloses
 
 The caster has the option of using the spell to protect her allies. Resistances and saving throws are bypassed when the target is willing.~
 
-@587=~Spirit Armor~
-@588=~Spirit Armor
+@587=~Seelenrüstung~
+@588=~Seelenrüstung
 Grad: 4
 Schule: Nekromantie
 Reichweite: Berührung
@@ -1146,8 +1146,8 @@ Rettungswurf: Nein
 
 This spell taps the target's life force in order to create a corporeal barrier around his body. The armor itself is weightless, and does not hinder movement or spellcasting in any way. The spirit armor does not work cumulatively with any other armor, but it will stack with bonuses from dexterity, shields, and magical trinkets. While in effect, the armor class of the recipient will be set to 1, and saving throws vs. death will be made with a +3 bonus. There is a danger in using this spell, however, as the external portion of the target's spirit is temporarily lost when the spell duration expires. This causes the recipient to suffer 2d4 points of damage, unless he succeeds at a saving throw vs. spell.~
 
-@589=~Polymorph Other~
-@590=~Polymorph Other
+@589=~Andere verwandeln~
+@590=~Andere verwandeln
 Grad: 4
 Schule: Veränderung
 Reichweite: Lang
@@ -1160,8 +1160,8 @@ Polymorph Other is a powerful magic that permanently alters the form of the crea
 
 Note that all clothes and equipment that the target was wearing will mold into the new form. However, they will return to their previous state once the target dies or the effects are dispelled.~
 
-@591=~Polymorph Self~
-@592=~Polymorph Self
+@591=~Selbstverwandlung~
+@592=~Selbstverwandlung
 Grad: 4
 Schule: Veränderung
 Reichweite: Anwender
@@ -1205,8 +1205,8 @@ Str 18, Dex 17, Con 15;  AC 2, THAC0 10
 2 Attacks Per Round, 1d6+3 Piercing + 1d6 Cold Damage (Frostbite +2)
 Cold Resistance 100%~
 
-@593=~Enchanted Weapon~
-@594=~Enchanted Weapon
+@593=~Verzauberte Waffe~
+@594=~Verzauberte Waffe
 Grad: 4
 Schule: Beschwörung
 Reichweite: Anwender
@@ -1217,8 +1217,8 @@ Rettungswurf: Nein
 
 This spell conjures forth a +3 enchanted weapon that can be given to anyone. The weapon may be of any type, or the caster may alternatively decide to conjure 40 magical arrows, bolts, or bullets. The weapon stays in existence for no longer than a day.~
 
-@595=~Fire Shield~
-@596=~Fire Shield
+@595=~Feuerschild~
+@596=~Feuerschild
 Grad: 4
 Schule: Hervorrufung
 Reichweite: Anwender
@@ -1229,8 +1229,8 @@ Rettungswurf: Nein
 
 This spell protects the user by surrounding the caster with a circular wall of flames. This shield not only grants the user 40% fire and cold resistance, but also protects the caster from attacks made within a 5' radius. Opponents that hit the caster with a weapon or spell from within this radius will suffer 1d6 points of fire damage plus one for every two levels of the caster (up to a maximum of 1d6+10). Multiple castings of this spell are not cumulative, but it can be used in conjunction with similar spells. Tiny and small flying creatures cannot pass through the flames. Magic resistance does not affect this spell.~
 
-@597=~Secret Word~
-@598=~Secret Word
+@597=~Geheimes Wort~
+@598=~Geheimes Wort
 Grad: 4
 Schule: Verzauberung
 Reichweite: Lang
@@ -1243,8 +1243,8 @@ When a Secret Word spell is uttered, it will dispel one spell protection of 7th 
 
 The spell protection spells dispelled by Secret Word are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons.~
 
-@599=~Simbul's Spell Matrix~
-@600=~Simbul's Spell Matrix
+@599=~Simbuls Zaubermatrix~
+@600=~Simbuls Zaubermatrix
 Grad: 4
 Schule: Universal
 Reichweite: Anwender
@@ -1255,8 +1255,8 @@ Rettungswurf: Nein
 
 This spell allows a mage to prepare a magical matrix that can store spells to be used later in a single swift action. The matrix can store two spells to be released simultaneously, all of which must be of 2nd level or lower. A mage can only possess one spell matrix at a time, and the matrix will remain active until the spells contained within it are released.~
 
-@601=~Teleport Field~
-@602=~Teleport Field
+@601=~Teleportationsfeld~
+@602=~Teleportationsfeld
 Grad: 4
 Schule: Veränderung
 Reichweite: Lang
@@ -1267,8 +1267,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 With this spell, the wizard instigates a teleportation effect as far as the wizard can see. All enemies in this area are randomly teleported for the duration of the spell unless they save vs. spell at -4. Magic resistance does not affect this spell. This spell is best used against multiple enemies, serving to confuse them and allowing the wizard to concentrate on activating her defenses.~
 
-@603=~Monster Summoning IV~
-@604=~Monster Summoning IV
+@603=~Monster herbeirufen IV~
+@604=~Monster herbeirufen IV
 Grad: 4
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1300,8 +1300,8 @@ Poison: spiders' bites inject a venom which inflicts 3hp/round for 1 turn (save 
 Special Qualities (all spiders):
 Immune to poison & web effects~
 
-@605=~Farsight~
-@606=~Farsight
+@605=~Fernsicht~
+@606=~Fernsicht
 Grad: 4
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -1312,8 +1312,8 @@ Rettungswurf: Nein
 
 When Farsight is cast, the caster is able to view an area of an unexplored map. After casting the spell, simply click on a section of the map that you want to view. For the duration of the spell, the caster can spy on that area, noting creatures and fortifications.~
 
-@607=~Wizard Eye~
-@608=~Wizard Eye
+@607=~Zauberauge~
+@608=~Zauberauge
 Grad: 4
 Schule: Erkenntniszauber
 Reichweite: Kurz
@@ -1327,8 +1327,8 @@ When this spell is employed, the wizard creates an invisible sensory organ that 
 
 /*------------------level 5------------------*/
 
-@611=~Summon Shadow~
-@612=~Summon Shadow
+@611=~Schatten herbeirufen~
+@612=~Schatten herbeirufen
 Grad: 5
 Schule: Nekromantie
 Reichweite: Lang
@@ -1371,11 +1371,11 @@ Immune to normal weapons
 Immune to backstab, blindness, charm, confusion, hold, poison, sleep, stun, & death effects
 Cold Resistance 100%; Physical Damage Resistance 50%~
 
-@3611=~Shadow~
-@3612=~Wraith~
+@3611=~Schatten~
+@3612=~Todesalb~
 
-@613=~Cloudkill~
-@614=~Cloudkill
+@613=~Todeswolke~
+@614=~Todeswolke
 Grad: 5
 Schule: Beschwörung
 Reichweite: Lang
@@ -1386,8 +1386,8 @@ Rettungswurf: Nein
 
 This spell generates a billowing cloud of ghastly, yellowish green vapors that is so toxic as to slay any creature with fewer than 4 Hit Dice, and cause creatures with 4 to 6 Hit Dice to roll saving throws vs. poison with -4 penalties or be slain. Holding one's breath has no effect on the lethality of the spell. Those with more than 6 Hit Dice must leave the cloud immediately, or suffer 1d10 points of poison damage each round while in the area of effect. Undead creatures are not affected by the poisonous cloud.~
 
-@615=~Cone of Cold~
-@616=~Cone of Cold
+@615=~Kältekegel~
+@616=~Kältekegel
 Grad: 5
 Schule: Hervorrufung
 Reichweite: Speziell
@@ -1398,8 +1398,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 When this spell is cast, it causes a cone-shaped spray of extreme cold to spring forth from the wizard's hand. The cone is 30 feet in length and spread out in a horizontal arc of 60 degrees in front of the wizard. It drains heat and causes 1d4+1 points of damage per level of experience of the wizard (to a maximum of 15d4+15 at level 15), with a save vs. breath at -4 allowed for half damage.~
 
-@617=~Monster Summoning V~
-@618=~Monster Summoning V
+@617=~Monster herbeirufen V~
+@618=~Monster herbeirufen V
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1435,8 +1435,8 @@ Memorized Spells:
 2. Horror, Mirror Image
 3. Dire Charm, Slow~
 
-@619=~Shadow Door~
-@620=~Shadow Door
+@619=~Phantomtor~
+@620=~Phantomtor
 Grad: 5
 Schule: Illusion
 Reichweite: Anwender
@@ -1447,8 +1447,8 @@ Rettungswurf: Speziell
 
 By means of this spell, the wizard creates the illusion of a door. The illusion also permits the wizard to appear to step through this "door" and disappear. In reality he has darted aside and can flee, totally invisible, for the spell duration. Opponents within 5 feet of the caster must save vs. spell or be fooled into following the caster through the door, becoming trapped in an extradimensional room for up to 4 rounds. Creatures with exceptional intelligence may escape the illusion faster, while creatures who can see through illusions (e.g. dragons, liches, demons), or are under the effects of a True Seeing spell, are unaffected.~
 
-@621=~Domination~
-@622=~Domination
+@621=~Beherrschung~
+@622=~Beherrschung
 Grad: 5
 Schule: Verzauberung
 Reichweite: Lang
@@ -1459,8 +1459,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 The Domination spell enables the caster to control the actions of any one creature while the spell is in effect. This control is maintained through a telepathic link between the caster and the victim. Unlike the 4th level priest spell Mental Domination, the target has no option for release, even if made to do something against his morals. The target gets a saving throw vs. spell at -2 in order to avoid the effect.~
 
-@623=~Hold Monster~
-@624=~Hold Monster
+@623=~Monster festhalten~
+@624=~Monster festhalten
 Grad: 5
 Schule: Verzauberung
 Reichweite: Lang
@@ -1473,8 +1473,8 @@ This spell holds creatures of any type rigidly immobile and in place for one tur
 
 Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
 
-@625=~Waves of Fatigue~
-@626=~Waves of Fatigue
+@625=~Wellen der Müdigkeit~
+@626=~Wellen der Müdigkeit
 Grad: 5
 Schule: Nekromantie
 Reichweite: Lang
@@ -1485,8 +1485,8 @@ Rettungswurf: Nein
 
 Surges of negative energy render all hostile living creatures in the spell's area fatigued, as if they haven't rested in a day. Multiple castings of this spell are cumulative.~
 
-@627=~Feeblemind~
-@628=~Feeblemind
+@627=~Schwachsinn~
+@628=~Schwachsinn
 Grad: 5
 Schule: Verzauberung
 Reichweite: Lang
@@ -1497,8 +1497,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 Feeblemind causes the subject's intellect to degenerate into that of a simple beast of burden, with an intelligence score of 3. The subject remains in this state until a successful dispel magic is cast upon him. The victim must make a save vs. spell at -4 in order to avoid the effect.~
 
-@629=~Dispelling Screen~
-@630=~Dispelling Screen
+@629=~Magieschutzschirm~
+@630=~Magieschutzschirm
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1509,8 +1509,8 @@ Rettungswurf: Nein
 
 By casting this spell, caster creates a transparent, permeable barrier that shields the him and allies from Dispel Magic and Breach spells. The barrier dissipates after one instance of Dispel Magic or Breach. Spells higher in power that remove specific protections like Pierce Shield and Spellstrike remove Dispelling Screen from target without getting absorbed by it.~
 
-@631=~Protection from Normal Weapons~
-@632=~Protection from Normal Weapons
+@631=~Schutz vor normalen Waffen~
+@632=~Schutz vor normalen Waffen
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1521,8 +1521,8 @@ Rettungswurf: Nein
 
 This spell creates an immobile, faintly shimmering magical sphere around the caster that cannot be penetrated by non-magical weapons; all such weapons are harmlessly deflected (missile weapons strike the sphere, then immediately fall to the ground). This does not include weapons that are blessed or enchanted. The effect lasts for the duration of the spell or until dispelled.~
 
-@633=~Protection from Electricity~
-@634=~Protection from Electricity
+@633=~Schutz vor Elektrizität~
+@634=~Schutz vor Elektrizität
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
@@ -1533,8 +1533,8 @@ Rettungswurf: Nein
 
 When a Protection from Electricity spell is cast, the recipient receives complete protection from all electrical-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like electric dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Lightning Bolt, Glyph of Warding, Call Lightning, and Chain Lightning. Multiple castings of this spell are not cumulative.~
 
-@635=~Breach~
-@636=~Breach
+@635=~Bresche~
+@636=~Bresche
 Grad: 5
 Schule: Bannzauber
 Reichweite: Lang
@@ -1549,8 +1549,8 @@ The specific protection spells dispelled by Breach are: Resist Fear, Resist Elem
 
 The combat protection spells dispelled by Breach are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Physical Mirror, Prismatic Mantle, Moment of Prescience and Absolute Immunity.~
 
-@637=~Lower Resistance~
-@638=~Lower Resistance
+@637=~Magiewiderstand senken~
+@638=~Magiewiderstand senken
 Grad: 5
 Schule: Veränderung
 Reichweite: Lang
@@ -1563,8 +1563,8 @@ When cast upon a target creature, this spell will lower their magic resistance b
 
 For example, if a creature has 50% magic resistance and this spell is cast on it by a 15th level mage, then its magic resistance would be lowered by 30% automatically. This effect is cumulative for each casting of this spell. If this spell was cast upon this same creature again, the creature's magic resistance would be 50% - 30% (initial casting) - 30% (current casting) which would leave the creature with 0% magic resistance after both spells have been cast.~
 
-@639=~Oracle~
-@640=~Oracle
+@639=~Orakel~
+@640=~Orakel
 Grad: 5
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -1577,8 +1577,8 @@ When this spell is cast, an area roughly 30 feet in radius around the caster wil
 
 The spells that are affected by this are: Reflected Image, Invisibility, Blur, Mirror Image, Ghost Armor, Invisibility Sphere, Improved Invisibility, Shadow Door, Pixie Dust, Mislead, Project Image, and Mass Invisibility.~
 
-@641=~Conjure Lesser Fire Elemental~
-@642=~Conjure Lesser Fire Elemental
+@641=~Niederen Feuerelementar beschwören~
+@642=~Niederen Feuerelementar beschwören
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1600,10 +1600,10 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
-@3641=~Lesser Fire Elemental~
+@3641=~Niederen Feuerelementar~
 
-@643=~Protection from Acid~
-@644=~Protection from Acid
+@643=~Schutz vor Säure~
+@644=~Schutz vor Säure
 Grad: 4
 Schule: Bannzauber
 Reichweite: Berührung
@@ -1614,8 +1614,8 @@ Rettungswurf: Nein
 
 When a Protection from Acid spell is cast, the recipient receives complete protection from all acid-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like acidic dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Melf's Acid Arrow and Acid Fog. Multiple castings of this spell are not cumulative.~
 
-@645=~Phantom Blade~
-@646=~Phantom Blade
+@645=~Phantomklinge~
+@646=~Phantomklinge
 Grad: 5
 Schule: Illusion
 Reichweite: Anwender
@@ -1626,8 +1626,8 @@ Rettungswurf: Nein
 
 This spell creates a translucent, weightless, shadowlike sword made of material from the Plane of Shadow that extends 3 feet from the caster's hand. The caster wields the phantom blade as if it was a long sword but he suffers no penalty for non-proficiency. The sword deals 1d12+4 points of magic damage to its victims, and an additional 10 points of damage against undead creatures. Due to its ethereal nature, strength bonuses do not apply, but attacks with the phantom blade are considered melee touch attacks, and thus gain a +4 bonus to hit. Furthermore, a successful strike temporarily scrambles magic, causing any spells the target casts in the next round to fail (save vs. spell at a -4 penalty negates). The blade is considered to be of +4 enchantment when determining what it can hit, but it cannot harm inorganic things because it has no solid existence. The phantom blade can only be used by the caster, and remains in his hand for the duration of the spell or until dispelled.~
 
-@647=~Spell Shield~
-@648=~Spell Shield
+@647=~Zauberschild~
+@648=~Zauberschild
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1640,8 +1640,8 @@ When this spell is cast the wizard is protected from the next magical attack aga
 
 The spells that Spell Shield protects the wizard from are: Spell Thrust, Secret Word, Pierce Magic, Ruby Ray, Warding Whip, Pierce Shield, and Spellstrike.~
 
-@649=~Conjure Lesser Air Elemental~
-@650=~Conjure Lesser Air Elemental
+@649=~Niederen Luftelementar beschwören~
+@650=~Niederen Luftelementar beschwören
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1662,10 +1662,10 @@ Immune to normal weapons
 Immune to hold, poison, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
-@3649=~Lesser Air Elemental~
+@3649=~Niederen Luftelementar~
 
-@651=~Conjure Lesser Earth Elemental~
-@652=~Conjure Lesser Earth Elemental
+@651=~Niederen Erdelementar beschwören~
+@652=~Niederen Erdelementar beschwören
 Grad: 5
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1686,10 +1686,10 @@ Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
 
-@3651=~Lesser Earth Elemental~
+@3651=~Niederen Erdelementar~
 
-@653=~Spell Deflection~
-@654=~Spell Deflection
+@653=~Zauberabwehr~
+@654=~Zauberabwehr
 Grad: 5
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1702,8 +1702,8 @@ This Bannzauber spell causes any spells cast against the wizard to be absorbed a
 
 This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
 
-@655=~Fireburst~
-@656=~Fireburst
+@655=~Feuereruption~
+@656=~Feuereruption
 Grad: 5
 Schule: Hervorrufung
 Reichweite: Anwender
@@ -1717,8 +1717,8 @@ This spell creates an explosive burst of flame that detonates with a low roar an
 
 /*------------------level 6------------------*/
 
-@661=~Invisible Stalker~
-@662=~Invisible Stalker
+@661=~Unsichtbarer Pirscher~
+@662=~Unsichtbarer Pirscher
 Grad: 6
 Schule: Beschwörung
 Reichweite: Lang
@@ -1743,8 +1743,8 @@ Natural Invisibility: constantly invisible as if affected by an Improved Invisib
 Immune to charm, confusion, hold, poison, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
-@663=~Globe of Invulnerability~
-@664=~Globe of Invulnerability
+@663=~Kugel der Unverwundbarkeit~
+@664=~Kugel der Unverwundbarkeit
 Grad: 6
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1755,8 +1755,8 @@ Rettungswurf: Nein
 
 This spell creates an immobile, faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, 3rd- or 4th-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the globe of invulnerability). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the globe to their subject without affecting the globe. Fifth and higher level spells are not affected by the globe. The globe can be brought down by a successful dispel magic spell, as well as other forms of magical attack such as Pierce Magic and Spellstrike.~
 
-@665=~Tenser's Transformation~
-@666=~Tenser's Transformation
+@665=~Tensers Umwandlung~
+@666=~Tensers Umwandlung
 Grad: 6
 Schule: Veränderung
 Reichweite: Anwender
@@ -1769,8 +1769,8 @@ Tenser's Transformation is a sight guaranteed to astound any creature not aware 
 
 Note: this spell does not give any extra attacks to multiclassed or dual-classed fighter/mages, as they normally gain additional attacks per round due to their fighter levels.~
 
-@667=~Flesh to Stone~
-@668=~Flesh to Stone
+@667=~Fleisch zu Stein~
+@668=~Fleisch zu Stein
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
@@ -1783,8 +1783,8 @@ Flesh to Stone is a powerful magic that permanently turns the flesh of the creat
 
 @6670=~Petrification effects reverted~
 
-@669=~Banishment~
-@670=~Banishment
+@669=~Verbannung~
+@670=~Verbannung
 Grad: 6
 Schule: Bannzauber
 Reichweite: Lang
@@ -1795,8 +1795,8 @@ Rettungswurf: Nein
 
 This spell forces hostile summoned creatures in the area back to their proper plane. Magic resistance does not affect this spell.~
 
-@671=~Protection from Magic Energy~
-@672=~Protection from Magic Energy
+@671=~Schutz vor magischer Energie~
+@672=~Schutz vor magischer Energie
 Grad: 6
 Schule: Bannzauber
 Reichweite: Berührung
@@ -1807,8 +1807,8 @@ Rettungswurf: Nein
 
 When a Protection from Magic Energy spell is cast, the recipient receives complete protection from all magic damage-based attacks. 100% of the damage from attacks like Cause Wound will be absorbed, and the target creature will become completely immune to the effects of spells such as Magic Missile, Skull Trap, Disintegrate, and Horrid Wilting. This effect lasts for the duration of the spell or until dispelled.~
 
-@673=~Mislead~
-@674=~Mislead
+@673=~Ablenkung~
+@674=~Ablenkung
 Grad: 6
 Schule: Illusion
 Reichweite: Anwender
@@ -1819,8 +1819,8 @@ Rettungswurf: Nein
 
 When this spell is cast the wizard is affected with an Improved Invisibility spell and is teleported a few feet away from his original position. Meanwhile an exact image of the caster is created where he used to be with exactly the same hit points as the caster. The illusory double vanishes after 6 rounds and cannot perform any actions at all, like attacking or casting spells. It can, however, move around and act as a decoy for the invisible mage. As long as the image isn't destroyed, the caster can attack and cast spells while remaining completely hidden. The image will remain under the control of the caster until it is reduced to 0 hit points, or until it is affected by a dispel magic or a spell that destroys the illusion.~
 
-@675=~Pierce Magic~
-@676=~Pierce Magic
+@675=~Magie durchdringen~
+@676=~Magie durchdringen
 Grad: 6
 Schule: Bannzauber
 Reichweite: Lang
@@ -1833,8 +1833,8 @@ When this spell is cast upon a target creature there will be two major effects. 
 
 The spell protection spells dispelled by Pierce Magic are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Spell Shield, Globe of Invulnerability, Greater Spell Deflection and Shield of the Archons.~
 
-@677=~True Seeing~
-@678=~True Seeing
+@677=~Wahrer Blick~
+@678=~Wahrer Blick
 Grad: 6
 Schule: Erkenntniszauber
 Reichweite: Anwender
@@ -1847,8 +1847,8 @@ When this spell is cast, the caster gains the ability to see the exact locations
 
 Note: True Seeing does not dispel illusionary clones such as those conjured by Mislead or Simulacrum, but instead clearly highlights them, revealing them as deceptions.~
 
-@679=~Protection from Magical Weapons~
-@680=~Protection from Magical Weapons
+@679=~Schutz vor magischen Waffen~
+@680=~Schutz vor magischen Waffen
 Grad: 6
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1859,8 +1859,8 @@ Rettungswurf: Nein
 
 This spell creates an immobile, faintly shimmering magical sphere around the caster that cannot be penetrated by magical weapons; all such weapons are harmlessly deflected (missile weapons strike the sphere, then immediately fall to the ground). This includes weapons that are blessed or enchanted as well as attacks of especially powerful monsters. Due to this spell's short casting time and duration, it is mainly used to buy the wizard a few rounds in the thick of combat. The spell's effect lasts for the duration of the spell or until dispelled.~
 
-@681=~Power Word Silence~
-@682=~Power Word Silence
+@681=~Wort der Macht: Stille~
+@682=~Wort der Macht: Stille
 Grad: 6
 Schule: Verzauberung
 Reichweite: Lang
@@ -1871,8 +1871,8 @@ Rettungswurf: Nein
 
 When a Power Word Silence spell is uttered, the target creature becomes unable make any sound for 1 turn. This silence completely foils any spellcasting because it prevents the target from uttering the required verbal components. The only counters to this spell are a dispel magic or Vocalize.~
 
-@683=~Improved Haste~
-@684=~Improved Haste
+@683=~Verbesserte Hast~
+@684=~Verbesserte Hast
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
@@ -1883,8 +1883,8 @@ Rettungswurf: Nein
 
 When this spell is cast, each affected creature functions at double normal movement rate, gains a +2 bonus to attack rolls, armor class, and saving throws vs. breath, and can make one extra attack each round. Spellcasting and spell effects are not affected. There are two major differences between the third level wizard spell Haste and this spell. The first major difference is that there is no period of fatigue following the expiration of this spell. The other major difference is that Improved Haste cannot be countered by Slow.~
 
-@685=~Acid Fog~
-@686=~Acid Fog
+@685=~Säurenebel~
+@686=~Säurenebel
 Grad: 6
 Schule: Beschwörung
 Reichweite: Lang
@@ -1895,8 +1895,8 @@ Rettungswurf: Nein
 
 This spell creates a thick, clinging, greenish cloud. All creatures who aren't immune to acid suffer 10 points of damage for each round they are exposed to the vapors of the Acid Fog. In addition, due to reduced visibility, creatures inside the cloud move at 50% of their normal rate.~
 
-@687=~Chain Lightning~
-@688=~Chain Lightning
+@687=~Kettenblitz~
+@688=~Kettenblitz
 Grad: 6
 Schule: Hervorrufung
 Reichweite: Lang
@@ -1907,8 +1907,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 This spell creates an electrical discharge that begins as a single stroke commencing from the caster's fingertips. Unlike Lightning Bolt, Chain Lightning strikes one object or creature initially, then arcs to other targets. These brilliant arcs of lightning leap at all enemies within range, burning them with electrical damage. The lightning causes 1d6 points of damage for every level of the caster to the primary target (up to a maximum of 20d6) and 1d6 for every two levels to subsequent targets (up to a maximum of 10d6). Those who roll successful saving throws vs. breath at -4 manage to partially avoid direct impact from the lightning and hence receive only half damage.~
 
-@689=~Disintegrate~
-@690=~Disintegrate
+@689=~Auflösung~
+@690=~Auflösung
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
@@ -1919,8 +1919,8 @@ Rettungswurf: Speziell (gg. Odem)
 
 Upon casting this spell at another creature, a thin green ray shoots unerringly from the caster's fingertip toward the target. Upon contact, the creature must make a saving throw vs. breath at -2 or suffer 2d6 points of magic damage per caster level (to a maximum of 40d6). A creature that makes a successful save is partially affected, taking only 5d6 points of damage. The ray affects even objects constructed entirely of force, such as a Mordenkainen's Sword, which is automatically destroyed when struck. This spell has no affect on clothing or equipment carried by the target.~
 
-@691=~Contingency~
-@692=~Contingency
+@691=~Notfall~
+@692=~Notfall
 Grad: 6
 Schule: Universal
 Reichweite: Anwender
@@ -1931,8 +1931,8 @@ Rettungswurf: Nein
 
 Upon casting this spell, the wizard is allowed to choose a spell out of his repertoire of known spells. The spell level must be lower or equal to the level of the caster divided by three. Once the spell is chosen, the caster is allowed to choose a condition of some kind from the list provided. The starting condition can be anything from reaching 10% of his maximum hit points to an enemy being sighted. Once this starting condition is satisfied the spell that was chosen will be cast automatically. For example, a 12th level wizard could place the spell Stoneskin in a contingency with the starting condition being 'the wizard reaches 50% of his maximum hit points'. Then once the wizard is reduced to 50% or less of his total hit points in combat, Stoneskin would be immediately cast upon him. This requires no action by the wizard, happening automatically and instantaneously. The limitation of this spell is that the target of the spell placed in the contingency must be the caster. Therefore, the spell stored cannot be an offensive spell nor can it target any other party members.~
 
-@693=~Spell Deflection~
-@694=~Spell Deflection
+@693=~Zauberabwehr~
+@694=~Zauberabwehr
 Grad: 6
 Schule: Bannzauber
 Reichweite: Anwender
@@ -1945,8 +1945,8 @@ This Bannzauber spell causes any spells cast against the wizard to be absorbed a
 
 This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
 
-@695=~Monster Summoning VI~
-@696=~Monster Summoning VI
+@695=~Monster herbeirufen VI~
+@696=~Monster herbeirufen VI
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
@@ -1976,8 +1976,8 @@ Poison: a wyvern's sting injects a poison which inflicts 2hp/sec for 1 turn (sav
 Special Qualities:
 Immune to entangle, grease, hold, sleep, slow, stun, & web effects~
 
-@697=~Conjure Fire Elemental~
-@698=~Conjure Fire Elemental
+@697=~Feuerelementar beschwören~
+@698=~Feuerelementar beschwören
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
@@ -2004,11 +2004,11 @@ Immune to hold, poison, polymorph, sleep, & stun effects
 Fire Resistance 100%
 Slashing, Crushing, Piercing, & Missile Resistance 20%~
 
-@3697=~Fire Elemental~
-@3698=~Greater Fire Elemental~
+@3697=~Feuerelementar~
+@3698=~Großes Feuerelementar~
 
-@699=~Conjure Air Elemental~
-@700=~Conjure Air Elemental
+@699=~Luftelementar beschwören~
+@700=~Luftelementar beschwören
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
@@ -2034,11 +2034,11 @@ Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
 
-@3699=~Air Elemental~
-@3700=~Greater Air Elemental~
+@3699=~Luftelementar~
+@3700=~Großes Luftelementar~
 
-@701=~Conjure Earth Elemental~
-@702=~Conjure Earth Elemental
+@701=~Erdelementar beschwören~
+@702=~Erdelementar beschwören
 Grad: 6
 Schule: Beschwörung
 Reichweite: Mittel
@@ -2064,11 +2064,11 @@ Immune to normal weapons
 Immune to hold, poison, polymorph, sleep, & stun effects
 Slashing, Piercing, & Missile Resistance 40%~
 
-@3701=~Earth Elemental~
-@3702=~Greater Earth Elemental~
+@3701=~Erdelementar~
+@3702=~Großes Erdelementar~
 
-@703=~Animate Skeleton Warrior~
-@704=~Animate Skeleton Warrior
+@703=~Kriegerskelett beleben~
+@704=~Kriegerskelett beleben
 Grad: 6
 Schule: Nekromantie
 Reichweite: Lang
@@ -2090,8 +2090,8 @@ Immune to charm, confusion, hold, poison, sleep, stun, & death effects
 Cold Resistance 100%; Magic Resistance 90%
 Slashing & Piercing Resistance 40%; Missile Resistance 60%~
 
-@705=~Summon Nishruu~
-@706=~Summon Nishruu
+@705=~Nischruu beschwören~
+@706=~Nischruu beschwören
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
@@ -2116,10 +2116,10 @@ Special Qualities:
 Absorb Magic: immune to magic, every spell cast against a Nishruu heals the creature by 1d8+1 hit points
 Physical Resistance 50%~
 
-@3705=~Nishruu~
+@3705=~Nischruu~
 
-@707=~Stone to Flesh~
-@708=~Stone to Flesh
+@707=~Stein zu Fleisch~
+@708=~Stein zu Fleisch
 Grad: 6
 Schule: Veränderung
 Reichweite: Lang
@@ -2133,8 +2133,8 @@ This spell is the reverse of Flesh to Stone and will return any creature that ha
 
 /*------------------level 7------------------*/
 
-@721=~Greater Spell Deflection~
-@722=~Greater Spell Deflection
+@721=~Große Zauberabwehr~
+@722=~Große Zauberabwehr
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
@@ -2147,8 +2147,8 @@ This Bannzauber spell causes any spells cast against the wizard to be absorbed a
 
 This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the wizard (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
 
-@723=~Protection from the Elements~
-@724=~Protection from the Elements
+@723=~Schutz vor den Elementen~
+@724=~Schutz vor den Elementen
 Grad: 7
 Schule: Bannzauber
 Reichweite: Berührung
@@ -2159,8 +2159,8 @@ Rettungswurf: Nein
 
 When this spell is cast, it confers complete protection from all elemental attacks composed of acid, cold, electricity, or fire, whether magical or non-magical in origin. 100% of the elemental damage from attacks with weapons, wands, breath weapons, etc. will be absorbed, and the target creature will become completely immune to the effects of elemental spells. This effect lasts for the duration of the spell or until dispelled.~
 
-@725=~Project Image~
-@726=~Project Image
+@725=~Projiziertes Ebenbild~
+@726=~Projiziertes Ebenbild
 Grad: 7
 Schule: Illusion
 Reichweite: Anwender
@@ -2171,8 +2171,8 @@ Rettungswurf: Nein
 
 When this spell is cast, an illusory copy of the casting wizard appears to step out of his body while at the same time the mage is concealed with invisibility. The image can move around, and has the same hit points and can cast the same spells as the wizard, but it cannot make any physical attacks. The caster must maintain concentration on the illusory clone for the duration of the spell and cannot perform any other action while controlling it. If the image is destroyed then the spell ends and the caster can move again. If during this time the caster takes any damage, the image will disappear and the caster will be free to move around once more. Otherwise, the image will remain for the duration of the spell or until affected by a dispel magic or destroyed.~
 
-@727=~Ruby Ray of Reversal~
-@728=~Ruby Ray of Reversal
+@727=~Rubinroter Strahl der Aufhebung~
+@728=~Rubinroter Strahl der Aufhebung
 Grad: 7
 Schule: Veränderung
 Reichweite: Lang
@@ -2185,8 +2185,8 @@ When this spell is cast it will dispel one spell protection of any level on the 
 
 The spell protection spells dispelled by Ruby Ray of Reversal are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Spell Trap.~
 
-@729=~Khelben's Warding Whip~
-@730=~Khelben's Warding Whip
+@729=~Khelbens parierende Peitsche~
+@730=~Khelbens parierende Peitsche
 Grad: 7
 Schule: Hervorrufung
 Reichweite: Mittel
@@ -2199,8 +2199,8 @@ When this spell is cast on the target creature, it will dispel one spell protect
 
 The spell protection spells dispelled by Khelben's Warding Whip are: Minor Spell Deflection, Non-Detection, Minor Globe of Invulnerability, Spell Deflection, Dispelling Screen, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons.~
 
-@731=~Summon Death Knight~
-@732=~Summon Death Knight
+@731=~Todesritter beschwören~
+@732=~Todesritter beschwören
 Grad: 7
 Schule: Nekromantie
 Reichweite: Mittel
@@ -2229,10 +2229,10 @@ Unholy Fireball (once per day)
 Power Words: Blind, Stun, or Kill (once per day each)
 Symbols: of Weakness or Death (once per day each)~
 
-@3731=~Death Knight~
+@3731=~Todesritter~
 
-@733=~Prismatic Mantle~
-@734=~Prismatic Mantle
+@733=~Regenbogenmantel~
+@734=~Regenbogenmantel
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
@@ -2251,8 +2251,8 @@ Blue - Stunned for 5 rounds (save vs. polymorph neg.)
 Indigo - Feebleminded for 5 rounds (save vs. wand neg.)
 Violet - Mazed (save vs. spell neg.)~
 
-@735=~Simbul's Spell Sequencer~
-@736=~Simbul's Spell Sequencer
+@735=~Simbuls Zaubersequenzierer~
+@736=~Simbuls Zaubersequenzierer
 Grad: 7
 Schule: Universal
 Reichweite: Anwender
@@ -2275,8 +2275,8 @@ Rettungswurf: Ja (gg. Zauber)
 
 This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -4 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target is feebleminded, becomes confused, becomes paralyzed, is rendered unconscious, or flees in panic.~
 
-@739=~Delayed Blast Fireball~
-@740=~Delayed Blast Fireball
+@739=~Verzögerter Feuerball~
+@740=~Verzögerter Feuerball
 Grad: 7
 Schule: Hervorrufung
 Reichweite: Lang
@@ -2287,8 +2287,8 @@ Rettungswurf: 1/2 (gg. Odem)
 
 This spell creates a fireball that hovers at a point determined by the caster. The fireball will stay in position until someone walks within 20 feet of it. When this happens, the fireball is triggered and explodes, damaging everyone within a 30 foot radius. The explosion will deal 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 20d6), with a save vs. breath at -4 for half damage.~
 
-@741=~Finger of Death~
-@742=~Finger of Death
+@741=~Finger des Todes~
+@742=~Finger des Todes
 Grad: 7
 Schule: Nekromantie
 Reichweite: Lang
@@ -2299,8 +2299,8 @@ Rettungswurf: Speziell (gg. Tod)
 
 The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 2d8 + level points of damage, up to a maximum of 2d8 + 20.~
 
-@743=~Prismatic Spray~
-@744=~Prismatic Spray
+@743=~Regenbogenstrahlen~
+@744=~Regenbogenstrahlen
 Grad: 7
 Schule: Veränderung
 Reichweite: Speziell
@@ -2319,8 +2319,8 @@ Blue - Permanently stunned (save vs. polymorph neg.)
 Indigo - Feeblemind (save vs. wands neg.)
 Violet - Maze (save vs. spell neg.)~
 
-@745=~Power Word Stun~
-@746=~Power Word Stun
+@745=~Wort der Macht: Betäubung~
+@746=~Wort der Macht: Betäubung
 Grad: 7
 Schule: Verzauberung
 Reichweite: Lang
@@ -2331,8 +2331,8 @@ Rettungswurf: Nein
 
 When a Power Word Stun spell is uttered, any creature of the mage's choice within visual range is stunned for a length of time dependent upon its current hit points. Creatures with 1 to 29 hit points are stunned for 4d4 rounds, while those with 30 to 59 are stunned for 2d4 rounds, those with 60 to 89 are stunned for 1d4 rounds, and those with 90 or more are stunned for 1 round. Note that if a creature is weakened so that its hit points are below its usual maximum, its current number of hit points is used to determine the spell's effect.~
 
-@747=~Mordenkainen's Sword~
-@748=~Mordenkainen's Sword
+@747=~Mordenkainens Schwert~
+@748=~Mordenkainens Schwert
 Grad: 7
 Schule: Hervorrufung
 Reichweite: Anwender
@@ -2343,10 +2343,10 @@ Rettungswurf: Nein
 
 Upon casting this spell, the wizard brings into being a shimmering, swordlike plane of force. Once the spell is cast, the sword will float in the air completely under the control of the caster, until the spell duration expires or the sword is dispelled. The sword acts as a +4 weapon in all respects and attacks on its own once each round, inflicting 5d4 damage when it hits a target. It has 100% resistance to almost all forms of dmage (acid, cold, fire, electricity, poison, etc.), and 95% resistance to physical damage, but it's vulnerable to pure magic damage. The sword is immune to mind affecting spells, has 36 hit points, AC 5, and THAC0 2. Note that this spell does not prevent the caster from performing any other actions while the spell is in effect.~
 
-@3747=~Magical Sword~
+@3747=~Mordenkainens Schwert~
 
-@749=~Summon Efreeti~
-@750=~Summon Efreeti
+@749=~Ifrit beschwören~
+@750=~Ifrit beschwören
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
@@ -2372,10 +2372,10 @@ Memorized Spells:
 4. Fire Shield (x2)
 5. Conjure Lesser Fire Elemental~
 
-@3749=~Efreeti~
+@3749=~Ifrit~
 
-@751=~Summon Djinni~
-@752=~Summon Djinni
+@751=~Dschinn beschwören~
+@752=~Dschinn beschwören
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
@@ -2398,10 +2398,10 @@ Memorized Spells:
 4. Improved Invisibility, Minor Globe of Invulnerability
 5. Conjure Lesser Air Elemental~
 
-@3751=~Djinni~
+@3751=~Dschinn~
 
-@753=~Summon Hakeashar~
-@754=~Summon Hakeashar
+@753=~Hakeaschar beschwören~
+@754=~Hakeaschar beschwören
 Grad: 7
 Schule: Beschwörung
 Reichweite: Lang
@@ -2427,10 +2427,10 @@ Absorb Magic: immune to magic, every spell cast against a Hakeashar heals the cr
 Immune to normal weapons
 Physical Resistance 50%~
 
-@3753=~Hakeashar~
+@3753=~Hakeaschar~
 
-@755=~Control Undead~
-@756=~Control Undead
+@755=~Untote befehligen~
+@756=~Untote befehligen
 Grad: 7
 Schule: Nekromantie
 Reichweite: Lang
@@ -2441,8 +2441,8 @@ Rettungswurf: Speziell
 
 The Control Undead spell allows the caster to take control of undead creatures within the area of effect. This creates a telepathic link between the caster and the undead, allowing complete control. If the undead have 5 or more Hit Dice/levels less than the caster then there is no saving throw allowed, else a save vs. spell at -6 is allowed to negate the effect. The undead remain under control of the caster for the duration of the spell or until they are affected by a dispel magic.~
 
-@757=~Mass Invisibility~
-@758=~Mass Invisibility
+@757=~Massenunsichtbarkeit~
+@758=~Massenunsichtbarkeit
 Grad: 7
 Schule: Illusion
 Reichweite: Lang
@@ -2453,8 +2453,8 @@ Rettungswurf: Nein
 
 Upon casting this spell, the wizard causes all friendly creatures within the area of effect to be affected by the spell Improved Invisibility. Creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not.~
 
-@759=~Limited Wish~
-@760=~Limited Wish
+@759=~Begrenzter Wunsch~
+@760=~Begrenzter Wunsch
 Grad: 7
 Schule: Universal
 Reichweite: Anwender
@@ -2465,8 +2465,8 @@ Rettungswurf: Nein
 
 Limited Wish is a very potent but difficult spell. It will fulfill literally, but only partially or for a limited duration, the utterance of the spellcaster. Thus, the actuality of the past, present, or future might be altered (but possibly only for the wizard unless the wording of the spell is most carefully stated) in some limited manner. The use of a Limited Wish will not substantially change major realities. The spell can, for example, restore some hit points lost by the wizard. Greedy desires usually end in disaster for the wisher. Lastly, the wiser the wizard, the better chance that he will choose the right wording. Wizards with low wisdom will more often than not meet with disaster when asking for a wish.~
 
-@761=~Improved Chaos Shield~
-@762=~Improved Chaos Shield
+@761=~Verbesserter Chaosschild~
+@762=~Verbesserter Chaosschild
 Grad: 7
 Schule: Bannzauber
 Reichweite: Anwender
@@ -3114,8 +3114,8 @@ Rettungswurf: Nein
 
 Upon the casting of this spell, the recipient's resistance to all forms of elemental damage is increased by 25%. This effect will last for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative~
 
-@866=~Monster Summoning VII~
-@867=~Monster Summoning VII
+@866=~Monster herbeirufen VII~
+@867=~Monster herbeirufen VII
 Grad: 7
 Schule: Beschwörung
 Reichweite: Mittel
@@ -3143,8 +3143,8 @@ Slashing, Crushing, & Piercing Resistance 5%; Missile Resistance 100%~
 
 @3866=~Otyugh~
 
-@868=~Monster Summoning VIII~
-@869=~Monster Summoning VIII
+@868=~Monster herbeirufen VIII~
+@869=~Monster herbeirufen VIII
 Grad: 8
 Schule: Beschwörung
 Reichweite: Mittel
@@ -3171,8 +3171,8 @@ Immune to confusion effects~
 
 @3868=~Umber Hulk~
 
-@870=~Monster Summoning IX~
-@871=~Monster Summoning IX
+@870=~Monster herbeirufen IX~
+@871=~Monster herbeirufen IX
 Grad: 9
 Schule: Beschwörung
 Reichweite: Mittel
