@@ -67,7 +67,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -80,7 +80,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -93,7 +93,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -106,7 +106,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -119,7 +119,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -132,7 +132,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -145,7 +145,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -158,7 +158,7 @@ END
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -171,7 +171,7 @@ COPY_EXISTING	~spcl237d.spl~	override		// sun soul monk fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -184,7 +184,7 @@ COPY_EXISTING	~spcl237d.spl~	override		// sun soul monk fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -197,7 +197,7 @@ COPY_EXISTING	~spcl237d.spl~	override		// sun soul monk fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -210,7 +210,7 @@ COPY_EXISTING	~spcl237d.spl~	override		// sun soul monk fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -223,7 +223,7 @@ COPY_EXISTING	~spcl237d.spl~	override		// sun soul monk fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -236,7 +236,7 @@ COPY_EXISTING	~spcl237d.spl~	override		// sun soul monk fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -249,7 +249,7 @@ COPY_EXISTING	~spin560.spl~	override		// Cinder Shower
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -262,7 +262,7 @@ COPY_EXISTING	~spin561.spl~	override		// fire giant lava attack
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -275,7 +275,7 @@ COPY_EXISTING	~spin561.spl~	override		// fire giant lava attack
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -289,7 +289,7 @@ COPY_EXISTING	~spin819.spl~	override		// Lava burst
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -302,7 +302,7 @@ COPY_EXISTING	~spin885.spl~	override		// kamikaze explosion
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -316,7 +316,7 @@ COPY_EXISTING	~spin885.spl~	override		// kamikaze explosion
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -329,7 +329,7 @@ COPY_EXISTING	~spin926.spl~	override		// water jet (fire damage, steam or whatev
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -342,7 +342,7 @@ COPY_EXISTING	~spin926.spl~	override		// water jet (fire damage, steam or whatev
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -355,7 +355,7 @@ COPY_EXISTING	~spin938.spl~	override		//  Flame fan
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -368,7 +368,7 @@ COPY_EXISTING	~spin938.spl~	override		//  Flame fan
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -381,7 +381,7 @@ COPY_EXISTING	~spin956.spl~	override		//  Hell hound flame breath
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -394,7 +394,7 @@ COPY_EXISTING	~spin987.spl~	override		//  Beholder scorcher
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -407,7 +407,7 @@ COPY_EXISTING	~spin987.spl~	override		//  Beholder scorcher
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -420,7 +420,7 @@ COPY_EXISTING	~spin987.spl~	override		//  Beholder scorcher
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -433,7 +433,7 @@ COPY_EXISTING	~sppr503.spl~	override		//  Flamestrike
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -446,7 +446,7 @@ COPY_EXISTING	~sppr503.spl~	override		//  Flamestrike
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -460,7 +460,7 @@ COPY_EXISTING	~sppr730d.spl~	override		//  Flaming death aura
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -473,7 +473,7 @@ COPY_EXISTING	~sppr952d.spl~	override		//  some fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -486,7 +486,7 @@ COPY_EXISTING	~sppr985.spl~	override		//  Flamestrike trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -499,7 +499,7 @@ COPY_EXISTING	~sppr985.spl~	override		//  Flamestrike trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -513,7 +513,7 @@ COPY_EXISTING	~spwi022.spl~	override		//  muck(!) trap, fire damage
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -526,7 +526,7 @@ COPY_EXISTING	~spwi103.spl~	override		//  burning hands
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -539,7 +539,7 @@ COPY_EXISTING	~spwi217.spl~	override		//  Aganaza scorcher
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -552,7 +552,7 @@ COPY_EXISTING	~spwi217.spl~	override		//  Aganaza scorcher
 //COPY_EXISTING ~spwi303e.spl~ ~override~
 //	LPF	ADD_SPELL_EFFECT INT_VAR
 //		insert_point = 0
-//		opcode = 318
+//		opcode = 324
 //		target = 2
 //		parameter2 = FIRE
 //		duration = 1
@@ -565,7 +565,7 @@ COPY_EXISTING	~spwi304.spl~	override		// fireball
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -578,7 +578,7 @@ COPY_EXISTING	~spwi418d.spl~	override		// fireshield red
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -591,7 +591,7 @@ COPY_EXISTING	~spwi523.spl~	override		// sunfire
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -604,7 +604,7 @@ COPY_EXISTING	~spwi523.spl~	override		// sunfire
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -617,7 +617,7 @@ COPY_EXISTING	~spwi712.spl~	override		// Delayed blast fireball
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -630,7 +630,7 @@ COPY_EXISTING	~spwi712.spl~	override		// Delayed blast fireball
 //COPY_EXISTING ~spwi810.spl~ ~override~
 //    LPF ADD_SPELL_EFFECT INT_VAR
 //        insert_point = 0
-//        opcode = 318
+//        opcode = 324
 //        target = 2
 //        parameter2 = FIRE
 //        duration = 1
@@ -643,7 +643,7 @@ COPY_EXISTING	~spwi712.spl~	override		// Delayed blast fireball
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -656,7 +656,7 @@ COPY_EXISTING	~spwi922.spl~	override		// Dragon's Breath
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -670,7 +670,7 @@ COPY_EXISTING	~spwi922.spl~	override		// Dragon's Breath
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -683,7 +683,7 @@ COPY_EXISTING	~spwi957.spl~	override		// "RED" Fireball
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -696,7 +696,7 @@ COPY_EXISTING	~spwi979.spl~	override		// sarevok flamestrike - check if buggy or
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -709,7 +709,7 @@ COPY_EXISTING	~spwish24.spl~	override		// meteor swarm on caster
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -723,7 +723,7 @@ COPY_EXISTING	~ohbwi304.spl~	override		// fireball
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -739,7 +739,7 @@ COPY_EXISTING	~ohbicew.spl~	override		// wall of ice, does crushing as well but 
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -752,7 +752,7 @@ COPY_EXISTING	~ohbicew.spl~	override		// wall of ice, does crushing as well but 
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -765,7 +765,7 @@ COPY_EXISTING	~ohbicew.spl~	override		// wall of ice, does crushing as well but 
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -778,7 +778,7 @@ COPY_EXISTING	~ohbicew.spl~	override		// wall of ice, does crushing as well but 
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -791,7 +791,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -805,7 +805,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -818,7 +818,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -831,7 +831,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -844,7 +844,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -857,7 +857,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -872,7 +872,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -885,7 +885,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -898,7 +898,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -911,7 +911,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -924,7 +924,7 @@ COPY_EXISTING	~spin562.spl~	override		// scalding steam
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -937,7 +937,7 @@ COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -950,7 +950,7 @@ COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -963,7 +963,7 @@ COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -976,7 +976,7 @@ COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -989,7 +989,7 @@ COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -1002,7 +1002,7 @@ COPY_EXISTING	~spwi403d.spl~	override		// cold fireshield
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = COLD
 				duration = 1
@@ -1019,7 +1019,7 @@ COPY_EXISTING	~spcl722.spl~	override		// Talos lighting bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1032,7 +1032,7 @@ COPY_EXISTING	~spdr301.spl~	override		//  avenger lighting bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1045,7 +1045,7 @@ COPY_EXISTING	~spdr601.spl~	override		//  avenger lighting bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1058,7 +1058,7 @@ COPY_EXISTING	~spin579.spl~	override		// power amp
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1071,7 +1071,7 @@ COPY_EXISTING	~spin597.spl~	override		// blue dragon lighting attack
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1084,7 +1084,7 @@ COPY_EXISTING	~spin714.spl~	override		//  clestial bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1097,7 +1097,7 @@ COPY_EXISTING	~spin932.spl~	override		//  mephit lighting bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1110,7 +1110,7 @@ COPY_EXISTING	~spin933.spl~	override		//  mephit lighting bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1123,7 +1123,7 @@ COPY_EXISTING	~sppr302.spl~	override		// call lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1136,7 +1136,7 @@ COPY_EXISTING	~sppr304.spl~	override		// glyph of warding
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1149,7 +1149,7 @@ COPY_EXISTING	~sppr987.spl~	override		// call lighting trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1162,7 +1162,7 @@ COPY_EXISTING	~spwi002.spl~	override		//  lighting trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1175,7 +1175,7 @@ COPY_EXISTING	~spwi017.spl~	override		// minor lighting trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1188,7 +1188,7 @@ COPY_EXISTING	~spwi025.spl~	override		// lighting orb
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1201,7 +1201,7 @@ COPY_EXISTING	~spwi026.spl~	override		// lighting orb 2
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1214,7 +1214,7 @@ COPY_EXISTING	~spwi027.spl~	override		// orb 3
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1227,7 +1227,7 @@ COPY_EXISTING	~spwi308.spl~	override		// lighting bolt
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1240,7 +1240,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1253,7 +1253,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1266,7 +1266,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1279,7 +1279,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1292,7 +1292,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1306,7 +1306,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ELEC
 				duration = 1
@@ -1322,7 +1322,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1335,7 +1335,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1348,7 +1348,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1361,7 +1361,7 @@ COPY_EXISTING	~spwi615.spl~	override		// chain lighting
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1374,7 +1374,7 @@ COPY_EXISTING	~spin691.spl~	override		// black dragon breath
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1387,7 +1387,7 @@ COPY_EXISTING	~spin708.spl~	override		// slime trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1400,7 +1400,7 @@ COPY_EXISTING	~spin913.spl~	override		// Mimic Acid
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1413,7 +1413,7 @@ COPY_EXISTING	~spin917.spl~	override		// Mane gas
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1426,7 +1426,7 @@ COPY_EXISTING	~spin917.spl~	override		// Mane gas
 //COPY_EXISTING ~spwi211.spl~ ~override~
 //    LPF ADD_SPELL_EFFECT INT_VAR
 //	      insert_point = 0
-//	      opcode = 318
+//	      opcode = 324
 //	      target = 2
 //	      parameter2 = ACID
 //	      duration = 1
@@ -1439,7 +1439,7 @@ COPY_EXISTING	~spin917.spl~	override		// Mane gas
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1452,7 +1452,7 @@ COPY_EXISTING	~spin917.spl~	override		// Mane gas
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1465,7 +1465,7 @@ COPY_EXISTING	~spwi614.spl~	override		// death fog - it will no longer kill summ
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = ACID
 				duration = 1
@@ -1482,7 +1482,7 @@ COPY_EXISTING	~keldorn.spl~	override		// keldorn's armor
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1495,7 +1495,7 @@ COPY_EXISTING	~keldorn.spl~	override		// keldorn's armor
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1508,7 +1508,7 @@ COPY_EXISTING	~keldorn.spl~	override		// keldorn's armor
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1521,7 +1521,7 @@ COPY_EXISTING	~keldorn.spl~	override		// keldorn's armor
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1534,7 +1534,7 @@ COPY_EXISTING	~keldorn.spl~	override		// keldorn's armor
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1548,7 +1548,7 @@ COPY_EXISTING	~spin564.spl~	override		// skull trap exp
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1561,7 +1561,7 @@ COPY_EXISTING	~spin912.spl~	override		// psi detonate
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1574,7 +1574,7 @@ COPY_EXISTING	~spin962.spl~	override		// beholder magic missile
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1587,7 +1587,7 @@ COPY_EXISTING	~sppr313.spl~	override		// holy  smite
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1600,7 +1600,7 @@ COPY_EXISTING	~sppr313.spl~	override		// holy  smite
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1614,7 +1614,7 @@ COPY_EXISTING	~sppr612.spl~	override		// bolt of glory
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1628,7 +1628,7 @@ COPY_EXISTING	~spwi003.spl~	override		// mm trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1641,7 +1641,7 @@ COPY_EXISTING	~spwi112.spl~	override		//mm trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1672,7 +1672,7 @@ COPY_EXISTING	~spwi314.spl~	override		// skull trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1703,7 +1703,7 @@ COPY_EXISTING	~spwi616.spl~	override		// disintegrate
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1716,7 +1716,7 @@ COPY_EXISTING	~spwi812.spl~	override		// adhw
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1729,7 +1729,7 @@ COPY_EXISTING	~spwi950.spl~	override		// skull trap
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1742,7 +1742,7 @@ COPY_EXISTING	~spwi953.spl~	override		// dradael blue firaball
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1755,7 +1755,7 @@ COPY_EXISTING	~spwish32.spl~	override		// Wish ADHW
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = MAGIC
 				duration = 1
@@ -1770,7 +1770,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1783,7 +1783,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1796,7 +1796,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1810,7 +1810,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1823,7 +1823,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1838,7 +1838,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1851,7 +1851,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1864,7 +1864,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1877,7 +1877,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1890,7 +1890,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1905,7 +1905,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -1918,7 +1918,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 318
+				opcode = 324
 				target = 2
 				parameter2 = POISN
 				duration = 1
@@ -3126,7 +3126,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~sppr416d.spl~ THEN BEGIN
 	COPY_EXISTING ~sppr416d.spl~ ~override~   
 		LPF ADD_SPELL_EFFECT INT_VAR
 			//Remove effects by resource.
-			opcode = 318
+			opcode = 324
 			target = 2
 			power = 0
 			savingthrow = 0
