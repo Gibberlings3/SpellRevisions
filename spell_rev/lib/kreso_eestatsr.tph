@@ -262,7 +262,7 @@ COPY_EXISTING	~spin561.spl~	override		// fire giant lava attack
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 324
+				opcode = 318
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -513,7 +513,7 @@ COPY_EXISTING	~spwi022.spl~	override		//  muck(!) trap, fire damage
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 324
+				opcode = 318
 				target = 2
 				parameter2 = FIRE
 				duration = 1
@@ -535,7 +535,7 @@ COPY_EXISTING	~spwi103.spl~	override		//  burning hands
 		END
 	BUT_ONLY IF_EXISTS
 
-COPY_EXISTING	~spwi217.spl~	override		//  Aganaza scorcher
+COPY_EXISTING	~spwi217.spl~	override		//  Aganazar's scorcher
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
@@ -1838,7 +1838,7 @@ COPY_EXISTING	~bdmucou2.spl~	override		// mucus
 		LPF	ADD_SPELL_EFFECT
 			INT_VAR
 				insert_point = 0
-				opcode = 324
+				opcode = 318
 				target = 2
 				parameter2 = POISN
 				duration = 1
