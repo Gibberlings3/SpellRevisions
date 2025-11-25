@@ -3,11 +3,11 @@ Spell Revisions aims to fix, tweak, and enhance arcane and divine spells in Bald
 The mod comes with documentation that you can find [here](./readme-spell_rev.html). Detailed lists of spells can be consulted [here](https://gibberlings3.github.io/SpellRevisions/).
 
 note(s):
-- The spell documentation, both the one shipped with the mod and the one in [GitHub](https://gibberlings3.github.io/SpellRevisions/), has *not* been updated to reflect the changes since the 4.18beta. The in-game documentation is of course, fully up dated.
+* The spell documentation, both the one shipped with the mod and the one in [GitHub](https://gibberlings3.github.io/SpellRevisions/), has *not* been updated to reflect the changes since the 4.18beta. The in-game documentation is of course, fully updated.
 
 # A. Latest release.
 
-Latest release is 4.19rc5.
+Latest release is 4.19.
 
 From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip.
 
@@ -21,7 +21,7 @@ Installation is like any other WeiDU mod -- see [A New Player’s Guide to Insta
 
 Assuming you have WeiDU [^1] installed and on the executable path [^2], just download the release zip file, unzip it with whatever archive unzipper your platform supports into some temporary location, and copy the folder [^3] `spell_rev` to your Baldur's Gate install directory. Then open a command line, change directory to the BG installation dir and do
 
-```
+```bash
 weinstall spell_rev
 ```
 
