@@ -5,7 +5,7 @@ source "../ModPackaging/utilities/ie_games.sh"
 
 # /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 export mod_name="Spell Revisions"
-export mod_version="v4.19"
+export mod_version="v4-19"
 export mod_folder="spell_rev"
 
 # /* MODIFY: these variables have sensible default values but they may need to be tweaked to match your particular mod */
