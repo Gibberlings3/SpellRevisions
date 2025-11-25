@@ -31,10 +31,13 @@ and install the components you want.
 
 If the command line is proving to be too difficult (e.g. Windows platform, do not have `weinstall` in the executable path, etc.), you can install as usual by double clicking the executable installer. For a *source release* that does not come with an executable installer, you can proceed as follows:
 
-* Do the same download, copy into BG installation dir, etc. as in previous point B. 1. 
-* Download any, relatively recent updated, mod with such an installer, e.g. [Tweaks Anthology](https://www.gibberlings3.net/files/file/973-the-tweaks-anthology/).
-* Grab its executable installer, rename it as `setup-spell_rev.exe` and drop it on the root dir of `spell_rev`.
-* Double-click the executable and proceed as usual.
+  * Do the same download, copy into BG installation dir, etc. as in previous point B. 1.
+
+  * Download any, relatively recent updated, mod with such an installer, e.g. [Tweaks Anthology](https://www.gibberlings3.net/files/file/973-the-tweaks-anthology/).
+
+  * Grab its executable installer, rename it as `setup-spell_rev.exe` and drop it on the root dir of `spell_rev`.
+
+  * Double-click the executable and proceed as usual.
 
 [^1]: latest version can be grabbed from [here](https://github.com/WeiDUorg/weidu/releases).
 
