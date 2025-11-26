@@ -1,0 +1,2608 @@
+/*-------------------------level 1------------------------*/
+
+@1=~Segen~
+@2=~Segen
+Grad: 1
+Schule: Verzauberung
+Domäne: Alle
+Reichweite: Lang
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Upon uttering the Bless spell, the caster raises the morale of friendly creatures by +1. Furthermore, it raises their attack and damage dice rolls by +1. The caster determines at what range he will cast the spell. At the instant the spell is completed, it affects all creatures in a 30 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
+
+@3=~Befehl~
+@4=~Befehl
+Grad: 1
+Schule: Verzauberung
+Domäne: Charme, Kampf, Gesetz
+Reichweite: Lang
+Dauer: 1 Runde
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+This spell enables the priest to command another creature to lie down and take no action (sleep) for a single round. The creature has a saving throw penalty of -1 (to save against this spell) for every two extra levels of the caster, to a maximum of -4 at 9th level.~
+
+@5=~Leichte Wunden heilen~
+@6=~Leichte Wunden heilen
+Grad: 1
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 1d8 + 1/level points of damage sustained by the target creature (up to a maximum of 1d8+10).~
+
+@7=~Gesinnung erkennen~
+@8=~Gesinnung erkennen
+Grad: 1
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell allows the priestd to search out the feelings of all creatures within the current area. When affected by this spell, a target will briefly glow red if he's evil, green if he's good, and white if he's neutral. Magic resistance does not affect this spell.~
+
+@9=~Verstricken~
+@10=~Verstricken
+Grad: 1
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Speziell (gg. Odem)
+
+By means of this spell, the caster causes plants to entangle all creatures in the area of effect. The grasses, weeds, bushes, and even trees wrap, twist, and entwine about the creatures, holding them fast for the duration of the spell. Those held receive a -2 penalty to attack rolls and a +2 penalty to AC. Creatures that make a successful saving throw vs. breath temporarily avoid entanglement and can move at half speed through the area, but must make additional saving throws each round they remain in the area of effect. An entangled creature can attack, provided it does not have to move to reach an opponent. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large and strong creatures who suffer little to no distress from the entangling plants.~
+
+@11=~Zauberstein~
+@12=~Zauberstein
+Grad: 1
+Schule: Verzauberung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 1
+Bereich: Speziell
+Rettungswurf: Nein
+
+Using this spell, the priest can temporarily enchant ten small stones, no larger than sling bullets. The character using them can then hurl up to three stones per round at an opponent, with a +1 bonus to attack rolls. Each stone that hits inflicts 1d4+2 points of damage (1d4+5 against undead), and is considered to be of +1 enchantment to determine what it can hit. The magic in each stone expires after 2 turns or when used.~
+
+@1030=~This stone has been enchanted by the Magical Stone spell.~
+
+@13=~Schutz vor Bösem~
+@14=~Schutz vor Bösem
+Grad: 1
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When this spell is cast, it creates a magical barrier around the recipient at a distance of one foot. The barrier moves with the recipient and has two major effects: first, all attacks made by evil creatures against the protected creature receive a -2 penalty to their attack roll, and second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
+
+@15=~Furcht bannen~
+@16=~Furcht bannen
+Grad: 1
+Schule: Bannzauber
+Domäne: Charme
+Reichweite: Lang
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+The caster instills courage in the spell recipients, raising their morale to its highest. If the recipients are affected by magical fear, this is negated. In addition, the recipients are protected from magical fear for the duration of the spell. At the instant the spell is completed, it affects all creatures in a 30 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
+
+@17=~Heiligtum~
+@18=~Heiligtum
+Grad: 1
+Schule: Bannzauber
+Domäne: Charme, Schutz
+Reichweite: Anwender
+Dauer: 6 Runden
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+When the priest casts a Sanctuary spell, it causes all of his opponents to ignore his existence, as if he were invisible. While protected by this spell, the subject cannot take direct offensive action without breaking the spell, but may use non-attack spells focused on himself or otherwise act in any way that does not violate the prohibition against offensive action. This allows a warded priest to heal his wounds, for example, or to cast a Chant spell. He cannot cast spells on other targets without ending the spell.~
+
+@19=~Zauberkeule~
+@20=~Zauberkeule
+Grad: 1
+Schule: Veränderung
+Domäne: Kampf, Pflanzen
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell enables the caster to create a magical cudgel. The shillelagh inflicts 2d4+1 points of damage on a successful hit and causes tendrils to wrap around and hold the victim in place for one round unless a save vs. breath is made. The caster wields the shillelagh as if proficient with the weapon, at his normal THAC0. At level 1, it functions as a magical weapon with an enchantment bonus of +1. For every other four experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 9th-level caster. The shillelagh can be used only by the caster, and remains in his hand for the duration of the spell or until dispelled.~
+
+@21=~Rüstung des Glaubens~
+@22=~Rüstung des Glaubens
+Grad: 1
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+The caster of the Armor of Faith receives significant protection against physical and magic damage. This magical armor is a force of energy that absorbs a portion of the damage intended for the caster, effectively reducing the damage sustained by 10%. Multiple castings of this spell are not cumulative.~
+
+@23=~Verderben~
+@24=~Verderben
+Grad: 1
+Schule: Verzauberung
+Domäne: Charme
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+This spell causes a feeling of doom to overwhelm the target. For the duration of the spell, the target receives a -2 penalty to attack rolls, damage rolls, and saving throws, unless a save vs. spell is made. The creature has a saving throw penalty of -1 (to save against this spell) for every two extra levels of the caster, to a maximum of -4 at 9th level. Multiple castings of this spell are not cumulative.~
+
+@25=~Feenfeuer~
+@26=~Feenfeuer
+Grad: 1
+Schule: Hervorrufung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 1
+Bereich: 1,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+When this spell is cast, a pale glow surrounds and outlines all enemies within the area of effect, making their position and movements easily visible. Outlined creatures do not benefit from the concealment normally provided by darkness, invisibility, or similar effects, and suffer a -2 penalty to AC. Those who succeed at a saving throw vs. spell are totally unaffected by the spell. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire does not cause any harm to the objects or creatures thus outlined.~
+@26000=~Feenfeuer
+Grad: 1
+Schule: Hervorrufung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 1
+Bereich: 1,5 m Radius
+Rettungswurf: Nein
+
+When this spell is cast, a pale glow surrounds and outlines all creatures within the area of effect, making their position and movements easily visible. Outlined creatures suffer a -2 penalty to AC for the duration of the spell. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire does not cause any harm to the objects or creatures thus outlined.~
+
+@27=~Stärke des Steins~
+@28=~Stärke des Steins
+Grad: 1
+Schule: Veränderung
+Domäne: Elemente (Erde)
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Calling upon the strength of the earth, the caster gains some of the solidity and strength of stone. This spell sets the strength of the character to 18 and then adds 50 exceptional strength on top of this. The character receives any strength bonuses appropriate. For example, if a character has between 18/50 and 18/00 strength, then his strength will just be set to 18/00. If a character has a strength between 18/01 and 18/50, then his strength will become 18/50 + original percentage. If his strength is less then 18, then it will just become 18/50. However, this spell will actually lower a character's strength if it is already 19 or more. For the duration of the spell, the caster also becomes immune to everything, magical or otherwise, that pushes him away (e.g. wing buffets, gusts of wind, telekinesis, etc.), but will move at a reduced speed.~
+
+@29=~Sonnenbrand~
+@30=~Sonnenbrand
+Grad: 1
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Odem)
+
+When this spell is cast, a brilliant ray of scorching heat slants down from the sky and strikes one target of the caster's choice. The creature struck by the ray sustains 2d6 points of fire damage plus 1d6 every two extra levels of experience (up to a maximum of 6d6). Undead creatures and monsters vulnerable to bright light suffer double damage (up to a maximum of 12d6). If the target successfully rolls a saving throw vs. breath he will receive only half damage. In addition to sustaining damage, victims who fail their saves are blinded for 1 round.~
+
+
+/*-------------------level 2---------------------*/
+
+@31=~Stärkung~
+@32=~Stärkung
+Grad: 2
+Schule: Nekromantie
+Domäne: Kampf, Nekromantie
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+The recipient of this spell gains a +1 bonus to attack rolls, damage rolls, and saving throws, plus 1d8 additional hit points +1 per level of the caster (up to a maximum of 1d8+10). The Aid spell allows the recipient to temporarily have more hit points than his full normal total. The bonus hit points are lost first when the recipient takes damage. Multiple castings of this spell are not cumulative.~
+
+@33=~Rindenhaut~
+@34=~Rindenhaut
+Grad: 2
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Berührung
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When a priest casts the Barkskin spell upon a creature, its skin becomes as tough as bark, improving its Armor Class by 2, plus 1 AC for every other six levels of the caster (up to a maximum of +4 AC at 15th level). Multiple castings of this spell are not cumulative.~
+
+@35=~Gesang~
+@36=~Gesang
+Grad: 2
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1 Runde
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+By means of the Chant spell, the priest brings special favor upon himself and his party, and causes harm to his enemies. When the chant is completed, all attack rolls, damage rolls, and saving throws made by those in the area of effect who are friendly to the priest gain +1 bonuses, while those of the priest's enemies suffer -1 penalties. Multiple Chant spells are not cumulative.~
+
+@37=~Personen oder Säugetiere bezaubern~
+@38=~Personen oder Säugetiere bezaubern
+Grad: 2
+Schule: Verzauberung
+Domäne: Tiere
+Reichweite: Mittel
+Dauer: 1 Phase
+Zeitaufwand: 2
+Bereich: 1 Person oder Tier
+Rettungswurf: Ja (gg. Zauber)
+
+This spell affects any single person or animal that it is cast upon. The term "person" includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, kobolds, and others. If the target fails their save vs. spell, they regard the caster as a trusted friend and ally to be heeded and protected for the duration of the spell. The caster may give them orders, and the charmed creature will carry them out as quickly as possible.
+
+Creatures that are currently neutral to the caster are more amenable to helping them and make their saving throw with no bonus, while those that are hostile are significantly more difficult to influence and instead gain a +4 bonus to making their saving throw. If the caster attempts to harm the charmed creature, the spell is broken and the affected creature will immediately become hostile to the caster. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence. After the duration of the spell or if a dispel magic is successfully cast upon them, the affected creature resumes their previous behavior prior to being charmed.~
+
+@39=~Fallen finden~
+@40=~Fallen finden
+Grad: 2
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Anwender
+Dauer: 3 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+When a priest casts a find traps spell, all traps - concealed normally or magically - of magical or mechanical nature become apparent to him. Once per round, all traps within a 30 foot radius of the caster will be revealed. A trap is any device or magical ward that meets three criteria: it can inflict a sudden or unexpected result, the spellcaster would view the result as undesirable or harmful, and the creator specifically intended the harmful or undesirable result as such. Thus, traps include glyphs and similar spells or devices.~
+
+@41=~Flammenklinge~
+@42=~Flammenklinge
+Grad: 2
+Schule: Hervorrufung
+Domäne: Elemente (Feuer)
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+With this spell, the caster causes a blazing ray of red-hot fire to spring forth from his hand. The caster wields this blade-like ray as if proficient with the weapon, at his normal THAC0. At level 3, it functions as a magical weapon, dealing 2d6+1 points of fire damage, with an enchantment bonus of +1. For every other three experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 9th-level caster. Since the blade is immaterial, strength modifiers do not apply to attack rolls or damage, and attacks with the flame blade are considered melee touch attacks (+4 attack roll bonus).~
+
+@43=~Gute Beeren~
+@44=~Gute Beeren
+Grad: 1
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Casting a Goodberry spell creates 5 magical berries that the caster can carry with him or give to others. These berries initially cure 1 point of physical damage for each one eaten. For every three levels of experience, the berries heal one additional point of damage (to a maximum of 7 points at level 18). The berries last for 8 hours, or until eaten.~
+
+@1032=~Created by the Goodberry spell, this simple-looking berry will heal one point of damage.~
+@1033=~Created by the Goodberry spell, this simple-looking berry will heal two points of damage.~
+@1034=~Created by the Goodberry spell, this simple-looking berry will heal three points of damage.~
+@1035=~Created by the Goodberry spell, this simple-looking berry will heal four points of damage.~
+@1036=~Created by the Goodberry spell, this simple-looking berry will heal five points of damage.~
+@1037=~Created by the Goodberry spell, this simple-looking berry will heal six points of damage.~
+@1038=~Created by the Goodberry spell, this simple-looking berry will heal seven points of damage.~
+
+@45=~Personen festhalten~
+@46=~Personen festhalten
+Grad: 2
+Schule: Verzauberung
+Domäne: Charme, Gesetz
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+This spell holds one or more humans, demihumans, or humanoid creatures rigidly immobile and in place for one turn. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also affected. Those who succeed at a saving throw vs. spell are totally unaffected by the spell. Undead creatures cannot be held with this spell.
+
+Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
+
+@47=~Kenne den Gegner~
+@48=~Kenne den Gegner
+Grad: 2
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Lang
+Dauer: 2 Phasen
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When this spell is cast, the caster's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
+
+@49=~Elemente widerstehen~
+@50=~Elemente widerstehen
+Grad: 2
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Upon the casting of this spell, the recipient's resistance to all forms of elemental damage is increased by 25%. This effect will last for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@51=~Stille~
+@52=~Stille
+Grad: 2
+Schule: Veränderung
+Domäne: Wächter
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 4,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Upon casting this spell, complete silence prevails in the affected area. All sound is stopped: conversation is impossible and spells cannot be cast unless an affected spellcaster then casts Vocalize. All enemies in the area must make a saving throw vs. spell at -4; if the save is failed, then they are silenced for the duration of the spell. At the instant the spell is completed, it affects all creatures in a 15 foot radius centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not).~
+
+@53=~Gift verlangsamen~
+@54=~Gift verlangsamen
+Grad: 2
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When this spell is cast upon a poisoned individual, it greatly slows the effects of venom, actually neutralizing all but the most deadly poisons.~
+
+@55=~Geisterhammer~
+@56=~Geisterhammer
+Grad: 2
+Schule: Hervorrufung
+Domäne: Kampf
+Reichweite: Mittel
+Dauer: 2 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+By calling upon his deity, the caster of a Spiritual Hammer spell brings into existence a field of force shaped vaguely like a hammer. The caster wields the spiritual hammer as if proficient with the weapon, at his normal THAC0. As long as the caster concentrates upon the hammer, it can be used to strike at any opponents within 20 feet, but the wielder does not receive the standard penalty for holding a ranged weapon when engaged in close combat. At level 1, it functions as a magical weapon, dealing 1d8+1 points of magic damage, with an enchantment bonus of +1. For every five experience levels of the spellcaster, this bonus increases by one, up to a total of +5 enchantment level, +5 to attack rolls, and +5 to damage for a 20th-level caster. Due to its ethereal nature, strength modifiers do not apply to attack rolls or damage, and attacks with the spiritual weapon are considered melee touch attacks (+4 attack roll bonus).~
+
+@57=~Heilige Macht entlehnen~
+@58=~Heilige Macht entlehnen
+Grad: 2
+Schule: Hervorrufung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 2
+Bereich: Anwender
+Rettungswurf: Nein
+
+When this spell is cast, the priest's body shudders and glows with a shimmering aura as it becomes a vessel for the power of his god. When he does this, his strength, dexterity, and constitution scores are raised by 1 point for every 3 levels of the caster, to a maximum of 3 points at level 9. This spell is not cumulative with itself or with other similar spells.~
+
+@59=~Mittelschwere Wunden heilen~
+@60=~Mittelschwere Wunden heilen
+Grad: 2
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 2d8 + 2/level points of damage sustained by the target creature (up to a maximum of 2d8+20).~
+
+@61=~Feuerfalle~
+@62=~Feuerfalle
+Grad: 2
+Schule: Bannzauber
+Domäne: Elemente (Feuer)
+Reichweite: Kurz
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 6 m Radius
+Rettungswurf: 1/2 (gg. Odem)
+
+This powerful trap harms those who enter, pass, or open the selected area or object. It can be used to guard a small bridge, to ward an entry, or as a trap on a chest or box. Any enemy violating the selected area will trigger the trap.
+
+When the spell is cast, the druid weaves a tracery of faintly glowing lines around the warding sigil. When a hostile creature comes within 15 feet of the trap, it is triggered and explodes, damaging every enemy within a 20 foot radius. The damage inflicted is equal to 1d4 points of fire damage per level of the caster (up to a maximum of 10d4). Those who a roll successful saving throw vs. breath will receive only half damage. This spell will not harm party members.~
+
+
+/*-----------------------level 3-------------------------*/
+
+@71=~Tote beleben~
+@72=~Tote beleben
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Mittel
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell causes a number of animated skeletons to rise up and serve the priest. The number and type of skeletons that appear depend upon the level of the cleric casting the spell.
+
+5th : 2 skeletons
+7th : 3 skeletons
+9th : 4 skeletons
+12th+ : 2 greater skeletons
+
+The undead creatures will remain under the priest's control until they are slain or the spell duration expires.
+
+Skeleton (2 Hit Dice):
+STR 15, DEX 14, CON -, INT -, WIS 10, CHA 1;  AL Chaotic Evil
+HP 24, AC 6, THAC0 18, Saving Throws 10/12/11/13/13
+1 Attack Per Round, 1d6+2 Crushing Damage (Mace +1)
+
+Special Qualities:
+Immune to charm, confusion, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%
+Slashing & Piercing Resistance 20%; Missile Resistance 40%
+
+
+Greater Skeleton (5 Hit Dice):
+STR 16, DEX 14, CON -, INT -, WIS 10, CHA 1;  AL Chaotic Evil
+HP 60, AC 4, THAC0 16, Saving Throws 9/11/10/12/12
+1 Attack Per Round, 2d6+2 Slashing Damage (Two-Handed Sword +1)
+
+Special Qualities:
+Immune to charm, confusion, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%
+Slashing & Piercing Resistance 40%; Missile Resistance 60%~
+
+@2071=~Größeres Skelett~
+
+@73=~Blitze herbeirufen~
+@74=~Blitze herbeirufen
+Grad: 3
+Schule: Veränderung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 1 Runde
+Bereich: 100 m Radius
+Rettungswurf: 1/2 (gg. Odem)
+
+Immediately upon completion of the spell, and once per round thereafter, the caster causes a 30-foot-long vertical bolt of lightning to come crashing down upon an enemy. The spell has a duration of one round for every three levels of the caster, up to a maximum of 5 rounds at 15th level. The lightning will strike first at the target of the spell, dealing 6d6 points of electrical damage, with a successful save vs. breath at -2 reducing this to half. For the remainder of the storm's duration, the bolts will strike out randomly at the enemies of the caster.~
+
+@75=~Magie bannen~
+@76=~Magie bannen
+Grad: 3
+Schule: Bannzauber
+Domäne: Alle
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: 6 m Radius
+Rettungswurf: Speziell
+
+Dispel Magic removes magical effects upon any enemies within the area of effect. This includes effects from spells, potions, and certain magical items such as wands. It does not, however, affect enchanted magical items or spell protections such as Spell Turning and Spell Deflection. While this spell dispels the individual effects of Grease, Web, Stinking Cloud, and other such spells, it does not dispel the area of effect. Magic resistance does not affect this spell.
+
+The chance of the dispel succeeding is determined by the level of the caster and the level of the magic being dispelled. The base chance of successfully dispelling is 50%. For every level that the caster of Dispel Magic is above the level of the magic he is trying to dispel, his chance of success increases by 5%. For every level that the caster of Dispel Magic is below the level of the magic he attempts to dispel, his chance of success decreases by 10%. However, despite the difference in levels, there is always at least a 1% chance of success or failure. Thus, if a caster is 10 levels higher than the magic he is trying to dispel, there is only a 1% chance of failure. Similarly if the caster is 4 levels lower than the magic he is trying to dispel, there is only a 10% chance of success. Intuitively, this spell is almost useless if the level of the magic attempted to dispel is 5 or more levels higher than the caster.~
+
+@77=~Glyphe der Abwehr~
+@78=~Glyphe der Abwehr
+Grad: 3
+Schule: Bannzauber
+Domäne: Wächter
+Reichweite: Kurz
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 6 m Radius
+Rettungswurf: 1/2 (gg. Odem)
+
+A glyph of warding is a powerful inscription magically drawn to prevent unauthorized or hostile creatures from passing, entering, or opening. It can be used to guard a small bridge, to ward an entry, or as a trap on a chest or box. Any enemy violating the warded area will trigger the trap.
+
+When the spell is cast, the priest weaves a tracery of faintly glowing lines around the warding sigil. When a hostile creature comes within 15 feet of the glyph, it is triggered and explodes, damaging every enemy within a 20 foot radius. The damage inflicted is equal to 1d4 points of electrical damage per level of the caster (up to a maximum of 10d4). Those who a roll successful saving throw vs. breath will receive only half damage. This spell will not harm party members.~
+
+@79=~Person oder Tier festhalten~
+@80=~Person oder Tier festhalten
+Grad: 3
+Schule: Verzauberung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+This spell holds persons and animals rigidly immobile and in place. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, and others. Only normal and giant sized animals are affected by this spell. Monsters such as wyverns, ankhegs, and carrion crawlers do not count as animals. The effect is centered on the victim selected by the caster. Every hostile person or animal within 5 feet of the target is also affected. Those who succeed on a save vs. spell at -2 are totally unaffected.
+
+Held creatures cannot move or speak, but they remain aware of events around them even though they are helpless to change them. Time passes at a normal rate for the targets and hence being held does not stop any worsening of their condition due to wounds, disease, or poison.~
+
+@81=~Schutz vor Feuer~
+@82=~Schutz vor Feuer
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When a Protection from Fire spell is cast, the recipient receives complete protection from fire-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like fiery dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Burning Hands, Fireball, Flame Strike, and Fire Storm. Multiple castings of this spell are not cumulative.~
+
+@83=~Zauber brechen~
+@84=~Zauber brechen
+Grad: 3
+Schule: Bannzauber
+Domäne: Alle
+Reichweite: Kurz
+Dauer: Unbefristet
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Upon casting this spell, the priest is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from petrification, magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
+
+@85=~Lähmung aufheben~
+@86=~Lähmung aufheben
+Grad: 3
+Schule: Bannzauber
+Domäne: Nekromantie, Schutz
+Reichweite: Lang
+Dauer: Unbefristet
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+By the use of this spell, the priest can free several creatures from the effects of any paralyzation or related magic (such as a ghoul's touch, Hold spell, or Power Word Stun).~
+
+@87=~Unsichtbarkeit aufheben~
+@88=~Unsichtbarkeit aufheben
+Grad: 3
+Schule: Bannzauber
+Domäne: Abwehr
+Reichweite: Anwender
+Dauer: 5 Runden
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Instantly and once each round for 5 rounds after this spell is cast, all concealed enemies within the area of effect will have their invisibility dispelled. Invisible objects carried into the warded area will also become visible. This spell does not reveal illusions or enable the caster to see through physical objects. Magic resistance does not affect this spell.~
+
+@89=~Magie fehlwirken~
+@90=~Magie fehlwirken
+Grad: 3
+Schule: Verzauberung
+Domäne: Chaos
+Reichweite: Lang
+Dauer: 5 Runden
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+Miscast Magic causes spells cast by the affected creature to take on an effect different from what they intend, similar to what happens during a wild surge. There is a chance that the result will be beneficial to the spellcaster, but generally, the effects are undesirable. The target must make save vs. spell at -2 to negate the spell's effects. Those who fail the save will miscast any spells cast in the next round, and each round after the first must make another save to avoid miscasting for one further round. The effects of the spell last for 5 rounds, or until dispelled.~
+
+@91=~Ansteckung~
+@92=~Ansteckung
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Kurz
+Dauer: 8 Stunden
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Gift)
+
+This spell causes a major disease and weakness in a creature. Every 2 rounds the afflicted individual must make a saving throw vs. poison at -2 or suffer additional -2 penalty to strength, dexterity, constitution, and charisma (up to -6 to all stats). The effects of this spell will persist until the creature receives a Cure Disease spell, or the spell duration expires.~
+
+@93=~Vereinte Stärke~
+@94=~Vereinte Stärke
+Grad: 3
+Schule: Veränderung
+Domäne: Gesetz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+When this spell is cast, all party members within 30 feet of the caster gain a +2 bonus to strength. If a party member ends up with a strength value of 18, then her strength will be set to 18/75. The spell lasts for 10 rounds, whereafter everyone's strength returns to normal.~
+
+@95=~Heiliges Zerschmettern~
+@96=~Heiliges Zerschmettern
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 6 m Radius
+Rettungswurf: Speziell
+
+With this spell the priest draws down holy power to smite his enemies. Opponents within the spell's area of effect take 1d4 points of damage for every level of the caster (up to a maximum of 10d4), with a successful saving throw vs. spell for half. If the victim fails his save, then he will also be blinded for 1 round.~
+
+@97=~Unheiliges Verderben~
+@98=~Unheiliges Verderben
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 6 m Radius
+Rettungswurf: Speziell
+
+With this spell the priest calls up unholy power to smite his enemies. The power takes the form of a chilling, cloying miasma of darkness. Opponents within the spell's area of effect take 1d4 points of damage for every level of the caster (up to a maximum of 10d4), with a successful saving throw vs. spell for half. If the victim fails his save, then he will also receive a -2 penalty on his attack rolls and saving throws for 4 rounds.~
+
+@99=~Krankheit heilen~
+@100=~Krankheit heilen
+Grad: 3
+Schule: Bannzauber
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+By laying her hands upon a sickly person, the caster can cure almost any disease with this spell. The cure is permanent, but this does not grant the recipient of the spell immunity from further afflictions. Blindness and deafness are also cured with this spell, but some powerful magically created diseases may not be curable by this spell.~
+
+@101=~Windstoß~
+@102=~Windstoß
+Grad: 3
+Schule: Bannzauber
+Domäne: Abwehr, Elemente (Luft)
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: Speziell
+Rettungswurf: Speziell
+
+This spell creates a severe blast of air that originates from the caster, affecting all enemies in its path. Those within 6 feet must save vs. breath at -2 or be blown back by the force of the gust and knocked unconscious for 1 round. In addition, this spell will disperse all clouds (including magically created vapors such as Cloudkill) in the caster's current area.~
+
+@3101=~The 3rd level priest spell Gust of Wind will remove all cloud area effect spells such as Stinking Cloud.~
+
+@103=~Insekten herbeirufen~
+@104=~Insekten herbeirufen
+Grad: 3
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+The Summon Insects spell attracts a cloud or swarm of normal insects to attack one enemy of the caster. This swarm gathers at a point chosen by the caster, within the spell's range, and attacks a single creature the caster points to.
+
+For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, has a 100% chance of spell failure and it if fails a save vs. poison at +2 it panics and flees from the caster. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
+
+@107=~Schwere Wunden verursachen~
+@108=~Schwere Wunden verursachen
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell is the reverse of Cure Serious Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 3d8 + 3/level points of damage upon the target (up to a maximum of 3d8+30). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@109=~Schwere Wunden heilen~
+@110=~Schwere Wunden heilen
+Grad: 3
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 3d8 + 3/level points of damage sustained by the target creature (up to a maximum of 3d8+30).~
+
+@1109=~Sturmschild~
+@1110=~Sturmschild
+Grad: 3
+Schule: Bannzauber
+Domäne: Wetter, Elemente (Luft)
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: Anwender
+Rettungswurf: Nein
+
+This spell surrounds the caster with an invisible curtain of stormy winds that moves with him. The wind wall grants the caster +4 bonus to saves vs. breath and AC against missiles for the duration of the spell. Non-magical missile weapons are deflected away, while gases cannot penetrate the barrier. Tiny and small flying creatures cannot pass through.~
+
+@1111=~Striktes Denken
+Grad: 3
+Schule: Verzauberung
+Domäne: Gesetz
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1 Person oder Tier
+Rettungswurf: Ja (gg. Zauber)
+
+The target of this spell must make a saving throw vs. spell or come under its effects. When under the effects of the Rigid Thinking spell, the victim will randomly wander, attack the nearest person, or stand confused.~
+
+/*------------------level 4------------------*/
+
+@111=~Kritische Wunden heilen~
+@112=~Kritische Wunden heilen
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 4d8 + 4/level points of damage sustained by the target creature (up to a maximum of 4d8+40).~
+
+@113=~Tiere beschwören IV~
+@114=~Tiere beschwören IV
+Grad: 4
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+7th : 2 leopards
+9th+ : 3 leopards
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Leopard (4 Hit Dice):
+STR 16, DEX 18, CON 15, INT 6, WIS 13, CHA 6;  AL Neutral
+HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
+2 Attacks Per Round, 1d6+1 Piercing Damage (Claws & Bite)
+
+Combat Abilities:
+Pounce: can charge a target if at least 6 feet away. During that round the leopard moves at double speed, attacks with a +2 bonus to hit and damage rolls, but suffers a -2 penalty to AC~
+
+@2113=~Leopard~
+
+@115=~Handlungsfreiheit~
+@116=~Handlungsfreiheit
+Grad: 4
+Schule: Bannzauber
+Domäne: Charme
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+While under the effects of this spell, the recipient becomes immune to everything, magical or otherwise, that limits his mobility in any way. This includes, but is not limited to, Entangle, Grease, Web, Hold, Slow, and Stun. This effect will last for the duration of the spell or until dispelled.~
+
+@117=~Gift neutralisieren~
+@118=~Gift neutralisieren
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell removes all toxins from the body, both natural and magical in nature. When this spell is cast upon a poisoned individual, it immediately neutralizes any poison. In addition, for the duration of the spell, the recipient is immune to any poison it is exposed to, and spells like Poison and Cloudkill won't affect the protected creature.~
+
+@119=~Geistige Beherrschung~
+@120=~Geistige Beherrschung
+Grad: 4
+Schule: Verzauberung
+Domäne: Geist
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+When cast upon a subject, he must make a save vs. spell at -2 in order to avoid the priest entering his mind. The effects of this spell are similar to the 5th level wizard spell Domination, with a few minor differences. Most notably, this spell gives the priest no access to the subject's thoughts, memory, or sensory apparatus. The priest simply is able to command the subject to perform certain tasks or functions during the spell duration. To control the subject, the priest must be within range and must be able to see the subject. This control will last until dispelled or for the duration of the spell.~
+
+@121=~Koordinierte Verteidigung~
+@122=~Koordinierte Verteidigung
+Grad: 4
+Schule: Verzauberung
+Domäne: Gesetz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 3 m Radius
+Rettungswurf: Nein
+
+Defensive Harmony grants affected creatures a defensive bonus by enhancing the coordination of their attacks and defenses. This allows a group of creatures to act as a cohesive unit for a single battle or encounter. The effect is always centered on the caster, but affects all those within a 10 foot radius. The affected creatures can move outside of this radius after the spell is cast and still enjoy the benefits of the Harmony. While the spell is in effect, each affected creature gains a +4 bonus to her armor class. Multiple castings of this spell are not cumulative.~
+
+@123=~Schutz vor Blitzen~
+@124=~Schutz vor Blitzen
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When a Protection from Electricity spell is cast, the recipient receives complete protection from all electrical-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like electric dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Lightning Bolt, Glyph of Warding, Call Lightning, and Chain Lightning. Multiple castings of this spell are not cumulative.~
+
+@125=~Kreisbann gegen Bösen~
+@126=~Kreisbann gegen Bösen
+Grad: 4
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Upon casting this spell, the priest causes all friendly creatures within the area of effect to be affected by the spell Protection from Evil. Creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not.~
+
+@127=~Todesschutz~
+@128=~Todesschutz
+Grad: 4
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+While under the effects of this spell, the recipient is immune to all forms of death magic. This includes, but is not limited to, Death Spell, Disintegrate, Power Word Kill, Finger of Death, and Wail of the Banshee. This effect will last for the duration of the spell or until dispelled.~
+
+@129=~Waldgeschöpfe rufen~
+@130=~Waldgeschöpfe rufen
+Grad: 4
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Mittel
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of magical woodland beings. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+7th : 1 hamadryad
+9th : 2 hamadryads
+11th+ : 2 hamadryads, 1 nymph
+
+The summoned beings will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Hamadryad (4 Hit Dice):
+STR 10, DEX 18, CON 12, INT 14, WIS 14, CHA 18; AL Neutral
+HP 32, AC 3, THAC0 14, Saving Throws 12/16/12/14/16
+2 Attacks Per Round, 1d6+1 missile (Short Bow & arrows +1)
+
+Special Qualities:
+Magic Resistance 75%
+
+Memorized Spells:
+1. Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2. Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+
+Nymph (7 Hit Dice):
+STR 10, DEX 17, CON 12, INT 16, WIS 17, CHA 19; AL Neutral Good
+HP 42, AC 3, THAC0 15, Saving Throws 12/10/12/14/10
+1 Attack Per Round, 1d4 Crushing (Touch +0)
+
+Special Qualities:
+Magic Resistance 50%
+
+Memorized Spells:
+1. Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2. Barkskin, Charm Person or Animal (x2), Resist Elements, Slow Poison
+3. Call Lightning, Hold Person or Animal, Summon Insects
+4. Tiere beschwören IV~
+
+@2129=~Nymph~
+
+@131=~Vergiften~
+@132=~Vergiften
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Kurz
+Dauer: 1 Phase
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Gift)
+
+Through this spell, the caster can poison a single victim. The damage dealt by the poison depends upon the level of the priest casting the spell.
+
+7. Stufe:  4d4  +  1 every 4 seconds
+9. Stufe:  5d5  +  1 every 3 seconds
+12. Stufe:  6d6  +  1 every 2 seconds
+15.+ Stufe:  8d8  +  1 every 1 second
+
+The victim cannot avoid the initial damage unless it is completely immune to the effects of poison, but a successful save vs. poison at -2 will negate the ongoing damage.~
+
+@133=~Heilige Kraft~
+@134=~Heilige Kraft
+Grad: 4
+Schule: Hervorrufung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 4
+Bereich: Anwender
+Rettungswurf: Nein
+
+Through this spell, the caster imbues himself with the strength and skill of a fighter of the same level. The priest's strength is set to 18/00, even if it is normally higher, his THAC0 becomes that of a fighter of the same level, and he gains 1 temporary hit point for every level he has attained. The caster gains extra attacks as a fighter of the same level, thus an extra half an attack per round at 7th level and another half attack per round at 13th level. This lasts for the duration of the spell or until successfully dispelled. Multiple castings of this spell are not cumulative.
+
+Note: this spell does not give any extra attacks to multiclassed or dual-classed fighter/clerics or ranger/clerics, as they normally gain additional attacks per round due to their fighter or ranger levels.~
+
+@135=~Schutz vor negativer Energie~
+@136=~Schutz vor negativer Energie
+Grad: 4
+Schule: Bannzauber
+Domäne: Nekromantie, Schutz
+Reichweite: Berührung
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When a Negative Plane Protection spell is cast, the recipient receives complete protection from negative energy attacks. This spell also affords the recipient partial protection from monsters with Negative Energy plane connections (such as vampires) and certain weapons and spells that drain levels. A protected creature is immune to any form of level draining for the duration of the spell, though they will still suffer normal hit point damage from the physical attacks, if applicable.~
+
+@137=~Kritische Wunden verursachen~
+@138=~Kritische Wunden verursachen
+Grad: 4
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell is the reverse of Cure Critical Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 4d8 + 4/level points of damage upon the target (up to a maximum of 4d8+40). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@139=~Fernsicht~
+@140=~Fernsicht
+Grad: 4
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 4
+Bereich: Speziell
+Rettungswurf: Nein
+
+When Farsight is cast, the caster is able to view an area of an unexplored map. After casting the spell, simply click on a section of the map that you want to view. For the duration of the spell, the caster can spy on that area, noting creatures and fortifications.~
+
+@141=~Mantel der Furcht~
+@142=~Mantel der Furcht
+Grad: 4
+Schule: Beschwörung
+Domäne: Charme
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 1,8 m Radius
+Rettungswurf: Speziell
+
+Cloak of Fear empowers the caster to radiate a personal aura of fear out to a 6' radius. All enemies not immune to fear within this aura suffer -2 penalty to attack rolls, and each round they must roll a successful saving throw vs. spell or run away in panic for 1 round. Party members are immune to the effects of the aura.~
+
+@143=~Geringere Genesung~
+@144=~Geringere Genesung
+Grad: 4
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When this spell is cast, the life energy level of the recipient is raised. This reverses any previous life energy level drain of the creature by a force or monster.
+
+The casting of this spell is very draining on the priest, leaving him physically and mentally exhausted. For 5 rounds after the spell is cast, the priest will suffer a -2 penalty to hit, damage, armor class, and casting speed factor.~
+
+@145=~Eissturm~
+@146=~Eissturm
+Grad: 4
+Schule: Hervorrufung
+Domäne: Elemente (Wasser)
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 4
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+When this spell is cast, great magical hailstones pound down for 4 rounds within a 30 foot radius of a point selected by the caster. Creatures within the area of effect have their movement speed reduced by 50%, and receive 2d8 points of cold damage for each round they remain inside the storm.~
+
+
+/*------------------level 5------------------*/
+
+@151=~Tiere beschwören V~
+@152=~Tiere beschwören V
+Grad: 5
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+9th : 2 giant snakes
+11th+ : 3 giant snakes
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Giant Snake (5 Hit Dice):
+STR 15, DEX 17, CON 11, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
+1 Attack Per Round, 1d4 Piercing Damage (Bite)
+
+Combat Abilities:
+Poison: inflicts 1d6 damage on each hit and additional 1 point ever 3 seconds for 1 turn on a failed save vs. poison
+
+Special Qualities
+Immune to entangle, grease, web and poison effects~
+
+@1040=~Dire Leopard~
+@2151=~Giant Snake~
+
+@153=~Tödliche Wunden heilen~
+@154=~Tödliche Wunden heilen
+Grad: 5
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When casting this spell, and laying his hand upon a creature, the priest causes wounds and other injuries to the creature's body to be healed. The priest can restore 5d8 + 1/level points of damage sustained by the target creature (up to a maximum of 5d8+25). This healing cannot affect creatures without corporeal bodies, nor can it cure wounds of creatures not living or of extraplanar origin.~
+
+@155=~Flammenschlag~
+@156=~Flammenschlag
+Grad: 5
+Schule: Hervorrufung
+Domäne: Kampf, Elemente (Feuer)
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: 1/2 (gg. Odem)
+
+Upon casting this spell, a vertical column of fire roars downward, striking a victim selected by the caster, along with every creature within 5 feet of the target. Those who fail on their saving throw vs. breath at -4 sustain 1d6 points of fire damage per level of the caster (up to a maximum of 15d6), and those who succeed receive half damage. This spell will not harm party members.~
+
+@157=~Tote erwecken~
+@158=~Tote erwecken
+Grad: 5
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Kurz
+Dauer: Unbefristet
+Zeitaufwand: 1 Runde
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When the priest casts a Raise Dead spell, life can be restored to a dead comrade. Note that the body of the person must be whole; otherwise, missing parts are still missing when the person is brought back to life. The person has but 1 hit point when raised and must regain the rest by natural healing or curative magic.~
+
+@2157=~Ruf des Harpers~
+@2158=~Ruf des Harpers
+Grad: 5
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Kurz
+Dauer: Unbefristet
+Zeitaufwand: 1 Runde
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell is only available to Harpers. The Harper's Call restores a comrade to life, to further serve the cause of the Harpers. This spell functions similarly to Raise Dead, with the following exceptions: the Harper must transfer a small portion of her life essence (10 hit points) to successfully raise the deceased person; the target has but 1 hit point when raised and must regain the rest by natural healing or curative magic; and the raised person suffers a -5 penalty to all ability scores for one minute, making this spell virtually useless in combat.~
+
+@159=~Wahrer Blick~
+@160=~Wahrer Blick
+Grad: 5
+Schule: Erkenntniszauber
+Domäne: Alle
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+When this spell is cast, the caster gains the ability to see the exact locations of creatures or objects under displacement or invisibility effects, and see through illusions. This effectively neutralize spells such as Blur and Mirror Image, allow the caster to see and target invisible creatures normally, and make him unaffected by hostile illusion spells such as Spook. The caster is also cured from any form of blindness and is immune to it for the duration of the spell.
+
+Note: True Seeing does not dispel illusionary clones such as those conjured by Mislead or Simulacrum, but instead clearly highlights them, revealing them as deceptions.~
+
+@161=~Steinhaut~
+@162=~Steinhaut
+Grad: 5
+Schule: Veränderung
+Domäne: Elemente (Erde)
+Reichweite: Anwender
+Dauer: 8 Stunden
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+When a druid casts this powerful spell upon herself, an outer skin of stone will emerge from the ground, completely covering and shielding her. This skin is, of course, magical and will hinder the druid in no way. The effect of this is to protect the druid from physical attacks such as melee weapons and projectiles. One skin is gained for every two levels of the caster. For each skin the druid possesses, the spell will stop one attack, so a 10th level druid would be protected from the first 5 attacks made against her but the sixth would affect her normally. The skins will remain on the druid until she is affected by a dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires.
+
+It is important to note that this will not protect the druid from any area attacks (such as Fireball), and that any weapon capable of inflicting some type of elemental damage can still harm the caster - the skins will not protect against fire, cold, acid, or electrical damage, even if physical damage is blocked. Multiple castings of this spell are not cumulative.~
+
+@163=~Meisterstärke~
+@164=~Meisterstärke
+Grad: 5
+Schule: Veränderung
+Domäne: Gesetz
+Reichweite: Mittel
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When this spell is cast, the priest draws on the power of his god and lends it to the target creature, in effect creating a champion. The target gains a bonus to strength, dexterity, and constitution scores at a rate of 1 for every 3 levels of the caster, up to a maximum bonus of 6 at 18th level. The effect lasts for 1 round for every level of the caster or until dispelled. This spell is not cumulative with itself or with other similar spells.~
+
+@165=~Chaotische Befehle~
+@166=~Chaotische Befehle
+Grad: 5
+Schule: Verzauberung
+Domäne: Chaos
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+While under the effects of this spell, the recipient becomes immune to magical commands. Charm, Command, Confusion, Domination, Hold, and Sleep are all spells that fit into this category. This spell also protects from psionic mind attacks such as a mind flayer's Psionic Blast, but it will not confer complete immunity to psionics. This effect will last for the duration of the spell or until dispelled.~
+
+@167=~Magieresistenz~
+@168=~Magieresistenz
+Grad: 5
+Schule: Veränderung
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 2 Runden pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Upon the casting of this spell, the recipient's resistance to all forms of magic is increased by 2% per level of the priest, up to a maximum bonus of 40% at 20th level. This effect will last for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@169=~Tödliche Wunden verursachen~
+@170=~Tödliche Wunden verursachen
+Grad: 5
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell is the reverse of Cure Mortal Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 5d8+25 points of damage upon the target. The spell expires once the priest attempts a melee attack or after 5 rounds have passed. The priest gains a +4 bonus to hit the target.~
+
+@171=~Schneller Tod~
+@172=~Schneller Tod
+Grad: 5
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Zauber)
+
+Upon casting this spell, the priest has to touch an opponent in order to visit the effect upon them. On a successful touch from the priest, the victim is instantly killed unless a saving throw vs. spell is made. Even then, the victim will suffer 2d8+20 points of magic damage. The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@173=~Höherer Befehl~
+@174=~Höherer Befehl
+Grad: 5
+Schule: Verzauberung
+Domäne: Charme, Kampf, Gesetz
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 1 Wesen + 6 m Radius
+Rettungswurf: Speziell
+
+As with the first level spell Command, this spell enables the priest to command other creatures to lie down and take no action (sleep), but the effects of this spell last up to 10 rounds, and every enemy within 20 feet of the target is affected (save vs. spell at -4 negates). At the start of each round after the first, those affected get another save to attempt to break free from the spell. When the spell duration expires, any creatures still sleeping will awaken.~
+
+@175=~Gerechte Magie~
+@176=~Gerechte Magie
+Grad: 5
+Schule: Veränderung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 5
+Bereich: Anwender
+Rettungswurf: Nein
+
+This is a powerful combat spell that enhances the priest's physical prowess, charging him with positive energy and transforming him into a juggernaut of destruction. The caster's strength is augmented by 4 points, his armor class is improved by 2 points, and he gains 1 temporary hit point for every level he has attained (up to a maximum of 20). Furthermore, the caster deals an additional 1d6 points of magic damage whenever he strikes an opponent with a melee weapon. The effects last for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@177=~Massenheilung~
+@178=~Massenheilung
+Grad: 5
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: Unbefristet
+Zeitaufwand: 5
+Bereich: Sicht
+Rettungswurf: Nein
+
+When casting this spell, the priest must picture the faces of his fellow party members clearly and focus on the unity of the group. Upon completion, all party members within sight of the caster are healed by 2d8 + 2/level hit points (up to a maximum of 2d8+20).~
+
+@105=~Abstoßung~
+@106=~Abstoßung
+Grad: 5
+Schule: Bannzauber
+Domäne: Abwehr
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 3 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+An invisible, mobile field surrounds the caster and prevents creatures from approaching him. Any creature within or entering the field must attempt a save vs. spell at -4 penalty. If it fails, it gets pushed away by 10 feet. Repelled creatures' actions are not otherwise restricted. They can fight other creatures and can cast spells and attack you with ranged weapons.~
+
+@179=~Feenstaub~
+@180=~Feenstaub
+Grad: 5
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+This spell creates a handful of pixie dust that the caster can toss into the air. Allies covered by the dust becomes improved invisible for 1 turn.~
+
+@181=~Insektenplage~
+@182=~Insektenplage
+Grad: 5
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 5
+Bereich: 1 Wesen + 9 m Radius
+Rettungswurf: Speziell
+
+When this spell is cast, a mass of creeping, hopping, and flying insects gather and swarm, first attacking the target, and then moving on to all enemies of the caster within the spell's radius.
+
+For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure and on a failed save vs. poison will panic for that round. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
+
+@185=~Andere verwandeln~
+@186=~Andere verwandeln
+Grad: 5
+Schule: Veränderung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: Unbefristet
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Verwandlung)
+
+Polymorph Other is a powerful magic that permanently alters the form of the creature affected. The target's mental attributes are not affected and they do not receive the special abilities of the new form, but physical attributes are changed to adhere to the new form and the affected creature loses any special abilities it had in its original form. This particular version of the spell will transform the recipient into a squirrel unless a save vs. polymorph is made successfully. The effectiveness of this spell is dependent upon the target's level, with weak creatures being relatively easy to transmute and more powerful creatures being very difficult. Creatures with less than 8 HD/levels save at a -4 penalty, those with 8 - 14 HD/levels save normally, and those with 15 or more HD/levels save with a +2 bonus. The transformation is instant and permanent until a dispel magic is cast successfully upon the affected creature.
+
+Note that all clothes and equipment that the target was wearing will mold into the new form. However, they will return to their previous state once the target dies or the effects are dispelled.~
+
+@187=~Schutz vor Säure~
+@188=~Schutz vor Säure
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When a Protection from Acid spell is cast, the recipient receives complete protection from all acid-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like acidic dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Melf's Acid Arrow and Acid Fog. Multiple castings of this spell are not cumulative.~
+
+@189=~Schutz vor Kalt~
+@190=~Schutz vor Kalt
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+When a Protection from Cold spell is cast, the recipient receives complete protection from cold-based attacks, whether magical or non-magical in origin. 100% of the damage from attacks like icy dragon breath will be absorbed, and the target creature will become completely immune to the effects of spells such as Ice Storm and Cone of Cold. Multiple castings of this spell are not cumulative.~
+
+
+/*------------------level 6------------------*/
+
+@191=~Luftdiener~
+@192=~Luftdiener
+Grad: 6
+Schule: Beschwörung
+Domäne: Herbeirufung
+Reichweite: Mittel
+Dauer: 1 Phase pro Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+The caster of this spell summons an Aerial Servant to do the caster's bidding for the duration of the spell. The servant will attack any enemies that the caster decides, staying until the duration of the spell ends or he is slain.
+
+Aerial Servant (13 Hit Dice):
+STR 21, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 122, AC -1, THAC0 5, Saving Throws 5/7/6/5/8
+2 Attacks Per Round, 2d6+11 Crushing Damage (Fist +2)
+
+Special Qualities:
+Natural Invisibility: constantly invisible as if affected by an Improved Invisibility spell
+Immune to hold, poison, sleep, & stun effects~
+
+@193=~Tiere beschwören VI~
+@194=~Tiere beschwören VI
+Grad: 6
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+11th : 2 cave bears
+13th+ : 3 cave bears
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Cave Bear (6 Hit Dice):
+STR 19, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 78, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
+2 Attacks Per Round, 2d4+9 Crushing Damage (Claws & Bite)~
+
+@195=~Klingenbarriere~
+@196=~Klingenbarriere
+Grad: 6
+Schule: Beschwörung
+Domäne: Wächter, Erschaffung
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 6
+Bereich: 1,8 m Radius
+Rettungswurf: Nein
+
+The priest employs this spell to create a wall of circling, razor-sharp blades. These whirl and flash around the caster, forming a dangerous barrier. Every creature not in the caster's party and within a 6 foot radius suffers 1d8 points of slashing damage every 3 seconds. Magic resistance does not affect this spell.
+
+Note that spells like Invisibility, Shadow Door, etc. will not function on the caster when protected by Blade Barrier. Also, cleric/thieves and cleric/rangers who cast this will not be able to hide in shadows until the spell expires.~
+
+@197=~Tiere herbeirufen~
+@198=~Tiere herbeirufen
+Grad: 6
+Schule: Beschwörung
+Domäne: Herbeirufung
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell allows the caster to summon forth and control one or two massive mountain bears. The bears will respond to the caster's every whim for the duration of the spell.~
+
+@199=~Feuerelementar beschwören~
+@200=~Feuerelementar beschwören
+Grad: 6
+Schule: Beschwörung
+Domäne: Elemente (Feuer)
+Reichweite: Mittel
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Fire Elemental (12 Hit Dice):
+STR 16, DEX 17, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d6+4 Slashing +2d6 Fire Damage (Fist +3)
+
+Greater Fire Elemental (16 Hit Dice):
+STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 138, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 100%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
+
+@201=~Feuerfrüchte~
+@202=~Feuerfrüchte
+Grad: 6
+Schule: Beschwörung
+Domäne: Elemente (Feuer)
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 6
+Bereich: Speziell
+Rettungswurf: 1/2 (gg. Odem)
+
+This spell enables the druid to create a number of fire seeds, one for every 2 experience levels the druid has attained (up to a maximum of 10 fire seeds at 20th level). When thrown at an enemy, these will explode into small fireballs, causing 4d6 points of damage to all within a 10 foot radius (save vs. breath at -4 for half damage). The seeds are treated as missiles hurled by the caster with a +4 bonus to the attack roll and each has an enchantment level of +4. These seeds will appear in the caster's hands and remain in existence for 5 turns. The druid may discharge up to five of them per round.~
+
+@203=~Heilung~
+@204=~Heilung
+Grad: 6
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+The very potent Heal spell enables the priest to wipe away any injury in the creature who receives its benefits. It completely cures the recipient of all diseases, poisons, and conditions such as blindness and deafness. It heals all points of damage suffered due to wounds or injury and dispels a Feeblemind spell. Naturally, the effects can be negated by later wounds, injuries, and diseases.~
+
+@205=~Leid~
+@206=~Leid
+Grad: 6
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: 1/2 (gg. Zauber)
+
+This spell is the reverse of Heal. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 90 points of damage upon the target. Harm cannot reduce the target's hit points to less than 1. The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@207=~Falscher Sonnenaufgang~
+@208=~Falscher Sonnenaufgang
+Grad: 6
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1 Runde
+Bereich: 4,5 m Radius
+Rettungswurf: Speziell
+
+By drawing on the power of the sun, this spell causes the caster's body to emanate a bright light that extends 15 feet in all directions. Each round, opponents within the area must save vs. spell at -4 or be blinded for 1 round. Undead creatures take 2d6 points of damage for each round they are exposed to the false dawn.~
+
+@209=~Schmerzhafter Verfall~
+@210=~Schmerzhafter Verfall
+Grad: 6
+Schule: Veränderung, Nekromantie
+Domäne: Kampf, Nekromantie
+Reichweite: Mittel
+Dauer: Speziell
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Gift)
+
+This spell affects a single living creature. Dolorous Decay is a rotting and withering of the body that spreads throughout the afflicted creature quickly. The disease will instantly cause a permanent -1 penalty to strength, dexterity, and constitution. If the target fails a saving throw vs. poison at -4, the decay will inflict 1 point of damage per second, until a total of 60 hit points of damage are inflicted, and another point of damage to each physical attribute every 5 rounds. The afflicted creature will also be slowed for the duration of the decay, and ability scores lost with this spell can only be restored with a Cure Disease, a Heal, or a Greater Restoration spell. Magic resistance does not affect this spell.~
+
+@211=~Wundersames Erinnerungsvermögen~
+@212=~Wundersames Erinnerungsvermögen
+Grad: 6
+Schule: Veränderung
+Domäne: Charme, Erschaffung
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 1 Runde
+Bereich: Anwender
+Rettungswurf: Nein
+
+This spell enables the caster to bring back into memory two spells that have been previously cast. If no spells have been cast yet, nothing happens. Wondrous Recall cannot recall 6th-level or greater spells.~
+
+@213=~Strahl des Ruhms~
+@214=~Strahl des Ruhms
+Grad: 6
+Schule: Hervorrufung
+Domäne: Kampf, Herbeirufung
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+By casting this spell, the priest channels a bolt of divine energy against one creature. No attack roll is needed. Creatures struck suffer varying damage, depending on their plane of existence.
+
+Creature Type  --  Damage
+ Elemental  --  4d4
+ Humanoid  --  6d6
+ Undead  --  8d8
+ Demonic  --  10d10
+
+Magic resistance does not affect this spell.~
+
+@215=~Materiespiegel~
+@216=~Materiespiegel
+Grad: 6
+Schule: Veränderung
+Domäne: Zahlen
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 6
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell causes a localized folding of space. The folded space takes the form of an invisible disk that protects the caster but also distorts his appearence as if a mirrored image of the caster traveled alongside him. Any missile attack that intersects the disk is instantaneously deflected, while there is a 50% chance that a melee attacker will attack the mirrored image and a 50% chance that he will attack the caster.~
+
+@217=~Sols sengende Kugel~
+@218=~Sols sengende Kugel
+Grad: 6
+Schule: Beschwörung
+Domäne: Elemente (Feuer)
+Reichweite: Anwender
+Dauer: 3 Runden
+Zeitaufwand: 6
+Bereich: Speziell
+Rettungswurf: Speziell (gg. Odem)
+
+When the spell is completed, it creates a glowing gem. This gem must be thrown at an opponent within 3 rounds, or it will become too hot to hold. When it hits, the gem bursts with a brilliant, searing flash that causes 12d6 points of fire damage to anyone within 30 feet. Creatures within the burst are allowed a saving throw vs. breath at -4 penalty. If successful, only half damage is sustained. On a failed save, the victim also suffers -2 penalty to thac0 and 1d6 points of fire damage each round for 6 rounds. It is not possible for the priest to give the stone to another character to throw. Magic resistance does not affect this spell, nor do any of the spell protections.~
+
+@219=~Luftelementar beschwören~
+@220=~Luftelementar beschwören
+Grad: 6
+Schule: Beschwörung
+Domäne: Elemente (Luft)
+Reichweite: Mittel
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Upon casting a Conjure Air Elemental spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Air Elemental (12 Hit Dice):
+STR 16, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
+3 Attacks Per Round, 1d8+4 Piercing Damage (Fist +3)
+
+Greater Air Elemental (16 Hit Dice):
+STR 18, DEX 21, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 138, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
+3 Attacks Per Round, 1d8+5 Piercing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@221=~Erdelementar beschwören~
+@222=~Erdelementar beschwören
+Grad: 6
+Schule: Beschwörung
+Domäne: Elemente (Erde)
+Reichweite: Mittel
+Dauer: 1 Phase + 1 Runde pro Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Earth Elemental (12 Hit Dice):
+STR 21, DEX 8, CON 19, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d8+12 Crushing Damage (Fist +3)
+
+Greater Earth Elemental (16 Hit Dice):
+STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 152, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d8+14 Crushing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Piercing, & Missile Resistance 40%~
+
+@223=~Verbannung~
+@224=~Verbannung
+Grad: 6
+Schule: Bannzauber
+Domäne: Abwehr
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 6
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+This spell forces hostile summoned creatures in the area back to their proper plane. Magic resistance does not affect this spell.~
+
+@225=~Kriegerskelett beleben~
+@226=~Kriegerskelett beleben
+Grad: 6
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell animates the corpse of a skilled warrior to rise up and serve the caster. This powerful undead creature will remain under the priest's control until slain or the spell duration expires.
+
+Skeleton Warrior (9 Hit Dice):
+STR 18/51, DEX 14, CON -, INT 15, WIS 14, CHA 12;  AL Neutral Evil
+HP 108, AC 2, THAC0 11, Saving Throws 5/7/6/5/8
+2 Attacks Per Round, 2d6+4 Slashing Damage (Two-Handed Sword +1)
+
+Special Qualities:
+Immune to normal weapons
+Immune to charm, confusion, hold, poison, sleep, stun, & death effects
+Cold Resistance 100%; Magic Resistance 90%
+Slashing & Piercing Resistance 40%; Missile Resistance 60%~
+
+
+/*------------------level 7------------------*/
+
+@231=~Schild der Archonen~
+@232=~Schild der Archonen
+Grad: 7
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+This powerful Bannzauber spell causes spells cast against the priest to be absorbed and consumed. This spell will not protect the caster from dispel magic, but it will not be affected by dispel magic, either.
+
+This spell also grants protection from spells cast from scrolls and innate spell-like abilities, but will not protect against area effect spells that are not centered directly upon the priest (such as Fireball), or stationary area effect spells (such as Cloudkill and Stinking Cloud).~
+
+@233=~Watschelnder Komposthaufen beschwören~
+@234=~Watschelnder Komposthaufen beschwören
+Grad: 7
+Schule: Beschwörung
+Domäne: Pflanzen
+Reichweite: Mittel
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell summons forth a shambling mound to assist the caster. The shambler appears to be heaps of rotting vegetation, but it is actually an intelligent form of plant life, with a roughly humanoid shape, and a brain-like control center in its "chest" area. The shambling mound will remain under the caster's control until it is slain or the spell duration expires.
+
+Shambling Mound (16 Hit Dice):
+STR 19, DEX 10, CON 16, INT 7, WIS 10, CHA 9;  AL Neutral
+HP 124, AC 0, THAC0 2, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d6+10 Crushing Damage (Fist +3)
+
+Combat Abilities:
+Entangle: 50% chance target must save vs. breath or be entangled
+Constrict: any creature entangled by the shambler can save vs. breath each round to break free; those who fail the save suffer 2d6+10 points of damage and remain entangled
+
+Special Qualities:
+Regeneration: 1hp/round
+Immune to charm, hold, poison, polymorph, sleep, & stun effects
+Electrical Resistance 125%; Fire Resistance 100%; Cold Resistance 50%
+Crushing Resistance 100%; Slashing, Piercing, & Missile Resistance 50%~
+
+@2233=~Watschelnder Komposthaufen~
+
+@235=~Todesritter beschwören~
+@236=~Todesritter beschwören
+Grad: 7
+Schule: Nekromantie
+Domäne: Alle
+Reichweite: Mittel
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls an outer planar creature to attack his foes and himself if not careful. The creature summoned in is a Death Knight, a powerful undead demon. The creature cannot be directly controlled, but the summoner can attempt to compel the demon to perform a service for him for the duration of the spell. Charismatic and powerful casters may bind the creature's will, intelligent and wise ones may negotiate with it, but dealing with these demonic creatures is always dangerous, and sometimes it may lead to disaster. Priests are warned to be careful of this spell, for a mistreated Death Knight will turn on his summoner at the first available opportunity.
+
+Death Knight (13 Hit Dice):
+STR 18/00, DEX 12, CON -, INT 17, WIS 15, CHA 16;  AL Lawful Evil
+HP 112, AC -4, THAC0 1, Saving Throws 5/7/5/9/7
+3 Attacks Per Round, 2d6+11 Slashing Damage (Two-Handed Sword +3)
+
+Special Qualities:
+Aura of Fear: creatures in a 5' radius must save vs. spell each round or flee in terror for 1 round
+Immune to non-magical weapons
+Immune to charm, confusion, hold, stun, sleep, poison, & death effects
+Cold Resistance 100%; Physical Resistance 20%; Magic Resistance 75%
+
+Special Abilities:
+See Invisibility (permanent)
+Dispel Magic (once every 5 rounds)
+Unholy Fireball (once per day)
+Power Words: Blind, Stun, or Kill (once per day each)
+Symbols: of Weakness or Death (once per day each)~
+
+@237=~Natürliche Schönheit~
+@238=~Natürliche Schönheit
+Grad: 7
+Schule: Illusion
+Domäne: Elemente
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 7
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+When this spell is cast, the caster appears to undergo a remarkable transformation. The caster becomes the very ideal of beauty, for a male, this is usually a nymph or a dryad, for a female, the image varies. Any humanoid viewing the illusion must save vs. spell at a -4 penalty or be charmed for 10 rounds. The transformation is instantaneous, but lasts only seconds, affecting those in the area but excluding fellow party members.
+
+If the caster harms, or attempts to harm, a charmed creature by some overt action, or if a dispel magic spell is successfully cast upon a charmed creature, the charm is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
+
+@239=~Feuersturm~
+@240=~Feuersturm
+Grad: 7
+Schule: Hervorrufung
+Domäne: Kampf, Elemente (Feuer)
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 1 Runde
+Bereich: 9 m Radius
+Rettungswurf: 1/2 (gg. Odem)
+
+When a Fire Storm spell is cast, the whole area is shot through with sheets of roaring flame and then pelted with fiery balls of lava. Those caught in the inferno receive 2d8 points of damage plus one for each level of the caster (up to a maximum of 2d8+20). This assault will last for four rounds, continuing to damage all creatures who remain within the area of effect. An area 10 feet around the caster will be protected from the onslaught. Creatures who successfully save vs. breath at a -4 penalty take only half damage.~
+
+@241=~Symbol der Schwäche~
+@242=~Symbol der Schwäche
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 1 Runde
+Bereich: 6 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Symbol of Weakness is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -4 or have their strength, dexterity, and constitution reduced by 4. The spell effects will persist until the character receives a Cure Disease spell.~
+
+@243=~Sonnenstrahl~
+@244=~Sonnenstrahl
+Grad: 7
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+When this spell is cast, it causes a ray of sunlight to beam down upon the caster and a globe of searing radiance to explode in a 30 foot radius. All hostile creatures in the area of effect are blinded for 10 rounds and take 6d6 points of damage. Undead creatures caught within the sunburst instead take 1d6 points of damage per caster level (up to a maximum of 20d6). A successful save vs. breath at a -4 penalty negates the blindness and reduces the damage by half. The burst also results in the destruction of all undead creatures specifically harmed by bright light (such as vampires, shadows, and wraiths) that fail a saving throw vs. spell.~
+
+@245=~Finger des Todes~
+@246=~Finger des Todes
+Grad: 7
+Schule: Nekromantie
+Domäne: Krieg
+Reichweite: Lang
+Dauer: Unbefristet
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Tod)
+
+The Finger of Death spell snuffs out the victim's life force. The caster points his finger at the victim after the incantation is complete and death occurs, unless a save vs. death at -2 is made. A creature successfully saving still receives 2d8 + level points of damage, up to a maximum of 2d8 + 20.~
+
+@247=~Heiliges Wort~
+@248=~Heiliges Wort
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 1
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Uttering a Holy Word channels magic of tremendous power. The spell affect all enemies that are caught in the area of effec, while the effects differ according to the level of the target as follows:
+
+Target's Hit Dice -- Effects of Holy Word
+Equal to caster level -- Deafness for 1 turn
+Up to caster level -1 -- Blindness for 5 rounds
+Up to caster level -5 -- Stun for 1 round
+Up to caster level -10 -- Death
+
+The effects are cumulative and concurrent.~
+
+@249=~Regeneration~
+@250=~Regeneration
+Grad: 7
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 3 Phasen
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This powerful spell enables the caster to imbue a creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 1 hit point per second (up to a maximum of 180 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@251=~Auferstehung~
+@252=~Auferstehung
+Grad: 7
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 1 Runde
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also fully heals the character so that they are ready for the adventuring life once more.~
+
+@253=~Genesung~
+@254=~Genesung
+Grad: 7
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Unbefristet
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+A Greater Restoration spell removes most temporary and permanent negative effects from the target creature. It reverses any previous life energy level drain of the creature caused by any force, spell, or monster. It can restore a polymorphed or petrified creature to its natural form, break the effects of a curse, reverse unnatural mental states such as confusion, feeblemindedness, and berserk rages, and free the recipient from magical effects like fear, paralysis, sleep, and stun. This potent spell will also restore any lost hit points and cure the target of any diseases or poisons.
+
+The casting of this spell is very draining on the priest, leaving him physically and mentally exhausted. For 5 rounds after the spell is cast, the priest will suffer a -2 penalty to hit, damage, armor class, and casting speed factor.~
+
+@255=~Unheiliges Wort~
+@256=~Unheiliges Wort
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 1
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Uttering an Unholy Word channels magic of tremendous power. The spell affect all enemies that are caught in the area of effec, while the effects differ according to the level of the target as follows:
+
+Target's Hit Dice -- Effects of Unholy Word
+Equal to caster level -- Deafness for 1 turn
+Up to caster level -1 -- Slowness for 5 rounds
+Up to caster level -5 -- Confusion for 1 round
+Up to caster level -10 -- Death
+
+The effects are cumulative and concurrent.~
+
+@257=~Kriechender Tod~
+@258=~Kriechender Tod
+Grad: 7
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 5
+Bereich: 1 Wesen + 9 m Radius
+Rettungswurf: Speziell
+
+When the caster utters the spell Creeping Doom, he calls forth a horde of venomous biting and stinging arachnids, insects, and myriapods. This carpet-like mass swarms over a large area, spreading to all creatures within 30 feet of the target.
+
+For the duration of the spell, those affected fight with a -2 penalty to attack rolls and armor class. In addition, each round the victims suffer 2d3 points of damage from insect bites, have a 100% chance of spell failure, and must make saving throws vs. death at -2 or be poisoned and panic. If a successful save vs. breath at -4 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Poisoned creatures suffer additional 2 points of damage each round for 3 rounds or until cured. Magic resistance does not affect this spell.~
+
+@259=~Symbol der Betäubung~
+@260=~Symbol der Betäubung
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 1 Runde
+Bereich: 6 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Symbol of Stunning is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. spell at -4 or be stunned for 4 rounds.~
+
+@261=~Erdbeben~
+@262=~Erdbeben
+Grad: 7
+Schule: Veränderung
+Domäne: Elemente (Erde)
+Reichweite: Lang
+Dauer: 3 Runden
+Zeitaufwand: 1 Runde
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+When this spell is cast by a druid, a local earthquake rips the ground. Once every round for the spell's duration, a tremor will take place, affecting all creatures in its area of effect. Earth elementals and flying creatures are unaffected by this spell.
+
+There are three tremors that are caused by the earthquake. The first tremor causes all creatures affected to suffer 6d6 points of damage (save vs. paralyzation at -6 for half damage). Those who fail their saving throw fall to the ground unconscious for 2 rounds. The second tremor is less severe, causing 4d6 points of damage (save vs. death at -4 for half), but is accompanied by fissures opening in the earth, which all affected creatures have a 20% chance to fall into and die (save vs. breath at -4 negates). The final tremor causes 2d6 damage (save vs. death at -2 for half) and there is a 10% chance affected creatures will be trapped within the fissures, causing death (save vs. breath at -2 negates). Creatures knocked unconscious by the first tremor automatically fail any saves to try to avoid falling into or becoming trapped in the fissures.
+
+This spell will affect both enemies and friends of the caster, so care must be taken in its use. Magic resistance does not affect this spell.~
+
+@295=~Symbol des Todes~
+@296=~Symbol des Todes
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 1 Runde
+Bereich: 6 m Radius
+Rettungswurf: Ja (gg. Tod)
+
+Symbol of Death is a powerful enchantment that allows the caster to inscribe a symbol on the ground or any other surface. The symbol will remain there until a hostile creature comes within 15 feet of the glyph, at which point it is triggered and explodes, causing all enemies within a 20 foot radius to make a saving throw vs. death at -4 or die. Creatures with more than 60 current hit points are immune to this effect.~
+
+@297=~Chaos~
+@298=~Chaos
+Grad: 7
+Schule: Verzauberung
+Domäne: Chaos
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 7
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -4 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target is feebleminded, is confused, is paralyzed, is rendered unconscious, or flees in panic.~
+
+
+/*------------------level 8------------------*/
+
+@271=~Energieklingen~
+@272=~Energieklingen
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Erschaffung, Kampf
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+An energy blade is a discus made of pure energy. The discs are thrown with a +10 bonus to THAC0, inflict 1d4+5 missile damage as well as 1d10 additional electrical damage, and are considered to be of +5 enchantment to determine what they can hit. This spell creates 20 energy discs and sets the caster's number of attacks per round to 9 as long as the discs are held.~
+
+@273=~Sturm der Vergeltung~
+@274=~Sturm der Vergeltung
+Grad: Quest
+Schule: Hervorrufung
+Domäne: Krieg, Wetter
+Reichweite: Lang
+Dauer: 3 Runden
+Zeitaufwand: 1 Runde
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+Casting this spell causes the earth to shake and the heavens to boil with blood and energy. All hostile creatures within the area are struck by a storm of acidic, poisonous rain and lightning that lasts several rounds.
+
+Each round, the victims suffer 2d6 points of electrical damage and 2d6 points of acid damage (save vs. breath at -6 for half damage). They also have a chance to be poisoned each round (save vs. death at -6 or suffer 2 points of damage per second for one round).~
+
+@275=~Elementarschwarm~
+@276=~Elementarschwarm
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Elemente, Herbeirufung
+Reichweite: Lang
+Dauer: 2 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Drawing power from the environment, this spell summons a 12HD elemental from each of the three Planes of Earth, Air, and Fire. The elementals will do the bidding of the caster until they are slain or the duration of the spell runs out.~
+
+@277=~Elementarprinz beschwören~
+@278=~Elementarprinz beschwören
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Elemente, Herbeirufung
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Druids, having a more powerful link to the elements, can cast a more specialized version of Elemental Swarm. This spell can summon one of the Elemental Princes themselves, randomly chosen from the Planes of Earth, Air, and Fire. The Elemental Prince will stay for 10 rounds and obey the caster as long as they remain summoned. The Elemental Princes rule over other elementals in their respective planes. The Elemental Prince of Air is Chan. The Elemental Prince of Earth is Sunnis. The Elemental Prince of Fire is Zaaman Rul.
+
+Chan, Prince of Air (20 Hit Dice):
+STR 19, DEX 24, CON 18, INT 17, WIS 16, CHA 18; AL Neutral
+HP 160, AC -8, THAC0 -3, Saving Throws 3/5/4/4/6
+4 Attacks Per Round, 1d12+11 Piercing Damage (Fist +4)
+
+Special Qualities:
+Blade Barrier (permanent)
+Immune to weapons lower than +2 enchantment
+Immune to hold, poison, polymorph, sleep, & stun effects
+Electrical Resistance 100%; Magic Resistance 60%
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%
+
+
+Sunnis, Princess of Earth (20 Hit Dice):
+STR 24, DEX 12, CON 21, INT 17, WIS 16, CHA 18; AL Neutral
+HP 190, AC -5, THAC0 -6, Saving Throws 3/5/4/4/6
+3 Attacks Per Round, 2d12+16 Crushing Damage (Fist +4)
+
+Special Qualities:
+Stoneskin (1 skin each round)
+Immune to weapons lower than +2 enchantment
+Immune to hold, poison, polymorph, sleep, & stun effects
+Acid Resistance 100%; Magic Resistance 60%
+Slashing, Piercing, & Missile Resistance 40%
+
+
+Zaaman Rul, Prince of Fire (20 Hit Dice):
+STR 19, DEX 21, CON 19, INT 17, WIS 16, CHA 18; AL Neutral
+HP 170, AC -7, THAC0 -3, Saving Throws 3/5/4/4/6
+3 Attacks Per Round, 2d10+11 Slashing +2d10 Fire Damage (Fist +4)
+
+Special Qualities:
+Fire Shield (permanent)
+Immune to weapons lower than +2 enchantment
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 125%; Magic Resistance 60%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
+
+@2277=~Chan~
+@2278=~Sunnis~
+@2279=~Zaaman Rul~
+
+@279=~Klingenkugel~
+@280=~Klingenkugel
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Wächter, Erschaffung
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1 Runde
+Bereich: 1,8 m Radius
+Rettungswurf: Nein
+
+The priest employs this spell to create a globe of circling, razor-sharp blades. These whirl and flash around the caster, forming a dangerous and impenetrable barrier. Those within a 6 foot radius of the caster suffer 2d10 points of damage every 2 seconds (save vs. breath at -6 negates). The barrier also provides the caster with a +4 armor class bonus. Magic resistance does not affect this spell.
+
+Note that spells like Invisibility, Shadow Door, etc. will not function on the caster when protected by Globe of Blades. Also, cleric/thieves and cleric/rangers who cast this will not be able to hide in shadows until the spell expires.~
+
+@281=~Deva beschwören~
+@282=~Deva beschwören
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Alle, Herbeirufung
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell opens a celestial gate and calls forth an astral deva to fight at the caster's side until the spell expires or the deva's earthly avatar is slain.
+
+Deva (14 Hit Dice):
+STR 19, DEX 18, CON 18, INT 18, WIS 18, CHA 20; AL Chaotic Good
+HP 136, AC -5, THAC0 4, Saving Throws 3/5/4/4/6
+2 Attacks Per Round, 1d10+10 Crushing Damage (Heavy Mace +3)
+
+Combat Abilities:
+Disruption: undead creatures must save vs. death or be destroyed
+Stun: 50% chance target must save vs. spell or be stunned for 2 rounds
+
+Special Qualities:
+Immune to weapons lower than +2 enchantment
+Immune to level drain, death, imprisonment, maze, petrification, & poison effects
+Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 70%
+Slashing, Crushing, Piercing, & Missile Resistance 10%
+
+Memorized Spells:
+1. Bless (x3), Resist Fear (x3)
+2. Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3. Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4. Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
+5. Mass Cure, Raise Dead, True Seeing
+6. Blade Barrier, Heal
+7. Holy Word~
+
+@2281=~Deva~
+
+@283=~Gefallenen Deva beschwören~
+@284=~Gefallenen Deva beschwören
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Alle, Herbeirufung
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+This spell opens an abyssal gate and calls forth a demonic deva to fight at the caster's side until the spell expires or the deva's earthly avatar is slain.
+
+Fallen Deva (14 Hit Dice):
+STR 19, DEX 18, CON 18, INT 18, WIS 18, CHA 20; AL Chaotic Evil
+HP 136, AC -5, THAC0 4, Saving Throws 3/5/4/4/6
+2 Attacks Per Round, 1d8+10 Slashing +1d8 Fire Damage (Long Sword +3)
+
+Combat Abilities:
+Bleeding Damage: 1hp/round for 5 rounds
+
+Special Qualities:
+Immune to weapons lower than +2 enchantment
+Immune to level drain, death, imprisonment, maze, petrification, & poison effects
+Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 70%
+Slashing, Crushing, Piercing, & Missile Resistance 10%
+
+Memorized Spells:
+1. Doom (x3), Resist Fear (x3)
+2. Hold Person (x3), Find Trap, Know Opponent, Silence
+3. Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4. Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
+5. Flame Strike, Greater Command, True Seeing
+6. Blade Barrier, Harm
+7. Unholy Word~
+
+@2283=~Gefallener Deva~
+
+@285=~Implosion~
+@286=~Implosion
+Grad: Auftragszauber
+Schule: Veränderung
+Domäne: Kampf, Zahlen
+Reichweite: Lang
+Dauer: 1 Runde
+Zeitaufwand: 7
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Tod)
+
+This fearsome spell creates a destructive resonance in a corporeal creature's body, causing it to collapse in on itself, crushing it to death. The spell does 20d8 points of crushing damage, and holds the target for 1 round. The victim can save vs. death at a -6 penalty to halve the damage.~
+
+@287=~Massenerweckung~
+@288=~Massenerweckung
+Grad: Auftragszauber
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Unbefristet
+Zeitaufwand: 4
+Bereich: Bis zum 5 Wesen
+Rettungswurf: Nein
+
+A more powerful version of Raise Dead, this spell brings up to 5 party members back to life and heals 4d10+20 points of damage. Those affected can regain the rest of their hit points by natural healing or curative magic.~
+
+@289=~Aura des flammenden Todes~
+@290=~Aura des flammenden Todes
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Schutz, Elemente (Feuer)
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1,5 m Radius
+Rettungswurf: Nein
+
+This spell causes the caster to be enveloped by an aura of intense flame that both injures opponents and protects from damage. This shield not only grants the user 100% fire resistance and protects him from all non-magical weapons, but can also damage creatures within a 5 foot radius around him and enflame weapons held by the caster. Any opponent that hits the caster with a weapon or spell from within this radius suffers 2d10+2 fire damage, and whenever the caster strikes an opponent with a melee weapon, he deals an additional 1d10 points of fire damage.~
+
+@291=~Verwandlung in einen Feuerelementar~
+@292=~Verwandlung in einen Feuerelementar
+Grad: Auftragszauber
+Schule: Veränderung
+Domäne: Kampf, Elemente (Feuer)
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Harnessing the power of fire, this powerful shapechange ability allows the druid to become a greater fire elemental of considerable power. The caster gains the natural attacks of the elemental form, as well as all of his natural protections and abilities. The druid's mental attributes are not affected, but physical attributes are changed to adhere to the new form. All clothes and equipment he was wearing will mold into the new form and continue to function, unseen. When the druid returns to his natural form, they will also return to their previous state.
+
+Greater Fire Elemental
+STR 18, DEX 19, CON 18;  AC 0, THAC0 3
+2 Attacks Per Round, 2d10+5 Slashing +2d8 Fire Damage (Fist +4)
+Immune to hold, poison, sleep, & stun effects
+Immune to normal weapons
+Fire Resistance 100%;  Physical Resistance 20%~
+
+@293=~Verwandlung in einen Erdelementar~
+@294=~Verwandlung in einen Erdelementar
+Grad: Auftragszauber
+Schule: Veränderung
+Domäne: Kampf, Elemente (Erde)
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Harnessing the power of the earth, this powerful shapechange ability allows the druid to become a greater earth elemental of considerable power. The caster gains the natural attacks of the elemental form, as well as all of his natural protections and abilities. The druid's mental attributes are not affected, but physical attributes are changed to adhere to the new form. All clothes and equipment he was wearing will mold into the new form and continue to function, unseen. When the druid returns to his natural form, they will also return to their previous state.
+
+Greater Earth Elemental
+STR 23, DEX 8, CON 21;  AC 2, THAC0 0
+2 Attacks Per Round, 2d10+14 Crushing Damage (Fist +4)
+Immune to hold, poison, sleep, & stun effects
+Immune to normal weapons
+Slashing, Piercing, & Missile Resistance 40%~
+
+
+/*----------------Druid's Regenerate Wound spells----------------*/
+
+@301=~Leichte Wunden regenerieren~
+@302=~Leichte Wunden regenerieren
+Grad: 1
+Schule: Veränderung
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase + 2 Runden pro Stufe
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 1 hit point per round (up to a maximum of 30 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@303=~Mittelschwere Wunden regenerieren~
+@304=~Mittelschwere Wunden regenerieren
+Grad: 2
+Schule: Veränderung
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase + 2 Runden pro Stufe
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 2 hit points per round (up to a maximum of 60 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@305=~Schwere Wunden regenerieren~
+@306=~Schwere Wunden regenerieren
+Grad: 3
+Schule: Veränderung
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase + 2 Runden pro Stufe
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 3 hit points per round (up to a maximum of 90 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@307=~Kritische Wunden regenerieren~
+@308=~Kritische Wunden regenerieren
+Grad: 4
+Schule: Veränderung
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase + 2 Runden pro Stufe
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell enables the caster to imbue a creature with the ability to regenerate. The creature affected will regain 4 hit points per round (up to a maximum of 120 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+@309=~Massenregeneration~
+@310=~Massenregeneration
+Grad: 5
+Schule: Veränderung
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase + 2 Runden pro Stufe
+Zeitaufwand: 5
+Bereich: Sicht
+Rettungswurf: Nein
+
+This spell enables the caster to imbue all allies within sight with the ability to regenerate. The creatures affected will regain 2 hit points per round (up to a maximum of 60 hit points within 3 turns at level 10). Multiple castings of this spell are not cumulative.~
+
+@311=~Regeneration~
+@312=~Regeneration
+Grad: 6
+Schule: Veränderung
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 3 Phasen
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This powerful spell enables the caster to imbue a creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 1 hit point per second (up to a maximum of 180 hit points within 3 turns at level 10). The effect lasts for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative.~
+
+
+/*----------------New spells as of V4----------------*/
+
+@313=~Windstoß~
+@314=~Windstoß
+Grad: 2
+Schule: Hervorrufung
+Domäne: Elemente (Luft)
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: Speziell
+Rettungswurf: Speziell
+
+This spell creates a severe blast of air that originates from the caster, affecting all enemies in its path. Those within 6 feet must save vs. breath or be blown back by the force of the gust and knocked unconscious for 1 round. In addition, this spell will disperse all clouds (including magically created vapors such as Cloudkill) in the caster's current area.~
+
+@315=~Leichte Wunden verursachen~
+@316=~Leichte Wunden verursachen
+Grad: 1
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell is the reverse of Cure Light Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 1d8 + 1/level points of damage upon the target (up to a maximum of 1d8+10). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@317=~Mittelschwere Wunden verursachen~
+@318=~Mittelschwere Wunden verursachen
+Grad: 2
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+This spell is the reverse of Cure Moderate Wounds. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 2d8 + 2/level points of damage upon the target (up to a maximum of 2d8+20). The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
+
+@319=~Tiere beschwören I~
+@320=~Tiere beschwören I
+Grad: 1
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+1st : 3 large bats
+3rd : 4 large bats
+5th+ : 5 large bats
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Bat (1 Hit Dice):
+STR 9, DEX 14, CON 11, INT 4, WIS 11, CHA 4;  AL Neutral
+HP 4, AC 8, THAC0 20, Saving Throws 20/20/20/20/20
+1 Attack Per Round, 1d2 Piercing Damage (Bite)
+
+Combat Abilities:
+Disease: target must save vs. death or suffer -1 penalty to DEX and CON
+Swarm: each bat within 5 feet grants additional +2 bonus to attack rolls
+
+Special Qualities:
+Blindsense: relies on echolocation to fight in conditions of poor light or total darkness, ignoring the penalties associated with blindness~
+
+@321=~Verdeckender Nebel~
+@322=~Verdeckender Nebel
+Grad: 1
+Schule: Beschwörung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 5
+Bereich: 6 m Radius
+Rettungswurf: Nein
+
+When this spell is cast, a misty bank of fog billows out from the designated point obscuring all sight. Everyone within the cloud suffer -2 penalty to attack rolls, and have their line of sight halved. Anyone, inside or outside the cloud, trying to attack a creature concealed by the fog with ranged weapons will do so with a -4 penalty to attack rolls. Creatures with blindsight, or that do not rely on sight can fight within the cloud without penalties.~
+
+@323=~Tiere beschwören II~
+@324=~Tiere beschwören II
+Grad: 2
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+3rd : 2 War Dogs
+5th : 3 War Dogs
+7th+ : 4 War Dogs
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+War Dog (2 Hit Dice):
+STR 15, DEX 15, CON 15, INT 4, WIS 12, CHA 6;  AL Neutral
+HP 18, AC 4, THAC0 18, Saving Throws 13/17/13/15/17
+1 Attack Per Round, 1d6 Piercing Damage (Bite)
+
+Combat Abilities:
+Scent: detect invisible creatures within 10 feet~
+
+@325=~Tiere beschwören III~
+@326=~Tiere beschwören III
+Grad: 3
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+5th : 2 Wolves
+7th : 3 Wolves
+9th+ : 4 Wolves
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Wolf (3 Hit Dice):
+STR 13, DEX 15, CON 15, INT 4, WIS 12, CHA 6;  AL Neutral
+HP 21, AC 6, THAC0 18, Saving Throws 15/17/15/13/17
+1 Attack Per Round, 1d6 Piercing Damage (Bite)
+
+Combat Abilities:
+Pack Attack: each wolf within 10 feet grants additional +1 bonus to attack rolls~
+
+@327=~Magischer Fangzahn~
+@328=~Magischer Fangzahn
+Grad: 3
+Schule: Veränderung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+This spell turns natural weapons (such as teeth, claws, etc.) of friendly animals within range into magical weapons, effectively granting a +1 enhancement bonus on attack and damage rolls. For every other five experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 15th-level caster. Multiple castings of this spell are not cumulative.~
+
+@329=~Tierzuwachs~
+@330=~Tierzuwachs
+Grad: 5
+Schule: Veränderung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+When this spell is cast, the caster causes all friendly animals within range to become tougher, stronger and more tenacious. The Veränderung grants +2 bonus to attack rolls, damage rolls, armor class and saving throws. It also increases the recipient's hit points by 50%, and these bonus hit points are lost first when the recipient takes damage. Multiple castings of this spell are not cumulative.~
+
+@331=~Tiere beschwören VII~
+@332=~Tiere beschwören VII
+Grad: 7
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+13th+ : 2 Polar Bears
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Polar Bear (8 Hit Dice):
+STR 21, DEX 13, CON 19, INT 6, WIS 12, CHA 8;  AL Neutral
+HP 104, AC 3, THAC0 8, Saving Throws 10/14/10/12/14
+2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite)
+
+Special Qualities:
+Immunity to Ice Storm
+Cold Resistance 20%~
+@1041=~Polar Bear~
+
+@333=~Dornen-Wachstum~
+@334=~Dornen-Wachstum
+Grad: 3
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 6 m Radius
+Rettungswurf: Speziell (gg. Odem)
+
+The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. Any creature will suffer 1d4 points of piercing damage each round that they remain within the affected area. The spikes can damage the victim's legs, so that even once they are free of the spike growth their movement rate is halved for 3 rounds unless a successful save vs. breath is made. Those failing the save also suffer 1 point of bleeding damage each round for 3 rounds. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large creatures who suffer little to no distress from the small spikes.~
+
+@335=~Eislanze~
+@336=~Eislanze
+Grad: 3
+Schule: Hervorrufung
+Domäne: Elemente (Wasser)
+Reichweite: Kurz
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Lähmung)
+
+When this spell is cast, a sharp spear of ice impales the target, inflicting 5d6 points of damage. The target must make a save vs. paralyzation or be held for three rounds.~
+
+@337=~~
+@338=~~
+
+@339=~~
+@340=~~
+
+
+/*----------------Temporary Beast Master and Stalker spells----------------*/
+
+@394=~Tiere beschwören IV~
+@395=~Tiere beschwören IV
+Grad: 1
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls forth a leopard. The animal summoned will aid the caster by whatever means it possess, staying until the spell duration expires.
+
+Leopard (4 Hit Dice):
+STR 16, DEX 18, CON 15, INT 6, WIS 13, CHA 6;  AL Neutral
+HP 36, AC 5, THAC0 16, Saving Throws 12/16/12/14/16
+2 Attacks Per Round, 1d6+1 Piercing Damage (Claws & Bite)~
+
+@396=~Tiere beschwören V~
+@397=~Tiere beschwören V
+Grad: 2
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls forth a giant snake. The animal summoned will aid the caster by whatever means it possess, staying until the spell duration expires.
+
+Giant Snake (5 Hit Dice):
+STR 15, DEX 17, CON 11, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 40, AC 2, THAC0 12, Saving Throws 11/15/11/13/15
+1 Attack Per Round, 1d4 Piercing Damage (Bite)~
+
+@398=~Tiere beschwören VI~
+@399=~Tiere beschwören VI
+Grad: 3
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+By means of this spell, the caster calls forth a cave bear. The animal summoned will aid the caster by whatever means it possess, staying until the spell duration expires.
+
+Cave Bear (6 Hit Dice):
+STR 19, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 90, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
+2 Attacks Per Round, 2d4+9 Crushing Damage (Claws & Bite)~
+
+// Late additions.
+@22000=~Scroll of Restoration~
+@22001=~A Scroll of Restoration updates the spellbook of the character. Read it if the spellbook of the cleric, paladin, druid, or ranger contains spells that shouldn't be available to them. Those spells will be removed, and correct ones will be added after the next level-up.~
