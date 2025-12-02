@@ -32,7 +32,6 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR engine = "ee" RET_ARRAY spe
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 2 iwd
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 tobex
 
-            //TODO: clean with PATCH_MATCH.
             PATCH_IF ("%engine%" STRING_EQUAL_CASE "ee") BEGIN
                 TEXT_SPRINT $spells("%spell%") "%ee%"
             END
@@ -54,7 +53,6 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
     //Patch table.
     COPY_EXISTING ~hidespl.2da~ ~override~
         COUNT_2DA_COLS cols
-        //TODO: clean with PATCH_MATCH.
         //Sanitize columns value. tobex has 2 columns, ee have 4, iwd has 3.
         PATCH_IF ("%engine%" STRING_EQUAL_CASE "ee") AND (cols != 4) BEGIN
             PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%' for ee."
@@ -80,7 +78,6 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
                     //Append row.
                     COUNT_2DA_ROWS cols rows
 
-                    //TODO: clean with PATCH_MATCH.
                     PATCH_IF ("%engine%" STRING_EQUAL_CASE "ee") BEGIN
                         INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
                     END
