@@ -70,7 +70,10 @@ WITH_SCOPE BEGIN
                     insert = "below"
                 END
         END ELSE BEGIN
-            FAIL "imprisonment.tph: spell '%spell%' not found."
+            //Fail except on Minsc's berserk for all except iwd.
+            ACTION_IF (NOT (GAME_INCLUDES "iwd")) AND ("%spell%" STRING_EQUAL_CASE "MINSC_BERSERK") BEGIN
+                FAIL "imprisonment.tph: spell '%spell%' not found."
+            END
         END
     END
 END

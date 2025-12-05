@@ -3,14 +3,14 @@ INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
 
 
 //Read table into array.
-DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spells BEGIN
-    //Sanitize column.
+DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR engine = "ee" RET_ARRAY spells BEGIN
+    //Sanitize engine.
     ACTION_IF NOT (
-        ("%column%" STRING_EQUAL_CASE "ee") OR
-        ("%column%" STRING_EQUAL_CASE "iwd") OR
-        ("%column%" STRING_EQUAL_CASE "tobex")
+        ("%engine%" STRING_EQUAL_CASE "ee") OR
+        ("%engine%" STRING_EQUAL_CASE "iwd") OR
+        ("%engine%" STRING_EQUAL_CASE "tobex")
     ) BEGIN
-        FAIL "get_spells_hide_array: column '%column%' must be 'ee', 'iwd' or 'tobex'."
+        FAIL "get_spells_hide_array: engine '%engine%' must be 'ee', 'iwd' or 'tobex'."
     END
 
     ACTION_DEFINE_ASSOCIATIVE_ARRAY spells BEGIN END
@@ -32,34 +32,38 @@ DEFINE_ACTION_FUNCTION get_spells_hide_array STR_VAR column = "ee" RET_ARRAY spe
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 2 iwd
             READ_2DA_ENTRY_FORMER "spells_hide#table" i 3 tobex
 
-            PATCH_IF ("%column%" STRING_EQUAL_CASE "ee") BEGIN
-                PATCH_IF NOT ("%ee%" STRING_EQUAL_CASE "*") BEGIN
-                    TEXT_SPRINT $spells("%spell%") "%ee%"
-                END
-            END ELSE BEGIN
-                PATCH_IF ("%column%" STRING_EQUAL_CASE "iwdee") BEGIN
-                    PATCH_IF NOT ("%iwd%" STRING_EQUAL_CASE "*") BEGIN
-                        TEXT_SPRINT $spells("%spell%") "%iwd%"
-                    END
-                END ELSE BEGIN
-                    PATCH_IF NOT ("%tobex%" STRING_EQUAL_CASE "*") BEGIN
-                        TEXT_SPRINT $spells("%spell%") "%tobex%"
-                    END
-                END
+            PATCH_IF ("%engine%" STRING_EQUAL_CASE "ee") BEGIN
+                TEXT_SPRINT $spells("%spell%") "%ee%"
+            END
+
+            PATCH_IF ("%engine%" STRING_EQUAL_CASE "iwd") BEGIN
+                TEXT_SPRINT $spells("%spell%") "%iwd%"
+            END
+
+            PATCH_IF ("%engine%" STRING_EQUAL_CASE "tobex") BEGIN
+                TEXT_SPRINT $spells("%spell%") "%tobex%"
             END
         END
 END
 
 DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
     //EVAL needed because weidu.
-    LAF get_spells_hide_array STR_VAR column = EVAL "%engine%" RET_ARRAY spells END
+    LAF get_spells_hide_array STR_VAR engine = EVAL "%engine%" RET_ARRAY spells END
 
     //Patch table.
     COPY_EXISTING ~hidespl.2da~ ~override~
         COUNT_2DA_COLS cols
-        PATCH_IF NOT ((cols = 2) OR (cols = 4)) BEGIN
-            //Sanitize columns value. tobex has 2 columns, others have 4.
-            PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%'."
+        //Sanitize columns value. tobex has 2 columns, ee have 4, iwd has 3.
+        PATCH_IF ("%engine%" STRING_EQUAL_CASE "ee") AND (cols != 4) BEGIN
+            PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%' for ee."
+        END
+
+        PATCH_IF ("%engine%" STRING_EQUAL_CASE "tobex") AND (cols != 2) BEGIN
+            PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%' for tobex."
+        END
+
+        PATCH_IF ("%engine%" STRING_EQUAL_CASE "iwd") AND (cols != 3) BEGIN
+            PATCH_FAIL "hide_spells_from_array: unexpected number of columns '%cols%' for iwd."
         END
 
         PHP_EACH spells AS spell => flag BEGIN
@@ -73,14 +77,24 @@ DEFINE_ACTION_FUNCTION hide_spells_from_array STR_VAR engine = "ee" BEGIN
                 END ELSE BEGIN
                     //Append row.
                     COUNT_2DA_ROWS cols rows
-                    PATCH_IF ("%engine%" STRING_EQUAL_CASE "tobex") BEGIN
-                        INSERT_2DA_ROW rows cols "%res_name% %flag%"
-                    END ELSE BEGIN
+
+                    PATCH_IF ("%engine%" STRING_EQUAL_CASE "ee") BEGIN
                         INSERT_2DA_ROW rows cols "%res_name% %flag% 0 0"
                     END
+
+                    PATCH_IF ("%engine%" STRING_EQUAL_CASE "tobex") BEGIN
+                        INSERT_2DA_ROW rows cols "%res_name% %flag%"
+                    END
+
+                    PATCH_IF ("%engine%" STRING_EQUAL_CASE "iwd") BEGIN
+                        INSERT_2DA_ROW rows cols "%res_name% %flag% 0"
+                    END                        
                 END
             END ELSE BEGIN
-                PATCH_WARN "hide_spells_from_array: resource name for spell '%spell%' not found."
+                //Skip failing on not found and spell is to be hidden.
+                PATCH_IF (flag = 1) BEGIN
+                    PATCH_WARN "hide_spells_from_array: resource name for spell '%spell%' not found."
+                END
             END
         END
     PRETTY_PRINT_2DA
@@ -96,7 +110,7 @@ DEFINE_ACTION_FUNCTION hide_spells BEGIN
         OUTER_TEXT_SPRINT engine "ee"
     END ELSE BEGIN
         ACTION_IF GAME_IS "iwdee" BEGIN
-            OUTER_TEXT_SPRINT engine "iwdee"
+            OUTER_TEXT_SPRINT engine "iwd"
         END ELSE BEGIN
             //Not an ee. Check for tobex by a simple file check.
             ACTION_IF (FILE_EXISTS "tobex_ini/tobexcore.ini") AND (FILE_EXISTS_IN_GAME "hidespl.2da") BEGIN

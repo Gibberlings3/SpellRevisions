@@ -5,7 +5,7 @@ REM /* this initializes the values for the different variables referenced in com
 call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
-set "mod_name=Spell Revisions"
+set mod_name="Spell Revisions"
 set mod_version=v4-19
 set mod_folder=spell_rev
 
