@@ -7,11 +7,9 @@ note(s):
 
 # A. Latest release.
 
-Latest release is 4.19.
+Latest release is 4.19.1 downloadable from the releases sidebar.
 
-From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip.
-
-Note that it is a *source release*; it just bundles the files in the GitHub repository in an archive and does not have any executables, so for the installation you will need the command line -- see section below. It is slightly more inconvenient for users than the standard release, but it allows for faster and more timely releases.
+From the github page, click on releases in the side-bar to download it. If you are feeling *really* adventurous, then you can download the absolute latest by clicking on the code button and then downloading the zip. Note that this is a *source release*; it just bundles the files in the GitHub repository in an archive and does not have any executables, so for the installation you will need the command line -- see section below. It is slightly more inconvenient for users than the standard release, but it allows for faster and more timely releases.
 
 # B. Installation.
 
@@ -35,7 +33,7 @@ If the command line is proving to be too difficult (e.g. Windows platform, do no
 
   * Download any, relatively recent updated, mod with such an installer, e.g. [Tweaks Anthology](https://www.gibberlings3.net/files/file/973-the-tweaks-anthology/).
 
-  * Grab its executable installer, rename it as `setup-spell_rev.exe` and drop it on the root dir of `spell_rev`.
+  * Grab its executable installer, rename it as `setup-spell_rev.exe` and drop it on the parent dir of `spell_rev` (e. g. the folder with the `chitin.key` file).
 
   * Double-click the executable and proceed as usual.
 
