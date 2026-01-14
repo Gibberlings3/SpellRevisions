@@ -3,28 +3,25 @@ INCLUDE "%MOD_FOLDER%/lib/utilities/utilities.tpa"
 
 // Fixes borked opcode displayed strings.
 //
-// The fix is simple. Insert the correct string as a tra ref at, or near, the
-// end of arcane.tra and then patch the opcode to point to it. WeiDU should
-// pick up the already existing string without inserting a new one, but at any rate
-// this fixes mismatched string refs.
+// The fix is simple. Patch the opcode to replace wrong reference by a new one.
+// We are using a new string reference instead of a tra (like it was in previous version) because it doesn't need translation and references should be enough for the job.
 
 //Patch a spell's 139 opcode string references.
 //
 // Argument(s):
 // - spell: spell resource, no extension.
 // - ref_to_change: the tlk string reference to change. -1 to change unconditionally.
-// - traref: tra reference to patch in. The special tra "bg1_display_fixes.tra" is used.
-DEFINE_ACTION_FUNCTION patch_display_strrefs INT_VAR ref_to_change = 0 - 1 traref = 0 STR_VAR spell = "" BEGIN
+// - newref: new existing reference to patch in.
+DEFINE_ACTION_FUNCTION patch_display_strrefs INT_VAR ref_to_change = 0 - 1 newref = 0 STR_VAR spell = "" BEGIN
     ACTION_IF NOT (FILE_EXISTS_IN_GAME "%spell%.spl") BEGIN
         FAIL "patch_display_strrefs: file '%spell%.spl' does not exist in-game."
     END
-    OUTER_SET ref = RESOLVE_STR_REF ((AT traref))
     COPY_EXISTING ~%spell%.spl~ ~override~
         LPF ALTER_EFFECT INT_VAR
             check_globals = 0
             match_opcode = 139                      // Display string.
             match_parameter1 = ref_to_change        // Original, borked string.
-            parameter1 = ref
+            parameter1 = newref
             verbose = 1
         END
     BUT_ONLY
@@ -32,32 +29,29 @@ END
 
 //Main loop function.
 DEFINE_ACTION_FUNCTION fix_displayed_strrefs BEGIN
-    //Load specific tra.
-    WITH_TRA "%MOD_FOLDER%/languages/%LANGUAGE%/bg1_display_fixes.tra" BEGIN
-        //Read no-write table.
-        COPY - ~spell_rev/lib/dv_displayed_strings.2da~ ~override~
-            COUNT_2DA_COLS cols
-            READ_2DA_ENTRIES_NOW spell_strings cols
-            FOR (row = 0; row < spell_strings; ++row) BEGIN
-                READ_2DA_ENTRY_FORMER spell_strings row 0 spell
-                READ_2DA_ENTRY_FORMER spell_strings row 1 ref_to_change
-                READ_2DA_ENTRY_FORMER spell_strings row 2 traref
+    //Read no-write table.
+    COPY - ~spell_rev/lib/bgee_displayed_strings.2da~ ~override~
+        COUNT_2DA_COLS cols
+        READ_2DA_ENTRIES_NOW spell_strings cols
+        FOR (row = 0; row < spell_strings; ++row) BEGIN
+            READ_2DA_ENTRY_FORMER spell_strings row 0 spell
+            READ_2DA_ENTRY_FORMER spell_strings row 1 ref_to_change
+            READ_2DA_ENTRY_FORMER spell_strings row 2 newref
 
-                //Grab spell resource.
-                LPF get_spell_res STR_VAR spell = EVAL "%spell%" RET res = resource END
-                PATCH_IF ("%res%" STRING_EQUAL_CASE "*") BEGIN
-                    PATCH_FAIL "fix_displayed_strrefs: spell '%spell%' not found in 'spell.ids'."
-                END
+            //Grab spell resource.
+            LPF get_spell_res STR_VAR spell = EVAL "%spell%" RET res = resource END
+            PATCH_IF ("%res%" STRING_EQUAL_CASE "*") BEGIN
+                SPRINT res ~%spell%~
+            END
 
-                //Patch spell.
-                INNER_ACTION BEGIN
-                    LAF patch_display_strrefs INT_VAR
-                        ref_to_change = ref_to_change
-                        traref = traref
-                    STR_VAR
-                        spell = EVAL "%res%"
-                    END
+            //Patch spell.
+            INNER_ACTION BEGIN
+                LAF patch_display_strrefs INT_VAR
+                    ref_to_change
+                    newref
+                STR_VAR
+                    spell = EVAL "%res%"
                 END
             END
-    END
+        END
 END
