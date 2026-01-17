@@ -1,5 +1,13 @@
 # A. Changelog.
 
+## Version: 4.21 -- unreleased.
+
+1. [Fix bg1 ee strings](https://github.com/Gibberlings3/SpellRevisions/pull/153): patch by aigleborgne, with help of jmerry over at the G3 forums, to fix wrong strings being displayed in bg1 ee. Thanks to them both.
+
+## Version: 4.20.
+
+1. [Fix iwd install](https://github.com/Gibberlings3/SpellRevisions/pull/151): fixes several issues that made the installation in iwd ee fail. See the PR for more details.
+
 ## Version: 4.19.
 
 The highlight of this new version is in the purely administrative side of leaving beta status behind and adding a readme to the GitHub site and a brand new spanking changelog in markdown, which you are now reading. Very little in terms of new features, most of the changes are in polishing old code (of which there is a lot) and bug fixes.
