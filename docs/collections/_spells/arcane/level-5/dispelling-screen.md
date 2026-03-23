@@ -17,4 +17,4 @@ Casting Time: 5
 Area of Effect: Caster and nearby allies  
 Saving Throw: None  
   
-By casting this spell, caster creates a transparent, permeable barrier that shields the him and allies from Dispel Magic and Breach spells. The barrier dissipates after one instance of Dispel Magic or Breach. Spells higher in power that remove specific protections like Pierce Shield and Spellstrike remove Dispelling Screen from target without getting absorbed by it.  
+By casting this spell, the caster creates a transparent, permeable barrier that shields him and his allies from Dispel Magic and Breach spells. The barrier dissipates after one instance of Dispel Magic or Breach. Spells higher in power that remove specific protections like Pierce Shield and Spellstrike remove Dispelling Screen from target without getting absorbed by it.  
