@@ -6,7 +6,7 @@
 
 2. [Correct typos in description for Dispelling Screen](https://github.com/Gibberlings3/SpellRevisions/pull/155): patch by visionok.
 
-3. [Fix Chromatic Orb description.](https://github.com/Gibberlings3/SpellRevisions/pull/156): delete reference to "multiple effects" of Chromatic Orb from description. It does not have them.
+3. [Fix Chromatic Orb description.](https://github.com/Gibberlings3/SpellRevisions/pull/156): delete reference to "multiple effects" of Chromatic Orb from description. It does not have them. Thanks to LichDiet over at the G3 forums for spotting the issue.
 
 ## Version: 4.20.
 
