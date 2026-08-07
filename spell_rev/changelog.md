@@ -4,6 +4,10 @@
 
 1. [Fix bg1 ee strings](https://github.com/Gibberlings3/SpellRevisions/pull/153): patch by aigleborgne, with help of jmerry over at the G3 forums, to fix wrong strings being displayed in bg1 ee. Thanks to them both.
 
+2. [Correct typos in description for Dispelling Screen](https://github.com/Gibberlings3/SpellRevisions/pull/155): patch by visionok.
+
+3. [Fix Chromatic Orb description.](https://github.com/Gibberlings3/SpellRevisions/pull/156): delete reference to "multiple effects" of Chromatic Orb from description. It does not have them. Thanks to LichDiet over at the G3 forums for spotting the issue.
+
 ## Version: 4.20.
 
 1. [Fix iwd install](https://github.com/Gibberlings3/SpellRevisions/pull/151): fixes several issues that made the installation in iwd ee fail. See the PR for more details.
