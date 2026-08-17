@@ -1,6 +1,6 @@
 # A. Changelog.
 
-## Version: 4.21 -- unreleased.
+## Version: 4.21.
 
 1. [Fix bg1 ee strings](https://github.com/Gibberlings3/SpellRevisions/pull/153): patch by aigleborgne, with help of jmerry over at the G3 forums, to fix wrong strings being displayed in bg1 ee. Thanks to them both.
 
